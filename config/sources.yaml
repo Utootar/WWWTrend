@@ -1,0 +1,89 @@
+# หัวข้อ แหล่งข่าว และราคาที่เก็บทุกเช้า
+# แก้ไฟล์นี้ไฟล์เดียวพอเมื่อจะเพิ่ม/ลดหัวข้อหรือแหล่งข่าว
+# ห้ามใส่ข้อมูลส่วนตัว (พอร์ต ข้อมูลบริษัท) ในไฟล์นี้ เพราะสคริปต์ส่งเนื้อหาให้โมเดลฟรี
+
+timezone: Asia/Bangkok
+max_age_hours: 30        # เอาเฉพาะข่าวที่ออกภายในกี่ชั่วโมง
+seen_days: 14            # จำลิงก์ที่เก็บแล้วกี่วัน กันข่าวซ้ำข้ามวัน
+
+llm:
+  batch_size: 20         # ข่าวต่อการเรียกโมเดลหนึ่งครั้ง
+  min_interval_sec: 6    # เว้นระยะระหว่างการเรียก กันติดเพดานต่อนาที
+  providers:             # ลองตามลำดับ ตัวไหนล่ม/ติดเพดานก็ข้ามไปตัวถัดไป
+    - provider: gemini
+      models: [gemini-flash-latest, gemini-2.5-flash, gemini-flash-lite-latest]
+    - provider: openrouter
+      models: [google/gemma-4-31b-it:free, nvidia/nemotron-3-super-120b-a12b:free, openrouter/free]
+
+# ราคาจาก Yahoo Finance (ไม่ใช้ AI)
+prices:
+  - {symbol: "^GSPC", label: "S&P 500"}
+  - {symbol: "^IXIC", label: "Nasdaq"}
+  - {symbol: "^DJI", label: "Dow Jones"}
+  - {symbol: "^VIX", label: "VIX (ดัชนีความกลัว)"}
+  - {symbol: "^TNX", label: "บอนด์สหรัฐ 10 ปี (%)"}
+  - {symbol: "DX-Y.NYB", label: "ดัชนีดอลลาร์"}
+  - {symbol: "CL=F", label: "น้ำมัน WTI"}
+  - {symbol: "BZ=F", label: "น้ำมัน Brent"}
+  - {symbol: "GC=F", label: "ทองคำ (ดอลลาร์/ออนซ์)"}
+  - {symbol: "THB=X", label: "บาทต่อดอลลาร์"}
+  - {symbol: "SMH", label: "กองชิป SMH"}
+  - {symbol: "XLV", label: "กองสุขภาพ XLV"}
+
+# หมวดข่าว เรียงตามลำดับความสำคัญ ข่าวที่ซ้ำหลายหมวดจะอยู่หมวดแรกที่เจอ
+categories:
+  - key: us_stocks
+    label: หุ้นสหรัฐ
+    max_items: 25
+    feeds:
+      - {name: CNBC Markets, url: "https://www.cnbc.com/id/20910258/device/rss/rss.html"}
+      - {name: CNBC Top News, url: "https://www.cnbc.com/id/100003114/device/rss/rss.html"}
+      - {name: MarketWatch, url: "https://feeds.content.dowjones.io/public/rss/mw_topstories"}
+      - {name: Google News, url: "https://news.google.com/rss/search?q=%22stock+market%22+OR+%22S%26P+500%22+OR+Nasdaq+when:1d&hl=en-US&gl=US&ceid=US:en"}
+
+  - key: macro
+    label: เศรษฐกิจโลกและนโยบาย
+    max_items: 15
+    feeds:
+      - {name: Federal Reserve, url: "https://www.federalreserve.gov/feeds/press_all.xml"}
+      - {name: BBC Business, url: "https://feeds.bbci.co.uk/news/business/rss.xml"}
+      - {name: BBC World, url: "https://feeds.bbci.co.uk/news/world/rss.xml"}
+      - {name: Google News, url: "https://news.google.com/rss/search?q=%22Federal+Reserve%22+OR+inflation+OR+tariffs+when:1d&hl=en-US&gl=US&ceid=US:en"}
+
+  - key: oil
+    label: น้ำมันและพลังงาน
+    max_items: 15
+    feeds:
+      - {name: OilPrice.com, url: "https://oilprice.com/rss/main"}
+      - {name: CNBC Energy, url: "https://www.cnbc.com/id/19836768/device/rss/rss.html"}
+      - {name: Google News, url: "https://news.google.com/rss/search?q=%22oil+prices%22+OR+OPEC+OR+crude+when:1d&hl=en-US&gl=US&ceid=US:en"}
+
+  - key: gold
+    label: ทองคำ
+    max_items: 12
+    feeds:
+      - {name: Google News, url: "https://news.google.com/rss/search?q=%22gold+price%22+OR+%22gold+prices%22+when:1d&hl=en-US&gl=US&ceid=US:en"}
+      - {name: Google News, url: "https://news.google.com/rss/search?q=gold+%22central+bank%22+OR+bullion+when:1d&hl=en-US&gl=US&ceid=US:en"}
+
+  - key: tech
+    label: เทคโนโลยี
+    max_items: 25
+    feeds:
+      - {name: TechCrunch, url: "https://techcrunch.com/feed/"}
+      - {name: MIT Technology Review, url: "https://www.technologyreview.com/feed/"}
+      - {name: Ars Technica, url: "https://feeds.arstechnica.com/arstechnica/index"}
+      - {name: The Verge, url: "https://www.theverge.com/rss/index.xml"}
+      - {name: CNBC Tech, url: "https://www.cnbc.com/id/19854910/device/rss/rss.html"}
+      - {name: Hacker News, url: "https://hnrss.org/frontpage?points=300"}
+      # เลนส์ธุรกิจเจ้าของ: กล้องวงจรปิด อาคารอัจฉริยะ
+      - {name: Google News, url: "https://news.google.com/rss/search?q=%22video+surveillance%22+OR+CCTV+OR+%22smart+building%22+when:2d&hl=en-US&gl=US&ceid=US:en"}
+
+  - key: health
+    label: การแพทย์และสุขภาพ
+    max_items: 20
+    feeds:
+      - {name: STAT News, url: "https://www.statnews.com/feed/"}
+      - {name: FDA, url: "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml"}
+      - {name: CNBC Health, url: "https://www.cnbc.com/id/10000108/device/rss/rss.html"}
+      - {name: Medical Xpress, url: "https://medicalxpress.com/rss-feed/"}
+      - {name: Google News, url: "https://news.google.com/rss/search?q=%22FDA+approval%22+OR+%22clinical+trial%22+OR+biotech+when:1d&hl=en-US&gl=US&ceid=US:en"}
