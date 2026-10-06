@@ -7,7 +7,8 @@
 
 | ใคร | ทำอะไร | เมื่อไหร่ |
 |---|---|---|
-| GitHub Actions + Gemini (หลัก) / OpenRouter (สำรอง) / Claude Sonnet (สำรองสุดท้าย เสียเงิน) | เก็บข่าว RSS + ราคา ย่อทีละข่าว จัดหมวด | ทุกวัน 06:00 เวลาไทย |
+| GitHub Actions + Gemini (หลัก) / OpenRouter (สำรอง) | เก็บข่าว RSS + ราคา ย่อทีละข่าว จัดหมวด (มีช่อง Sonnet API ถ้าใส่ secret `ANTHROPIC` ตอนนี้ไม่ได้ใช้) | ทุกวัน 06:00 เวลาไทย |
+| Claude (Sonnet 5.5) | ย่อข่าวที่ตัวฟรีพลาด ตาม `prompts/repair-summaries.md` (ใช้ sub) | ทุกวัน 06:47 (Routine บน claude.ai) |
 | Claude (Sonnet 5.5) | วิเคราะห์ข่าว 2 วันล่าสุด ตาม `prompts/analyze-2day.md` | วันเว้นวัน 07:12 (Routine บน claude.ai) |
 | Claude (Opus 5.5) | วิเคราะห์ลึกทั้งสัปดาห์ + เรดาร์ของที่กำลังจะโต ตาม `prompts/weekly-deep.md` | อาทิตย์ 07:42 (Routine บน claude.ai) |
 
