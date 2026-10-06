@@ -158,6 +158,32 @@ def test_theme_stocks_are_loaded_priced_and_rendered(tmp_path):
     assert "2026-10-07,GULF.BK,50.0,2026-10-06" in (tmp_path / "data/prices.csv").read_text(encoding="utf-8")
 
 
+def test_repair_fills_failed_summaries_and_rerenders(tmp_path):
+    collect.run(tmp_path, make_config(), NOW, FakeSummarizer(fail_labels=("หมวดบี",)),
+                fake_fetch, fake_prices, log=lambda m: None)
+    day = NOW.astimezone(collect.ZoneInfo("Asia/Bangkok")).date()
+    out = tmp_path / "pending.json"
+    assert collect.write_pending(tmp_path, day, out) == 3
+    pending = json.loads(out.read_text(encoding="utf-8"))
+    assert pending["rules"] == collect.SYSTEM_PROMPT
+    assert {p["category"] for p in pending["items"]} == {"หมวดบี"}
+
+    reply = {"items": [{"id": p["id"], "importance": 2, "summary_th": f"ซ่อม {p['title']}",
+                        "numbers": ["$1 trillion"], "tags": ["Fix"], "entities": ["Y"]}
+                       for p in pending["items"][:2]]}
+    assert collect.apply_repair(tmp_path, day, reply) == (2, 1)
+
+    data = json.loads((tmp_path / "data/2026-10/2026-10-07.json").read_text(encoding="utf-8"))
+    fixed = [it for it in data["categories"][1]["items"] if it.get("model") == "claude/routine"]
+    assert len(fixed) == 2 and fixed[0]["numbers"] == []  # invented number still dropped
+    assert data["summary_failed"] == 1 and "claude/routine" in data["models"]
+    md = (tmp_path / "news/2026-10/2026-10-07.md").read_text(encoding="utf-8")
+    assert "ซ่อม B story 0" in md and "**ย่อไม่สำเร็จ 1 ข่าว**" in md
+    assert "| ทองคำ | 4,190.30 | +0.83% |" in md
+    seen = json.loads((tmp_path / "data/state/seen.json").read_text(encoding="utf-8"))
+    assert len(seen) == 5
+
+
 def test_summarizer_falls_back_and_skips_dead_models():
     calls = []
 

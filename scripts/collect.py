@@ -6,6 +6,10 @@ does the analysis later from the files written here (see CLAUDE.md).
     python scripts/collect.py              # full run (needs GEMINI_API_KEY and/or OPENROUTER_API_KEY)
     python scripts/collect.py --no-llm     # fetch only, no summaries (for testing sources)
 
+Repair (run by a daily Claude routine on the owner's subscription, not here):
+    python scripts/collect.py --repair-pending /tmp/pending.json   # items the free models failed on
+    python scripts/collect.py --repair-apply /tmp/summaries.json   # merge Claude's summaries back
+
 Theme stocks: Claude lists public tickers it found in the news in
 config/theme_stocks.yaml; their prices are fetched here so the next analysis
 can see them (the analysis sessions cannot reach Yahoo themselves).
@@ -374,18 +378,82 @@ def run(root, config, now, summarizer=None, fetch=fetch_feed, prices_fn=fetch_pr
     return total, failed
 
 
+# ---------- repair: fill summaries the free models missed ----------
+
+def day_paths(root, day):
+    month = day.strftime("%Y-%m")
+    return root / "data" / month / f"{day}.json", root / "news" / month / f"{day}.md"
+
+
+def write_pending(root, day, out):
+    """Write the day's unsummarised items plus the clerk rules; return how many."""
+    data_path, _ = day_paths(root, day)
+    data = json.loads(data_path.read_text(encoding="utf-8"))
+    items = [{"id": it["id"], "category": c["label"], "title": it["title"], "source": it["source"],
+              "text": it["text"]}
+             for c in data["categories"] for it in c["items"] if "summary_th" not in it]
+    out.write_text(json.dumps({"date": str(day), "rules": SYSTEM_PROMPT, "items": items},
+                              ensure_ascii=False, indent=1), encoding="utf-8")
+    return len(items)
+
+
+def apply_repair(root, day, reply, model="claude/routine"):
+    """Merge summaries into the day's data, re-render the digest, mark items seen.
+
+    Same checks as free-model replies (verify_numbers, tag/entity limits).
+    Returns (fixed, still_missing).
+    """
+    data_path, news_path = day_paths(root, day)
+    data = json.loads(data_path.read_text(encoding="utf-8"))
+    every = [it for c in data["categories"] for it in c["items"]]
+    before = sum(1 for it in every if "summary_th" not in it)
+    apply_summaries(every, reply, model)
+    missing = sum(1 for it in every if "summary_th" not in it)
+    data["summary_failed"] = missing
+    data["models"] = sorted({it["model"] for it in every if it.get("model")})
+    data_path.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+    news_path.write_text(render_markdown(day, datetime.fromisoformat(data["collected_at"]),
+                                         data["prices"], data["categories"], set(data["models"]),
+                                         missing, data.get("theme_prices", [])), encoding="utf-8")
+
+    state_path = root / "data" / "state" / "seen.json"
+    seen = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {}
+    for it in every:
+        if "summary_th" in it:
+            seen.setdefault(it["id"], str(day))
+    state_path.parent.mkdir(parents=True, exist_ok=True)
+    state_path.write_text(json.dumps(seen, indent=0, sort_keys=True), encoding="utf-8")
+    return before - missing, missing
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-llm", action="store_true", help="fetch only, skip free-model summaries")
     ap.add_argument("--root", type=Path, default=ROOT)
     ap.add_argument("--config", type=Path, default=ROOT / "config" / "sources.yaml")
     ap.add_argument("--latest-only", action="store_true", help="just refresh LATEST.md (after writing an analysis)")
+    ap.add_argument("--repair-pending", type=Path, metavar="OUT", help="write unsummarised items of --date to OUT")
+    ap.add_argument("--repair-apply", type=Path, metavar="IN", help="merge summaries JSON from IN into --date")
+    ap.add_argument("--date", help="YYYY-MM-DD for --repair-* (default: today, Thai time)")
     args = ap.parse_args(argv)
 
     if args.latest_only:
         write_latest(args.root)
         return 0
     config = yaml.safe_load(args.config.read_text(encoding="utf-8"))
+    if args.repair_pending or args.repair_apply:
+        tz = ZoneInfo(config.get("timezone", "Asia/Bangkok"))
+        day = datetime.strptime(args.date, "%Y-%m-%d").date() if args.date else datetime.now(tz).date()
+        if not day_paths(args.root, day)[0].exists():
+            print(f"no data for {day} yet")
+            return 3
+        if args.repair_pending:
+            print(f"{write_pending(args.root, day, args.repair_pending)} items need a summary")
+        else:
+            reply = json.loads(args.repair_apply.read_text(encoding="utf-8"))
+            fixed, missing = apply_repair(args.root, day, reply)
+            print(f"fixed {fixed}, still missing {missing}")
+        return 0
     config["theme_stocks"] = load_theme_stocks(args.config.parent / "theme_stocks.yaml",
                                                skip={p["symbol"] for p in config.get("prices", [])})
     summarizer = None
