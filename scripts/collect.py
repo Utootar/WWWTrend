@@ -362,7 +362,7 @@ def main(argv=None):
     if not args.no_llm:
         summarizer = Summarizer(config["llm"])
         if not summarizer.available:
-            print("::error::no GEMINI_API_KEY or OPENROUTER_API_KEY; add them in repo Settings > Secrets")
+            print("::error::no GEMINI_API_KEY or OPENROUTER_API_KEY env; check repo secrets GEMINI / OPENROUTER")
             return 2
     total, failed = run(args.root, config, datetime.now().astimezone(), summarizer)
     if total and failed == total:

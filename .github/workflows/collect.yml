@@ -32,8 +32,8 @@ jobs:
       - name: Collect and summarise
         id: collect
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER }}
         run: python scripts/collect.py
 
       # Commit even when summaries failed, so raw headlines are not lost.

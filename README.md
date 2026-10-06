@@ -26,6 +26,6 @@
 
 - เพิ่ม/ลดหัวข้อหรือแหล่งข่าว: บอก Claude หรือแก้ `config/sources.yaml`
 - กดรันเก็บข่าวเองนอกเวลา: แท็บ **Actions** → **Daily news collect** → **Run workflow**
-- คีย์ API อยู่ใน Settings → Secrets and variables → Actions (`GEMINI_API_KEY`, `OPENROUTER_API_KEY`)
+- คีย์ API อยู่ใน Settings → Secrets and variables → Actions (`GEMINI`, `OPENROUTER`)
 
 กติกาเต็มสำหรับผู้ช่วยอยู่ใน [CLAUDE.md](CLAUDE.md)
