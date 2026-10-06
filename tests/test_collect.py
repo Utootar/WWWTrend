@@ -8,6 +8,7 @@ import pytest
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
 import collect  # noqa: E402
+import llm  # noqa: E402
 from llm import LLMError, ModelGone, RateLimited, Summarizer, parse_json  # noqa: E402
 
 NOW = datetime(2026, 10, 7, 0, 5, tzinfo=timezone.utc)  # 07:05 Bangkok
@@ -176,10 +177,48 @@ def test_summarizer_falls_back_and_skips_dead_models():
                    callers={"gemini": gemini, "openrouter": openrouter},
                    sleep=lambda s: None, log=lambda m: None)
     assert s.run("sys", "p") == ({"items": []}, "openrouter/o1")
-    assert calls == ["g1", "g2", "g2", "o1"]  # g2 retried once after 429
+    assert calls == ["g1", "g2", "g2", "o1"]  # g2 retried once after a short 429
     calls.clear()
     s.run("sys", "p")
-    assert calls[0] == "g2"  # g1 not tried again this run
+    assert calls == ["o1"]  # gemini out of quota: skipped for the rest of the run
+
+
+def test_quota_gone_switches_provider_at_once_then_falls_to_sonnet():
+    calls = []
+
+    def gemini(model, system, prompt, key):
+        calls.append(model)
+        raise RateLimited("429 GenerateRequestsPerDayPerProjectPerModel-FreeTier", 5, quota_gone=True)
+
+    def openrouter(model, system, prompt, key):
+        calls.append(model)
+        raise RateLimited("429 free-models-per-day", 5, quota_gone=True)
+
+    def claude(model, system, prompt, key):
+        calls.append(model)
+        return '{"items": []}'
+
+    cfg = {"providers": [{"provider": "gemini", "models": ["g1", "g2"]},
+                         {"provider": "openrouter", "models": ["o1", "o2"]},
+                         {"provider": "anthropic", "models": ["claude-sonnet-5-5"]}]}
+    s = Summarizer(cfg, env={"GEMINI_API_KEY": "k", "OPENROUTER_API_KEY": "k", "ANTHROPIC_API_KEY": "k"},
+                   callers={"gemini": gemini, "openrouter": openrouter, "anthropic": claude},
+                   sleep=lambda s: None, log=lambda m: None)
+    assert s.run("sys", "p") == ({"items": []}, "anthropic/claude-sonnet-5-5")
+    assert calls == ["g1", "o1", "claude-sonnet-5-5"]  # no waiting, no other models of a dead provider
+
+
+def test_raise_for_tells_daily_quota_from_minute_limit():
+    class Resp:
+        def __init__(self, text):
+            self.status_code, self.text, self.headers = 429, text, {"retry-after": "7"}
+
+    with pytest.raises(RateLimited) as e:
+        llm._raise_for(Resp("quotaId: GenerateRequestsPerMinutePerProjectPerModel"), "g")
+    assert (e.value.quota_gone, e.value.wait) == (False, 7.0)
+    with pytest.raises(RateLimited) as e:
+        llm._raise_for(Resp("quotaId: GenerateRequestsPerDayPerProjectPerModel"), "g")
+    assert e.value.quota_gone
 
 
 def test_summarizer_without_keys_is_unavailable():

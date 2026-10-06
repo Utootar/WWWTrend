@@ -9,11 +9,13 @@ seen_days: 14            # จำลิงก์ที่เก็บแล้�
 llm:
   batch_size: 20         # ข่าวต่อการเรียกโมเดลหนึ่งครั้ง
   min_interval_sec: 6    # เว้นระยะระหว่างการเรียก กันติดเพดานต่อนาที
-  providers:             # ลองตามลำดับ ตัวไหนล่ม/ติดเพดานก็ข้ามไปตัวถัดไป
-    - provider: gemini
+  providers:             # ลองตามลำดับ ตัวไหนโควต้าหมดจะข้ามทั้งเจ้าไปตัวถัดไปทันที
+    - provider: gemini       # ฟรี (หลัก)
       models: [gemini-flash-latest, gemini-2.5-flash, gemini-flash-lite-latest]
-    - provider: openrouter
+    - provider: openrouter   # ฟรี (สำรอง)
       models: [google/gemma-4-31b-it:free, nvidia/nemotron-3-super-120b-a12b:free, openrouter/free]
+    - provider: anthropic    # เสียเงิน ใช้เมื่อตัวฟรีหมดทั้งคู่ (ต้องมี secret ANTHROPIC ไม่มีก็ข้าม)
+      models: [claude-sonnet-5-5]
 
 # ราคาจาก Yahoo Finance (ไม่ใช้ AI)
 prices:
