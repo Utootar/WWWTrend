@@ -35,7 +35,7 @@ data/state/seen.json      ลิงก์ที่เก็บแล้ว ก�
 analysis/YYYY-MM/         บทวิเคราะห์ของ Claude (วันที่-2day.md, วันที่-weekly.md)
 memory/watchlist.md       หมวดหลัก + เรื่องที่ตามต่อเนื่อง
 memory/radar.md           ประวัติเรดาร์รายสัปดาห์ (เรื่องไหนติดกี่สัปดาห์)
-memory/themes.md          ธีมลงทุน → หุ้นที่เกี่ยวข้อง (US + ไทย) Claude ดูแล
+memory/themes.md          ธีมลงทุนที่เจอจากข่าว → หุ้นที่เกี่ยวข้อง (US + ไทย) Claude เขียนเอง
 LATEST.md                 ลิงก์ข่าวและบทวิเคราะห์ล่าสุด
 ```
 
