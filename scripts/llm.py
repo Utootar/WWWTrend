@@ -1,4 +1,7 @@
-"""Free-model clients (Gemini primary, OpenRouter fallback).
+"""Summary model clients: Gemini (free, primary) -> OpenRouter (free) -> Claude Sonnet (paid, last resort).
+
+When a provider's quota runs out, the rest of the run skips that provider at
+once and moves to the next one (see Summarizer.run).
 
 Only public news text ever goes through here. Never pass portfolio or
 company data to these providers: free tiers may train on inputs.
@@ -8,11 +11,14 @@ import os
 import re
 import time
 
+import anthropic
 import requests
 
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-KEY_ENV = {"gemini": "GEMINI_API_KEY", "openrouter": "OPENROUTER_API_KEY"}
+KEY_ENV = {"gemini": "GEMINI_API_KEY", "openrouter": "OPENROUTER_API_KEY", "anthropic": "ANTHROPIC_API_KEY"}
+# Phrases a 429 body uses when the daily/plan quota is gone (vs a short per-minute limit).
+QUOTA_GONE = re.compile(r"per.?day|daily|credit|billing", re.I)
 
 
 class LLMError(Exception):
@@ -20,9 +26,10 @@ class LLMError(Exception):
 
 
 class RateLimited(LLMError):
-    def __init__(self, msg, wait):
+    def __init__(self, msg, wait, quota_gone=False):
         super().__init__(msg)
         self.wait = wait
+        self.quota_gone = quota_gone
 
 
 class ModelGone(LLMError):
@@ -32,7 +39,8 @@ class ModelGone(LLMError):
 def _raise_for(resp, who):
     if resp.status_code == 429:
         wait = resp.headers.get("retry-after")
-        raise RateLimited(f"{who} 429", float(wait) if wait and wait.isdigit() else 20.0)
+        raise RateLimited(f"{who} 429 {resp.text[:200]}", float(wait) if wait and wait.isdigit() else 20.0,
+                          quota_gone=bool(QUOTA_GONE.search(resp.text)))
     if resp.status_code == 404:
         raise ModelGone(f"{who} 404 {resp.text[:200]}")
     if resp.status_code >= 400:
@@ -75,7 +83,35 @@ def call_openrouter(model, system, prompt, key, timeout=180):
         raise LLMError(f"openrouter/{model} empty response: {json.dumps(data)[:300]}")
 
 
-CALLERS = {"gemini": call_gemini, "openrouter": call_openrouter}
+def call_anthropic(model, system, prompt, key, timeout=300):
+    """Paid last resort. Sonnet 5.5 rejects non-default temperature, so none is sent."""
+    client = anthropic.Anthropic(api_key=key, max_retries=0, timeout=timeout)
+    who = f"anthropic/{model}"
+    try:
+        resp = client.messages.create(
+            model=model,
+            max_tokens=16000,
+            system=system,
+            output_config={"effort": "low"},  # plain summarising, no deep reasoning needed
+            messages=[{"role": "user", "content": prompt}],
+        )
+    except anthropic.NotFoundError as e:
+        raise ModelGone(f"{who} 404 {e.message[:200]}")
+    except anthropic.RateLimitError as e:
+        wait = e.response.headers.get("retry-after")
+        raise RateLimited(f"{who} 429 {e.message[:200]}", float(wait) if wait and wait.isdigit() else 20.0)
+    except anthropic.APIStatusError as e:
+        if e.status_code in (400, 402, 403) and QUOTA_GONE.search(e.message):
+            raise RateLimited(f"{who} {e.status_code} {e.message[:200]}", 0, quota_gone=True)
+        raise LLMError(f"{who} {e.status_code} {e.message[:300]}")
+    except anthropic.APIConnectionError as e:
+        raise LLMError(f"{who} connection: {e}")
+    if resp.stop_reason == "refusal":
+        raise LLMError(f"{who} refused")
+    return "".join(b.text for b in resp.content if b.type == "text")
+
+
+CALLERS = {"gemini": call_gemini, "openrouter": call_openrouter, "anthropic": call_anthropic}
 
 
 def parse_json(text):
@@ -91,7 +127,12 @@ def parse_json(text):
 
 
 class Summarizer:
-    """Tries each (provider, model) in config order until one returns valid JSON."""
+    """Tries each (provider, model) in config order until one returns valid JSON.
+
+    Out of quota (a 429 that says so, or still 429 after one short wait) means the
+    whole provider is skipped for the rest of the run, so the next provider takes
+    over immediately instead of every batch re-trying dead models first.
+    """
 
     def __init__(self, cfg, env=os.environ, callers=CALLERS, sleep=time.sleep, log=print):
         self.min_interval = cfg.get("min_interval_sec", 0)
@@ -106,6 +147,7 @@ class Summarizer:
                 continue
             self.chain += [(p["provider"], m, key) for m in p["models"]]
         self.gone = set()
+        self.exhausted = set()
         self._last_call = 0.0
 
     @property
@@ -123,7 +165,7 @@ class Summarizer:
         errors = []
         for provider, model, key in self.chain:
             name = f"{provider}/{model}"
-            if name in self.gone:
+            if name in self.gone or provider in self.exhausted:
                 continue
             for attempt in range(2):
                 self._throttle()
@@ -131,9 +173,11 @@ class Summarizer:
                     return parse_json(self.callers[provider](model, system, prompt, key)), name
                 except RateLimited as e:
                     errors.append(str(e))
-                    if attempt == 0 and e.wait <= 60:
-                        self.sleep(e.wait)
+                    if attempt == 0 and not e.quota_gone and e.wait <= 60:
+                        self.sleep(e.wait)  # short per-minute limit: wait once
                         continue
+                    self.exhausted.add(provider)
+                    self.log(f"::warning::{provider} out of quota, switching to the next provider")
                 except ModelGone as e:
                     self.gone.add(name)
                     errors.append(str(e))
