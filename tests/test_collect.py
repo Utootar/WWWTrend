@@ -132,6 +132,31 @@ def test_run_writes_digest_data_state_and_latest(tmp_path):
         "2026-10-07,GC=F,4190.3,2026-10-06"
 
 
+def test_theme_stocks_are_loaded_priced_and_rendered(tmp_path):
+    f = tmp_path / "theme_stocks.yaml"
+    f.write_text("stocks:\n"
+                 "  - {symbol: GULF.BK, label: GULF, theme: ไฟฟ้าจาก AI}\n"
+                 "  - {symbol: GC=F, label: dup}\n"
+                 "  - {symbol: GULF.BK, label: again}\n"
+                 "  - {label: no symbol}\n", encoding="utf-8")
+    stocks = collect.load_theme_stocks(f, skip={"GC=F"})
+    assert stocks == [{"symbol": "GULF.BK", "label": "GULF · ไฟฟ้าจาก AI"}]
+    assert collect.load_theme_stocks(tmp_path / "missing.yaml") == []
+
+    def echo_prices(tickers, log=print):
+        return [{"symbol": t["symbol"], "label": t["label"], "close": 50.0, "prev_close": 49.0,
+                 "change_pct": 2.04, "as_of": "2026-10-06"} for t in tickers]
+
+    config = make_config() | {"theme_stocks": stocks}
+    collect.run(tmp_path, config, NOW, None, fake_fetch, echo_prices, log=lambda m: None)
+    md = (tmp_path / "news/2026-10/2026-10-07.md").read_text(encoding="utf-8")
+    assert "## ราคาหุ้นในธีมที่เจอจากข่าว" in md
+    assert "| GULF · ไฟฟ้าจาก AI | 50.00 | +2.04% |" in md
+    data = json.loads((tmp_path / "data/2026-10/2026-10-07.json").read_text(encoding="utf-8"))
+    assert data["theme_prices"][0]["symbol"] == "GULF.BK"
+    assert "2026-10-07,GULF.BK,50.0,2026-10-06" in (tmp_path / "data/prices.csv").read_text(encoding="utf-8")
+
+
 def test_summarizer_falls_back_and_skips_dead_models():
     calls = []
 

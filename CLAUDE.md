@@ -25,6 +25,7 @@
 
 ```
 config/sources.yaml       หมวด แหล่งข่าว ราคา ลำดับโมเดล (แก้ที่นี่ที่เดียว)
+config/theme_stocks.yaml  หุ้นในธีมที่ Claude หาเจอจากข่าว สคริปต์ดึงราคาให้ทุกเช้า (Claude แก้เองได้)
 scripts/collect.py        เก็บข่าว + ย่อ + เขียนไฟล์ (รันโดย GitHub Actions)
 scripts/llm.py            ตัวเรียก Gemini/OpenRouter สลับตัวเองเมื่อล่มหรือติดเพดาน
 scripts/stats.py          นับแท็ก/ชื่อที่ถูกพูดถึงเพิ่มเร็ว ใช้กับเรดาร์วันอาทิตย์

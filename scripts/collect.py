@@ -5,6 +5,10 @@ does the analysis later from the files written here (see CLAUDE.md).
 
     python scripts/collect.py              # full run (needs GEMINI_API_KEY and/or OPENROUTER_API_KEY)
     python scripts/collect.py --no-llm     # fetch only, no summaries (for testing sources)
+
+Theme stocks: Claude lists public tickers it found in the news in
+config/theme_stocks.yaml; their prices are fetched here so the next analysis
+can see them (the analysis sessions cannot reach Yahoo themselves).
 """
 import argparse
 import calendar
@@ -28,6 +32,7 @@ from llm import LLMError, Summarizer
 ROOT = Path(__file__).resolve().parent.parent
 UA = {"User-Agent": "Mozilla/5.0 (compatible; WWWTrend/1.0; personal news digest)"}
 TEXT_LIMIT = 700
+MAX_THEME_STOCKS = 40
 THAI_MONTHS = ["ม.ค.", "ก.พ.", "มี.ค.", "เม.ย.", "พ.ค.", "มิ.ย.",
                "ก.ค.", "ส.ค.", "ก.ย.", "ต.ค.", "พ.ย.", "ธ.ค."]
 
@@ -226,7 +231,22 @@ def fmt_price(p):
     return f"| {p['label']} | {p['close']:,.2f} | {sign}{p['change_pct']:.2f}% |"
 
 
-def render_markdown(day, collected_at, prices, categories, models, failed):
+def load_theme_stocks(path, skip=()):
+    """Tickers Claude picked from the news (config/theme_stocks.yaml), minus ones already in prices."""
+    if not path.exists():
+        return []
+    stocks = (yaml.safe_load(path.read_text(encoding="utf-8")) or {}).get("stocks") or []
+    out, taken = [], set(skip)
+    for s in stocks:
+        sym = str(s.get("symbol", "")).strip()
+        if sym and sym not in taken:
+            taken.add(sym)
+            label = s.get("label") or sym
+            out.append({"symbol": sym, "label": f"{label} · {s['theme']}" if s.get("theme") else label})
+    return out[:MAX_THEME_STOCKS]
+
+
+def render_markdown(day, collected_at, prices, categories, models, failed, theme_prices=()):
     total = sum(len(c["items"]) for c in categories)
     lines = [
         f"# ข่าวประจำวัน {thai_date(day)}",
@@ -242,6 +262,11 @@ def render_markdown(day, collected_at, prices, categories, models, failed):
     lines += ["## ราคาปิดล่าสุด", "", "| รายการ | ราคา | เปลี่ยน |", "|---|---:|---:|"]
     lines += [fmt_price(p) for p in prices]
     lines.append("")
+    if theme_prices:
+        lines += ["## ราคาหุ้นในธีมที่เจอจากข่าว", "",
+                  "| หุ้น · ธีม | ราคา | เปลี่ยน |", "|---|---:|---:|"]
+        lines += [fmt_price(p) for p in theme_prices]
+        lines.append("")
     for cat in categories:
         shown = [it for it in cat["items"] if it.get("importance", 1) > 0]
         shown.sort(key=lambda it: (-it.get("importance", 1), -(it["published"] or 0)))
@@ -310,6 +335,7 @@ def run(root, config, now, summarizer=None, fetch=fetch_feed, prices_fn=fetch_pr
             failed += summarize_category(cat["items"], cat["label"], summarizer, batch, log=log)
 
     prices = prices_fn(config.get("prices", []), log=log)
+    theme_prices = prices_fn(config["theme_stocks"], log=log) if config.get("theme_stocks") else []
     models = {it["model"] for c in categories for it in c["items"] if it.get("model")}
 
     month = day.strftime("%Y-%m")
@@ -324,11 +350,13 @@ def run(root, config, now, summarizer=None, fetch=fetch_feed, prices_fn=fetch_pr
         "models": sorted(models),
         "summary_failed": failed,
         "prices": prices,
+        "theme_prices": theme_prices,
         "categories": categories,
     }
     data_path.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
-    news_path.write_text(render_markdown(day, local_now, prices, categories, models, failed), encoding="utf-8")
-    append_price_history(root / "data" / "prices.csv", day, prices)
+    news_path.write_text(render_markdown(day, local_now, prices, categories, models, failed, theme_prices),
+                         encoding="utf-8")
+    append_price_history(root / "data" / "prices.csv", day, prices + theme_prices)
 
     # Only remember items that were summarised, so failed ones get retried tomorrow.
     keep_after = str(day - timedelta(days=config.get("seen_days", 14)))
@@ -358,6 +386,8 @@ def main(argv=None):
         write_latest(args.root)
         return 0
     config = yaml.safe_load(args.config.read_text(encoding="utf-8"))
+    config["theme_stocks"] = load_theme_stocks(args.config.parent / "theme_stocks.yaml",
+                                               skip={p["symbol"] for p in config.get("prices", [])})
     summarizer = None
     if not args.no_llm:
         summarizer = Summarizer(config["llm"])
