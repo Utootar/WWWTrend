@@ -8,8 +8,8 @@
 | ใคร | ทำอะไร | เมื่อไหร่ |
 |---|---|---|
 | GitHub Actions + Gemini (หลัก) / OpenRouter (สำรอง) | เก็บข่าว RSS + ราคา ย่อทีละข่าว จัดหมวด | ทุกวัน 06:00 เวลาไทย |
-| Claude (Sonnet) | วิเคราะห์ข่าว 2 วันล่าสุด ตาม `prompts/analyze-2day.md` | ทุก 2 วัน |
-| Claude (Opus) | วิเคราะห์ลึกทั้งสัปดาห์ + เรดาร์ของที่กำลังจะโต ตาม `prompts/weekly-deep.md` | เช้าวันอาทิตย์ |
+| Claude (Sonnet 5.5) | วิเคราะห์ข่าว 2 วันล่าสุด ตาม `prompts/analyze-2day.md` | วันเว้นวัน 07:12 (Routine บน claude.ai) |
+| Claude (Opus 5.5) | วิเคราะห์ลึกทั้งสัปดาห์ + เรดาร์ของที่กำลังจะโต ตาม `prompts/weekly-deep.md` | อาทิตย์ 07:42 (Routine บน claude.ai) |
 
 ## กติกาที่ห้ามละเมิด
 
