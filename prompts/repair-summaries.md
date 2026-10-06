@@ -4,6 +4,7 @@
 
 ## ขั้นตอน
 
+0. `python -m pip install -q -r requirements.txt pytest` (ใช้ `python -m pip` เสมอ เพราะ `pip` เฉยๆ ในเครื่องนี้ลงคนละ python)
 1. `python scripts/collect.py --repair-pending /tmp/pending.json`
    - ถ้าขึ้น `no data for ... yet` (เก็บข่าว 06:00 ยังไม่เสร็จ) หรือ `0 items need a summary` → จบเลย ไม่ต้อง commit
 2. อ่าน `/tmp/pending.json` ทำตาม `rules` ในไฟล์ทุกข้อ (ใช้แค่ title/text ที่ให้มา ห้ามเปิดเว็บเติม ห้ามเดา)
