@@ -3,6 +3,14 @@
 # symbol ใช้แบบ Yahoo Finance: หุ้นสหรัฐ = ชื่อย่อตรงๆ (เช่น CEG) · หุ้นไทย = ต่อท้าย .BK (เช่น GULF.BK)
 # ไม่เกิน 40 ตัว ตัวที่ซ้ำกับ prices ใน sources.yaml จะถูกข้าม
 
-stocks: []
+stocks:
+  - {symbol: GEV, label: GE Vernova, theme: ไฟฟ้าจาก AI}
+  - {symbol: POWL, label: Powell Industries, theme: ไฟฟ้าจาก AI}
+  - {symbol: MYR, label: MYR Group, theme: ไฟฟ้าจาก AI}
+  - {symbol: FIX, label: Comfort Systems, theme: ไฟฟ้าจาก AI}
+  - {symbol: CEG, label: Constellation, theme: ไฟฟ้าจาก AI}
+  - {symbol: VST, label: Vistra, theme: ไฟฟ้าจาก AI}
+  - {symbol: GULF.BK, label: Gulf Energy, theme: ไฟฟ้าจาก AI}
+  - {symbol: GPSC.BK, label: GPSC, theme: ไฟฟ้าจาก AI}
 # ตัวอย่าง:
 #  - {symbol: CEG, label: Constellation, theme: ไฟฟ้าจาก AI}
