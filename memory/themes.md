@@ -17,7 +17,7 @@ Claude เขียนไฟล์นี้จากข่าวที่เก�
 
 ## ธีมที่กำลังเดิน
 
-## ไฟฟ้าจาก AI: ไฟฟ้า นิวเคลียร์ ระบบไฟ (เริ่มเจอ 2026-10-06 · ล่าสุด 2026-10-10)
+## ไฟฟ้าจาก AI: ไฟฟ้า นิวเคลียร์ ระบบไฟ (เริ่มเจอ 2026-10-06 · ล่าสุด 2026-10-11)
 ทำไม: data center และ AI ใช้ไฟมากขึ้น ผู้ผลิตและผู้รับเหมาระบบไฟได้งาน
 หลักฐานจากข่าว: นิวเคลียร์พุ่ง · MYR/Powell/Comfort Systems พุ่ง · GE Vernova ราคาวิ่ง · X-energy (ดู analysis/2026-10/2026-10-07-2day.md)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -27,7 +27,31 @@ Claude เขียนไฟล์นี้จากข่าวที่เก�
 | CEG, VST | US | ขายไฟนิวเคลียร์/ไฟให้ data center | ความรู้ทั่วไป |
 | GULF.BK, GPSC.BK | TH | ผู้ผลิตไฟ (ทางอ้อม) | ความรู้ทั่วไป |
 อัปเดต 2026-10-10: ไม่มีข่าวบริษัทใหม่ แต่ราคาแกว่งตามข่าวรายได้ OpenAI (8 ต.ค. CEG -4.85% VST -6.35% แล้ว 9 ต.ค. CEG +4.56% VST +3.42%) GEV นิ่งสุด (ดู analysis/2026-10/2026-10-10-2day.md) หลักฐาน: [ศูนย์ข้อมูลเป็นอสังหา ความเสี่ยงเพิ่ม](https://www.cnbc.com/2026/10/09/ai-data-centers-investing.html) · [AI ร่วงจากข่าวรายได้ OpenAI](https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html)
-ความเสี่ยงของธีม: ราคาอาจนำข่าวไปแล้ว ยีลด์สูง ผูกกับความเชื่อมั่น AI MYR ดึงราคาไม่ได้
+อัปเดต 2026-10-11 (weekly): ทั้งสัปดาห์ GEV -2.4% POWL -6.2% FIX -5.6% CEG -0.8% VST +0.6% GPSC +4.6% GULF +1.3% ผู้รับเหมาคืนกำไรที่พุ่ง 6 ต.ค. หลักฐานใหม่: [เฟดชี้ data center ดันราคา](https://news.google.com/rss/articles/CBMisAFBVV95cUxOY1FrWkF5TURpdC1qQ3NITm9zVDhQVXJaaXM5aVVYZ0doMEhWaTNid1Q3b1Bfdzg5c01lVGVSOVhjZHhBQTZEUlhHR3diMG96NnBZR25RQWp5U1JuWGJYOHNIT0FJNEd6TVlubGNwQzRGRXA0bUZsTno3YjFmUVpJNVl0NFozV1F4T0Z2QUhkRVdNQW8xR1Nab1NIRWl0VlZaMVRic0F3ak50TzlYSW8wRA?oc=5) · [Google หยุดสร้าง data center ฟินแลนด์](https://www.cnbc.com/2026/10/07/google-finland-data-center-halt.html) · [รัฐหนุน VPP](https://oilprice.com/Energy/Energy-General/States-Bet-on-Virtual-Power-Plants-to-Cut-Grid-Costs.html)
+MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks.yaml แล้ว
+ความเสี่ยงของธีม: ราคาอาจนำข่าวไปแล้ว ยีลด์สูง ผูกกับความเชื่อมั่น AI แรงต้าน data center ในพื้นที่
+
+## LNG/ก๊าซนอกอ่าวเปอร์เซีย (เริ่มเจอ 2026-10-07 · ล่าสุด 2026-10-09)
+ทำไม: ฮอร์มุซไม่ปลอดภัย Qatar ขยายเหตุสุดวิสัย ผู้ส่งออก LNG/ก๊าซนอกอ่าวได้ออเดอร์
+หลักฐานจากข่าว: [5 หุ้นก๊าซได้จากฮอร์มุซ (Cheniere)](https://oilprice.com/Energy/Natural-Gas/5-Natural-Gas-Stocks-Profiting-From-the-Strait-of-Hormuz-Standoff.html) · [Kinder Morgan ส่งก๊าซไปเม็กซิโกได้อีก](https://oilprice.com/Latest-Energy-News/World-News/Kinder-Morgan-Restores-US-Mexico-Gas-Flows-After-Pipeline-Outage.html) · [Alaska LNG กลับมา](https://oilprice.com/Energy/Natural-Gas/Who-Is-Going-to-Pay-for-Alaska-LNG.html)
+| หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
+|---|---|---|---|
+| LNG | US | ส่งออก LNG | ข่าว |
+| KMI | US | ท่อก๊าซ | ข่าว |
+| PTTEP.BK | TH | ขายก๊าซ/น้ำมัน | ความรู้ทั่วไป |
+| PTT.BK | TH | ก๊าซ+โรงกลั่น (ได้-เสียปน) | ความรู้ทั่วไป |
+ความเสี่ยงของธีม: หยุดยิง/ฮอร์มุซเปิด ราคาก๊าซร่วงเร็ว PTT อาจถูกคุมราคาในประเทศ
+
+## ชิปหน่วยความจำ (เริ่มเจอ 2026-10-08 · ล่าสุด 2026-10-10)
+ทำไม: AI ดูดหน่วยความจำ RAM ขาดและแพง ผู้ผลิตกำไรสถิติ
+หลักฐานจากข่าว: [Samsung กำไรสถิติ](https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html) · [Intel/AMD กลับไป DDR4 เพราะ RAM แพง](https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback) · [Micron ร่วงจากข่าว OpenAI](https://www.marketwatch.com/story/micron-nvidia-and-ai-chip-stocks-fall-as-report-on-openais-revenue-causes-undue-concern-2a2bcf53)
+| หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
+|---|---|---|---|
+| 005930.KS (Samsung) | KR | หน่วยความจำ | ข่าว |
+| MU | US | หน่วยความจำ | ข่าว |
+| 000660.KS (SK Hynix) | KR | HBM | ความรู้ทั่วไป |
+| HANA.BK | TH | ประกอบ/ทดสอบชิป ทางอ้อม | ความรู้ทั่วไป |
+ความเสี่ยงของธีม: วัฏจักรหน่วยความจำกลับลงเร็ว ผูกกับข่าวรายได้ AI
 
 ## ธีมที่จบแล้ว
 
