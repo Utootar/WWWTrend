@@ -29,6 +29,7 @@ Claude เขียนไฟล์นี้จากข่าวที่เก�
 อัปเดต 2026-10-10: ไม่มีข่าวบริษัทใหม่ แต่ราคาแกว่งตามข่าวรายได้ OpenAI (8 ต.ค. CEG -4.85% VST -6.35% แล้ว 9 ต.ค. CEG +4.56% VST +3.42%) GEV นิ่งสุด (ดู analysis/2026-10/2026-10-10-2day.md) หลักฐาน: [ศูนย์ข้อมูลเป็นอสังหา ความเสี่ยงเพิ่ม](https://www.cnbc.com/2026/10/09/ai-data-centers-investing.html) · [AI ร่วงจากข่าวรายได้ OpenAI](https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html)
 อัปเดต 2026-10-11 (weekly): ทั้งสัปดาห์ GEV -2.4% POWL -6.2% FIX -5.6% CEG -0.8% VST +0.6% GPSC +4.6% GULF +1.3% ผู้รับเหมาคืนกำไรที่พุ่ง 6 ต.ค. หลักฐานใหม่: [เฟดชี้ data center ดันราคา](https://news.google.com/rss/articles/CBMisAFBVV95cUxOY1FrWkF5TURpdC1qQ3NITm9zVDhQVXJaaXM5aVVYZ0doMEhWaTNid1Q3b1Bfdzg5c01lVGVSOVhjZHhBQTZEUlhHR3diMG96NnBZR25RQWp5U1JuWGJYOHNIT0FJNEd6TVlubGNwQzRGRXA0bUZsTno3YjFmUVpJNVl0NFozV1F4T0Z2QUhkRVdNQW8xR1Nab1NIRWl0VlZaMVRic0F3ak50TzlYSW8wRA?oc=5) · [Google หยุดสร้าง data center ฟินแลนด์](https://www.cnbc.com/2026/10/07/google-finland-data-center-halt.html) · [รัฐหนุน VPP](https://oilprice.com/Energy/Energy-General/States-Bet-on-Virtual-Power-Plants-to-Cut-Grid-Costs.html)
 MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks.yaml แล้ว
+อัปเดต 2026-10-13: Uranium ETF ตก >20% ใน 12 เดือน แม้เทคซื้อไฟนิวเคลียร์ [OilPrice](https://oilprice.com/Alternative-Energy/Nuclear-Power/3-Stocks-To-Play-The-Nuclear-Energy-Boom.html) · Petra Power เซลล์เชื้อเพลิงให้ data center [TechCrunch](https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/) ราคายังเป็นของ 9 ต.ค. (ดู analysis/2026-10/2026-10-13-2day.md)
 ความเสี่ยงของธีม: ราคาอาจนำข่าวไปแล้ว ยีลด์สูง ผูกกับความเชื่อมั่น AI แรงต้าน data center ในพื้นที่
 
 ## LNG/ก๊าซนอกอ่าวเปอร์เซีย (เริ่มเจอ 2026-10-07 · ล่าสุด 2026-10-09)
@@ -40,6 +41,7 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 | KMI | US | ท่อก๊าซ | ข่าว |
 | PTTEP.BK | TH | ขายก๊าซ/น้ำมัน | ความรู้ทั่วไป |
 | PTT.BK | TH | ก๊าซ+โรงกลั่น (ได้-เสียปน) | ความรู้ทั่วไป |
+อัปเดต 2026-10-13: Brent ลง 103.21 หลังข่าวหยุดยิงพลังงานรัสเซีย-ยูเครน แต่ค่าขนส่งสถิติ คลังสำรองสหรัฐต่ำสุดตั้งแต่ 1982 [OilPrice](https://oilprice.com/Energy/Crude-Oil/How-Low-Can-the-Strategic-Petroleum-Reserve-Actually-Go.html)
 ความเสี่ยงของธีม: หยุดยิง/ฮอร์มุซเปิด ราคาก๊าซร่วงเร็ว PTT อาจถูกคุมราคาในประเทศ
 
 ## ชิปหน่วยความจำ (เริ่มเจอ 2026-10-08 · ล่าสุด 2026-10-10)
