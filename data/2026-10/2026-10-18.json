@@ -1,0 +1,2180 @@
+{
+ "date": "2026-10-18",
+ "collected_at": "2026-10-18T07:34:52+07:00",
+ "models": [
+  "gemini/gemini-flash-latest",
+  "gemini/gemini-flash-lite-latest"
+ ],
+ "summary_failed": 35,
+ "prices": [
+  {
+   "symbol": "^GSPC",
+   "label": "S&P 500",
+   "close": 7659.4399,
+   "prev_close": 7744.0601,
+   "change_pct": -1.09,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "^IXIC",
+   "label": "Nasdaq",
+   "close": 26140.0293,
+   "prev_close": 26713.0293,
+   "change_pct": -2.15,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "^DJI",
+   "label": "Dow Jones",
+   "close": 52002.4102,
+   "prev_close": 52177.6914,
+   "change_pct": -0.34,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "^VIX",
+   "label": "VIX (ดัชนีความกลัว)",
+   "close": 19.99,
+   "prev_close": 16.46,
+   "change_pct": 21.45,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "^TNX",
+   "label": "บอนด์สหรัฐ 10 ปี (%)",
+   "close": 5.098,
+   "prev_close": 5.089,
+   "change_pct": 0.18,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "DX-Y.NYB",
+   "label": "ดัชนีดอลลาร์",
+   "close": 101.84,
+   "prev_close": 102.0,
+   "change_pct": -0.16,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "CL=F",
+   "label": "น้ำมัน WTI",
+   "close": 101.41,
+   "prev_close": 97.97,
+   "change_pct": 3.51,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "BZ=F",
+   "label": "น้ำมัน Brent",
+   "close": 109.86,
+   "prev_close": 105.92,
+   "change_pct": 3.72,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "GC=F",
+   "label": "ทองคำ (ดอลลาร์/ออนซ์)",
+   "close": 4181.1001,
+   "prev_close": 4170.1001,
+   "change_pct": 0.26,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "THB=X",
+   "label": "บาทต่อดอลลาร์",
+   "close": 33.42,
+   "prev_close": 33.466,
+   "change_pct": -0.14,
+   "as_of": "2026-10-16",
+   "currency": "THB"
+  },
+  {
+   "symbol": "SMH",
+   "label": "กองชิป SMH",
+   "close": 539.79,
+   "prev_close": 558.84,
+   "change_pct": -3.41,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "XLV",
+   "label": "กองสุขภาพ XLV",
+   "close": 176.71,
+   "prev_close": 177.19,
+   "change_pct": -0.27,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  }
+ ],
+ "theme_prices": [
+  {
+   "symbol": "GEV",
+   "label": "GE Vernova · ไฟฟ้าจาก AI",
+   "close": 921.2,
+   "prev_close": 926.44,
+   "change_pct": -0.57,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "POWL",
+   "label": "Powell Industries · ไฟฟ้าจาก AI",
+   "close": 165.14,
+   "prev_close": 170.82,
+   "change_pct": -3.33,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "MYRG",
+   "label": "MYR Group · ไฟฟ้าจาก AI",
+   "close": 280.16,
+   "prev_close": 285.57,
+   "change_pct": -1.89,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "FIX",
+   "label": "Comfort Systems · ไฟฟ้าจาก AI",
+   "close": 1439.0699,
+   "prev_close": 1481.27,
+   "change_pct": -2.85,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "CEG",
+   "label": "Constellation · ไฟฟ้าจาก AI",
+   "close": 271.37,
+   "prev_close": 275.0,
+   "change_pct": -1.32,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "VST",
+   "label": "Vistra · ไฟฟ้าจาก AI",
+   "close": 152.02,
+   "prev_close": 154.17,
+   "change_pct": -1.39,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "GULF.BK",
+   "label": "Gulf Energy · ไฟฟ้าจาก AI",
+   "close": 62.0,
+   "prev_close": 62.0,
+   "change_pct": 0.0,
+   "as_of": "2026-10-15",
+   "currency": "THB"
+  },
+  {
+   "symbol": "GPSC.BK",
+   "label": "GPSC · ไฟฟ้าจาก AI",
+   "close": 50.5,
+   "prev_close": 50.75,
+   "change_pct": -0.49,
+   "as_of": "2026-10-15",
+   "currency": "THB"
+  },
+  {
+   "symbol": "LNG",
+   "label": "Cheniere · LNG นอกอ่าวเปอร์เซีย",
+   "close": 289.43,
+   "prev_close": 279.15,
+   "change_pct": 3.68,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "KMI",
+   "label": "Kinder Morgan · LNG นอกอ่าวเปอร์เซีย",
+   "close": 34.2,
+   "prev_close": 32.82,
+   "change_pct": 4.2,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "PTTEP.BK",
+   "label": "PTTEP · LNG นอกอ่าวเปอร์เซีย",
+   "close": 155.0,
+   "prev_close": 155.5,
+   "change_pct": -0.32,
+   "as_of": "2026-10-15",
+   "currency": "THB"
+  },
+  {
+   "symbol": "PTT.BK",
+   "label": "PTT · LNG นอกอ่าวเปอร์เซีย",
+   "close": 41.0,
+   "prev_close": 40.75,
+   "change_pct": 0.61,
+   "as_of": "2026-10-15",
+   "currency": "THB"
+  },
+  {
+   "symbol": "005930.KS",
+   "label": "Samsung · ชิปหน่วยความจำ",
+   "close": 215500.0,
+   "prev_close": 210000.0,
+   "change_pct": 2.62,
+   "as_of": "2026-10-16",
+   "currency": "KRW"
+  },
+  {
+   "symbol": "MU",
+   "label": "Micron · ชิปหน่วยความจำ",
+   "close": 878.84,
+   "prev_close": 931.24,
+   "change_pct": -5.63,
+   "as_of": "2026-10-16",
+   "currency": "USD"
+  },
+  {
+   "symbol": "000660.KS",
+   "label": "SK Hynix · ชิปหน่วยความจำ",
+   "close": 1272000.0,
+   "prev_close": 1262000.0,
+   "change_pct": 0.79,
+   "as_of": "2026-10-16",
+   "currency": "KRW"
+  },
+  {
+   "symbol": "HANA.BK",
+   "label": "Hana Micro · ชิปหน่วยความจำ",
+   "close": 50.25,
+   "prev_close": 52.5,
+   "change_pct": -4.29,
+   "as_of": "2026-10-15",
+   "currency": "THB"
+  }
+ ],
+ "categories": [
+  {
+   "key": "us_stocks",
+   "label": "หุ้นสหรัฐ",
+   "items": [
+    {
+     "id": "50ffba9c9313",
+     "title": "Trump waives broad new Russia sanctions, Zelenskyy condemns it as 'wrong'",
+     "link": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html",
+     "source": "CNBC Top News",
+     "published": 1792265718,
+     "text": "Trump signed the Graham Bill, which targeted Russia over its invasion of Ukraine, into law in September."
+    },
+    {
+     "id": "f30d70f0295f",
+     "title": "Can a $55,000 robot load the dishwasher? Inside my afternoon with two humanoid housekeepers.",
+     "link": "https://www.marketwatch.com/story/can-a-55-000-plus-robot-load-the-dishwasher-inside-my-afternoon-with-two-humanoid-housekeepers-0a9569ab",
+     "source": "MarketWatch",
+     "published": 1792270380,
+     "text": "Tau Robotics’ humanoids vacuumed my floors and wiped my counters — with some help from humans behind the scenes."
+    },
+    {
+     "id": "debd9c08d7ac",
+     "title": "Prediction: Oracle Stock Trails the S&P 500 Through 2030",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV3pBOWYxZ1FjTjZ5MmJJSzF3NWR1OE5KbGc2TzhhUVVNaFVHeE0wUnFFZ0t5ZE9TOEw3LWNoMWd0SGU3Y3BKaHR6dHBJc2xDSDJ6Qmw5M0ZQSFBoLUl4UFFoRkhVcDZyWmMxY1B1cXAza0Rkc013eDhQMUNHR3g5WGR6cklsY3BZRjlhczN4Ui1TbmpkWjFhRkRuTzVlQQ?oc=5",
+     "source": "Yahoo Finance",
+     "published": 1792281960,
+     "text": "Prediction: Oracle Stock Trails the S&P 500 Through 2030 Yahoo Finance"
+    },
+    {
+     "id": "da1157992e09",
+     "title": "Semiconductor market to remain solid ‘at least through next year,’ South Korea finance minister says",
+     "link": "https://www.cnbc.com/2026/10/17/south-korea-semiconductor-outlook-lee-hyoung-il.html",
+     "source": "CNBC Top News",
+     "published": 1792255515,
+     "text": "South Korea's finance minister said semiconductor growth can last at least through 2027 as supply remains tight despite a global chip sell-off."
+    },
+    {
+     "id": "c3cc3162a087",
+     "title": "Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties",
+     "link": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46",
+     "source": "MarketWatch",
+     "published": 1792263120,
+     "text": "Fintech companies are catching on to how Americans are altering their financial habits, and they’ve created new products to try to meet the moment."
+    },
+    {
+     "id": "2ffd8595efce",
+     "title": "SK Hynix Faces Backlash Over Solidigm's $100B Nasdaq Listing",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNc1lkMl9lTkxyUmhKRElVZGQtMy1PQ19PeGEtU1NHSzVuQWp3NUpES3RTNF9rSTNIeURkS2JRb3Q5NUQ0RE5oMW9ISDU3ZUwxWG96NmhNNGp5ZnAzUXdaWmhoNF9rNXdySmlXa0JJbUdJMGxGNnBZZDBGdXBMcFJqSlYyM3JSeVItbzNmbERn?oc=5",
+     "source": "조선일보",
+     "published": 1792281277,
+     "text": "SK Hynix Faces Backlash Over Solidigm's $100B Nasdaq Listing 조선일보"
+    },
+    {
+     "id": "7236f3e06fd0",
+     "title": "Investors are buying up vast tracts of timberland across U.S. in one of market's longest-term bets",
+     "link": "https://www.cnbc.com/2026/10/17/timberland-investing-returns-risk.html",
+     "source": "CNBC Top News",
+     "published": 1792254666,
+     "text": "Timberland managers buying for pension funds and other institutional investors can wait decades for returns, but the market can also be a profit trap."
+    },
+    {
+     "id": "1e4e8b99da0e",
+     "title": "Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful",
+     "link": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344",
+     "source": "MarketWatch",
+     "published": 1792262400,
+     "text": "“Instead of focusing on homeownership, many are prioritizing financial freedom and debt-free living.”"
+    },
+    {
+     "id": "ce463792c62f",
+     "title": "Costco Wholesale Has Fallen More Than 10% From Its Peak Before. Here's What History Says Happens Next.",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONWNuR05nbnZzd1VSV2hvdHI1bUlPQTZoZWg0NjA0UWpGYUFKUDNLSDVtS05UU1VxV3JfVU1fRXNLWUoxYU14bTVsRWRxSktnaGtQd2xGUkhWT1c2Vml0WjFKZEtuZHlVUUV3YzJORm40UmpaYTZIbXpUSmJnMmVTTUJ5YTh5dTV1OV9RdXFLSjNqNksxSWxF?oc=5",
+     "source": "The Motley Fool",
+     "published": 1792279905,
+     "text": "Costco Wholesale Has Fallen More Than 10% From Its Peak Before. Here's What History Says Happens Next. The Motley Fool"
+    },
+    {
+     "id": "35c09364c6fc",
+     "title": "AI stocks plunge. Inflation heats up. Where we're still finding opportunities",
+     "link": "https://www.cnbc.com/investingclub/2026/10/17/ai-stocks-plunge-inflation-heats-up-where-were-still-finding-opportunities.html",
+     "source": "CNBC Top News",
+     "published": 1792251754,
+     "text": "The sinking AI trade rattled last week's market. But solid bank earnings and a rotation beyond tech gave us reasons for optimism."
+    },
+    {
+     "id": "dab54cfdae77",
+     "title": "Is Apple’s foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones.",
+     "link": "https://www.marketwatch.com/story/is-apples-foldable-iphone-duo-worth-2-000-see-how-it-stacks-up-against-other-foldable-phones-c9066b13",
+     "source": "MarketWatch",
+     "published": 1792262400,
+     "text": "Preorders for the iPhone Duo began Friday, marking Apple’s debut in a foldable phone market largely dominated by Samsung and Google."
+    },
+    {
+     "id": "b711893c78f8",
+     "title": "Howard Marks: The S&P 500 isn’t a good bet right now",
+     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5wSEVlaHdaTXI2MWo2Yjh5VHRtaFJLYm9PMDByRUEwZ2E4WWkxVzVGRTU0cUcwOERBczVZTzBOa0dpYk5Jc29ZTE5EMVVFM3o2QXNuNnZGSEJEVHZtbV9MUDdSVUtkNVZPUHA0dFVxRXlDb2hNdUJWRw?oc=5",
+     "source": "Yahoo Finance",
+     "published": 1792279857,
+     "text": "Howard Marks: The S&P 500 isn’t a good bet right now Yahoo Finance"
+    },
+    {
+     "id": "61cae8d261bc",
+     "title": "Software’s new consolidator gets big vote of confidence from Berkshire",
+     "link": "https://www.cnbc.com/2026/10/17/bending-spoons-wants-to-revive-software-castoffs-berkshire-investing.html",
+     "source": "CNBC Top News",
+     "published": 1792249890,
+     "text": "Less than four months into life as a public company, Bending Spoons got a big vote of confidence this week from Berkshire Hathaway."
+    },
+    {
+     "id": "0800f7a1f8af",
+     "title": "Meet the home buyers totally unfazed by 7% mortgage rates",
+     "link": "https://www.marketwatch.com/story/meet-the-home-buyers-totally-unfazed-by-7-mortgage-rates-7a9b1cc7",
+     "source": "MarketWatch",
+     "published": 1792242000,
+     "text": "Individual investors and second-home buyers accounted for 1 in 5 home purchases in September — the highest share in a little over a year."
+    },
+    {
+     "id": "ba4de3530a9d",
+     "title": "S&P 500 Forecast: SPX holds steady as tech stocks decline and banks rise post-earnings",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOOGVwY0dhSzk1RFVGSlZCY2RiYmFkT3Z0dm1fRlBxQlhZSnZJNjNOdGlHLXBqRGJOd2R5SW55M2dxNzRqUGRCRXBmdmFBUmtna1dqVFdMclJ1N2lCbWJzUm1DcEZwbkFlQi1WcWZ5ODlETVhpNGd5ZDIydWhiTzh6eGN6RG9QbXFsa0lrdWtGVmVncTRXdG9SNGJ4eGd4blZNUm5QX296d29SX3VRUVFQMkZrQUpIRTRWdXNIZHpnek04RXIwWmxzNWxyQ3hvVmRL?oc=5",
+     "source": "StoneX",
+     "published": 1792277271,
+     "text": "S&P 500 Forecast: SPX holds steady as tech stocks decline and banks rise post-earnings StoneX"
+    },
+    {
+     "id": "b697c5a40666",
+     "title": "'Dead money’ for a decade: Why this hedge fund approach may deliver an advantage over bonds",
+     "link": "https://www.cnbc.com/2026/10/17/dead-money-for-a-decade-hedge-fund-approach-that-may-trump-bonds.html",
+     "source": "CNBC Top News",
+     "published": 1792249201,
+     "text": "Investors may want to rethink their bond allocation and opt for managed futures exposure."
+    },
+    {
+     "id": "948eb2211aac",
+     "title": "Influencers and biohackers swear by fasting. Here’s what the science says.",
+     "link": "https://www.marketwatch.com/story/influencers-and-biohackers-swear-by-fasting-heres-what-the-science-says-3318191f",
+     "source": "MarketWatch",
+     "published": 1792240260,
+     "text": "Fasting can help some people reduce how many calories they eat — but it’s not “effortless” as some would have you believe."
+    },
+    {
+     "id": "f42acd7202f3",
+     "title": "CoreWeave Is Projected to Have a 6.3x Gross Leverage Ratio by Year End. The Market Is Worried About the Neocloud's Balance Sheet.",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ1Y3alFvU3ZCLUxDQy12enFhUV81N2NicmtYaFBFSEVoeXdjQWZyVXRUeDFKLTRUMGJsWVhaQUlEWG1IM19TMmxYN0hDbDhUbmxBanJZSVp0M011d3BjLTNJUXFLdzJTVzBuS2RkRzhqaXlrMU90SHVCSTN4MDEzVTQ2S2JhajdscTdqcWxsUlVJcVJUazI4bA?oc=5",
+     "source": "The Motley Fool",
+     "published": 1792276200,
+     "text": "CoreWeave Is Projected to Have a 6.3x Gross Leverage Ratio by Year End. The Market Is Worried About the Neocloud's Balance Sheet. The Motley Fool"
+    },
+    {
+     "id": "df0c44f81277",
+     "title": "Trump's student loan overhaul could lead to more bankruptcy filings, former judge says",
+     "link": "https://www.cnbc.com/2026/10/17/trump-student-loans-bankruptcy.html",
+     "source": "CNBC Top News",
+     "published": 1792243801,
+     "text": "After nearly three decades as a bankruptcy judge, Sarah Sharer Curley writes about the legal process in her new book, \"The Price of Forgiveness.\""
+    },
+    {
+     "id": "b0585803586b",
+     "title": "Silver’s recent 50% drop from a record high hints that an economic slowdown looms",
+     "link": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1",
+     "source": "MarketWatch",
+     "published": 1792240200,
+     "text": "There’s a relatively off-the-radar commodity that can provide hints on where the economy is headed — and it’s seen its value drop more than 50% from a record high earlier this year."
+    },
+    {
+     "id": "7ad9fff8123e",
+     "title": "Presidential Election Cycle: Years like 2027 have been best for stocks historically",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSnhGbUpPRHZ6eWxZbGdDZWdUcUlCVXlGRkF0M3plUkNzOUNvSWNGb0FJeC1WcDFsdi1fTTB5bGFod0Jwdk5oQ0N5WjNqNGJTemZhTlVFQ1hFVVRiLUdNaE1DLVJNOE10TkVDNnNVQlQ5ZjhpSzZkU19EX0c3OGdaOWJ5UEg?oc=5",
+     "source": "Opening Bell Daily",
+     "published": 1792275757,
+     "text": "Presidential Election Cycle: Years like 2027 have been best for stocks historically Opening Bell Daily",
+     "summary_th": "ตามสถิติในอดีตของวัฏจักรการเลือกตั้งประธานาธิบดี ปีเช่นปี 2027 ถือเป็นปีที่ดีที่สุดสำหรับตลาดหุ้น",
+     "importance": 1,
+     "numbers": [
+      "2027"
+     ],
+     "tags": [
+      "us stocks",
+      "presidential cycle"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "a8a16f475b08",
+     "title": "'Everyone laughed' when he started a pumpkin farm—now it brings in $2 million a year",
+     "link": "https://www.cnbc.com/make-it/2026/10/17/great-pumpkin-farm-new-york-2-million-revenue.html",
+     "source": "CNBC Top News",
+     "published": 1792242001,
+     "text": "Kelly Schultz bought a pumpkin farm in 1996. He transformed it into a seasonal attraction that draws in 100,000 visitors each fall.",
+     "summary_th": "Kelly Schultz ซื้อฟาร์มฟักทองในปี 1996 และพัฒนาจนดึงดูดนักท่องเที่ยวได้ 100,000 คนในทุกฤดูใบไม้ร่วง สร้างรายได้ 2 ล้านดอลลาร์ต่อปี",
+     "importance": 0,
+     "numbers": [
+      "$2 million",
+      "1996",
+      "100,000"
+     ],
+     "tags": [
+      "entrepreneurship"
+     ],
+     "entities": [
+      "Kelly Schultz"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "1b8948e46756",
+     "title": "Microsoft, Shopify and 3 more AI stocks that are favorite Wall Street earnings plays",
+     "link": "https://www.marketwatch.com/story/microsoft-shopify-and-3-more-ai-stocks-that-are-favorite-wall-street-earnings-plays-0bb61e81",
+     "source": "MarketWatch",
+     "published": 1792238460,
+     "text": "As earnings season kicks off, select tech companies have the opportunity to deliver big positive surprises for investors.",
+     "summary_th": "Microsoft, Shopify และหุ้นกลุ่ม AI อีก 3 ตัวกลายเป็นหุ้นที่วอลล์สตรีทจับตามองในช่วงเริ่มฤดูกาลประกาศผลประกอบการ",
+     "importance": 1,
+     "numbers": [
+      "3"
+     ],
+     "tags": [
+      "earnings",
+      "ai stocks",
+      "us stocks"
+     ],
+     "entities": [
+      "Microsoft",
+      "Shopify",
+      "Wall Street"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "5923e09aac17",
+     "title": "Stock market after midterms: S&P 500 up all 19 times",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPclVnRTFJd0RCUHlZcU1mdC1BdzhOUlh0TTJ2NERSMUZTSktrZWZ1NXc3QmhmYmJIdlJTOXlPcVc4TEdrOHpaMlltRnFMVWF1YWpEem1ZaDVsYkpSSFVETUpJSGNvcEFQQUhVUWVWbU1fWEtpTko4MEZjZVVscHdBVQ?oc=5",
+     "source": "Opening Bell Daily",
+     "published": 1792275457,
+     "text": "Stock market after midterms: S&P 500 up all 19 times Opening Bell Daily",
+     "summary_th": "ดัชนี S&P 500 ปรับตัวขึ้นครบทั้ง 19 ครั้งในช่วงหลังการเลือกตั้งกลางเทอมตามสถิติที่ผ่านมา",
+     "importance": 1,
+     "numbers": [
+      "19"
+     ],
+     "tags": [
+      "s&p 500",
+      "us stocks"
+     ],
+     "entities": [
+      "S&P 500"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "bf8cddd61d5f",
+     "title": "Berkshire shares buck market sell-off, rally to highest since Buffett said he would step down as CEO",
+     "link": "https://www.cnbc.com/2026/10/17/berkshire-rally-to-highest-since-buffett-announcement.html",
+     "source": "CNBC Top News",
+     "published": 1792241181,
+     "text": "Berkshire Hathaway shares are at their highest level since Warren Buffett told shareholders at the May 2025 annual meeting he planned to step down as CEO at the end of that year.",
+     "summary_th": "หุ้น Berkshire Hathaway พุ่งแตะระดับสูงสุดนับตั้งแต่ Warren Buffett ประกาศในการประชุมผู้ถือหุ้นเมื่อเดือนพฤษภาคม 2025 ว่าจะลงจากตำแหน่งซีอีโอ",
+     "importance": 2,
+     "numbers": [
+      "May 2025"
+     ],
+     "tags": [
+      "berkshire hathaway",
+      "us stocks"
+     ],
+     "entities": [
+      "Berkshire Hathaway",
+      "Warren Buffett"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    }
+   ]
+  },
+  {
+   "key": "macro",
+   "label": "เศรษฐกิจโลกและนโยบาย",
+   "items": [
+    {
+     "id": "2fff25c81ddb",
+     "title": "How day of protests unfolded as disorder breaks out across France",
+     "link": "https://www.bbc.co.uk/news/videos/cwz0vy770gpzo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "published": 1792272797,
+     "text": "Demonstrations across the country turned violent, with cars and buildings set alight and shops ransacked.",
+     "summary_th": "เกิดการประท้วงและการจลาจลทั่วประเทศฝรั่งเศส โดยมีการเผารถยนต์และอาคาร รวมถึงมีการปล้นสะดมร้านค้า",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "protests",
+      "france",
+      "unrest"
+     ],
+     "entities": [
+      "France"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "46647e002280",
+     "title": "European diplomats attacked by Israeli settlers in West Bank",
+     "link": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "published": 1792281158,
+     "text": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign.",
+     "summary_th": "นักการทูตยุโรปถูกทำร้ายโดยผู้ตั้งถิ่นฐานชาวอิสราเอลในเวสต์แบงก์",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "diplomats",
+      "west bank",
+      "israel"
+     ],
+     "entities": [
+      "West Bank"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "1d0181616220",
+     "title": "It’s not all about energy | Tatiana Bailey",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9NWTZRalphbEcwOXF6Z2ZuWnh0UVBXVlM5X3NIdjFpV0g3bE93ZzdNWFROYVJudEd4ZTdrUFJlUEI1VGFBRFJSXzhJZDlCa3kxdTlJb21YOG9XNHk5LURDNGZuMVVqTVozMkdHZ3N0bU0wWGRtQkNpQnhNdHFpQQ?oc=5",
+     "source": "Colorado Springs Gazette",
+     "published": 1792281600,
+     "text": "It’s not all about energy | Tatiana Bailey Colorado Springs Gazette",
+     "summary_th": "It’s not all about energy | Tatiana Bailey",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "energy"
+     ],
+     "entities": [
+      "Tatiana Bailey"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "07aaa509169c",
+     "title": "Low-cost clinic helps pet owners with vet bills",
+     "link": "https://www.bbc.co.uk/news/articles/c6kgl39rnnvzo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "published": 1792246322,
+     "text": "RSPCA Medway West launches its clinic for the pets of people with low incomes.",
+     "summary_th": "RSPCA Medway West เปิดคลินิกราคาประหยัดสำหรับสัตว์เลี้ยงของผู้มีรายได้น้อย",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "pets",
+      "clinic",
+      "charity"
+     ],
+     "entities": [
+      "RSPCA Medway West"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "e9908c4bb9c9",
+     "title": "Photos show luxury boat with 50m pool and water slides near Kim Jong Un's summer retreat",
+     "link": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "published": 1792274990,
+     "text": "Satellite images give clues about how Kim spends his holidays - something far out of reach for most North Koreans.",
+     "summary_th": "ภาพถ่ายดาวเทียมเผยเรือหรูพร้อมสระว่ายน้ำ 50 เมตรและสไลเดอร์ใกล้ที่พักฤดูร้อนของคิม จองอึน",
+     "importance": 1,
+     "numbers": [
+      "50m"
+     ],
+     "tags": [
+      "luxury boat",
+      "north korea",
+      "kim jong un"
+     ],
+     "entities": [
+      "Kim Jong Un",
+      "North Korea"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "9780b42ddf61",
+     "title": "The U.S. Producer Price Index and Its Influence on Bitcoin and XRP",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1KaV9saFJGUzg2RDNUWWxyWUtjbFN4SkcxN09WVkpzMkxKelZ4MnRiSGdoc0ttZEt6RkdJN3J4alY5cVF2VUFjai1ZbDAycmNmcUlqZGR0U2hjTWRmTkJ6bFduT0JIY0tDVjd2UkJUQVlLZERjLXJwQzFrM1h2Zw?oc=5",
+     "source": "OneSafe",
+     "published": 1792280930,
+     "text": "The U.S. Producer Price Index and Its Influence on Bitcoin and XRP OneSafe",
+     "summary_th": "ดัชนีราคาผู้ผลิตของสหรัฐฯ และอิทธิพลที่มีต่อ Bitcoin และ XRP",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ppi",
+      "bitcoin",
+      "xrp",
+      "crypto"
+     ],
+     "entities": [
+      "Bitcoin",
+      "XRP"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "262cbe93a601",
+     "title": "Call for more food funding due to high living cost",
+     "link": "https://www.bbc.co.uk/news/articles/cqde8zk6d916o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "published": 1792217896,
+     "text": "Deputy Louise Doublet does not think the cost of living was considered in the ending of a trial.",
+     "summary_th": "รองหลุยส์ ดับเบิลเลต์ เรียกร้องให้มีทุนสนับสนุนอาหารเพิ่มขึ้นเนื่องจากค่าครองชีพสูง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "food funding",
+      "cost of living"
+     ],
+     "entities": [
+      "Louise Doublet"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "471ee3079028",
+     "title": "Anti-government protesters battle with police in Albania",
+     "link": "https://www.bbc.co.uk/news/articles/crwydey50xeno?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "published": 1792270380,
+     "text": "There were violent clashes between demonstrators and riot police throughout Saturday in the capital Tirana.",
+     "summary_th": "ผู้ประท้วงต่อต้านรัฐบาลปะทะกับตำรวจปราบจลาจลในกรุงติรานา ประเทศแอลเบเนีย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "protests",
+      "albania",
+      "clashes"
+     ],
+     "entities": [
+      "Albania",
+      "Tirana"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "f6b593762040",
+     "title": "Rick Larsen on Boeing, Tariffs, and Holding Trump Accountable",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONU40RXNmSTVrekpfak1JRXJxRjFTZWpHMEpMMjJ0NTNISEpjR1NRSmpxS29hRDR3UnNiVmh1ekQ3Q0paQ2REVEtsVFdyTTYwQXlKUm42YUFJNkpqTnNwTGxadThEaEhBRXFUNTBTSi01LWQ4c3ZEY2ZzZkREN3NnWnZhb0FXMW90Q243QnVtbng0NHhBSzc3UWQ3MmQ4M0xrQW8wY2EyT3BjVzdPa3VwMmFxcGVRWDJ0VmJFXzd4UEx6Z2dySHhKNEtEYw?oc=5",
+     "source": "MyNorthwest.com",
+     "published": 1792280100,
+     "text": "Rick Larsen on Boeing, Tariffs, and Holding Trump Accountable MyNorthwest.com",
+     "summary_th": "ริก ลาร์เซน พูดคุยเกี่ยวกับบริษัทโบอิ้ง ภาษีนำการค้า และการตรวจสอบทรัมป์",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "boeing",
+      "tariffs",
+      "trump"
+     ],
+     "entities": [
+      "Rick Larsen",
+      "Boeing",
+      "Trump"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "521f9fb6978c",
+     "title": "Charity reflects on changing needs over 25 years",
+     "link": "https://www.bbc.co.uk/news/articles/c615jnxv7n45o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "published": 1792217514,
+     "text": "Help a Guernsey Child says it has provided in excess of £1.2m worth of essential support.",
+     "summary_th": "การกุศล Help a Guernsey Child ระบุว่าได้ให้ความช่วยเหลือที่จำเป็นมูลค่ากว่า 1.2 ล้านปอนด์",
+     "importance": 1,
+     "numbers": [
+      "25",
+      "£1.2m"
+     ],
+     "tags": [
+      "charity",
+      "guernsey",
+      "support"
+     ],
+     "entities": [
+      "Help a Guernsey Child"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "677a5979cfb8",
+     "title": "Violent clashes, looting and buildings ablaze in France as over 1,000 arrested after protests",
+     "link": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "published": 1792270337,
+     "text": "Disorder broke out in cities across the country on a day in which more than half a million joined cost of living protests.",
+     "summary_th": "เกิดการปะทะรุนแรง การปล้นสะดม และไฟไหม้อาคารในฝรั่งเศส โดยมีผู้ถูกจับกุมกว่า 1,000 คน หลังประชาชนกว่าครึ่งล้านเข้าร่วมประท้วงค่าครองชีพ",
+     "importance": 2,
+     "numbers": [
+      "1,000"
+     ],
+     "tags": [
+      "protests",
+      "france",
+      "cost of living",
+      "unrest"
+     ],
+     "entities": [
+      "France"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "935b3685f6e1",
+     "title": "Trump waives most Russia sanctions and tariffs days before they were to take effect",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUWJWME5PSkllcG9kcmhOTTlWay0xdmt5ZFpBSzQzNXlQSGhoNXpWck1XdUNVYlVEb2I1N3lBS29wcUFfaHlfTzJzcHNfNVZKalptVDhhSmlZRDZVcG9YblI4NXdCc3BsWGp6SGEtb3RNN1c0YWgtTEt2MTJaSlBvd0RYajY2RVg0cE1BUmtBeTlhZ1pmdldQdzRnOXJDRmk1Y3Ewek9LYTgzcnVZZ1lEY2hjMmcybGF6RkVrSldn?oc=5",
+     "source": "KHGI",
+     "published": 1792277550,
+     "text": "Trump waives most Russia sanctions and tariffs days before they were to take effect KHGI",
+     "summary_th": "ทรัมป์ยกเลิกมาตรการคว่ำบาตรและภาษีส่วนใหญ่ของรัสเซีย ไม่กี่วันก่อนที่จะมีผลบังคับใช้",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "trump",
+      "russia",
+      "sanctions",
+      "tariffs"
+     ],
+     "entities": [
+      "Trump",
+      "Russia"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "7d9de05a48c4",
+     "title": "Nightclubs are disappearing - and it's affecting young people",
+     "link": "https://www.bbc.co.uk/news/articles/cm5yngn0pl2ro?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "published": 1792216915,
+     "text": "One young person said with no nightlife in their town they cannot \"let loose and mess around\".",
+     "summary_th": "ไนท์คลับกำลังหายไป ส่งผลกระทบต่อวิถีชีวิตของคนรุ่นใหม่ในเมือง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "nightlife",
+      "youth",
+      "business"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "b6bb1637df09",
+     "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+     "link": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "published": 1792264759,
+     "text": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
+     "summary_th": "ประธานาธิบดีสหรัฐฯ ยุติข้อจำกัดหลายประการต่อมอสโกชั่วคราว ท่ามกลางความขัดแย้งที่รุนแรงขึ้นกับเซเลนสกี",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "trump",
+      "russia",
+      "sanctions",
+      "zelensky"
+     ],
+     "entities": [
+      "Trump",
+      "Moscow",
+      "Zelensky",
+      "US",
+      "Congress"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "d43f658f5ce4",
+     "title": "Trump looks to rein in fuel prices ahead of midterms; waives threat of 100% tariffs on India over Russian",
+     "link": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxPcXQ5REJZUnlzMDZwM3JFR1VZSTZDM3dIUWxHekVaX0RHVW13WEpqM21TcHZfZE9Bc1ozcmdDbVQzY2RXTHNwRzNlWmxvel9MSUdQZEVUSkg2MzBWSGlSdDV1NnJrNzgxcVd2c3czMTlUcXVwNndqNnktWlIxVm9XdDVwNFFVdkkySzFwY2dDTWxuQWZUNkNQQkdVMU5oeHp0bXVGaVdhUzYxX0hpSzJwYzhTY2JCRjczaDYzT29iRTJvRThOR093Wk4xdUYxX3lDNUg0YkdSQnRFYVpDaTVmMzNiZ3ZnRVJnbjE1RTVnNnUzWk5rc3JybUJMcGZPaXhjTm9DV1FkZmNPQ1hLa3JVeTM1cVd0NmxqQnhrQzdWMmFTN2VpQWFoNWZyc25EaHdpSHFfRDhWcDdyTWxhSm9lMkswbTBXY09qYmc1Zno1akdkSHppS09tY3R3bXVTV2pQU2Zv0gHoAkFVX3lxTE4yV1pEYTh1YnBSbUs3QmRDUHNHcUtpbm94RGRxNmxpNGl4c0JEUlR3QzdVN3JfdE5KQXd6Mzd0MkxoUEFiVHI2eGNQdUx5cS05RV9KSUNqOC04UjFRdllhdDI0eHNadU5tMWZnaGFRa05DUnkzVVlJdXUxSnlZTHNHN2cyRFBFUXZWaFRMQThjc3dLbVV5M2N1RlZrZnpIZVd4amlPN1p6VzFYTkFEM3VNRkxzVDVOR3l2bTR4dS1rZldnNVNpamRPdnR4MXYwTFZQbHpyZG1yT2VuT2JtTjB1ZmpWeEQ2bkdBUjA3dTdHWTJWX0xBN0Z4akV0UUZ6Z21BWGxPNTExbVpYcENwa3E5aTZ6SWdOaXBkZWNfZGdybEFrb181UnZZaHZKbDhfSDVmM0FCNGJvSmdLTVdreV91OTlQQVBURW1YRVhCdHEtUU1yMHpuMy1EV193SDB3Z2NSbVNCeGtDaQ?oc=5",
+     "source": "The Economic Times",
+     "published": 1792276200,
+     "text": "Trump looks to rein in fuel prices ahead of midterms; waives threat of 100% tariffs on India over Russian The Economic Times",
+     "summary_th": "ทรัมป์มุ่งควบคุมราคาน้ำมันก่อนการเลือกตั้งกลางเทอม และยกเลิกการขู่เก็บภาษี 100% กับอินเดียในประเด็นรัสเซีย",
+     "importance": 3,
+     "numbers": [
+      "100%"
+     ],
+     "tags": [
+      "trump",
+      "fuel prices",
+      "tariffs",
+      "india"
+     ],
+     "entities": [
+      "Trump",
+      "India",
+      "Russia"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    }
+   ]
+  },
+  {
+   "key": "oil",
+   "label": "น้ำมันและพลังงาน",
+   "items": [
+    {
+     "id": "bb6cc5c6aa9e",
+     "title": "Oil Prices Stay High as War Keeps Supply Tight Into 2027",
+     "link": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Stay-High-as-War-Keeps-Supply-Tight-Into-2027.html",
+     "source": "OilPrice.com",
+     "published": 1792278000,
+     "text": "During the first three months or so of the U.S. and Israeli war with Iran, the dominant mood on oil markets was that the conflict would end any day now. The brief June ceasefire reinforced that optimism, so it took a while longer for facts to be faced: the war would not end any day now. It might even extend into next year—and this means higher prices for a longer time. The ICE Brent crude futures contract for January 2027 is trading at $102.59 per barrel. The June 2027 contract is only slightly lower, at $92.71 per barrel, and the December…"
+    },
+    {
+     "id": "2903b1db02bf",
+     "title": "3 Oil And Gas Stocks To Watch As Higher Crude Prices Test Pricing Power",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMWt5UmNJSGZzTnAxcmJFN2dxNkoySDcxakpZNmhReUo4c3lPUFlBa28tZlZEaHFOZkFVLXNlc2g5ZEt2bG16R0NWVjdibWZ3d0EtajA1c0MyVkVKRWU2TVJoZFpiekNfQUEwbktUZl9yQW9iaDRMM1ZPaXVBSXo3dlIyZUxrcG5lQzFfaEozN3BTR2N3LXpKUTFoRTV1TVg3ZzhweE1BckN6WGFmanNKS3Z3RFdpLTR1WE10blJQdkVrRmZ4Mm42Ykdhem5rOU1PVDY1c2dvMko4UnI30gHcAUFVX3lxTE0xa3lSY0lIZnNOcDFyYkU3Z3E2SjJINzFqSlk2aFF5SjhzeU9QWUFrby1mVkRocU5mQVUtc2VzaDlkS3ZsbXpHQ1ZWN2JtZnd3QS1qMDVzQzJWRUpFZTZNUmhkWmJ6Q19BQTBuS1RmX3JBb2JoNEwzVk9pdUFJejd2UjJlTGtwbmVDMV9oSjM3cFNHY3ctekpRMWhFNXVNWDdnOHB4TUFyQ3pYYWZqc0pLdndEV2ktNHVYTXRuUlB2RWtGZngybjZiR2F6bms5TU9UNjVzZ28ySjhScjc?oc=5",
+     "source": "Simply Wall Street",
+     "published": 1792280840,
+     "text": "3 Oil And Gas Stocks To Watch As Higher Crude Prices Test Pricing Power Simply Wall Street"
+    },
+    {
+     "id": "9dcfc757a641",
+     "title": "Middle East Chemicals Keep Their Cost Edge Despite Hormuz Crisis",
+     "link": "https://oilprice.com/Energy/Natural-Gas/Middle-East-Chemicals-Keep-Their-Cost-Edge-Despite-Hormuz-Crisis.html",
+     "source": "OilPrice.com",
+     "published": 1792270800,
+     "text": "Despite the Iran war and the Hormuz crisis, the Middle East’s low-cost chemicals production is set to retain its long-term advantage over other regions. Near-term shifts in the sourcing of polymers are taking place due to the current constraints in the Persian Gulf’s industrial base, benefiting U.S. chemicals companies. But in the long run, the Middle East is likely to retain its buyers’ base because it still has the two levers to be competitive on the global market—an extensive production base and, most of all, low-cost…"
+    },
+    {
+     "id": "d186d62e0f6d",
+     "title": "National Gas Prices Stay Near Recent Highs as Crude Oil Nears $100",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT3JtbWFRR19LRDFEeFBnNG41blBYbF9hVzZWUDl2ckdUZ1JvSi1qLVVSNzViT1p4TnkxU3NvMnVDMEIyM2lncGYzVnJzYlJCUXl3cHB0d1ZQVXhSTXVFVzl1ak5mZTlIM3lCM00xZWIzWjdpMVNLcGxPOXlQXzB3STgzMEo5bXhFU3BpRGdybVJNVGNMLUp3R0lRZWpmMFhIY1NoTUlsVEJVRG1jLTMyNA?oc=5",
+     "source": "Clarksville Online",
+     "published": 1792278006,
+     "text": "National Gas Prices Stay Near Recent Highs as Crude Oil Nears $100 Clarksville Online"
+    },
+    {
+     "id": "58d08ce00cc0",
+     "title": "Texas Researchers Say Permian Wastewater Could Cool AI Data Centers",
+     "link": "https://oilprice.com/Energy/Crude-Oil/Texas-Researchers-Say-Permian-Wastewater-Could-Cool-AI-Data-Centers.html",
+     "source": "OilPrice.com",
+     "published": 1792256400,
+     "text": "The artificial intelligence boom is placing a dangerous strain on the world’s water and energy resources. As hyperscalers build up resource-hungry data centers at a breakneck pace, demand projections for these finite resources are skyrocketing faster than policymakers can keep pace. But a new study from researchers at the University of Texas at Austin suggests that there may be a way to sustainably source water for data centers by using wastewater from the oil and gas industry. The water and energy use of AI data centers is enormous…"
+    },
+    {
+     "id": "dd20a0d3ae4f",
+     "title": "Macklem sees higher oil prices boosting growth, inflation",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSlV6NEhtZnJBTENmLXBadlV2eGxwU25FQWR4VGFOVk1QYmlXT3ZXaG8xVkF6bkNUTlY3ck52UlVGdTloajEyMzM3LUNWazdjb05DNEhXSjduckFsZGZxSHl6UHlDaGJ6aXNTY0lzbVNPa3BucDdQTlNQT3h0ZzlYOFpjQTVOaS1BOF9kLWhiWG9ONDJvVFg5UVJ5d1JVQ1JsRVQ1UGRIOA?oc=5",
+     "source": "Canadian Mortgage Trends",
+     "published": 1792271612,
+     "text": "Macklem sees higher oil prices boosting growth, inflation Canadian Mortgage Trends"
+    },
+    {
+     "id": "3e3404cc4e6b",
+     "title": "Europe Braces for a Winter Energy Crisis as Gas Reserves Run Low",
+     "link": "https://oilprice.com/Energy/Energy-General/Europe-Braces-for-a-Winter-Energy-Crisis-as-Gas-Reserves-Run-Low.html",
+     "source": "OilPrice.com",
+     "published": 1792256400,
+     "text": "After months of elevated energy prices, Europe can expect fuel costs to continue rising through the winter months as demand grows. Ongoing energy trade constraints and threats to energy infrastructure across the Middle East are expected to limit global energy supplies and continue to drive up prices, hitting consumers hard unless governments intervene. The European Union (EU) is thought to have paid an additional €100 billion on oil and gas so far this year, prompting EU ministers to seek ways to manage the impact of high fuel prices. Since…"
+    },
+    {
+     "id": "02403fb8b359",
+     "title": "Enbridge Stock And Canadian Midstream Shares Worth Watching As Oil Prices Rise",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTmNkMkRlQmM3c08tYUZKUk9TNW1UczZWOHoyZXczazIwR3hfMTEyTmxoVUplbEQ4Wm5jWHo5RmtCZ3hqNWNJX1pTR3UwVGkxSDV3d3ZhQ3pGdUJFYjkxMTZiSGgwd3hIa0ZTbHhLWWlRSktheGk3azNCa0Zfd0lneWoyNWg4UEhTdlJ2amhhU0dXdlN0MDIteHlvdDFqbXdXbFNJMkhKNmVpMkE4ZnpkZDBRb3RFRTdCZEpFa3FKQm1hTDVtR1HSAcsBQVVfeXFMTzhIU05sWURYV1RVOGdKRFA3RnhVclpkQ1lhN0lwd2U1bmFWQlkyNWlSUDV2VGdOZW85OUhfTnFmd0pDYXAtOHUzdndua3R0ZEM0UHhFaXJoUHhPVFhyM2JDT1EwemRiX001UVEtVGFDUl93TEJCN2RtWU9lRXl6OTBzZ3pVeUlWYXJiNmdZbzNwbmJtRlR6S2ZhcUZSelA4NWR3ZU1XTjVMUTZYMHJIRTliWFVNMGloYVFRRi1mVnlHWFRFbzB3cW4zT1k?oc=5",
+     "source": "Simply Wall Street",
+     "published": 1792269374,
+     "text": "Enbridge Stock And Canadian Midstream Shares Worth Watching As Oil Prices Rise Simply Wall Street"
+    },
+    {
+     "id": "1c28ffc28ce5",
+     "title": "Bolivia’s Energy Crisis Deepens as Natural Gas Reserves Run Dry",
+     "link": "https://oilprice.com/Energy/Energy-General/Bolivias-Energy-Crisis-Deepens-as-Natural-Gas-Reserves-Run-Dry.html",
+     "source": "OilPrice.com",
+     "published": 1792249200,
+     "text": "Years of underinvestment in Bolivia’s gas industry have left the South American country facing a severe fuel shortage, as energy prices rise ever higher owing to the ongoing war in Iran. The energy shortages and economic crisis follow years of poor decision-making by the government. In 2006, then-president Evo Morales took control of Bolivia’s fossil fuel industry, renegotiating contracts with international oil and gas companies and benefiting from the revenue. Much of the country’s newfound wealth was invested in public spending…"
+    },
+    {
+     "id": "a6b2be2274b1",
+     "title": "Oil Prices Could Reshape International Consolidated Airlines Group Stock",
+     "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNRFNrNUIwMWp0MWdWeDF5Z1U5RU1ZbXN2YktoNkNPb2hlR3ltaFVpTzZFMmQwSURLNGdkS3MyQnpuZHZPV2J4UmtRYWc3azZmcUdsWTBwTml1TjdUbnYxdEVHWEp3bmxrdzZycWJKMERtbEFDdXdWVDFKOWJobjhPcWloSnlXOXdkbERGa0xuNWpUOEkxRDhrRVJ6Sms5ZlA3b0dCS0wtdHNBblViTGRjdXg2RDlxZnBTQTBrMk44V05qd3hkVXBxN1ZmY3daU2p2ME9Ic05FVjM2eU1VbEEtb1RIV1VoN3Z5ZGxuYml4SnV1M3NSdngwLTRJY05IUdIBgwJBVV95cUxQcm85UW5JcjAwTGVlN1A4V1FqQXdLLTd2UjRmSEt2VTczb2llYmpIaGV1UHQ4ak4tT0tndDRneXAzanpVaTdrTTRqV2ZHamJ6UlY3Zm9jbzlyeXp2TVVkdUFocVdpQVVLZGJsSU5vdmYwcDJ4MjRPUE5RTmJXZlhiUV83OS1YVlJnR1hlNno0SlR6Z24xb29pcVlWQmViclV0ZDJETm1JSTROaUM1aDBEWjdzSnk0ZTdyVmNOZ3R6LU82VFduT2ZMUHRwODhNUXVxRU5fcWY4OHBkVGI3bWY5UDR5aTh0RzdsR1lkMEZGdVZBWENvYVg4OGl2ZWpJZEs5TDVV?oc=5",
+     "source": "Simply Wall Street",
+     "published": 1792269374,
+     "text": "Oil Prices Could Reshape International Consolidated Airlines Group Stock Simply Wall Street"
+    },
+    {
+     "id": "678b334fc96a",
+     "title": "Weekly Commodity Wrap: Oil Prices Surge, Gold And Silver Fall As Inflation Concerns Rise",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWkp6UHNBRm1UT2NHZFZod2w3aloyZEZEcmo5NVR3VjVTMENVNkZoa2ZHc1dHelM4SmtQQWRRRENxRmhMX1BwY2h4elg4OGtRR2JPQTdRQ2ktdHpMZlFLdnljeTVneC15ZE5UenU0eE8yUUJSdFNNekhkMTlyWjJsV0phOEFFcThLZkFhbTBKbjhvR2hpUHpQVlVvdnZmZEJXTFpncE93VURSLU56bnRVOW4tLTJQbjZpbUdHZGREbXlDMlJrVXlFQnB3?oc=5",
+     "source": "BW Businessworld",
+     "published": 1792265360,
+     "text": "Weekly Commodity Wrap: Oil Prices Surge, Gold And Silver Fall As Inflation Concerns Rise BW Businessworld"
+    },
+    {
+     "id": "3f7c3f9a2b5d",
+     "title": "US, Israel face threats of war if oil prices keep rising",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsY1JDdGkySENGaDFUSGF4MTdTTlNMeXFSYXhnZWZKdWxjeV9BREF3X0FVY2hCWmlQNl9DRE1ZdktlZWdqMGxQRE15dHZJdEc0c2NJdE1tLTQ5MzJwcEpjUGxkRmNPUE40NkE?oc=5",
+     "source": "The Jerusalem Post",
+     "published": 1792265225,
+     "text": "US, Israel face threats of war if oil prices keep rising The Jerusalem Post"
+    },
+    {
+     "id": "b0e8552cd1bc",
+     "title": "Beyond Crude: Why Refinery Bottlenecks Are Driving Pump Shock and Could Dampen U.S. Growth",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTjFHdnN4ODdqV1NzOFl3QlRwRWNJRGdqbDNVQU5iTUZxVWhzcTNGQWxnNDc1M0JEZEFaVDl3WUJUY3J3S3BEU0VhVWRYaFZTZldfTHpDa0RGV2l1d1RXU1hmZW1sbHVJeDNhY1c0NHFRV3BxenlwbTE2QWR3MUpYeVFkZk5fUldoT09r?oc=5",
+     "source": "Barron's",
+     "published": 1792263060,
+     "text": "Beyond Crude: Why Refinery Bottlenecks Are Driving Pump Shock and Could Dampen U.S. Growth Barron's"
+    },
+    {
+     "id": "3e54d667fd11",
+     "title": "Trump’s yo-yo diesel diplomacy",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPX3pIU3lfNXh3MTRueURMTmVudmJCSU04XzNnaUNLZDBoQXd0RVFXN3d4YW5BRHc3aFR6TzdVMnFGbGtOcnhNX3c4OHhvX3d6Vm03ZDFrUnF5dDQ3WHdVVUxNazRJNkl6M252QWV6MmoyMUtGdVVZSjZ0cHlBcU55TjRmSXVteFNFNE1vWE5R0gGbAUFVX3lxTE9QM0RWMFVUTU1YWFRqUTM2YXNFdEoxN2NLZWhuOEI1YXFFT3RabFBqUXRlOHYxYjRKSTNUOHpscGtOUVRIVTN6ZlpvaElxS1gwdnFNNl9yZzR1Ylh4aUhNNF9GOHE5WE5YTnJPWjNqcm96d1Rtdi1ZTWUwUHR1MFM2M1VNLUl4Q1M0R2Y1bWJPXy1lUmIySmxhdEln?oc=5",
+     "source": "The New Indian Express",
+     "published": 1792262710,
+     "text": "Trump’s yo-yo diesel diplomacy The New Indian Express"
+    },
+    {
+     "id": "291d0f5df0b3",
+     "title": "Texas Crude Closes at $101 for the First Time in a Month: Hormuz Mines, Houthi Missiles and Ukraine Drones",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSE5xbVQ3dzhWbDVLMF83ZzlkMWxRMXVuYV9sWUdoeVFNN0wyLWxNNFdIemZjQ2lnaWZGeVBaWGJqU1FURElVajZfU3J6S3pRRVM3X25YZF9wZzlJdkxEajVnSXZTRFhhMC1iNTB5ekhvekJVX0pHSWlHV0xFV3FkYUNLM053MzgyU1FsWlI1M2VzZGl0RXI5RHFIVFBNaEFjTHhlQ2E2aElaNFA3MWpnazJ0N2xDeFp6?oc=5",
+     "source": "Latin Times",
+     "published": 1792260822,
+     "text": "Texas Crude Closes at $101 for the First Time in a Month: Hormuz Mines, Houthi Missiles and Ukraine Drones Latin Times"
+    }
+   ]
+  },
+  {
+   "key": "gold",
+   "label": "ทองคำ",
+   "items": [
+    {
+     "id": "c1207c0b36ff",
+     "title": "Gold prices today (October 18): Domestic gold prices continue to fall.",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObDlhQUtWalBYUkJZZVl6c2lUOWRWMlhDTVdBeXZBZ29YNTdYblRDRk0tRHNFU1R1NGhHVFlULTJpTnprc0xGNWhpcm90dGFOS2UxR005S1ZqSGFXLVdfaXBLQTVUc2R3TTE3VUVtc0VldlZFbXU4V0M1SGRSNWRfSHVnNk5FU3N6?oc=5",
+     "source": "Vietnam.vn",
+     "published": 1792282112,
+     "text": "Gold prices today (October 18): Domestic gold prices continue to fall. Vietnam.vn",
+     "summary_th": "ราคาทองคำในประเทศยังคงปรับตัวลดลงในวันที่ 18 ตุลาคม",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold price"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "e272ce560c2d",
+     "title": "Pakistan gold prices decline as global bullion rates ease",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZEJRT1AxWFNmOHBoVlZ2TUZ5Njd2MzF1SmE4YTJEVUpTUlBGWl9jclNBZlFxR2FLdS1BTFctU3ozWWc2bE9wWHFLdWN6TkwxTEs3TEtnYlRQY1Z4anZCTWdfTVJmRkhFR1J1dE5VeExOZ0dCT0ZsYkxFZEo4bjdCdGlWN2hHR2RrWmZUZUZOTm5pQy1QcXc?oc=5",
+     "source": "Traders Union",
+     "published": 1792271482,
+     "text": "Pakistan gold prices decline as global bullion rates ease Traders Union",
+     "summary_th": "ราคาทองคำในปากีสถานปรับลดลงตามราคาตลาดโลกที่ชะลอตัวลง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold price",
+      "pakistan"
+     ],
+     "entities": [
+      "Pakistan"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "12dbb44cddd2",
+     "title": "Gold prices today, October 18th: In one week, SJC gold prices evaporated by 1.2 million VND/ounce.",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdGJXZ1Z2dnduaFNXVUFtR2dxUTNXaWwzaDVTbDY1VHJPcmVLLUdQeXVkN09mX0lDWVI0V2xKT1FBV3Iwc2k1U1NQNUJnZE1QUVlFczdFZnQtcXk5TVlaNnhjVkFwSTUzMXdiQ1RWMm5xZ0xnUEh3MGRfRmlwUmdxX0Y0SHVlYVZjbzZiT1ROX3ZYNVhxdFZQbjR6RQ?oc=5",
+     "source": "Vietnam.vn",
+     "published": 1792280307,
+     "text": "Gold prices today, October 18th: In one week, SJC gold prices evaporated by 1.2 million VND/ounce. Vietnam.vn",
+     "summary_th": "ราคาทองคำ SJC ลดลง 1.2 ล้านดองเวียดนามต่อออนซ์ในรอบหนึ่งสัปดาห์ ณ วันที่ 18 ตุลาคม",
+     "importance": 1,
+     "numbers": [
+      "1.2 million VND/ounce"
+     ],
+     "tags": [
+      "gold price",
+      "vietnam"
+     ],
+     "entities": [
+      "SJC"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "53e1fbaa1a6d",
+     "title": "From the navy to bullion trading: Start-up founder builds wealth through precious metals, discipline",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMEl6UHVJMzIzZlNDYTg0ejZIRkF2eWoybjlmWEdaQktIMjRPbkljS0JTS3RMM0lrUnFJUC0zRjBrY0ROYnpBR2N6Qks3RjVwU0hsQ1U5UnZsRTlJcE9ndHZOcmZOMG1zLWhyVkt1dENOdk11MHRMWGhUbzA3N1A1RTBQdk12N1MtR1BBcjBEa2tjRVhROEc1ZjRwR2hGZVRsSDJtQlZlT2F0bDdsNXZvX3RDOTY5ZC02OHJFVzB2ekpZc2FMVS1hQXA1aXpmMVEyV2t5emtsUDNMeXJHS012N1ZTN3dZdXI0X2c?oc=5",
+     "source": "The Straits Times",
+     "published": 1792270800,
+     "text": "From the navy to bullion trading: Start-up founder builds wealth through precious metals, discipline The Straits Times",
+     "summary_th": "ผู้ก่อตั้งสตาร์ทอัพสร้างความมั่งคั่งผ่านการซื้อขายโลหะมีค่าและวินัย หลังย้ายสายงานจากกองทัพเรือ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "precious metals",
+      "start-up"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "063d69d93389",
+     "title": "Gold price update morning of October 18th: Looking back at the volatile week, gold is unlikely to break through",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSmNrazBka0NYTjdxZ2VrMm03dTRRTzNsNDZDZDFqY3VoY3g4UlhKME0zWmFtU0JNeGw0VFpaMl9rM21wZlVfUzJqU2Z2QkJQMENfb2l1WFVNZkI0Z3paVkpUSDlJWExkZDVCa2NHTTlCdkZ2blNZXzdtb2ZOMGhySXJPeEVmcDE4UGpsRWs3X1R6dkRQaXhVWHhBWFAzX0ZGa2thZUl1bUNHYU5aWE03bjA1SEV5SHlUQ2wwaQ?oc=5",
+     "source": "Laodong.vn",
+     "published": 1792278000,
+     "text": "Gold price update morning of October 18th: Looking back at the volatile week, gold is unlikely to break through Laodong.vn",
+     "summary_th": "รายงานราคาทองคำเช้าวันที่ 18 ตุลาคมระบุว่าราคาทองคำผ่านสัปดาห์ที่มีความผันผวน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold price"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "f3945c664f11",
+     "title": "Gold's Split Screen: Sticky Inflation on One Side, Central-Bank Buying on the Other",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTjlVS1hhM0ZsaDJiRVJEaEc2UHFDcUJDYzlmZi00RU9mVVZ3N1FzZklCYi1PRUZnTHREZ2l1Uklzc29oN3BQWGgzUzl1R0hKdFNmVkp0cjI2NE9wdjNTZnlockh5WjlFOEoyUEd4VGlmWnV0bllfaXBWVUtGeThYS08ycTBGWFlWYUJDVXBJamZoeWVhb29HMnJENlR5ekNkU3EwOFJ6X282VGtZQWJHQ1VEaV9pbk5NcDlXc0NEeU1JYUVKQmFYSURrQmlGOXdIQU9pZHNYbXVpQS1TNVJIZkRLZFg1em9V?oc=5",
+     "source": "ad-hoc-news.de",
+     "published": 1792266103,
+     "text": "Gold's Split Screen: Sticky Inflation on One Side, Central-Bank Buying on the Other ad-hoc-news.de",
+     "summary_th": "สถานการณ์ราคาทองคำเผชิญปัจจัยเงินเฟ้อที่ยืดเยื้อและการเข้าซื้อของธนาคารกลาง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "inflation",
+      "central bank"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "7364425f6533",
+     "title": "Gold prices today, October 18, 2026: Price list for SJC, BTMC, PNJ, Phu Quy gold and international gold.",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVXd0ZnhzTm1jUG5MSkYwMS1veDVLMnNWbG9TS0ZvU0dROFQ2Rm5uVlJKcnFvU1ZXTHB2NE5SUDNoWjVpWnd3SF8xZGhCSnl3M2Y0cHNuZFdubzFOV3RXTGtPZnZtbVpkMi1VbzlfeDZRWjFiWWRLNnBtdW4xY3FJQnJ0TDNQaXppc0s2UXRzT2VDUzdDYmhPOGsyTWFBUUV0M2g2VlJOcw?oc=5",
+     "source": "Vietnam.vn",
+     "published": 1792276902,
+     "text": "Gold prices today, October 18, 2026: Price list for SJC, BTMC, PNJ, Phu Quy gold and international gold. Vietnam.vn",
+     "summary_th": "รายงานรายการราคาทองคำ SJC, BTMC, PNJ, Phu Quy และราคาทองคำต่างประเทศประจำวันที่ 18 ตุลาคม 2026",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold price",
+      "vietnam"
+     ],
+     "entities": [
+      "SJC",
+      "BTMC",
+      "PNJ",
+      "Phu Quy"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "1f1ceaa0683c",
+     "title": "Gold Price Prediction: Peter Schiff Calls $4,145 a Gift as US Inflation Hits 3.7%",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPamttZ0dJSHN6b0FkQlBYT0V1WmdpcmQtUy05WE5xa0ttYXdwRU1pbHNPb0hlQTA3U0ZJZ2dUSzNvU0xad1l1RDFKQTZaMkU1bHpFdDVoZHdLenJDOTU2NUt5RzVUVVlnTmNNVW1NQ0tQVWxlRUxVdHluMjBjVDVhNHpMTzFBT09jMWVRR3d4Y0RTcDRIckxlV1V6S0VSZlJRd0ktcWltNA?oc=5",
+     "source": "Coinpaper",
+     "published": 1792260602,
+     "text": "Gold Price Prediction: Peter Schiff Calls $4,145 a Gift as US Inflation Hits 3.7% Coinpaper",
+     "summary_th": "Peter Schiff ระบุว่าระดับราคา 4,145 ดอลลาร์เป็นโอกาสที่ดี ในขณะที่อัตราเงินเฟ้อของสหรัฐฯ อยู่ที่ 3.7%",
+     "importance": 1,
+     "numbers": [
+      "$4,145",
+      "3.7%"
+     ],
+     "tags": [
+      "gold price",
+      "inflation"
+     ],
+     "entities": [
+      "Peter Schiff",
+      "US"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "a3bdb70f1084",
+     "title": "Gold prices in Pakistan today – 18 October, 2026",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSFZQb1dHQWRuaTFVNFZrbXVfWEo0ZTJwU25QYlJGV0RhSVZ3YmcyeC1NTDFTZ0Rna0x5Z2R3QUlXSFQ3bk5XMThCb3pacW1qNkdtbzA5R0t4a0ljSzB0M2k5QzVhaC1mWENFcE1yTGUzTXBRQm8tTWdvRXVCRy1rcHBBQW5Dd1Nr?oc=5",
+     "source": "Minute Mirror",
+     "published": 1792276700,
+     "text": "Gold prices in Pakistan today – 18 October, 2026 Minute Mirror",
+     "summary_th": "รายงานราคาทองคำในปากีสถานประจำวันที่ 18 ตุลาคม 2026",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold price",
+      "pakistan"
+     ],
+     "entities": [
+      "Pakistan"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "10e6c495bf5e",
+     "title": "Central Bank consolidates licensing rules for forex and gold dealers",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQXJva0JLVjVWR2lUc1VReW5Vb0Foa3FxNXRPLVc5SjJ6UHctM2FkLThBcmRsTnlLdHlMak54MzY1bE1JX3dvQWZscU5tR2h4RWk5U0JQTkF5TF9MUjlBRmZhbi1ycks3aUNqMkt2T2lBb2p3a2RxZUlQTnF2M1NLZEliMFYwNHRSMW9IUzhlMXRPdEpISEd1WE4tZG10VVprcVp3NTNuUjM5ZWNKRjN5a2s2d1lHcnlwZUplN1NOTEZDUERZcjZSTU1TOTcyOG1GMGJZZmVHd3NzZ9IB2gFBVV95cUxQQXJva0JLVjVWR2lUc1VReW5Vb0Foa3FxNXRPLVc5SjJ6UHctM2FkLThBcmRsTnlLdHlMak54MzY1bE1JX3dvQWZscU5tR2h4RWk5U0JQTkF5TF9MUjlBRmZhbi1ycks3aUNqMkt2T2lBb2p3a2RxZUlQTnF2M1NLZEliMFYwNHRSMW9IUzhlMXRPdEpISEd1WE4tZG10VVprcVp3NTNuUjM5ZWNKRjN5a2s2d1lHcnlwZUplN1NOTEZDUERZcjZSTU1TOTcyOG1GMGJZZmVHd3NzZw?oc=5",
+     "source": "The Financial Express",
+     "published": 1792260000,
+     "text": "Central Bank consolidates licensing rules for forex and gold dealers The Financial Express",
+     "summary_th": "ธนาคารกลางรวมกฎเกณฑ์การออกใบอนุญาตสำหรับผู้ค้าทองคำและเงินตราต่างประเทศ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "central bank",
+      "licensing",
+      "gold"
+     ],
+     "entities": [
+      "Central Bank"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "02cf5590526a",
+     "title": "Gold Rate Today in West Bengal 18th October 2026 : 22 & 24 Carat, Todays Gold Price in West Bengal",
+     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBwVnU5VEh6RV9mOUd3MERpOVhZZlg5aFAzWkVzZ0x0V2lIZnhuZHB6RndiUXV6X0Y4LXpfWll6QUtjVGVKcnhDZGdZRGRRUlY4SVBjT3hhelc1YnBFSzJ1S0Y1RldGZDV0YktNUDRPRUZ3Zm1tdXl1OA?oc=5",
+     "source": "Business Today",
+     "published": 1792275691,
+     "text": "Gold Rate Today in West Bengal 18th October 2026 : 22 & 24 Carat, Todays Gold Price in West Bengal Business Today",
+     "summary_th": "รายงานราคาทองคำ 22 และ 24 กะรัตในรัฐเบงกอลตะวันตกประจำวันที่ 18 ตุลาคม 2026",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold price",
+      "india"
+     ],
+     "entities": [
+      "West Bengal"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "94c68bbcdcba",
+     "title": "Curbs on gold funds widen as rupee, reserves face pressure",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQXRQRkI1cTVSa1NjYnJCc3JETDhrc1dJY0F2a3pLTnNxbnZaYVVITjRQNTlGalkzaDEwWDBVVUZ0a09sRTZRM19XOE5tcVBXNDZ6VEYydG9xS2FEeDFCQ0kzanhtQVVveURTdXdQSUJxekR4ZnVEVzdoOFlsUHZadG52UlQ5S3JXc0RCbS0tZzZzZElP?oc=5",
+     "source": "PRESS Insider",
+     "published": 1792255631,
+     "text": "Curbs on gold funds widen as rupee, reserves face pressure PRESS Insider",
+     "summary_th": "มาตรการควบคุมกองทุนทองคำขยายวงกว้างขึ้นหลังค่าเงินรูปีและทุนสำรองเผชิญแรงกดดัน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold funds",
+      "rupee",
+      "reserves"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-latest"
+    }
+   ]
+  },
+  {
+   "key": "tech",
+   "label": "เทคโนโลยี",
+   "items": [
+    {
+     "id": "568162b981af",
+     "title": "Meta removes language that raised scraping and AI training concerns",
+     "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+     "source": "TechCrunch",
+     "published": 1792272692,
+     "text": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+     "summary_th": "Meta ลบข้อความที่ทำให้เกิดความกังวลเรื่องการดูดข้อมูลและนำไปใช้ฝึก AI โดยโฆษกยืนยันว่าเงื่อนไขใหม่ไม่ได้เปลี่ยนแปลงวิธีการเก็บข้อมูลบนเว็บของบริษัท",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "meta",
+      "ai",
+      "data scraping"
+     ],
+     "entities": [
+      "Meta"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "acbf29a736c2",
+     "title": "Science says your boss should talk less in meetings",
+     "link": "https://arstechnica.com/science/2026/10/science-says-your-boss-should-talk-less-in-meetings/",
+     "source": "Ars Technica",
+     "published": 1792235711,
+     "text": "Research suggests listening more while talking less. Killing aimless meetings can help, too.",
+     "summary_th": "งานวิจัยแนะนำว่าหัวหน้าควรพูดให้น้อยลงและรับฟังให้มากขึ้นในการประชุม รวมถึงการยกเลิกการประชุมที่ไร้เป้าหมาย",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "workplace",
+      "research"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "bb38f1891d15",
+     "title": "TikTok bans Musk documentary account",
+     "link": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
+     "source": "The Verge",
+     "published": 1792265543,
+     "text": "Just ahead of the wider release of Alex Gibney's Musk documentary, TikTok has banned the film's social media account from its platform. TikTok did not immediately respond to a request for comment. According to The Hollywood Reporter, the film's distributor, Bleecker Street, was informed Friday afternoon that a \"permanent suspension\" was imminent. Bleecker Street has […]",
+     "summary_th": "TikTok สั่งแบนบัญชีโซเชียลมีเดียของภาพยนตร์สารคดีเกี่ยวกับ Elon Musk ผลงานของ Alex Gibney ซึ่งจัดจำหน่ายโดย Bleecker Street ก่อนการเปิดตัวในวงกว้าง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "tiktok",
+      "elon musk",
+      "social media ban"
+     ],
+     "entities": [
+      "TikTok",
+      "Elon Musk",
+      "Alex Gibney",
+      "Bleecker Street",
+      "The Hollywood Reporter"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "2c9e6fa97d31",
+     "title": "Some companies give AI to everyone. This CEO is doing the opposite",
+     "link": "https://www.cnbc.com/2026/10/17/ai-workplace-tokenmaxxing-paysend.html",
+     "source": "CNBC Tech",
+     "published": 1792213201,
+     "text": "Paysend CEO Ben Chisell limits AI tools to top performers as other U.K. companies push broader workplace rollouts.",
+     "summary_th": "Ben Chisell ซีอีโอของ Paysend จำกัดการใช้เครื่องมือ AI ให้เฉพาะพนักงานที่มีผลงานโดดเด่น ต่างจากบริษัทอื่นในสหราชอาณาจักรที่ขยายการใช้งานทั่วองค์กร",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "workplace",
+      "paysend"
+     ],
+     "entities": [
+      "Paysend",
+      "Ben Chisell"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "49b49c1c440e",
+     "title": "OpenCode Hacked: User credentials leaked",
+     "link": "https://twitter.com/opencode/status/2111516673953935833",
+     "source": "Hacker News",
+     "published": 1792260101,
+     "text": "Article URL: https://twitter.com/opencode/status/2111516673953935833 Comments URL: https://news.ycombinator.com/item?id=50133401 Points: 715 # Comments: 121",
+     "summary_th": "OpenCode ถูกแฮก ส่งผลให้ข้อมูลรับรองตัวตน (credentials) ของผู้ใช้งานรั่วไหล",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "cybersecurity",
+      "data breach",
+      "opencode"
+     ],
+     "entities": [
+      "OpenCode"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "9ddd2943eec5",
+     "title": "Boy charged over alleged trail sex attacks",
+     "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPcjEtSUhfeGhERDZlVDJxSHVTbWRIeEZQS3Z3RklRRTAwZTl1UTRqRnJmZVNRYWV5b3BJN1BvSDRPWnRrX3hVc3VwMllGUGZ0NGVUeExleVhMOHdOWFh5QlZKeGYxVWo2R1d5V1lrMEgyM2NnT21TY3M3cEZZVFBPc1RRNDh1LXlYRnpldUMzRi1KeFBEMEEtaW5JYTYyUjc5Nl9Ta3p3MThsUXB2ZTdDdWw3SDE5R25fMHpQd3BXSWU2cGt0ZTh6MG9Pemk5bHIyRWQ1MjBrU1lXdVM0WGFqZjhWeU1YTVN4Q0VxWVlveElsNUxTQVFrVC13ei1WMlg5bC1SQ2FYZnJoMW1fY2w4Smt5QlVOdzjSAZwCQVVfeXFMTU5pVW9RcERLdzdzb2RaV1VtdWF4ZDZybWVadFlqVHhLbnh2SUhRTUlnRzVIbU5scUFadGZfdjlERjhzUFpHb0Y4QkJva2t0djE1dVJzOThDZ0xicm1wdkU5bTdxSzYwaFZSNEY5bXk1Ul9iY0lIN0wyX0hHZk1QVG1YOGppZE1tMlJXaUhsREd5Q09qZGYwYUF0SWJlYTBFdnBTOUtGTHJmWlc2elVLV1JXTTVWYlVCcEVCZWd4eGxqNWhDb2YtbUxBb1Y2YWdwai1JSzBkYW1ZNEVDWU4tUWFtQTQzUjRuNUdCMWFhcDQ4S1lpb19FeXFDM2MyLWxYdUdaYXExY0otT1l6NWVGVnRmT21XTjNkRjVQclY?oc=5",
+     "source": "News.com.au",
+     "published": 1792274146,
+     "text": "Boy charged over alleged trail sex attacks News.com.au",
+     "summary_th": "เด็กชายถูกตั้งข้อหาเกี่ยวกับการทำร้ายร่างกายทางเพศบนเส้นทางเดิน",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "crime"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "5c37b2406edd",
+     "title": "TikTok permanently bans ‘Musk’ documentary advertising account",
+     "link": "https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account/",
+     "source": "TechCrunch",
+     "published": 1792270552,
+     "text": "A four-hour documentary about Elon Musk continues to meet resistance from social media platforms.",
+     "summary_th": "TikTok สั่งแบนบัญชีโฆษณาสำหรับภาพยนตร์สารคดีเกี่ยวกับ Elon Musk ความยาวสี่ชั่วโมงอย่างถาวร",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "tiktok",
+      "elon musk",
+      "advertising"
+     ],
+     "entities": [
+      "TikTok",
+      "Elon Musk"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "8bef9ae3cc55",
+     "title": "Why BioWare's Neverwinter Nights still has thousands of active players",
+     "link": "https://arstechnica.com/gaming/2026/10/why-biowares-neverwinter-nights-still-has-thousands-of-active-players/",
+     "source": "Ars Technica",
+     "published": 1792234821,
+     "text": "The single-player is just OK, but according to the players, that doesn't matter.",
+     "summary_th": "เกม Neverwinter Nights ของค่าย BioWare ยังคงมีผู้เล่นที่ใช้งานอยู่หลายพันคนแม้โหมดเล่นคนเดียวจะอยู่ในระดับธรรมดา",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gaming",
+      "bioware"
+     ],
+     "entities": [
+      "BioWare",
+      "Neverwinter Nights"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "3fc6af837124",
+     "title": "Mercedes-AMG’s first ground-up SUV is a 1,150hp electric beast",
+     "link": "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance",
+     "source": "The Verge",
+     "published": 1792256400,
+     "text": "Earlier this year, Mercedes' AMG performance brand grabbed our attention with the GT four-door coupe, a souped-up sports sedan with three axial flux motors delivering over 1,150 horsepower. Well, now meet its beefier cousin, the 2028 Mercedes-AMG GT SUV, an equally powerful, ultra-fast-charging electric people-hauler. The AMG GT SUV (say that five times fast) marks […]",
+     "summary_th": "Mercedes-AMG เปิดตัว GT SUV ไฟฟ้ารุ่นปี 2028 มาพร้อมพละกำลังมากกว่า 1,150 แรงม้าและระบบชาร์จเร็วพิเศษ",
+     "importance": 2,
+     "numbers": [
+      "1,150",
+      "2028"
+     ],
+     "tags": [],
+     "entities": [
+      "Mercedes-AMG",
+      "GT SUV"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "2bc979963aca",
+     "title": "Solar surpasses nuclear power globally for first time",
+     "link": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+     "source": "Hacker News",
+     "published": 1792245661,
+     "text": "Article URL: https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/ Comments URL: https://news.ycombinator.com/item?id=50131256 Points: 459 # Comments: 301",
+     "summary_th": "พลังงานแสงอาทิตย์ผลิตไฟฟ้าแซงหน้าพลังงานนิวเคลียร์ได้เป็นครั้งแรกในระดับโลก",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "solar energy",
+      "nuclear energy",
+      "renewable energy"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "dfc5d9438a5d",
+     "title": "Open-source tools turn EU smart building scores into costed upgrade plans",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWkM0YXlibXJadHNmU1RLRXFGcmZaTnczdU1xdFh4LWlCNG1ta2tWZGplUzRWbThCbnpRdlAtd25DNzdZZEFQZXowRnVocXA1dVdZVHhBc05YaHIycmxpRmp2RWZjV3FnaWFEaE1DN1dMcEhiVm1pWV9BTDFUVk5Jb1hUajloMzJyMTViSkVJU20zbEEyZUtwZ0NWaHdGWHM?oc=5",
+     "source": "Bioengineer.org",
+     "published": 1792269678,
+     "text": "Open-source tools turn EU smart building scores into costed upgrade plans Bioengineer.org",
+     "summary_th": "เครื่องมือโอเพนซอร์สช่วยแปลงคะแนนอาคารอัจฉริยะของสหภาพยุโรปให้เป็นแผนการอัปเกรดที่คำนวณต้นทุนแล้ว",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "open source",
+      "smart building"
+     ],
+     "entities": [
+      "EU"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "b769f5e984a3",
+     "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+     "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+     "source": "TechCrunch",
+     "published": 1792268479,
+     "text": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+     "summary_th": "Anthropic ระบุว่าโครงสร้างพนักงานของบริษัทมีความเป็นระดับเริ่มต้น (junior) ลดลง และพนักงานใช้เวลาไปกับการประชุมมากขึ้นในปีที่ผ่านมา",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "anthropic",
+      "ai",
+      "workplace"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "1b9b6ec35709",
+     "title": "Elon Musk settles lawsuits over $1 million voter giveaway",
+     "link": "https://www.theverge.com/tech/1013431/elon-musk-settles-lawsuits-over-1-million-voter-giveaway",
+     "source": "The Verge",
+     "published": 1792255184,
+     "text": "In 2024, Elon Musk promised to give away $1 million a day to a randomly selected registered voter in a swing state. That prompted legal challenges, raised questions about its legality, and drew lawsuits from two Arizona residents claiming the lottery was a fraud. Musk has now agreed to settle the two lawsuits filed in […]",
+     "summary_th": "Elon Musk บรรลุข้อตกลงยอมความในคดีความที่ชาวรัฐแอริโซนาสองคนฟ้องร้อง จากกรณีการแจกเงินวันละ 1 ล้านดอลลาร์แก่ผู้ลงทะเบียนเลือกตั้งในปี 2024",
+     "importance": 2,
+     "numbers": [
+      "$1 million",
+      "2024"
+     ],
+     "tags": [],
+     "entities": [
+      "Elon Musk",
+      "Arizona"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "9b13d6a721a0",
+     "title": "DeepSeek-v4.1-Flash-1017",
+     "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+     "source": "Hacker News",
+     "published": 1792225285,
+     "text": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 672 # Comments: 572",
+     "summary_th": "มีการเผยแพร่ข้อมูลอัปเดตโมเดล DeepSeek-v4.1-Flash-1017",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "deepseek",
+      "ai model"
+     ],
+     "entities": [
+      "DeepSeek"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "0a5b53c1463c",
+     "title": "Boy, 13, charged with alleged sex offences on Sydney walking track",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWUctWkRnbWNFeFo2LTl2ZHlwN1NsUHd3TS11WHJwWkM4MTNUWjVqZkFSRlB1ZVpfbTFabnoxZUFDMlF6a2lZNFJqdnc2OFpqdkZjUWJmRXM2U3VNdjdKUzViWXk1b2JxMHdFT251WmRLc1ZyTkJaSHY4Z0tqcFZ6NTZ6dzV4eHFrYXBrX2ppUnpManE5cFVpY1h6aXd3YmZ5ejktOXJESEE4WEZscExoV3oyNmlVb1dZa2xpeUp5cGx5eTIzbU5nNw?oc=5",
+     "source": "Nine.com.au",
+     "published": 1792268999,
+     "text": "Boy, 13, charged with alleged sex offences on Sydney walking track Nine.com.au",
+     "summary_th": "เด็กชายวัย 13 ปีถูกตั้งข้อหาล่วงละเมิดทางเพศบนทางเดินในนครซิดนีย์",
+     "importance": 0,
+     "numbers": [
+      "13"
+     ],
+     "tags": [],
+     "entities": [
+      "Sydney"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "51c1c9a5e48b",
+     "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+     "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+     "source": "TechCrunch",
+     "published": 1792262888,
+     "text": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+     "summary_th": "Replit ประกาศเปลี่ยนมาใช้ OpenAI เป็นผู้ให้บริการโมเดลเริ่มต้นแทนที่ Anthropic แต่ลูกค้ายังคงสามารถเลือกใช้ Claude ได้",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "replit",
+      "openai",
+      "anthropic"
+     ],
+     "entities": [
+      "Replit",
+      "OpenAI",
+      "Anthropic",
+      "Claude",
+      "Masad"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "ac0eba5f3991",
+     "title": "Meta removes language that may have allowed it to scrape news sites",
+     "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+     "source": "The Verge",
+     "published": 1792249476,
+     "text": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, […]",
+     "summary_th": "Meta ปรับปรุงเงื่อนไขบริการใหม่โดยนำข้อความที่ระบุว่าอาจดูดข้อมูลจากเว็บไซต์ข่าวเพื่อนำมาฝึกฝน AI ออก หลังจากได้รับการต่อต้าน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "meta",
+      "ai training",
+      "data scraping"
+     ],
+     "entities": [
+      "Meta"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "7f14563d8df6",
+     "title": "You could have invented transformers from memory",
+     "link": "https://alexwang.ai/posts/associative-memory/",
+     "source": "Hacker News",
+     "published": 1792177277,
+     "text": "https://twitter.com/heyyalexwang/status/2111158818730397932 Comments URL: https://news.ycombinator.com/item?id=50122878 Points: 495 # Comments: 116",
+     "summary_th": "บทความเผยแพร่วิธีการทำความเข้าใจและคิดค้นโมเดล transformers จากความทรงจำ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "transformers",
+      "ai"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "b0aa62d59053",
+     "title": "Dhaka airport installs 32 CCTV cameras, 18 monitors to let passengers track baggage handling",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcGczbUdOMl9ubERSVncyNm9hVG1xdkdLSjRlc2N6S3RGLVZNQURFQlRGNFk2RkdPbXFVdHMtUmFsQk52YzUteEhrd0c2ZjhWbGlJUkVmc2hPOFpXdTBBQjUzS0VRcUZKSGJ3SnlLWHNmZmEzXzB1N2MwdDZuRG9ZQXNiWW8tNV9JTWw2Nm40czMxRFZUYW9tTE5TMlJjVXB5MlQ3dXVKYmI4eUxVaDdRLTR1c2w?oc=5",
+     "source": "The Bangladesh Monitor",
+     "published": 1792268100,
+     "text": "Dhaka airport installs 32 CCTV cameras, 18 monitors to let passengers track baggage handling The Bangladesh Monitor",
+     "summary_th": "สนามบินธากาติดตั้งกล้องวงจรปิด 32 ตัวและจอภาพ 18 จอเพื่อให้ผู้โดยสารสามารถติดตามขั้นตอนการจัดการสัมภาระได้",
+     "importance": 1,
+     "numbers": [
+      "32",
+      "18"
+     ],
+     "tags": [],
+     "entities": [
+      "Dhaka airport"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "9c715d5779cd",
+     "title": "Ember’s new temperature-controlled mug makes my nightly tea ritual even better",
+     "link": "https://techcrunch.com/2026/10/17/embers-new-temperature-controlled-mug-makes-my-nightly-tea-ritual-even-better/",
+     "source": "TechCrunch",
+     "published": 1792251000,
+     "text": "The biggest change about Ember's new mug is that you no longer have to open the app to adjust your drink’s temperature.",
+     "summary_th": "Ember เปิดตัวแก้วน้ำควบคุมอุณหภูมิรุ่นใหม่ที่ให้ผู้ใช้ปรับอุณหภูมิเครื่องดื่มได้โดยไม่ต้องเปิดแอปพลิเคชัน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ember",
+      "gadgets",
+      "hardware"
+     ],
+     "entities": [
+      "Ember"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "ce81f3c6c7b6",
+     "title": "Pikmin 4 is $20 off ahead of its $10 Nintendo Switch 2 update",
+     "link": "https://www.theverge.com/gadgets/1013105/pikmin-4-nintendo-switch-deal-sale",
+     "source": "The Verge",
+     "published": 1792249200,
+     "text": "If you’re wondering what video game to play this weekend, my colleague Sheena Vasani spotted a discounted Nintendo Switch title with instant digital delivery. Walmart has the digital version of Pikmin 4 for Switch discounted to $39.88, just over $20 lower than its usual price. This version of the game follows the same puzzle formula […]",
+     "summary_th": "Walmart ลดราคาเกม Pikmin 4 สำหรับ Nintendo Switch เหลือ $39.88",
+     "importance": 1,
+     "numbers": [
+      "$20",
+      "39.88",
+      "10",
+      "4",
+      "2"
+     ],
+     "tags": [
+      "nintendo",
+      "switch",
+      "walmart",
+      "gaming"
+     ],
+     "entities": [
+      "Walmart",
+      "Nintendo",
+      "Pikmin 4"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "700125cf3502",
+     "title": "Govt bans remote access to CCTV in child care homes",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb0RXQnJzU0lWUzd3LXlROWNMaVk0MnMwQTBacTQzbUxJSGl2LWxHRjVsVzU5MUdFeno2a2tjaWRMTHJJdVg4M1RHQmN5SzdoRWc3dUpGWWdKTTNVQmJ2dDRzVExTQUFhQlc4RTM3aEtkS29oLU4yOG13cE41QktHQ2U2T3F6ZTN4UWx6ejNwSi1NR1ZUc01mRWd30gGeAUFVX3lxTE9VMHo4bFVxWktQakwxTy10aVZvVDdwTkhfVFhFdFVza3YyUklyVGVxNUxfV2xaSk9iS0JfSmRjOWk4NFRJZ1U2VEFsbzVEVXpSbVdLLW1rTXNGRUVLcWJrSzVaaHhSbnA4T0FTLXBtVnl6UFBxenVXZEJ6LVhRRTBjRmlOZXd4eF9hMDZOV0h1blpqUFNjZTExNXZmZjRB?oc=5",
+     "source": "The Tribune",
+     "published": 1792265702,
+     "text": "Govt bans remote access to CCTV in child care homes The Tribune",
+     "summary_th": "รัฐบาลสั่งแบนการเข้าถึงกล้องวงจรปิดในสถานรับเลี้ยงเด็กแบบระยะไกล",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "cctv",
+      "government",
+      "child care"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "8a848b0f2494",
+     "title": "Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept",
+     "link": "https://techcrunch.com/2026/10/16/mark-wahlberg-wants-to-take-on-the-longevity-startup-crowd-with-an-affordable-gym-concept/",
+     "source": "TechCrunch",
+     "published": 1792204578,
+     "text": "Mark Wahlberg, who once sank money into a gym chain that got kicked off the NYSE, is now building his own, and he promises you’ll get a cold plunge, a blood panel and a protein muffin without needing a trust fund.",
+     "summary_th": "Mark Wahlberg เตรียมเปิดตัวแนวคิดยิมราคาประหยัด",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "fitness",
+      "startup",
+      "gym"
+     ],
+     "entities": [
+      "Mark Wahlberg"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "79e800af7ff3",
+     "title": "Jad Abumrad loves a butterfly knife and a good springy pillow",
+     "link": "https://www.theverge.com/entertainment/1013381/jad-abumrad-radiolab-dolly-parton-fela-kuti-podcast-interview",
+     "source": "The Verge",
+     "published": 1792247400,
+     "text": "It's hard to overstate Jad Abumrad's impact on the podcasting world. He created and hosted Dolly Parton's America and Fela Kuti: Fear No Man, two Peabody Award-winning shows that offered unprecedented looks at the lives of two of the most important music icons of the last century. Before that, though, he created Radiolab, an experimental […]",
+     "summary_th": "Jad Abumrad ผู้สร้างพอดแคสต์ชื่อดัง",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "podcast",
+      "radiolab"
+     ],
+     "entities": [
+      "Jad Abumrad",
+      "Dolly Parton",
+      "Fela Kuti"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "0a6a6b33e412",
+     "title": "Mom Discovers Why Her Baby Woke Her Up in CCTV Footage",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWTg3NExtVXhlZ25lQU5TY0tyQXV4WDd3d1NkZkJZa3Z4Ti1zTlhfOVQ5M0xrb2szR1BvSkpubXM4QUx6TkxKcHdOWGR1ZFNXSUV5UlBkMTJ2Q1hOOUxqRDUxampyd3EyOGd5akk0LUJrenNEamJ3b2FQRkhLZ1VFYTI1TU85U3M?oc=5",
+     "source": "Yahoo",
+     "published": 1792263645,
+     "text": "Mom Discovers Why Her Baby Woke Her Up in CCTV Footage Yahoo",
+     "summary_th": "คุณแม่พบสาเหตุที่ลูกปลุกจากภาพกล้องวงจรปิด",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "cctv",
+      "family"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    }
+   ]
+  },
+  {
+   "key": "health",
+   "label": "การแพทย์และสุขภาพ",
+   "items": [
+    {
+     "id": "2f257aea15bc",
+     "title": "STAT+: Jury rules in favor of ousted Cambridge scientist David Sabatini, with $6 million in damages to be awarded",
+     "link": "https://www.statnews.com/2026/10/16/david-sabatini-wins-sexual-misconduct-lawsuit-metoo/",
+     "source": "STAT News",
+     "published": 1792204715,
+     "text": "A jury awarded $6 million in damages to scientist David Sabatini, whose career imploded after he was accused by a much younger colleague of inappropriate sexual conduct in his lab.",
+     "summary_th": "คณะลูกขุนตัดสินให้ David Sabatini นักวิทยาศาสตร์ ได้รับเงินค่าเสียหายจำนวน 6 ล้านดอลลาร์ หลังเส้นทางอาชีพต้องหยุดชะงักจากการถูกกล่าวหาว่ามีพฤติกรรมทางเพศที่ไม่เหมาะสมในห้องปฏิบัติการ",
+     "importance": 2,
+     "numbers": [
+      "$6 million"
+     ],
+     "tags": [
+      "lawsuit",
+      "science",
+      "biotech"
+     ],
+     "entities": [
+      "David Sabatini",
+      "Cambridge"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "1667031cee59",
+     "title": "Pennsylvania's aging prisons weren't built for today's extreme weather—leaving women and seniors at risk",
+     "link": "https://medicalxpress.com/news/2026-10-pennsylvania-aging-prisons-werent-built.html",
+     "source": "Medical Xpress",
+     "published": 1792279801,
+     "text": "When outdoor temperatures spike to 103 degrees Fahrenheit (39 degrees Celsius), or drop to -9 F (-23 C), like they did across Pennsylvania last year, people locked up in jails and prisons cannot simply turn on the air conditioning or find a public warming center.",
+     "summary_th": "เรือนจำเก่าแก่ในเพนซิลเวเนียไม่ได้ถูกสร้างขึ้นเพื่อรองรับสภาพอากาศรุนแรง โดยอุณหภูมิพุ่งสูงถึง 103 องศาฟาเรนไฮต์และลดต่ำถึง -9 องศาฟาเรนไฮต์ ส่งผลให้ผู้ต้องขังหญิงและผู้สูงอายุตกอยู่ในความเสี่ยง",
+     "importance": 1,
+     "numbers": [
+      "103 degrees Fahrenheit",
+      "39 degrees Celsius",
+      "-9 F",
+      "-23 C"
+     ],
+     "tags": [
+      "healthcare",
+      "public health",
+      "weather"
+     ],
+     "entities": [
+      "Pennsylvania"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "133d63706a0b",
+     "title": "VERAXA Biotech (NASDAQ: VRXA) Advances Oncology Pipeline as Xlife Sciences Reports First-Half Progress",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQT0x2TVExZ1VQMzZVR0xIaVZyY3NYVjc5SzVKeXRfWU9KTUZSdFpIVEpLWlIxOHIyQzBQeEJNTTQ1UHpYeVBCaEFsU2hVZjFfb2hSMjdtQ3pjU083eGlVYkRDRDEzaU1nM21PVmR4alROdTVsanRlRWhKaUhOb1VlZ2F3Mjg1NDJMSG9rWHlWeG95VnZyOXJmdlg4d25GQ3FLVHI2YzI3VndNbVcyY0pCQ3pLNkpQcVZGZ0czclhfb3AzSWsxRnJTbVN3UmM5ZGoybHBHVkJObkFBcmZMNTZzNnFrTUxEUQ?oc=5",
+     "source": "USA Today",
+     "published": 1792278992,
+     "text": "VERAXA Biotech (NASDAQ: VRXA) Advances Oncology Pipeline as Xlife Sciences Reports First-Half Progress USA Today",
+     "summary_th": "VERAXA Biotech ขับเคลื่อนสายงานการพัฒนายารักษาโรคมะเร็ง ขณะที่ Xlife Sciences รายงานความคืบหน้าในช่วงครึ่งปีแรก",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "oncology",
+      "biotech",
+      "pipeline"
+     ],
+     "entities": [
+      "VERAXA Biotech",
+      "Xlife Sciences",
+      "NASDAQ"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "f9ed344277ef",
+     "title": "Patient-centered financial navigation assistance helps reduce financial toxicity among cancer patients",
+     "link": "https://medicalxpress.com/news/2026-10-patient-centered-financial-toxicity-cancer.html",
+     "source": "Medical Xpress",
+     "published": 1792270801,
+     "text": "Among cancer patients, the high financial cost of cancer care is a prevalent problem. This financial burden is also associated with potentially harmful behavioral strategies that patients might use to cope with costs, such as delaying or forgoing treatment and skipping medications. Collectively, researchers refer to this impact as financial toxicity.",
+     "summary_th": "บริการนำทางและช่วยเหลือด้านการเงินแบบเน้นผู้ป่วยเป็นศูนย์กลาง ช่วยลดผลกระทบทางการเงินหรือภาวะ financial toxicity ในกลุ่มผู้ป่วยมะเร็งได้",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "cancer",
+      "oncology",
+      "healthcare"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "5dfec3141882",
+     "title": "Genscript Biotech (SEHK:1548) Stock Looks Stretched On Its 160% YTD Run",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ3A2RFZBRDdYWi1VeHlnd19PNzc5SW9VZUR6blVNQ21ERjI1TkxnX0IwSFBqeFJoN3FxUkxKTW9NWFpGYVVjdDlaQ3FZaC0wU21SMWJCLXVVMGotUC0xOWJSZmhNWUJIZDFxVUVlVFdHZWtYeHp1M2ozaXVDQ2lIWTlQNmtJWGRIVHBLX0M1VS1ZY2ZHSVUyaWxaZF9JTVU?oc=5",
+     "source": "Yahoo Finance",
+     "published": 1792267780,
+     "text": "Genscript Biotech (SEHK:1548) Stock Looks Stretched On Its 160% YTD Run Yahoo Finance",
+     "summary_th": "หุ้นของ Genscript Biotech ถูกมองว่าตึงตัวหลังราคาปรับตัวขึ้นไปแล้วถึง 160% นับตั้งแต่ต้นปี",
+     "importance": 1,
+     "numbers": [
+      "160%"
+     ],
+     "tags": [
+      "stocks",
+      "biotech"
+     ],
+     "entities": [
+      "Genscript Biotech",
+      "SEHK"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "9b2a606b14c7",
+     "title": "Ketamine during or after C-sections may ease early postpartum depression symptoms, new study suggests",
+     "link": "https://medicalxpress.com/news/2026-10-ketamine-sections-ease-early-postpartum.html",
+     "source": "Medical Xpress",
+     "published": 1792269001,
+     "text": "Ketamine, a medication used in operating rooms for anesthesia and pain control, may offer another benefit for some new mothers: easing early symptoms of postpartum depression after cesarean delivery (C-section), according to a study presented at the ANESTHESIOLOGY 2026 annual meeting.",
+     "summary_th": "ผลการศึกษาชี้ว่าการใช้ยาคีตามีนระหว่างหรือหลังการผ่าตัดคลอด อาจช่วยบรรเทาอาการซึมเศร้าหลังคลอดในระยะเริ่มต้นของมารดาได้",
+     "importance": 2,
+     "numbers": [
+      "2026"
+     ],
+     "tags": [
+      "ketamine",
+      "postpartum depression",
+      "c-section"
+     ],
+     "entities": [
+      "ANESTHESIOLOGY 2026"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "f652e228c301",
+     "title": "UCB wins FDA approval for ZILBRYSQ autoinjector ahead of 2027 launch",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9WTi1XeHhmM24wel9RQVNJOFhwNzlLX2JUSmV1RDdBeEdzMFRlbWp3LXZIOUNiN1ZJc1lyckJIM2U0Nll3VndFTDRRcDFuMHBpUnRUZ1pTSGlKMVVRT2g3cjcxdUZWZmVUUXFuT2hpWQ?oc=5",
+     "source": "Mugglehead Investment Magazine",
+     "published": 1792260915,
+     "text": "UCB wins FDA approval for ZILBRYSQ autoinjector ahead of 2027 launch Mugglehead Investment Magazine",
+     "summary_th": "UCB ได้รับการอนุมัติจาก FDA สำหรับเครื่องฉีดยาอัตโนมัติ ZILBRYSQ ก่อนกำหนดการเปิดตัวในปี 2027",
+     "importance": 3,
+     "numbers": [
+      "2027"
+     ],
+     "tags": [
+      "fda approval",
+      "autoinjector",
+      "pharma"
+     ],
+     "entities": [
+      "UCB",
+      "FDA",
+      "ZILBRYSQ"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "637251830052",
+     "title": "Continuous glucose monitors help type 2 diabetes patients spend 5 more hours a day in healthy blood sugar range",
+     "link": "https://medicalxpress.com/news/2026-10-glucose-diabetes-patients-hours-day.html",
+     "source": "Medical Xpress",
+     "published": 1792263601,
+     "text": "Continuous glucose monitors (CGMs) could transform diabetes management for millions of Americans with type 2 diabetes who don't take insulin, according to findings published in the New England Journal of Medicine.",
+     "summary_th": "รายงานในวารสาร NEJM เผยว่าเครื่องตรวจวัดระดับน้ำตาลต่อเนื่องช่วยให้ผู้ป่วยเบาหวานชนิดที่ 2 ที่ไม่ได้ใช้อินซูลิน มีระดับน้ำตาลอยู่ในเกณฑ์มาตรฐานเพิ่มขึ้น 5 ชั่วโมงต่อวัน",
+     "importance": 2,
+     "numbers": [
+      "5"
+     ],
+     "tags": [
+      "diabetes",
+      "cgm",
+      "medical devices"
+     ],
+     "entities": [
+      "New England Journal of Medicine"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "28d1765bd2a4",
+     "title": "Rossari Biotech Reports 19.02% YoY Consolidated Revenue Growth to ₹6,975.60 Lakh in Q2 FY27; Net Profit Reaches ₹389.07 Lakh",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHT3hiZW00QjgyNmdpOWlaNjRlOExBYW01Q3ZwTW9HT2R1UGQ3aDhvSS15dUFiX1JfWkhrNG1NVk5uR1Y0M1I1bHplZ2VqWHpPd19Fb094cEQycW1KaTRF?oc=5",
+     "source": "EquityBulls",
+     "published": 1792258615,
+     "text": "Rossari Biotech Reports 19.02% YoY Consolidated Revenue Growth to ₹6,975.60 Lakh in Q2 FY27; Net Profit Reaches ₹389.07 Lakh EquityBulls",
+     "summary_th": "Rossari Biotech รายงานรายได้รวมไตรมาส 2 ปีงบฯ 27 โต 19.02% YoY แตะ 6,975.60 แสนรูปี พร้อมกำไรสุทธิ 389.07 แสนรูปี",
+     "importance": 1,
+     "numbers": [
+      "19.02%",
+      "₹6,975.60 Lakh",
+      "₹389.07 Lakh"
+     ],
+     "tags": [
+      "financial results",
+      "biotech",
+      "earnings"
+     ],
+     "entities": [
+      "Rossari Biotech"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "8d169688d563",
+     "title": "Wearing headphones during surgery may reduce nausea and vomiting afterward",
+     "link": "https://medicalxpress.com/news/2026-10-headphones-surgery-nausea-vomiting-afterward.html",
+     "source": "Medical Xpress",
+     "published": 1792261807,
+     "text": "Patients who wore noise-canceling headphones during minimally invasive gynecological surgery were significantly less likely to experience postoperative nausea and vomiting (PONV), suggest findings from a randomized clinical trial presented at the Anesthesiology 2026 annual meeting.",
+     "summary_th": "การทดลองทางคลินิกพบว่าผู้ป่วยที่สวมหูฟังตัดเสียงรบกวนระหว่างการผ่าตัดทางนรีเวช มีโอกาสเกิดอาการคลื่นไส้และอาเจียนหลังการผ่าตัดลดลงอย่างมีนัยสำคัญ",
+     "importance": 2,
+     "numbers": [
+      "2026"
+     ],
+     "tags": [
+      "surgery",
+      "ponv",
+      "clinical trial"
+     ],
+     "entities": [
+      "Anesthesiology 2026"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "c1359dde62f3",
+     "title": "Krystal Biotech stock falls 4.1 percent, 17.2 percent below high",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQS3BHdUhrSVV5amNZZ2doWGlqdWRKSVRLbWdtZDd0SUl6TnhuRTRpLVFjbF9EVHRoSXJLNFhQX3VWN3RHYkhwZDN5U1NHVWxYZFZ2QkRYbXJWTzNMWWQwVlU3NmZsM3NLaTZNZE5iRWVDOXZtQkN5Z3F0YXJldnIya1JlVk03OWhWZF9xMGVhZnRfY09ORkVpUkpocFE5X21uTmRGNldYYUZpSEVOc1JwanBIeDBaaUxUUjBPSjFmcw?oc=5",
+     "source": "ad-hoc-news.de",
+     "published": 1792257803,
+     "text": "Krystal Biotech stock falls 4.1 percent, 17.2 percent below high ad-hoc-news.de",
+     "summary_th": "หุ้นของ Krystal Biotech ปรับตัวลดลง 4.1% ซึ่งต่ำกว่าจุดสูงสุดอยู่ 17.2%",
+     "importance": 1,
+     "numbers": [
+      "4.1 percent",
+      "17.2 percent"
+     ],
+     "tags": [
+      "stocks",
+      "biotech"
+     ],
+     "entities": [
+      "Krystal Biotech"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "c45b01fdfcc5",
+     "title": "Language barriers may affect access to standard treatment for headaches after epidurals for new moms",
+     "link": "https://medicalxpress.com/news/2026-10-language-barriers-affect-access-standard.html",
+     "source": "Medical Xpress",
+     "published": 1792261802,
+     "text": "New mothers with limited English proficiency are less likely to receive the standard treatment for painful and debilitating headaches that can occur if the membrane surrounding the spinal cord is accidentally punctured during an epidural for childbirth, according to a study presented at the Anesthesiology 2026 annual meeting.",
+     "summary_th": "การศึกษาพบว่าคุณแม่มือใหม่ที่มีข้อจำกัดด้านทักษะภาษาอังกฤษ มีโอกาสได้รับมาตรฐานการรักษาอาการปวดศีรษะจากการบล็อกหลังคลอดบุตรน้อยกว่า",
+     "importance": 2,
+     "numbers": [
+      "2026"
+     ],
+     "tags": [
+      "epidural",
+      "healthcare access",
+      "childbirth"
+     ],
+     "entities": [
+      "Anesthesiology 2026"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "93b9fba8eddc",
+     "title": "3 British Biotech Stocks With Market Caps Up To £4 Billion",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNXzg3NlB4clBlbGdXUFlKend4NDZYU2IxdVMybVlsd05lT2oyWEpRSS15LUJIYXY3ODlXbzdZZ29ZRGI4eEJ5ZW5nbDdrM1hYa3R0b2JmOFBsZ0lEQUNLd1BYNzN3R2dfOWFUUjBOVWtSNHdWNkNVNXFmQlNBMV85X1ZTQUZFellSR3BHV2FpUzFPZGliUE84?oc=5",
+     "source": "Yahoo Finance",
+     "published": 1792257030,
+     "text": "3 British Biotech Stocks With Market Caps Up To £4 Billion Yahoo Finance",
+     "summary_th": "รายงานระบุรายชื่อหุ้นเทคโนโลยีชีวภาพของอังกฤษ 3 ตัว ที่มีมูลค่าหลักทรัพย์ตามราคาตลาดสูงสุดถึง 4 พันล้านปอนด์",
+     "importance": 0,
+     "numbers": [
+      "3",
+      "£4 Billion"
+     ],
+     "tags": [
+      "stocks",
+      "biotech"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "d2991b175246",
+     "title": "Brain injury care guidelines for first responders released",
+     "link": "https://medicalxpress.com/news/2026-10-brain-injury-guidelines.html",
+     "source": "Medical Xpress",
+     "published": 1792256401,
+     "text": "Over 50 experts—clinicians, researchers, policymakers, first responders and representatives from agencies that employ and advocate for them—have reached consensus on the first recommendations for the recognition, diagnosis and management of traumatic brain injury in first responders. Publishing today (Oct. 16, 2026) in The Journal of Head Trauma Rehabilitation, the 52 authors agreed to 28 recommendations designed to help first responders, health care professionals and agencies work toward five primary goals: timely recognition of traumatic brain injury (TBI), safe recovery, operational readiness, reduced stigma and first responder–centered care.",
+     "summary_th": "ผู้เชี่ยวชาญ 52 คนบรรลุข้อตกลงออก 28 คำแนะนำเพื่อเป็นแนวทางแรกในการวินิจฉัยและดูแลรักษาการบาดเจ็บทางสมองสำหรับบุคลากรหน่วยกู้ชีพและผู้เผชิญเหตุด่านแรก",
+     "importance": 2,
+     "numbers": [
+      "50",
+      "Oct. 16, 2026",
+      "52",
+      "28"
+     ],
+     "tags": [
+      "tbi",
+      "first responders",
+      "guidelines"
+     ],
+     "entities": [
+      "The Journal of Head Trauma Rehabilitation"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "6fd45720b647",
+     "title": "H.C. Wainwright keeps USD 65.00 target for Legend Biotech stock",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOG1KWTFieXJiYU9VTnZTZEJrNUo4cnlITnBPd3N6ZTU2M1JnX2lTWmJUaWxlMXpPNmU4dE5pTUt1Sk5FV0ZjVWJGaW0wNnBJejVydUxueTl5ZHUydGFwQWtmaFdyOXc2R1FDMEs1eDQzd3VpRk9QWjduMWhxU1R6b3JmSGtId0x1M25uTDZ0dXJiMi1VOG1ROGRSTkJ2SWVuRDNTMFdxMm16T2RRS1NxTmEyVjBVRlE3RDFOQUJR?oc=5",
+     "source": "ad-hoc-news.de",
+     "published": 1792255627,
+     "text": "H.C. Wainwright keeps USD 65.00 target for Legend Biotech stock ad-hoc-news.de",
+     "summary_th": "H.C. Wainwright ยังคงราคาเป้าหมายสำหรับหุ้น Legend Biotech ไว้ที่ 65.00 ดอลลาร์สหรัฐ",
+     "importance": 1,
+     "numbers": [
+      "USD 65.00"
+     ],
+     "tags": [
+      "stocks",
+      "price target",
+      "biotech"
+     ],
+     "entities": [
+      "H.C. Wainwright",
+      "Legend Biotech"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "9ac9f10210df",
+     "title": "When cancer turns critical, the patient isn't the only one suffering",
+     "link": "https://medicalxpress.com/news/2026-10-cancer-critical-patient-isnt.html",
+     "source": "Medical Xpress",
+     "published": 1792252806,
+     "text": "While doctors fight to save the lives of cancer patients in intensive care, family members, partners and friends are often left carrying a heavy burden of their own, with research revealing widespread anxiety, depression, exhaustion and declining well-being among those supporting a loved one through a critical illness.",
+     "summary_th": "งานวิจัยพบว่าครอบครัวและผู้ดูแลผู้ป่วยมะเร็งในภาวะวิกฤติต้องเผชิญกับภาวะวิตกกังวล ภาวะซึมเศร้า ความเหนื่อยล้า และสุขภาพที่ถดถอย",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "cancer",
+      "mental health",
+      "caregivers"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "b314a364ac1d",
+     "title": "Viatris (VTRS) Wins FDA Approval For RYZUMVI, Is The Upside Already Priced In?",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdnpZcElpSWdweTdFVWRLUkxUdy1zMHhtX20tYmw0QzN0WUJIQU4xbERUaHc1Mi0yS1BCSlRSYkloZXhpS20wM3k0eHV4cE9aUERjMzFUM29TaWpUZi0zRTdmcDRHQkxEVG5pZWQ0WlR6N0oyaFFtdUkwb1VqanFvc0tBQkt0dk1HLTdBZHJYdnVteWxCdml1RGFicF9OanoyU052cmVjOXk4aTViaF92bExCMW1Pb0NOWTd0MWdEZDktZ1VzTmR4NnZsTUpTbnlqUVlNXzRoV1HSAd4BQVVfeXFMTmVnVDM3Mm56OTNfcnZ2ODVhb0ZWOFJYbnR0dkFxSFhuMXlTMW41UU0zNjR1YmRwMjRmTFlCcjZGNzlhMk5vZi1RYzNNbUo4RTk1MlBKaDNhT0R1NmZ6RzNTeTZWMWZfbG1ISUhCM0JDQmYzbEtQTjV6WjFzakdUNGlPdnNjb3h3eXFXS29hSG9TVlQtT1RBU3o5aWthSGRrSHR4bUlrU0xfRmstU3pXQm1vd2tsS0gyMmlEbHY3eE9mTVZQek5zWExDb2E0SHRBSmdXVU5FMnd0UDUzeWJB?oc=5",
+     "source": "Simply Wall Street",
+     "published": 1792255130,
+     "text": "Viatris (VTRS) Wins FDA Approval For RYZUMVI, Is The Upside Already Priced In? Simply Wall Street",
+     "summary_th": "Viatris ได้รับการอนุมัติจาก FDA สำหรับยา RYZUMVI ท่ามกลางคำถามว่าราคาหุ้นได้รับรู้ปัจจัยบวกนี้ไปแล้วหรือไม่",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "fda approval",
+      "pharma",
+      "stocks"
+     ],
+     "entities": [
+      "Viatris",
+      "FDA",
+      "RYZUMVI"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "c7152c1cd274",
+     "title": "Lab-designed molecule reduces amyloid beta, the protein linked to Alzheimer's disease, in mice",
+     "link": "https://medicalxpress.com/news/2026-10-lab-molecule-amyloid-beta-protein.html",
+     "source": "Medical Xpress",
+     "published": 1792248001,
+     "text": "A research team led by the Molecular and Cellular Neurobiotechnology group at the Institute for Bioengineering of Catalonia (IBEC), in collaboration with Míriam Royo's laboratory at the Institute for Advanced Chemistry of Catalonia (IQAC-CSIC), the University of Barcelona (UB) and the Institute for Research in Biomedicine (IRB Barcelona), has identified a synthetic peptide that reduces the production of amyloid beta (Aβ).",
+     "summary_th": "ทีมนักวิจัยค้นพบเปปไทด์สังเคราะห์ที่สามารถลดการสร้างโปรตีน amyloid beta ซึ่งมีความเชื่อมโยงกับโรคอัลไซเมอร์ในการทดลองกับหนู",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "alzheimer's",
+      "biotech",
+      "research"
+     ],
+     "entities": [
+      "IBEC",
+      "Míriam Royo",
+      "IQAC-CSIC",
+      "University of Barcelona",
+      "IRB Barcelona"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "2a351c9a1928",
+     "title": "glp-1 weight loss drug fda approval august 2025",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOWl1VzYtZ0JyQ0M5dzRDcUR5R2c0OUVkVFd2Smw5OU90aEMxLTh6TE9hOTMtWFFsM2RSVXViTWtBRk9VZzZUZUhSS3FtdjNXTG94ZWNDUGoyb010R0JidE9RSUlBdG9DS2VKOEh5ZWZobENRY0ZDQWtLMkJINVhzRkdJWTJXcExCNld2RkdCZ1k?oc=5",
+     "source": "Meteo.gr",
+     "published": 1792252601,
+     "text": "glp-1 weight loss drug fda approval august 2025 Meteo.gr",
+     "summary_th": "การอนุมัติยาลดน้ำหนักกลุ่ม GLP-1 ของ FDA ในเดือนสิงหาคม 2025",
+     "importance": 0,
+     "numbers": [
+      "august 2025"
+     ],
+     "tags": [
+      "glp-1",
+      "weight loss",
+      "fda approval"
+     ],
+     "entities": [
+      "FDA"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "eb12ef3ddc6f",
+     "title": "Body data could provide a 24-hour warning for headaches",
+     "link": "https://medicalxpress.com/news/2026-10-body-hour-headaches.html",
+     "source": "Medical Xpress",
+     "published": 1792244401,
+     "text": "Some people who suffer a concussion struggle with headaches and fatigue afterward. These symptoms follow a consistent pattern that could be used to warn the patient a full day before they set in.",
+     "summary_th": "อาการปวดศีรษะและความเหนื่อยล้าหลังได้รับการกระทบกระเทือนทางสมองมีรูปแบบคงที่ ซึ่งข้อมูลร่างกายสามารถนำมาใช้เตือนอาการล่วงหน้าได้ 24 ชั่วโมง",
+     "importance": 2,
+     "numbers": [
+      "24-hour"
+     ],
+     "tags": [
+      "concussion",
+      "headache",
+      "digital health"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-latest"
+    }
+   ]
+  }
+ ]
+}
