@@ -39,6 +39,30 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC }}
         run: python scripts/collect.py
 
+      # Fill the summaries the free models missed, on the owner's Claude subscription (not API billing).
+      # Needs repo secret CLAUDE_CODE_OAUTH_TOKEN (from `claude setup-token`); skipped when it is absent.
+      # Never blocks the commit below: continue-on-error.
+      - name: Has Claude subscription token
+        id: has_claude
+        run: echo "yes=${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}" >> "$GITHUB_OUTPUT"
+
+      - name: Repair missing summaries (Claude Haiku)
+        if: always() && steps.collect.outcome != 'skipped' && steps.has_claude.outputs.yes == 'true'
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Read CLAUDE.md and prompts/repair-summaries.md. Do steps 0-4 of that file for TODAY and YESTERDAY
+            (Asia/Bangkok dates). Python dependencies are already installed, so skip pip. Use /tmp for the
+            pending/summaries files. Do NOT run pytest, do NOT commit, do NOT push: the workflow commits after you.
+            Summarise only; no opinions. Finish with one line: how many items fixed, how many still missing.
+          claude_args: |
+            --model claude-haiku-5-5
+            --max-turns 20
+            --allowedTools "Bash(python scripts/collect.py:*),Bash(TZ=Asia/Bangkok date:*),Read,Write"
+
       # Commit even when summaries failed, so raw headlines are not lost.
       - name: Commit
         if: always() && steps.collect.outcome != 'skipped'
