@@ -2,7 +2,9 @@ name: Daily news collect
 
 on:
   schedule:
-    - cron: "0 23 * * *"   # 06:00 Asia/Bangkok (GitHub may start it some minutes late)
+    # 04:17 Asia/Bangkok. GitHub starts scheduled runs 1.5-4 hours late (digest landed 07:34-10:19
+    # in Oct 2026), so this is set early and off the hour; the Claude routines run after ~10:00.
+    - cron: "17 21 * * *"
   workflow_dispatch:
 
 permissions:
