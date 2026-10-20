@@ -24,6 +24,8 @@ from pathlib import Path
 
 import numpy as np
 
+from media_art import cover_art, scene_svg
+
 ROOT = Path(__file__).resolve().parent.parent
 FONTS = ROOT / "assets" / "fonts"
 DEFAULT_CHROME = "/opt/pw-browsers/chromium-1194/chrome-linux/chrome"
@@ -35,6 +37,7 @@ VOICE = ["espeak-ng", "-v", "th", "-s", "175", "-p", "42"]
 
 INK, PAPER, RED, YELLOW, TEAL = "#111111", "#f4f1ea", "#e63b2e", "#ffd23f", "#0f4a4a"
 CARD_STYLES = [(TEAL, "#ffffff", YELLOW), (YELLOW, INK, RED), ("#ffffff", INK, TEAL)]
+ART_BG = ["rgba(255,255,255,.14)", "#ffffff", YELLOW]
 
 
 def esc(text):
@@ -120,7 +123,7 @@ body{{width:{W}px;background:{PAPER};color:{INK}}}
 .tabs{{display:flex;gap:30px;font-size:24px;font-weight:600}}
 .tabs b{{border-bottom:4px solid {RED};color:{RED}}}
 .label{{display:inline-block;background:{RED};color:#fff;font-size:22px;font-weight:600;letter-spacing:1px;padding:6px 16px}}
-.card{{padding:36px 40px 34px;display:grid;grid-template-columns:150px 1fr;gap:30px}}
+.card{{padding:34px 36px 32px 42px;display:grid;grid-template-columns:1fr 220px;gap:18px;align-items:center}}
 .k{{font-size:20px;font-weight:600;letter-spacing:1px;opacity:.7;margin-bottom:4px}}
 .pill{{display:inline-block;border-radius:999px;padding:6px 18px;font-size:21px;font-weight:600}}
 """
@@ -131,18 +134,17 @@ def card_html(s, i):
     radius = "64px 64px 64px 14px" if i % 2 == 0 else "64px 14px 64px 64px"
     big_size = 92 if len(s["big"]) <= 6 else 58
     return f"""<div class="card" style="background:{bg};color:{fg};border-radius:{radius}">
-<div style="display:flex;flex-direction:column;align-items:center;gap:14px">
-{icon_svg(s['icon'], fg if bg != '#ffffff' else INK, accent if bg != YELLOW else '#ffffff')}
-<div style="font-size:56px;font-weight:700;line-height:1">0{i + 1}</div></div>
-<div><div style="font-size:42px;font-weight:700;line-height:1.2">{esc(s['short'])}</div>
+<div><div style="display:flex;align-items:center;gap:16px"><span style="font-size:24px;font-weight:700;border:3px solid currentColor;border-radius:999px;padding:0 14px">0{i + 1}</span>
+<div style="font-size:42px;font-weight:700;line-height:1.2">{esc(s['short'])}</div></div>
 <div class="k" style="margin-top:16px">เกิดอะไรขึ้น</div>
-<div style="font-size:27px;line-height:1.5">{esc(s['what'])}</div>
+<div style="font-size:25px;line-height:1.45">{esc(s['what'])}</div>
 <div style="display:flex;align-items:baseline;gap:18px;margin-top:16px;flex-wrap:wrap">
 <div style="font-size:{big_size}px;font-weight:700;line-height:1;color:{RED if bg != TEAL else YELLOW}">{esc(s['big'])}</div>
 <div style="font-size:22px;opacity:.8">{esc(s['big_label'])}</div></div>
 <div style="margin-top:16px;display:flex;gap:12px;flex-wrap:wrap;align-items:center">
 <span class="pill" style="background:{fg};color:{bg}">สถานะ: {esc(s['status'])}</span>
-<span style="font-size:21px;opacity:.8">ที่มา <b>{esc(s['source'])}</b></span></div></div></div>"""
+<span style="font-size:21px;opacity:.8">ที่มา <b>{esc(s['source'])}</b></span></div></div>
+<div style="align-self:start">{scene_svg(s['icon'], 220, ART_BG[i % 3])}</div></div>"""
 
 
 def market_html(m):
@@ -167,7 +169,17 @@ def footer_html(c):
 
 
 def band(inner):
-    return f"""<div style="background:{INK};padding:40px 56px 50px;display:flex;flex-direction:column;gap:28px;flex:1">{inner}</div>"""
+    return f"""<div style="background:{INK};padding:32px 56px 36px;display:flex;flex-direction:column;gap:22px;flex:1">{inner}</div>"""
+
+
+def closing_html():
+    checks = "".join(f'<div style="font-size:24px;padding:7px 0;border-top:2px solid {INK}">✓ {t}</div>' for t in (
+        "ตัวเลขทุกตัวมาจากหัวข่าวหรือตารางราคาในไฟล์ข่าว",
+        "ตัวเลขสำคัญ กดลิงก์ต้นทางเช็คก่อนใช้ (ลิงก์ครบใน sources.md)",
+        "เรานำข่าวมาเล่าให้ฟังเท่านั้น"))
+    return f"""<div style="background:{YELLOW};color:{INK};border-radius:64px 14px 64px 64px;padding:24px 40px 22px">
+<div style="font-size:24px;font-weight:600;color:{RED}">ก่อนปิดชุดนี้</div>
+<div style="font-size:50px;font-weight:700;line-height:1.1;margin:4px 0 12px">{DISCLAIMER}</div>{checks}</div>"""
 
 
 def band_title(text):
@@ -184,7 +196,7 @@ def hero_html(c, compact=False):
 <div style="display:flex;align-items:center;gap:16px;margin-top:30px">
 <div style="width:46px;height:46px;background:{INK}"></div>
 <div style="font-size:20px;font-weight:600;letter-spacing:1px;line-height:1.4">เล่าข่าวโดย WWWTrend<br><span style="color:{RED}">{DISCLAIMER}</span></div></div></div>
-<div style="align-self:center">{hero_svg(scale)}</div></div>"""
+<div style="align-self:center">{cover_art(int(420 * scale), int(560 * scale))}</div></div>"""
 
 
 def poster_html(c):
@@ -208,7 +220,7 @@ def carousel_html(c):
              + footer_html(c)]
     for g, group in enumerate(groups):
         last = g == len(groups) - 1
-        inner = "".join(card_html(s, i) for i, s in group) + (market_html(c["market"]) if last else "")
+        inner = "".join(card_html(s, i) for i, s in group) + (market_html(c["market"]) + closing_html() if last else "")
         pages.append(mast_html(c, f"{g + 2}/{total}")
                      + band(band_title(f'สรุปให้ทีละเรื่อง <span style="color:{YELLOW}">· ข่าว {group[0][0] + 1}'
                                        f'{f"–{group[-1][0] + 1}" if len(group) > 1 else ""}</span>') + inner)
@@ -289,12 +301,13 @@ def panel_html(seg, c):
 <div style="margin-top:auto;font-size:26px;color:#555">% เทียบวันก่อน · {esc(m['source_note'])}</div>"""
     s, i = seg["story"], seg["index"]
     bg, fg, accent = CARD_STYLES[i % 3]
-    return f"""<div style="display:flex;align-items:center;gap:26px">{icon_svg(s['icon'], fg if bg != '#ffffff' else INK, accent if bg != YELLOW else '#ffffff', 130)}
-<div><div style="font-size:30px;font-weight:600;color:{RED}">ข่าว {i + 1}/{len(c['stories'])} · ที่มา {esc(s['source'])}</div>
-<div style="font-size:58px;font-weight:700;line-height:1.15">{esc(s['short'])}</div></div></div>
-<div style="font-size:{150 if len(s['big']) <= 6 else 96}px;font-weight:700;line-height:1;color:{RED};margin:46px 0 10px;letter-spacing:-3px">{esc(s['big'])}</div>
-<div style="font-size:32px;color:#555">{esc(s['big_label'])}</div>
-<div style="font-size:38px;line-height:1.45;margin-top:34px">{esc(s['what'])}</div>
+    return f"""<div style="font-size:30px;font-weight:600;color:{RED}">ข่าว {i + 1}/{len(c['stories'])} · ที่มา {esc(s['source'])}</div>
+<div style="font-size:58px;font-weight:700;line-height:1.15">{esc(s['short'])}</div>
+<div style="display:flex;align-items:center;justify-content:space-between;margin-top:10px">
+<div><div style="font-size:{140 if len(s['big']) <= 6 else 76}px;font-weight:700;line-height:1;color:{RED};letter-spacing:-3px">{esc(s['big'])}</div>
+<div style="font-size:30px;color:#555;margin-top:10px">{esc(s['big_label'])}</div></div>
+{scene_svg(s['icon'], 330, ART_BG[(i + 1) % 3] if i % 3 != 2 else YELLOW)}</div>
+<div style="font-size:36px;line-height:1.45;margin-top:18px">{esc(s['what'])}</div>
 <div style="margin-top:auto"><span style="display:inline-block;background:{INK};color:#fff;border-radius:999px;padding:10px 26px;font-size:28px;font-weight:600">สถานะ: {esc(s['status'])}</span></div>"""
 
 
