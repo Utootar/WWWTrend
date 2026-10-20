@@ -11,6 +11,7 @@
 | Claude (Haiku 5.5) | ย่อข่าวที่ตัวฟรีพลาด (วันนี้+เมื่อวาน) ตาม `prompts/repair-summaries.md` (ใช้ sub) | ทุกวัน 09:47 (Routine บน claude.ai) |
 | Claude (Sonnet 5.5) | วิเคราะห์ข่าว 2 วันล่าสุด ตาม `prompts/analyze-2day.md` | วันเว้นวัน 10:12 (Routine บน claude.ai) |
 | Claude (Opus 5.5) | วิเคราะห์ลึกทั้งสัปดาห์ + เรดาร์ของที่กำลังจะโต ตาม `prompts/weekly-deep.md` | อาทิตย์ 10:42 (Routine บน claude.ai) |
+| Claude | ร่างสื่อ (ภาพปัด + วิดีโอผู้ประกาศ) จากข่าว + บทวิเคราะห์ ตาม `prompts/make-media.md` ไม่โพสต์เอง | ทุก 2 วัน 11:07 (scheduled task) |
 
 ## กติกาที่ห้ามละเมิด
 
@@ -39,6 +40,8 @@ memory/watchlist.md       หมวดหลัก + เรื่องที่
 memory/radar.md           ประวัติเรดาร์รายสัปดาห์ (เรื่องไหนติดกี่สัปดาห์)
 memory/themes.md          ธีมลงทุนที่เจอจากข่าว → หุ้นที่เกี่ยวข้อง (US + ไทย) Claude เขียนเอง
 LATEST.md                 ลิงก์ข่าวและบทวิเคราะห์ล่าสุด
+media/YYYY-MM-DD/         ร่างสื่อ: content.json (ข้อความ/ตัวเลข) → slide-*.png, infographic, video, sources.md
+scripts/make_media.py     วาดสื่อจาก content.json (media_art.py = ภาพประกอบ, assets/fonts = ฟอนต์ Kanit)
 ```
 
 ## ทำงานในเครื่อง

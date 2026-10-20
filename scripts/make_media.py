@@ -32,7 +32,7 @@ DEFAULT_CHROME = "/opt/pw-browsers/chromium-1194/chrome-linux/chrome"
 FPS = 30
 W, H = 1080, 1920
 GAP = 0.45          # silence between narration segments (seconds)
-VOICE = ["espeak-ng", "-v", "th", "-s", "175", "-p", "42"]
+VOICE = ["espeak-ng", "-v", "th", "-s", "190", "-p", "42"]
 
 INK, PAPER, RED, YELLOW, TEAL = "#111111", "#f4f1ea", "#e63b2e", "#ffd23f", "#0f4a4a"
 CARD_STYLES = [(TEAL, "#ffffff", YELLOW), (YELLOW, INK, RED), ("#ffffff", INK, TEAL)]
@@ -144,7 +144,40 @@ def card_html(s, i):
 <span class="pill" style="background:{fg};color:{bg}">สถานะ: {esc(s['status'])}</span>
 <span style="font-size:21px;opacity:.8">ที่มา <b>{esc(s['source'])}</b></span></div></div>
 <div style="align-self:start">{scene_svg(s['icon'], 220, ART_BG[i % 3])}</div>
-{details_html(s, fg) if s.get('details') else ''}</div>"""
+{details_html(s, fg) if s.get('details') else ''}{views_html(s, fg) if s.get('views') else ''}
+{theme_html(s, fg, bg) if s.get('theme') else ''}</div>"""
+
+
+def conf_pill(v, size=18):
+    label = "บันทึก" if v["confidence"] in ("", "—") else f"มั่นใจ {v['confidence']}"
+    return f'<span class="pill" style="background:{RED};color:#fff;font-size:{size}px;white-space:nowrap">{esc(label)}</span>'
+
+
+def view_sources(views):
+    return " · ".join(dict.fromkeys(v["from"].split("/")[-1].removesuffix(".md") for v in views))
+
+
+def views_html(s, fg):
+    items = "".join(f'<div style="display:flex;gap:12px;align-items:flex-start;padding:6px 0">{conf_pill(v)}'
+                    f'<div style="font-size:23px;line-height:1.45">{esc(v["text"])}</div></div>' for v in s["views"])
+    return f"""<div style="grid-column:1/-1;border:3px dashed {fg}88;border-radius:26px;padding:14px 22px;margin-top:8px">
+<div class="k">มุมมองจากบทวิเคราะห์ · ไม่ใช่ข้อเท็จจริง <span style="font-weight:400">({esc(view_sources(s['views']))})</span></div>{items}</div>"""
+
+
+def pct_color(p, bg):
+    if bg == TEAL:
+        return "#7dffb8" if p >= 0 else "#ffb3a8"
+    return "#1f9d63" if p >= 0 else RED
+
+
+def theme_html(s, fg, bg):
+    t = s["theme"]
+    chips = "".join(f'<span style="background:{fg}1f;border-radius:999px;padding:5px 16px;font-size:21px;font-weight:600">'
+                    f'{esc(x["label"])} <span style="color:{pct_color(x["pct"], bg)}">{fmt_pct(x["pct"])}</span></span>'
+                    for x in t["stocks"])
+    return f"""<div style="grid-column:1/-1;margin-top:10px"><div class="k">หุ้นในธีม: {esc(t['name'])} · ราคาปิดล่าสุด (ไม่ใช่คำแนะนำซื้อขาย)</div>
+<div style="display:flex;gap:10px;flex-wrap:wrap">{chips}</div>
+<div style="font-size:19px;opacity:.8;margin-top:8px">ความเสี่ยงของธีม: {esc(t['risk'])}</div></div>"""
 
 
 def details_html(s, fg):
@@ -156,12 +189,19 @@ def details_html(s, fg):
 
 
 def market_html(m):
-    tiles = "".join(f"""<div style="flex:1;background:#1c1c1c;border-radius:22px;padding:22px 24px">
+    tiles = "".join(f"""<div style="flex:1 1 28%;background:#1c1c1c;border-radius:22px;padding:22px 24px">
 <div style="font-size:22px;color:#bbb">{esc(it['label'])}</div>
-<div style="font-size:42px;font-weight:700;color:{'#38d98f' if it['pct'] >= 0 else '#ff6b5e'}">{fmt_pct(it['pct'])}</div></div>"""
+<div style="font-size:42px;font-weight:700;color:{'#38d98f' if it['pct'] >= 0 else '#ff6b5e'}">{esc(it.get('value') or fmt_pct(it['pct']))}</div>
+{f'<div style="font-size:19px;color:#999">{fmt_pct(it["pct"])}</div>' if it.get('value') else ''}</div>"""
                     for it in m["items"])
     return f"""<div style="color:#fff;font-size:30px;font-weight:700;margin-top:14px">{esc(m['title'])} <span style="font-size:21px;color:#999;font-weight:400">% เทียบวันก่อน · {esc(m['source_note'])}</span></div>
-<div style="display:flex;gap:16px">{tiles}</div>"""
+<div style="display:flex;gap:16px;flex-wrap:wrap">{tiles}</div>"""
+
+
+def watch_html(m):
+    rows = "".join(f'<div style="font-size:24px;line-height:1.45;padding:10px 0;border-top:2px solid #333;color:#eee">• {esc(w["text"])} '
+                   f'<span style="color:#999;font-size:19px">· {esc(w["source"])}</span></div>' for w in m.get("watch", []))
+    return f'<div style="color:#fff;font-size:30px;font-weight:700">จับตาต่อ <span style="font-size:21px;color:#999;font-weight:400">จากบทวิเคราะห์ล่าสุด</span></div>{rows}' if rows else ""
 
 
 def mast_html(c, page_no=""):
@@ -227,12 +267,11 @@ def carousel_html(c):
              + footer_html(c)]
     for i, s in stories:
         pages.append(mast_html(c, f"{i + 2}/{total}")
-                     + band(band_title(f'ข่าว {i + 1} จาก {len(stories)} <span style="color:{YELLOW}">· {esc(s["source"])}</span>')
-                            + f'<div style="zoom:1.1">{card_html(s, i)}</div>')
+                     + band(card_html(s, i))
                      + footer_html(c))
     pages.append(mast_html(c, f"{total}/{total}")
                  + band(band_title(f'สรุปตลาด <span style="color:{YELLOW}">· ก่อนปิดชุดนี้</span>')
-                        + f'<div style="zoom:1.3;display:flex;flex-direction:column;gap:22px">{market_html(c["market"]) + closing_html()}</div>')
+                        + f'<div style="display:flex;flex-direction:column;gap:22px">{market_html(c["market"]) + watch_html(c["market"]) + closing_html()}</div>')
                  + footer_html(c))
     return pages
 
@@ -277,6 +316,7 @@ body{{width:{W}px;height:{H}px;position:relative;background:#0b1424;color:#fff}}
 .panel{{position:absolute;inset:0;padding:56px 60px;display:flex;flex-direction:column;opacity:0}}
 .cap{{position:absolute;left:56px;right:56px;top:1610px;min-height:150px;background:rgba(0,0,0,.82);border-left:10px solid {YELLOW};
   border-radius:16px;padding:20px 28px;font-size:34px;line-height:1.4;font-weight:600}}
+.pill{{display:inline-block;border-radius:999px;padding:6px 18px;font-weight:600;line-height:1.3}}
 .tick{{position:absolute;left:0;right:0;bottom:0;height:86px;background:{RED};overflow:hidden;display:flex;align-items:center}}
 .tick div{{white-space:nowrap;font-size:32px;font-weight:600;position:absolute;left:0}}
 """
@@ -295,6 +335,17 @@ def panel_html(seg, c):
         return f"""<div style="margin:auto 0"><div style="font-size:34px;font-weight:600;color:{RED}">{'ขอบอกก่อน' if kind == 'disclaimer' else 'ก่อนจากกัน'}</div>
 <div style="font-size:110px;font-weight:700;line-height:1.1;letter-spacing:-2px;margin:24px 0">{'เล่าข่าว<br>ตามที่<br>ข่าวรายงาน' if kind == 'disclaimer' else 'เช็ค<br>ก่อนใช้<br>ข้อมูล'}</div>
 <div style="font-size:38px;line-height:1.45">{'เราแค่นำข่าวมาเล่าให้ฟัง ตามที่ข่าวรายงาน' if kind == 'disclaimer' else 'ตัวเลขสำคัญ กดลิงก์ต้นทางเช็คก่อน · ลิงก์ครบใน sources.md'}</div></div>"""
+    if kind == "view":
+        s, i = seg["story"], seg["index"]
+        items = "".join(f'<div style="display:flex;gap:18px;align-items:flex-start;padding:16px 0;border-top:3px solid {INK}">{conf_pill(v, 26)}'
+                        f'<div style="font-size:38px;line-height:1.4">{esc(v["text"])}</div></div>' for v in s["views"])
+        t = s.get("theme")
+        chips = "".join(f'<span style="background:#e2ddd2;border-radius:999px;padding:8px 20px;font-size:28px;font-weight:600">{esc(x["label"])} '
+                        f'<span style="color:{pct_color(x["pct"], PAPER)}">{fmt_pct(x["pct"])}</span></span>' for x in t["stocks"]) if t else ""
+        return f"""<span style="background:{RED};color:#fff;font-size:28px;font-weight:600;padding:6px 18px;align-self:flex-start">มุมมองจากบทวิเคราะห์ · ไม่ใช่ข้อเท็จจริง</span>
+<div style="font-size:60px;font-weight:700;line-height:1.15;margin:26px 0 20px">ข่าว {i + 1}: {esc(s['short'])}</div>{items}
+{f'<div style="font-size:28px;font-weight:600;margin-top:24px">หุ้นในธีม {esc(t["name"])}</div><div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:12px">{chips}</div>' if t else ''}
+<div style="margin-top:auto;font-size:24px;color:#555">จาก {esc(view_sources(s['views']))}</div>"""
     if kind == "market":
         m = c["market"]
         peak = max(abs(i["pct"]) for i in m["items"]) or 1
@@ -302,7 +353,7 @@ def panel_html(seg, c):
 <div style="font-size:36px;font-weight:600">{esc(it['label'])}</div>
 <div style="height:34px;background:#e2ddd2;border-radius:17px;position:relative">
 <div class="bar" data-w="{abs(it['pct']) / peak * 100:.1f}" style="position:absolute;left:0;top:0;bottom:0;width:0;border-radius:17px;background:{'#1f9d63' if it['pct'] >= 0 else RED}"></div></div>
-<div style="font-size:42px;font-weight:700;text-align:right;color:{'#1f9d63' if it['pct'] >= 0 else RED}">{fmt_pct(it['pct'])}</div></div>"""
+<div style="font-size:42px;font-weight:700;text-align:right;color:{'#1f9d63' if it['pct'] >= 0 else RED}">{esc(it.get('value') or fmt_pct(it['pct']))}</div></div>"""
                        for it in m["items"])
         return f"""<span style="background:{INK};color:#fff;font-size:28px;font-weight:600;padding:6px 18px;align-self:flex-start">ตลาด</span>
 <div style="font-size:84px;font-weight:700;margin:30px 0 40px">{esc(m['title'])}</div>
@@ -322,8 +373,10 @@ def panel_html(seg, c):
 
 def video_segments(c):
     segs = [{"kind": "intro", **c["intro"]}, {"kind": "disclaimer", **c["disclaimer"]}]
-    segs += [{"kind": "story", "story": s, "index": i, "say": s["say"], "caption": s["caption"]}
-             for i, s in enumerate(c["stories"])]
+    for i, s in enumerate(c["stories"]):
+        segs.append({"kind": "story", "story": s, "index": i, "say": s["say"], "caption": s["caption"]})
+        if s.get("view_say"):
+            segs.append({"kind": "view", "story": s, "index": i, "say": s["view_say"], "caption": s["view_caption"]})
     segs += [{"kind": "market", "say": c["market"]["say"], "caption": c["market"]["caption"]},
              {"kind": "outro", **c["outro"]}]
     return segs
