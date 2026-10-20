@@ -31,7 +31,6 @@ FONTS = ROOT / "assets" / "fonts"
 DEFAULT_CHROME = "/opt/pw-browsers/chromium-1194/chrome-linux/chrome"
 FPS = 30
 W, H = 1080, 1920
-DISCLAIMER = "ไม่ใช่คำแนะนำการลงทุน"
 GAP = 0.45          # silence between narration segments (seconds)
 VOICE = ["espeak-ng", "-v", "th", "-s", "175", "-p", "42"]
 
@@ -144,7 +143,16 @@ def card_html(s, i):
 <div style="margin-top:16px;display:flex;gap:12px;flex-wrap:wrap;align-items:center">
 <span class="pill" style="background:{fg};color:{bg}">สถานะ: {esc(s['status'])}</span>
 <span style="font-size:21px;opacity:.8">ที่มา <b>{esc(s['source'])}</b></span></div></div>
-<div style="align-self:start">{scene_svg(s['icon'], 220, ART_BG[i % 3])}</div></div>"""
+<div style="align-self:start">{scene_svg(s['icon'], 220, ART_BG[i % 3])}</div>
+{details_html(s, fg) if s.get('details') else ''}</div>"""
+
+
+def details_html(s, fg):
+    rows = "".join(f"""<div style="display:grid;grid-template-columns:30px 1fr;gap:6px;padding:12px 0;border-top:2px solid {fg}33">
+<div style="font-size:24px;font-weight:700">•</div><div style="font-size:24px;line-height:1.45">{esc(d['text'])}
+<span style="font-size:19px;font-weight:600;opacity:.75;white-space:nowrap"> · {esc(d['source'])}</span></div></div>"""
+                   for d in s["details"])
+    return f"""<div style="grid-column:1/-1;margin-top:6px"><div class="k">ความเป็นมา · ข่าวที่เกี่ยวข้อง</div>{rows}</div>"""
 
 
 def market_html(m):
@@ -165,7 +173,7 @@ def mast_html(c, page_no=""):
 def footer_html(c):
     return f"""<div style="padding:26px 56px 44px;display:flex;justify-content:space-between;align-items:center;gap:24px">
 <div style="font-size:21px;line-height:1.5;color:#444">{esc(c['footer'])}<br>ที่มา: {esc(' · '.join(dict.fromkeys(s['source'] for s in c['stories'])))}</div>
-<div class="label" style="font-size:26px;padding:12px 24px;white-space:nowrap">{DISCLAIMER}</div></div>"""
+<div class="logo" style="font-size:30px">WWWTrend</div></div>"""
 
 
 def band(inner):
@@ -179,7 +187,7 @@ def closing_html():
         "เรานำข่าวมาเล่าให้ฟังเท่านั้น"))
     return f"""<div style="background:{YELLOW};color:{INK};border-radius:64px 14px 64px 64px;padding:24px 40px 22px">
 <div style="font-size:24px;font-weight:600;color:{RED}">ก่อนปิดชุดนี้</div>
-<div style="font-size:50px;font-weight:700;line-height:1.1;margin:4px 0 12px">{DISCLAIMER}</div>{checks}</div>"""
+<div style="font-size:50px;font-weight:700;line-height:1.1;margin:4px 0 12px">เช็คก่อนใช้ข้อมูล</div>{checks}</div>"""
 
 
 def band_title(text):
@@ -195,7 +203,7 @@ def hero_html(c, compact=False):
 <div style="font-size:28px;line-height:1.5;margin-top:26px;color:#333">{esc(c['dek'])}</div>
 <div style="display:flex;align-items:center;gap:16px;margin-top:30px">
 <div style="width:46px;height:46px;background:{INK}"></div>
-<div style="font-size:20px;font-weight:600;letter-spacing:1px;line-height:1.4">เล่าข่าวโดย WWWTrend<br><span style="color:{RED}">{DISCLAIMER}</span></div></div></div>
+<div style="font-size:20px;font-weight:600;letter-spacing:1px;line-height:1.4">เล่าข่าวโดย WWWTrend<br><span style="color:{RED}">นำข่าวมาเล่าตามที่ข่าวรายงาน</span></div></div></div>
 <div style="align-self:center">{cover_art(int(420 * scale), int(560 * scale))}</div></div>"""
 
 
@@ -209,22 +217,23 @@ def poster_html(c):
 
 
 def carousel_html(c):
-    """Swipeable set of 1080x1350 slides: cover, then two stories per slide, market on the last."""
+    """Swipeable set of 1080x1350 slides: cover, one slide per story, then market + closing."""
     stories = list(enumerate(c["stories"]))
-    groups = [stories[k:k + 2] for k in range(0, len(stories), 2)]
-    total = 1 + len(groups)
+    total = len(stories) + 2
     topics = "".join(f'<div style="color:#fff;font-size:40px;font-weight:600;padding:16px 0;border-top:2px solid #333">'
                      f'<span style="color:{YELLOW}">0{i + 1}</span> · {esc(s["short"])}</div>' for i, s in stories)
     pages = [mast_html(c, f"1/{total}") + hero_html(c, compact=True) + torn(PAPER, INK)
              + band(band_title(f'ในชุดนี้ <span style="color:{YELLOW}">· ปัดเพื่ออ่านต่อ →</span>') + topics)
              + footer_html(c)]
-    for g, group in enumerate(groups):
-        last = g == len(groups) - 1
-        inner = "".join(card_html(s, i) for i, s in group) + (market_html(c["market"]) + closing_html() if last else "")
-        pages.append(mast_html(c, f"{g + 2}/{total}")
-                     + band(band_title(f'สรุปให้ทีละเรื่อง <span style="color:{YELLOW}">· ข่าว {group[0][0] + 1}'
-                                       f'{f"–{group[-1][0] + 1}" if len(group) > 1 else ""}</span>') + inner)
+    for i, s in stories:
+        pages.append(mast_html(c, f"{i + 2}/{total}")
+                     + band(band_title(f'ข่าว {i + 1} จาก {len(stories)} <span style="color:{YELLOW}">· {esc(s["source"])}</span>')
+                            + f'<div style="zoom:1.1">{card_html(s, i)}</div>')
                      + footer_html(c))
+    pages.append(mast_html(c, f"{total}/{total}")
+                 + band(band_title(f'สรุปตลาด <span style="color:{YELLOW}">· ก่อนปิดชุดนี้</span>')
+                        + f'<div style="zoom:1.3;display:flex;flex-direction:column;gap:22px">{market_html(c["market"]) + closing_html()}</div>')
+                 + footer_html(c))
     return pages
 
 
@@ -283,8 +292,8 @@ def panel_html(seg, c):
 <div style="font-size:96px;font-weight:700;line-height:1.08;letter-spacing:-2px;margin:40px 0">{'<br>'.join(esc(x) for x in c['headline'])}</div>
 <div style="margin-top:auto">{items}</div>"""
     if kind in ("disclaimer", "outro"):
-        return f"""<div style="margin:auto 0"><div style="font-size:34px;font-weight:600;color:{RED}">{'ขอบอกก่อน' if kind == 'disclaimer' else 'ย้ำอีกครั้ง'}</div>
-<div style="font-size:110px;font-weight:700;line-height:1.1;letter-spacing:-2px;margin:24px 0">ไม่ใช่<br>คำแนะนำ<br>การลงทุน</div>
+        return f"""<div style="margin:auto 0"><div style="font-size:34px;font-weight:600;color:{RED}">{'ขอบอกก่อน' if kind == 'disclaimer' else 'ก่อนจากกัน'}</div>
+<div style="font-size:110px;font-weight:700;line-height:1.1;letter-spacing:-2px;margin:24px 0">{'เล่าข่าว<br>ตามที่<br>ข่าวรายงาน' if kind == 'disclaimer' else 'เช็ค<br>ก่อนใช้<br>ข้อมูล'}</div>
 <div style="font-size:38px;line-height:1.45">{'เราแค่นำข่าวมาเล่าให้ฟัง ตามที่ข่าวรายงาน' if kind == 'disclaimer' else 'ตัวเลขสำคัญ กดลิงก์ต้นทางเช็คก่อน · ลิงก์ครบใน sources.md'}</div></div>"""
     if kind == "market":
         m = c["market"]
@@ -366,7 +375,7 @@ def video_html(c, segs):
     panels = "".join(f'<div class="panel" data-start="{s["start"]:.3f}" data-end="{s["end"] + GAP:.3f}">{panel_html(s, c)}</div>'
                      for s in segs)
     caps = json.dumps([[s["start"], s["end"] + GAP, s["caption"]] for s in segs], ensure_ascii=False)
-    ticker = esc(f"  {DISCLAIMER}  ·  WWWTrend นำข่าวมาเล่าให้ฟัง  ·  {c['footer']}  ·  ") * 4
+    ticker = esc(f"  WWWTrend นำข่าวมาเล่าให้ฟัง  ·  {c['footer']}  ·  ") * 4
     return f"""<div class="studio"></div>
 <div class="bug">WWWTrend <i>สรุปข่าว</i></div>
 <div class="screen">{panels}</div>

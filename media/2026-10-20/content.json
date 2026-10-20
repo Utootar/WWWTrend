@@ -1,7 +1,11 @@
 {
   "date": "2026-10-20",
   "date_th": "20 ต.ค. 2026",
-  "headline": ["ชิปจีนร่วง", "ดีล AI ยักษ์", "Amazon ท้า Nvidia"],
+  "headline": [
+    "ชิปจีนร่วง",
+    "ดีล AI ยักษ์",
+    "Amazon ท้า Nvidia"
+  ],
   "dek": "สรุป 3 ข่าวระดับ ★★★ ของวันนี้ ภาษาง่าย อ่านจบใน 1 นาที",
   "stories": [
     {
@@ -14,7 +18,24 @@
       "source": "CNBC",
       "link": "https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html",
       "say": "ข่าวแรก หุ้น ซีเอ็กซ์เอ็มที ผู้ผลิตชิปหน่วยความจำของจีน ร่วงเกือบแปดเปอร์เซ็นต์ หลังประกาศแนวโน้มกำไรเก้าเดือนแรกของปีสองพันยี่สิบหก ข่าวนี้มาจาก ซีเอ็นบีซี",
-      "caption": "ข่าวแรก: หุ้น CXMT ผู้ผลิตชิปหน่วยความจำจีน ร่วงเกือบ 8% หลังประกาศแนวโน้มกำไร 9 เดือนแรกปี 2026 (CNBC)"
+      "caption": "ข่าวแรก: หุ้น CXMT ผู้ผลิตชิปหน่วยความจำจีน ร่วงเกือบ 8% หลังประกาศแนวโน้มกำไร 9 เดือนแรกปี 2026 (CNBC)",
+      "details": [
+        {
+          "text": "13 ต.ค. มีรายงานว่า CXMT ออกแบบชิปรุ่นใหม่คืบหน้า หุ้นชิปหน่วยความจำทั่วโลกถูกเทขาย",
+          "source": "CNBC",
+          "link": "https://www.cnbc.com/2026/10/13/cxmt-memory-chip-stock-rout.html"
+        },
+        {
+          "text": "Elon Musk บอกว่าผู้ผลิตชิปจีนกำลังตามทัน ขณะที่หุ้น Micron ลงต่อเนื่อง",
+          "source": "MarketWatch",
+          "link": "https://www.marketwatch.com/story/microns-stock-extends-declines-as-china-competition-heats-up-b8ec25f0"
+        },
+        {
+          "text": "ราคาปิดล่าสุดของคู่แข่ง: Micron −5.63% · SK Hynix −2.35% · Samsung −0.69%",
+          "source": "ตารางราคาในไฟล์ข่าว",
+          "link": ""
+        }
+      ]
     },
     {
       "icon": "deal",
@@ -26,7 +47,24 @@
       "source": "TechCrunch",
       "link": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
       "say": "ข่าวที่สอง เทคครันช์ รายงานว่า เอ็นสเกล กับ แอนโทรปิก กำลังเจรจาดีลประมวลผลอีกสี่หมื่นห้าพันล้านดอลลาร์ เท่ากับดีลเมื่อเดือนสิงหาคม แต่ยังเป็นแค่การเจรจา ยังไม่ได้ประกาศ",
-      "caption": "ข่าวที่สอง: TechCrunch รายงานว่า Nscale กับ Anthropic กำลังเจรจาดีลประมวลผลอีก 45 พันล้านดอลลาร์ ยังไม่ได้ประกาศ"
+      "caption": "ข่าวที่สอง: TechCrunch รายงานว่า Nscale กับ Anthropic กำลังเจรจาดีลประมวลผลอีก 45 พันล้านดอลลาร์ ยังไม่ได้ประกาศ",
+      "details": [
+        {
+          "text": "ส.ค. 2026 ทั้งสองบริษัทประกาศดีลประมวลผล 45 พันล้านดอลลาร์ไปแล้ว 1 ดีล ข่าวนี้คือดีลที่สองขนาดเท่ากัน",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+        },
+        {
+          "text": "19 ต.ค. Microsoft ถอนตัวจากศูนย์ข้อมูล AI ที่ใหญ่ที่สุดในอังกฤษ ส่วน Nscale ยืนยันยังสร้างที่ Essex ต่อ",
+          "source": "BBC",
+          "link": "https://www.bbc.co.uk/news/articles/c9m26kl5y7epo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "text": "Anthropic มีรายงานว่าจะเข้าตลาด Nasdaq ก่อนวัน Thanksgiving",
+          "source": "CNBC",
+          "link": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html"
+        }
+      ]
     },
     {
       "icon": "code",
@@ -34,21 +72,50 @@
       "what": "Amazon เปิดเครื่องมือ TorchNeuron อยากให้นักพัฒนาที่ใช้ PyTorch หันมารันแอป AI บนชิปของ Amazon แทน Nvidia",
       "big": "TorchNeuron",
       "big_label": "ชื่อเครื่องมือใหม่ของ Amazon",
-      "status": "ข่าวไม่มีตัวเลข",
+      "status": "ข่าวยังไม่บอกชื่อชิปหรือวันเปิดใช้",
       "source": "TechCrunch",
       "link": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
       "say": "ข่าวที่สาม อเมซอน เปิดเครื่องมือชื่อ ทอร์ชนิวรอน เพื่อท้าการครองตลาด ไพทอร์ช ของ เอ็นวิเดีย อยากให้นักพัฒนาหันมารันแอป เอไอ บนชิปของ อเมซอน เอง ข่าวนี้มาจาก เทคครันช์",
-      "caption": "ข่าวที่สาม: Amazon เปิดเครื่องมือ TorchNeuron ท้าการครองตลาด PyTorch ของ Nvidia ให้รันแอป AI บนชิปของ Amazon (TechCrunch)"
+      "caption": "ข่าวที่สาม: Amazon เปิดเครื่องมือ TorchNeuron ท้าการครองตลาด PyTorch ของ Nvidia ให้รันแอป AI บนชิปของ Amazon (TechCrunch)",
+      "details": [
+        {
+          "text": "PyTorch คือชุดเครื่องมือฟรีที่ใช้สร้างแอป AI ส่วนใหญ่ และ Nvidia ครองการใช้งานอยู่",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+        },
+        {
+          "text": "ถ้านักพัฒนาย้ายได้ง่าย แอป AI ก็รันบนชิปทางเลือกได้ เช่น ชิปของ Amazon เอง",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+        },
+        {
+          "text": "วันเดียวกัน กองชิป SMH ปิด −3.41% ขณะที่ Nasdaq ปิด +1.11%",
+          "source": "ตารางราคาในไฟล์ข่าว",
+          "link": ""
+        }
+      ]
     }
   ],
   "market": {
     "title": "ราคาปิดล่าสุด",
     "source_note": "จากตารางราคาใน news/2026-10/2026-10-20.md",
     "items": [
-      {"label": "กองชิป SMH", "pct": -3.41},
-      {"label": "Micron", "pct": -5.63},
-      {"label": "SK Hynix", "pct": -2.35},
-      {"label": "Nasdaq", "pct": 1.11}
+      {
+        "label": "กองชิป SMH",
+        "pct": -3.41
+      },
+      {
+        "label": "Micron",
+        "pct": -5.63
+      },
+      {
+        "label": "SK Hynix",
+        "pct": -2.35
+      },
+      {
+        "label": "Nasdaq",
+        "pct": 1.11
+      }
     ],
     "say": "ส่วนราคาปิดล่าสุด กองทุนชิป เอสเอ็มเอช ลบสามจุดสี่หนึ่งเปอร์เซ็นต์ ไมครอน ลบห้าจุดหกสาม เอสเคไฮนิกซ์ ลบสองจุดสามห้า ส่วน แนสแด็ก บวกหนึ่งจุดหนึ่งหนึ่งเปอร์เซ็นต์",
     "caption": "ราคาปิดล่าสุด: SMH −3.41% · Micron −5.63% · SK Hynix −2.35% · Nasdaq +1.11%"
@@ -62,8 +129,8 @@
     "caption": "ขอบอกก่อน: ผมไม่ได้แนะนำให้ลงทุน แค่เอาข่าวมาเล่าให้ฟังตามที่ข่าวรายงาน"
   },
   "outro": {
-    "say": "ย้ำอีกครั้งครับ นี่ไม่ใช่คำแนะนำการลงทุน ตัวเลขสำคัญ กดลิงก์ต้นทางเช็คก่อนนะครับ สวัสดีครับ",
-    "caption": "ย้ำอีกครั้ง: ไม่ใช่คำแนะนำการลงทุน ตัวเลขสำคัญกดลิงก์ต้นทางเช็คก่อน"
+    "say": "ตัวเลขสำคัญ กดลิงก์ต้นทางเช็คก่อนนะครับ ขอบคุณที่ติดตาม สวัสดีครับ",
+    "caption": "ตัวเลขสำคัญ กดลิงก์ต้นทางเช็คก่อน · ขอบคุณที่ติดตาม"
   },
   "footer": "ข่าวย่อจากหัวข่าว/RSS โดยโมเดลฟรี · ลิงก์ต้นทางครบอยู่ใน sources.md"
 }
