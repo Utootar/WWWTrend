@@ -38,6 +38,7 @@ jobs:
 
       - name: Set up SadTalker
         if: hashFiles('assets/anchor.jpg') != ''
+        continue-on-error: true
         run: |
           git clone --depth 1 https://github.com/OpenTalker/SadTalker "$RUNNER_TEMP/SadTalker"
           cd "$RUNNER_TEMP/SadTalker"
