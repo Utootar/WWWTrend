@@ -20,6 +20,7 @@ import os
 import subprocess
 import sys
 import tempfile
+import time
 import wave
 from pathlib import Path
 
@@ -392,8 +393,12 @@ def tts(text, wav):
         return
     mp3 = wav.with_suffix(".mp3")
     # Separate process: Playwright's sync API already runs an event loop in this one.
-    r = subprocess.run([sys.executable, "-m", "edge_tts", "--voice", THAI_VOICE, "--rate=+8%",
-                        "--text", text, "--write-media", str(mp3)], capture_output=True, text=True)
+    for attempt in range(4):  # the service sometimes returns no audio; a retry usually works
+        r = subprocess.run([sys.executable, "-m", "edge_tts", "--voice", THAI_VOICE, "--rate=+8%",
+                            "--text", text, "--write-media", str(mp3)], capture_output=True, text=True)
+        if r.returncode == 0 and mp3.exists() and mp3.stat().st_size > 0:
+            break
+        time.sleep(5 * (attempt + 1))
     if r.returncode or not mp3.exists():
         sys.exit(f"Thai voice failed ({(r.stderr or '').strip()[-300:]}). The video needs edge-tts with internet: "
                  "push content.json and let the 'Render media video' workflow make it.")
