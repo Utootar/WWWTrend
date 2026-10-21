@@ -2,10 +2,11 @@
  "date": "2026-10-21",
  "collected_at": "2026-10-21T06:54:24+07:00",
  "models": [
+  "claude/routine",
   "gemini/gemini-flash-latest",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 32,
+ "summary_failed": 0,
  "prices": [
   {
    "symbol": "^GSPC",
@@ -354,7 +355,19 @@
      "link": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
      "source": "CNBC Markets",
      "published": 1792524523,
-     "text": "Housing data deteriorated further in September, according to separate reports Tuesday."
+     "text": "Housing data deteriorated further in September, according to separate reports Tuesday.",
+     "summary_th": "ข้อมูลที่อยู่อาศัยแย่ลงอีกในเดือนกันยายน ขณะที่ Fed กำลังพิจารณาขึ้นดอกเบี้ยเพิ่มอีก",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "housing",
+      "fed",
+      "rates"
+     ],
+     "entities": [
+      "Fed"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b285196efe97",
@@ -362,7 +375,19 @@
      "link": "https://www.cnbc.com/investingclub/2026/10/20/capital-one-strong-quarter-and-progressing-discover-integration-are-rewarded.html",
      "source": "CNBC Top News",
      "published": 1792539254,
-     "text": "Stronger net interest income and credit performance were the stars of the bank's earnings."
+     "text": "Stronger net interest income and credit performance were the stars of the bank's earnings.",
+     "summary_th": "Capital One มีผลประกอบการไตรมาสที่ดี ทั้งรายได้ดอกเบี้ยสุทธิและคุณภาพสินเชื่อ และการรวมกิจการกับ Discover ก็คืบหน้า นักลงทุนตอบรับในเชิงบวก",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "banks",
+      "earnings"
+     ],
+     "entities": [
+      "Capital One",
+      "Discover"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d18b6630ffc6",
@@ -370,7 +395,18 @@
      "link": "https://www.marketwatch.com/story/why-spacexs-stock-is-surging-and-lifting-the-broader-ai-universe-along-with-it-0cd62f39",
      "source": "MarketWatch",
      "published": 1792537800,
-     "text": "SpaceX just gave Wall Street a big reason to believe in the AI boom as demand for its computing power is off the charts."
+     "text": "SpaceX just gave Wall Street a big reason to believe in the AI boom as demand for its computing power is off the charts.",
+     "summary_th": "หุ้น SpaceX พุ่งขึ้น หลังความต้องการพลังประมวลผลสำหรับ AI สูงมาก ทำให้หุ้นกลุ่ม AI ขยับตาม",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "spacex",
+      "ai"
+     ],
+     "entities": [
+      "SpaceX"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "524d10e11e40",
@@ -378,7 +414,21 @@
      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNdkN5MWxkTlktaFFfbE1FNXphaUQ4RUpfY0ZNbjhfQTlpRnhRTmtaSDV5eFJpM3luekZQaGFtdXNqMEU5OXdfQ1VsOHlOUVVjS3lxcm41NnBUSXQ3Rm4zQzF3bDZQdkZjODFnLXdJLXB3U3NoOW5peXBNd3Itd1NDeVZ6MTI3dWNfNVdnMmJqeE1zaUVwaTZuWVluTUxjSGFfR0lOQzBaQ0MzY0dsVUQ3TFJvR0U4YTJUbjJhb0VxZkEtVHZHQlVSRDZIQTlqUDJ6Xy1OQWxVX2VaUWRoWjBwVHZ3MElqbFNTM3IxQlZwU0p3TzNSLTV5TmVEVTQ0d1ROclQyXzkwZVU1ZmlR?oc=5",
      "source": "Stocktwits",
      "published": 1792540293,
-     "text": "S&P 500, Dow Gain As Earnings Season Sets In, While SpaceX Aids Nasdaq After-Hours — SPCX, BA, MMM, NFLX, QCOM In Focus Stocktwits"
+     "text": "S&P 500, Dow Gain As Earnings Season Sets In, While SpaceX Aids Nasdaq After-Hours — SPCX, BA, MMM, NFLX, QCOM In Focus Stocktwits",
+     "summary_th": "ดัชนี S&P 500 และ Dow ปรับขึ้นเมื่อฤดูกาลประกาศงบเริ่มต้น ขณะที่ SpaceX ช่วยหนุน Nasdaq ในการซื้อขายหลังตลาดปิด",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "us stocks",
+      "earnings"
+     ],
+     "entities": [
+      "SpaceX",
+      "S&P 500",
+      "Dow",
+      "Nasdaq"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "672bfaff10a4",
@@ -386,7 +436,18 @@
      "link": "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html",
      "source": "CNBC Top News",
      "published": 1792535385,
-     "text": "Wall Street and investors will be looking for Netflix to provide additional details about the company's strategy following recent organizational changes"
+     "text": "Wall Street and investors will be looking for Netflix to provide additional details about the company's strategy following recent organizational changes",
+     "summary_th": "Netflix มีกำไรไตรมาส 3 เกินคาด แต่หุ้นลดลงเพราะแนวทางรายได้จากโฆษณาและรายได้ในอนาคต",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "netflix",
+      "earnings"
+     ],
+     "entities": [
+      "Netflix"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "037d08fd3b60",
@@ -394,7 +455,20 @@
      "link": "https://www.marketwatch.com/story/super-micros-stock-soars-after-surprise-update-with-dell-and-hpe-shares-joining-the-rally-1837a69f",
      "source": "MarketWatch",
      "published": 1792535820,
-     "text": "Super Micro unexpectedly disclosed that its revenue and profitability could be much stronger than originally anticipated."
+     "text": "Super Micro unexpectedly disclosed that its revenue and profitability could be much stronger than originally anticipated.",
+     "summary_th": "Super Micro เปิดเผยแบบไม่คาดคิดว่ารายได้และกำไรอาจดีกว่าที่คาดไว้มาก หุ้นพุ่ง และหุ้น Dell กับ HPE ก็ขยับขึ้นตาม",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "servers",
+      "earnings"
+     ],
+     "entities": [
+      "Super Micro",
+      "Dell",
+      "HPE"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "78c2372fbc96",
@@ -402,7 +476,18 @@
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQM19NejVXMjhqUkV2R29Gb1ZCdU9Ya3MtLXNNdU90ald6S2hWNzlRWnhuOFJpb0lMY3FmV01oWm03T0dwR1d4UVJZSmNWYWJnSVNmU0g5UHFvUXR5b1Z3TTduTXFETWxlYU43LWI5NDFRQThUcndPZ09LTnlaSkN2UGdKandDX2pVOWtEekcteEZDUTA?oc=5",
      "source": "Seeking Alpha",
      "published": 1792539900,
-     "text": "Choppy Trading Leaves Dow Higher And Nasdaq Flat Seeking Alpha"
+     "text": "Choppy Trading Leaves Dow Higher And Nasdaq Flat Seeking Alpha",
+     "summary_th": "ตลาดผันผวนขึ้นลงสลับกัน ทำให้ดาวโจนส์ปิดสูงขึ้น ขณะที่แนสแดคทรงตัว",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "us stocks"
+     ],
+     "entities": [
+      "Dow",
+      "Nasdaq"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "bedeff2a1a76",
@@ -410,7 +495,20 @@
      "link": "https://www.cnbc.com/2026/10/20/boeing-737-max-10-certification.html",
      "source": "CNBC Top News",
      "published": 1792533671,
-     "text": "The 737 Max 10, the largest model in the family, was set to start flying in 2020, but increased scrutiny and other safety issues delayed its certification."
+     "text": "The 737 Max 10, the largest model in the family, was set to start flying in 2020, but increased scrutiny and other safety issues delayed its certification.",
+     "summary_th": "FAA อนุมัติ Boeing 737 Max 10 หลังล่าช้าหลายปี รุ่นนี้ใหญ่ที่สุดในตระกูล เดิมควรเริ่มบินในปี 2020 แต่ถูกเลื่อนจากการตรวจสอบและปัญหาความปลอดภัย Duffy กล่าวว่าขั้นตอนรับรองควรเร็วขึ้น",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "boeing",
+      "aviation"
+     ],
+     "entities": [
+      "Boeing",
+      "FAA",
+      "Duffy"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8b1021442ce4",
@@ -418,7 +516,20 @@
      "link": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2",
      "source": "MarketWatch",
      "published": 1792535580,
-     "text": "Special committees at both companies are assessing merger prospects but a combination is no sure thing, Musk says."
+     "text": "Special committees at both companies are assessing merger prospects but a combination is no sure thing, Musk says.",
+     "summary_th": "หุ้น Tesla ขึ้นหลัง Elon Musk ให้เบาะแสเรื่องการรวมกิจการกับ SpaceX ที่อาจเกิดขึ้น คณะกรรมการพิเศษของทั้งสองบริษัทกำลังประเมิน และ Musk กล่าวว่าการรวมกันยังไม่แน่นอน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "tesla",
+      "spacex merger"
+     ],
+     "entities": [
+      "Tesla",
+      "SpaceX",
+      "Elon Musk"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8489a27146e6",
@@ -426,7 +537,16 @@
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRDhCbnUwbzFqRTZQb2ZQWmtIWGtBam9ENEc4ak5nNEktMm16NlA0TXJQalJpb1I0X1BDVG9rbVh1d0k1TGU0ZjRabE1IVVNCTmhRM19QQlYtdk9JYkVaQ0xRNXJXSldPenRydmpsczhmX3V6elA2Tmo4MWJrTXphQ0wyNnlDRVM2eGUzeF94MlZBN1NN?oc=5",
      "source": "Bloomberg.com",
      "published": 1792533951,
-     "text": "US Stock Futures Advance on AI Earnings Boost: Markets Wrap Bloomberg.com"
+     "text": "US Stock Futures Advance on AI Earnings Boost: Markets Wrap Bloomberg.com",
+     "summary_th": "สัญญาซื้อขายล่วงหน้าหุ้นสหรัฐปรับขึ้นหลังผลประกอบการด้าน AI ดีขึ้น",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "us stocks",
+      "ai"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "f610cef3edd3",
@@ -434,7 +554,18 @@
      "link": "https://www.cnbc.com/investingclub/2026/10/20/obsessed-with-the-ai-trade-youre-missing-out-on-some-great-stocks.html",
      "source": "CNBC Top News",
      "published": 1792531067,
-     "text": "Today's earnings show there's a cohort of the market that can thrive outside of the data center buildout."
+     "text": "Today's earnings show there's a cohort of the market that can thrive outside of the data center buildout.",
+     "summary_th": "ผลประกอบการวันนี้ชี้ว่ามีหุ้นบางกลุ่มเติบโตได้นอกเหนือจากการสร้างศูนย์ข้อมูล บทความนี้เริ่มจากหุ้น CoreWeave",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "earnings"
+     ],
+     "entities": [
+      "CoreWeave"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ba02a05599b0",
@@ -442,7 +573,18 @@
      "link": "https://www.marketwatch.com/story/netflix-vows-to-revive-viewership-trends-but-investors-hit-sell-on-the-stock-3e24420a",
      "source": "MarketWatch",
      "published": 1792535400,
-     "text": "Streaming service cites “intense competition’ and acknowledges ‘some investor concern about our view hours growth.”"
+     "text": "Streaming service cites “intense competition’ and acknowledges ‘some investor concern about our view hours growth.”",
+     "summary_th": "Netflix ระบุว่าจะฟื้นแนวโน้มผู้ชม แต่นักลงทุนขายหุ้นออกมา บริษัทบอกว่าการแข่งขันรุนแรงและยอมรับว่านักลงทุนกังวลเรื่องการเติบโตของชั่วโมงการรับชม",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "netflix",
+      "streaming"
+     ],
+     "entities": [
+      "Netflix"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "457a94ea3313",
@@ -450,7 +592,20 @@
      "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQUTMybklYZkRDWDdPVTBtNGxkWjRVeG1TenhTenczVzVtaV9BRmZSUVZ0Q2J4Umo3bmtDNGtFMlBSekZlZjNaMmdxNTVrRmZaSmQ4MkZsX1JUaDZoSndaVmxwMFpDQkxQY3BpM0VLOXZsMXp4S3UzemI1RFFMWFBXWXVsbUpKTFlDQ0VPRi1aNjZUOVlYY1Zha0dLdTU4RVhhZWkwNi11WEpSVkxaZ0tNZjE4VDhiM3pZYzBxOEdrRENHcEw5ZTZSQUlZdWFFZmpqdjRYSUJ3WW5YdGxvcHJSWTNfWDVpY3FnUTQxMHBvblNld1EyVW1JTlpydGZoYy1hVktMTVNRTlptUWsySE9ob2MxZVl2cTEyQlNnREVxNzZuaFhleVloMGM2V1RZdw?oc=5",
      "source": "TradingView",
      "published": 1792533563,
-     "text": "Safe Harbor Financial Receives Additional 180-Day Compliance Period From Nasdaq To Regain Compliance With Minimum Bid Price Requirement TradingView"
+     "text": "Safe Harbor Financial Receives Additional 180-Day Compliance Period From Nasdaq To Regain Compliance With Minimum Bid Price Requirement TradingView",
+     "summary_th": "Safe Harbor Financial ได้รับระยะเวลาปฏิบัติตามเพิ่มอีก 180-Day จาก Nasdaq เพื่อกลับมาให้ตรงตามเกณฑ์ราคาหุ้นขั้นต่ำ",
+     "importance": 1,
+     "numbers": [
+      "180-Day"
+     ],
+     "tags": [
+      "nasdaq listing"
+     ],
+     "entities": [
+      "Safe Harbor Financial",
+      "Nasdaq"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "4c301f7d4a09",
@@ -458,7 +613,19 @@
      "link": "https://www.cnbc.com/2026/10/20/marine-le-pen-france-2027-election-odds-kalshi.html",
      "source": "CNBC Top News",
      "published": 1792528463,
-     "text": "Speculators on Kalshi see higher odds that Marine Le Pen will win France 2027 presidential contest amid growing unrest in the country."
+     "text": "Speculators on Kalshi see higher odds that Marine Le Pen will win France 2027 presidential contest amid growing unrest in the country.",
+     "summary_th": "อัตราต่อรองในตลาดทำนายผล (Kalshi) สำหรับ Marine Le Pen ในการเลือกตั้งประธานาธิบดีฝรั่งเศสปี 2027 เพิ่มขึ้น ขณะที่มีการประท้วงในประเทศ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "france",
+      "elections"
+     ],
+     "entities": [
+      "Marine Le Pen",
+      "Kalshi"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "004618a323ba",
@@ -466,7 +633,18 @@
      "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d",
      "source": "MarketWatch",
      "published": 1792535220,
-     "text": "“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”"
+     "text": "“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”",
+     "summary_th": "คอลัมน์ถามตอบการเงินส่วนตัว: ผู้เขียนถามว่าควรแบ่งมรดกบ้านมูลค่า $1 million ที่คู่ชีวิต 17 ปียกให้หรือไม่ หลังลูกของคู่ชีวิตกล่าวหาว่าตนมีอิทธิพลต่อการตัดสินใจ",
+     "importance": 0,
+     "numbers": [
+      "$1 million",
+      "$45,000"
+     ],
+     "tags": [
+      "personal finance"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "36f56377d453",
@@ -474,7 +652,20 @@
      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOERPV24tN3hRdl9Ca1NtZHlzcndtUlp3TW1wSnc0emxOdy1nd1lDNXBtNTdBYmg1Qm0wVE9ERU01WkdGVUFOSzN4d3JJMkpKbGFjaFFvNnZwaV82akIwX0VIVHJ1NUJZQUlGSWMxemFQX2h3Y0tuems0MXJyNWxGY2Y0Q3pseklpMlVVZ2UxeVNjMVpKOVA4VUtveUliSDRIV25mbG8xNld3dzFPWW1sWXBZWmpMZ3ZIc1ZmRVdQa0I1bV9yNmRTZFFpMmNCZTFuMVk4?oc=5",
      "source": "BBN Times",
      "published": 1792533103,
-     "text": "S&P 500 Rises to 7,712.90 as Health Care Hits a Record High and Oil Retreats From Five-Month Peak BBN Times"
+     "text": "S&P 500 Rises to 7,712.90 as Health Care Hits a Record High and Oil Retreats From Five-Month Peak BBN Times",
+     "summary_th": "ดัชนี S&P 500 ขึ้นมาอยู่ที่ 7,712.90 จุด โดยหุ้นกลุ่มดูแลสุขภาพทำสถิติสูงสุด ขณะที่น้ำมันปรับลงจากระดับสูงสุดในรอบห้าเดือน",
+     "importance": 2,
+     "numbers": [
+      "7,712.90"
+     ],
+     "tags": [
+      "us stocks",
+      "oil"
+     ],
+     "entities": [
+      "S&P 500"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "97ddca94dfcf",
@@ -482,7 +673,18 @@
      "link": "https://www.cnbc.com/2026/10/20/united-airlines-ual-3q-2026-earnings.html",
      "source": "CNBC Top News",
      "published": 1792527838,
-     "text": "United Airlines cut its profit outlook for the year as fuel prices continued to climb."
+     "text": "United Airlines cut its profit outlook for the year as fuel prices continued to climb.",
+     "summary_th": "United Airlines ปรับลดคาดการณ์กำไรปี 2026 เพราะราคาน้ำมันเชื้อเพลิงยังสูงขึ้น ขณะที่ผู้โดยสารยังจองตั๋วแม้ค่าโดยสารจะแพงขึ้น",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "airlines",
+      "fuel"
+     ],
+     "entities": [
+      "United Airlines"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e4366b6b56fb",
@@ -490,7 +692,20 @@
      "link": "https://www.marketwatch.com/story/walmart-takes-aim-at-amazon-and-costco-with-new-membership-program-but-is-it-a-good-deal-8e2292ef",
      "source": "MarketWatch",
      "published": 1792532820,
-     "text": "Some analysts question whether people will actually take advantage of Walmart’s new bundle, and how easy it is to make sense of the benefits."
+     "text": "Some analysts question whether people will actually take advantage of Walmart’s new bundle, and how easy it is to make sense of the benefits.",
+     "summary_th": "Walmart เปิดตัวโปรแกรมสมาชิกใหม่เพื่อแข่งกับ Amazon และ Costco แต่นักวิเคราะห์บางรายตั้งคำถามว่าผู้บริโภคจะใช้จริงหรือไม่ และประโยชน์เข้าใจยาก",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "walmart",
+      "membership"
+     ],
+     "entities": [
+      "Walmart",
+      "Amazon",
+      "Costco"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b488550c0d35",
@@ -498,7 +713,18 @@
      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVG9HeWFyd0pJR0dwVmVvZmpmREVrMmJtbFZwRWhWUlBDWTFRczJ4M1A3b2tGSnZXdnpGQkg3RjVTenBXX016bmJHR2RkS1M0Z0NBOU5yOUxEaUdVc1RBa3FsamlmdHNabHJzVlprc0oxU2xsQ2QwRFluNkNyZ0pMZjNVTkhvWmZaNHQ2dDkwVEs0b0lfUmpfWnRnd2JaNEdwS1o4Ykd0Nzh0ME0yMEhER3l3cjZnSzBjcWVpWEw1eUQxd0lUc2xITUgxT0c?oc=5",
      "source": "The Motley Fool",
      "published": 1792532984,
-     "text": "Stock Market Today, Oct. 20: IREN Slides on Funding Worries and Rate Fears The Motley Fool"
+     "text": "Stock Market Today, Oct. 20: IREN Slides on Funding Worries and Rate Fears The Motley Fool",
+     "summary_th": "หุ้น IREN ร่วงในวันที่ 20 ตุลาคม จากความกังวลเรื่องการระดมทุนและความกลัวดอกเบี้ย",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "us stocks",
+      "rates"
+     ],
+     "entities": [
+      "IREN"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "857b61bdc6be",
@@ -506,7 +732,23 @@
      "link": "https://www.cnbc.com/2026/10/20/salesforce-braze-acquisition-deal.html",
      "source": "CNBC Top News",
      "published": 1792527030,
-     "text": "The company's latest acquisition is expected to close in fiscal 2028, and will see Braze shareholders receive $47.50 in cash per share."
+     "text": "The company's latest acquisition is expected to close in fiscal 2028, and will see Braze shareholders receive $47.50 in cash per share.",
+     "summary_th": "Salesforce ประกาศซื้อ Braze มูลค่า $5.66 billion หุ้น BRZE พุ่ง 51% ผู้ถือหุ้น Braze จะได้เงินสด $47.50 ต่อหุ้น คาดว่าดีลจะปิดในปีงบประมาณ 2028",
+     "importance": 3,
+     "numbers": [
+      "$5.66 billion",
+      "51%",
+      "$47.50"
+     ],
+     "tags": [
+      "m&a",
+      "software"
+     ],
+     "entities": [
+      "Salesforce",
+      "Braze"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "482438cede15",
@@ -1281,7 +1523,18 @@
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaDM3aURIYV93MXFEX3YxeE5QczNWTVRoUW53R0h4ejZEbGpqN0NsNy1aQnNEcWVHSzFVc0dkTllacWNjcnlRNUtlVlNGM1lMdm5YUFF1eGc1T08xVEVpT05DcDAzbmxOZlk3ZDBwelNEZTVLQnJIdUpqd0otdXBObU9VN2tuSjQwbmx5dFB3?oc=5",
      "source": "Vietnam.vn",
      "published": 1792538751,
-     "text": "Gold prices today, October 21st: SJC gold price drops sharply, pressure remains ahead. Vietnam.vn"
+     "text": "Gold prices today, October 21st: SJC gold price drops sharply, pressure remains ahead. Vietnam.vn",
+     "summary_th": "ราคาทองวันที่ 21 ตุลาคมในเวียดนาม ทองแท่ง SJC ลดลงอย่างแรง และยังมีแรงกดดันอยู่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "vietnam"
+     ],
+     "entities": [
+      "SJC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ec720ad042db",
@@ -1289,7 +1542,21 @@
      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsUFlRMlJOejkyVEpwNHhmU0dQLTlpS3ZpdlRWMXNyZjNXWkwxdkxhWUMycXhxM1RSMkZaaUo4Q2xvOUYtUkd4bHZmNDlEQ3pkYmdFaDRHckUwY3JfQUFqMmxYejFwOHpKNFZRbnJwM3MxQmg3V2c?oc=5",
      "source": "EU Today",
      "published": 1792531887,
-     "text": "Russia Sells 62 Tonnes of Gold in Biggest Reserve Drawdown Since 1998 EU Today"
+     "text": "Russia Sells 62 Tonnes of Gold in Biggest Reserve Drawdown Since 1998 EU Today",
+     "summary_th": "รัสเซียขายทองคำ 62 Tonnes เป็นการลดทุนสำรองทองคำครั้งใหญ่ที่สุดนับตั้งแต่ปี 1998",
+     "importance": 3,
+     "numbers": [
+      "62 Tonnes"
+     ],
+     "tags": [
+      "gold",
+      "russia",
+      "central banks"
+     ],
+     "entities": [
+      "Russia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5c5c26f05b4f",
@@ -1297,7 +1564,16 @@
      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBuTTZ0UlY2N2w4d3NVUXYxc0dieUNOaWllV2M5dVQwZk9zZmtaSVAyYk5oSnFiMXo1ZW9uZGViSUd0LVViX3RZNGZ0a3ZpNUgtM2VaY0FPMHNiNWV5LUoyZlFpd2VpS0JTZHhSQUxuUWd3eHJtYmc?oc=5",
      "source": "Vietnam.vn",
      "published": 1792538419,
-     "text": "Gold prices today (October 21): Continue to slide. Vietnam.vn"
+     "text": "Gold prices today (October 21): Continue to slide. Vietnam.vn",
+     "summary_th": "ราคาทองวันที่ 21 ตุลาคมปรับลดลงต่อเนื่อง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "vietnam"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "4e20e248d338",
@@ -1305,7 +1581,21 @@
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOR2R5WXNVdDJYRHFENjZEQVlXSzBOTzJhbWhjcV94cVZrdWJUVFZfUUpCSDFFV3YzR3AzVmp6UXl6MGlaTEs1RnY4SV9KU0RGd1MxVzV5ZkZSOW1uSk5hT1ExRDVUVFAwaUtoLTI1V2xqR0ZUdjgxX3V1Z3FKeUc3RnRqMEhFY0hES1hub2RJMVVCUm1PbXIyNXpnZkhpWHNLNHhFOXFXT2Q1ZnFEeEFPWEVibWl3SExxbnlFYWk4ZjMzemJWQ3VxeXl1eTBQV3NWR01OSw?oc=5",
      "source": "TradingView",
      "published": 1792531529,
-     "text": "CIBC cuts Q4 gold price forecast to $4,500, then sees bounce to $5,200 in 2027 TradingView"
+     "text": "CIBC cuts Q4 gold price forecast to $4,500, then sees bounce to $5,200 in 2027 TradingView",
+     "summary_th": "CIBC ปรับลดคาดการณ์ราคาทองคำไตรมาส 4 เหลือ $4,500 และคาดว่าราคาจะกลับตัวขึ้นไปที่ $5,200 ในปี 2027",
+     "importance": 2,
+     "numbers": [
+      "$4,500",
+      "$5,200"
+     ],
+     "tags": [
+      "gold",
+      "forecast"
+     ],
+     "entities": [
+      "CIBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "728269f9b283",
@@ -1313,7 +1603,16 @@
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbUFhWVZmd015MTIwQUV2VVNOZVl6ckEzUTZTZWZwel9UQUYtSFlsUjVkUHhXandHRFZ1bHZDa0FKVWNvOE1QZ09CZENhdl9yc1I5RW1DbHVBRzdzTi1WMUQ1WEhCbGpqVm5tdTBIekZzTUZld0o3TWt0cnlyQzZYSkpsa3dEY2RCRUFBcVBnS1I4R0tMTkl6ZGVfQjM4ZlZOQ3YwWlJVS0Mtdw?oc=5",
      "source": "Laodong.vn",
      "published": 1792537920,
-     "text": "Gold price update morning of October 21st: Gold price extends downward streak Laodong.vn"
+     "text": "Gold price update morning of October 21st: Gold price extends downward streak Laodong.vn",
+     "summary_th": "ราคาทองช่วงเช้าวันที่ 21 ตุลาคมปรับลดลงต่อเนื่อง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "vietnam"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "da13a7643f01",
@@ -1321,7 +1620,18 @@
      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tRUR1bHctaFFmcWU2YTljQ0ZaaGYtdkx4TWxScGJsUTVjMDAyQjFKUGtCcmNPU1lsdXJNc0hDaU12T1g1ZllVREVjM25ZWE5XdV9jTGQ2YThWeDZId1dkTHJiZW96SDk2RHJhb0EwTHdqN2oteXNpSW5R?oc=5",
      "source": "Sada Elbalad English",
      "published": 1792529847,
-     "text": "Russia Sells Gold for 10th Month, Reserves at 2019 Low Sada Elbalad English"
+     "text": "Russia Sells Gold for 10th Month, Reserves at 2019 Low Sada Elbalad English",
+     "summary_th": "รัสเซียขายทองคำเป็นเดือนที่ 10 ติดต่อกัน ทำให้ทุนสำรองลดลงสู่ระดับต่ำสุดตั้งแต่ปี 2019",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "russia"
+     ],
+     "entities": [
+      "Russia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2a278a04b34f",
@@ -1329,7 +1639,21 @@
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaklTLTRxX2M5RlhPa0pIcDNMSGk5VEdETjl3THhiMUFPcktRVG9fbUpJQWhUT2ZHQkw5ZVNGaGphSFRTdUczbkhmaGdaaWpQbHVZUm00Vll6bHVOaDlUUlM4U1hwS0VUNlRaOURGWWdHcnVuUXhpTElrYUpZZXFpZHo4WGxCSTJlQ2d1QzNJOHBteEVITkpDNUJtVHdra2tW?oc=5",
      "source": "Vietnam.vn",
      "published": 1792536544,
-     "text": "Gold prices today, October 21, 2026: Prices of SJC, BTMC, PNJ, Phu Quy gold and international gold. Vietnam.vn"
+     "text": "Gold prices today, October 21, 2026: Prices of SJC, BTMC, PNJ, Phu Quy gold and international gold. Vietnam.vn",
+     "summary_th": "สรุปราคาทองวันที่ 21 ตุลาคม 2026 ทั้งทองแท่ง SJC, BTMC, PNJ, Phu Quy และราคาทองโลก",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "vietnam"
+     ],
+     "entities": [
+      "SJC",
+      "BTMC",
+      "PNJ",
+      "Phu Quy"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "56368e4c50d5",
@@ -1337,7 +1661,15 @@
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNR2RxS2U5dDE0YkJlZS1wOTJQcmpCOXZramxKdjdLa2tHQVV3RFBqcWczSlpZMG5kS19XNlZxU2NIRUw5aW1WajFRRDJWM2lQZDJBU01HQkRzam1OR1BxMG9VOGNnbF9UZ2l6eGFLY0o4V2xKUlNfcXBtYUlYeUlpN0otSFdnanktY1VwX3dR?oc=5",
      "source": "ETF Database",
      "published": 1792529325,
-     "text": "A Sterling Thesis: The Long-Term Silver Investment Case ETF Database"
+     "text": "A Sterling Thesis: The Long-Term Silver Investment Case ETF Database",
+     "summary_th": "บทความของ ETF Database ชื่อ 'A Sterling Thesis' นำเสนอกรณีการลงทุนเงิน (silver) ในระยะยาว",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "silver"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "84b5577c804b",
@@ -1345,7 +1677,19 @@
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYlU0Tnh6YlpqbGRQUzA5b0xqaUwxUzFSLUhoODZ6S0gyb2FoOVdnZGI2R0oybUpjdi1GZWxFUU5xT0JIZkN1ODRWOUNnT3c1aEUyNlJDdExGYlVQaU9jUGNRZzJNa2d6WXlxdmRiazEyUEN4d2ZLOXdXVDlaT3NaSjJWZ2tieFpsZGF0eHpkX210SVhMT2U0clQ2TS0zdDVzd2hwb0N1N1o?oc=5",
      "source": "Vietnam.vn",
      "published": 1792536537,
-     "text": "Gold prices today, October 21, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. Vietnam.vn"
+     "text": "Gold prices today, October 21, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. Vietnam.vn",
+     "summary_th": "สรุปราคาทองวันที่ 21 ตุลาคม 2026 ทั้งทองแท่ง SJC, ทองแหวน BTMC 9999 และราคาทองโลก",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "vietnam"
+     ],
+     "entities": [
+      "SJC",
+      "BTMC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "0fd3c73d8caf",
@@ -1353,7 +1697,19 @@
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWUFBWmhaLUpOb29pQWgtMEhpclJBcWpGc2hDaGg1b0xzN2s0SUtWQ29VbG5kV2dOdF9UYkVWWmRZbEF0NXdZYW1nMDVHSlVmX1VvZUdPcF95QVR1Ukxid0pIaTNKd2dNWEdUUFFycDByV1BQa3Fra05IaTNZNjF2dEpIM2kwRmw2eVNlTFlscU42UmhxNFl0VXJRV2M0bjhST2RDcEg5dzhsYU1VNl9EdU1TNDJYeGUz?oc=5",
      "source": "UNITED24 Media",
      "published": 1792526591,
-     "text": "Russia Makes Largest Gold Sell-Off Since 1998 Default to Fund Putin’s War Budget UNITED24 Media"
+     "text": "Russia Makes Largest Gold Sell-Off Since 1998 Default to Fund Putin’s War Budget UNITED24 Media",
+     "summary_th": "รัสเซียขายทองคำมากที่สุดนับตั้งแต่ผิดนัดชำระหนี้ในปี 1998 หัวข้อข่าวระบุว่าเพื่อใช้จ่ายงบประมาณสงคราม",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "russia"
+     ],
+     "entities": [
+      "Russia",
+      "Putin"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "64b2e5d1fdcd",
@@ -1361,7 +1717,16 @@
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZlAyNWpJWno5dS02ZzZVNmlHcnVzUEZuQUQ2cnRoT0thVkJKeDBtTHFoMWUtcmt1dndjSG9VekI5Qk9XbkhZcXgwYlppa0lqWDhrbmQxQ2JDZm9qVHc0dnF6WjVneU5HVFlvY3dESUg2YzBLOXJhNXhjNlhoOV93dE9qTkJaZDI4a3R5U1hfbm4?oc=5",
      "source": "Vietnam.vn",
      "published": 1792535223,
-     "text": "Gold prices today (October 21): Gold bars and gold rings plummet simultaneously. Vietnam.vn"
+     "text": "Gold prices today (October 21): Gold bars and gold rings plummet simultaneously. Vietnam.vn",
+     "summary_th": "ราคาทั้งทองแท่งและทองแหวนร่วงลงพร้อมกันในวันที่ 21 ตุลาคม",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "vietnam"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "c204aa6317a6",
@@ -1369,7 +1734,21 @@
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbHNKMXFHakFTN2pUQmxia0hHcUJfckZZMkJIR25SU280aWVjZ3lXRXl6bEd5MjFOMlNNRXluWklBZEdRUnk4dmhualJfVnJuSDNFYlV5QWFac1lkcVhmMUo1RlJMVHBSSVZtUi1ub2FLcUx3QnIwX1hScThNR1pxWXc4bF9nM1BzNUFBb2FkYnZjaGpIUjAwSHVZeUFTaU1QY2I2Z1R1WHh6MVJZVlk0Sm1R?oc=5",
      "source": "Odessa Journal",
      "published": 1792526343,
-     "text": "Russia Sells 62 Tonnes of Gold as Budget Deficit Soars - Oj Odessa Journal"
+     "text": "Russia Sells 62 Tonnes of Gold as Budget Deficit Soars - Oj Odessa Journal",
+     "summary_th": "รัสเซียขายทองคำ 62 Tonnes ขณะที่งบประมาณขาดดุลพุ่งขึ้น",
+     "importance": 2,
+     "numbers": [
+      "62 Tonnes"
+     ],
+     "tags": [
+      "gold",
+      "russia",
+      "budget deficit"
+     ],
+     "entities": [
+      "Russia"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
