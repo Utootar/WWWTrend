@@ -390,13 +390,12 @@ def tts(text, wav):
     if os.environ.get("MEDIA_TTS") == "espeak":
         subprocess.run(ESPEAK + ["-w", str(wav), text], check=True)
         return
-    try:
-        import asyncio
-        import edge_tts
-        mp3 = wav.with_suffix(".mp3")
-        asyncio.run(edge_tts.Communicate(text, THAI_VOICE, rate="+8%").save(str(mp3)))
-    except Exception as e:
-        sys.exit(f"Thai voice failed ({e}). The video needs edge-tts with internet: "
+    mp3 = wav.with_suffix(".mp3")
+    # Separate process: Playwright's sync API already runs an event loop in this one.
+    r = subprocess.run([sys.executable, "-m", "edge_tts", "--voice", THAI_VOICE, "--rate=+8%",
+                        "--text", text, "--write-media", str(mp3)], capture_output=True, text=True)
+    if r.returncode or not mp3.exists():
+        sys.exit(f"Thai voice failed ({(r.stderr or '').strip()[-300:]}). The video needs edge-tts with internet: "
                  "push content.json and let the 'Render media video' workflow make it.")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp3), "-ac", "1", "-ar", "24000",
                     "-c:a", "pcm_s16le", str(wav)], check=True)
