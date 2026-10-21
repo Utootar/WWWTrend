@@ -1,8 +1,8 @@
 """Make the lip-synced presenter look alive: eye blinks and small head motion.
 
 Wav2Lip (see make_media.talking_head) only redraws the mouth. This pass runs on its frames:
-- blinks: a closed-eye patch (eyelid skin stretched over the eye + lash line) faded in
-  for ~0.25 s at natural, slightly irregular intervals;
+- blinks: the real upper lid slides down (its lash row moves as is, a thin strip of lid skin
+  above it is stretched to fill the gap) for ~0.25 s at natural, slightly irregular intervals;
 - head: a small tilt / nod / sway of the head region around the chin, feathered into the
   neck so shoulders and background stay put; it nods a little more while speaking.
 Uses OpenCV's bundled Haar cascades only (no downloads), a few ms per frame on a CPU.
@@ -29,31 +29,43 @@ def analyze(img):
             "eyes": [(int(x + ex), int(y + ey), int(ew), int(eh)) for ex, ey, ew, eh in eyes]}
 
 
-def _closed_eye(img, eye, level=1.0):
-    """Image with the upper lid lowered over the top `level` of one eye, and a feathered mask for it."""
+def _opening(gray, eye):
+    """Tight box (x0, x1, top, bottom) of the dark lash/iris band inside a Haar eye box."""
     ex, ey, ew, _ = eye
-    cx, cy = ex + ew / 2, ey + ew / 2 + 0.03 * ew
-    ow, oh = int(0.70 * ew), int(0.30 * ew)              # eye opening
-    x0, y0 = int(cx - ow / 2), int(cy - oh / 2)
-    out = img.copy()
-    skin = img[y0 + oh + 2:y0 + oh + 2 + max(4, int(0.5 * oh)), x0:x0 + ow]   # plain under-eye skin
-    if skin.size == 0:
-        return out, np.zeros(img.shape[:2], np.float32)
-    lid_h = max(2, int(oh * level))
-    lid = cv2.GaussianBlur(cv2.resize(cv2.flip(skin, 0), (ow, lid_h)), (7, 7), 0).astype(np.float32)
-    ring = np.concatenate([img[y0 - oh // 2:y0, x0:x0 + ow].reshape(-1, 3), skin.reshape(-1, 3)]).astype(np.float32)
-    lid *= ring.mean(0) / np.maximum(lid.reshape(-1, 3).mean(0), 1)         # match the lid's tone
-    out[y0:y0 + lid_h, x0:x0 + ow] = np.clip(lid, 0, 255).astype(np.uint8)
-    edge = y0 + lid_h - (0 if level >= 1 else 2)
-    pts = np.array([[x0 + i * ow / 12, edge + math.sin(math.pi * i / 12) * 0.16 * oh * level]
-                    for i in range(13)], np.int32)
-    lash = out.copy()
-    cv2.polylines(lash, [pts], False, (34, 26, 24), max(2, ew // 55), cv2.LINE_AA)
-    out = cv2.addWeighted(lash, 0.8, out, 0.2, 0)
-    mask = np.zeros(img.shape[:2], np.float32)
-    cv2.ellipse(mask, (int(cx), int(y0 + lid_h / 2 + 1)), (int(ow * 0.5), int(lid_h * 0.62 + 3)), 0, 0, 360, 1.0, -1)
-    k = max(5, (ew // 6) | 1)
-    return out, cv2.GaussianBlur(mask, (k, k), 0)
+    r = gray[ey:ey + ew, ex:ex + ew] < 70
+    r[:, r.mean(0) > 0.6] = False                         # hair beside the eye is dark in every row
+    rows = r.sum(1) >= 0.2 * ew
+    best, cur = (0, 0), None
+    for i in range(ew // 4, ew):                          # skip the brow at the top of the box
+        if rows[i]:
+            cur = i if cur is None else cur
+            if i - cur > best[1] - best[0]:
+                best = (cur, i)
+        else:
+            cur = None
+    t, b = best
+    cols = np.nonzero(r[t:b + 1].sum(0) >= 3)[0]
+    if b - t < ew // 10 or len(cols) < ew // 3:
+        return None
+    return ex + int(cols.min()), ex + int(cols.max()), ey + t, ey + b
+
+
+def _lid_map(shape, op, level):
+    """Row lookup that slides the upper lid (lash row + a stretched strip of lid skin) down by `level`."""
+    x0, x1, t, b = op
+    cx, cy, hw, oh = (x0 + x1) / 2, (t + b) / 2, 0.55 * (x1 - x0), b - t
+    X, Y = np.meshgrid(np.arange(shape[1], dtype=np.float32), np.arange(shape[0], dtype=np.float32))
+    s = np.clip(1 - ((X - cx) / hw) ** 2, 0, 1) ** 0.75   # almond: full height mid-eye, 0 at corners
+    top = cy - 0.5 * oh * s
+    d = level * oh * s * 0.97                             # how far the lid edge drops here
+    lash = top - 0.42 * oh                                # top of the lash row
+    strip = lash - 0.3 * oh                               # skin above it, stretched to fill the gap
+    sy = Y.copy()
+    skin = (Y >= strip) & (Y < lash + d)
+    sy[skin] = (strip + (Y - strip) * (lash - strip) / np.maximum(lash + d - strip, 1))[skin]
+    row = (Y >= lash + d) & (Y < top + 0.08 * oh + d)
+    sy[row] = (Y - d)[row]
+    return X, sy
 
 
 def blink_curve(n_frames, fps, seed=7):
@@ -77,9 +89,9 @@ def head_motion(n_frames, fps, speech):
     win = max(1, int(0.4 * fps))
     s = np.convolve(np.asarray(speech[:n_frames], np.float32), np.ones(win) / win, mode="same")
     s = np.pad(s, (0, max(0, n_frames - len(s))))
-    angle = 1.3 * np.sin(2 * np.pi * t / 6.1) + 0.6 * np.sin(2 * np.pi * t / 2.9 + 0.8) + 1.1 * (s - s.mean())
-    dx = 3.0 * np.sin(2 * np.pi * t / 7.7)
-    dy = 2.0 * np.sin(2 * np.pi * t / 4.3) + 5.0 * s
+    angle = 1.8 * np.sin(2 * np.pi * t / 6.1) + 0.8 * np.sin(2 * np.pi * t / 2.9 + 0.8) + 1.5 * (s - s.mean())
+    dx = 5.0 * np.sin(2 * np.pi * t / 7.7)
+    dy = 3.0 * np.sin(2 * np.pi * t / 4.3) + 6.0 * s
     return angle, dx, dy
 
 
@@ -89,9 +101,16 @@ def animate(frame_paths, base_img, fps, speech):
     if not info:
         return False
     x, y, w, h = info["face"]
-    levels = (0.35, 0.7, 1.0)                             # lid positions while blinking
-    eyes = {lv: [_closed_eye(base_img, e, lv) for e in info["eyes"]] for lv in levels} \
-        if len(info["eyes"]) == 2 else {}
+    gray = cv2.cvtColor(base_img, cv2.COLOR_BGR2GRAY)
+    ops = [o for o in (_opening(gray, e) for e in info["eyes"]) if o]
+    levels = (0.25, 0.5, 0.75, 1.0)                       # lid positions while blinking
+    lids = {}
+    if len(ops) == 2:
+        for lv in levels:
+            mx, my0 = _lid_map(base_img.shape, ops[0], lv)
+            my1 = _lid_map(base_img.shape, ops[1], lv)[1]
+            rows = np.arange(my0.shape[0], dtype=np.float32)[:, None]
+            lids[lv] = (mx, my0 + my1 - rows)               # the eyes don't overlap: add both shifts
     head = np.zeros(base_img.shape[:2], np.float32)
     cv2.ellipse(head, (x + w // 2, y + int(h * 0.42)), (int(w * 0.82), int(h * 0.98)), 0, 0, 360, 1.0, -1)
     k = (int(w * 0.35) | 1)
@@ -103,11 +122,9 @@ def animate(frame_paths, base_img, fps, speech):
         f = cv2.imread(str(p))
         if f is None or f.shape[:2] != base_img.shape[:2]:
             continue
-        if closure[i] > 0.15 and eyes:
-            lv = min(levels, key=lambda v: abs(v - closure[i]))
-            for closed, mask in eyes[lv]:
-                a = mask[..., None]
-                f = (f * (1 - a) + closed * a).astype(np.uint8)
+        if closure[i] > 0.12 and lids:
+            mx, my = lids[min(levels, key=lambda v: abs(v - closure[i]))]
+            f = cv2.remap(f, mx, my, cv2.INTER_LINEAR)
         m = cv2.getRotationMatrix2D(pivot, float(angle[i]), 1.0)
         m[:, 2] += (float(dx[i]), float(dy[i]))
         moved = cv2.warpAffine(f, m, (f.shape[1], f.shape[0]), borderMode=cv2.BORDER_REFLECT)
