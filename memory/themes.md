@@ -35,6 +35,7 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-10-15: ไม่มีข่าวบริษัทใหม่ 2 วัน POWL -4.8% FIX -5.2% GEV -0.1% (ดู analysis/2026-10/2026-10-15-2day.md)
 อัปเดต 2026-10-18 (weekly): ทั้งสัปดาห์ GEV -8.3% POWL -14.0% FIX -16.1% MYRG -10.1% CEG -9.0% VST -5.9% GULF +2.5% GPSC -0.5% ลงไปกับหุ้น AI ทั้งตลาด หลักฐาน: [Brookfield+NextEra AI hub $100B](https://oilprice.com/Energy/Energy-General/Brookfield-NextEra-to-Build-100-Billion-AI-Hub-on-Cold-War-Nuclear-Site.html) · [Constellation เพิ่มกำลังผลิต](https://www.technologyreview.com/2026/10/15/1146577/nuclear-power-upgrade/) · [สองพรรคต้าน data center](https://www.bbc.co.uk/news/articles/c0rezqpnekro?at_medium=RSS&at_campaign=rss) (ดู analysis/2026-10/2026-10-18-weekly.md)
 อัปเดต 2026-10-19: ลงตามหุ้น AI (GEV -0.57% POWL -3.33% FIX -2.85% CEG -1.32% VST -1.39%) ไม่มีข่าวบริษัทใหม่ ดู [Nasdaq ร่วงเพราะน้ำมัน+ขายหุ้น AI](https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c) (analysis/2026-10/2026-10-19-2day.md)
+อัปเดต 2026-10-21: ลงต่อ FIX -4.57% MYRG -3.56% GEV -1.99% CEG -1.65% VST +0.41% NEE +0.88% หลักฐานใหม่: [ไฟฟ้ายุโรปโตจาก data center](https://oilprice.com/Energy/Natural-Gas/Europes-Power-Demand-Returns-to-Growth.html)
 ความเสี่ยงของธีม: ราคาอาจนำข่าวไปแล้ว ยีลด์สูง ผูกกับความเชื่อมั่น AI แรงต้าน data center จากทั้งสองพรรค
 
 ## LNG/ก๊าซนอกอ่าวเปอร์เซีย (เริ่มเจอ 2026-10-07 · ล่าสุด 2026-10-17)
@@ -50,6 +51,7 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-10-15: LNG ตะวันออกกลางยังติดค้างหลังผ่านมา 7 เดือนครึ่ง [OilPrice](https://oilprice.com/Energy/Natural-Gas/Stranded-Middle-East-LNG-Supply-Upends-Gas-Markets.html) · Brent 106.86 อิหร่านโจมตีเรือในฮอร์มุซ
 อัปเดต 2026-10-18 (weekly): ทั้งกลุ่มขึ้นสวนตลาด LNG +4.0% KMI +5.3% PTTEP +5.4% PTT +2.5% หลักฐาน: [ไต้หวันซื้อ LNG อะแลสกา $70-80B](https://oilprice.com/Energy/Natural-Gas/Trump-Announces-80-Billion-Taiwan-LNG-Deal.html) · [LNG ขาดดันถ่านหิน](https://oilprice.com/Energy/Natural-Gas/Global-Coal-Demand-Rises-as-LNG-Shortage-Deepens.html) · [ยุโรปก๊าซสำรองต่ำก่อนหน้าหนาว](https://oilprice.com/Energy/Energy-General/Europe-Braces-for-a-Winter-Energy-Crisis-as-Gas-Reserves-Run-Low.html)
 อัปเดต 2026-10-19: LNG +3.68% KMI +4.20% ขึ้นสวนตลาด เรือถูกโจมตีที่ฮอร์มุซ 12 ลำใน 1 สัปดาห์ [BBC](https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss)
+อัปเดต 2026-10-21: LNG -1.13% KMI +0.54% PTTEP +1.92% ค่าระวางเรือน้ำมันทะลุ $1 ล้าน/วัน [OilPrice](https://oilprice.com/Energy/Energy-General/Petrobras-Deepwater-Push-Sets-Off-a-Race-for-Offshore-Vessels.html) แต่ WTI ลง 5% จากความหวังทางการทูต
 ความเสี่ยงของธีม: หยุดยิง/ฮอร์มุซเปิด ราคาก๊าซร่วงเร็ว PTT อาจถูกคุมราคาในประเทศ
 
 ## ชิปหน่วยความจำ (เริ่มเจอ 2026-10-08 · ล่าสุด 2026-10-17)
@@ -64,6 +66,7 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-10-15: ร่วงแรง SK Hynix -11.1% Samsung -9.0% Micron -7.4% หลังรายงาน CXMT (จีน) คืบหน้าออกแบบชิป [CNBC](https://www.cnbc.com/2026/10/13/cxmt-memory-chip-stock-rout.html) · [Micron ลงต่อ จีนแข่งแรง](https://www.marketwatch.com/story/microns-stock-extends-declines-as-china-competition-heats-up-b8ec25f0) (ดู analysis/2026-10/2026-10-15-2day.md)
 อัปเดต 2026-10-18 (weekly): SK Hynix -24.3% Samsung -17.8% (เทียบ 8 ต.ค.) MU -14.6% HANA -3.8% ยังไม่มีข่าวราคา RAM ลง [รมว.คลังเกาหลี: ชิปแข็งถึงปีหน้า](https://www.cnbc.com/2026/10/17/south-korea-semiconductor-outlook-lee-hyoung-il.html) · [SK Hynix ถูกค้านนำ Solidigm เข้า Nasdaq](https://news.google.com/rss/articles/CBMijgFBVV95cUxNc1lkMl9lTkxyUmhKRElVZGQtMy1PQ19PeGEtU1NHSzVuQWp3NUpES3RTNF9rSTNIeURkS2JRb3Q5NUQ0RE5oMW9) สถานะ: ธีมเสี่ยงสูง ยังไม่ตัด จบถ้าราคา RAM สัญญาเริ่มลง
 อัปเดต 2026-10-19: MU -5.63% SMH -3.41% ยังไม่มีข่าวราคา RAM ลง [MarketWatch](https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c)
+อัปเดต 2026-10-21: SK Hynix -4.23% Samsung -2.98% MU -0.98% ยังไม่มีข่าวราคา RAM ลง
 ความเสี่ยงของธีม: วัฏจักรหน่วยความจำกลับลงเร็ว ผูกกับข่าวรายได้ AI จีนเริ่มตามทัน
 
 ## โรงกลั่น/ดีเซลขาด (เริ่มเจอ 2026-10-14 · ล่าสุด 2026-10-17)
@@ -75,6 +78,7 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 | VLO, MPC | US | โรงกลั่นใหญ่ | ความรู้ทั่วไป |
 | TOP.BK | TH | โรงกลั่นไทย | ความรู้ทั่วไป |
 อัปเดต 2026-10-19: สหรัฐปล่อย SPR อีก 17 ล้านบาร์เรล [OilPrice](https://oilprice.com/Latest-Energy-News/World-News/US-Offers-Another-17-Million-SPR-Barrels-as-Fuel-Crisis-Deepens.html) · ยกเลิกคว่ำบาตรรัสเซียส่วนใหญ่ อาจกดส่วนต่างกลั่นระยะกลาง
+อัปเดต 2026-10-21: DK +3.40% VLO +0.03% MPC +0.28% TOP -1.06% น้ำมันดิบลงช่วยต้นทุนโรงกลั่น
 ความเสี่ยงของธีม: รัฐห้ามส่งออก/คุมราคา (โดยเฉพาะไทย) ฮอร์มุซเปิด ส่วนต่างหดเร็ว
 
 ## ความปลอดภัยไซเบอร์ยุค AI agent (เริ่มเจอ 2026-10-12 · ล่าสุด 2026-10-17)
