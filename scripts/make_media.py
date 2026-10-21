@@ -132,6 +132,21 @@ body{{width:{W}px;background:{PAPER};color:{INK}}}
 """
 
 
+CONTENT_DIR = Path(".")  # set from the content file; story "photo" paths are relative to it
+
+
+def art_html(s, size, bg, radius=28):
+    """AI photo for the story (content.json "photo", e.g. made in Canva) or the drawn isometric scene."""
+    photo = CONTENT_DIR / s["photo"] if s.get("photo") else None
+    if not (photo and photo.exists()):
+        return scene_svg(s["icon"], size, bg)
+    uri = "data:image/jpeg;base64," + base64.b64encode(photo.read_bytes()).decode()
+    return (f'<div style="position:relative;width:{size}px;height:{size}px;border-radius:{radius}px;overflow:hidden;'
+            f'box-shadow:0 12px 30px rgba(0,0,0,.35)"><img src="{uri}" style="width:100%;height:100%;object-fit:cover">'
+            f'<span style="position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.6);color:#fff;font-size:{max(12, size // 18)}px;'
+            f'padding:2px 10px;border-radius:999px">ภาพประกอบ AI</span></div>')
+
+
 def card_html(s, i):
     bg, fg, accent = CARD_STYLES[i % 3]
     radius = "64px 64px 64px 14px" if i % 2 == 0 else "64px 14px 64px 64px"
@@ -147,7 +162,7 @@ def card_html(s, i):
 <div style="margin-top:16px;display:flex;gap:12px;flex-wrap:wrap;align-items:center">
 <span class="pill" style="background:{fg};color:{bg}">สถานะ: {esc(s['status'])}</span>
 <span style="font-size:21px;opacity:.8">ที่มา <b>{esc(s['source'])}</b></span></div></div>
-<div style="align-self:start">{scene_svg(s['icon'], 220, ART_BG[i % 3])}</div>
+<div style="align-self:start">{art_html(s, 220, ART_BG[i % 3])}</div>
 {details_html(s, fg) if s.get('details') else ''}{views_html(s, fg) if s.get('views') else ''}
 {theme_html(s, fg, bg) if s.get('theme') else ''}</div>"""
 
@@ -326,7 +341,7 @@ def panel_html(seg, c):
 <div style="display:flex;align-items:center;justify-content:space-between;margin-top:10px">
 <div><div style="font-size:{140 if len(s['big']) <= 6 else 76}px;font-weight:700;line-height:1;color:{RED};letter-spacing:-3px">{esc(s['big'])}</div>
 <div style="font-size:30px;color:#555;margin-top:10px">{esc(s['big_label'])}</div></div>
-{scene_svg(s['icon'], 330, ART_BG[(i + 1) % 3] if i % 3 != 2 else YELLOW)}</div>
+{art_html(s, 330, ART_BG[(i + 1) % 3] if i % 3 != 2 else YELLOW)}</div>
 <div style="font-size:36px;line-height:1.45;margin-top:18px">{esc(s['what'])}</div>
 <div style="margin-top:auto"><span style="display:inline-block;background:{INK};color:#fff;border-radius:999px;padding:10px 26px;font-size:28px;font-weight:600">สถานะ: {esc(s['status'])}</span></div>"""
 
@@ -490,7 +505,9 @@ def main():
     ap.add_argument("--only", choices=["poster", "video"])
     args = ap.parse_args()
     c = json.loads(args.content.read_text(encoding="utf-8"))
+    global CONTENT_DIR
     out_dir, date = args.content.parent, c["date"]
+    CONTENT_DIR = out_dir
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
         browser = launch(p)
