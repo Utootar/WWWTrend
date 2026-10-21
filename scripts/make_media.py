@@ -27,6 +27,7 @@ from pathlib import Path
 import numpy as np
 
 from media_art import cover_art, scene_svg
+from media_studio import STUDIO_CSS, studio_html
 
 ROOT = Path(__file__).resolve().parent.parent
 FONTS = ROOT / "assets" / "fonts"
@@ -281,50 +282,6 @@ def carousel_html(c):
 
 # ---------- talking-anchor video ----------
 
-def anchor_svg():
-    skin, hair, suit = "#f1c6a0", "#2b2118", "#1f2a44"
-    return f"""<svg id="anchor" viewBox="0 0 1080 760" width="1080" height="760" style="position:absolute;left:0;top:1000px">
-<g id="body">
-<path d="M250 760 C260 560 360 520 540 520 C720 520 820 560 830 760 Z" fill="{suit}"/>
-<path d="M470 520 L540 640 L610 520 Z" fill="#fff"/>
-<path d="M528 548 L552 548 L560 660 L540 690 L520 660 Z" fill="{RED}"/>
-<path d="M470 520 L540 640 L430 600 Z M610 520 L540 640 L650 600 Z" fill="#162036"/>
-<rect x="505" y="440" width="70" height="95" rx="24" fill="{skin}"/>
-<g id="head">
-<ellipse cx="392" cy="330" rx="26" ry="40" fill="{skin}"/><ellipse cx="688" cy="330" rx="26" ry="40" fill="{skin}"/>
-<ellipse cx="540" cy="320" rx="150" ry="172" fill="{skin}"/>
-<path d="M388 300 C380 160 470 118 552 120 C650 122 712 180 694 300 C676 236 640 214 590 206 C540 236 456 238 414 228 C400 250 394 270 388 300 Z" fill="{hair}"/>
-<g id="brows" fill="{hair}"><rect x="450" y="262" width="62" height="13" rx="6"/><rect x="568" y="262" width="62" height="13" rx="6"/></g>
-<g id="eyes"><ellipse cx="481" cy="315" rx="22" ry="20" fill="#fff"/><ellipse cx="599" cy="315" rx="22" ry="20" fill="#fff"/>
-<circle cx="484" cy="318" r="12" fill="#2a1d14"/><circle cx="602" cy="318" r="12" fill="#2a1d14"/>
-<circle cx="488" cy="313" r="4" fill="#fff"/><circle cx="606" cy="313" r="4" fill="#fff"/></g>
-<path d="M540 330 C532 365 528 378 542 382" stroke="#d9a07c" stroke-width="6" fill="none" stroke-linecap="round"/>
-<ellipse cx="450" cy="390" rx="26" ry="14" fill="#f2a08c" opacity=".55"/><ellipse cx="630" cy="390" rx="26" ry="14" fill="#f2a08c" opacity=".55"/>
-<g id="mouth"><ellipse id="lip" cx="540" cy="418" rx="40" ry="6" fill="#8a2e2e"/>
-<rect id="teeth" x="514" y="410" width="52" height="8" rx="3" fill="#fff"/></g>
-</g></g>
-<rect x="60" y="640" width="960" height="120" rx="18" fill="#0d1526"/>
-<rect x="60" y="640" width="960" height="10" fill="{RED}"/>
-</svg>"""
-
-
-VIDEO_CSS = f"""
-body{{width:{W}px;height:{H}px;position:relative;background:#0b1424;color:#fff}}
-.studio{{position:absolute;inset:0;background:radial-gradient(circle at 50% 70%,#24406e 0%,#0b1424 60%)}}
-.studio:before{{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(255,255,255,.035) 0 2px,transparent 2px 120px)}}
-.bug{{position:absolute;left:56px;top:56px;display:flex;align-items:center;gap:14px;font-size:38px;font-weight:700}}
-.bug i{{background:{RED};font-style:normal;font-size:24px;padding:4px 14px;border-radius:6px}}
-.screen{{position:absolute;left:56px;right:56px;top:150px;height:820px;border-radius:36px;background:{PAPER};color:{INK};overflow:hidden;
-  box-shadow:0 30px 80px rgba(0,0,0,.5)}}
-.panel{{position:absolute;inset:0;padding:56px 60px;display:flex;flex-direction:column;opacity:0}}
-.cap{{position:absolute;left:56px;right:56px;top:1610px;min-height:150px;background:rgba(0,0,0,.82);border-left:10px solid {YELLOW};
-  border-radius:16px;padding:20px 28px;font-size:34px;line-height:1.4;font-weight:600}}
-.pill{{display:inline-block;border-radius:999px;padding:6px 18px;font-weight:600;line-height:1.3}}
-.tick{{position:absolute;left:0;right:0;bottom:0;height:86px;background:{RED};overflow:hidden;display:flex;align-items:center}}
-.tick div{{white-space:nowrap;font-size:32px;font-weight:600;position:absolute;left:0}}
-"""
-
-
 def panel_html(seg, c):
     kind = seg["kind"]
     if kind == "intro":
@@ -449,41 +406,7 @@ def write_audio(samples, rate, path):
 
 
 def video_html(c, segs):
-    panels = "".join(f'<div class="panel" data-start="{s["start"]:.3f}" data-end="{s["end"] + GAP:.3f}">{panel_html(s, c)}</div>'
-                     for s in segs)
-    caps = json.dumps([[s["start"], s["end"] + GAP, s["caption"]] for s in segs], ensure_ascii=False)
-    ticker = esc(f"  WWWTrend นำข่าวมาเล่าให้ฟัง  ·  {c['footer']}  ·  ") * 4
-    return f"""<div class="studio"></div>
-<div class="bug">WWWTrend <i>สรุปข่าว</i></div>
-<div class="screen">{panels}</div>
-{anchor_svg()}
-<div class="cap" id="cap"></div>
-<div class="tick"><div id="tk">{ticker}</div></div>
-<script>
-const caps = {caps};
-const ease = x => 1 - Math.pow(1 - Math.min(Math.max(x, 0), 1), 3);
-function render(t, m) {{
-  document.querySelectorAll('.panel').forEach(p => {{
-    const a = +p.dataset.start, b = +p.dataset.end, on = t >= a && t < b;
-    const k = ease((t - a) / 0.5);
-    p.style.opacity = on ? k : 0;
-    p.style.transform = 'translateX(' + (1 - k) * 80 + 'px)';
-    if (on) p.querySelectorAll('.bar').forEach((el, i) => el.style.width = (+el.dataset.w * ease((t - a - 0.4 - i * 0.35) / 0.8)) + '%');
-  }});
-  const cap = caps.find(x => t >= x[0] && t < x[1]);
-  document.getElementById('cap').textContent = cap ? cap[2] : '';
-  document.getElementById('lip').setAttribute('ry', 6 + 30 * m);
-  document.getElementById('lip').setAttribute('rx', 40 - 8 * m);
-  document.getElementById('teeth').style.opacity = m > 0.25 ? 1 : 0;
-  const blink = (t % 3.7) < 0.12 ? 0.1 : 1;
-  document.getElementById('eyes').setAttribute('transform', 'translate(0 ' + 315 * (1 - blink) + ') scale(1 ' + blink + ')');
-  document.getElementById('brows').setAttribute('transform', 'translate(0 ' + (-6 * m) + ')');
-  document.getElementById('head').setAttribute('transform', 'rotate(' + (Math.sin(t * 1.3) * 2.2 + m * 1.5) + ' 540 480)');
-  document.getElementById('body').setAttribute('transform', 'translate(0 ' + Math.sin(t * 1.7) * 4 + ')');
-  const tk = document.getElementById('tk');
-  tk.style.transform = 'translateX(' + (-(t * 140) % (tk.scrollWidth / 4)) + 'px)';
-}}
-</script>"""
+    return studio_html(c, segs, panel_html, GAP)
 
 
 def launch(p):
@@ -519,7 +442,7 @@ def render_video(browser, c, out):
         audio = tmp / "voice.wav"
         write_audio(samples, rate, audio)
         pg = browser.new_page(viewport={"width": W, "height": H})
-        pg.set_content(page(video_html(c, segs), VIDEO_CSS))
+        pg.set_content(page(video_html(c, segs), STUDIO_CSS))
         pg.evaluate("document.fonts.ready")
         ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(FPS),
                                "-i", "-", "-i", str(audio), "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "20",
