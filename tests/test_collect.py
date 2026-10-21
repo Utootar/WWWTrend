@@ -106,6 +106,17 @@ def fake_prices(tickers, log=print):
              "change_pct": 0.83, "as_of": "2026-10-06", "currency": "USD"}]
 
 
+def test_ai_folder_has_own_title_no_prices_and_is_linked_from_main_latest(tmp_path):
+    config = make_config() | {"title": "ข่าว AI ประจำวัน", "prices": []}
+    collect.run(tmp_path / "ai", config, NOW, None, fake_fetch, lambda t, log=print: [], log=lambda m: None)
+    md = (tmp_path / "ai/news/2026-10/2026-10-07.md").read_text(encoding="utf-8")
+    assert "# ข่าว AI ประจำวัน 7 ต.ค. 2026" in md
+    assert "ราคาปิดล่าสุด" not in md
+
+    collect.write_latest(tmp_path)
+    assert "ai/LATEST.md" in (tmp_path / "LATEST.md").read_text(encoding="utf-8")
+
+
 def test_run_writes_digest_data_state_and_latest(tmp_path):
     summ = FakeSummarizer(fail_labels=("หมวดบี",))
     total, failed = collect.run(tmp_path, make_config(), NOW, summ, fake_fetch, fake_prices, log=lambda m: None)

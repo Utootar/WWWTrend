@@ -1,0 +1,52 @@
+name: AI news collect
+
+# Separate AI digest in ai/ (config/ai/sources.yaml). Runs after the main collect so both
+# commits do not race; 05:47 Asia/Bangkok (GitHub usually starts scheduled runs late).
+on:
+  schedule:
+    - cron: "47 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Collect and summarise AI news
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC }}
+        run: python scripts/collect.py --config config/ai/sources.yaml --root ai
+
+      - name: Link from main LATEST.md
+        run: python scripts/collect.py --latest-only
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A ai LATEST.md
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "ai news: $(TZ=Asia/Bangkok date +%F)"
+          for i in 1 2 3; do
+            git pull --rebase && git push && exit 0
+            sleep 10
+          done
+          exit 1

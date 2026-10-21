@@ -250,10 +250,10 @@ def load_theme_stocks(path, skip=()):
     return out[:MAX_THEME_STOCKS]
 
 
-def render_markdown(day, collected_at, prices, categories, models, failed, theme_prices=()):
+def render_markdown(day, collected_at, prices, categories, models, failed, theme_prices=(), title="ข่าวประจำวัน"):
     total = sum(len(c["items"]) for c in categories)
     lines = [
-        f"# ข่าวประจำวัน {thai_date(day)}",
+        f"# {title} {thai_date(day)}",
         "",
         f"เก็บเมื่อ {collected_at.strftime('%H:%M')} น. เวลาไทย · ข่าว {total} ชิ้น"
         + (f" · ย่อโดย {', '.join(sorted(models))}" if models else ""),
@@ -263,9 +263,10 @@ def render_markdown(day, collected_at, prices, categories, models, failed, theme
     ]
     if failed:
         lines += [f"> **ย่อไม่สำเร็จ {failed} ข่าว** แสดงเป็นหัวข่าวภาษาอังกฤษแทน", ""]
-    lines += ["## ราคาปิดล่าสุด", "", "| รายการ | ราคา | เปลี่ยน |", "|---|---:|---:|"]
-    lines += [fmt_price(p) for p in prices]
-    lines.append("")
+    if prices:
+        lines += ["## ราคาปิดล่าสุด", "", "| รายการ | ราคา | เปลี่ยน |", "|---|---:|---:|"]
+        lines += [fmt_price(p) for p in prices]
+        lines.append("")
     if theme_prices:
         lines += ["## ราคาหุ้นในธีมที่เจอจากข่าว", "",
                   "| หุ้น · ธีม | ราคา | เปลี่ยน |", "|---|---:|---:|"]
@@ -299,6 +300,8 @@ def write_latest(root):
     lines = ["# ล่าสุด", ""]
     lines.append(f"- ข่าวประจำวัน: [{news.stem}]({rel(news)})" if news else "- ข่าวประจำวัน: ยังไม่มี")
     lines.append(f"- บทวิเคราะห์: [{analysis.stem}]({rel(analysis)})" if analysis else "- บทวิเคราะห์: ยังไม่มี")
+    if (root / "ai" / "LATEST.md").exists():
+        lines.append("- ข่าว AI (โฟลเดอร์แยก): [ai/LATEST.md](ai/LATEST.md)")
     lines += ["", "ย้อนดู: [ข่าวทั้งหมด](news/) · [บทวิเคราะห์ทั้งหมด](analysis/)", ""]
     (root / "LATEST.md").write_text("\n".join(lines), encoding="utf-8")
 
@@ -356,10 +359,11 @@ def run(root, config, now, summarizer=None, fetch=fetch_feed, prices_fn=fetch_pr
         "prices": prices,
         "theme_prices": theme_prices,
         "categories": categories,
+        "title": config.get("title", "ข่าวประจำวัน"),
     }
     data_path.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
-    news_path.write_text(render_markdown(day, local_now, prices, categories, models, failed, theme_prices),
-                         encoding="utf-8")
+    news_path.write_text(render_markdown(day, local_now, prices, categories, models, failed, theme_prices,
+                                         data["title"]), encoding="utf-8")
     append_price_history(root / "data" / "prices.csv", day, prices + theme_prices)
 
     # Only remember items that were summarised, so failed ones get retried tomorrow.
@@ -414,7 +418,8 @@ def apply_repair(root, day, reply, model="claude/routine"):
     data_path.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     news_path.write_text(render_markdown(day, datetime.fromisoformat(data["collected_at"]),
                                          data["prices"], data["categories"], set(data["models"]),
-                                         missing, data.get("theme_prices", [])), encoding="utf-8")
+                                         missing, data.get("theme_prices", []),
+                                         data.get("title", "ข่าวประจำวัน")), encoding="utf-8")
 
     state_path = root / "data" / "state" / "seen.json"
     seen = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {}

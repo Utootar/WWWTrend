@@ -1,0 +1,55 @@
+# ข่าว AI แยกโฟลเดอร์ (เขียนลง ai/) รันโดย .github/workflows/ai-collect.yml
+# python scripts/collect.py --config config/ai/sources.yaml --root ai
+# ห้ามใส่ข้อมูลส่วนตัวในไฟล์นี้ เพราะสคริปต์ส่งเนื้อหาให้โมเดลฟรี
+
+title: ข่าว AI ประจำวัน
+timezone: Asia/Bangkok
+max_age_hours: 36        # บล็อกบางเจ้าออกไม่ทุกวัน เผื่อเวลามากกว่าข่าวหลักนิดหน่อย
+seen_days: 21
+
+llm:
+  batch_size: 20
+  min_interval_sec: 6
+  providers:
+    - provider: gemini
+      models: [gemini-flash-latest, gemini-2.5-flash, gemini-flash-lite-latest]
+    - provider: openrouter
+      models: [google/gemma-4-31b-it:free, nvidia/nemotron-3-super-120b-a12b:free, openrouter/free]
+    - provider: anthropic
+      models: [claude-sonnet-5-5]
+
+prices: []               # ข่าว AI ไม่ดึงราคา (ราคาหุ้น AI อยู่ในข่าวหลัก)
+
+categories:
+  - key: models
+    label: โมเดลและบริษัท AI
+    max_items: 12
+    feeds:
+      - {name: OpenAI, url: "https://openai.com/news/rss.xml"}
+      - {name: Google DeepMind, url: "https://deepmind.google/blog/rss.xml"}
+      - {name: Hugging Face, url: "https://huggingface.co/blog/feed.xml"}
+      - {name: Google News, url: "https://news.google.com/rss/search?q=Anthropic+OR+Claude+OR+OpenAI+OR+Gemini+model+launch+when:1d&hl=en-US&gl=US&ceid=US:en"}
+
+  - key: agents
+    label: Agent · Harness · Skills · MCP
+    max_items: 12
+    feeds:
+      - {name: Simon Willison, url: "https://simonwillison.net/atom/everything/"}
+      - {name: Latent Space, url: "https://www.latent.space/feed"}
+      - {name: Hacker News, url: "https://hnrss.org/newest?q=agent+OR+MCP+OR+%22Claude+Code%22+OR+LLM&points=150"}
+      - {name: Google News, url: "https://news.google.com/rss/search?q=%22AI+agent%22+OR+%22Model+Context+Protocol%22+OR+%22Claude+Code%22+OR+%22agent+skills%22+when:2d&hl=en-US&gl=US&ceid=US:en"}
+
+  - key: business
+    label: AI ใช้งานจริง (กล้อง อาคาร ธุรกิจ)
+    max_items: 8
+    feeds:
+      - {name: Google News, url: "https://news.google.com/rss/search?q=%22AI+video+analytics%22+OR+%22AI+CCTV%22+OR+%22AI+security+camera%22+when:3d&hl=en-US&gl=US&ceid=US:en"}
+      - {name: Google News, url: "https://news.google.com/rss/search?q=%22predictive+maintenance%22+AI+OR+%22facility+management%22+AI+when:3d&hl=en-US&gl=US&ceid=US:en"}
+
+  - key: policy
+    label: ความปลอดภัยและกฎ AI
+    max_items: 8
+    feeds:
+      - {name: MIT Technology Review, url: "https://www.technologyreview.com/topic/artificial-intelligence/feed"}
+      - {name: Import AI, url: "https://importai.substack.com/feed"}
+      - {name: Google News, url: "https://news.google.com/rss/search?q=%22AI+regulation%22+OR+%22AI+safety%22+OR+%22AI+Act%22+when:1d&hl=en-US&gl=US&ceid=US:en"}
