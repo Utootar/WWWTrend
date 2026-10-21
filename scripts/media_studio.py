@@ -92,7 +92,7 @@ def anchor_svg():
 
 
 def anchor_img():
-    # Real presenter: SadTalker frames of assets/anchor.jpg, swapped in per frame by make_media.render_video.
+    # Real presenter: Wav2Lip frames of assets/anchor.jpg, swapped in per frame by make_media.render_video.
     return ('<img id="anchorImg" style="width:1080px;height:1100px;object-fit:cover;object-position:50% 18%;'
             'border-radius:30px;box-shadow:0 30px 90px rgba(0,0,0,.6);border:3px solid rgba(255,255,255,.35)">')
 

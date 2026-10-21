@@ -421,21 +421,22 @@ def write_audio(samples, rate, path):
 
 
 def talking_head(voice, tmp):
-    """Animate assets/anchor.jpg with SadTalker when SADTALKER_DIR/SADTALKER_PY are set (GitHub Actions).
+    """Lip-sync assets/anchor.jpg to the voice with Wav2Lip when WAV2LIP_DIR/WAV2LIP_PY are set (GitHub Actions).
+    Wav2Lip only moves the mouth, so it runs on a CPU in minutes (SadTalker took ~4 h per clip).
     Returns the frame files at FPS, or None to fall back to the drawn anchor."""
-    sd, py, img = os.environ.get("SADTALKER_DIR"), os.environ.get("SADTALKER_PY"), ROOT / "assets" / "anchor.jpg"
-    if not (sd and py and img.exists()):
+    wd, py, img = os.environ.get("WAV2LIP_DIR"), os.environ.get("WAV2LIP_PY"), ROOT / "assets" / "anchor.jpg"
+    if not (wd and py and img.exists()):
         return None
-    out = tmp / "talk"
-    r = subprocess.run([py, "inference.py", "--driven_audio", str(voice), "--source_image", str(img),
-                        "--result_dir", str(out), "--still", "--preprocess", "full", "--cpu"], cwd=sd)
-    vids = sorted(out.rglob("*.mp4")) if out.exists() else []
-    if r.returncode or not vids:
+    out = tmp / "talk.mp4"
+    r = subprocess.run([py, "inference.py", "--checkpoint_path", "checkpoints/wav2lip_gan.pth", "--face", str(img),
+                        "--audio", str(voice), "--outfile", str(out), "--static", "True", "--pads", "0", "15", "0", "0",
+                        "--wav2lip_batch_size", "32"], cwd=wd)
+    if r.returncode or not out.exists():
         print("talking head failed, using the drawn anchor", file=sys.stderr)
         return None
     frames = tmp / "frames"
     frames.mkdir()
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(vids[-1]), "-vf", f"fps={FPS}", "-q:v", "3",
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(out), "-vf", f"fps={FPS}", "-q:v", "3",
                     str(frames / "f%05d.jpg")], check=True)
     return sorted(frames.glob("*.jpg"))
 
