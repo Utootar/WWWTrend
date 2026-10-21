@@ -6,7 +6,7 @@
 ## ขั้นตอน
 
 0. เตรียมเครื่อง (ทำครั้งเดียว):
-   `python -m pip install -q -r requirements.txt playwright numpy` และ `apt-get install -y -q espeak-ng` (ถ้ายังไม่มี)
+   `python -m pip install -q -r requirements.txt playwright numpy`
 1. วันนี้ D = `TZ=Asia/Bangkok date +%F` หาไฟล์ข่าวล่าสุดใน `news/`
    - ถ้าไฟล์ล่าสุดเก่ากว่า D เกิน 3 วัน → **หยุด** ไม่ทำสื่อ จบงานพร้อมบรรทัดเดียวว่าข่าวค้างตั้งแต่วันไหน
    - ถ้า `media/D/` มีอยู่แล้ว → จบเลย
@@ -19,7 +19,8 @@
    - `say` เขียนชื่ออังกฤษเป็นคำอ่านไทย ตัวเลขเป็นคำไทย ทุกประโยคต้องมีในข้อเท็จจริงหรือมุมมองข้างบน
    - `intro`/`disclaimer`/`outro` ใช้ข้อความเดียวกับไฟล์ตัวอย่าง (เปลี่ยนแค่วันที่)
    - ตัวเลขทุกตัวต้องตรงกับไฟล์ข่าวหรือ `data/` ถ้าข่าวกับราคาขัดกัน ใช้ราคาจากตาราง และจดใน `sources.md`
-6. `cd scripts && python make_media.py ../media/D/content.json` แล้วเปิดดูภาพ `slide-*.png` ทุกใบ ถ้ามีข้อความล้นหรือถูกตัด ให้ย่อ `what`/`details` แล้ววาดใหม่
+6. `cd scripts && python make_media.py ../media/D/content.json --only poster` แล้วเปิดดูภาพ `slide-*.png` ทุกใบ ถ้ามีข้อความล้นหรือถูกตัด ให้ย่อ `what`/`details` แล้ววาดใหม่
+   - **ไม่ต้องทำวิดีโอเอง** เสียงไทยต้องใช้ edge-tts ที่เครื่อง Claude ต่อไม่ได้ พอ push `content.json` แล้ว workflow `Render media video` จะทำ `video-D.mp4` ด้วยเสียงไทยแล้ว commit ให้เอง
 7. เขียน `media/D/sources.md`: ตารางลิงก์ต้นทางทุกลิงก์ที่ใช้ · ข่าว ★★★ ที่ไม่ได้เลือก · ข้อที่ไม่แน่ใจหรือหาไม่เจอ
 8. commit `media: D drafts` แล้ว push เข้า `main` (ชนให้ `git pull --rebase origin main` แล้ว push ใหม่)
 

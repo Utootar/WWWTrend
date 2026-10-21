@@ -1,0 +1,70 @@
+name: Render media video
+
+# The anchor video needs a real Thai voice (edge-tts, internet). Claude's sessions cannot reach it,
+# so they push media/<date>/content.json + slides, and this job renders video-<date>.mp4 and commits it.
+on:
+  push:
+    branches: [main]
+    paths: ["media/*/content.json"]
+  workflow_dispatch:
+    inputs:
+      dates:
+        description: "Dates to render, space separated (e.g. 2026-10-20 2026-10-21)"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: media-video
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+          pip install -r requirements.txt playwright numpy edge-tts
+          python -m playwright install --with-deps chromium
+
+      - name: Pick dates
+        id: pick
+        run: |
+          if [ -n "${{ github.event.inputs.dates }}" ]; then
+            dates="${{ github.event.inputs.dates }}"
+          else
+            dates=$(git diff --name-only HEAD~1 HEAD -- 'media/*/content.json' | cut -d/ -f2 | sort -u | tr '\n' ' ')
+          fi
+          echo "dates=$dates" >> "$GITHUB_OUTPUT"
+          echo "Rendering: $dates"
+
+      - name: Render videos
+        run: |
+          for d in ${{ steps.pick.outputs.dates }}; do
+            python scripts/make_media.py "media/$d/content.json" --only video
+          done
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add media/*/video-*.mp4
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "media: video with Thai voice (${{ steps.pick.outputs.dates }})"
+          for i in 1 2 3; do
+            git pull --rebase && git push && exit 0
+            sleep 10
+          done
+          exit 1

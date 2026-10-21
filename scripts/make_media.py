@@ -7,8 +7,9 @@ and voices them. Drafts stay in media/ until the owner approves; nothing posts a
     python scripts/make_media.py media/2026-10-20/content.json
     python scripts/make_media.py media/2026-10-20/content.json --only poster
 
-Needs: pip install playwright numpy, a Chromium (CHROME env, else /opt/pw-browsers,
-else Playwright's own), ffmpeg, and espeak-ng with the Thai voice (apt install espeak-ng).
+Needs: pip install playwright numpy edge-tts, a Chromium (CHROME env, else /opt/pw-browsers,
+else Playwright's own) and ffmpeg. The Thai voice (edge-tts) needs internet, so the video is
+rendered by .github/workflows/media-video.yml; render only the poster in sandboxes without it.
 Fonts: assets/fonts (Kanit, OFL).
 """
 import argparse
@@ -32,7 +33,8 @@ DEFAULT_CHROME = "/opt/pw-browsers/chromium-1194/chrome-linux/chrome"
 FPS = 30
 W, H = 1080, 1920
 GAP = 0.45          # silence between narration segments (seconds)
-VOICE = ["espeak-ng", "-v", "th", "-s", "190", "-p", "42"]
+THAI_VOICE = os.environ.get("MEDIA_VOICE", "th-TH-NiwatNeural")   # edge-tts neural Thai voice
+ESPEAK = ["espeak-ng", "-v", "th", "-s", "190", "-p", "42"]       # offline fallback, only with MEDIA_TTS=espeak
 
 INK, PAPER, RED, YELLOW, TEAL = "#111111", "#f4f1ea", "#e63b2e", "#ffd23f", "#0f4a4a"
 CARD_STYLES = [(TEAL, "#ffffff", YELLOW), (YELLOW, INK, RED), ("#ffffff", INK, TEAL)]
@@ -382,12 +384,30 @@ def video_segments(c):
     return segs
 
 
+def tts(text, wav):
+    """Thai speech to a mono 16-bit wav. Default edge-tts (needs internet, runs in GitHub Actions);
+    espeak-ng only when MEDIA_TTS=espeak because it cannot really read Thai."""
+    if os.environ.get("MEDIA_TTS") == "espeak":
+        subprocess.run(ESPEAK + ["-w", str(wav), text], check=True)
+        return
+    try:
+        import asyncio
+        import edge_tts
+        mp3 = wav.with_suffix(".mp3")
+        asyncio.run(edge_tts.Communicate(text, THAI_VOICE, rate="+8%").save(str(mp3)))
+    except Exception as e:
+        sys.exit(f"Thai voice failed ({e}). The video needs edge-tts with internet: "
+                 "push content.json and let the 'Render media video' workflow make it.")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp3), "-ac", "1", "-ar", "24000",
+                    "-c:a", "pcm_s16le", str(wav)], check=True)
+
+
 def synth(segs, tmp):
-    """Voice each segment with espeak-ng; return mono samples, rate, and segment start/end times."""
+    """Voice each segment; return mono samples, rate, and segment start/end times."""
     chunks, rate, t = [], None, 0.0
     for k, seg in enumerate(segs):
         f = tmp / f"seg{k}.wav"
-        subprocess.run(VOICE + ["-w", str(f), seg["say"]], check=True)
+        tts(seg["say"], f)
         with wave.open(str(f)) as w:
             rate = w.getframerate()
             data = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16)
