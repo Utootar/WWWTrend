@@ -420,7 +420,7 @@ def write_audio(samples, rate, path):
     return raw  # voice only, drives the talking head
 
 
-def talking_head(voice, tmp):
+def talking_head(voice, tmp, speech):
     """Lip-sync assets/anchor.jpg to the voice with Wav2Lip when WAV2LIP_DIR/WAV2LIP_PY are set (GitHub Actions).
     Wav2Lip only moves the mouth, so it runs on a CPU in minutes (SadTalker took ~4 h per clip).
     Returns the frame files at FPS, or None to fall back to the drawn anchor."""
@@ -438,7 +438,15 @@ def talking_head(voice, tmp):
     frames.mkdir()
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(out), "-vf", f"fps={FPS}", "-q:v", "3",
                     str(frames / "f%05d.jpg")], check=True)
-    return sorted(frames.glob("*.jpg"))
+    files = sorted(frames.glob("*.jpg"))
+    try:  # blinks and head motion on top of the lip-sync (scripts/media_face.py)
+        import cv2
+        import media_face
+        if not media_face.animate(files, cv2.imread(str(img)), FPS, speech):
+            print("no face found for blinks/head motion", file=sys.stderr)
+    except Exception as e:
+        print(f"blink/head pass skipped: {e}", file=sys.stderr)
+    return files
 
 
 def video_html(c, segs, real=False):
@@ -476,7 +484,7 @@ def render_video(browser, c, out):
         frames = int(len(samples) / rate * FPS)
         mouth = mouth_curve(samples, rate, frames)
         audio = tmp / "voice.wav"
-        heads = talking_head(write_audio(samples, rate, audio), tmp)
+        heads = talking_head(write_audio(samples, rate, audio), tmp, mouth)
         html_file = tmp / "video.html"  # loaded from disk so the page may read the head frames
         html_file.write_text(page(video_html(c, segs, real=bool(heads)), STUDIO_CSS), encoding="utf-8")
         pg = browser.new_page(viewport={"width": W, "height": H})
