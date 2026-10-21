@@ -244,7 +244,7 @@ def hero_html(c, compact=False):
 <div style="display:flex;align-items:center;gap:16px;margin-top:30px">
 <div style="width:46px;height:46px;background:{INK}"></div>
 <div style="font-size:20px;font-weight:600;letter-spacing:1px;line-height:1.4">เล่าข่าวโดย WWWTrend<br><span style="color:{RED}">นำข่าวมาเล่าตามที่ข่าวรายงาน</span></div></div></div>
-<div style="align-self:center">{cover_art(int(420 * scale), int(560 * scale))}</div></div>"""
+<div style="align-self:center">{cover_art(int(420 * scale), int(560 * scale), [s['icon'] for s in c['stories']])}</div></div>"""
 
 
 def poster_html(c):
@@ -271,7 +271,7 @@ def carousel_html(c):
                      + footer_html(c))
     pages.append(mast_html(c, f"{total}/{total}")
                  + band(band_title(f'สรุปตลาด <span style="color:{YELLOW}">· ก่อนปิดชุดนี้</span>')
-                        + f'<div style="display:flex;flex-direction:column;gap:22px">{market_html(c["market"]) + watch_html(c["market"]) + closing_html()}</div>')
+                        + f'<div style="display:flex;flex-direction:column;gap:22px">{market_html(c["market"]) + (f'<div style="color:#fff">{views_html(c["market"], "#ffffff")}</div>' if c["market"].get("views") else "") + watch_html(c["market"]) + ("" if c["market"].get("watch") else closing_html())}</div>')
                  + footer_html(c))
     return pages
 
