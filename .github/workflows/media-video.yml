@@ -22,11 +22,33 @@ concurrency:
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v5
         with:
           fetch-depth: 2
+
+      # Real presenter (free, CPU): SadTalker animates assets/anchor.jpg from the Thai voice.
+      # Skipped when there is no assets/anchor.jpg; the drawn anchor is used instead.
+      - uses: actions/setup-python@v6
+        id: py310
+        if: hashFiles('assets/anchor.jpg') != ''
+        with:
+          python-version: "3.10"
+
+      - name: Set up SadTalker
+        if: hashFiles('assets/anchor.jpg') != ''
+        run: |
+          git clone --depth 1 https://github.com/OpenTalker/SadTalker "$RUNNER_TEMP/SadTalker"
+          cd "$RUNNER_TEMP/SadTalker"
+          "${{ steps.py310.outputs.python-path }}" -m venv "$RUNNER_TEMP/st"
+          . "$RUNNER_TEMP/st/bin/activate"
+          pip install -q torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cpu
+          grep -v -i -E "^(gradio|torch)" requirements.txt > req.txt
+          pip install -q -r req.txt
+          bash scripts/download_models.sh
+          echo "SADTALKER_DIR=$RUNNER_TEMP/SadTalker" >> "$GITHUB_ENV"
+          echo "SADTALKER_PY=$RUNNER_TEMP/st/bin/python" >> "$GITHUB_ENV"
 
       - uses: actions/setup-python@v6
         with:

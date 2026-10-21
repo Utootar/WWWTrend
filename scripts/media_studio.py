@@ -16,6 +16,12 @@ SHOTS = {
     "close": {"screen": 0, "tx": 0, "ty": 506, "s": 1.4, "wall": 0},
     "split": {"screen": 1, "tx": 0, "ty": 900, "s": 0.85, "wall": 0},
 }
+# A real presenter photo already shows a desk and studio, so it sits smaller to keep the LED wall visible.
+SHOTS_REAL = {
+    "wide": {"screen": 0, "tx": 0, "ty": 820, "s": 0.75, "wall": 1},
+    "close": {"screen": 0, "tx": 0, "ty": 600, "s": 1.05, "wall": 0},
+    "split": {"screen": 1, "tx": 0, "ty": 1000, "s": 0.62, "wall": 0},
+}
 STRAPS = {"intro": "สรุปข่าว", "disclaimer": "ขอบอกก่อน", "story": "ข่าว", "view": "มุมมอง",
           "market": "ตลาด", "outro": "WWWTrend"}
 
@@ -85,6 +91,12 @@ def anchor_svg():
 </svg>"""
 
 
+def anchor_img():
+    # Real presenter: SadTalker frames of assets/anchor.jpg, swapped in per frame by make_media.render_video.
+    return ('<img id="anchorImg" style="width:1080px;height:1100px;object-fit:cover;object-position:50% 18%;'
+            'border-radius:30px;box-shadow:0 30px 90px rgba(0,0,0,.6);border:3px solid rgba(255,255,255,.35)">')
+
+
 def wall_chart():
     rng = random.Random(21)
     bars, x, y = [], 0, 380
@@ -130,7 +142,7 @@ body{{width:1080px;height:1920px;position:relative;background:#050a14;color:#fff
 """
 
 
-def studio_html(c, segs, panel_html, gap):
+def studio_html(c, segs, panel_html, gap, real=False):
     panels = "".join(f'<div class="panel" data-start="{s["start"]:.3f}" data-end="{s["end"] + gap:.3f}">{panel_html(s, c)}</div>'
                      for s in segs)
     caps = [[s["start"], s["end"] + gap, s["caption"]] for s in segs]
@@ -154,12 +166,12 @@ def studio_html(c, segs, panel_html, gap):
     heads = "".join(f'<div style="font-size:52px;font-weight:700;line-height:1.25;padding:10px 0;border-top:2px solid rgba(255,255,255,.2)">'
                     f'<span style="color:{YELLOW}">0{i + 1}</span> {esc(s["short"])}</div>' for i, s in enumerate(c["stories"]))
     ticker = esc(f"  WWWTrend นำข่าวมาเล่าให้ฟัง  ·  {c['footer']}  ·  " + "  ·  ".join(s["short"] for s in c["stories"]) + "  ·  ") * 4
-    data = json.dumps({"caps": caps, "shots": shots, "straps": straps, "P": SHOTS}, ensure_ascii=False)
+    data = json.dumps({"caps": caps, "shots": shots, "straps": straps, "P": SHOTS_REAL if real else SHOTS}, ensure_ascii=False)
     return f"""<div id="bg"></div><div class="beam" style="left:-60px;transform:rotate(18deg)"></div><div class="beam" style="right:-60px;transform:rotate(-18deg)"></div>
 <div id="wall">{wall_chart()}<div id="wallText" style="opacity:0">
 <div style="font-size:34px;font-weight:600;color:{YELLOW}">WWWTrend · {esc(c['date_th'])}</div>
 <div style="font-size:92px;font-weight:700;line-height:1.1;margin:18px 0 30px">{len(c['stories'])} ข่าวที่ต้องรู้วันนี้</div>{heads}</div></div>
-<div id="anchorWrap">{anchor_svg()}</div>
+<div id="anchorWrap">{anchor_img() if real else anchor_svg()}</div>
 <div id="screen">{panels}</div>
 <div id="bug"><b>WWWTrend</b><span>สรุปข่าว</span></div><div id="date">{esc(c['date_th'])}</div>
 <div id="strap"><b id="strapL"></b><span id="strapT"></span></div>
@@ -195,6 +207,7 @@ function render(t, m) {{
   const st = D.straps.find(x => t >= x[0] && t < x[1]);
   if (st) {{ $('strapL').textContent = st[2]; $('strapT').textContent = st[3]; }}
   $('strap').style.transform = 'translateX(' + (st ? (1 - ease((t - st[0]) / 0.5)) * -700 : -1100) + 'px)';
+  if ($('mouthIn')) {{
   $('mouthIn').setAttribute('cy', 482 + 12 * m);
   $('mouthIn').setAttribute('ry', 3 + 13 * m);
   $('lowLip').setAttribute('transform', 'translate(0 ' + 22 * m + ')');
@@ -204,6 +217,7 @@ function render(t, m) {{
   $('brows').setAttribute('transform', 'translate(0 ' + (-7 * m) + ')');
   $('head').setAttribute('transform', 'rotate(' + (Math.sin(t * 1.1) * 1.8 + Math.sin(t * 2.7) * m * 1.4) + ' 540 640) translate(0 ' + (m * 3) + ')');
   $('body').setAttribute('transform', 'translate(0 ' + Math.sin(t * 1.6) * 3 + ')');
+  }}
   const tk = $('tk');
   tk.style.transform = 'translateX(' + (220 - (t * 130) % (tk.scrollWidth / 4)) + 'px)';
   const sg = $('sting');

@@ -402,11 +402,31 @@ def write_audio(samples, rate, path):
                     "[0]aresample=44100,highpass=f=90,lowpass=f=7000,acompressor,volume=1.8[v];"
                     "[1]lowpass=f=900,volume=0.35[m];[v][m]amix=inputs=2:duration=first:normalize=0",
                     "-c:a", "pcm_s16le", str(path)], check=True)
-    raw.unlink()
+    return raw  # voice only, drives the talking head
 
 
-def video_html(c, segs):
-    return studio_html(c, segs, panel_html, GAP)
+def talking_head(voice, tmp):
+    """Animate assets/anchor.jpg with SadTalker when SADTALKER_DIR/SADTALKER_PY are set (GitHub Actions).
+    Returns the frame files at FPS, or None to fall back to the drawn anchor."""
+    sd, py, img = os.environ.get("SADTALKER_DIR"), os.environ.get("SADTALKER_PY"), ROOT / "assets" / "anchor.jpg"
+    if not (sd and py and img.exists()):
+        return None
+    out = tmp / "talk"
+    r = subprocess.run([py, "inference.py", "--driven_audio", str(voice), "--source_image", str(img),
+                        "--result_dir", str(out), "--still", "--preprocess", "full", "--cpu"], cwd=sd)
+    vids = sorted(out.rglob("*.mp4")) if out.exists() else []
+    if r.returncode or not vids:
+        print("talking head failed, using the drawn anchor", file=sys.stderr)
+        return None
+    frames = tmp / "frames"
+    frames.mkdir()
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(vids[-1]), "-vf", f"fps={FPS}", "-q:v", "3",
+                    str(frames / "f%05d.jpg")], check=True)
+    return sorted(frames.glob("*.jpg"))
+
+
+def video_html(c, segs, real=False):
+    return studio_html(c, segs, panel_html, GAP, real)
 
 
 def launch(p):
@@ -440,15 +460,22 @@ def render_video(browser, c, out):
         frames = int(len(samples) / rate * FPS)
         mouth = mouth_curve(samples, rate, frames)
         audio = tmp / "voice.wav"
-        write_audio(samples, rate, audio)
+        heads = talking_head(write_audio(samples, rate, audio), tmp)
+        html_file = tmp / "video.html"  # loaded from disk so the page may read the head frames
+        html_file.write_text(page(video_html(c, segs, real=bool(heads)), STUDIO_CSS), encoding="utf-8")
         pg = browser.new_page(viewport={"width": W, "height": H})
-        pg.set_content(page(video_html(c, segs), STUDIO_CSS))
+        pg.goto(html_file.as_uri())
         pg.evaluate("document.fonts.ready")
         ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(FPS),
                                "-i", "-", "-i", str(audio), "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "20",
                                "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", str(out)],
                               stdin=subprocess.PIPE)
         for n in range(frames):
+            if heads:
+                pg.evaluate("async ([src, t]) => { const im = document.getElementById('anchorImg'); im.src = src;"
+                            " await im.decode(); render(t, 0); }", [heads[min(n, len(heads) - 1)].as_uri(), n / FPS])
+                ff.stdin.write(pg.screenshot(type="jpeg", quality=90))
+                continue
             pg.evaluate(f"render({n / FPS}, {mouth[n]:.3f})")
             ff.stdin.write(pg.screenshot(type="jpeg", quality=90))
         ff.stdin.close()
