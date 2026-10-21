@@ -35,7 +35,7 @@ DEFAULT_CHROME = "/opt/pw-browsers/chromium-1194/chrome-linux/chrome"
 FPS = 30
 W, H = 1080, 1920
 GAP = 0.45          # silence between narration segments (seconds)
-THAI_VOICE = os.environ.get("MEDIA_VOICE", "th-TH-NiwatNeural")   # edge-tts neural Thai voice
+THAI_VOICE = os.environ.get("MEDIA_VOICE", "th-TH-PremwadeeNeural")   # edge-tts neural Thai voice
 ESPEAK = ["espeak-ng", "-v", "th", "-s", "190", "-p", "42"]       # offline fallback, only with MEDIA_TTS=espeak
 
 INK, PAPER, RED, YELLOW, TEAL = "#111111", "#f4f1ea", "#e63b2e", "#ffd23f", "#0f4a4a"
