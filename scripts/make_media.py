@@ -27,18 +27,20 @@ from pathlib import Path
 import numpy as np
 
 from media_art import cover_art, scene_svg
-from media_studio import STUDIO_CSS, studio_html
+from media_studio import STUDIO_CSS, VH, VW, studio_html
 
 ROOT = Path(__file__).resolve().parent.parent
 FONTS = ROOT / "assets" / "fonts"
 DEFAULT_CHROME = "/opt/pw-browsers/chromium-1194/chrome-linux/chrome"
 FPS = 30
-W, H = 1080, 1920
+W = 1080            # poster width
+ANCHOR_W = 760      # presenter width in the 16:9 studio (media_studio #anchorImg)
 GAP = 0.45          # silence between narration segments (seconds)
 THAI_VOICE = os.environ.get("MEDIA_VOICE", "th-TH-PremwadeeNeural")   # edge-tts neural Thai voice
 ESPEAK = ["espeak-ng", "-v", "th", "-s", "190", "-p", "42"]       # offline fallback, only with MEDIA_TTS=espeak
 
 INK, PAPER, RED, YELLOW, TEAL = "#111111", "#f4f1ea", "#e63b2e", "#ffd23f", "#0f4a4a"
+ORANGE, TEALL = "#ff9a3c", "#3fe0d0"   # studio screen accents
 CARD_STYLES = [(TEAL, "#ffffff", YELLOW), (YELLOW, INK, RED), ("#ffffff", INK, TEAL)]
 ART_BG = ["rgba(255,255,255,.14)", "#ffffff", YELLOW]
 
@@ -298,52 +300,56 @@ def carousel_html(c):
 # ---------- talking-anchor video ----------
 
 def panel_html(seg, c):
+    """Graphics on the studio's big screen (dark, 1090x648)."""
     kind = seg["kind"]
+    kick = lambda text, color=ORANGE: f'<div style="font-size:24px;font-weight:600;color:{color};letter-spacing:.5px">{esc(text)}</div>'
     if kind == "intro":
-        items = "".join(f'<div style="font-size:40px;font-weight:600;padding:14px 0;border-top:3px solid {INK}">0{i + 1} · {esc(s["short"])}</div>'
-                        for i, s in enumerate(c["stories"]))
-        return f"""<div style="display:flex;justify-content:space-between"><span style="background:{RED};color:#fff;font-size:28px;font-weight:600;padding:6px 18px">สรุปข่าวเด่น</span>
-<span style="font-size:30px;font-weight:600">{esc(c['date_th'])}</span></div>
-<div style="font-size:96px;font-weight:700;line-height:1.08;letter-spacing:-2px;margin:40px 0">{'<br>'.join(esc(x) for x in c['headline'])}</div>
-<div style="margin-top:auto">{items}</div>"""
+        items = "".join(f'''<div style="display:flex;gap:18px;align-items:center;background:rgba(255,255,255,.06);border:1px solid rgba(63,224,208,.35);
+border-radius:14px;padding:12px 18px">{art_html(s, 84, "rgba(255,255,255,.1)", 12)}<div><div style="font-size:22px;color:{TEALL}">0{i + 1}</div>
+<div style="font-size:30px;font-weight:700;line-height:1.2">{esc(s["short"])}</div></div></div>''' for i, s in enumerate(c["stories"]))
+        return f"""{kick(f"WWWTrend · {c['date_th']}")}
+<div style="font-size:76px;font-weight:700;line-height:1.1;margin:14px 0 26px;background:linear-gradient(90deg,#ffb35c,#ff7a3c);-webkit-background-clip:text;color:transparent">
+{len(c['stories'])} ข่าวที่ต้องรู้วันนี้</div>
+<div style="display:grid;grid-template-columns:1fr;gap:14px">{items}</div>"""
     if kind in ("disclaimer", "outro"):
-        return f"""<div style="margin:auto 0"><div style="font-size:34px;font-weight:600;color:{RED}">{'ขอบอกก่อน' if kind == 'disclaimer' else 'ก่อนจากกัน'}</div>
-<div style="font-size:110px;font-weight:700;line-height:1.1;letter-spacing:-2px;margin:24px 0">{'เล่าข่าว<br>ตามที่<br>ข่าวรายงาน' if kind == 'disclaimer' else 'เช็ค<br>ก่อนใช้<br>ข้อมูล'}</div>
-<div style="font-size:38px;line-height:1.45">{'เราแค่นำข่าวมาเล่าให้ฟัง ตามที่ข่าวรายงาน' if kind == 'disclaimer' else 'ตัวเลขสำคัญ กดลิงก์ต้นทางเช็คก่อน · ลิงก์ครบใน sources.md'}</div></div>"""
+        d = kind == "disclaimer"
+        return f"""<div style="margin:auto 0">{kick('ขอบอกก่อน' if d else 'ก่อนจากกัน')}
+<div style="font-size:96px;font-weight:700;line-height:1.1;margin:18px 0 22px">{'เล่าข่าว<br>ตามที่ข่าวรายงาน' if d else 'เช็คก่อน<br>ใช้ข้อมูล'}</div>
+<div style="font-size:32px;line-height:1.45;color:#cfe0f5">{'เรานำข่าวมาเล่าให้ฟัง ตามที่ข่าวรายงาน' if d else 'ตัวเลขสำคัญ กดลิงก์ต้นทางเช็คก่อน · ลิงก์ครบใน sources.md'}</div></div>"""
     if kind == "view":
         s, i = seg["story"], seg["index"]
-        items = "".join(f'<div style="display:flex;gap:18px;align-items:flex-start;padding:16px 0;border-top:3px solid {INK}">{conf_pill(v, 26)}'
-                        f'<div style="font-size:38px;line-height:1.4">{esc(v["text"])}</div></div>' for v in s["views"])
+        items = "".join(f'<div style="display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-top:1px solid rgba(255,255,255,.18)">{conf_pill(v, 22)}'
+                        f'<div style="font-size:31px;line-height:1.4">{esc(v["text"])}</div></div>' for v in s["views"])
         t = s.get("theme")
-        chips = "".join(f'<span style="background:#e2ddd2;border-radius:999px;padding:8px 20px;font-size:28px;font-weight:600">{esc(x["label"])} '
-                        f'<span style="color:{pct_color(x["pct"], PAPER)}">{fmt_pct(x["pct"])}</span></span>' for x in t["stocks"]) if t else ""
-        return f"""<span style="background:{RED};color:#fff;font-size:28px;font-weight:600;padding:6px 18px;align-self:flex-start">มุมมองจากบทวิเคราะห์ · ไม่ใช่ข้อเท็จจริง</span>
-<div style="font-size:60px;font-weight:700;line-height:1.15;margin:26px 0 20px">ข่าว {i + 1}: {esc(s['short'])}</div>{items}
-{f'<div style="font-size:28px;font-weight:600;margin-top:24px">หุ้นในธีม {esc(t["name"])}</div><div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:12px">{chips}</div>' if t else ''}
-<div style="margin-top:auto;font-size:24px;color:#555">จาก {esc(view_sources(s['views']))}</div>"""
+        chips = "".join(f'<span style="background:rgba(255,255,255,.1);border-radius:999px;padding:6px 18px;font-size:24px;font-weight:600">{esc(x["label"])} '
+                        f'<span style="color:{pct_color(x["pct"], TEAL)}">{fmt_pct(x["pct"])}</span></span>' for x in t["stocks"]) if t else ""
+        return f"""<div style="border:2px dashed rgba(255,255,255,.45);border-radius:18px;padding:22px 28px;flex:1;display:flex;flex-direction:column">
+{kick('มุมมองจากบทวิเคราะห์ · ไม่ใช่ข้อเท็จจริง')}
+<div style="font-size:48px;font-weight:700;line-height:1.15;margin:10px 0 12px">ข่าว {i + 1}: {esc(s['short'])}</div>{items}
+{f'<div style="font-size:22px;font-weight:600;margin-top:14px;color:{TEALL}">หุ้นในธีม {esc(t["name"])}</div><div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px">{chips}</div>' if t else ''}
+<div style="margin-top:auto;font-size:20px;color:#9fb3cc">จาก {esc(view_sources(s['views']))}</div></div>"""
     if kind == "market":
         m = c["market"]
         peak = max(abs(i["pct"]) for i in m["items"]) or 1
-        rows = "".join(f"""<div style="display:grid;grid-template-columns:260px 1fr 170px;gap:20px;align-items:center">
-<div style="font-size:36px;font-weight:600">{esc(it['label'])}</div>
-<div style="height:34px;background:#e2ddd2;border-radius:17px;position:relative">
-<div class="bar" data-w="{abs(it['pct']) / peak * 100:.1f}" style="position:absolute;left:0;top:0;bottom:0;width:0;border-radius:17px;background:{'#1f9d63' if it['pct'] >= 0 else RED}"></div></div>
-<div style="font-size:42px;font-weight:700;text-align:right;color:{'#1f9d63' if it['pct'] >= 0 else RED}">{esc(it.get('value') or fmt_pct(it['pct']))}</div></div>"""
+        rows = "".join(f"""<div style="display:grid;grid-template-columns:240px 1fr 170px;gap:20px;align-items:center">
+<div style="font-size:32px;font-weight:600">{esc(it['label'])}</div>
+<div style="height:26px;background:rgba(255,255,255,.1);border-radius:13px;position:relative">
+<div class="bar" data-w="{abs(it['pct']) / peak * 100:.1f}" style="position:absolute;left:0;top:0;bottom:0;width:0;border-radius:13px;background:{'#38d98f' if it['pct'] >= 0 else '#ff6b5e'}"></div></div>
+<div style="font-size:36px;font-weight:700;text-align:right;color:{'#7dffb8' if it['pct'] >= 0 else '#ff8a7e'}">{esc(it.get('value') or fmt_pct(it['pct']))}</div></div>"""
                        for it in m["items"])
-        return f"""<span style="background:{INK};color:#fff;font-size:28px;font-weight:600;padding:6px 18px;align-self:flex-start">ตลาด</span>
-<div style="font-size:84px;font-weight:700;margin:30px 0 40px">{esc(m['title'])}</div>
-<div style="display:flex;flex-direction:column;gap:44px">{rows}</div>
-<div style="margin-top:auto;font-size:26px;color:#555">% เทียบวันก่อน · {esc(m['source_note'])}</div>"""
+        return f"""{kick('ตลาด')}<div style="font-size:64px;font-weight:700;margin:10px 0 30px">{esc(m['title'])}</div>
+<div style="display:flex;flex-direction:column;gap:30px">{rows}</div>
+<div style="margin-top:auto;font-size:20px;color:#9fb3cc">% เทียบวันก่อน · {esc(m['source_note'])}</div>"""
     s, i = seg["story"], seg["index"]
-    bg, fg, accent = CARD_STYLES[i % 3]
-    return f"""<div style="font-size:30px;font-weight:600;color:{RED}">ข่าว {i + 1}/{len(c['stories'])} · ที่มา {esc(s['source'])}</div>
-<div style="font-size:58px;font-weight:700;line-height:1.15">{esc(s['short'])}</div>
-<div style="display:flex;align-items:center;justify-content:space-between;margin-top:10px">
-<div><div style="font-size:{140 if len(s['big']) <= 6 else 76}px;font-weight:700;line-height:1;color:{RED};letter-spacing:-3px">{esc(s['big'])}</div>
-<div style="font-size:30px;color:#555;margin-top:10px">{esc(s['big_label'])}</div></div>
-{art_html(s, 330, ART_BG[(i + 1) % 3] if i % 3 != 2 else YELLOW)}</div>
-<div style="font-size:36px;line-height:1.45;margin-top:18px">{esc(s['what'])}</div>
-<div style="margin-top:auto"><span style="display:inline-block;background:{INK};color:#fff;border-radius:999px;padding:10px 26px;font-size:28px;font-weight:600">สถานะ: {esc(s['status'])}</span></div>"""
+    return f"""{kick(f"ข่าว {i + 1}/{len(c['stories'])} · ที่มา {s['source']}")}
+<div style="font-size:54px;font-weight:700;line-height:1.15;margin:8px 0 18px">{esc(s['short'])}</div>
+<div style="display:flex;gap:34px;align-items:flex-start">
+<div style="flex:1;min-width:0"><div style="font-size:{120 if len(s['big']) <= 7 else 72}px;font-weight:700;line-height:1;letter-spacing:-2px;
+background:linear-gradient(90deg,#ffb35c,#ff6a3c);-webkit-background-clip:text;color:transparent">{esc(s['big'])}</div>
+<div style="font-size:24px;color:#9fb3cc;margin:8px 0 16px">{esc(s['big_label'])}</div>
+<div style="font-size:28px;line-height:1.45;color:#e6eefb">{esc(s['what'])}</div></div>
+{art_html(s, 340, "rgba(255,255,255,.08)", 18)}</div>
+<div style="margin-top:auto"><span style="display:inline-block;background:rgba(63,224,208,.16);border:1px solid {TEALL};color:#fff;border-radius:999px;padding:6px 22px;font-size:24px;font-weight:600">สถานะ: {esc(s['status'])}</span></div>"""
 
 
 def video_segments(c):
@@ -420,37 +426,40 @@ def write_audio(samples, rate, path):
     return raw  # voice only, drives the talking head
 
 
-def talking_head(voice, tmp, speech):
-    """Lip-sync assets/anchor.jpg to the voice with Wav2Lip when WAV2LIP_DIR/WAV2LIP_PY are set (GitHub Actions).
-    Wav2Lip only moves the mouth, so it runs on a CPU in minutes (SadTalker took ~4 h per clip).
-    Returns the frame files at FPS, or None to fall back to the drawn anchor."""
-    wd, py, img = os.environ.get("WAV2LIP_DIR"), os.environ.get("WAV2LIP_PY"), ROOT / "assets" / "anchor.jpg"
-    if not (wd and py and img.exists()):
-        return None
-    out = tmp / "talk.mp4"
-    r = subprocess.run([py, "inference.py", "--checkpoint_path", "checkpoints/wav2lip_gan.pth", "--face", str(img),
-                        "--audio", str(voice), "--outfile", str(out), "--static", "True", "--pads", "0", "15", "0", "0",
-                        "--wav2lip_batch_size", "32"], cwd=wd)
-    if r.returncode or not out.exists():
-        print("talking head failed, using the drawn anchor", file=sys.stderr)
-        return None
-    frames = tmp / "frames"
-    frames.mkdir()
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(out), "-vf", f"fps={FPS}", "-q:v", "3",
-                    str(frames / "f%05d.jpg")], check=True)
-    files = sorted(frames.glob("*.jpg"))
-    try:  # blinks and head motion on top of the lip-sync (scripts/media_face.py)
-        import cv2
-        import media_face
-        if not media_face.animate(files, cv2.imread(str(img)), FPS, speech):
-            print("no face found for blinks/head motion", file=sys.stderr)
-    except Exception as e:
-        print(f"blink/head pass skipped: {e}", file=sys.stderr)
+def talking_head(voice, tmp, speech, frames):
+    """Presenter frames: assets/anchor.jpg lip-synced to the voice with Wav2Lip when WAV2LIP_DIR/WAV2LIP_PY are
+    set (GitHub Actions; only the mouth moves, so a CPU does it in minutes), else the still photo. Then
+    media_face adds blinks and head motion and cuts her out with assets/anchor-alpha.png.
+    Returns WebP frame files (with transparency) at FPS."""
+    import cv2
+    import media_face
+    img, alpha = ROOT / "assets" / "anchor.jpg", ROOT / "assets" / "anchor-alpha.png"
+    wd, py = os.environ.get("WAV2LIP_DIR"), os.environ.get("WAV2LIP_PY")
+    out, d = tmp / "talk.mp4", tmp / "frames"
+    d.mkdir()
+    if wd and py:
+        r = subprocess.run([py, "inference.py", "--checkpoint_path", "checkpoints/wav2lip_gan.pth", "--face", str(img),
+                            "--audio", str(voice), "--outfile", str(out), "--static", "True", "--pads", "0", "15", "0", "0",
+                            "--wav2lip_batch_size", "32"], cwd=wd)
+        if r.returncode or not out.exists():
+            print("lip-sync failed, using the still photo", file=sys.stderr)
+    if out.exists():
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(out), "-vf", f"fps={FPS}", "-q:v", "3",
+                        str(d / "f%05d.jpg")], check=True)
+    else:
+        still = img.read_bytes()
+        for n in range(frames):
+            (d / f"f{n:05d}.jpg").write_bytes(still)
+    base = cv2.imread(str(img))
+    files = media_face.animate(sorted(d.glob("*.jpg")), base, FPS, speech,
+                               alpha=cv2.imread(str(alpha), cv2.IMREAD_GRAYSCALE), width=ANCHOR_W)
+    if not files:
+        sys.exit("no face found in assets/anchor.jpg")
     return files
 
 
-def video_html(c, segs, real=False):
-    return studio_html(c, segs, panel_html, GAP, real)
+def video_html(c, segs):
+    return studio_html(c, segs, panel_html, GAP)
 
 
 def launch(p):
@@ -482,12 +491,11 @@ def render_video(browser, c, out):
         tmp = Path(d)
         samples, rate = synth(segs, tmp)
         frames = int(len(samples) / rate * FPS)
-        mouth = mouth_curve(samples, rate, frames)
         audio = tmp / "voice.wav"
-        heads = talking_head(write_audio(samples, rate, audio), tmp, mouth)
-        html_file = tmp / "video.html"  # loaded from disk so the page may read the head frames
-        html_file.write_text(page(video_html(c, segs, real=bool(heads)), STUDIO_CSS), encoding="utf-8")
-        pg = browser.new_page(viewport={"width": W, "height": H})
+        heads = talking_head(write_audio(samples, rate, audio), tmp, mouth_curve(samples, rate, frames), frames)
+        html_file = tmp / "video.html"  # loaded from disk so the page may read the presenter frames
+        html_file.write_text(page(video_html(c, segs), STUDIO_CSS), encoding="utf-8")
+        pg = browser.new_page(viewport={"width": VW, "height": VH})
         pg.goto(html_file.as_uri())
         pg.evaluate("document.fonts.ready")
         ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(FPS),
@@ -495,12 +503,8 @@ def render_video(browser, c, out):
                                "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", str(out)],
                               stdin=subprocess.PIPE)
         for n in range(frames):
-            if heads:
-                pg.evaluate("async ([src, t]) => { const im = document.getElementById('anchorImg'); im.src = src;"
-                            " await im.decode(); render(t, 0); }", [heads[min(n, len(heads) - 1)].as_uri(), n / FPS])
-                ff.stdin.write(pg.screenshot(type="jpeg", quality=90))
-                continue
-            pg.evaluate(f"render({n / FPS}, {mouth[n]:.3f})")
+            pg.evaluate("async ([src, t]) => { const im = document.getElementById('anchorImg'); im.src = src;"
+                        " await im.decode(); render(t); }", [heads[min(n, len(heads) - 1)].as_uri(), n / FPS])
             ff.stdin.write(pg.screenshot(type="jpeg", quality=90))
         ff.stdin.close()
         if ff.wait():

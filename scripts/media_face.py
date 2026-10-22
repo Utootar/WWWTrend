@@ -95,11 +95,13 @@ def head_motion(n_frames, fps, speech):
     return angle, dx, dy
 
 
-def animate(frame_paths, base_img, fps, speech):
-    """Blink and move the head on every frame in place. Returns False if no face was found."""
+def animate(frame_paths, base_img, fps, speech, alpha=None, width=None):
+    """Blink and move the head on every frame. Without `alpha` frames are rewritten in place; with a cut-out
+    mask (same size as base_img) each frame becomes a .webp with transparency (the mask moves with the head),
+    scaled to `width`. Returns the written paths, or [] if no face was found."""
     info = analyze(base_img)
     if not info:
-        return False
+        return []
     x, y, w, h = info["face"]
     gray = cv2.cvtColor(base_img, cv2.COLOR_BGR2GRAY)
     ops = [o for o in (_opening(gray, e) for e in info["eyes"]) if o]
@@ -118,6 +120,8 @@ def animate(frame_paths, base_img, fps, speech):
     pivot = (x + w / 2, y + h * 1.08)                     # chin / neck
     n = len(frame_paths)
     closure, (angle, dx, dy) = blink_curve(n, fps), head_motion(n, fps, speech)
+    size = (width, round(base_img.shape[0] * width / base_img.shape[1])) if width else None
+    outs = []
     for i, p in enumerate(frame_paths):
         f = cv2.imread(str(p))
         if f is None or f.shape[:2] != base_img.shape[:2]:
@@ -129,5 +133,17 @@ def animate(frame_paths, base_img, fps, speech):
         m[:, 2] += (float(dx[i]), float(dy[i]))
         moved = cv2.warpAffine(f, m, (f.shape[1], f.shape[0]), borderMode=cv2.BORDER_REFLECT)
         f = (moved * head + f * (1 - head)).astype(np.uint8)
-        cv2.imwrite(str(p), f, [cv2.IMWRITE_JPEG_QUALITY, 92])
-    return True
+        if alpha is None:
+            cv2.imwrite(str(p), f, [cv2.IMWRITE_JPEG_QUALITY, 92])
+            outs.append(p)
+            continue
+        a = cv2.warpAffine(alpha, m, (f.shape[1], f.shape[0]))
+        a = (a * head[..., 0] + alpha * (1 - head[..., 0])).astype(np.uint8)
+        f = np.dstack([f, a])
+        if size:
+            f = cv2.resize(f, size, interpolation=cv2.INTER_AREA)
+        out = p.with_suffix(".webp")
+        cv2.imwrite(str(out), f, [cv2.IMWRITE_WEBP_QUALITY, 92])
+        p.unlink()
+        outs.append(out)
+    return outs
