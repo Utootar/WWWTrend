@@ -27,14 +27,14 @@ from pathlib import Path
 import numpy as np
 
 from media_art import cover_art, scene_svg
-from media_studio import STUDIO_CSS, VH, VW, studio_html
+from media_studio import TH, TW, VH, VW, studio_css, studio_html
 
 ROOT = Path(__file__).resolve().parent.parent
 FONTS = ROOT / "assets" / "fonts"
 DEFAULT_CHROME = "/opt/pw-browsers/chromium-1194/chrome-linux/chrome"
 FPS = 30
 W = 1080            # poster width
-ANCHOR_W = 760      # presenter width in the 16:9 studio (media_studio #anchorImg)
+ANCHOR_W = 900      # presenter frame width (shown at 760 px in 16:9, 900 px in 9:16)
 GAP = 0.45          # silence between narration segments (seconds)
 THAI_VOICE = os.environ.get("MEDIA_VOICE", "th-TH-PremwadeeNeural")   # edge-tts neural Thai voice
 ESPEAK = ["espeak-ng", "-v", "th", "-s", "190", "-p", "42"]       # offline fallback, only with MEDIA_TTS=espeak
@@ -485,7 +485,8 @@ def render_poster(browser, c, out_dir, date):
     return outs
 
 
-def render_video(browser, c, out):
+def render_video(browser, c, outs):
+    """Voice and presenter once, then two cuts of the same studio: outs = (16:9 path, 9:16 TikTok path)."""
     segs = video_segments(c)
     with tempfile.TemporaryDirectory() as d:
         tmp = Path(d)
@@ -493,23 +494,28 @@ def render_video(browser, c, out):
         frames = int(len(samples) / rate * FPS)
         audio = tmp / "voice.wav"
         heads = talking_head(write_audio(samples, rate, audio), tmp, mouth_curve(samples, rate, frames), frames)
-        html_file = tmp / "video.html"  # loaded from disk so the page may read the presenter frames
-        html_file.write_text(page(video_html(c, segs), STUDIO_CSS), encoding="utf-8")
-        pg = browser.new_page(viewport={"width": VW, "height": VH})
-        pg.goto(html_file.as_uri())
-        pg.evaluate("document.fonts.ready")
-        ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(FPS),
-                               "-i", "-", "-i", str(audio), "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "20",
-                               "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", str(out)],
-                              stdin=subprocess.PIPE)
+        cuts = []
+        for out, (w, h), tall in zip(outs, [(VW, VH), (TW, TH)], [False, True]):
+            html_file = tmp / f"video-{w}x{h}.html"  # loaded from disk so the page may read the presenter frames
+            html_file.write_text(page(video_html(c, segs), studio_css(tall)), encoding="utf-8")
+            pg = browser.new_page(viewport={"width": w, "height": h})
+            pg.goto(html_file.as_uri())
+            pg.evaluate("document.fonts.ready")
+            ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(FPS),
+                                   "-i", "-", "-i", str(audio), "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "20",
+                                   "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", str(out)],
+                                  stdin=subprocess.PIPE)
+            cuts.append((pg, ff))
         for n in range(frames):
-            pg.evaluate("async ([src, t]) => { const im = document.getElementById('anchorImg'); im.src = src;"
-                        " await im.decode(); render(t); }", [heads[min(n, len(heads) - 1)].as_uri(), n / FPS])
-            ff.stdin.write(pg.screenshot(type="jpeg", quality=90))
-        ff.stdin.close()
-        if ff.wait():
-            sys.exit("ffmpeg failed")
-        pg.close()
+            for pg, ff in cuts:
+                pg.evaluate("async ([src, t]) => { const im = document.getElementById('anchorImg'); im.src = src;"
+                            " await im.decode(); render(t); }", [heads[min(n, len(heads) - 1)].as_uri(), n / FPS])
+                ff.stdin.write(pg.screenshot(type="jpeg", quality=90))
+        for pg, ff in cuts:
+            ff.stdin.close()
+            if ff.wait():
+                sys.exit("ffmpeg failed")
+            pg.close()
 
 
 def main():
@@ -528,8 +534,9 @@ def main():
             for f in render_poster(browser, c, out_dir, date):
                 print(f)
         if args.only != "poster":
-            render_video(browser, c, out_dir / f"video-{date}.mp4")
-            print(out_dir / f"video-{date}.mp4")
+            outs = (out_dir / f"video-{date}.mp4", out_dir / f"video-{date}-tiktok.mp4")
+            render_video(browser, c, outs)
+            print(*outs, sep="\n")
         browser.close()
 
 

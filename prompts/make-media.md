@@ -21,7 +21,7 @@
    - ตัวเลขทุกตัวต้องตรงกับไฟล์ข่าวหรือ `data/` ถ้าข่าวกับราคาขัดกัน ใช้ราคาจากตาราง และจดใน `sources.md`
 5b. รูปประกอบ (ถ้าต่อ Canva ได้): ต่อข่าวสร้างดีไซน์ Canva แบบ "Instagram Post (Square)" ที่เป็นภาพถ่ายเต็มหน้า ไม่มีตัวหนังสือ ไม่มีโลโก้ ตามเรื่องข่าว แล้ว export jpg กว้าง 900 โหลดมาเป็น `media/D/photo-<เรื่อง>.jpg` ใส่ชื่อไฟล์ในช่อง `"photo"` ของข่าว ถ้า Canva ใช้ไม่ได้ให้ข้าม สคริปต์จะใช้ภาพวาดแทน
 6. `cd scripts && python make_media.py ../media/D/content.json --only poster` แล้วเปิดดูภาพ `slide-*.png` ทุกใบ ถ้ามีข้อความล้นหรือถูกตัด ให้ย่อ `what`/`details` แล้ววาดใหม่
-   - **ไม่ต้องทำวิดีโอเอง** เสียงไทยต้องใช้ edge-tts ที่เครื่อง Claude ต่อไม่ได้ พอ push `content.json` แล้ว workflow `Render media video` จะทำ `video-D.mp4` ด้วยเสียงไทยแล้ว commit ให้เอง
+   - **ไม่ต้องทำวิดีโอเอง** เสียงไทยต้องใช้ edge-tts ที่เครื่อง Claude ต่อไม่ได้ พอ push `content.json` แล้ว workflow `Render media video` จะทำ `video-D.mp4` (16:9) กับ `video-D-tiktok.mp4` (9:16) ด้วยเสียงไทยแล้ว commit ให้เอง
 7. เขียน `media/D/sources.md`: ตารางลิงก์ต้นทางทุกลิงก์ที่ใช้ · ข่าว ★★★ ที่ไม่ได้เลือก · ข้อที่ไม่แน่ใจหรือหาไม่เจอ
 8. commit `media: D drafts` แล้ว push เข้า `main` (ชนให้ `git pull --rebase origin main` แล้ว push ใหม่)
 

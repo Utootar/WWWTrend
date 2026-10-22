@@ -10,7 +10,8 @@ import json
 import random
 
 RED, ORANGE, TEAL, NAVY = "#e63b2e", "#ff9a3c", "#3fe0d0", "#0b1a33"
-VW, VH = 1920, 1080
+VW, VH = 1920, 1080            # YouTube / Facebook
+TW, TH = 1080, 1920            # TikTok / Reels
 STRAPS = {"intro": "สรุปข่าว", "disclaimer": "ขอบอกก่อน", "story": "ข่าว", "view": "มุมมอง",
           "market": "ตลาด", "outro": "WWWTrend"}
 
@@ -81,6 +82,28 @@ body{{width:{VW}px;height:{VH}px;position:relative;background:#040913;color:#fff
 #fade{{position:absolute;inset:0;background:#000;pointer-events:none;z-index:30}}
 #logo{{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:31;font-size:130px;font-weight:700;letter-spacing:-2px;opacity:0}}
 """
+
+# 9:16 for TikTok: same set stacked, screen on top, presenter below, and the bottom ~260 px left plain
+# because TikTok draws its caption and buttons there.
+TALL_CSS = f"""
+body{{width:{TW}px;height:{TH}px}}
+#stage{{transform-origin:50% 40%}}
+#room{{right:auto;bottom:auto;width:{VW}px;height:{VH}px;left:-420px;transform:scale(1.78);transform-origin:50% 0}}
+#pillar,#stand{{display:none}}
+#wrap{{left:40px;top:150px;transform:scale(.917);transform-origin:0 0}}
+#screen{{transform:none}}
+#anchorImg{{left:90px;top:760px;width:900px}}
+#desk{{left:0;top:1471px;width:{TW}px;border-radius:0}}
+#bug{{left:30px;top:60px}}#date{{right:30px;top:62px}}
+#lower{{left:30px;right:30px;top:1500px}}
+#head{{height:70px}}#head div{{line-height:70px;font-size:38px}}
+#cap{{-webkit-line-clamp:3;font-size:29px}}
+#logo{{font-size:110px}}
+"""
+
+
+def studio_css(tall=False):
+    return STUDIO_CSS + (TALL_CSS if tall else "")
 
 
 def studio_html(c, segs, panel_html, gap):
