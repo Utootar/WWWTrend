@@ -2,10 +2,11 @@
  "date": "2026-10-22",
  "collected_at": "2026-10-22T07:01:21+07:00",
  "models": [
+  "claude/routine",
   "gemini/gemini-flash-latest",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 12,
+ "summary_failed": 0,
  "prices": [
   {
    "symbol": "^GSPC",
@@ -1531,7 +1532,18 @@
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZ1JUWTZWSkhrS3pUdjIzU0ZOVjFVTThRQ0xZdnc1RDA4bEo3VGttRnhLTGRKUllJMEhoYWpsdkVxUGpZakRxT0FxbmJxZFRJY0QxUkFUZzgzeHlVdkpJa0ducTdvOEx1UEoxZVZiSENtWWc1SjZWdU5NOW83SWRiQzl3MndQLVNTWVJ2NFEyRkNHXzhJQ00xZXhUblRIM0dsakJJ?oc=5",
      "source": "Financial Mail",
      "published": 1792626054,
-     "text": "Why South Africa isn’t striking it rich from record gold prices Financial Mail"
+     "text": "Why South Africa isn’t striking it rich from record gold prices Financial Mail",
+     "summary_th": "บทความจาก Financial Mail ตั้งคำถามว่า ทำไมแอฟริกาใต้ยังไม่ได้ประโยชน์เต็มที่จากราคาทองคำที่สูงเป็นประวัติการณ์",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "south africa"
+     ],
+     "entities": [
+      "South Africa"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1c1aa3564138",
@@ -1539,7 +1551,20 @@
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbVpLb3UwN042QXhfU0EzcndWdm1DYXhvWW1VM01IenduLVowcTg1TndyWEdHZ2VKRkRscnpPMW5LUHg5dW50Tzl0N0JQWDZZVlY2Tmd5dDZ3YVNVNC02TkN3ejFGY0tCNmxEQjlQbzhheXNzc0VfeUxKbXR4WkszUkxjSXpiWUZXS01UdXNZTmhKb01OUkNTNmZ3STRZVnZYZ2pJc1VYNVdrVTBKR2ctVVBjSUNmOW5FT1R3?oc=5",
      "source": "TradingView",
      "published": 1792620338,
-     "text": "CIBC Revamps Gold Target but Still Sees Major 2027 Snapback TradingView"
+     "text": "CIBC Revamps Gold Target but Still Sees Major 2027 Snapback TradingView",
+     "summary_th": "CIBC ปรับเป้าราคาทองคำใหม่ แต่ยังมองว่าจะมีการปรับตัวกลับลงแรง (snapback) ในปี 2027",
+     "importance": 2,
+     "numbers": [
+      "2027"
+     ],
+     "tags": [
+      "gold",
+      "cibc"
+     ],
+     "entities": [
+      "CIBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7196213b60c1",
@@ -1547,7 +1572,18 @@
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPemlWT2tKUl9WaDZJazgyY1VIMFg3OGJUemcyZ1FtVWNWRllkMmljSk9CeUpITV9OVjA3UTBmMmUwWW9la0VyS3NHMWR5enVXby1BNjVUVF9GdDRvdTBkRnlXX3I1b040eGhRb1NYazBLZm5pLXRSTl9jenI0YnFEVmRxZk1NOUJJYlFDWkhPUWdCb0ZuRHRBVndHZkJGUQ?oc=5",
      "source": "Laodong.vn",
      "published": 1792624200,
-     "text": "Gold price update morning of October 22nd: Continuous decline Laodong.vn"
+     "text": "Gold price update morning of October 22nd: Continuous decline Laodong.vn",
+     "summary_th": "รายงานราคาทองคำช่วงเช้าวันที่ 22 ตุลาคม ระบุว่าราคาปรับตัวลงต่อเนื่อง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "vietnam"
+     ],
+     "entities": [
+      "Vietnam"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2cb72190fcf0",
@@ -1555,7 +1591,17 @@
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOY3k5VF9XbkNSQjNHWUxOc1ZLV2RYNW5nYlRNNmhEbjFiZGpvR3p3Q3c2c2d1UEJPVzhVZGFJT3BxU0dQcUtaUFdXSWFaemI1MTlTdUtVS0hwbTVjRldqYnhHVG0tVHRhVm9VN1hrUEE1Znd5aW5LdWdibDV5SE5DLXlXNXkzSEE1WVBaSjkzbDRLMTc2WUE?oc=5",
      "source": "The Greyhound Recorder",
      "published": 1792620172,
-     "text": "Golden Greys Summer Carnival To Heat Up The Q The Greyhound Recorder"
+     "text": "Golden Greys Summer Carnival To Heat Up The Q The Greyhound Recorder",
+     "summary_th": "ประกาศงานคาร์นิวัลฤดูร้อนของ Golden Greys ตามหัวข้อข่าว (เนื้อหาในต้นทางไม่ครบ)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "local event"
+     ],
+     "entities": [
+      "Golden Greys"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5c887475d20f",
@@ -1563,7 +1609,22 @@
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ0FISWV6T0xwQ1R4QVBzeUxCd0lpSlhsZlZGbXlfVFdxZTJ4cUNIZk1wc252TE56TkJHMmRWY0gwYVAtcXlyZ283UUpqLVVhY2RtMXRMQnFwTVpMQXdxeVdpT2RVc1FqWlRzYk0xRGlFZjNoZFVGbTMyWDBkMHF3OUFWUlU1bFRmTFVjMEwyeFBSa242b3EtRkEzeWRNT2dJNHVBMXdIVHM?oc=5",
      "source": "Vietnam.vn",
      "published": 1792623792,
-     "text": "Gold prices today, October 22, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. Vietnam.vn"
+     "text": "Gold prices today, October 22, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. Vietnam.vn",
+     "summary_th": "รายงานราคาทองคำวันที่ 22 ตุลาคม 2026 ครอบคลุมทองแท่ง SJC ทอง BTMC 9999 แบบเกลี้ยง และราคาทองโลก",
+     "importance": 1,
+     "numbers": [
+      "9999"
+     ],
+     "tags": [
+      "gold",
+      "sjc"
+     ],
+     "entities": [
+      "SJC",
+      "BTMC",
+      "Vietnam"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5f40cabfac82",
@@ -1571,7 +1632,18 @@
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVVRKRDRWektQZ2ZtUW5ITXBHUHV3LVEzRkxyUkR4dGNQQXRJaW13LUpxLV9fbFFabHdqSWtfekZETV8xcTIwQ281dlZMcmRHUnN0YmgwSGR1d2s4SVJZRTFKRmRMUUNwVHZUZjIwRVJYMlM1aENpQktfV1RvWlJHaVBTU1B1OFhzQ0pwbkFRYjZ4OVhD?oc=5",
      "source": "roundtable.io",
      "published": 1792613754,
-     "text": "Analysts lift gold 58 places higher amid central bank purchases roundtable.io"
+     "text": "Analysts lift gold 58 places higher amid central bank purchases roundtable.io",
+     "summary_th": "นักวิเคราะห์ปรับอันดับทองคำขึ้น 58 อันดับ ท่ามกลางการซื้อทองคำของธนาคารกลาง",
+     "importance": 1,
+     "numbers": [
+      "58"
+     ],
+     "tags": [
+      "gold",
+      "central banks"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "25b5aa791793",
@@ -1579,7 +1651,18 @@
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWmZ5UnJ3YWZiVmVoMThlX2lhMG9mTVZDNFdDZHdtekx2MFRQdUNhbjBYQkRYc05sMVZRMFJSc3lKTl9RZkNPZjIwMlZ3N3ZTRGRvRWo4VDZ2ZDRTcDJ6bHZEcm9wa2tIUmRXV3h5anRrcHVpQU5heko3UkxWcmQ3ZEIzT05FeExjeGY2akZKRkEtUHpvZW9pWFRn?oc=5",
      "source": "Vietnam.vn",
      "published": 1792623604,
-     "text": "Gold price today, October 22nd: Escapes one-week low as bond yields fall. Vietnam.vn"
+     "text": "Gold price today, October 22nd: Escapes one-week low as bond yields fall. Vietnam.vn",
+     "summary_th": "ราคาทองคำวันที่ 22 ตุลาคม ทรงตัวเหนือระดับต่ำสุดในหนึ่งสัปดาห์ เมื่อผลตอบแทนพันธบัตรลดลง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "bond yields"
+     ],
+     "entities": [
+      "Vietnam"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f52a62f37326",
@@ -1587,7 +1670,20 @@
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPU2lhcGNNYWRaOVoxaElseEd3OEg3NjZPNUtWRUNFN3cyOEtuajZCT1hMblFpU1ctOFhOdnFyWUZrNVpHcDMwWjNQOTMtWXlnbXVxOTFqYmMyeEZCYk94V0tjbWVxNHlwLWp3VVFLYmU4b3ZpOElZYXJOclRJY3BRSWZlbFhiRTNIZmpNd1JJWFBRbWhONW5aR0tSclg1aE91VmIwZXByQQ?oc=5",
      "source": "IndexBox",
      "published": 1792606926,
-     "text": "Royal Mint: Record Silver & Platinum Sales, Gold Demand Revives - News and Statistics IndexBox"
+     "text": "Royal Mint: Record Silver & Platinum Sales, Gold Demand Revives - News and Statistics IndexBox",
+     "summary_th": "Royal Mint รายงานยอดขายเงินและแพลทินัมทำสถิติ ขณะที่ความต้องการทองคำฟื้นตัว",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "silver",
+      "platinum",
+      "royal mint"
+     ],
+     "entities": [
+      "Royal Mint"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "20df98fcb85f",
@@ -1595,7 +1691,21 @@
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMmNBbUctWWN4c212b3l6SGd1ZFF1N1ozTkltUHVNRlVLQy1aMllyUGFRaWgtWGhFZ04xdFl2TjNZZnoxck5oMjdXMms0aVptdVdlRmNodFpmWXdxZ2xRMHFsUXBTa2NVRjhVbDdBM3pUVnBnVHgzQ2M5NDEyallRaGhZZHJJQWJBZUZhYWFoVW5fc1ZQVDI3VDdvMHVIR0dQ?oc=5",
      "source": "Vietnam.vn",
      "published": 1792620000,
-     "text": "Gold prices today, October 22, 2026: Prices of SJC, BTMC, PNJ, Phu Quy gold and international gold. Vietnam.vn"
+     "text": "Gold prices today, October 22, 2026: Prices of SJC, BTMC, PNJ, Phu Quy gold and international gold. Vietnam.vn",
+     "summary_th": "รายงานราคาทองคำวันที่ 22 ตุลาคม 2026 ครอบคลุมทอง SJC, BTMC, PNJ, Phu Quy และราคาทองคำต่างประเทศ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "vietnam"
+     ],
+     "entities": [
+      "SJC",
+      "BTMC",
+      "PNJ",
+      "Phu Quy"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "000606e66a50",
@@ -1603,7 +1713,18 @@
      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jMDRoNlR1WFVSYVFvNUZZalU0cjM1djViNFR4bnotXy00RFZYaDVpWFhfa01xQjNCYnFuWTllUU9mQ1pmTUNLcHFaVlNING42azlmNmJHN3RKbUR6WWRzZGthNS0wYUFwTm9xUXk3amdadw?oc=5",
      "source": "LiveChennai",
      "published": 1792606886,
-     "text": "Will 22-Carat Gold Reach ₹20,000 per Gram by December 2026? Global Factors and Investment Outlook LiveChennai"
+     "text": "Will 22-Carat Gold Reach ₹20,000 per Gram by December 2026? Global Factors and Investment Outlook LiveChennai",
+     "summary_th": "บทความตั้งคำถามว่า ทองคำ 22 กะรัตจะถึง ₹20,000 ต่อกรัมภายในธันวาคม 2026 หรือไม่ พร้อมพูดถึงปัจจัยโลกและแนวทางการลงทุน",
+     "importance": 1,
+     "numbers": [
+      "₹20,000"
+     ],
+     "tags": [
+      "gold",
+      "india"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "7fceb7be6532",
@@ -1611,7 +1732,18 @@
      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSXVHTFJfVEpSaGhVMFAtakNvaGxDVWNJUWx3enlfOE9hZ283MmMzWWJld3hVc01HWlozSWZEcjl6WUNHa20tOG1XdmZvbzB1eGNrckhCTUR2S3hOSUNRSk0zcE01RXA3U2RpZlZvM18yZVlUN3hidmd2bGhUay1faDJPaE51TUxldFRVanFsZFNoWWVieS1HYVUwSDZwYTcwQ3RQaVpVR1F4OWRKazdDX2pYOXlmZFptZUltUzAyaXJSelNN?oc=5",
      "source": "StoneX",
      "published": 1792619927,
-     "text": "Gold Price Short-term Outlook: XAU/USD Holds Critical Support as Breakout Nears StoneX"
+     "text": "Gold Price Short-term Outlook: XAU/USD Holds Critical Support as Breakout Nears StoneX",
+     "summary_th": "บทความแนวโน้มระยะสั้นของทองคำ (XAU/USD) ระบุว่าราคายังอยู่เหนือแนวรับสำคัญ ขณะที่ใกล้จุดทะลุ (breakout)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "technical analysis"
+     ],
+     "entities": [
+      "StoneX"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6f546dfe90bb",
@@ -1619,7 +1751,19 @@
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTTNGX0F2TUhwTkdfdncxMnN4OE9SZlhGOWpkM1VWUlRLcmoyYzJKdFpBOEZ3ZW5LT3hfNFNMRloxal9XVmZfcGg5bUxLSERPM1dBT3BWcDBweUxKY1FBQVRDQjlmcXdpLWg0b0J2RkJnVTBhbDRhYXVKdHNLQVVMUVNUUnpkSW5NdXEzY3o2bWFmLS1fVzg0VDJ3ZXk4Njg5cmUtbTBvTVc5OVhDMFB0Z1pxUkU?oc=5",
      "source": "TheStreet",
      "published": 1792603800,
-     "text": "Jim Cramer picks gold over Bitcoin to balance a young investor’s portfolio TheStreet"
+     "text": "Jim Cramer picks gold over Bitcoin to balance a young investor’s portfolio TheStreet",
+     "summary_th": "Jim Cramer แนะนำให้เลือกทองคำมากกว่าบิตคอยน์ เพื่อสร้างสมดุลให้พอร์ตของนักลงทุนรุ่นใหม่",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "bitcoin"
+     ],
+     "entities": [
+      "Jim Cramer",
+      "Bitcoin"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
