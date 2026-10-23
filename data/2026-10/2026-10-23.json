@@ -2,10 +2,11 @@
  "date": "2026-10-23",
  "collected_at": "2026-10-23T06:59:46+07:00",
  "models": [
+  "claude/routine",
   "gemini/gemini-flash-latest",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 1,
+ "summary_failed": 0,
  "prices": [
   {
    "symbol": "^GSPC",
@@ -2714,7 +2715,22 @@
      "link": "https://medicalxpress.com/news/2026-10-cannabis-legalization-linked-cardiovascular-hospital.html",
      "source": "Medical Xpress",
      "published": 1792708201,
-     "text": "Legalization of recreational cannabis in the U.S. is associated with a rise in hospital admissions for cardiovascular disease, finds an analysis of more than 50 million patient discharge records, published in the open-access journal BMJ Open."
+     "text": "Legalization of recreational cannabis in the U.S. is associated with a rise in hospital admissions for cardiovascular disease, finds an analysis of more than 50 million patient discharge records, published in the open-access journal BMJ Open.",
+     "summary_th": "การศึกษาจากการวิเคราะห์ใบจำหน่ายผู้ป่วยกว่า 50 ล้านรายการ พบว่าการทำให้กัญชาเพื่อสันทนาการถูกกฎหมายในสหรัฐฯ สัมพันธ์กับการเข้ารักษาตัวในโรงพยาบาลด้วยโรคหัวใจและหลอดเลือดที่เพิ่มขึ้น เผยแพร่ในวารสาร BMJ Open",
+     "importance": 2,
+     "numbers": [
+      "50 million"
+     ],
+     "tags": [
+      "cannabis",
+      "cardiovascular",
+      "public health"
+     ],
+     "entities": [
+      "U.S.",
+      "BMJ Open"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "4463663924fa",
