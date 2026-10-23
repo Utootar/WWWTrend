@@ -337,8 +337,8 @@ border-radius:14px;padding:12px 18px">{art_html(s, 84, "rgba(255,255,255,.1)", 1
 <div class="bar" data-w="{abs(it['pct']) / peak * 100:.1f}" style="position:absolute;left:0;top:0;bottom:0;width:0;border-radius:13px;background:{'#38d98f' if it['pct'] >= 0 else '#ff6b5e'}"></div></div>
 <div style="font-size:36px;font-weight:700;text-align:right;color:{'#7dffb8' if it['pct'] >= 0 else '#ff8a7e'}">{esc(it.get('value') or fmt_pct(it['pct']))}</div></div>"""
                        for it in m["items"])
-        return f"""{kick('ตลาด')}<div style="font-size:64px;font-weight:700;margin:10px 0 30px">{esc(m['title'])}</div>
-<div style="display:flex;flex-direction:column;gap:30px">{rows}</div>
+        return f"""{kick('ตลาด')}<div style="font-size:56px;font-weight:700;margin:6px 0 20px">{esc(m['title'])}</div>
+<div style="display:flex;flex-direction:column;gap:{30 if len(m['items']) <= 5 else 14}px">{rows}</div>
 <div style="margin-top:auto;font-size:20px;color:#9fb3cc">% เทียบวันก่อน · {esc(m['source_note'])}</div>"""
     s, i = seg["story"], seg["index"]
     return f"""{kick(f"ข่าว {i + 1}/{len(c['stories'])} · ที่มา {s['source']}")}
