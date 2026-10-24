@@ -1,0 +1,712 @@
+{
+ "date": "2026-10-24",
+ "collected_at": "2026-10-24T08:09:01+07:00",
+ "models": [
+  "gemini/gemini-flash-lite-latest"
+ ],
+ "summary_failed": 0,
+ "prices": [],
+ "theme_prices": [],
+ "categories": [
+  {
+   "key": "models",
+   "label": "โมเดลและบริษัท AI",
+   "items": [
+    {
+     "id": "298c8de07d18",
+     "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+     "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+     "source": "OpenAI",
+     "published": 1792774800,
+     "text": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+     "summary_th": "OpenAI ขยายระบบจัดเก็บข้อมูลออนไลน์ด้วย Habitat, กลยุทธ์แคชระดับโลก และ Azure Cosmos DB เพื่อให้บริการผู้ใช้งาน ChatGPT กว่า 1,000 ล้านราย",
+     "importance": 2,
+     "numbers": [
+      "1 billion",
+      "12×"
+     ],
+     "tags": [
+      "openai",
+      "chatgpt",
+      "azure"
+     ],
+     "entities": [
+      "OpenAI",
+      "ChatGPT",
+      "Azure Cosmos DB"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "d5dfb55b0129",
+     "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+     "link": "https://huggingface.co/blog/allenai/litpivot",
+     "source": "Hugging Face",
+     "published": 1792772150,
+     "text": "",
+     "summary_th": "Hugging Face นำเสนอ LitPivot สำหรับการพัฒนาไอเดียงานวิจัยผ่านการทำบริบทแบบไดนามิก",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "hugging face",
+      "research",
+      "ai"
+     ],
+     "entities": [
+      "Hugging Face",
+      "LitPivot"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "48e2274fdf2b",
+     "title": "Securing our frontier model training environment",
+     "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
+     "source": "OpenAI",
+     "published": 1792749600,
+     "text": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+     "summary_th": "OpenAI อธิบายการเสริมความปลอดภัยสำหรับสภาพแวดล้อมการฝึกอบรมโมเดลล้ำสมัย รวมถึงสภาพแวดล้อมแบบออฟไลน์",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "openai",
+      "ai safety",
+      "model training"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "6430909168b5",
+     "title": "Does Your Model Run on AWS Trainium? Look It Up",
+     "link": "https://huggingface.co/blog/torch-neuronx-model-support",
+     "source": "Hugging Face",
+     "published": 1792713600,
+     "text": "",
+     "summary_th": "Hugging Face เผยแพร่ข้อมูลเกี่ยวกับการตรวจสอบว่าโมเดลทำงานบน AWS Trainium หรือไม่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "hugging face",
+      "aws trainium",
+      "ai models"
+     ],
+     "entities": [
+      "Hugging Face",
+      "AWS Trainium"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "15c1f8ef7a58",
+     "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+     "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+     "source": "OpenAI",
+     "published": 1792713600,
+     "text": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+     "summary_th": "OpenAI และ NASK ของโปแลนด์เป็นพันธมิตรกันเพื่อพัฒนาความปลอดภัยด้าน AI และการวิจัยทางเทคนิค",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "openai",
+      "nask",
+      "poland",
+      "ai safety"
+     ],
+     "entities": [
+      "OpenAI",
+      "NASK",
+      "Poland"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    }
+   ]
+  },
+  {
+   "key": "agents",
+   "label": "Agent · Harness · Skills · MCP",
+   "items": [
+    {
+     "id": "ece6c921b830",
+     "title": "Quick Study",
+     "link": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+     "source": "Simon Willison",
+     "published": 1792791313,
+     "text": "Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush See also my previous experiment getting Claude Fable to simulate a watercolor illustration with P5.js. Quick Study uses Sobel edge detection , with no external libraries beyond Google Fonts. Tags: tools",
+     "summary_th": "Simon Willison เผยแพร่ Quick Study พร้อมท์สำหรับ Claude Opus 5.5 High เพื่อสร้างภาพวาดจาการเปิดภาพถ่าย",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "tools",
+      "claude",
+      "prompt"
+     ],
+     "entities": [
+      "Claude Opus",
+      "Simon Willison",
+      "Google Fonts"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "6c7366eae8d1",
+     "title": "AI Is Getting Good at Math. Here’s Why.",
+     "link": "https://latent.space/p/ai-is-getting-good-at-math/",
+     "source": "Latent Space",
+     "published": 1792768788,
+     "text": "AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next.",
+     "summary_th": "โมเดล AI แก้ไขปัญหาทางคณิตศาสตร์ได้มากขึ้นและรูปแบบความสำเร็จช่วยให้คาดการณ์ปัญหาที่จะแก้ได้",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "math"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "1f9eddacbb7d",
+     "title": "Swedish government offices to ban ChatGPT and Claude",
+     "link": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+     "source": "Hacker News",
+     "published": 1792755594,
+     "text": "Article URL: https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet Comments URL: https://news.ycombinator.com/item?id=50207405 Points: 314 # Comments: 117",
+     "summary_th": "สำนักงานรัฐบาลสวีเดนเตรียมสั่งแบน ChatGPT และ Claude",
+     "importance": 2,
+     "numbers": [
+      "314",
+      "117"
+     ],
+     "tags": [
+      "chatgpt",
+      "claude",
+      "sweden"
+     ],
+     "entities": [
+      "ChatGPT",
+      "Claude"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "a3bdf0324937",
+     "title": "US banks scramble to control their AI agent activity",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBNUVoUE0yYW4xdklwZ3p0aUJadHNQSmp5X0V4cGtMcXdrNk5SRzhhMXdtUnpJOHIxTHJ4Ui1hQUFEekUtc0Y5VlU4TlBBS0tyQXhMdERn?oc=5",
+     "source": "Fox News",
+     "published": 1792795970,
+     "text": "US banks scramble to control their AI agent activity Fox News",
+     "summary_th": "ธนาคารในสหรัฐฯ เร่งควบคุมกิจกรรมของ AI agent",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai agent",
+      "banking"
+     ],
+     "entities": [
+      "Fox News"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "2e71264ea893",
+     "title": "Introducing Kimi K3.1 Pro",
+     "link": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+     "source": "Simon Willison",
+     "published": 1792784454,
+     "text": "Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\". They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same). The US dollar pricing is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5. Moonshot's own benchmarks show Kimi as approximately level with Opus 5.5 and GPT-6 Astra - beating them on a few benchmarks, coming close on others. Artificial Analysis scored Kimi at 55 - ahead of Claude Fable 5.1, GPT-6 Astra, and",
+     "summary_th": "Moonshot เปิดตัว Kimi K3.1 Pro บน API โดยสัญญาว่าจะเปิดเผยน้ำหนักโมเดลเต็มรูปแบบภายในวันที่ 4 พฤศจิกายน 2026",
+     "importance": 2,
+     "numbers": [
+      "3.1",
+      "4",
+      "2026",
+      "2-3x",
+      "$2.00",
+      "$10",
+      "6.1",
+      "5.5",
+      "55"
+     ],
+     "tags": [
+      "kimi",
+      "api",
+      "moonshot"
+     ],
+     "entities": [
+      "Kimi K3.1 Pro",
+      "Moonshot",
+      "Artificial Analysis"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "d118e2133ee5",
+     "title": "[AINews] Black October",
+     "link": "https://latent.space/p/ainews-black-october/",
+     "source": "Latent Space",
+     "published": 1792750169,
+     "text": "the Cyber onslaught continues.",
+     "summary_th": "เหตุการณ์โจมตีทางไซเบอร์ดำเนินต่อไปในช่วงเดือนตุลาคม",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "cybersecurity"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "be1469076edc",
+     "title": "AI-Agent Payments Explained: Mastercard Agent Pay, AP2 and x402",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5LWEg3eXBCRkE0TExrVlVCaXJuSzU4Z0JZcjV2NTlqWjVaNERvQXYteHhocmh3SXdHOTRYc0pJTzRWUUZSbmpGOVdIMEFDdl9lUl84MGs1aw?oc=5",
+     "source": "Cryptonews.net",
+     "published": 1792795692,
+     "text": "AI-Agent Payments Explained: Mastercard Agent Pay, AP2 and x402 Cryptonews.net",
+     "summary_th": "การอธิบายระบบการชำระเงินของ AI-Agent ได้แก่ Mastercard Agent Pay, AP2 และ x402",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "payments",
+      "ai agent",
+      "mastercard"
+     ],
+     "entities": [
+      "Mastercard"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "4d9b576e5743",
+     "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+     "link": "https://latent.space/p/modal-d/",
+     "source": "Latent Space",
+     "published": 1792690857,
+     "text": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
+     "summary_th": "Erik Bernhardsson ซีอีโอ Modal พูดถึงเรื่อง GPU ยืดหยุ่น การเติบโตของแซนด์บ็อกซ์ และเศรษฐศาสตร์ของคลาวด์เอเจนต์",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gpu",
+      "cloud",
+      "modal"
+     ],
+     "entities": [
+      "Erik Bernhardsson",
+      "Modal"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "7fd5e6d86a66",
+     "title": "MCP Tasks arrives in Claude Code, long jobs now run in the background",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWXZVLXhLRWJPU1djSmUzWHlxVU9OV3ZiYWxESnpUNV9pVWZFUTlPSDhiTnU0Q3RJWDU3SkFIZXdaTmpfandZYllOa1VmNDRFakZVaVdGRnc2Z3FxblRaR2FFTDlkTGl1YjA2RExabXdBWXFVM25rQ1E0S3AtODhHNzBrN3Z3cXgxU3RIQ0N1UkVsaWo5SDllXw?oc=5",
+     "source": "Pasquale Pillitteri",
+     "published": 1792793830,
+     "text": "MCP Tasks arrives in Claude Code, long jobs now run in the background Pasquale Pillitteri",
+     "summary_th": "MCP Tasks มาถึง Claude Code แล้ว ทำให้งานประมวลผลนานสามารถทำงานในพื้นหลังได้",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "mcp",
+      "claude code"
+     ],
+     "entities": [
+      "Claude Code",
+      "Pasquale Pillitteri"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "b82818c8a163",
+     "title": "You are the Team — Anekha Sokhal, Moshi",
+     "link": "https://latent.space/p/moshi/",
+     "source": "Latent Space",
+     "published": 1792677820,
+     "text": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow.",
+     "summary_th": "Anekha Sokhal จาก Moshi อธิบายวิธีเปลี่ยนข้อมูลตลาดเป็นข้อมูลเชิงลึกที่นำไปปฏิบัติได้จริงสำหรับเทรดเดอร์",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "moshi",
+      "trading",
+      "ai tools"
+     ],
+     "entities": [
+      "Anekha Sokhal",
+      "Moshi"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "3b81cf908313",
+     "title": "Lehi, Utah's $3 Billion-valued Podium is Set to Produce Between $150 Million to $200 Million in AI-Agent ARR in 2026. Alone.",
+     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNN1N4MHZwLVlsenlPNU9Kb3B6elBIT3NELWtHZzJwWmhtNDh1YnVlZllfQU4yMERqejBrTXUtSnlPaVJSVnlSVGZ5Q2haR1pPRHA1b3hmb3B0LV9sYW92TTV3dEFMVzJDMzVWTkxrWUlZTFFzb1J1ZUhOSkJKbVZNYUQwaG8wbzBSV05TcjJpTzlBZTV4c09oTXdPcldkTVdOUzJtVDA4ekFNOVhsRjN1UlhwMVh0b0x4NnVRT0syWkEycTRxaF81LW9IOGw0bFFmTUJPQW9XV09JRWZiMFlJV0Zmaw?oc=5",
+     "source": "Utah Money Watch",
+     "published": 1792793739,
+     "text": "Lehi, Utah's $3 Billion-valued Podium is Set to Produce Between $150 Million to $200 Million in AI-Agent ARR in 2026. Alone. Utah Money Watch",
+     "summary_th": "บริษัท Podium ในเมืองลีไฮ รัฐยูทาห์ มูลค่า 3 พันล้านดอลลาร์ ตั้งเป้าสร้าง ARR จาก AI-Agent ระหว่าง 150 ถึง 200 ล้านดอลลาร์ในปี 2026",
+     "importance": 2,
+     "numbers": [
+      "3",
+      "150",
+      "200",
+      "2026"
+     ],
+     "tags": [
+      "podium",
+      "arr",
+      "ai agent"
+     ],
+     "entities": [
+      "Podium",
+      "Lehi",
+      "Utah"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "c4d66d51d0e3",
+     "title": "Anthropic targets Muse and Dots with new AI agent, Claude Duet",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaWxGVHJ5dVhwMXhhQlBPTnZnUFpjQ01FLWswc0pzS1o3cFNONlJ5Y3c4bHdBa0NaajFkRzVfT29oNVI3MlhLanJ6TmFmajJ2X0NZSmwtMURFWnB3VG5wdzlENGdzN0k4XzUwLTVXSFpPY3c4QlFGT01rSU1XNW5VSmdseUpvdE9iYURGTE1kTExEQlFNQlZRbkp0MVZhLVZEbFdDTXFGQm5QY2NrLXBaNTNaemtZbkJJWkFB?oc=5",
+     "source": "Computerworld",
+     "published": 1792790966,
+     "text": "Anthropic targets Muse and Dots with new AI agent, Claude Duet Computerworld",
+     "summary_th": "Anthropic มุ่งเป้าไปที่ Muse และ Dots ด้วย AI agent ตัวใหม่ที่มีชื่อว่า Claude Duet",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "anthropic",
+      "claude duet",
+      "ai agent"
+     ],
+     "entities": [
+      "Anthropic",
+      "Muse",
+      "Dots",
+      "Claude Duet"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    }
+   ]
+  },
+  {
+   "key": "business",
+   "label": "AI ใช้งานจริง (กล้อง อาคาร ธุรกิจ)",
+   "items": [
+    {
+     "id": "4d4a350728e1",
+     "title": "Vitek IP Announces the Availability of the Video Analytics Solutions Patent Portfolio",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNM0pNYzNtOE04VWhlaFppQ1AyZENnZTFacGdHTDR6dlAxdUVNbjVfcmlfUFhQc2ZqSWNRT0FrNUQ3VWJZS2ZJZHlUZ1hjemRwWllGdlJnODFmMUs5QVhIUjJiZHFUbjZ0TV9tODNrU3BJaGpiMlk5REJvbG9QcVd5Szd3ekx1MUpQQlVQMTVvY2h1ck82NmhIaXZkalN5WTRxbmRCd1lzMFRzYUg1czZhRDctRzdvZ084ZkM0NWhUWjJhOXFfMFVjZkRVMzFIQmthWW95dWwtbw?oc=5",
+     "source": "Cincinnati Enquirer",
+     "published": 1792697927,
+     "text": "Vitek IP Announces the Availability of the Video Analytics Solutions Patent Portfolio Cincinnati Enquirer",
+     "summary_th": "Vitek IP ประกาศเปิดตัวพอร์ตโฟลิโอสิทธิบัตรโซลูชันวิเคราะห์วิดีโอ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "video analytics",
+      "patents"
+     ],
+     "entities": [
+      "Vitek IP"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "fbe245e88155",
+     "title": "AI and a Chat Interface Team Up to Predict Wind Turbine Failures in Real Time",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPT1h4THhac19IZTVDWUdYOTNnRWl5Y0lZVUpWVVpQdHFvVHF0Q0VPeFZlTWEtUG1aOURQTzVIS09zNUplUzRLVnhUODhILTNjQ19WejhGMElKOE5DT0ZTX2Y5YU95NFhIN0xiU2NFbDEyc1Z6SENhTVpJLTRYamIwQ18wUDE0UVExVjNMNWtjeXlnNTBIMm5FZ2VPZWVLR0tjbHBCNg?oc=5",
+     "source": "Bioengineer.org",
+     "published": 1792765718,
+     "text": "AI and a Chat Interface Team Up to Predict Wind Turbine Failures in Real Time Bioengineer.org",
+     "summary_th": "AI และอินเทอร์เฟซแชทถูกนำมาร่วมกันเพื่อทำนายความล้มเหลวของกังหันลมแบบเรียลไทม์",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "wind turbine"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "194900a27d4a",
+     "title": "AI Guest Speaker for Events: Hire #1 Keynote Scott Steinberg",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNnJFREFUTEdiTXNMcElKdTd3SkROZFJXRjAzbDBWOHFEYlBuNjIxamJkdXBjYVZOa0Z0ZVZwNjVIbERLUklCUHpobnFtUTE1M21jYkFIc0hVbEZqVEZ0YkllR1YyN0toQ2dhVWtMT3JRSUg1V0N6X2FNYVNIZS1zRGNBc3VXdw?oc=5",
+     "source": "https://www.futuristsspeakers.com/",
+     "published": 1792765214,
+     "text": "AI Guest Speaker for Events: Hire #1 Keynote Scott Steinberg https://www.futuristsspeakers.com/",
+     "summary_th": "AI Guest Speaker for Events: Hire #1 Keynote Scott Steinberg",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "ai speaker"
+     ],
+     "entities": [
+      "Scott Steinberg"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "771cb72f5f7b",
+     "title": "TK Elevator Introduces AI Agents to Support Service Technicians",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUzVTR09Jc0hOX3VZSWJRNHpnLUZ2V0h2alVCWHZwX1JwVDRDamVSMG5UYzZhNUJGTkFqQkYxNXZkT0gwZ1lsR0ZtaWdWUXMyYzllRWpFRHFOU3FtT1lEUWtrMGdwOTlxZHdJSW5MNEVDelgtT2tqWC1tLUxxTTdvTGpSSUtjSFhXTXlFcU1KMjE5Q1RCWkNqeUZYQUNfeTE1Q2VZ?oc=5",
+     "source": "https://megaproject.com/",
+     "published": 1792763319,
+     "text": "TK Elevator Introduces AI Agents to Support Service Technicians https://megaproject.com/",
+     "summary_th": "TK Elevator เปิดตัว AI Agents เพื่อสนับสนุนช่างซ่อมบำรุง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai agents",
+      "elevators"
+     ],
+     "entities": [
+      "TK Elevator"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "3a3e390f4765",
+     "title": "Where Does AI Actually Belong in the Repair Shop?",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNHh1b2M4V1JuWTd5YTRqU2N4dTF2U0RPOENTYTlpa1RNaVVacmhnMmZ6SXh3a3FzM2gzVENhaWhJM3BacTA0Y2xFQTlPdS1mWXBMb1NOSVRNRWhtSUNfYnRacUJyT2pKZmJ1WFNxQkZxNHI0bGVEWkNKT2VMTTQ3ZTdaZzBBemU0Qks0?oc=5",
+     "source": "Fleet Equipment Magazine",
+     "published": 1792761395,
+     "text": "Where Does AI Actually Belong in the Repair Shop? Fleet Equipment Magazine",
+     "summary_th": "บทความสำรวจว่า AI ควรใช้งานจริงในร้านซ่อมรถยนต์ในส่วนใด",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "repair shop"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "3d3eaee8f1cb",
+     "title": "Data Center Infrastructure Management (DCIM) Market (2035):",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSWx0WENfMHBYbDZwbnRHYmZvcWdkWGFfVEJZVmoxME4xeFM4VWRPeDZHWTA5STlJRURzd09XaDRRMFl2dDNLT2VWMUpKazFLeV84cWJIT3RKNko5bVpnTjNYS2Y4WjRPZ2tKYm1GYzg3MFJRazVFWmlIOWtJNmpiNUZSM0RCTk1PVnZXM1E0aHBNdjd6?oc=5",
+     "source": "openPR.com",
+     "published": 1792759728,
+     "text": "Data Center Infrastructure Management (DCIM) Market (2035): openPR.com",
+     "summary_th": "รายงานตลาดการจัดการโครงสร้างพื้นฐานศูนย์ข้อมูล (DCIM) ถึงปี 2035",
+     "importance": 1,
+     "numbers": [
+      "2035"
+     ],
+     "tags": [
+      "dcim",
+      "data center"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "2ea5a645e7c8",
+     "title": "Sopra Steria: CS Group integrates Italian Aiko's predictive AI into its satellite control suite",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOb2FqUHRvU3JRYUgzNVdDX0d6Q2kwZndBTnVWXzNTaG9CWXcwbElEamZIYWpiSUtPSUpIRXVOTWwtcngwY0pac1c0Z3pUdF9pR0VScjUtU1dvZFlmNmpjQm5wNnk4Yk5hYVpELWtydm5oWF9XTlJfNTUyYVpQNUZhVldIdkpmY1A1RG55TnIwYkNLd1hTS2Q0UVMtdWh5c1RWU1ZaekM1V0lkUGprOThzcnBldTBxclBNWGZYZTBieXMtbWxIaWtCdFZfajdNMmdRam9qaTZhRmFQWG5BaUg0RjVQT3BpTXBJ?oc=5",
+     "source": "Ideal Investisseur",
+     "published": 1792744800,
+     "text": "Sopra Steria: CS Group integrates Italian Aiko's predictive AI into its satellite control suite Ideal Investisseur",
+     "summary_th": "CS Group ของ Sopra Steria ผสานรวม AI เชิงทำนายของ Aiko จากอิตาลีเข้ากับชุดควบคุมดาวเทียม",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "satellite control"
+     ],
+     "entities": [
+      "Sopra Steria",
+      "CS Group",
+      "Aiko"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "1d648a5f851c",
+     "title": "Korean firms push boundaries in autonomous mobility, vehicle software at FIX Innovation Awards 2026",
+     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNYkg3Y1RpOW5GSnh2OGlqWlp1MUoyZ2pHakFrTHZwTkR4eXB6RUlRdkEtM1AyNVZqQ3JVQTM3V0tScTEtZGxiVjdnOFZIYUtsSnVuR0V5Qzg4aWpXc0VHS09iUUJ2ME4zazktTmxHTlhlSWNPdkZvaVRabmprSHd6T1pCeE1mdzFZa2RIVjlGYnM3djJMdGFSUzlqU3M4b1dXLWtlYXc2R1JDNWNBMnpodjI0WTlpeVhfb013SXlhMWdwNXJYZG1RaG1YM0szVmZBYk1iTzhjY1ZmYUtDeHZqWlZxQVRpQk1Fb3IyUVIxbXYwTzdFVFVUQ1dYMWIybGFZ0gGGAkFVX3lxTE5wUXJ0SUVUV0dNbldMU3VpbmRzNTRuZnVnaHdjeVpqZDhzdC1pWEJhWG5PbFE0bFRWM1REQ0hXSXJuUzFqU0NaUDVBSXlhR3UxdWM2bHljSXU3dG51dlBQQmNzdGpaaEtjck1WRk1Pc0pFaEZoNmtyd05DLWxteDN0ZXBRQ2xNd25nQ3Q2OTExM1ZkdnM4SDFmUzFJUllHajJwUGdicW9nOWF5Q0dNQU1VLVBDWHAwQmdoUzZVQVFJcE92ejNOYkRxV3ZMaXZRcFpzWnBYdXVJSEVheEUtRlpfcjFDMC16M21QRmMxSl96TF9TbGNoOGNfaUFzRWVvSUpFQ285Umc?oc=5",
+     "source": "ET Auto",
+     "published": 1792740501,
+     "text": "Korean firms push boundaries in autonomous mobility, vehicle software at FIX Innovation Awards 2026 ET Auto",
+     "summary_th": "บริษัทเกาหลีผลักดันขีดจำกัดด้านการเคลื่อนย้ายอัตโนมัติและซอฟต์แวร์ยานยนต์ในงาน FIX Innovation Awards 2026",
+     "importance": 2,
+     "numbers": [
+      "2026"
+     ],
+     "tags": [
+      "autonomous mobility",
+      "vehicle software"
+     ],
+     "entities": [
+      "FIX Innovation Awards"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    }
+   ]
+  },
+  {
+   "key": "policy",
+   "label": "ความปลอดภัยและกฎ AI",
+   "items": [
+    {
+     "id": "2aedd54f3eb3",
+     "title": "Designing an AI serving harness built to last",
+     "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+     "source": "MIT Technology Review",
+     "published": 1792703849,
+     "text": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…",
+     "summary_th": "ความได้เปรียบในการแข่งขันขององค์กร AI ในปัจจุบันเริ่มเปลี่ยนจากการเลือกโมเดลมาเป็นการสร้างระบบรอบตัวโมเดล",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "enterprise ai",
+      "ai models"
+     ],
+     "entities": [
+      "MIT Technology Review"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "b87c58f5d3a0",
+     "title": "Becker's Frontier AI Safety Act Targets Developers in California",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQendDVzNWTUtEVGhRQUQtWEJhTUVPdU14SXVMYjhldHFjTmR5d0JhVjd1LWxMSjBVZnpxU0Fac1h5amM0eXRaUW80a19fbVFJeHh0b01qZGd5YTd6aG1wQzM4RWs1QzdYNUlDZHdFdHZLY1BMSlRJZ01sZEdOQXNLa1ZtekdKT0dEUmx1bmVFUVVQdXQ5NUQ3bFJ5SWw3dlFCdUJwTjJ6WExWOE1URmIzWGV3?oc=5",
+     "source": "Hoodline",
+     "published": 1792799639,
+     "text": "Becker's Frontier AI Safety Act Targets Developers in California Hoodline",
+     "summary_th": "กฎหมาย Frontier AI Safety Act ของเบ็คเกอร์มุ่งเป้าไปที่กลุ่มนักพัฒนาในรัฐแคลิฟอร์เนีย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai safety",
+      "regulation",
+      "california"
+     ],
+     "entities": [
+      "Becker's Frontier AI Safety Act"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "d8c2939ee8cf",
+     "title": "The Foundations of Scalable AI",
+     "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+     "source": "MIT Technology Review",
+     "published": 1792694884,
+     "text": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabilities, including agentic…",
+     "summary_th": "ระบบ AI ที่สามารถขยายขนาดได้จำเป็นต้องอาศัยรากฐานที่แข็งแกร่ง ทั้งข้อมูล วิศวกรรม และการกำกับดูแลในสภาพแวดล้อมที่มีการควบคุมสูง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "scalable ai",
+      "ai governance"
+     ],
+     "entities": [
+      "MIT Technology Review"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "4e6d20db88e8",
+     "title": "A timeline of developments in AI safety since the attack on Hugging Face",
+     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQTFRibVJFdWdKdVlHX056MUdEbm82TndHUGVIcTJ2OTQ5cjFCbE4zTWE3TUdUQmZFeEdxTU1ZRUR6UlVDRUdseU51RlUzNUMxRVMtUkJKVnFuR1RwM21pMkxWUUxDWmlwdGNkdmhuQWswNFp6WUptN2hwTFU1S3dqUUJwOXpkR1dfLWQ0aUl3aHBCX20xMGF0MVRGaEtwUk5qQlZha3M5N3pidkx2azJCVVU3ZjZtRjRmVW5NUkNxZFB2QVNCWlJEeTliTUUtR2lpMTlHS1dQVUlPckc0RTB5eDlwQzhMNW0wb0JITlhCNWx3NFZmc1dJU0ZhRQ?oc=5",
+     "source": "Union-Bulletin",
+     "published": 1792795456,
+     "text": "A timeline of developments in AI safety since the attack on Hugging Face Union-Bulletin",
+     "summary_th": "การจัดลำดับเวลาพัฒนาการด้านความปลอดภัยของ AI นับตั้งแต่เหตุการณ์โจมตี Hugging Face",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai safety",
+      "hugging face"
+     ],
+     "entities": [
+      "Hugging Face"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "6455c3688593",
+     "title": "Tech Talk: AI safety concerns grow as autonomous systems raise questions about human control",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpdDh6SFNMQ0xVQWRyS3F1ZWJuR2E0b1hucThPa2JaWk5JT0NrREhOYVN6dnJvNXZyelhicFRUWHlCNnJkTHd6bWZVM1NDVHYwZFlma1dvN2xmNFZTZ2twRGpRZTFzV3VoRHVGYUlzdC12RmtKcHZ4UDQ1bw?oc=5",
+     "source": "MyNorthwest.com",
+     "published": 1792788790,
+     "text": "Tech Talk: AI safety concerns grow as autonomous systems raise questions about human control MyNorthwest.com",
+     "summary_th": "ความกังวลด้านความปลอดภัยของ AI เพิ่มสูงขึ้น เนื่องจากระบบอัตโนมัติสร้างคำถามเกี่ยวกับการควบคุมของมนุษย์",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai safety",
+      "autonomous systems"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "d5906b525ed2",
+     "title": "Illustration shows \"AI Regulation\" words and keyboard",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMlJyQ0lmVG5kanFLRzRZLWFNNHNKZ29UbzRVaUdnNkRTckJJS2M3WWNKUFlSR09aS3l2YVNCTFZpU1pQRzRfVFJGNmE3UzVxcGI3UmVOQi0xeEhYWDRQWE9uYkNFcG52dm1BTHhIZWxXUUt2RF83RlpoWTM4S19JWTdzQzFXZnl1dEsxV3FwLXBWM2doVXUwNzFHZ2NjbGdROElyTDAzZERtMTl2WG83bjhYUGZRVWZTMF96a2lWb0xScHhWUHhwYlZYUkk0NEdlbDA2SldaRUhCRG1WZ3k0?oc=5",
+     "source": "The Daily News | Texas' Oldest Newspaper",
+     "published": 1792788590,
+     "text": "Illustration shows \"AI Regulation\" words and keyboard The Daily News | Texas' Oldest Newspaper",
+     "summary_th": "ภาพประกอบแสดงคำว่าข้อบังคับ AI และคีย์บอร์ด",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai regulation"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "d36207359d87",
+     "title": "EU and international AI safety agreements explained",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQN2duWlU5Vm1uWThEQi1adDJMcmF4UEh5OE9kWlpBRUhLdGZxaDJKRndYZmNyY3Z6NnY5X2tDWVpjZ21DcTh6ZlJ0TURqN29SdzFQa0gxbFdHYURLeWFGdk53OGZOWE5UVWhnNU1EWXdYRHVxc053bWdXSXZneklDeUZKaG8xTlpKZ1V0VUtqMG9vV09TLXZ4eTFQeldoS25BbG9PZXhR?oc=5",
+     "source": "NeoTeo",
+     "published": 1792786404,
+     "text": "EU and international AI safety agreements explained NeoTeo",
+     "summary_th": "การอธิบายข้อตกลงด้านความปลอดภัยของ AI ระหว่างสหภาพยุโรปและระดับนานาชาติ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai safety",
+      "eu",
+      "international agreements"
+     ],
+     "entities": [
+      "EU"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "2e8d46a39d54",
+     "title": "Anthropic Fellows Program 2027: $3,850 Weekly Stipend for AI Safety Research",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5rRlB2THdOMWxoTXhiWGk2R1VOQ1BTODNOdFhjN1czVnc0YkoyamVPUU9qNnYtWGlpckFmUGxNY1lSMEZ0ZWUwNTZXQUNFdHdlYVJHRHUyMWxRNUxiVG5IX19R?oc=5",
+     "source": "aksfellowship.com",
+     "published": 1792785024,
+     "text": "Anthropic Fellows Program 2027: $3,850 Weekly Stipend for AI Safety Research aksfellowship.com",
+     "summary_th": "โครงการ Anthropic Fellows Program 2027 มอบเงินสนับสนุนการวิจัยความปลอดภัย AI สัปดาห์ละ $3,850",
+     "importance": 2,
+     "numbers": [
+      "$3,850"
+     ],
+     "tags": [
+      "ai safety",
+      "anthropic",
+      "fellowship"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    }
+   ]
+  }
+ ],
+ "title": "ข่าว AI ประจำวัน"
+}
