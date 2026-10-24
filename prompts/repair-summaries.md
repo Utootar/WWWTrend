@@ -4,6 +4,8 @@
 
 **ในขั้นตอน GitHub Actions** (ต่อจากเก็บข่าว ใช้ token ของ sub) ทำแค่ข้อ 0–8 ห้ามรัน pytest/commit/push เพราะ workflow commit ให้เอง
 
+ข่าว AI (โฟลเดอร์ `ai/`) ใช้ขั้นตอนเดียวกัน แค่เติม `--config config/ai/sources.yaml --root ai` ทุกคำสั่ง `scripts/collect.py` (GitHub ทำให้ต่อจากเก็บข่าว AI)
+
 ซ่อม 2 วัน: วันนี้ก่อน แล้วเมื่อวาน (เก็บตกถ้ารอบก่อนพลาดหรือข่าวเข้าช้า) ทำทีละวัน
 
 ## ขั้นตอน (ทำซ้ำสำหรับแต่ละวัน D = วันนี้, เมื่อวาน เวลาไทย: `TZ=Asia/Bangkok date -d "<today|yesterday>" +%F`)

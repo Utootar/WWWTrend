@@ -29,16 +29,44 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Collect and summarise AI news
+        id: collect
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC }}
         run: python scripts/collect.py --config config/ai/sources.yaml --root ai
 
+      # Same as the main collect: Claude Haiku (owner's subscription) fills the summaries the free models
+      # missed and corrects wrong ones. Needs repo secret CLAUDE_CODE_OAUTH_TOKEN; never blocks the commit.
+      - name: Has Claude subscription token
+        id: has_claude
+        run: echo "yes=${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}" >> "$GITHUB_OUTPUT"
+
+      - name: Repair and check AI summaries (Claude Haiku)
+        if: always() && steps.collect.outcome != 'skipped' && steps.has_claude.outputs.yes == 'true'
+        continue-on-error: true
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Read CLAUDE.md and prompts/repair-summaries.md. Do steps 0-8 of that file for TODAY and YESTERDAY
+            (Asia/Bangkok dates) on the AI folder: add `--config config/ai/sources.yaml --root ai` to every
+            scripts/collect.py command. Fill missing summaries, then check and correct wrong ones. Python
+            dependencies are already installed, so skip pip. Use /tmp for the JSON files. Do NOT run pytest,
+            do NOT commit, do NOT push: the workflow commits after you. Summarise and correct only; no opinions.
+            Finish with one line: items filled, still missing, corrected, rejected.
+          claude_args: |
+            --model claude-haiku-5-5
+            --max-turns 40
+            --allowedTools "Bash(python scripts/collect.py:*),Bash(TZ=Asia/Bangkok date:*),Read,Write"
+
       - name: Link from main LATEST.md
+        if: always() && steps.collect.outcome != 'skipped'
         run: python scripts/collect.py --latest-only
 
       - name: Commit
+        if: always() && steps.collect.outcome != 'skipped'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

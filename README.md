@@ -48,7 +48,7 @@
 | เวลา (ไทย) | ใคร | งาน |
 |---|---|---|
 | 04:17 | GitHub Actions | เก็บข่าวหลัก + ราคา (`collect.yml`) |
-| 05:47 | GitHub Actions | เก็บข่าว AI (`ai-collect.yml`) |
+| 05:47 | GitHub Actions + Claude Haiku | เก็บข่าว AI แล้วซ่อม/ตรวจแก้ข่าวย่อ (`ai-collect.yml`) |
 | 09:47 | Claude Haiku | ซ่อมข่าวที่ย่อไม่สำเร็จ + ตรวจแก้ข่าวที่ย่อผิด |
 | 10:12 วันเว้นวัน | Claude Sonnet | วิเคราะห์ 2 วัน |
 | 10:42 อาทิตย์ | Claude Opus | วิเคราะห์ลึก + เรดาร์ + สรุป AI |
