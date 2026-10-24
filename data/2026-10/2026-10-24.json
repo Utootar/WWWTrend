@@ -2,10 +2,11 @@
  "date": "2026-10-24",
  "collected_at": "2026-10-24T06:52:23+07:00",
  "models": [
+  "claude/routine",
   "gemini/gemini-flash-latest",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 12,
+ "summary_failed": 0,
  "prices": [
   {
    "symbol": "^GSPC",
@@ -1544,7 +1545,18 @@
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSWRWMFhFUno1cW5wZjdVM1ZWYzJQZkZTZ3JhWWZyMEsxeGFQeXluVUN2QXczUWJLUkw4dTZfVGhWYzNaTEZ1V0Q0THpFVGlZVnhFaktETElBclpCRUxYTGthQTh1M3RUbnRYUXBNQjd2YUtfd0VrWWdOb0NNMTFmS19OcTlnTV94LWtzYmtleWQ?oc=5",
      "source": "Vietnam.vn",
      "published": 1792796651,
-     "text": "Gold price today, October 24th: Hits a 3-month low, below $4,000. Vietnam.vn"
+     "text": "Gold price today, October 24th: Hits a 3-month low, below $4,000. Vietnam.vn",
+     "summary_th": "ราคาทองคำวันที่ 24 ตุลาคม ลงมาต่ำสุดในรอบ 3 เดือน และหลุดต่ำกว่า 4,000 ดอลลาร์",
+     "importance": 2,
+     "numbers": [
+      "$4,000"
+     ],
+     "tags": [
+      "gold",
+      "price drop"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "0318d31be850",
@@ -1552,7 +1564,19 @@
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTnFaaHQtNUZBQlIxUUFsanVTYWs1MmszaEk3dDhpdlR4eXBsaW5fYXJSLVRHZm45dEVZT3RUN2M4OS15dllpa2E3ZHFTS0pGbE53MzJ6cGkyN3QxWTZTbmFVYnVvaWhqRWJUZFV6VnhkRHNsa1NEaHNTUFRzUEVSTXd3ZnJJQQ?oc=5",
      "source": "Pragativadi",
      "published": 1792791500,
-     "text": "Gold and Silver Prices Drop Ahead of Dhanteras and Diwali: Is It Time to Buy or Wait? Pragativadi"
+     "text": "Gold and Silver Prices Drop Ahead of Dhanteras and Diwali: Is It Time to Buy or Wait? Pragativadi",
+     "summary_th": "ราคาทองและเงินลดลงก่อนเทศกาล Dhanteras และ Diwali",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "silver"
+     ],
+     "entities": [
+      "Dhanteras",
+      "Diwali"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "9941d5ef22ad",
@@ -1560,7 +1584,18 @@
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWTZmbGdLbndVTGI4MFFINWFrbmczMDZMMUdremlJb181M0RWcmFlT1BCVDIzbi1abnNKUEFLMllCYnVrRWRWMkt4QVFvaEFCbkI4aVRJeld5NW5FYzhyUFNQQmF2cWc4aFhDNzFwaVpuSnNIbURBU05CV19QdWNaWldjNEFBRDdqR0tkZTQ5Z0xJbUkxSDk4dXJGWWsxOGZjaFNwYVNSdDk?oc=5",
      "source": "Vietnam.vn",
      "published": 1792796651,
-     "text": "Gold prices today, October 24, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. Vietnam.vn"
+     "text": "Gold prices today, October 24, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. Vietnam.vn",
+     "summary_th": "รายงานราคาทองคำวันที่ 24 ตุลาคม 2026 ทั้งทองแท่ง SJC ทองรูปพรรณ BTMC 9999 และราคาทองคำโลก",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold price"
+     ],
+     "entities": [
+      "SJC",
+      "BTMC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a6c2661722c4",
@@ -1568,7 +1603,20 @@
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPc0JOMmlzbjVWdi1NZ3R0REJPaXgyMW13YllMYWhxN1JNYngzQURtYWo3Tl80dzVha2FyQXpVV1EtTmNXb0ViZTQ3X3VMNi1yQTY0X1daUEItVkJyc2hfLU5lX0hzaDhBU1dwcFVDOHk1V1dScXNVMWQ3NURBZ2JaaXFYdFVfTXJRWnhxNUNGRjEyTnp6OHNmbzdnckgxVzdoY0xMdHA0TWI1RkFGRDk4Q2w0NWV5VnNCa2tUMmdZR0VGenhCaXdsT2RB0gHPAUFVX3lxTE82dU1ZQXJjSTJVbHB4REplUUxPdXFJTFFSbXpkMUo0M0V4ODYzNkVxUzNJODk1RWN4VkZ2UnlSd0h5Wjh4b2dlaGtPT2xOTWpzdVVSaDFzc3c1UVIwSnAzXzdnT1ZnV3F3Zmd0NVpnUUhFY1FIcDBPX3l6bnRkMUJPMl9PZTR2TGFHeTc0cnRVVG84VlVSck9GZXVLUEMtNmt1cW8tUzA1RWc4SkF3d09JRFpqa25YMnBzQUJzUzNuWC1CdnJzN0RRbDFoaklMTQ?oc=5",
      "source": "The Times of India",
      "published": 1792781640,
-     "text": "Lured by 2% returns, woman loses 1.3kg gold worth ₹1.7cr The Times of India"
+     "text": "Lured by 2% returns, woman loses 1.3kg gold worth ₹1.7cr The Times of India",
+     "summary_th": "ผู้หญิงคนหนึ่งถูกชักจูงด้วยผลตอบแทน 2% แล้วสูญทองคำหนัก 1.3kg มูลค่า ₹1.7cr",
+     "importance": 1,
+     "numbers": [
+      "2%",
+      "1.3kg",
+      "₹1.7cr"
+     ],
+     "tags": [
+      "scam",
+      "gold"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "f85f20208a0b",
@@ -1576,7 +1624,18 @@
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQb1N5NmNEcVZrNXViRUxNX1l5ZFVsMXMzd1J0X3pZYXBEM2luakE1TjRqLWFUMVdEdjdXWUNjQl9IZ0xQS2toMmJIdGNac2h2aGJsVW9lUThOSTZyWExfM0tPLWFWNmZrQWlleUV4U0VwRGcwTTR6RGxES1hyVm9OblB0R3VvQk9JZzRGeFRQOTA2Sk5X?oc=5",
      "source": "Pluang",
      "published": 1792795093,
-     "text": "Gold prices fall below $4,000 amid inflation fe... Pluang"
+     "text": "Gold prices fall below $4,000 amid inflation fe... Pluang",
+     "summary_th": "ราคาทองคำลดลงต่ำกว่า 4,000 ดอลลาร์ ท่ามกลางแรงกดดันจากเงินเฟ้อ",
+     "importance": 2,
+     "numbers": [
+      "$4,000"
+     ],
+     "tags": [
+      "gold",
+      "inflation"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "cd5f1b2db977",
@@ -1584,7 +1643,18 @@
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaEF5dlNGSjRvcWRzZ1dzZzRjLXFySEllRDZ5c2Zrd2RXYmZDeW9hRU5UQjFCZDgzTDE1YXd4ZklsY0V6Qm40UGNYVVRVZDRiay1DMXQzVVFCZU9MeU1uamREcDk5Qld0TVBUelN1TTk4dWNRZlZpNVJvc01oVnZsd3ItYmVPUUo0MHk2bGlPdkhmSU1iOURLWFl3?oc=5",
      "source": "GoldSilver",
      "published": 1792776868,
-     "text": "Russia Is Selling Its Gold. Here’s Why That’s Actually Good News. GoldSilver"
+     "text": "Russia Is Selling Its Gold. Here’s Why That’s Actually Good News. GoldSilver",
+     "summary_th": "บทความเรื่องรัสเซียกำลังขายทองคำที่ตนถืออยู่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "russia",
+      "gold reserves"
+     ],
+     "entities": [
+      "Russia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3dcfa353e588",
@@ -1592,7 +1662,20 @@
      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoYTZGYWxvdk9aQkhKaGVsZGNJQlJkcmFXbndqSUFQSTMwWG5IZ0lDa2tnZ2RKZkN4YmVrTmNoZUIwaEw5MXYyUWE4ZkhCbXAzN0VQUnJmR05EMUFQZ1BzVjZKTXBQVEZDX3dWak85Zno1R184Q0dwN0dGYy1LN2M?oc=5",
      "source": "The Nation (Pakistan )",
      "published": 1792790880,
-     "text": "Gold prices decline by Rs7,000 per tola The Nation (Pakistan )"
+     "text": "Gold prices decline by Rs7,000 per tola The Nation (Pakistan )",
+     "summary_th": "ราคาทองคำในปากีสถานลดลง 7,000 รูปีต่อโทลา",
+     "importance": 1,
+     "numbers": [
+      "Rs7,000"
+     ],
+     "tags": [
+      "gold",
+      "pakistan"
+     ],
+     "entities": [
+      "Pakistan"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3c005cd8d73c",
@@ -1600,7 +1683,19 @@
      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOampYQ0N5Y05BRExVQjJobWtMQjBtcHlzSjd4blJQQjNBbnBMaVZrall4SXVQcm1vRE1HbTF2NnlEMnpnVFkzNHU2NFRKa0t3eHNQQnhTMkRaYmhqSnZRMUtqSk9YeGZKc1JMcklzNjBBMExKLXhWM2hYZnJHWTNzdjV6akdsQ3c?oc=5",
      "source": "Mining.com",
      "published": 1792768927,
-     "text": "Central banks pile into gold as China leads buying spree Mining.com"
+     "text": "Central banks pile into gold as China leads buying spree Mining.com",
+     "summary_th": "ธนาคารกลางหลายแห่งเข้าซื้อทองคำเพิ่ม โดยจีนเป็นผู้นำการซื้อ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "central banks",
+      "gold",
+      "china"
+     ],
+     "entities": [
+      "China"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "76879db8f0f7",
@@ -1608,7 +1703,20 @@
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVzJ5dXBKejdjV0VyM2hnUEliS3FkWGk5clFqSXNYakNDb1oyUDNSVVA2eWpTd3kxTHROTHpGZFBUbTVmSHhFVTB5enVOZFBwQ0tDaDdqbl82ZGFjSjBmTTdqUktuV21qdlE5SDdUTkhjOFZuVVE4cGFCVVVlMzNhaEtCa0x0QnJmMXlZVHZ6M2VXWlRMQnJvYllneGlOanNnYk1Hdw?oc=5",
      "source": "Pluang",
      "published": 1792789182,
-     "text": "Gold prices drop below key level amid inflation and Fed tightening, despite lower U.S. Treasury yields. Pluang"
+     "text": "Gold prices drop below key level amid inflation and Fed tightening, despite lower U.S. Treasury yields. Pluang",
+     "summary_th": "ราคาทองคำลดลงต่ำกว่าระดับสำคัญ ท่ามกลางเงินเฟ้อและการขึ้นดอกเบี้ยของ Fed แม้ผลตอบแทนพันธบัตรสหรัฐฯ จะลดลง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "fed",
+      "inflation"
+     ],
+     "entities": [
+      "Fed",
+      "U.S. Treasury"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8cf11bdb2fb6",
@@ -1616,7 +1724,16 @@
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWHBJWmd0Z2g4am5fUW5iUERqZzVxc1JVQWc2azZUNFhYZzdtY3pMRmtjUEl3aDZuNGRONHVXS3psLUwwSFUtUWJBWkNvdDU0dkItZm5WTzkyQkFtblRmNUVCcUZRcTJNU0d5T1k5YWZfNFFjblhBVEdtaWwtTE9JaUIzSXctNGRPM21TdWhR?oc=5",
      "source": "The Baltic Times",
      "published": 1792767521,
-     "text": "9 News Headlines That Move Gold Prices: A Trader’s Guide The Baltic Times"
+     "text": "9 News Headlines That Move Gold Prices: A Trader’s Guide The Baltic Times",
+     "summary_th": "บทความรวม 9 ข่าวที่ขยับราคาทองคำ เขียนเป็นคู่มือสำหรับเทรดเดอร์",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "trading guide"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "903a29743387",
@@ -1624,7 +1741,19 @@
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSkRMRnR4aHc0aXgwWW5qZnU3ZlVrMzFHdE90dDh1YzFfeUp1ZmI4SmRrUEtveVNsbnRyczNveG5GaEtYRjk1NTkwODRoQkJuMzgtbVpHRzVLZ0ZpUkhmTnVqeWIySnRJbng1UDVmYXZkRm1ac0xnQ25KNFFNRE5odm9SSTlzWDAtUVR4RWllZ0N2aTRrNjlPUG03b2xQLWl1b1EteGRhTzd0b3EwYk9YYk53?oc=5",
      "source": "Mining.com",
      "published": 1792786131,
-     "text": "Gold price set for steep weekly loss as rising oil prices bolster Fed rate hike bets Mining.com"
+     "text": "Gold price set for steep weekly loss as rising oil prices bolster Fed rate hike bets Mining.com",
+     "summary_th": "ราคาทองคำเตรียมลดลงแรงในรอบสัปดาห์ เมื่อราคาน้ำมันที่สูงขึ้นหนุนการเดิมพันว่า Fed จะขึ้นดอกเบี้ย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "oil",
+      "fed rate hike"
+     ],
+     "entities": [
+      "Fed"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "825d7d87f256",
@@ -1632,7 +1761,20 @@
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZHFyZmpEZTR4NlhyQmdhWmFnaEhpNmRRZUNsRENFX3VDUnkxYmN4RUh2RDBUMTRzU01RN2gya2hKbXVpOW9XVUg2QlN3YWljVW4yUWtsLWNMSGt3VUdzdlQ1UWxWeXZvNjFmMll4Rmk3MUV5SUdfQjhUdnVHaWR4djRJc3VoS3NMVEZnOE8tOXBSc2xaaDFQaXhyYVdCN1YtdEhidUJobGVhZ9IBVkFVX3lxTE9RWVpCTXJ5N3pMSENNdU13MHlxb19KN25pM0V3VUN5bGpZa01YdUszcFRWMXpjMWVpU0h6VjZJc2ZCSXBhU1MxY3NkTWViWTBlMndoWG1n?oc=5",
      "source": "Dunya News",
      "published": 1792766834,
-     "text": "Gold falls by Rs7,000 per tola in Pakistan as global prices decline Dunya News"
+     "text": "Gold falls by Rs7,000 per tola in Pakistan as global prices decline Dunya News",
+     "summary_th": "ทองคำในปากีสถานลดลง 7,000 รูปีต่อโทลา ตามราคาทองคำโลกที่ลดลง",
+     "importance": 1,
+     "numbers": [
+      "Rs7,000"
+     ],
+     "tags": [
+      "gold",
+      "pakistan"
+     ],
+     "entities": [
+      "Pakistan"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
