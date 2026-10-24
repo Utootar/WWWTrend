@@ -9,6 +9,8 @@ does the analysis later from the files written here (see CLAUDE.md).
 Repair (run by a daily Claude routine on the owner's subscription, not here):
     python scripts/collect.py --repair-pending /tmp/pending.json   # items the free models failed on
     python scripts/collect.py --repair-apply /tmp/summaries.json   # merge Claude's summaries back
+    python scripts/collect.py --review-pending /tmp/review.json    # summaries for Claude to check
+    python scripts/collect.py --review-apply /tmp/fixes.json       # apply Claude's corrections
 
 Theme stocks: Claude lists public tickers it found in the news in
 config/theme_stocks.yaml; their prices are fetched here so the next analysis
@@ -54,6 +56,21 @@ Rules:
 Reply with JSON only:
 {"items":[{"id":"...","importance":0-3,"summary_th":"...","numbers":[],"tags":[],"entities":[]}]}
 Include every id you were given, exactly once."""
+
+REVIEW_PROMPT = """You check Thai news summaries written by a free model against their source title/text.
+You fix mistakes; you never analyse.
+Fix an item only when its summary_th:
+- gets a number, a direction (up/down), a name, a date, or who-did-what wrong versus the title/text;
+- adds anything the title/text does not say (outside facts, opinion, prediction, advice);
+- mistranslates the headline or misses its main point;
+- or its importance is clearly off: 3 = moves markets/industry or a big policy/approval/deal;
+  2 = notable; 1 = minor; 0 = off-topic for the category, an ad, a listicle, or a how-to.
+Leave correct items alone; wording or style is not a reason to change.
+A new summary_th follows the clerk rules: 1-2 short Thai sentences, only facts in the title/text,
+figures copied exactly as written in the source (e.g. "$25 billion", "2.5%"), never converted.
+Reply with JSON only:
+{"checked":["every id you were given"],"fixes":[{"id":"...","reason":"short Thai reason","summary_th":"...","importance":0-3,"numbers":[]}]}
+In a fix only id and reason are required; leave out the fields you do not change."""
 
 
 # ---------- fetching ----------
@@ -283,7 +300,8 @@ def render_markdown(day, collected_at, prices, categories, models, failed, theme
             stars = "★" * it.get("importance", 1)
             body = it.get("summary_th") or it["title"]
             extra = f" · ตัวเลข: {', '.join(it['numbers'])}" if it.get("numbers") else ""
-            lines.append(f"- {stars} {body} — [{it['source']}]({it['link']}){extra}")
+            fixed = " · แก้โดย Claude" if it.get("fixed_by") else ""
+            lines.append(f"- {stars} {body} — [{it['source']}]({it['link']}){extra}{fixed}")
         lines.append("")
     return "\n".join(lines)
 
@@ -401,6 +419,16 @@ def write_pending(root, day, out):
     return len(items)
 
 
+def save_day(root, day, data):
+    """Write the day's data and re-render its digest from it."""
+    data_path, news_path = day_paths(root, day)
+    data_path.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+    news_path.write_text(render_markdown(day, datetime.fromisoformat(data["collected_at"]),
+                                         data["prices"], data["categories"], set(data["models"]),
+                                         data["summary_failed"], data.get("theme_prices", []),
+                                         data.get("title", "ข่าวประจำวัน")), encoding="utf-8")
+
+
 def apply_repair(root, day, reply, model="claude/routine"):
     """Merge summaries into the day's data, re-render the digest, mark items seen.
 
@@ -415,11 +443,7 @@ def apply_repair(root, day, reply, model="claude/routine"):
     missing = sum(1 for it in every if "summary_th" not in it)
     data["summary_failed"] = missing
     data["models"] = sorted({it["model"] for it in every if it.get("model")})
-    data_path.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
-    news_path.write_text(render_markdown(day, datetime.fromisoformat(data["collected_at"]),
-                                         data["prices"], data["categories"], set(data["models"]),
-                                         missing, data.get("theme_prices", []),
-                                         data.get("title", "ข่าวประจำวัน")), encoding="utf-8")
+    save_day(root, day, data)
 
     state_path = root / "data" / "state" / "seen.json"
     seen = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {}
@@ -431,6 +455,63 @@ def apply_repair(root, day, reply, model="claude/routine"):
     return before - missing, missing
 
 
+# ---------- review: Claude checks the free models' summaries against their source ----------
+
+def write_review(root, day, out):
+    """Write the day's summarised items not yet checked by Claude, plus the review rules; return how many."""
+    data_path, _ = day_paths(root, day)
+    data = json.loads(data_path.read_text(encoding="utf-8"))
+    items = [{"id": it["id"], "category": c["label"], "title": it["title"], "source": it["source"],
+              "text": it["text"], "summary_th": it["summary_th"], "importance": it.get("importance", 1),
+              "numbers": it.get("numbers", [])}
+             for c in data["categories"] for it in c["items"]
+             if "summary_th" in it and not it.get("checked_by") and not str(it.get("model", "")).startswith("claude/")]
+    out.write_text(json.dumps({"date": str(day), "rules": REVIEW_PROMPT, "items": items},
+                              ensure_ascii=False, indent=1), encoding="utf-8")
+    return len(items)
+
+
+def apply_review(root, day, reply, model="claude/review"):
+    """Apply Claude's corrections and mark the checked items; return (fixed, rejected).
+
+    A new summary is rejected when it carries a figure that is not in the source (same rule as verify_numbers).
+    """
+    data = json.loads(day_paths(root, day)[0].read_text(encoding="utf-8"))
+    by_id = {it["id"]: it for c in data["categories"] for it in c["items"] if "summary_th" in it}
+    reply = reply if isinstance(reply, dict) else {}
+    fixed = rejected = 0
+    for f in reply.get("fixes") or []:
+        it = by_id.get(str(f.get("id")))
+        if it is None:
+            continue
+        source = it["title"] + " " + it["text"]
+        changed = False
+        summary = str(f.get("summary_th") or "").strip()
+        if summary:
+            if verify_numbers(digits(summary), source) != digits(summary):
+                rejected += 1
+                continue
+            changed |= summary != it["summary_th"]
+            it["summary_th"] = summary
+        if "importance" in f:
+            try:
+                imp = max(0, min(3, int(f["importance"])))
+                changed |= imp != it.get("importance")
+                it["importance"] = imp
+            except (TypeError, ValueError):
+                pass
+        if "numbers" in f:
+            it["numbers"] = verify_numbers(f["numbers"], source)
+        if changed:
+            it["fixed_by"], it["fix_reason"] = model, str(f.get("reason") or "")[:200]
+            fixed += 1
+    for i in list(reply.get("checked") or []) + [f.get("id") for f in reply.get("fixes") or []]:
+        if str(i) in by_id:
+            by_id[str(i)]["checked_by"] = model
+    save_day(root, day, data)
+    return fixed, rejected
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-llm", action="store_true", help="fetch only, skip free-model summaries")
@@ -439,20 +520,27 @@ def main(argv=None):
     ap.add_argument("--latest-only", action="store_true", help="just refresh LATEST.md (after writing an analysis)")
     ap.add_argument("--repair-pending", type=Path, metavar="OUT", help="write unsummarised items of --date to OUT")
     ap.add_argument("--repair-apply", type=Path, metavar="IN", help="merge summaries JSON from IN into --date")
-    ap.add_argument("--date", help="YYYY-MM-DD for --repair-* (default: today, Thai time)")
+    ap.add_argument("--review-pending", type=Path, metavar="OUT", help="write summarised items of --date for Claude to check")
+    ap.add_argument("--review-apply", type=Path, metavar="IN", help="apply Claude's corrections JSON from IN to --date")
+    ap.add_argument("--date", help="YYYY-MM-DD for --repair-*/--review-* (default: today, Thai time)")
     args = ap.parse_args(argv)
 
     if args.latest_only:
         write_latest(args.root)
         return 0
     config = yaml.safe_load(args.config.read_text(encoding="utf-8"))
-    if args.repair_pending or args.repair_apply:
+    if args.repair_pending or args.repair_apply or args.review_pending or args.review_apply:
         tz = ZoneInfo(config.get("timezone", "Asia/Bangkok"))
         day = datetime.strptime(args.date, "%Y-%m-%d").date() if args.date else datetime.now(tz).date()
         if not day_paths(args.root, day)[0].exists():
             print(f"no data for {day} yet")
             return 3
-        if args.repair_pending:
+        if args.review_pending:
+            print(f"{write_review(args.root, day, args.review_pending)} items to check")
+        elif args.review_apply:
+            fixed, rejected = apply_review(args.root, day, json.loads(args.review_apply.read_text(encoding="utf-8")))
+            print(f"corrected {fixed}, rejected {rejected} (figure not in the source)")
+        elif args.repair_pending:
             print(f"{write_pending(args.root, day, args.repair_pending)} items need a summary")
         else:
             reply = json.loads(args.repair_apply.read_text(encoding="utf-8"))

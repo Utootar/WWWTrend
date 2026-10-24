@@ -195,6 +195,32 @@ def test_repair_fills_failed_summaries_and_rerenders(tmp_path):
     assert len(seen) == 5
 
 
+def test_review_corrects_wrong_summaries_and_rejects_invented_figures(tmp_path):
+    collect.run(tmp_path, make_config(), NOW, FakeSummarizer(), fake_fetch, fake_prices, log=lambda m: None)
+    day = NOW.astimezone(collect.ZoneInfo("Asia/Bangkok")).date()
+    out = tmp_path / "review.json"
+    n = collect.write_review(tmp_path, day, out)
+    pending = json.loads(out.read_text(encoding="utf-8"))
+    assert n == len(pending["items"]) >= 3 and pending["rules"] == collect.REVIEW_PROMPT
+    a, b, c = (p["id"] for p in pending["items"][:3])
+
+    reply = {"checked": [p["id"] for p in pending["items"]],
+             "fixes": [{"id": a, "reason": "ทิศทางผิด", "summary_th": "แก้แล้ว ราคาลดลง", "importance": 3},
+                       {"id": b, "reason": "ตัวเลขผิด", "summary_th": "ขึ้น 99.9% ใหม่"},   # figure not in source
+                       {"id": c, "reason": "สำคัญน้อย", "importance": 0}]}
+    assert collect.apply_review(tmp_path, day, reply) == (2, 1)
+
+    data = json.loads((tmp_path / "data/2026-10/2026-10-07.json").read_text(encoding="utf-8"))
+    every = {it["id"]: it for cat in data["categories"] for it in cat["items"]}
+    assert every[a]["summary_th"] == "แก้แล้ว ราคาลดลง" and every[a]["importance"] == 3
+    assert every[a]["fixed_by"] == "claude/review" and every[a]["fix_reason"] == "ทิศทางผิด"
+    assert "99.9" not in every[b]["summary_th"] and "fixed_by" not in every[b]
+    assert every[c]["importance"] == 0 and every[c]["fixed_by"] == "claude/review"
+    md = (tmp_path / "news/2026-10/2026-10-07.md").read_text(encoding="utf-8")
+    assert "แก้แล้ว ราคาลดลง" in md and "แก้โดย Claude" in md
+    assert collect.write_review(tmp_path, day, out) == 0   # everything checked once
+
+
 def test_summarizer_falls_back_and_skips_dead_models():
     calls = []
 
