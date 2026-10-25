@@ -17,7 +17,7 @@ Claude เขียนไฟล์นี้จากข่าวที่เก�
 
 ## ธีมที่กำลังเดิน
 
-## ไฟฟ้าจาก AI: ไฟฟ้า นิวเคลียร์ ระบบไฟ (เริ่มเจอ 2026-10-06 · ล่าสุด 2026-10-15)
+## ไฟฟ้าจาก AI: ไฟฟ้า นิวเคลียร์ ระบบไฟ (เริ่มเจอ 2026-10-06 · ล่าสุด 2026-10-25)
 ทำไม: data center และ AI ใช้ไฟมากขึ้น ผู้ผลิตและผู้รับเหมาระบบไฟได้งาน
 หลักฐานจากข่าว: นิวเคลียร์พุ่ง · MYR/Powell/Comfort Systems พุ่ง · GE Vernova ราคาวิ่ง · X-energy (ดู analysis/2026-10/2026-10-07-2day.md)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -37,6 +37,7 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-10-19: ลงตามหุ้น AI (GEV -0.57% POWL -3.33% FIX -2.85% CEG -1.32% VST -1.39%) ไม่มีข่าวบริษัทใหม่ ดู [Nasdaq ร่วงเพราะน้ำมัน+ขายหุ้น AI](https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c) (analysis/2026-10/2026-10-19-2day.md)
 อัปเดต 2026-10-21: ลงต่อ FIX -4.57% MYRG -3.56% GEV -1.99% CEG -1.65% VST +0.41% NEE +0.88% หลักฐานใหม่: [ไฟฟ้ายุโรปโตจาก data center](https://oilprice.com/Energy/Natural-Gas/Europes-Power-Demand-Returns-to-Growth.html)
 อัปเดต 2026-10-23: เด้งสวนตลาดวันที่ Nasdaq -2.6% GEV +4.00% CEG +4.60% VST +3.87% POWL +3.26% FIX +0.30% ไม่มีข่าวบริษัทใหม่ แรงกดดันเงินทุนผู้สร้าง data center: [Meta FCF ติดลบ](https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html) (analysis/2026-10/2026-10-23-2day.md)
+อัปเดต 2026-10-25: แก้ตัวเลขรอบก่อน (+4% เป็นของวันที่ 21) วันที่ 22–23 ร่วงหนัก GEV -12.0% FIX -17.2% CEG -6.4% POWL ทรงตัว เหตุ: ความกังวลเครดิต/เงินทุน AI [CNBC](https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html) · [Nvidia ในฐานะผู้ให้เงิน AI](https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html) (analysis/2026-10/2026-10-25-2day.md)
 ความเสี่ยงของธีม: ราคาอาจนำข่าวไปแล้ว ยีลด์สูง ผูกกับความเชื่อมั่น AI แรงต้าน data center จากทั้งสองพรรค
 
 ## LNG/ก๊าซนอกอ่าวเปอร์เซีย (เริ่มเจอ 2026-10-07 · ล่าสุด 2026-10-17)
@@ -54,6 +55,7 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-10-19: LNG +3.68% KMI +4.20% ขึ้นสวนตลาด เรือถูกโจมตีที่ฮอร์มุซ 12 ลำใน 1 สัปดาห์ [BBC](https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss)
 อัปเดต 2026-10-21: LNG -1.13% KMI +0.54% PTTEP +1.92% ค่าระวางเรือน้ำมันทะลุ $1 ล้าน/วัน [OilPrice](https://oilprice.com/Energy/Energy-General/Petrobras-Deepwater-Push-Sets-Off-a-Race-for-Offshore-Vessels.html) แต่ WTI ลง 5% จากความหวังทางการทูต
 อัปเดต 2026-10-23: Brent 113.23 สูงสุดตั้งแต่ พ.ค. LNG +0.31% KMI +1.19% PTTEP +3.16% PTT +1.84% หลักฐาน: [Brent เกิน $113](https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html)
+อัปเดต 2026-10-25: Brent 116.72 LNG(Cheniere) +4.06% KMI +2.11% PTTEP +3.16% PTT +1.84% [กาตาร์ซื้อก๊าซสหรัฐ](https://www.cnbc.com/2026/10/23/cheniere-qatar-energy-lng-natural-gas-iran-war-strait-hormuz.html)
 ความเสี่ยงของธีม: หยุดยิง/ฮอร์มุซเปิด ราคาก๊าซร่วงเร็ว PTT อาจถูกคุมราคาในประเทศ
 
 ## ชิปหน่วยความจำ (เริ่มเจอ 2026-10-08 · ล่าสุด 2026-10-17)
@@ -70,6 +72,7 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-10-19: MU -5.63% SMH -3.41% ยังไม่มีข่าวราคา RAM ลง [MarketWatch](https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c)
 อัปเดต 2026-10-21: SK Hynix -4.23% Samsung -2.98% MU -0.98% ยังไม่มีข่าวราคา RAM ลง
 อัปเดต 2026-10-23: SK Hynix -5.49% Samsung -4.03% MU +1.96% ข่าวใหม่: [PC ส่งมอบลด >20% เพราะ RAM แพง](https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram) เป็นสัญญาณอุปสงค์ปลายทางอ่อน
+อัปเดต 2026-10-25: SK Hynix +4.42% Samsung +0.47% MU +2.46% เด้งสั้น ยังไม่มีข่าวราคา RAM ลง
 ความเสี่ยงของธีม: วัฏจักรหน่วยความจำกลับลงเร็ว ผูกกับข่าวรายได้ AI จีนเริ่มตามทัน
 
 ## โรงกลั่น/ดีเซลขาด (เริ่มเจอ 2026-10-14 · ล่าสุด 2026-10-17)
@@ -83,6 +86,7 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-10-19: สหรัฐปล่อย SPR อีก 17 ล้านบาร์เรล [OilPrice](https://oilprice.com/Latest-Energy-News/World-News/US-Offers-Another-17-Million-SPR-Barrels-as-Fuel-Crisis-Deepens.html) · ยกเลิกคว่ำบาตรรัสเซียส่วนใหญ่ อาจกดส่วนต่างกลั่นระยะกลาง
 อัปเดต 2026-10-21: DK +3.40% VLO +0.03% MPC +0.28% TOP -1.06% น้ำมันดิบลงช่วยต้นทุนโรงกลั่น
 อัปเดต 2026-10-23: DK +0.76% VLO +0.77% MPC -1.49% TOP +1.82% น้ำมันดิบกลับขึ้นอีก ดู [Brent เกิน $113](https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html)
+อัปเดต 2026-10-25: DK -1.82% VLO -1.64% MPC -0.45% TOP +1.82% ยังไม่มีข่าวดีเซลใหม่ มีข้อยกเว้นขายดีเซลรัสเซีย 6 เดือน [OilPrice](https://oilprice.com/Energy/Energy-General/Trumps-Reverse-Nixon-Strategy-Bring-Russia-In-Shut-China-Out.html)
 ความเสี่ยงของธีม: รัฐห้ามส่งออก/คุมราคา (โดยเฉพาะไทย) ฮอร์มุซเปิด ส่วนต่างหดเร็ว
 
 ## ความปลอดภัยไซเบอร์ยุค AI agent (เริ่มเจอ 2026-10-12 · ล่าสุด 2026-10-17)
@@ -93,6 +97,7 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 | IONQ | US | ซื้อบริษัทไซเบอร์ (ผันผวนสูง) | ข่าว |
 | CRWD, PANW | US | ผู้นำความปลอดภัย | ความรู้ทั่วไป |
 | BE8.BK | TH | บริการไอที/ไซเบอร์ ทางอ้อม | ความรู้ทั่วไป |
+อัปเดต 2026-10-25: CRWD +8.25% PANW +7.22% IONQ +0.35% (23 ต.ค.) ไม่พบสาเหตุในข่าว ข่าวเกี่ยวข้อง: [AI พบช่องโหว่ PHP ทั้งโลกต้องรีบอุด](https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss)
 ความเสี่ยงของธีม: ถูกเทขายไปกับหุ้นซอฟต์แวร์ มูลค่าแพง
 
 ## ธีมที่จบแล้ว
