@@ -2,10 +2,11 @@
  "date": "2026-10-26",
  "collected_at": "2026-10-26T06:17:49+07:00",
  "models": [
+  "claude/routine",
   "gemini/gemini-flash-latest",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 25,
+ "summary_failed": 0,
  "prices": [
   {
    "symbol": "^GSPC",
@@ -399,7 +400,19 @@
      "link": "https://www.cnbc.com/investingclub/2026/10/25/jim-cramer-ai-trade-nvidia-coreweave.html",
      "source": "CNBC Top News",
      "published": 1792962830,
-     "text": "In his Sunday column for Investing Club subscribers, Jim Cramer explains why the AI trade has cracked and what he's doing about it."
+     "text": "In his Sunday column for Investing Club subscribers, Jim Cramer explains why the AI trade has cracked and what he's doing about it.",
+     "summary_th": "Jim Cramer อธิบายในคอลัมน์วันอาทิตย์สำหรับสมาชิก Investing Club ว่าทำไมเทรด AI ถึงร่วงลง และเขากำลังทำอะไรอยู่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai trade",
+      "stocks"
+     ],
+     "entities": [
+      "Jim Cramer",
+      "Investing Club"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b6d4d117f192",
@@ -407,7 +420,17 @@
      "link": "https://www.marketwatch.com/story/we-stopped-helping-our-neighbors-with-free-home-repairs-and-our-friendship-cooled-whos-to-blame-d20b0720",
      "source": "MarketWatch",
      "published": 1792956600,
-     "text": "“Last summer, they complained about needing to replace their roof. A few months later, they bought a new SUV.”"
+     "text": "“Last summer, they complained about needing to replace their roof. A few months later, they bought a new SUV.”",
+     "summary_th": "คอลัมน์ถามเรื่องความสัมพันธ์กับเพื่อนบ้านหลังช่วยซ่อมบ้านฟรี ไม่เกี่ยวกับตลาดการเงิน",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "personal finance"
+     ],
+     "entities": [
+      "MarketWatch"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1356f740cd1d",
@@ -415,7 +438,18 @@
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNa3lzSS0zZWJ4RmNxLUxpZVVEZlFyVzV0a2dzWDVmZTREOFBtYTNtdER4Rm1CR0ZvbGJSeF9rOGJ1U2VPTFJIeTRzMExBVFZicFZ3RGxwSmp5eXVtQjV2a2FUd3ZtZTVtQ25sUEY3SDFrWGEtN2xPVThIUWV2N0ZIZ1JYLW8telNFWGdoYnBOcGlOc1dSSzQ4SmtiSzdBT2J5YlRWQ1VWVXR1cnUzMVN1V1k1SjNyMnhoZUE?oc=5",
      "source": "The Business Times",
      "published": 1792969200,
-     "text": "Nasdaq 100 faces renewed selling pressure below key moving averages The Business Times"
+     "text": "Nasdaq 100 faces renewed selling pressure below key moving averages The Business Times",
+     "summary_th": "ดัชนี Nasdaq 100 ยังเจอแรงขายอีกครั้ง และยังอยู่ต่ำกว่าเส้นค่าเฉลี่ยเคลื่อนที่สำคัญ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "nasdaq",
+      "technicals"
+     ],
+     "entities": [
+      "Nasdaq 100"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "11d80532570d",
@@ -423,7 +457,21 @@
      "link": "https://www.cnbc.com/2026/10/25/blanche-doj-alaska-senate-certification-lawsuit.html",
      "source": "CNBC Top News",
      "published": 1792960135,
-     "text": "Democrats have maintained they have no connection to Daniel J. Sullivan."
+     "text": "Democrats have maintained they have no connection to Daniel J. Sullivan.",
+     "summary_th": "Blanche ปกป้องคดีที่ทรัมป์สั่งฟ้อง เกี่ยวกับการรับรองผลการเลือกตั้งวุฒิสภาอลาสก้า พรรคเดโมแครตบอกว่าไม่เกี่ยวข้องกับ Daniel J. Sullivan",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "us politics",
+      "elections"
+     ],
+     "entities": [
+      "Blanche",
+      "Trump",
+      "Daniel J. Sullivan",
+      "Democrats"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c259e5f801ee",
@@ -431,7 +479,20 @@
      "link": "https://www.marketwatch.com/story/my-spouse-was-awarded-90-000-from-my-401-k-in-our-divorce-how-is-that-fair-dc839aa3",
      "source": "MarketWatch",
      "published": 1792938600,
-     "text": "“I retired in 2020 and subsequently went through a divorce a few years later.”"
+     "text": "“I retired in 2020 and subsequently went through a divorce a few years later.”",
+     "summary_th": "คอลัมน์ถามตอบกรณีผู้อ่านที่ถูกแบ่ง 401(k) ให้อดีตคู่สมรส $90,000 ในการหย่า",
+     "importance": 0,
+     "numbers": [
+      "$90,000"
+     ],
+     "tags": [
+      "personal finance",
+      "retirement"
+     ],
+     "entities": [
+      "MarketWatch"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "af84f565faa1",
@@ -439,7 +500,19 @@
      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBIQW9GeFFySVhLeFRSclJfZkp6aXZJMm9uUy1MLWZxSkRJa1hYNC0zOGlOM0NsblhsOFNZU21rYlhsaW01N2ZyOEhadVRJdzZURE1QWExXZS1KOC1rNFRlNkJQc2Q0cjZNTElCNlhR0gFmQVVfeXFMT2kxbHgzakx2MHpVOFdNRmZQX2VTVkNPckw0NjE1bmJJSktjeXBwQ2NnV0QtOEJVUWxnZ1ViNUh0V1N2bG5oYW41czdpdGZDd2FDQUI2RXZyeDJlbEdYeEMyd3I4U2pR?oc=5",
      "source": "SBS 뉴스",
      "published": 1792969135,
-     "text": "FOMC and Big Tech Earnings Drive U.S. Stock Futures Higher SBS 뉴스"
+     "text": "FOMC and Big Tech Earnings Drive U.S. Stock Futures Higher SBS 뉴스",
+     "summary_th": "ฟิวเจอร์สหุ้นสหรัฐปรับขึ้น ได้แรงหนุนจากการประชุม FOMC และผลประกอบการของบิ๊กเทค",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "fomc",
+      "us stocks",
+      "futures"
+     ],
+     "entities": [
+      "FOMC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7dbce69597de",
@@ -447,7 +520,20 @@
      "link": "https://www.cnbc.com/2026/10/25/ukraine-musk-starlink-terms-dispute.html",
      "source": "CNBC Top News",
      "published": 1792952329,
-     "text": "Ukraine challenged Musk’s claim that its military violated Starlink terms, arguing that commercial Starlink limits prevented medium- and long-range strike use."
+     "text": "Ukraine challenged Musk’s claim that its military violated Starlink terms, arguing that commercial Starlink limits prevented medium- and long-range strike use.",
+     "summary_th": "ยูเครนแย้งข้อกล่าวอ้างของ Elon Musk ที่ว่ากองทัพยูเครนละเมิดข้อกำหนด Starlink ระหว่างปฏิบัติการโดรน โดยยูเครนบอกว่าข้อจำกัดของ Starlink เชิงพาณิชย์ทำให้ใช้โจมตีระยะกลางและไกลไม่ได้",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "starlink",
+      "ukraine"
+     ],
+     "entities": [
+      "Ukraine",
+      "Elon Musk",
+      "Starlink"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d28ef5436760",
@@ -455,7 +541,18 @@
      "link": "https://www.marketwatch.com/story/more-than-a-third-of-s-p-500-companies-are-about-to-report-earnings-as-market-confidence-cracks-03b7a8f1",
      "source": "MarketWatch",
      "published": 1792936800,
-     "text": "“With cautious to negative market sentiment, it could be a tricky week,” one strategist says."
+     "text": "“With cautious to negative market sentiment, it could be a tricky week,” one strategist says.",
+     "summary_th": "บริษัทใน S&P 500 มากกว่าหนึ่งในสามกำลังจะรายงานผลประกอบการ ขณะที่ความเชื่อมั่นของตลาดเริ่มลดลง นักกลยุทธ์คนหนึ่งให้ความเห็นว่าสัปดาห์นี้อาจยาก",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "earnings",
+      "s&p 500"
+     ],
+     "entities": [
+      "S&P 500"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3a2c3068186d",
@@ -463,7 +560,15 @@
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQnVjTUhHNlhCR3diSDlXVTI4c082YmNhWmRrdGJqWW9yeGxsa0ZKSFBfa1RDUVBRS202amNuT3loOXdtTzdOWUpNTjA3VjlnWVczak1rU3NjYUg0YnF6R1JlcUdVRi1NOEdya0I1ZU4xZlNzUmRKU2U1ZlJkcVRCNF90clE4QjJNRmVOOGJ4Ymp5QzdHVEp3WFgtLXYyS09KbGtvNi1ucWgtZnlJbUpmVXVyaE9fZ0pPeUJUQg?oc=5",
      "source": "Investor's Business Daily",
      "published": 1792967039,
-     "text": "Futures Rise; Three Titans Loom Investor's Business Daily"
+     "text": "Futures Rise; Three Titans Loom Investor's Business Daily",
+     "summary_th": "ฟิวเจอร์สปรับขึ้น และหัวข่าวระบุว่า 'Three Titans' กำลังจะเข้ามา (ข่าวมีแค่หัวข้อ)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "futures"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "5888c5be6e23",
@@ -471,7 +576,22 @@
      "link": "https://www.cnbc.com/2026/10/25/audi-georgia-us-plant-tariffs-volkswagen.html",
      "source": "CNBC Top News",
      "published": 1792946562,
-     "text": "Audi's CEO defended the company's plans for a $4 billion plant in Georgia, calling it a business decision to grow sales and reduce exposure to U.S. tariffs."
+     "text": "Audi's CEO defended the company's plans for a $4 billion plant in Georgia, calling it a business decision to grow sales and reduce exposure to U.S. tariffs.",
+     "summary_th": "CEO ของ Audi ปกป้องแผนโรงงานมูลค่า $4 billion ในจอร์เจีย โดยบอกว่าเป็นการตัดสินใจเชิงธุรกิจเพื่อเพิ่มยอดขายและลดการพึ่งพาภาษีศุลกากรสหรัฐ",
+     "importance": 2,
+     "numbers": [
+      "$4 billion"
+     ],
+     "tags": [
+      "tariffs",
+      "autos"
+     ],
+     "entities": [
+      "Audi",
+      "VW",
+      "Georgia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "fdd2315ac72e",
@@ -479,7 +599,21 @@
      "link": "https://www.marketwatch.com/story/worried-about-this-stock-market-selloff-relief-may-be-coming-after-the-midterms-no-matter-who-wins-39322c07",
      "source": "MarketWatch",
      "published": 1792933200,
-     "text": "The nine months between Election Day and June 30 have seen the S&P 500 deliver an average return of 15.5% going back to 1950."
+     "text": "The nine months between Election Day and June 30 have seen the S&P 500 deliver an average return of 15.5% going back to 1950.",
+     "summary_th": "หัวข่าวบอกว่าอาจมีการฟื้นตัวหลังการเลือกตั้งกลางเทอมไม่ว่าใครจะชนะ โดยอ้างสถิติว่าช่วงเก้าเดือนถึง 30 มิถุนายน S&P 500 ให้ผลตอบแทนเฉลี่ย 15.5% นับจากปี 1950",
+     "importance": 1,
+     "numbers": [
+      "15.5%"
+     ],
+     "tags": [
+      "midterms",
+      "s&p 500"
+     ],
+     "entities": [
+      "S&P 500",
+      "MarketWatch"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "67f1e9184165",
@@ -487,7 +621,22 @@
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWHEweWR6Z3JqaWdQV2FfUmxjWG9Wck5rOXdvZFZMcWFhUGp2NGxZT042S2xxdm00OEY4WUtnQ3VrTUlhTHA5SGpkcmpRemNLbFNodjZ1R09fSGxTVDhJbDgzRzFFY1ZkNEZRVldZSnJxZG5ySmt6c09fbzFVU3hNMWtmbkNCOHdpTU5yc1pB?oc=5",
      "source": "조선일보",
      "published": 1792966294,
-     "text": "S&P 500 Profits Surge 30% Led by NVIDIA, Micron 조선일보"
+     "text": "S&P 500 Profits Surge 30% Led by NVIDIA, Micron 조선일보",
+     "summary_th": "กำไรของบริษัทใน S&P 500 เพิ่มขึ้น 30% โดยมี NVIDIA และ Micron เป็นตัวนำ",
+     "importance": 2,
+     "numbers": [
+      "30%"
+     ],
+     "tags": [
+      "earnings",
+      "ai chips"
+     ],
+     "entities": [
+      "S&P 500",
+      "NVIDIA",
+      "Micron"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5d419e1e250b",
@@ -495,7 +644,20 @@
      "link": "https://www.cnbc.com/2026/10/25/france-protests-paris-cost-of-living-inequality.html",
      "source": "CNBC Top News",
      "published": 1792937663,
-     "text": "Protests over inequality and living costs drew an estimated 410,000 people across France, with clashes in several cities for a second straight weekend."
+     "text": "Protests over inequality and living costs drew an estimated 410,000 people across France, with clashes in several cities for a second straight weekend.",
+     "summary_th": "การประท้วงเรื่องความเหลื่อมล้ำและค่าครองชีพทั่วฝรั่งเศสมีผู้เข้าร่วมราว 410,000 คน ช่วงแรกสงบ แต่มีการปะทะในหลายเมืองเป็นสุดสัปดาห์ที่สองติดกัน",
+     "importance": 2,
+     "numbers": [
+      "410,000"
+     ],
+     "tags": [
+      "france",
+      "protests"
+     ],
+     "entities": [
+      "France"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8b8f35348a5d",
@@ -503,7 +665,16 @@
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeGVmU0kxdjhvRF9ZU0VaeFFkODlaUTRlN1dQaHNSV1JiOTBwSV9nb1RKejQ2clRzQ0doN3VjVEtHb0RaTlVBNUdhMFI3aUtTRHB1dEE3NWdXZS1ZbktuMVUtYnE0ellyLWlNa29aWThtQkdSQW5FRzFIVUZlb3hEUlg1czdXd3FyV0VwNW0wVEMyTUg4ZEpoTVg0SzIyZ0VmLTAxOUlPTUtLXy1kS0ozbw?oc=5",
      "source": "Bloomberg.com",
      "published": 1792966147,
-     "text": "US Equity Futures Climb as Crude Oil Price Dips: Markets Wrap Bloomberg.com"
+     "text": "US Equity Futures Climb as Crude Oil Price Dips: Markets Wrap Bloomberg.com",
+     "summary_th": "ฟิวเจอร์สหุ้นสหรัฐปรับขึ้น ขณะที่ราคาน้ำมันดิบปรับลง (ข่าวมีแค่หัวข้อ)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "futures",
+      "crude oil"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "30d5c4cc978d",
@@ -511,7 +682,18 @@
      "link": "https://www.cnbc.com/make-it/2026/10/25/pay-off-credit-card-debt.html",
      "source": "CNBC Top News",
      "published": 1792936801,
-     "text": "I racked up over $11,000 in credit card debt traveling, shopping and dining out. Here's how I paid it all off in under two years."
+     "text": "I racked up over $11,000 in credit card debt traveling, shopping and dining out. Here's how I paid it all off in under two years.",
+     "summary_th": "เรื่องเล่าส่วนตัวของผู้อ่านที่ใช้เวลา 18 เดือนปลดหนี้บัตรเครดิตกว่า $11,000 ขณะยังเดินทางและใช้ชีวิตตามปกติ",
+     "importance": 0,
+     "numbers": [
+      "$11,000"
+     ],
+     "tags": [
+      "personal finance",
+      "credit card debt"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "77b17045879b",
@@ -519,7 +701,19 @@
      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1iT0VFWDlTckpvY216UDZodUlLZ3Z5SUoyejBfaVNaNXh2WXh0ZGYxYU1RczFWWnkwdHNlLVkyR3hDdnQ5UHFFQURiVGtqS0Z4N3htN3JPVkZzQXZYYXBweE02YnhWSXJTR18yTkhuMDZ3TWFSU1E?oc=5",
      "source": "Stocks Down Under",
      "published": 1792965803,
-     "text": "PayPal (NASDAQ:PYPL) vs Robinhood (NASDAQ:HOOD): Which Stock Faces the Bigger Earnings Test? Stocks Down Under"
+     "text": "PayPal (NASDAQ:PYPL) vs Robinhood (NASDAQ:HOOD): Which Stock Faces the Bigger Earnings Test? Stocks Down Under",
+     "summary_th": "บทความเปรียบเทียบ PayPal (PYPL) กับ Robinhood (HOOD) ว่าหุ้นตัวไหนเผชิญการทดสอบด้านผลประกอบการหนักกว่า",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "earnings",
+      "fintech"
+     ],
+     "entities": [
+      "PayPal",
+      "Robinhood"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "bfabd481a216",
@@ -527,7 +721,20 @@
      "link": "https://www.cnbc.com/2026/10/25/saudi-arabia-houthi-missile-drone-interceptions.html",
      "source": "CNBC Top News",
      "published": 1792935697,
-     "text": "Saudi Arabia says it intercepted Houthi missiles and drones, while the Houthis claimed attacks on airports and energy sites amid rising regional supply risks."
+     "text": "Saudi Arabia says it intercepted Houthi missiles and drones, while the Houthis claimed attacks on airports and energy sites amid rising regional supply risks.",
+     "summary_th": "ซาอุดีอาระเบียบอกว่าสกัดขีปนาวุธและโดรนจากกลุ่มฮูตีที่อิหร่านหนุนหลังได้ ขณะที่ฮูตีอ้างโจมตีสนามบินและแหล่งพลังงาน ท่ามกลางความเสี่ยงด้านอุปทานในภูมิภาคที่เพิ่มขึ้น",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "houthis",
+      "middle east supply"
+     ],
+     "entities": [
+      "Saudi Arabia",
+      "Iran",
+      "Houthis"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f7ee63dd6223",
@@ -535,7 +742,18 @@
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORzZCYmhLYXVBR2l2V3FsSmlmQWVqZXFUclJqd2ZxVGk2Ul9Ra195QlNVeUM5Rm5KcjIzYjY0Nks3VG1yanJldVJyaGRqbkpsVUw1ZWM0WW9ESkFuRGo5V0FGMnVkcURMSTM4eEhmZlRPZzJSaHhoeHZRWWV5aU9PMlBQN3MxbDlBYzNsa09iQTN0VFd3WU5nSWVfM0RXUktfc2FhTndHdGRfdEtsLTllMUw2dE50RlVUamhlc3QzLWlHTnYxUmsw?oc=5",
      "source": "Foreign Policy Journal",
      "published": 1792965780,
-     "text": "Apple (NASDAQ: AAPL) Hardware Offensive Arrives As AI Spending Fears Rattle Rivals Foreign Policy Journal"
+     "text": "Apple (NASDAQ: AAPL) Hardware Offensive Arrives As AI Spending Fears Rattle Rivals Foreign Policy Journal",
+     "summary_th": "Apple เดินหน้ารุกด้านฮาร์ดแวร์ ท่ามกลางความกังวลเรื่องการใช้จ่ายด้าน AI ที่กระทบคู่แข่ง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "apple",
+      "ai spending"
+     ],
+     "entities": [
+      "Apple"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f9322246c01b",
@@ -543,7 +761,18 @@
      "link": "https://www.cnbc.com/make-it/2026/10/25/travel-compatibility-questions.html",
      "source": "CNBC Top News",
      "published": 1792935481,
-     "text": "Consider budget, accommodations, personal habits, alone time and more, say Anna Goldfarb and Nell McShane Wulfhart, experts in friendship, travel and decision-making."
+     "text": "Consider budget, accommodations, personal habits, alone time and more, say Anna Goldfarb and Nell McShane Wulfhart, experts in friendship, travel and decision-making.",
+     "summary_th": "คำแนะนำก่อนไปเที่ยวด้วยกัน ให้คิดเรื่องงบ ที่พัก นิสัยส่วนตัว และเวลาอยู่คนเดียว",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "lifestyle"
+     ],
+     "entities": [
+      "Anna Goldfarb",
+      "Nell McShane Wulfhart"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "0177833877b1",
@@ -551,7 +780,20 @@
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPakxVVDI1b0tDV1ozbWZXd29kTFR0VU5QOU9USWFDeWtoWXVfY2dDS3NoWGFmWTNyTkxUQVNCaDVXTjJNSk85SmE5eVVSNlQxbmhVUkZLSTB6R2xiWDJYeE1GM1BHVDhQRGtwN3BlMC1taWlrX0JUYmZockc1c0hKVnV4VWRqLWlZWkZGRDExQjZVQ28tdFJIN2REQVFQSXVhQmMySnptRURVUTU0endoUFNMOGo?oc=5",
      "source": "StoneX",
      "published": 1792965661,
-     "text": "S&P 500 Forecast: SPX falls, led by tech after Meta, Tesla earnings StoneX"
+     "text": "S&P 500 Forecast: SPX falls, led by tech after Meta, Tesla earnings StoneX",
+     "summary_th": "ดัชนี S&P 500 ปรับลง นำโดยหุ้นเทคโนโลยี หลังผลประกอบการของ Meta และ Tesla",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "earnings",
+      "s&p 500"
+     ],
+     "entities": [
+      "Meta",
+      "Tesla",
+      "S&P 500"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "502cdf6690aa",
@@ -559,7 +801,21 @@
      "link": "https://www.cnbc.com/2026/10/25/cnbc-survey-midterm-election-voter-fears.html",
      "source": "CNBC Top News",
      "published": 1792929601,
-     "text": "The economy is still a key issue in the 2026 election, but voters are concerned about Trump testing the bounds of the office and Democratic Socialist polices."
+     "text": "The economy is still a key issue in the 2026 election, but voters are concerned about Trump testing the bounds of the office and Democratic Socialist polices.",
+     "summary_th": "ผลสำรวจของ CNBC ถามว่าพรรคเดโมแครตและรีพับลิกันกังวลอีกฝ่ายมากที่สุดเรื่องอะไร เศรษฐกิจยังเป็นประเด็นสำคัญของการเลือกตั้งปี 2026 แต่ผู้ลงคะแนนกังวลเรื่อง Trump ทดสอบขอบเขตของตำแหน่ง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "2026 election",
+      "polls"
+     ],
+     "entities": [
+      "Trump",
+      "Democrats",
+      "Republicans",
+      "CNBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e277f97b2eae",
@@ -567,7 +823,22 @@
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbjhpTF9wTHpLcnVkX1htYXVMV2FBTXJGcmJhaFRHNDdyZHRXSzV3VHlmWUxPbVNLQW9RU21tcF9xRVcxZ0tsanEwZUZsbi1SZFQ1a2ZmYnlPVzRtNDJiTDBZcEp0MUpCYU1jZk5uZXF6NTB1djhWQ213cEU0dDBDR18xUGdfWkYtOHpKQmpUWk42NDdmaG1zdnM2UHRjYmpsN1NMcEJ0WEhhMUhYQnVB?oc=5",
      "source": "Market Index",
      "published": 1792964886,
-     "text": "Morning Wrap: ASX 200 to fall, S&P 500 and Nasdaq slip as Brent oil hits six-month high Market Index"
+     "text": "Morning Wrap: ASX 200 to fall, S&P 500 and Nasdaq slip as Brent oil hits six-month high Market Index",
+     "summary_th": "ภาพรวมตลาดเช้านี้ ตามหัวข่าวระบุว่า ASX 200 จะปรับลง และ S&P 500 กับ Nasdaq ย่อตัวลง ขณะที่น้ำมัน Brent แตะจุดสูงสุดในรอบหกเดือน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "brent",
+      "oil",
+      "asx"
+     ],
+     "entities": [
+      "ASX 200",
+      "S&P 500",
+      "Nasdaq",
+      "Brent"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3f2344a57894",
@@ -575,7 +846,20 @@
      "link": "https://www.cnbc.com/2026/10/25/wonder-ipo-texas-automation.html",
      "source": "CNBC Top News",
      "published": 1792929601,
-     "text": "Wonder is leaning into automation and user-built restaurants as founder Marc Lore prepares the startup for a potential IPO."
+     "text": "Wonder is leaning into automation and user-built restaurants as founder Marc Lore prepares the startup for a potential IPO.",
+     "summary_th": "Wonder ของ Marc Lore เดิมพันที่เท็กซัส ระบบอัตโนมัติ และร้านอาหารที่ผู้ใช้สร้างเอง ขณะที่เตรียมตัวอาจยื่น IPO",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ipo",
+      "restaurants",
+      "automation"
+     ],
+     "entities": [
+      "Wonder",
+      "Marc Lore"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "871c21d69b62",
@@ -583,7 +867,21 @@
      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNkNjT1NZWm9PdGQwaVYxR1k1c3NfUDFKYmlPNFJ3cnV6bTRlaW51NjdDcndEZHB6ZlBqR2MxX2lEWEE5R2ZZMGJ1bWt3TGJmbnJQSEFENWlmZGVaWmpGb2poMU82SVF4cGNwcUJNMHFCWUU2OXNHS01fQnhkeDJQVFh2d0pfd3hKellXQWllM1BDTTJob3J5Z2sxVVhlUy1PeVJvbkJLZkZOM1lZcHBHWEt0RjZ0Z01iU29OdWFQSFEwclU3VVRxR2NFVXc5VXRseE82aFVycUFaWEk?oc=5",
      "source": "24/7 Wall St.",
      "published": 1792963980,
-     "text": "3 Dividend ETFs With Over $10 Billion Each Pay Up to 3.31% and Beat the S&P 500 Over the Past Year 24/7 Wall St."
+     "text": "3 Dividend ETFs With Over $10 Billion Each Pay Up to 3.31% and Beat the S&P 500 Over the Past Year 24/7 Wall St.",
+     "summary_th": "บทความรวม ETF ปันผล 3 ตัวที่มีขนาดเกิน $10 Billion ต่อตัว จ่ายปันผลสูงสุด 3.31% และทำผลตอบแทนเหนือ S&P 500 ในปีที่ผ่านมา",
+     "importance": 0,
+     "numbers": [
+      "$10 Billion",
+      "3.31%"
+     ],
+     "tags": [
+      "etf",
+      "dividend"
+     ],
+     "entities": [
+      "S&P 500"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3d5dcec87d3a",
@@ -591,7 +889,20 @@
      "link": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
      "source": "CNBC Top News",
      "published": 1792915571,
-     "text": "French unrest pushed bond yields to a 24-year high as investors weigh budget, growth and sectors risks ahead of more protests."
+     "text": "French unrest pushed bond yields to a 24-year high as investors weigh budget, growth and sectors risks ahead of more protests.",
+     "summary_th": "ความวุ่นวายในฝรั่งเศสทำให้อัตราผลตอบแทนพันธบัตรขึ้นสู่ระดับ 24-year high นักลงทุนชั่งน้ำหนักความเสี่ยงด้านงบประมาณ การเติบโต และภาคธุรกิจ ก่อนการประท้วงระลอกต่อไป",
+     "importance": 2,
+     "numbers": [
+      "24-year"
+     ],
+     "tags": [
+      "france",
+      "bonds"
+     ],
+     "entities": [
+      "France"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -619,7 +930,8 @@
       "fiscal policy"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "81bc7b0e59c4",
@@ -642,7 +954,8 @@
       "Vučić",
       "Serbia"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1c26eb7511c8",
@@ -662,7 +975,8 @@
      "entities": [
       "BCCP"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "78b224c035e9",
@@ -684,7 +998,8 @@
       "Rosebank",
       "Scotland"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d33d24266c27",
@@ -705,7 +1020,8 @@
       "Israel",
       "Lucy Williamson"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "23dd78b08df3",
@@ -727,7 +1043,8 @@
      "entities": [
       "Fed"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "de2ae26d5fdd",
@@ -747,7 +1064,8 @@
      "entities": [
       "Middleton in Teesdale"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b3a8a79ad8e4",
@@ -768,7 +1086,8 @@
       "Israel",
       "Lucy Williamson"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "05920d3a6bce",
@@ -790,7 +1109,8 @@
       "Microsoft",
       "US"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2e2dd38f0c29",
@@ -808,7 +1128,8 @@
       "lifestyle"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d3e62867a420",
@@ -830,7 +1151,8 @@
      "entities": [
       "Nigeria"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e06b240a2eb0",
@@ -851,7 +1173,8 @@
       "Trump",
       "U.S."
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f4ee74212814",
@@ -869,7 +1192,8 @@
       "uk"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b4c30b6342df",
@@ -890,7 +1214,8 @@
       "Nicolás Maduro",
       "US"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "24237fc8e840",
@@ -915,7 +1240,8 @@
       "Audi",
       "Germany"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -945,7 +1271,8 @@
       "Washington",
       "Brussels"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3533a699e6f7",
@@ -968,7 +1295,8 @@
       "Brent",
       "Iran"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9a6c4b3a30ef",
@@ -995,7 +1323,8 @@
       "Red Sea",
       "Strait of Hormuz"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "76ec26e8d9fd",
@@ -1017,7 +1346,8 @@
      "entities": [
       "Laodong.vn"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "abe7b5b96eaf",
@@ -1039,7 +1369,8 @@
      "entities": [
       "United Kingdom"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "074e5e9412df",
@@ -1062,7 +1393,8 @@
       "Nasdaq",
       "Fed"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6d8d3fe3cd27",
@@ -1088,7 +1420,8 @@
       "United Nations",
       "Paris Agreement"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "156f398e4c82",
@@ -1109,7 +1442,8 @@
       "West Asia",
       "Indian"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3cf9f655ef5a",
@@ -1133,7 +1467,8 @@
       "NATO",
       "Antalya"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f1522b7599a4",
@@ -1155,7 +1490,8 @@
      "entities": [
       "ASX"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "12ab2eae10a4",
@@ -1176,7 +1512,8 @@
       "US",
       "Middle East"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "36350b97fe09",
@@ -1197,7 +1534,8 @@
      "entities": [
       "Iraq"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2f762af13337",
@@ -1219,7 +1557,8 @@
      "entities": [
       "Iran"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a682cef5a3fd",
@@ -1240,7 +1579,8 @@
      "entities": [
       "BoC"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3752f37d0a08",
@@ -1263,7 +1603,8 @@
       "Trump",
       "Iran"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1291,7 +1632,8 @@
       "PNJ",
       "Phu Quy"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "544130a3449f",
@@ -1300,7 +1642,7 @@
      "source": "FXLeaders",
      "published": 1792965986,
      "text": "Gold Price Forecast: Can FED and Big Tech Earnings Reverse the $4,000 XAU Support Break? FXLeaders",
-     "summary_th": "ติดตามการคาดการณ์ราคาทองคำท่าماธนาคารกลางสหรัฐฯ (FED) และผลประกอบการ Big Tech ว่าจะสามารถกลับตัวแนวรับ XAU ที่ $4,000 ได้หรือไม่",
+     "summary_th": "คำถามว่า FED และผลประกอบการ Big Tech จะช่วยให้ราคาทองคำกลับขึ้นเหนือแนวรับ $4,000 (XAU) ที่หลุดไปแล้วได้หรือไม่",
      "importance": 2,
      "numbers": [
       "$4,000"
@@ -1313,7 +1655,10 @@
      "entities": [
       "FED"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "สรุปเดิมมีตัวอักษรเพี้ยนและไม่ตรงหัวข่าว",
+     "checked_by": "claude/review"
     },
     {
      "id": "609de76f1aca",
@@ -1337,7 +1682,8 @@
       "BTMC",
       "Phu Quy"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "5c1170bf7146",
@@ -1355,7 +1701,8 @@
       "yields"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4cd0240f20d6",
@@ -1374,7 +1721,8 @@
       "xau"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9592b6ec9a11",
@@ -1396,7 +1744,8 @@
      "entities": [
       "GLD"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "fc3d6cf70610",
@@ -1417,7 +1766,8 @@
      "entities": [
       "Shenzhen Shuibei"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3986920b3739",
@@ -1439,7 +1789,8 @@
      "entities": [
       "GLD"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "fae423716bcd",
@@ -1455,7 +1806,8 @@
       "gold price"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ece8cf5803e1",
@@ -1474,7 +1826,8 @@
      "entities": [
       "Bullion Gold Discoveries Corp."
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "34287abfb1d2",
@@ -1493,7 +1846,8 @@
       "egypt"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "382cb982de6c",
@@ -1509,7 +1863,8 @@
       "gold behavior"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1535,7 +1890,8 @@
      "entities": [
       "Grok"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "da114e8ce7c5",
@@ -1559,7 +1915,8 @@
       "Apple",
       "iPhone Duo"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b410235c0e10",
@@ -1583,7 +1940,8 @@
      "entities": [
       "Oregon Police"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "426ca1c821f5",
@@ -1600,7 +1958,8 @@
       "cctv"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "960d56865066",
@@ -1617,7 +1976,8 @@
       "tech"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "727ad38d32ee",
@@ -1641,7 +2001,8 @@
       "Throbbing Gristle",
       "The Body"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2db6ac785444",
@@ -1664,7 +2025,8 @@
      "entities": [
       "FOSDEM 27"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2658f7e5702d",
@@ -1683,7 +2045,8 @@
      "entities": [
       "Delhi"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "71334093a413",
@@ -1703,7 +2066,8 @@
      "entities": [
       "Apollo"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b77e72f00b20",
@@ -1724,7 +2088,8 @@
       "Apple",
       "iPhone Duo"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1dc75a32fc6a",
@@ -1746,7 +2111,8 @@
       "llm"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "875b809d27be",
@@ -1763,7 +2129,8 @@
       "investigation"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ee351496911a",
@@ -1783,7 +2150,8 @@
      "entities": [
       "TechCrunch Mobility"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "35542ffb0e04",
@@ -1805,7 +2173,8 @@
       "Atlassian",
       "Dia"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2325af3360e0",
@@ -1828,7 +2197,8 @@
      "entities": [
       "Cerebras"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "7cf642330ce8",
@@ -1847,7 +2217,8 @@
      "entities": [
       "Yeoksam-dong"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4262d71f08be",
@@ -1857,7 +2228,7 @@
      "published": 1792937400,
      "text": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
      "summary_th": "TechCrunch รวบรวมรายชื่ออุปกรณ์สวมใส่และแกดเจ็ต AI ยอดนิยม เช่น Muse Charm, Bee, Friend และ Plaud",
-     "importance": 1,
+     "importance": 0,
      "numbers": [],
      "tags": [
       "ai",
@@ -1870,7 +2241,10 @@
       "Friend",
       "Plaud"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "เป็นรายการรวมอุปกรณ์ (listicle) ควรเป็นระดับ 0",
+     "checked_by": "claude/review"
     },
     {
      "id": "0c010e657167",
@@ -1896,7 +2270,8 @@
       "Nitro Deck",
       "Nitro Deck 2"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "90bf1782f390",
@@ -1916,7 +2291,8 @@
       "development"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "891f3cfb4bd5",
@@ -1936,7 +2312,8 @@
       "Tesla",
       "California"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6cc3d7a00b17",
@@ -1957,7 +2334,8 @@
       "Instagram",
       "Apple TV"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6fb451a38645",
@@ -1976,7 +2354,8 @@
      "entities": [
       "Jaipur Railway Stations"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b366ba776fde",
@@ -1996,7 +2375,8 @@
      "entities": [
       "r/opensource"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "76e9c85f54a9",
@@ -2015,7 +2395,8 @@
      "entities": [
       "Birmingham"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "99c99157c7fa",
@@ -2035,7 +2416,8 @@
       "Emma Roth",
       "The Stepback"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -2062,7 +2444,8 @@
       "AstraZeneca",
       "ESMO"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "751158ea0458",
@@ -2086,7 +2469,8 @@
       "Dave",
       "University at Buffalo"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "dd36974f9a7f",
@@ -2109,7 +2493,8 @@
       "SSE",
       "TradingView"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c26f7e140fdb",
@@ -2128,7 +2513,8 @@
       "oncology"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9b486b555560",
@@ -2145,7 +2531,8 @@
       "wellness"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3fa23187296f",
@@ -2165,7 +2552,8 @@
       "Tennessee Oncology",
       "Chinook Observer"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "bb6347458840",
@@ -2187,7 +2575,8 @@
       "Pennington Biomedical Research Center",
       "Scientific Reports"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "76f28cf51c2e",
@@ -2209,7 +2598,8 @@
       "Voronoi",
       "Korea"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3defba16a90a",
@@ -2227,7 +2617,8 @@
       "mental health"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "0bbd70c284d1",
@@ -2249,7 +2640,8 @@
       "US Treasury",
       "US"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ab02a32c5510",
@@ -2267,7 +2659,8 @@
       "pregnancy"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "80dbb2b4acce",
@@ -2286,7 +2679,8 @@
      "entities": [
       "Kamloops"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "dc35c96cddf0",
@@ -2305,7 +2699,8 @@
      "entities": [
       "Regenerative Medicine Project"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6ea927fbf32f",
@@ -2326,7 +2721,8 @@
       "Genmab",
       "INCB161734"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "64370620dbdb",
@@ -2347,7 +2743,8 @@
       "FDA",
       "Legend Biotech"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6e605dd2fbff",
@@ -2369,7 +2766,8 @@
       "Sichuan Kelun Biotech Biopharmaceutical",
       "SEHK"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4ee29be897bb",
@@ -2389,7 +2787,8 @@
       "FDA",
       "BusinessWorld Online"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1a57b9b74a97",
@@ -2409,7 +2808,8 @@
       "Sartorius Stedim Biotech",
       "ENXTPA"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "593a7c16ea80",
@@ -2429,7 +2829,8 @@
      "entities": [
       "TRT Afrika"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1a35e4ff8f59",
@@ -2450,7 +2851,8 @@
       "US Treasury",
       "China"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     }
    ]
   }
