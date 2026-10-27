@@ -17,7 +17,7 @@ Claude เขียนไฟล์นี้จากข่าวที่เก�
 
 ## ธีมที่กำลังเดิน
 
-## ไฟฟ้าจาก AI: ไฟฟ้า นิวเคลียร์ ระบบไฟ (เริ่มเจอ 2026-10-06 · ล่าสุด 2026-10-25)
+## ไฟฟ้าจาก AI: ไฟฟ้า นิวเคลียร์ ระบบไฟ (เริ่มเจอ 2026-10-06 · ล่าสุด 2026-10-27)
 ทำไม: data center และ AI ใช้ไฟมากขึ้น ผู้ผลิตและผู้รับเหมาระบบไฟได้งาน
 หลักฐานจากข่าว: นิวเคลียร์พุ่ง · MYR/Powell/Comfort Systems พุ่ง · GE Vernova ราคาวิ่ง · X-energy (ดู analysis/2026-10/2026-10-07-2day.md)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -39,9 +39,10 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-10-23: เด้งสวนตลาดวันที่ Nasdaq -2.6% GEV +4.00% CEG +4.60% VST +3.87% POWL +3.26% FIX +0.30% ไม่มีข่าวบริษัทใหม่ แรงกดดันเงินทุนผู้สร้าง data center: [Meta FCF ติดลบ](https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html) (analysis/2026-10/2026-10-23-2day.md)
 อัปเดต 2026-10-25: แก้ตัวเลขรอบก่อน (+4% เป็นของวันที่ 21) วันที่ 22–23 ร่วงหนัก GEV -12.0% FIX -17.2% CEG -6.4% POWL ทรงตัว เหตุ: ความกังวลเครดิต/เงินทุน AI [CNBC](https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html) · [Nvidia ในฐานะผู้ให้เงิน AI](https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html) (analysis/2026-10/2026-10-25-2day.md)
 อัปเดต 2026-10-25 (weekly): ทั้งสัปดาห์ FIX -19.3% GEV -11.5% MYRG -9.2% POWL -8.6% VST -7.8% CEG -6.6% NEE +2.9% GULF -0.4% GPSC +1.0% เหตุ: เครดิต/เงินทุน AI ไม่ใช่ข่าวบริษัท หลักฐานใหม่: [Microsoft ถอนจาก data center ใหญ่สุดอังกฤษ](https://www.bbc.co.uk/news/articles/c9m26kl5y7epo?at_medium=RSS&at_campaign=rss) · [โรงนิวเคลียร์ขอเพิ่มกำลังผลิต](https://oilprice.com/Alternative-Energy/Nuclear-Power/The-Nuclear-Power-Shortcut-That-Could-Add-Gigawatts-to-the-US-Grid.html) · [TikTok หาไฟหลายกิกะวัตต์](https://www.cnbc.com/2026/10/23/tiktok-us-compute-capacity.html) · [ทรัมป์ไล่ยกเลิกโครงการลม $6.2B](https://oilprice.com/Alternative-Energy/Wind-Power/Trump-Targets-62-Billion-Offshore-Wind-Project-Nearing-Completion.html) น่าศึกษาก่อนเปลี่ยนเป็น NEE (analysis/2026-10/2026-10-25-weekly.md)
+อัปเดต 2026-10-27: ราคาธีมสหรัฐในไฟล์ยังเป็นของ 23 ต.ค. (ไม่อัปเดต) Anthropic ยื่น IPO เปิดว่า data center พึ่งก๊าซมากขึ้น [The Verge](https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk) · GPSC +0.98%
 ความเสี่ยงของธีม: ราคาอาจนำข่าวไปแล้ว ยีลด์สูง ผูกกับความเชื่อมั่น AI แรงต้าน data center จากทั้งสองพรรค
 
-## LNG/ก๊าซนอกอ่าวเปอร์เซีย (เริ่มเจอ 2026-10-07 · ล่าสุด 2026-10-24)
+## LNG/ก๊าซนอกอ่าวเปอร์เซีย (เริ่มเจอ 2026-10-07 · ล่าสุด 2026-10-27)
 ทำไม: ฮอร์มุซไม่ปลอดภัย Qatar ขยายเหตุสุดวิสัย ผู้ส่งออก LNG/ก๊าซนอกอ่าวได้ออเดอร์
 หลักฐานจากข่าว: [5 หุ้นก๊าซได้จากฮอร์มุซ (Cheniere)](https://oilprice.com/Energy/Natural-Gas/5-Natural-Gas-Stocks-Profiting-From-the-Strait-of-Hormuz-Standoff.html) · [Kinder Morgan ส่งก๊าซไปเม็กซิโกได้อีก](https://oilprice.com/Latest-Energy-News/World-News/Kinder-Morgan-Restores-US-Mexico-Gas-Flows-After-Pipeline-Outage.html) · [Alaska LNG กลับมา](https://oilprice.com/Energy/Natural-Gas/Who-Is-Going-to-Pay-for-Alaska-LNG.html)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -58,9 +59,10 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-10-23: Brent 113.23 สูงสุดตั้งแต่ พ.ค. LNG +0.31% KMI +1.19% PTTEP +3.16% PTT +1.84% หลักฐาน: [Brent เกิน $113](https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html)
 อัปเดต 2026-10-25: Brent 116.72 LNG(Cheniere) +4.06% KMI +2.11% PTTEP +3.16% PTT +1.84% [กาตาร์ซื้อก๊าซสหรัฐ](https://www.cnbc.com/2026/10/23/cheniere-qatar-energy-lng-natural-gas-iran-war-strait-hormuz.html)
 อัปเดต 2026-10-25 (weekly): ทั้งสัปดาห์ PTTEP +5.2% LNG +3.2% PTT +1.2% KMI +0.7% Brent +6.2% แต่มีพาดหัวว่าน้ำมันออกจากอ่าวมากกว่าก่อนสงคราม [WSJ](https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ25MSXRodmt6X1ZwZFZ1b01nR01ZTE1PWDU0SGVaWTRKMXJLdl9FbXVHSnZTMGxiV1pMbGtOZTVUMjZER01kVHQ1TmtIczlGZ3Z3X2djQng0b0RrOEQtZkk4REEtYTE2U1JxVlpLMzAtUnNycVhiQXVqV3BET09SZDZLbWtfZGp3NFl6eDZPakRzeDk4N3VydmJucDB6SlgwNmNNWVlrVTVRdGQ2RTVVOUpqTXBJa3RWaXc?oc=5) = ความเสี่ยงราคาลงเร็วถ้าการโจมตีไม่เกิด
+อัปเดต 2026-10-27: Brent ลง 109.88 (-5.86%) ข่าวเจรจาซาอุฯ–อิหร่าน [CNBC](https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html) · สงครามเพิ่มบิล LNG โลก $39B [OilPrice](https://oilprice.com/Energy/Natural-Gas/The-Iran-War-Just-Added-39-Billion-to-the-Worlds-LNG-Bill.html) · PTTEP -0.61% PTT +0.60%
 ความเสี่ยงของธีม: หยุดยิง/ฮอร์มุซเปิด ราคาก๊าซร่วงเร็ว PTT อาจถูกคุมราคาในประเทศ
 
-## ชิปหน่วยความจำ (เริ่มเจอ 2026-10-08 · ล่าสุด 2026-10-23)
+## ชิปหน่วยความจำ (เริ่มเจอ 2026-10-08 · ล่าสุด 2026-10-27)
 ทำไม: AI ดูดหน่วยความจำ RAM ขาดและแพง ผู้ผลิตกำไรสถิติ
 หลักฐานจากข่าว: [Samsung กำไรสถิติ](https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html) · [Intel/AMD กลับไป DDR4 เพราะ RAM แพง](https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback) · [Micron ร่วงจากข่าว OpenAI](https://www.marketwatch.com/story/micron-nvidia-and-ai-chip-stocks-fall-as-report-on-openais-revenue-causes-undue-concern-2a2bcf53)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -76,6 +78,7 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-10-23: SK Hynix -5.49% Samsung -4.03% MU +1.96% ข่าวใหม่: [PC ส่งมอบลด >20% เพราะ RAM แพง](https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram) เป็นสัญญาณอุปสงค์ปลายทางอ่อน
 อัปเดต 2026-10-25: SK Hynix +4.42% Samsung +0.47% MU +2.46% เด้งสั้น ยังไม่มีข่าวราคา RAM ลง
 อัปเดต 2026-10-25 (weekly): ทั้งสัปดาห์ทรงตัว MU -0.2% SK Hynix +0.4% Samsung 0% HANA -3.5% สัญญาณใหม่: อุปสงค์ปลายทางอ่อน [PC -20%](https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram) ยังไม่มีข่าวราคา RAM ลง ยังไม่ตัด
+อัปเดต 2026-10-27: เด้งตามหุ้น AI หลัง Anthropic ยื่น IPO SK Hynix +6.90% Samsung +4.58% Micron +2.46% Hana -2.06% KOSPI +3.46% [ข่าว](https://news.google.com/rss/articles/CBMijgFBVV95cUxNSlZDNHhSYkVHOW9iNENjRlUycDhVZXVrc29jSFBNY18wZFhSS2VNYi1lcHhpM1M5dUtMYlU3Nmg1cmdVMEt2ZmdlRlZYR1hlOFpjLXE5RXRyN1JXUlkxR1d2THVDQVFJdTZPdzBkZzZzaFZrYk1FbVBZeHRsa2IxZUl6Q0dKRlZFR0pTSERB?oc=5)
 ความเสี่ยงของธีม: วัฏจักรหน่วยความจำกลับลงเร็ว ผูกกับข่าวรายได้ AI จีนเริ่มตามทัน
 
 ## โรงกลั่น/ดีเซลขาด (เริ่มเจอ 2026-10-14 · ล่าสุด 2026-10-24)
