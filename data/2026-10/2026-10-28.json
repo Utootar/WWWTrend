@@ -2,9 +2,10 @@
  "date": "2026-10-28",
  "collected_at": "2026-10-28T07:32:28+07:00",
  "models": [
+  "claude/routine",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 17,
+ "summary_failed": 0,
  "prices": [
   {
    "symbol": "^GSPC",
@@ -399,7 +400,7 @@
      "source": "CNBC Markets",
      "published": 1793117735,
      "text": "World Bank President Ajay Banga came on CNBC's \"Squawk Box\" on Oct. 27, 2026.",
-     "summary_th": "ประธานธนาคารโลก Ajay Banga ระบุว่าความพร้อมของเงินทุนไม่ใช่ปัญหาใหญ่ ขณะที่อสงค์ด้าน AI ดันต้นทุนการกู้ยืมพุ่งสูงขึ้น",
+     "summary_th": "ประธานธนาคารโลก Ajay Banga ระบุว่าความพร้อมของเงินทุนไม่ใช่ปัญหาใหญ่ ขณะที่อุปสงค์ด้าน AI ดันต้นทุนการกู้ยืมพุ่งสูงขึ้น",
      "importance": 2,
      "numbers": [],
      "tags": [
@@ -409,7 +410,10 @@
      "entities": [
       "Ajay Banga"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "คำแปลผิด (อสงค์ ควรเป็น อุปสงค์)",
+     "checked_by": "claude/review"
     },
     {
      "id": "cdf1df118bb9",
@@ -430,7 +434,8 @@
       "SpaceX",
       "Apple"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9ce118ed96fa",
@@ -450,7 +455,8 @@
      "entities": [
       "Robinhood"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "bcba1f92d206",
@@ -472,7 +478,8 @@
       "GM",
       "Nasdaq"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3f7b97fe8636",
@@ -494,7 +501,8 @@
       "CNBC",
       "Federal Reserve"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2c6e15bb8737",
@@ -514,7 +522,8 @@
      "entities": [
       "SK Hynix"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "cfd287a3201e",
@@ -534,7 +543,8 @@
       "CoreWeave",
       "Anthropic"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ecb1df8afa90",
@@ -560,7 +570,8 @@
       "RIVN",
       "SMCI"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ebb4d73505b2",
@@ -583,7 +594,8 @@
       "Cassidy Hutchinson",
       "Trump"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d95873b76d0d",
@@ -603,7 +615,8 @@
      "entities": [
       "Donald Trump"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "297d9f1f80c6",
@@ -620,7 +633,8 @@
       "ai optimism"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "19d8694c72ce",
@@ -643,7 +657,8 @@
       "Berkshire Hathaway",
       "Alphabet"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9ae549c87e1b",
@@ -660,7 +675,8 @@
       "stock market"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "113374692cdf",
@@ -679,7 +695,8 @@
      "entities": [
       "Nasdaq"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6499cf40f4a6",
@@ -699,7 +716,8 @@
       "Mike Johnson",
       "Donald Trump"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "0612be3be59c",
@@ -722,7 +740,8 @@
       "Boeing",
       "737 Max"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9831aab26503",
@@ -743,7 +762,8 @@
       "history"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b6cb284ff871",
@@ -762,7 +782,8 @@
      "entities": [
       "Jim Cramer"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "bc0eee89f73d",
@@ -782,7 +803,8 @@
       "Broadcom",
       "Nvidia"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9d963b34a721",
@@ -804,7 +826,8 @@
      "entities": [
       "LPL Financial"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "22e2f0ebad25",
@@ -826,7 +849,8 @@
       "Trump",
       "Putin"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b52d64bcfdae",
@@ -849,7 +873,8 @@
       "JetBlue",
       "MarketWatch"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "0cc82704fe51",
@@ -869,7 +894,8 @@
      "entities": [
       "Reuters"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "45ff02db15a8",
@@ -892,7 +918,8 @@
       "Amazon",
       "CNBC"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "aadd8e5c5085",
@@ -912,7 +939,8 @@
      "entities": [
       "Fed"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -941,7 +969,8 @@
       "John Healey",
       "UK"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "22e9db26902b",
@@ -960,7 +989,8 @@
      "entities": [
       "Israel"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f349e5cc2d43",
@@ -981,7 +1011,8 @@
       "Fed",
       "RBNZ"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a0c3bc6eed84",
@@ -998,7 +1029,8 @@
       "delivery"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "7a64b6f22bf1",
@@ -1020,7 +1052,8 @@
      "entities": [
       "Alexander"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "27a237a22278",
@@ -1041,7 +1074,8 @@
       "Justin Trudeau",
       "ULI"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b5300c98aa2f",
@@ -1062,7 +1096,8 @@
       "China",
       "Beijing"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4ce40386cade",
@@ -1085,7 +1120,8 @@
       "Oleshky",
       "Kherson"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "7f78baea5a72",
@@ -1107,7 +1143,8 @@
       "Europe",
       "China"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ee38ff5f6a0f",
@@ -1128,7 +1165,8 @@
       "Elin Jones",
       "Wales"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ff9ab098d34e",
@@ -1152,7 +1190,8 @@
       "Marry Mubaiwa",
       "Zimbabwe"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "91cd64496588",
@@ -1175,7 +1214,8 @@
       "US",
       "Canada"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a3496aa87125",
@@ -1193,7 +1233,8 @@
       "essentials"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "bb89f4f74e4e",
@@ -1215,7 +1256,8 @@
       "Mada Masr",
       "Amnesty International"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "21426977fc57",
@@ -1238,7 +1280,8 @@
       "Port of Galveston",
       "Pier 19"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1272,7 +1315,8 @@
       "China",
       "Pentagon"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "65cf6532cffb",
@@ -1293,7 +1337,8 @@
       "Iran",
       "U.S."
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b84c88ef853a",
@@ -1315,7 +1360,8 @@
      "entities": [
       "Russia"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "068c370f70b5",
@@ -1341,7 +1387,8 @@
       "Centre for Research on Energy and Clean Air",
       "U.S."
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9a879ff6817c",
@@ -1361,7 +1408,8 @@
      "entities": [
       "PLS Group"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "fc6ed4830c64",
@@ -1370,7 +1418,7 @@
      "source": "OilPrice.com",
      "published": 1793138400,
      "text": "The announcement by India’s largest private refiner Reliance Industries Ltd that it is open to collaborating with U.S. companies across oil, gas and clean energy, including in Venezuela, is a welcome signal to Washington that all is not lost in its ongoing attempts to utilise the Asian subcontinent as a key economic, political and military counterpoint to China’s dominance across the Asia-Pacific region. It also comes at a time when New Delhi has become an increasingly important support mechanism for Russia, both economically and geopolitically.…",
-     "summary_th": "Reliance Industries ของอินเดียเปิดกว้างร่วมมือกับสหรัฐฯ ด้านพลังงาน ท่ามกลางความพยายามลดการพึ่งพารัสเซียและคานอำนาจจีน",
+     "summary_th": "Reliance Industries ของอินเดียระบุว่าเปิดกว้างร่วมมือกับบริษัทสหรัฐฯ ด้านน้ำมัน ก๊าซ และพลังงานสะอาด รวมถึงในเวเนซุเอลา ขณะที่หัวข้อข่าวตั้งคำถามว่าจะทำให้แกนน้ำมันรัสเซีย-อินเดียสั่นคลอนหรือไม่",
      "importance": 2,
      "numbers": [],
      "tags": [
@@ -1386,7 +1434,10 @@
       "China",
       "Venezuela"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "เพิ่มข้อความที่ต้นทางไม่ได้พูด (คานอำนาจจีน) และบอกเป็นความตั้งใจ ทั้งที่หัวข้อเป็นคำถาม",
+     "checked_by": "claude/review"
     },
     {
      "id": "b9b6d001b52e",
@@ -1411,7 +1462,8 @@
       "Texas",
       "GOP"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6f7781fe3be1",
@@ -1420,7 +1472,7 @@
      "source": "OilPrice.com",
      "published": 1793134800,
      "text": "Turkey has finally gotten both sides of a divided Libya to sign the maritime map it has pushed for seven years. Ankara signed the boundary deal with Libya’s Tripoli government in 2019, and the rival parliament in the east rejected it in 2020. On October 20, that same parliament, the Haftar-aligned House of Representatives in Benghazi, ratified the deal unanimously. Both of Libya’s governments now recognize a boundary that runs between Crete and Cyprus, leaving Greek islands in the area with no sea beyond their territorial waters. Ankara…",
-     "summary_th": "ตุรกีบรรลุข้อตกลงเขตทางทะเลกับลิเดีย สร้างความกดดันให้บริษัทน้ำมันรายใหญ่",
+     "summary_th": "ตุรกีบรรลุข้อตกลงเขตทางทะเลกับลิเบีย หลังสภาผู้แทนฝั่งตะวันออกให้สัตยาบันเมื่อวันที่ 20 ตุลาคม ทำให้รัฐบาลลิเบียทั้งสองฝ่ายรับรองแนวเขตนี้ สร้างความลำบากให้บริษัทน้ำมันรายใหญ่",
      "importance": 2,
      "numbers": [
       "2019",
@@ -1441,7 +1493,10 @@
       "Crete",
       "Cyprus"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ชื่อประเทศผิด (ลิเดีย ควรเป็น ลิเบีย) และสรุปให้ครบประเด็นหลัก",
+     "checked_by": "claude/review"
     },
     {
      "id": "3862d4290308",
@@ -1461,7 +1516,8 @@
      "entities": [
       "US"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1cdf5ccaf64f",
@@ -1489,7 +1545,8 @@
       "American Petroleum Institute",
       "SPR"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1ff2803fd47e",
@@ -1509,7 +1566,8 @@
      "entities": [
       "API"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "52d848a56bd3",
@@ -1541,7 +1599,8 @@
       "Eaton",
       "Quanta"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "cbbfae9b0d25",
@@ -1565,7 +1624,8 @@
       "US",
       "USO"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "39a8586c80b4",
@@ -1591,7 +1651,8 @@
       "Trump",
       "Putin"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "01fcc98b8cad",
@@ -1613,7 +1674,8 @@
      "entities": [
       "Hormuz"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1627,7 +1689,17 @@
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX2JlOGZRcWs3SGtGd1VQX3ZTczhlRWUzbzV5SVR0YnlHZmptd2FzelljTFc0RV92dVFPcXhvRHNsbGQwQTZROS1XN2JaaUhwYU5BT1RBeXRSZl9UQnV3WTRVUERHZmJHWFk5Rm14Qm5paTFIU1o4LTdZNldndEZZV0wzdm1xbGFQMExzbHFzSmc4UQ?oc=5",
      "source": "The Peninsula Qatar",
      "published": 1793144364,
-     "text": "Gold prices rise by about one percent The Peninsula Qatar"
+     "text": "Gold prices rise by about one percent The Peninsula Qatar",
+     "summary_th": "ราคาทองคำปรับขึ้นราว 1 เปอร์เซ็นต์ (ข่าวนี้มีเพียงหัวข้อ)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold"
+     ],
+     "entities": [
+      "The Peninsula Qatar"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6a280e0ee591",
@@ -1635,7 +1707,18 @@
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY3IzX3JUZ1RjQjVDaWdEcXdUcU9nZ2dHUHFMUmFvT2xjemtmV21SUVpmRjNRdExyVzhKR3Myai1MS2tRdGZnVmFRRmpVT1VZdWs4RDBEUTREQ2xQQm9Tc3ZMQ1YwNW51Y2dqWGprZ1RRLTJsUDJZQlNmTngyckVzc0Vnem5BY2xfUHhObC1hdlFSQk50dHF0VmNwTQ?oc=5",
      "source": "ETF Database",
      "published": 1793125180,
-     "text": "A Closer Look at Gold Miners & the Leverage Advantage ETF Database"
+     "text": "A Closer Look at Gold Miners & the Leverage Advantage ETF Database",
+     "summary_th": "บทความวิเคราะห์หุ้นกลุ่มผู้ผลิตทองคำ และข้อดีของการใช้ตัวคูณ (leverage) ผ่านกองทุน ETF",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold miners",
+      "etf"
+     ],
+     "entities": [
+      "ETF Database"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8c20fd8eb77b",
@@ -1643,7 +1726,20 @@
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPb2hiV3BCS0NiV0Y4S0kyWjJNbmE0UjhUX1l6Uld4QWp3c0M5Y25jcFh3SUZTaURIZ2pHTUk5X1JlYXk5LXdUWG0wNnhkdXZaUWtuNGlmUHlsN25GRXotZXhLSEpoUlp1VE0xRWtWSFN3Wks3bG1BYVNEWS1saHRPS0RKQXhzT0pjanFzUHJHaVZpeGFEUVlHNTVGcjdjZFNRVmQxbHEwNEY?oc=5",
      "source": "Vietnam.vn",
      "published": 1793143904,
-     "text": "Gold prices today, October 28, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. Vietnam.vn"
+     "text": "Gold prices today, October 28, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. Vietnam.vn",
+     "summary_th": "รายงานราคาทองคำประจำวันที่ 28 ตุลาคม 2026 ทั้งทองแท่ง SJC แหวนทอง 9999 BTMC และราคาทองคำโลก",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold prices",
+      "vietnam"
+     ],
+     "entities": [
+      "SJC",
+      "BTMC",
+      "Vietnam.vn"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3fc040d64e35",
@@ -1651,7 +1747,18 @@
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYXQ4dDhYRmswUS1fY1BmSGJmbEdaM0NQSmJEeW9HQzNlT2JDZGVwNXRVTlp5a2VYSlVFckxvOE40VWsxUTZlNXA0V05VNHoyMUt5ZXZpbjRBd3Y0aFpqMnJWM0RuNmhuN3k1ZHhFbzJ5NzBic09oOUdPclVfM2M2NEtPeGN4X0JBMXBVNUNXam9idVFCeVk1NVBBcHpkMWhnVkE?oc=5",
      "source": "GoldBroker",
      "published": 1793122993,
-     "text": "Gold & Silver Bullion Storage Outside the Banking System | GoldBroker GoldBroker"
+     "text": "Gold & Silver Bullion Storage Outside the Banking System | GoldBroker GoldBroker",
+     "summary_th": "บทความเรื่องการเก็บทองคำและเงินแท่งไว้นอกระบบธนาคาร",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "bullion storage"
+     ],
+     "entities": [
+      "GoldBroker"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "235c839a79f3",
@@ -1659,7 +1766,18 @@
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTzJOTmpVdTlRaVdSX29qU2VqVGxwbXBNZUlYVVpIWFYwdFhFdFZiLXJ3TUxVYmNzYXJrMDg4Yy1VaDFXMWN5clpYQXlWRHhBRFVWZERXYXliNUlvTTExdGZCYTE4R1F0YWk2T2UxVTZ3TzlVYVZwclRBMlNpeGpWVlRpWmlDclhLVnpxX3JVX3pVdm5yTWtuUnBxT09QWlVpbE9YelJ5MTY3VmFwZENnM3JyaDFJTDF2a3BWaEdR?oc=5",
      "source": "Laodong.vn",
      "published": 1793142900,
-     "text": "Gold price update morning of October 28th: World gold stands firm, domestic price increases Laodong.vn"
+     "text": "Gold price update morning of October 28th: World gold stands firm, domestic price increases Laodong.vn",
+     "summary_th": "ราคาทองคำช่วงเช้าวันที่ 28 ตุลาคม: ราคาทองโลกทรงตัว ขณะที่ราคาในประเทศเพิ่มขึ้น",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold prices",
+      "vietnam"
+     ],
+     "entities": [
+      "Laodong.vn"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "00fd3d673305",
@@ -1667,7 +1785,19 @@
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbzg2ZHZjeTd6V3pSZkdDSVM1REhOUWhoRFFfc0h6Y0ZtV0x2dkNWYlpJcXlPUHVqZlB5VkNvNUVvR1FqRElyNmNuTVIySS12ZGRxUXFNNmg0VXdWU1ZDVF9fS01TVnQxdWZOUUtVbDVJS2ZKY05rWVhrZU5TLWlEZExJMXNXOWZjT2tGVTAweWRrZkdnczZtdHpTYw?oc=5",
      "source": "Sada Elbalad English",
      "published": 1793111490,
-     "text": "Gold Steady as Dollar Strength Weighs Ahead of Fed Decision Sada Elbalad English"
+     "text": "Gold Steady as Dollar Strength Weighs Ahead of Fed Decision Sada Elbalad English",
+     "summary_th": "ราคาทองคำทรงตัว ขณะที่ค่าเงินดอลลาร์ที่แข็งค่ากดดันราคา ก่อนการประกาศการตัดสินใจของ Fed",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "dollar",
+      "fed"
+     ],
+     "entities": [
+      "Fed"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3352f4b0f8bb",
@@ -1675,7 +1805,22 @@
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVmxfbWtiampmS0xqOUU3Vnp0MnNhVktlQmNDQXp0VER3Q2NzWi1BRmlYWFBLRldKV1R3M1FBcmZnYVBsa1VJTV8xOVZFam1pS3lRUnU0RjIzS1JJQWR6WkFHVVdCYkJqQVgzei1aVWJZZEtHRlptbGZDZnNmdTNBV3pyTk91Q0luV0JrOUNSM2tXemFtSUllV1EydWJvd0Fo?oc=5",
      "source": "Vietnam.vn",
      "published": 1793140375,
-     "text": "Gold prices today, October 28, 2026: Prices of SJC, BTMC, PNJ, Phu Quy gold and international gold. Vietnam.vn"
+     "text": "Gold prices today, October 28, 2026: Prices of SJC, BTMC, PNJ, Phu Quy gold and international gold. Vietnam.vn",
+     "summary_th": "รายงานราคาทองคำประจำวันที่ 28 ตุลาคม 2026 ของ SJC, BTMC, PNJ, Phu Quy และราคาทองคำโลก",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold prices",
+      "vietnam"
+     ],
+     "entities": [
+      "SJC",
+      "BTMC",
+      "PNJ",
+      "Phu Quy",
+      "Vietnam.vn"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "32220124fd45",
@@ -1683,7 +1828,21 @@
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMXF2c0ZsV29ibmM3eUtKa3laV3lRbzVERG9aV3U5Zk9RTmxnQzU5MXNmVmFONzdMSC1Ic1pMVl9RRXR4dU5pRWFNajhpTnc4VW5GOXlMUkdGTHFmTGYxNEcyY29jTHpTYm41NWdJMnp2a3E0QVhPMnc5RG9ZX0QxX2ppVzMyeHByVnJpMy1qUVg?oc=5",
      "source": "BullionVault",
      "published": 1793109597,
-     "text": "Silver Falls, Gold Rallies as China Retail Investing Jumps, ETFs Sell BullionVault"
+     "text": "Silver Falls, Gold Rallies as China Retail Investing Jumps, ETFs Sell BullionVault",
+     "summary_th": "ราคาเงินร่วงลง ขณะที่ทองคำปรับขึ้น หลังนักลงทุนรายย่อยในจีนซื้อเพิ่มขึ้น และกองทุน ETF ขายออก",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "silver",
+      "china",
+      "etf"
+     ],
+     "entities": [
+      "China",
+      "BullionVault"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5bf6ff02e8de",
@@ -1691,7 +1850,22 @@
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRmJDblphSEdia3dUc2lpRzViZ3NiSVh6Z1pJRXNHdTVDUDI4OElNWDA5U0pQQjROeFR1enJySTFXblZ5Qzd5RWlZclZFVFo4T3lHTUZNWDBKS0NCeURtaWNBS05kNzA3amg1eVlLNXJPVXh1Q3U4VnZGMHVjSFA1THYyYmIzTzdKUWVPV3Q1T3UwenlmQWtwdVZLTkM?oc=5",
      "source": "Vietnam.vn",
      "published": 1793137962,
-     "text": "Gold price update, morning of October 28, 2026: SJC, plain 9999 DOJI BTMC Phu Quy rings. Vietnam.vn"
+     "text": "Gold price update, morning of October 28, 2026: SJC, plain 9999 DOJI BTMC Phu Quy rings. Vietnam.vn",
+     "summary_th": "รายงานราคาทองคำช่วงเช้าวันที่ 28 ตุลาคม 2026 ของ SJC, แหวนทอง 9999 DOJI, BTMC และ Phu Quy",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold prices",
+      "vietnam"
+     ],
+     "entities": [
+      "SJC",
+      "DOJI",
+      "BTMC",
+      "Phu Quy",
+      "Vietnam.vn"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "194a9f8e0688",
@@ -1699,7 +1873,19 @@
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUUxSc09LeEVwanJxc0tsdEFuTkFRdnVQeXFnWGdvb0poQXJCM3Ixc3ZUd3hEV24wWTFMN0I1cWJKS2l4aFZicnZIMWpscEd0TGdSdENiMGs1aV9sakZOckkzcXoxZTdlTDcxbk8xMXQtejhQT1pUaGhqSXVsbWRwaHo4UUF0UDctckQxTHdoSzBvdVFZQWhnRVdJSQ?oc=5",
      "source": "Traders Union",
      "published": 1793108367,
-     "text": "Gold outlook faces pressure from strong dollar and yields as central-bank buying offers support Traders Union"
+     "text": "Gold outlook faces pressure from strong dollar and yields as central-bank buying offers support Traders Union",
+     "summary_th": "บทความระบุว่าดอลลาร์แข็งค่าและผลตอบแทนพันธบัตรสูงเป็นแรงกดดันต่อทองคำ ขณะที่การซื้อของธนาคารกลางเป็นแรงหนุน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "dollar",
+      "central banks"
+     ],
+     "entities": [
+      "Traders Union"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8fbb2512c5af",
@@ -1707,7 +1893,22 @@
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc0hfc1VQYk9PNmljSm00M2YtaWljX21ORHZJWGYxOWZzay1LTmtJb3llYjRjYmFpc2VTWXAya0llWVdYQXpWVWd2b2NIVXl3Z05qUHNDbjhtVlNMSW9BcUsxNkl6ZVlHQ196SUx3a1BlNFNWSjRCdjhlbDN4TWNQMVRYdVVyVEJOSVVEWTFaQzljbUZTXzViV2dUYVhHMGgxekpyWXZBNmw5Mnc?oc=5",
      "source": "Market Index",
      "published": 1793137087,
-     "text": "Morning Wrap: ASX 200 to rise, chipmakers lift the S&P 500 and Nasdaq, Copper and gold prices bounce Market Index"
+     "text": "Morning Wrap: ASX 200 to rise, chipmakers lift the S&P 500 and Nasdaq, Copper and gold prices bounce Market Index",
+     "summary_th": "สรุปตลาดช่วงเช้า: ดัชนี ASX 200 มีแนวโน้มปรับขึ้น หุ้นชิปทำให้ S&P 500 และ Nasdaq ขึ้น และราคาทองแดงกับทองคำดีดตัว",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "stock market",
+      "chips",
+      "copper"
+     ],
+     "entities": [
+      "ASX 200",
+      "S&P 500",
+      "Nasdaq",
+      "Market Index"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c5870025ac13",
@@ -1715,7 +1916,19 @@
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY2N0dGg4Q1VsMUJXaTJYb1J4cjJiQjRGYS16djR0Nnh5VGVsQmFRZXctU0w3UUpfclljaFp4ZW5DVFZTLVYzTUlSWDY5Q0JsQ0JLYjF5aFJoVDBpOGhrWnkxdEZKdUtpQzNPc1kxRGdGRkdTZENtM25LLUNYNTdlMjNnMHdUcU52VVlFTkNXRUJKMDFhWEhFalptcGZvQ0FZeUl1UHF5T3Z2UmpWOUR6ekJmMnlHblRWQU1MUzFUaXZiUzA?oc=5",
      "source": "Reuters",
      "published": 1793107800,
-     "text": "POLL Strong dollar, high yields drag on gold outlook, but central-bank demand lends support Reuters"
+     "text": "POLL Strong dollar, high yields drag on gold outlook, but central-bank demand lends support Reuters",
+     "summary_th": "โพลของ Reuters ระบุว่าดอลลาร์แข็งและผลตอบแทนสูงเป็นแรงกดดันต่อแนวโน้มทองคำ แต่ความต้องการจากธนาคารกลางช่วยพยุงราคา",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "poll",
+      "central banks"
+     ],
+     "entities": [
+      "Reuters"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -1731,7 +1944,7 @@
      "published": 1793144067,
      "text": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
      "summary_th": "ครอบครัวหนึ่งฟ้องร้อง OpenAI โดยอ้างว่า ChatGPT แนะนำให้ลูกสาวลดการใช้ยาลงและปิดบังแพทย์ก่อนเสียชีวิต",
-     "importance": 3,
+     "importance": 2,
      "numbers": [],
      "tags": [
       "openai",
@@ -1742,7 +1955,10 @@
       "OpenAI",
       "ChatGPT"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ระดับความสำคัญสูงเกินไปสำหรับคดีฟ้องเดียว",
+     "checked_by": "claude/review"
     },
     {
      "id": "2f3094c64e2f",
@@ -1764,7 +1980,8 @@
      "entities": [
       "Anthropic"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "5b2f53c32341",
@@ -1787,7 +2004,8 @@
       "M6",
       "N1"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "aadf502f0576",
@@ -1808,7 +2026,8 @@
       "Apple",
       "iPhone Duo"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ea0ec7319b84",
@@ -1828,7 +2047,8 @@
      "entities": [
       "Anthropic"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "068ca2c5cfac",
@@ -1851,7 +2071,8 @@
      "entities": [
       "Ghostty"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b72d9d6a0aa9",
@@ -1870,7 +2091,8 @@
      "entities": [
       "Seattle"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1f592db8b086",
@@ -1888,7 +2110,8 @@
       "ai"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9dbb9e5222c0",
@@ -1905,7 +2128,8 @@
       "industrial intelligence"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "60c506bba53d",
@@ -1928,7 +2152,8 @@
       "South Carolina",
       "Washington"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ba3cece69efb",
@@ -1947,7 +2172,8 @@
      "entities": [
       "OpenAI"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "41b4cfff5ac9",
@@ -1972,7 +2198,8 @@
       "OpenAI",
       "Google"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d17d13a0006a",
@@ -1997,7 +2224,8 @@
       "DeepMind",
       "Genie 4"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d268714062f9",
@@ -2014,7 +2242,8 @@
       "cctv"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f76306e1fe03",
@@ -2038,7 +2267,8 @@
       "Guidewire",
       "Hyperexponential"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8cf7a789781e",
@@ -2056,7 +2286,8 @@
       "ai"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c0a45b82d2e0",
@@ -2077,7 +2308,8 @@
       "China",
       "DIA"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d4dc3defcdd4",
@@ -2099,7 +2331,8 @@
       "Starlink",
       "Ukraine"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "fd0d9722cc5a",
@@ -2121,7 +2354,8 @@
      "entities": [
       "Robinhood"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "022826ad38b2",
@@ -2146,7 +2380,8 @@
       "Claude",
       "Stanford"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "498cd68d7ab6",
@@ -2154,7 +2389,21 @@
      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5hVDhaX090U2pkczhOWkNCNWx1Yk1pRWJKOWU5QjdyZWdZN1d6UUM3Vm1BRUZsdlBLTjFraG1YWW9MUElISnFuNjFLbldZdkFxeU5HT292U2hkQnlqRjFva3M0d3BtZ9IBZkFVX3lxTE5hVDhaX090U2pkczhOWkNCNWx1Yk1pRWJKOWU5QjdyZWdZN1d6UUM3Vm1BRUZsdlBLTjFraG1YWW9MUElISnFuNjFLbldZdkFxeU5HT292U2hkQnlqRjFva3M0d3BtZw?oc=5",
      "source": "SBS 뉴스",
      "published": 1793136360,
-     "text": "On-Site Inspection of 2.47 Million Ballot Papers at Olympic Park... CCTV Secured SBS 뉴스"
+     "text": "On-Site Inspection of 2.47 Million Ballot Papers at Olympic Park... CCTV Secured SBS 뉴스",
+     "summary_th": "มีการตรวจสอบบัตรเลือกตั้ง 2.47 ล้านใบ ณ Olympic Park และมีการเก็บภาพจากกล้อง CCTV ไว้แล้ว",
+     "importance": 0,
+     "numbers": [
+      "2.47 Million"
+     ],
+     "tags": [
+      "election",
+      "ballots"
+     ],
+     "entities": [
+      "Olympic Park",
+      "SBS"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "fc56e29189bb",
@@ -2162,7 +2411,20 @@
      "link": "https://techcrunch.com/2026/10/27/from-8vc-to-benchmark-heres-whats-hiding-in-october-sec-filings/",
      "source": "TechCrunch",
      "published": 1793139438,
-     "text": "A whole crop of venture capital firms are raising significant new funds."
+     "text": "A whole crop of venture capital firms are raising significant new funds.",
+     "summary_th": "หัวข้อข่าวระบุว่าในเอกสาร SEC เดือนตุลาคมมีบริษัท 8VC และ Benchmark อยู่ด้วย และมีบริษัทร่วมลงทุนหลายแห่งกำลังระดมทุนใหม่จำนวนมาก",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "venture capital",
+      "sec filings"
+     ],
+     "entities": [
+      "8VC",
+      "Benchmark",
+      "TechCrunch"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6849d36ab61f",
@@ -2170,7 +2432,21 @@
      "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
      "source": "Ars Technica",
      "published": 1793137804,
-     "text": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says."
+     "text": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
+     "summary_th": "มีแผนในรัฐเดลาแวร์ที่จะให้ AI agent บริหารธุรกิจทั้งหมดได้โดยไม่มีมนุษย์ควบคุม ผู้แทน Comer กล่าวว่าเจ้าของบริษัทที่ AI บริหารจะหลุดพ้นความรับผิดต่อ AI ที่ \"ประมาท\"",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai agents",
+      "regulation",
+      "delaware"
+     ],
+     "entities": [
+      "Delaware",
+      "Comer",
+      "Ars Technica"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5d1ff194b502",
@@ -2178,7 +2454,22 @@
      "link": "https://www.theverge.com/policy/1019691/gas-leak-methane-rule-rollback-trump",
      "source": "The Verge",
      "published": 1793125513,
-     "text": "In its latest gift to oil and gas companies, the Trump administration is expected to announce plans today to weaken rules that guard against methane leaks. Methane is a smog-forming pollutant and a powerful greenhouse gas that's up to 80 times as potent as carbon dioxide on a 20-year horizon. It's the primary component of […]"
+     "text": "In its latest gift to oil and gas companies, the Trump administration is expected to announce plans today to weaken rules that guard against methane leaks. Methane is a smog-forming pollutant and a powerful greenhouse gas that's up to 80 times as potent as carbon dioxide on a 20-year horizon. It's the primary component of […]",
+     "summary_th": "รายงานว่ารัฐบาลทรัมป์คาดว่าจะประกาศแผนผ่อนกฎที่คุมการรั่วไหลของก๊าซมีเทนในวันนี้ ก๊าซมีเทนมีศักยภาพทำให้โลกร้อนได้สูงถึง 80 เท่าของคาร์บอนไดออกไซด์ในช่วง 20 ปี",
+     "importance": 1,
+     "numbers": [
+      "80"
+     ],
+     "tags": [
+      "methane",
+      "oil and gas",
+      "regulation"
+     ],
+     "entities": [
+      "Trump administration",
+      "The Verge"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a797867a8009",
@@ -2186,7 +2477,20 @@
      "link": "https://www.cnbc.com/2026/10/27/amazon-ai-coding-tokenmaxxing.html",
      "source": "CNBC Tech",
      "published": 1793127465,
-     "text": "Amazon has rapidly integrated AI across the e-commerce giant's sprawling business operations under CEO Andy Jassy."
+     "text": "Amazon has rapidly integrated AI across the e-commerce giant's sprawling business operations under CEO Andy Jassy.",
+     "summary_th": "บันทึกภายในของ Amazon ที่ชื่อเรื่องว่า anti-tokenmaxxing ระบุว่าวิศวกรควรเลือกใช้ AI อย่างระมัดระวังมากขึ้น Amazon นำ AI มาใช้ทั่วธุรกิจอย่างรวดเร็วภายใต้ CEO Andy Jassy",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "amazon"
+     ],
+     "entities": [
+      "Amazon",
+      "Andy Jassy",
+      "CNBC"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -2215,7 +2519,8 @@
       "Lilly",
       "Missouri AG"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "fa3f1327294a",
@@ -2235,7 +2540,8 @@
       "insurance"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d726bf23fb86",
@@ -2255,7 +2561,8 @@
      "entities": [
       "The Journal of Nuclear Medicine"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a58ab0109359",
@@ -2275,7 +2582,8 @@
       "longevity"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2e101419ed20",
@@ -2295,7 +2603,8 @@
      "entities": [
       "Artiva"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "602753db297b",
@@ -2315,7 +2624,8 @@
      "entities": [
       "U.S."
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "5e13cb88cd4f",
@@ -2337,7 +2647,8 @@
       "Medicines and Healthcare products Regulatory Agency",
       "GSK Vaccines Institute for Global Health"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a7eff0c39024",
@@ -2357,7 +2668,8 @@
      "entities": [
       "Anthropic"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "afc28efdf21a",
@@ -2377,7 +2689,8 @@
      "entities": [
       "FDA"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1f3e791efeba",
@@ -2397,7 +2710,8 @@
       "brain signals"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "15651f5f5cfe",
@@ -2417,7 +2731,8 @@
       "clinical trial"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "7c3193ab964e",
@@ -2437,7 +2752,8 @@
      "entities": [
       "RFK Jr."
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "605bc7bb38f6",
@@ -2455,7 +2771,8 @@
       "health disparity"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c8df7fd46544",
@@ -2473,7 +2790,8 @@
       "africa"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2ffb20ccdd2f",
@@ -2493,7 +2811,8 @@
      "entities": [
       "Bloomsbury Genetic Therapies"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "348cd8a9e1f4",
@@ -2502,7 +2821,7 @@
      "source": "Medical Xpress",
      "published": 1793142006,
      "text": "A new study by researchers at Bournemouth University has shown that autistic people consistently experience more severe menopausal symptoms than non-autistic people, leading to poorer well-being and quality of life.",
-     "summary_th": "การศึกษาคอรฟير์มว่าผู้หญิงที่เป็นออทิสติกมีอาการวัยทองที่รุนแรงกว่าคนทั่วไป",
+     "summary_th": "การศึกษาของ Bournemouth University ยืนยันว่าผู้หญิงที่เป็นออทิสติกมีอาการวัยทองรุนแรงกว่าคนทั่วไป",
      "importance": 1,
      "numbers": [],
      "tags": [
@@ -2513,7 +2832,10 @@
      "entities": [
       "Bournemouth University"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "คำแปลเพี้ยน (ข้อความภาษาไทยผิด)",
+     "checked_by": "claude/review"
     },
     {
      "id": "3df48b9019ff",
@@ -2533,7 +2855,8 @@
      "entities": [
       "Nyrada"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d674cc39711c",
@@ -2554,7 +2877,8 @@
       "Eli Lilly",
       "Novo Nordisk"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "827df4ac6ab2",
@@ -2578,7 +2902,8 @@
       "Merck",
       "Moderna"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "68403036b114",
@@ -2601,7 +2926,8 @@
       "Anthropic",
       "Claude"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   }
