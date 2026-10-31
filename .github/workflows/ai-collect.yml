@@ -1,10 +1,13 @@
 name: AI news collect
 
-# Separate AI digest in ai/ (config/ai/sources.yaml). Runs after the main collect so both
-# commits do not race; 05:47 Asia/Bangkok (GitHub usually starts scheduled runs late).
+# Separate AI digest in ai/ (config/ai/sources.yaml). Three runs a day so fast-moving news
+# (security flaws, launches) lands within hours; each run adds to the day's file (collect.py merges).
+# 05:47, 12:47, 19:47 Asia/Bangkok (GitHub usually starts scheduled runs late).
 on:
   schedule:
     - cron: "47 22 * * *"
+    - cron: "47 5 * * *"
+    - cron: "47 12 * * *"
   workflow_dispatch:
 
 permissions:

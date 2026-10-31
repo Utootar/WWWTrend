@@ -4,7 +4,9 @@ on:
   schedule:
     # 04:17 Asia/Bangkok. GitHub starts scheduled runs 1.5-4 hours late (digest landed 07:34-10:19
     # in Oct 2026), so this is set early and off the hour; the Claude routines run after ~10:00.
+    # A second run at 15:17 adds the day's later news to the same file (collect.py merges same-day runs).
     - cron: "17 21 * * *"
+    - cron: "17 8 * * *"
   workflow_dispatch:
 
 permissions:

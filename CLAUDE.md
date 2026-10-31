@@ -7,10 +7,10 @@
 
 | ใคร | ทำอะไร | เมื่อไหร่ |
 |---|---|---|
-| GitHub Actions + Gemini (หลัก) / OpenRouter (สำรอง) | เก็บข่าว RSS + ราคา ย่อทีละข่าว จัดหมวด (มีช่อง Sonnet API ถ้าใส่ secret `ANTHROPIC` ตอนนี้ไม่ได้ใช้) | ตั้ง 04:17 เวลาไทย แต่ GitHub เริ่มช้า ข่าวเข้าจริงราว 07:30–10:30 |
+| GitHub Actions + Gemini (หลัก) / OpenRouter (สำรอง) | เก็บข่าว RSS + ราคา ย่อทีละข่าว จัดหมวด (มีช่อง Sonnet API ถ้าใส่ secret `ANTHROPIC` ตอนนี้ไม่ได้ใช้) | 04:17 + 15:17 เวลาไทย (รอบบ่ายเติมข่าวลงไฟล์วันเดียวกัน) GitHub เริ่มช้า รอบเช้าข่าวเข้าจริงราว 07:30–10:30 |
 | Claude (Haiku 5.5) | ย่อข่าวที่ตัวฟรีพลาด + ตรวจแก้ข่าวที่ตัวฟรีย่อผิด (วันนี้+เมื่อวาน) ตาม `prompts/repair-summaries.md` (ใช้ sub) | ต่อจากเก็บข่าวใน GitHub + ทุกวัน 09:47 (Routine บน claude.ai) |
 | Claude (Sonnet 5.5) | วิเคราะห์ข่าว 2 วันล่าสุด ตาม `prompts/analyze-2day.md` | วันเว้นวัน 10:12 (Routine บน claude.ai) |
-| GitHub Actions + โมเดลฟรี + Haiku | เก็บข่าว AI แยกโฟลเดอร์ `ai/` (โมเดล · Agent/Harness/Skills/MCP · ใช้งานจริง · กฎ) แล้ว Haiku ซ่อม/ตรวจแก้ข่าวย่อ | ทุกวัน 05:47 (หลังข่าวหลัก) |
+| GitHub Actions + โมเดลฟรี + Haiku | เก็บข่าว AI แยกโฟลเดอร์ `ai/` (ข่าวด่วน Techmeme/HN · ช่องโหว่ไซเบอร์ · โมเดล · Agent/Harness/Skills/MCP · ใช้งานจริง · กฎ) แหล่งเชื่อถือได้เท่านั้น แล้ว Haiku ซ่อม/ตรวจแก้ข่าวย่อ | วันละ 3 รอบ 05:47 · 12:47 · 19:47 |
 | Claude (Opus 5.5) | วิเคราะห์ลึกทั้งสัปดาห์ + เรดาร์ของที่กำลังจะโต ตาม `prompts/weekly-deep.md` + สรุป AI ตาม `prompts/ai-weekly.md` | อาทิตย์ 10:42 (Routine บน claude.ai) |
 | Claude | ร่างสื่อ (ภาพปัด + วิดีโอผู้ประกาศ) จากข่าว + บทวิเคราะห์ ตาม `prompts/make-media.md` ไม่โพสต์เอง | ทุก 2 วัน 11:07 (scheduled task) |
 

@@ -49,7 +49,8 @@ Rules:
 - summary_th: 1-2 short Thai sentences saying what happened (who, what, how much).
   If the text is thin, translate the headline faithfully and stop.
 - numbers: copy figures exactly as they appear in the input (e.g. "$4,189", "2.5%"). Empty list if none.
-- importance: 3 = moves markets/industry or a big policy/approval/deal; 2 = notable; 1 = minor;
+- importance: 3 = moves markets/industry, a big policy/approval/deal, or a security flaw/hack that hits
+  many users or is being exploited; 2 = notable; 1 = minor;
   0 = off-topic for the category, an ad, a listicle, or a how-to.
 - tags: 1-4 short English topic tags in lower case (e.g. "fed", "opec", "ai chips", "glp-1").
 - entities: companies, people, countries, products named in the input.
@@ -353,19 +354,33 @@ def run(root, config, now, summarizer=None, fetch=fetch_feed, prices_fn=fetch_pr
         log(f"{cat['key']}: {sum(map(len, per_feed))} fetched, {len(items)} kept")
         categories.append({"key": cat["key"], "label": cat["label"], "items": items})
 
-    failed = 0
-    if summarizer is not None:
-        batch = config["llm"].get("batch_size", 20)
-        for cat in categories:
-            failed += summarize_category(cat["items"], cat["label"], summarizer, batch, log=log)
-
-    prices = prices_fn(config.get("prices", []), log=log)
-    theme_prices = prices_fn(config["theme_stocks"], log=log) if config.get("theme_stocks") else []
-    models = {it["model"] for c in categories for it in c["items"] if it.get("model")}
-
     month = day.strftime("%Y-%m")
     data_path = root / "data" / month / f"{day}.json"
     news_path = root / "news" / month / f"{day}.md"
+
+    # A later run on the same day adds to that day's file instead of replacing it (runs several times a day).
+    # Earlier items stay as they are; an earlier item that failed to summarise is retried if it comes back.
+    earlier = json.loads(data_path.read_text(encoding="utf-8")) if data_path.exists() else {}
+    before = {c["key"]: c["items"] for c in earlier.get("categories", [])}
+    for cat in categories:
+        fresh_ids = {it["id"] for it in cat["items"]}
+        kept = [it for it in before.pop(cat["key"], []) if "summary_th" in it or it["id"] not in fresh_ids]
+        kept_ids = {it["id"] for it in kept}
+        cat["items"], cat["new"] = kept, [it for it in cat["items"] if it["id"] not in kept_ids]
+
+    if summarizer is not None:
+        batch = config["llm"].get("batch_size", 20)
+        for cat in categories:
+            summarize_category(cat["new"], cat["label"], summarizer, batch, log=log)
+    for cat in categories:
+        cat["items"] += cat.pop("new")
+    failed = sum(1 for c in categories for it in c["items"] if "summary_th" not in it)
+
+    prices = prices_fn(config.get("prices", []), log=log) or earlier.get("prices", [])
+    theme_prices = (prices_fn(config["theme_stocks"], log=log) if config.get("theme_stocks") else []) \
+        or earlier.get("theme_prices", [])
+    models = {it["model"] for c in categories for it in c["items"] if it.get("model")}
+
     data_path.parent.mkdir(parents=True, exist_ok=True)
     news_path.parent.mkdir(parents=True, exist_ok=True)
 

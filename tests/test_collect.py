@@ -1,6 +1,6 @@
 import json
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import pytest
@@ -104,6 +104,22 @@ def fake_fetch(feed, log=print):
 def fake_prices(tickers, log=print):
     return [{"symbol": "GC=F", "label": "ทองคำ", "close": 4190.3, "prev_close": 4156.0,
              "change_pct": 0.83, "as_of": "2026-10-06", "currency": "USD"}]
+
+
+def test_second_run_same_day_adds_new_items_and_keeps_earlier_ones(tmp_path):
+    collect.run(tmp_path, make_config(), NOW, FakeSummarizer(), fake_fetch, fake_prices, log=lambda m: None)
+
+    def later_fetch(feed, log=print):  # the earlier stories plus one fresh one
+        return [item(i, i + 1, feed["name"]) for i in range(3)] + [item(9, 0.5, feed["name"])]
+
+    later = NOW + timedelta(hours=6)
+    collect.run(tmp_path, make_config(), later, FakeSummarizer(), later_fetch, lambda t, log=print: [],
+                log=lambda m: None)
+    data = json.loads((tmp_path / "data/2026-10/2026-10-07.json").read_text(encoding="utf-8"))
+    titles = [it["title"] for it in data["categories"][0]["items"]]
+    assert len(titles) == 4 and len(set(titles)) == 4      # 3 earlier + 1 new, no duplicates
+    assert data["prices"][0]["close"] == 4190.3            # failed price fetch keeps the earlier prices
+    assert data["summary_failed"] == 0
 
 
 def test_ai_folder_has_own_title_no_prices_and_is_linked_from_main_latest(tmp_path):
