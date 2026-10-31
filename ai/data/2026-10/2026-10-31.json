@@ -1,13 +1,353 @@
 {
  "date": "2026-10-31",
- "collected_at": "2026-10-31T08:51:43+07:00",
+ "collected_at": "2026-10-31T11:31:13+07:00",
  "models": [
-  "gemini/gemini-flash-latest"
+  "gemini/gemini-flash-latest",
+  "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 0,
+ "summary_failed": 12,
  "prices": [],
  "theme_prices": [],
  "categories": [
+  {
+   "key": "breaking",
+   "label": "ข่าวด่วนเทค (Techmeme · Hacker News)",
+   "items": [
+    {
+     "id": "ca5fd62bfcc4",
+     "title": "John Ternus says Apple doesn't \"want to ship AI for AI's sake\" and that Tim Cook is \"available to help wherever I ask\" on policy; Ternus has yet to meet Trump (Steven Levy/Wired)",
+     "link": "https://www.techmeme.com/261031/p1",
+     "source": "Techmeme",
+     "published": 1793421001,
+     "text": "Steven Levy / Wired : John Ternus says Apple doesn't “want to ship AI for AI's sake” and that Tim Cook is “available to help wherever I ask” on policy; Ternus has yet to meet Trump — Apple doesn't need fixing, and it doesn't want drama. Its new leader is a “product guy” who bleeds six colors.",
+     "summary_th": "John Ternus ระบุว่า Apple ไม่ต้องการปล่อย AI เพียงเพื่อสร้างกระแส และ Tim Cook พร้อมให้ความช่วยเหลือด้านนโยบาย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "apple",
+      "ai",
+      "tim cook",
+      "john ternus"
+     ],
+     "entities": [
+      "Apple",
+      "John Ternus",
+      "Tim Cook",
+      "Trump"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "9e37c40a85b3",
+     "title": "AI isn't replacing SREs, it's deskilling them",
+     "link": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+     "source": "Hacker News",
+     "published": 1793375538,
+     "text": "Article URL: https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling Comments URL: https://news.ycombinator.com/item?id=50305693 Points: 535 # Comments: 403",
+     "summary_th": "บทความระบุว่า AI ไม่ได้มาแทนที่วิศวกร SRE แต่ทำให้ทักษะของพวกเขาลดลง",
+     "importance": 1,
+     "numbers": [
+      "535",
+      "403"
+     ],
+     "tags": [
+      "ai",
+      "sre"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "d4deb16fe72d",
+     "title": "Sources: OpenAI has secured ~$11B in commitments for its latest funding round, less than half its initial $30B target, and expects to raise more in coming weeks (Berber Jin/Wall Street Journal)",
+     "link": "https://www.techmeme.com/261030/p31",
+     "source": "Techmeme",
+     "published": 1793413802,
+     "text": "Berber Jin / Wall Street Journal : Sources: OpenAI has secured ~$11B in commitments for its latest funding round, less than half its initial $30B target, and expects to raise more in coming weeks — The ChatGPT maker's latest funding round values it at $1.25 trillion, less than its $1.4 trillion target",
+     "summary_th": "OpenAI สามารถระดมทุนได้ประมาณ 11,000 ล้านดอลลาร์ ซึ่งน้อยกว่าเป้าหมายเดิมที่ตั้งไว้ 30,000 ล้านดอลลาร์ และมีมูลค่าบริษัทอยู่ที่ 1.25 ล้านล้านดอลลาร์",
+     "importance": 3,
+     "numbers": [
+      "~$11B",
+      "$30B",
+      "$1.25 trillion",
+      "$1.4 trillion"
+     ],
+     "tags": [
+      "openai",
+      "funding",
+      "chatgpt"
+     ],
+     "entities": [
+      "OpenAI",
+      "ChatGPT"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "0e232296f4e5",
+     "title": "Northflank Breached",
+     "link": "https://status.northflank.com",
+     "source": "Hacker News",
+     "published": 1793373031,
+     "text": "Article URL: https://status.northflank.com Comments URL: https://news.ycombinator.com/item?id=50305025 Points: 386 # Comments: 289",
+     "summary_th": "Northflank ถูกเจาะระบบความปลอดภัย (Breached)",
+     "importance": 3,
+     "numbers": [
+      "386",
+      "289"
+     ],
+     "tags": [
+      "security",
+      "breach"
+     ],
+     "entities": [
+      "Northflank"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "26edea9693db",
+     "title": "Sources: OpenAI now seeks ~$20B at a $1.25T valuation for its latest round, from $30B at a $1.4T valuation, as some investors cut commitments amid an AI selloff (Financial Times)",
+     "link": "https://www.techmeme.com/261030/p30",
+     "source": "Techmeme",
+     "published": 1793408453,
+     "text": "Financial Times : Sources: OpenAI now seeks ~$20B at a $1.25T valuation for its latest round, from $30B at a $1.4T valuation, as some investors cut commitments amid an AI selloff — ChatGPT maker is now seeking about $20bn at a $1.25tn valuation as it tempers its ambitions — OpenAI has slashed the target …",
+     "summary_th": "OpenAI ปรับลดเป้าหมายการระดมทุนเหลือประมาณ 20,000 ล้านดอลลาร์ ที่มูลค่า 1.25 ล้านล้านดอลลาร์ จากเดิมที่ตั้งไว้ 30,000 ล้านดอลลาร์",
+     "importance": 3,
+     "numbers": [
+      "~$20B",
+      "$1.25T",
+      "$30B",
+      "$1.4T",
+      "about $20bn",
+      "$1.25tn"
+     ],
+     "tags": [
+      "openai",
+      "funding",
+      "valuation"
+     ],
+     "entities": [
+      "OpenAI",
+      "ChatGPT"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "b192f74f0acd",
+     "title": "The $6.3B Binance hack was pulled off in just 20 minutes",
+     "link": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
+     "source": "Hacker News",
+     "published": 1793364601,
+     "text": "Article URL: https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/ Comments URL: https://news.ycombinator.com/item?id=50303172 Points: 372 # Comments: 255",
+     "summary_th": "เหตุการณ์แฮก Binance มูลค่า 6,300 ล้านดอลลาร์ เกิดขึ้นภายในเวลาเพียง 20 นาที",
+     "importance": 3,
+     "numbers": [
+      "$6.3B",
+      "20",
+      "372",
+      "255"
+     ],
+     "tags": [
+      "binance",
+      "hack",
+      "security"
+     ],
+     "entities": [
+      "Binance"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "4ed177b1d096",
+     "title": "Sources: Baseten is raising ~$2B in two tranches, one valuing it at $26B and the other at $30B; Baseten was valued at $13B in June after raising $1.5B (Bloomberg)",
+     "link": "https://www.techmeme.com/261030/p29",
+     "source": "Techmeme",
+     "published": 1793406002,
+     "text": "Bloomberg : Sources: Baseten is raising ~$2B in two tranches, one valuing it at $26B and the other at $30B; Baseten was valued at $13B in June after raising $1.5B — Artificial intelligence startup Baseten is set to raise new funding that would more than double its valuation to about $30 billion, according to people familiar with the efforts.",
+     "summary_th": "Baseten สตาร์ทอัพด้าน AI กำลังระดมทุนประมาณ 2,000 ล้านดอลลาร์ โดยมีมูลค่าบริษัทสูงถึง 30,000 ล้านดอลลาร์",
+     "importance": 2,
+     "numbers": [
+      "~$2B",
+      "$26B",
+      "$30B",
+      "$13B",
+      "$1.5B"
+     ],
+     "tags": [
+      "baseten",
+      "funding",
+      "ai",
+      "startup"
+     ],
+     "entities": [
+      "Baseten"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "1925bee6805a",
+     "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+     "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+     "source": "Hacker News",
+     "published": 1793344152,
+     "text": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 829 # Comments: 504",
+     "summary_th": "พบแบ็คดอร์ในส่วนขยาย Claude Code สำหรับ VS Code บน Cursor Marketplace",
+     "importance": 3,
+     "numbers": [
+      "829",
+      "504"
+     ],
+     "tags": [
+      "security",
+      "cursor",
+      "claude code",
+      "vs code"
+     ],
+     "entities": [
+      "Cursor Marketplace",
+      "Claude Code",
+      "VS Code"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "c64ee4f3ac9d",
+     "title": "Sources: Google is in talks with the DOD on a new effort to secure the data that feeds into software being built for the Golden Dome missile defense program (Bloomberg)",
+     "link": "https://www.techmeme.com/261030/p28",
+     "source": "Techmeme",
+     "published": 1793400601,
+     "text": "Bloomberg : Sources: Google is in talks with the DOD on a new effort to secure the data that feeds into software being built for the Golden Dome missile defense program — Alphabet Inc.'s Google is in talks with the US Defense Department to work on a new data security effort underpinning …",
+     "summary_th": "Google กำลังเจรจากับกระทรวงกลาโหมสหรัฐฯ ในการรักษาความปลอดภัยข้อมูลสำหรับโปรแกรมป้องกันมิสไซล์ Golden Dome",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "google",
+      "dod",
+      "security",
+      "golden dome"
+     ],
+     "entities": [
+      "Google",
+      "DOD",
+      "Alphabet Inc.",
+      "Golden Dome"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "7c62dafebb9d",
+     "title": "Filing: Vancouver, WA-based Powerlattice, which makes a power delivery chiplet to reduce AI compute power needs by 50%+, raised $86M, after raising $31M in 2025 (Kurt Schlosser/GeekWire)",
+     "link": "https://www.techmeme.com/261030/p27",
+     "source": "Techmeme",
+     "published": 1793397900,
+     "text": "Kurt Schlosser / GeekWire : Filing: Vancouver, WA-based Powerlattice, which makes a power delivery chiplet to reduce AI compute power needs by 50%+, raised $86M, after raising $31M in 2025 — Powerlattice, a Vancouver, Wash.-based startup developing chips that cut the power demands of AI processors, has raised $86 million, according to an SEC filing on Friday.",
+     "summary_th": "Powerlattice สตาร์ทอัพที่พัฒนาชิปช่วยลดความต้องการพลังงานสำหรับการประมวลผล AI ระดมทุนได้ 86 ล้านดอลลาร์",
+     "importance": 2,
+     "numbers": [
+      "50%+",
+      "$86M",
+      "$31M",
+      "2025"
+     ],
+     "tags": [
+      "powerlattice",
+      "funding",
+      "ai chips"
+     ],
+     "entities": [
+      "Powerlattice"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    }
+   ]
+  },
+  {
+   "key": "security",
+   "label": "ช่องโหว่และภัยไซเบอร์",
+   "items": [
+    {
+     "id": "f167e37bde6d",
+     "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+     "link": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+     "source": "BleepingComputer",
+     "published": 1793394586,
+     "text": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]"
+    },
+    {
+     "id": "5ec9d44a0613",
+     "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
+     "link": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
+     "source": "SecurityWeek",
+     "published": 1793372965,
+     "text": "Over 22.6 million exposed instances are potentially affected by the critical PHP flaws that have been targeted for over a week. The post PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress appeared first on SecurityWeek ."
+    },
+    {
+     "id": "46d8d781bead",
+     "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+     "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+     "source": "The Hacker News",
+     "published": 1793379524,
+     "text": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adversary\" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in"
+    },
+    {
+     "id": "ac7367a35b67",
+     "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
+     "link": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
+     "source": "Dark Reading",
+     "published": 1793390758,
+     "text": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs)."
+    },
+    {
+     "id": "9a774a83ab23",
+     "title": "‘Dangerous:’ CISA official criticizes company’s decision to release PHP bug early",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOFJnbllXY1hhRlFacW93TUg4aHNUUzA5N1BveEZraTJPYkhWY0hmckZqekNHcU1vQ1ZobUdmN2J1VWlicDdLVFc3VWppcGg4dm41eHpCSXdKWGhJV1h0ejBiWE1TYUI4Z2U4T1BFVS1Vb1VGdkxGOUxnaFlvRXpxaHdGT3A4eml3bEwtajFLSzdyMlJzbFJXSzdEUE9oUlNaQm5GNVBuM044Q0I0NGE0YVFfYnNmUVduZmJuV0dEb1RZWmJ1RDQyX0hCSQ?oc=5",
+     "source": "Federal News Network",
+     "published": 1793401518,
+     "text": "‘Dangerous:’ CISA official criticizes company’s decision to release PHP bug early Federal News Network"
+    },
+    {
+     "id": "e645dafde1d4",
+     "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+     "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+     "source": "BleepingComputer",
+     "published": 1793375900,
+     "text": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]"
+    },
+    {
+     "id": "5e82c4f3b3cc",
+     "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
+     "link": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
+     "source": "SecurityWeek",
+     "published": 1793371295,
+     "text": "Noteworthy stories that might have slipped under the radar: Iran eyed in military freezer hacks, Copenhagen University breach, AI-powered malware. The post In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak appeared first on SecurityWeek ."
+    },
+    {
+     "id": "bfec2004bdb1",
+     "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+     "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+     "source": "The Hacker News",
+     "published": 1793373448,
+     "text": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host. A malicious or compromised host can exploit the flaw to crash the viewer's TeamViewer and, depending on the platform, may also run"
+    },
+    {
+     "id": "983cd7433fe6",
+     "title": "Behind the Scenes of How Operation Blackout Went Down",
+     "link": "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down",
+     "source": "Dark Reading",
+     "published": 1793389568,
+     "text": "A recent law enforcement operation to dismantle harmful scam centers was a big success. A threat intelligence expert walks us through what happened and why he wants more of the same."
+    },
+    {
+     "id": "91c8e02de552",
+     "title": "U.S. CISA adds GitLab and Cisco flaws to its Known Exploited Vulnerabilities catalog",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaVRveW83MXJ1Ykc4eWNuZVlsZjg3aUtyVlpqWFFoVmNQNDcyWjFvcE1ZY1RmM1VCMnJEVjZXRlhSU3pYeWt6VmNsRFp4X3pwN0E5QWlHbHpncUJtZzMtNnJZdm5OWVRMdHlfY2R5U0R4Y3BuWnUtYnNjYXBIZVJwMm9KRGh5TDdvMU0ySDlDd3ZOR0Y4NGRTRVVnN0dUX0Q5LUxueVNxekx4TGpIcTVEbExPMnpFT0hqTEd0RHoxQjZ6QzlUUzlVaXg1RELSAdIBQVVfeXFMTnNxMXdiT2ltM0t3aDVDOEk1dUNFb0FxSlpTM1JkSVJjNUdlTnpoMnlzaUlKYktOU0N4VzNfaTZfc1h1elhyZjlLbjgzbzZKVVd4LXdIT2w2UElnTTFweUxrU0JnTERZVXFGRmZWTlgzTXh1NHBGVEdkLXFjTVdraWkza3RxbGV1aWdyS3NWM0hmeW9ndHQzRGNVV0dZQmxXeXA0dHdha29BVHJSOVVpWDA2VjRVM2tRQkZUU0x2VWNlX3lLVU13ZWNNLUNsRGhzbm5B?oc=5",
+     "source": "Security Affairs",
+     "published": 1793393855,
+     "text": "U.S. CISA adds GitLab and Cisco flaws to its Known Exploited Vulnerabilities catalog Security Affairs"
+    }
+   ]
+  },
   {
    "key": "models",
    "label": "โมเดลและบริษัท AI",
@@ -262,6 +602,257 @@
       "OpenAI"
      ],
      "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "6336aff37e57",
+     "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+     "link": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+     "source": "TechCrunch",
+     "published": 1793409605,
+     "text": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+     "summary_th": "Nvidia กำลังพิจารณาค้ำประกันเงินกู้ให้กับศูนย์ข้อมูล AI ของ Nscale ในเวสต์เวอร์จิเนีย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "nscale",
+      "ai data center"
+     ],
+     "entities": [
+      "Nvidia",
+      "Nscale"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "011fdc062b2b",
+     "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+     "link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+     "source": "The Verge",
+     "published": 1793399573,
+     "text": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This launch doesn't bring […]",
+     "summary_th": "Apple ประกาศเปิดตัว Apple Intelligence ในประเทศจีนผ่านระบบ iOS 27.3",
+     "importance": 2,
+     "numbers": [
+      "27.3",
+      "4"
+     ],
+     "tags": [
+      "apple",
+      "apple intelligence",
+      "ios"
+     ],
+     "entities": [
+      "Apple"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "df26d5473c41",
+     "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
+     "link": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
+     "source": "Ars Technica",
+     "published": 1793396514,
+     "text": "Boom’s airliner may be delayed, and its data center power business lost a customer.",
+     "summary_th": "เครื่องบินโดยสารความเร็วเหนือเสียงของ Boom อาจล่าช้า เนื่องจากบริษัทหันไปทำธุรกิจพลังงานสำหรับศูนย์ข้อมูล AI",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "boom",
+      "ai data center"
+     ],
+     "entities": [
+      "Boom"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "853707dc5c9c",
+     "title": "Signs of a Tech Slowdown Are the Last Thing This Market Needs",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOblM1N3hWM0E1TEpacTJSVW5jc01GLWM0M0w2S3UxUTBtNUZfbl9NVG9tQnhNbTEzZnRTb3FXVVZ5WnZ5SU9SR1pPOHZXNFYyd1NSdklLMjBzQWRxaFdnY05yY016NVVtQzVta0lzLXAyYk54V2daUTVrc1ZtTzR4amFVaTZCQWZnRkFlRUprdzU4ZHh5cFRqbFZOS0hmVEFtVlY4QlBwMEVLRlBEenFGS0ZfZmpPQQ?oc=5",
+     "source": "Bloomberg.com",
+     "published": 1793414704,
+     "text": "Signs of a Tech Slowdown Are the Last Thing This Market Needs Bloomberg.com",
+     "summary_th": "ตลาดเผชิญสัญญาณภาวะเทคโนโลยีชะลอตัว",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "tech slowdown",
+      "market"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "43523836c604",
+     "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+     "link": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+     "source": "TechCrunch",
+     "published": 1793400973,
+     "text": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+     "summary_th": "Ollie ผู้ช่วย AI ที่เน้นความเป็นส่วนตัว ประกาศปิดตัวลงในหนึ่งสัปดาห์",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ollie",
+      "ai assistant",
+      "privacy"
+     ],
+     "entities": [
+      "Ollie"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "e6a83342c0c5",
+     "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+     "link": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+     "source": "The Verge",
+     "published": 1793393323,
+     "text": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented on AI's impact on math, Altman said: \"A lot of people want […]",
+     "summary_th": "แซม อัลท์แมน ซีอีโอ OpenAI ระบุว่าการมี RAM ในศูนย์ข้อมูลดีกว่าบนเดสก์ท็อปส่วนตัว",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "sam altman",
+      "openai",
+      "ram"
+     ],
+     "entities": [
+      "Sam Altman",
+      "OpenAI"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "ce0cce9f3bc5",
+     "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+     "link": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+     "source": "Ars Technica",
+     "published": 1793394594,
+     "text": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+     "summary_th": "ส่วนขยาย VS code ของ Anthropic บน Cursor ถูกฝังแบ็คดอร์เป็นเวลาเกือบ 12 ชั่วโมง",
+     "importance": 2,
+     "numbers": [
+      "12"
+     ],
+     "tags": [
+      "anthropic",
+      "cursor",
+      "security"
+     ],
+     "entities": [
+      "Anthropic",
+      "Cursor"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "d669e4242ceb",
+     "title": "OpenAI slashes funding target by $10 billion amid tech rout, FT reports",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTWw3N0l5dm5KUi1FQmllTEpEeUdkY1k5TVlFNTlnWWFlbTgtdUJfZE9RMjZiQlJEVXU2VFo2blVaWk1MZzNYMm9OYmdrSngtSk02YnhKNDdVMVZkS3hIMHpWZ2dnRjJZWjBzQ0lFRU4ySFFUQzdTdnUzN3JETGtCYlo3Y3kxeGJseG5veVJMSVVCRDVPYzB3TXQyaFE?oc=5",
+     "source": "Reuters",
+     "published": 1793405820,
+     "text": "OpenAI slashes funding target by $10 billion amid tech rout, FT reports Reuters",
+     "summary_th": "OpenAI ลดเป้าหมายการระดมทุนลง 10,000 ล้านดอลลาร์ท่ามกลางภาวะตลาดเทคโนโลยีตกต่ำ",
+     "importance": 3,
+     "numbers": [
+      "$10 billion"
+     ],
+     "tags": [
+      "openai",
+      "funding"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "6198118eee13",
+     "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+     "link": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+     "source": "TechCrunch",
+     "published": 1793397274,
+     "text": "Intel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise.",
+     "summary_th": "หุ้นของ Intel ร่วงลงส่งผลให้มูลค่าเงินลงทุนของรัฐบาลลดลง 12,000 ล้านดอลลาร์ท่ามกลางปัญหาอุตสาหกรรม AI แย่งชิงชิ้นส่วน",
+     "importance": 2,
+     "numbers": [
+      "$12B"
+     ],
+     "tags": [
+      "intel",
+      "stock",
+      "hardware"
+     ],
+     "entities": [
+      "Intel"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "25a528e218b1",
+     "title": "The biggest names in AI are backing a new way to opt out of scraping",
+     "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+     "source": "The Verge",
+     "published": 1793391970,
+     "text": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal […]",
+     "summary_th": "บริษัท AI รายใหญ่สนับสนุนมาตรฐานใหม่เพื่อให้สำนักพิมพ์เลือกปฏิเสธการถูกดึงข้อมูลไปฝึก AI ได้",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "openai",
+      "google",
+      "microsoft",
+      "anthropic"
+     ],
+     "entities": [
+      "OpenAI",
+      "Google",
+      "Microsoft",
+      "Anthropic"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "65d255a74525",
+     "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+     "link": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+     "source": "Ars Technica",
+     "published": 1793392813,
+     "text": "People who love AI don't always love telling others they used it.",
+     "summary_th": "พรอวอสต์ของ Dartmouth ต้องพ้นจากตำแหน่งเนื่องจากการใช้งาน AI ของตนเอง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "dartmouth",
+      "ai use"
+     ],
+     "entities": [
+      "Dartmouth"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "670b2e904810",
+     "title": "OpenAI slashes funding target by $10bn as tech anxieties mount",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaUV4SzVmMzFLRkI1UUhWNFBucHlqRTVacXh1cDlWRTFVY1pQeHBIUGtTRFlhSDNHc25OVUVqWGZZOFZLazRVaVpWR3luWk5ORWRBeFBUd0RsYndHZ3YwV2RVRFN5WTRYdzEwTm8yS0Z0YkRUQmNpTERIaWdKQU1Dbl9DZk4?oc=5",
+     "source": "Financial Times",
+     "published": 1793405205,
+     "text": "OpenAI slashes funding target by $10bn as tech anxieties mount Financial Times",
+     "summary_th": "OpenAI ลดเป้าหมายการระดมทุนลง 10,000 ล้านดอลลาร์ท่ามกลางความกังวลในภาคเทคโนโลยี",
+     "importance": 3,
+     "numbers": [
+      "$10bn"
+     ],
+     "tags": [
+      "openai",
+      "funding"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
     }
    ]
   },
@@ -530,6 +1121,259 @@
       "Claude Code"
      ],
      "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "f998c8458eaa",
+     "title": "DoorDash Cuts Grocery Reorder Latency from 16 to 2 Seconds with AI Agents",
+     "link": "https://www.infoq.com/news/2026/10/doordash-ai-grocery-reorder/",
+     "source": "InfoQ",
+     "published": 1793367060,
+     "text": "DoorDash reduced grocery reorder latency from 16 to 2 seconds by precomputing recurring purchase needs using batch LLM inference and deterministic validation. Live catalog resolution keeps product selections current, while an editable shopping interface avoids unnecessary model calls. The company reports that shopping list views doubled and the flow’s order rate increased by approximately 34% By Leela Kumili",
+     "summary_th": "DoorDash ลดเวลาแฝงในการสั่งซื้อของชำซ้ำจาก 16 เหลือ 2 วินาที ด้วยการใช้ AI Agents และเพิ่มอัตราการสั่งซื้อประมาณ 34%",
+     "importance": 2,
+     "numbers": [
+      "16",
+      "2",
+      "34%"
+     ],
+     "tags": [
+      "ai agents",
+      "doordash",
+      "llm"
+     ],
+     "entities": [
+      "DoorDash"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "7c0b2b018b57",
+     "title": "The federated code forge",
+     "link": "https://tangled.org/blog/forge/",
+     "source": "Hacker News",
+     "published": 1793375069,
+     "text": "Article URL: https://tangled.org/blog/forge/ Comments URL: https://news.ycombinator.com/item?id=50305573 Points: 247 # Comments: 82",
+     "summary_th": "The federated code forge",
+     "importance": 1,
+     "numbers": [
+      "247",
+      "82"
+     ],
+     "tags": [
+      "code forge"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "a213aaa78a24",
+     "title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTjlYUmFUdGdUUExXR0JlYW15ZGUwRmxMaU9vVnd2VkN6eXNhZldneHp0YkF1VXlzNmlCZ0NaSm1UMjVWYU1ZTTREOVg2NGRxLUxsTEdibWpUM2R1VGdWZmtUT0I4blNObFRIbTFHNk1LczZSYjNRdHFuSExlZHJNR0FxOGFGTXRaYU1fTUU2aFpjck5sUDNUUkxsUV9JTFQzTjk1ZjBvWTd6Ri16RUZNM1YzM2RYSnpDRW9PaG5B?oc=5",
+     "source": "TechCrunch",
+     "published": 1793402483,
+     "text": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune TechCrunch",
+     "summary_th": "Salesforce เข้าซื้อกิจการ Rune สตาร์ทอัพด้านเทคโนโลยีป้องกันประเทศ ด้วยมูลค่าดีล 375 ล้านดอลลาร์",
+     "importance": 3,
+     "numbers": [
+      "$375M"
+     ],
+     "tags": [
+      "acquisition",
+      "defense tech"
+     ],
+     "entities": [
+      "Salesforce",
+      "Rune"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "2855ed96c964",
+     "title": "Netflix Treats GPU Reliability as a Distributed Systems Problem",
+     "link": "https://www.infoq.com/news/2026/10/netflix-gpu-distributed-systems/",
+     "source": "InfoQ",
+     "published": 1793361600,
+     "text": "Netflix has detailed how it is building a reliability platform for large-scale GPU training and inference, using layered health checks, automated remediation, and fault-tolerant training to keep jobs running despite hardware failures. By Craig Risi",
+     "summary_th": "Netflix เปิดเผยรายละเอียดการสร้างแพลตฟอร์มความน่าเชื่อถือสำหรับการฝึกและการอนุมาน GPU ขนาดใหญ่",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gpu",
+      "netflix",
+      "distributed systems"
+     ],
+     "entities": [
+      "Netflix"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "7e2aaf184ac3",
+     "title": "Backdoors in official Claude Code extensions",
+     "link": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+     "source": "Hacker News",
+     "published": 1793358353,
+     "text": "Article URL: https://cyberplace.social/@GossiTheDog/117528831681803563 Comments URL: https://news.ycombinator.com/item?id=50302334 Points: 654 # Comments: 17",
+     "summary_th": "พบแบ็คดอร์ในส่วนขยายทางการของ Claude Code",
+     "importance": 3,
+     "numbers": [
+      "654",
+      "17"
+     ],
+     "tags": [
+      "claude code",
+      "security",
+      "backdoor"
+     ],
+     "entities": [
+      "Claude Code"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "84df2eb76c03",
+     "title": "Cracks are emerging in the AI spending boom",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQN3RLejV2bml3REY1cnN2SUpGQV9VOEpKT2FDVUxhcEVESm5PNE1xdEZqTHJ6QUJIY2NIWGNOdXZVZmRXZFFfcko0X19lVE8yUTkwUlVfODdpV1FUTVdIQU9fQ1FaeW5RdENzZlIzUWhZQjJYY2htMlVBWjRseVQwM3hxRHE?oc=5",
+     "source": "TechCrunch",
+     "published": 1793395060,
+     "text": "Cracks are emerging in the AI spending boom TechCrunch",
+     "summary_th": "เกิดรอยร้าวในกระแสการใช้จ่ายด้าน AI",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai spending"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "8e08cb4ecef7",
+     "title": "Presentation: The Ladder Is Missing Rungs: Engineering Progression When AI Ate the Middle",
+     "link": "https://www.infoq.com/presentations/ai-software-engineering-pipeline/",
+     "source": "InfoQ",
+     "published": 1793358000,
+     "text": "Alasdair Allan discusses empirical research from METR and Anthropic on AI coding adoption. He explains the \"supervision paradox,\" where reliance on AI tools disrupts junior skill development, risks institutional context loss, and threatens the long-term engineering pipeline needed to oversee autonomous systems effectively. By Alasdair Allan",
+     "summary_th": "Alasdair Allan อภิปรายเกี่ยวกับงานวิจัยเชิงประจักษ์จาก METR และ Anthropic เกี่ยวกับการนำการเขียนโค้ดด้วย AI มาใช้",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai coding",
+      "anthropic",
+      "metr"
+     ],
+     "entities": [
+      "METR",
+      "Anthropic",
+      "Alasdair Allan"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "a510883f6a1b",
+     "title": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
+     "link": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+     "source": "Hacker News",
+     "published": 1793355771,
+     "text": "Article URL: https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2 Comments URL: https://news.ycombinator.com/item?id=50301983 Points: 399 # Comments: 1",
+     "summary_th": "มีการปล่อยส่วนขยาย Claude Code VS Code ที่มีแบ็คดอร์ลงบน Cursor marketplace",
+     "importance": 3,
+     "numbers": [
+      "399",
+      "1"
+     ],
+     "tags": [
+      "claude code",
+      "cursor",
+      "security"
+     ],
+     "entities": [
+      "Claude Code",
+      "Cursor"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "78314f5ed2b4",
+     "title": "Basically no one is using AI agents for their DoorDash orders",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNS3d5MmlhVXN3eHdKS0VlMjhyY21TcDVkS21ZRnIwdVZrTkM3RGdqQ3pHdzkxc0JjVUxmbW1seUItMW5UUUJHTGlmajZENDlOVkkwa3R5Uk9UY1lGQklNWVk0MDdRdWx2a01mVkJ5R2hXakZZM2QzdHlEQnZFeDRzcUIxQVd0THRLamZkZmpFeGl2Ri03WlhVU29HSFA2UzRMLV9uWGRDQjBoenczZ253?oc=5",
+     "source": "Ars Technica",
+     "published": 1793388652,
+     "text": "Basically no one is using AI agents for their DoorDash orders Ars Technica",
+     "summary_th": "แทบไม่มีใครใช้ AI agents สำหรับการสั่งซื้อบน DoorDash",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai agents",
+      "doordash"
+     ],
+     "entities": [
+      "DoorDash"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "8234f69a4e5b",
+     "title": "Article: InfoQ AI, ML and Data Engineering Trends Report - 2026",
+     "link": "https://www.infoq.com/articles/ai-ml-data-engineering-trends-2026/",
+     "source": "InfoQ",
+     "published": 1793350800,
+     "text": "This InfoQ Trends Report offers readers a comprehensive overview of emerging trends and technologies in the areas of AI, ML, and Data Engineering. This report summarizes the InfoQ editorial team’s and external guests' view on the current trends in AI and ML technologies and what to look out for in the next 12 months. By Srini Penchikala, Chip Huyen, Daniel Dominguez, Hien Luu, Arthur Casals",
+     "summary_th": "InfoQ เผยแพร่รายงานแนวโน้ม AI, ML และ Data Engineering ประจำปี 2026",
+     "importance": 1,
+     "numbers": [
+      "2026",
+      "12"
+     ],
+     "tags": [
+      "ai trends",
+      "machine learning",
+      "data engineering"
+     ],
+     "entities": [
+      "InfoQ"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "76e5a18b5bb3",
+     "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObEZvemI2TmkycVE4Ymt4XzVzSWlzaXFvRVFCXzZXYnd2OU1jV2tRdnBoTnN4SjU1LUctVFd6dmJ4U0t6eERKTDkydXljLUV1dUZOcWFpenV2STdNbE02d29xV1FjME1YNDEtU3l6SFh1NTEwdFMteDQ1c0ZRZXg0dlBvMGcxMUszdURRY0VEc19ac2VtdjM4NzZpeldvbXN4U002MEVVQQ?oc=5",
+     "source": "TechCrunch",
+     "published": 1793382432,
+     "text": "Zest’s new AI agent finds restaurants and books reservations over text TechCrunch",
+     "summary_th": "Zest เปิดตัว AI agent ใหม่ที่สามารถค้นหาร้านอาหารและจองผ่านข้อความได้",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai agent",
+      "zest"
+     ],
+     "entities": [
+      "Zest"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "78208bffb0ba",
+     "title": "Podcast: AI, ML, and Data Engineering InfoQ Trends Report 2026",
+     "link": "https://www.infoq.com/podcasts/ai-ml-data-engineering-trends-2026/",
+     "source": "InfoQ",
+     "published": 1793350800,
+     "text": "In this episode, members of the InfoQ AI and ML editorial staff and friends of InfoQ discuss the current trends in the domain of AI, ML and Data Engineering. One of the regular features of InfoQ are the trends reports, which each focus on a different aspect of software dev. These reports provide the InfoQ readers and listeners with a high-level overview of the topics to pay attention to this year. By Chip Huyen, Daniel Dominguez, Hien Luu, Arthur Casals",
+     "summary_th": "พอดแคสต์พูดคุยเกี่ยวกับรายงานแนวโน้ม InfoQ ด้าน AI, ML และ Data Engineering ประจำปี 2026",
+     "importance": 1,
+     "numbers": [
+      "2026"
+     ],
+     "tags": [
+      "ai trends",
+      "podcast",
+      "infoq"
+     ],
+     "entities": [
+      "InfoQ"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
     }
    ]
   },
@@ -703,6 +1547,22 @@
       "University of Information and Communications Technology"
      ],
      "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "ebe072675a48",
+     "title": "ViewScan to showcase AI-powered video analytics at ISC East 2026",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85UGs5UURGbTJCWmROS2V2dHU2UlExeEM1TGszb05RZVF4bHB1Tkk5MTNENGtWdlRLQmkzeENrVUwySnZWZmJ4ZUh2ODNzQmp1WHM5T0MwdU1oN0FrZ01NcEpNV1V0RThIa1Y4anhPblBXcnhBMlgzWl9yelFMZw?oc=5",
+     "source": "Security Journal Americas",
+     "published": 1793356276,
+     "text": "ViewScan to showcase AI-powered video analytics at ISC East 2026 Security Journal Americas"
+    },
+    {
+     "id": "02ca335ae56f",
+     "title": "Why Building Services Have Become a Strategic Asset",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSEUtZlhXdFRUa21LMzhEUklHQ1FnYVV4dTRFTk44WnAwdERHYU5YSE1sa1Y3TUowWnc5TmtyTkRTYXVJZWJBZ0UtMDRPY1FjZmphbnFZcXJ3VjdjS0RwTkxBX19jNWluVEJ0aWNBT1ZQbERqb1IyTnl4MkVVSlo5bk51TlhyOFBwOFhNdGZ3NENXM2JmQkxuUDZYN3FBaHBUenF4RFkxRXd3LUZNVVQ0elotX0xfellvNWFDZg?oc=5",
+     "source": "buildings.com",
+     "published": 1793333478,
+     "text": "Why Building Services Have Become a Strategic Asset buildings.com"
     }
    ]
   },
@@ -864,6 +1724,158 @@
       "actionnetwork.org"
      ],
      "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "af7b74235bff",
+     "title": "All the latest updates on AI data centers",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb0UxRGMyQ3VLZ1hCY2U3dVVzZnYyX1FZSGJ6OElGOFZ3amc1NnY2Z3Fhb2NIcUp4UFNQNTBQZ3RPa2RiaGEtYWROcHpadFpCV244Nng2VDZuOTBMZDNwdHR3ajl4RXhSSEFjSUZQMVlFd25GSXNZWHZxaVpJYXN0VFJSYUtwcWpOc1huZENJSTRjTlJtTUN3RXh4WFgxRkhOZnBLNVFwSHc?oc=5",
+     "source": "The Verge",
+     "published": 1793411010,
+     "text": "All the latest updates on AI data centers The Verge",
+     "summary_th": "การอัปเดตล่าสุดทั้งหมดเกี่ยวกับศูนย์ข้อมูล AI จาก The Verge",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai data centers"
+     ],
+     "entities": [
+      "The Verge"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "131f6802fda7",
+     "title": "US stocks end sharply lower as AI cash burn fears spark tech selloff",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41RmYwRGRsR2xWWVlrMWJBVWFfekF1MkNyZkx4UFI4Z0VsbHRvLWVHaDh3NWJ3SURNUWxHVW9YbE5VYlNVSjJXejJjdWFReFJZV3ppSEVldk40Q0VQZy0wX1Vva0FjSkE?oc=5",
+     "source": "Reuters",
+     "published": 1793407126,
+     "text": "US stocks end sharply lower as AI cash burn fears spark tech selloff Reuters",
+     "summary_th": "หุ้นสหรัฐฯ ปิดร่วงลงอย่างหนักจากความกังวลเรื่องการเผาเงินสดของ AI ที่จุดชนวนให้เกิดการเทขายหุ้นเทคโนโลยี",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "us stocks",
+      "tech selloff"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "dbb93565b844",
+     "title": "S&P Global revises Meta's outlook to 'negative' on AI spending, cash flow worries",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOY2JMY29zcEM2TFRURW5TbmY4MTNoWVM1NDhiVG44UTF1YWladnh0aDNSRUhxLXZpclBPZmFySDR3dXE2XzBsQ3NpcE5SRWZiNkF0RVI3NkQyQWhrS1RvdDlwamRJWmxSa2E4ckc0SlBBdFdnOHFZem1UOHVScElQZ2hzUkU0N0Z1ajdMNnNYYzB2djU5dFNnM1FHMUpzczdsbzUxSA?oc=5",
+     "source": "Reuters",
+     "published": 1793402879,
+     "text": "S&P Global revises Meta's outlook to 'negative' on AI spending, cash flow worries Reuters",
+     "summary_th": "S&P Global ปรับลดมุมมองของ Meta สู่ระดับ 'เชิงลบ' จากความกังวลเรื่องการใช้จ่ายด้าน AI และกระแสเงินสด",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "meta",
+      "credit rating",
+      "ai spending"
+     ],
+     "entities": [
+      "S&P Global",
+      "Meta"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "4d05179161ef",
+     "title": "Character.AI moves ahead with asset sale over states' objections",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM2pwTHBXOHJnamJiM25nX1RtYW9palh0cms2Uk5uTHRyV2xwYTR1OUFNVUM1MU1RTGVOazIxUzB5NVZBSk9VRmg5TUJOLXdYNkdVRml6WlJ6STRkcXlwOHY1MjFOajdTTmszLUhvSW1Wc2hzUTFDYllWTmZLb0RZN0NMTklMRnd1cHF5aVdqOTNKbWJ4S0tCYS03R3M0eFc0aUluWWs3R3dSRE1fekw2WFFWRjBlZw?oc=5",
+     "source": "Reuters",
+     "published": 1793399590,
+     "text": "Character.AI moves ahead with asset sale over states' objections Reuters",
+     "summary_th": "Character.AI เดินหน้าขายสินทรัพย์ต่อไปท่ามกลางการคัดค้านจากหลายรัฐ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "asset sale",
+      "character.ai"
+     ],
+     "entities": [
+      "Character.AI"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "c246d72ea46f",
+     "title": "Are you seeing AI Overviews less often?",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQX2tUWUI0b1VZRDhlcEEwR29CN3hib0dpOW8xMnNzRmNPT2JsLTB4Wm9TRG1meTF5ekpTOWVxVndwb1dUMF93am1sZ29MNWVmM2xNWDZaT1RyeUF6Sm1JYnl5bzMyUnNkMGdOd2JRZ0R2RTY3M3R4VWttNm9mZVBiaXl3?oc=5",
+     "source": "The Verge",
+     "published": 1793397367,
+     "text": "Are you seeing AI Overviews less often? The Verge",
+     "summary_th": "คุณเห็นภาพรวม AI น้อยลงหรือไม่?",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "ai overviews"
+     ],
+     "entities": [
+      "The Verge"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "0ad88a6459bb",
+     "title": "AI trade headed for 'painful fallout,' says CIO",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53SEo3bVZnbml4cVNIX2xwWTZnOHE3U2drUFVPdW1rOXdMZWF6NnZRWEdjRlI1M2txcjlXd1hjdWRuRFpUb3pjakN4WlZSUmFsU2pEZTFOU3hTbTR0X0JsUWdTdWxZWE0?oc=5",
+     "source": "Reuters",
+     "published": 1793395085,
+     "text": "AI trade headed for 'painful fallout,' says CIO Reuters",
+     "summary_th": "CIO เผยการซื้อขาย AI กำลังมุ่งหน้าสู่ผลกระทบที่เจ็บปวด",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai trade",
+      "cio"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "ff7d9b873fd8",
+     "title": "Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNkNDLXpLZ1A0VklROTJVenpDRlZBWE10ZE1qWWk4ZFVqalgzWWJFdThSd2ZKeUhDanVRQjRhVVVZZGlGZzY1UWYzLXRSZTNHNDNPTkZZRUFJazAzYmV6NzF3QUJtNjhkWHY5OHZNZWVsSFdyY0NScGJadnE3T0dPTWtBUXZOaDJPYWJuX1NOVXkwbGlQSW9MdjlXTlNQTzdLZEdzTHFsQ2gzaEcwTkNHZTNCNF9hMG9lazFHRXItSzg?oc=5",
+     "source": "Reuters",
+     "published": 1793392929,
+     "text": "Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen Reuters",
+     "summary_th": "Nasdaq เผชิญความเสียหายมูลค่า $2 ล้านล้าน ในเดือนตุลาคม เนื่องจากความกังวลเรื่องการใช้จ่าย AI ทวีความรุนแรงขึ้น",
+     "importance": 3,
+     "numbers": [
+      "$2 trillion"
+     ],
+     "tags": [
+      "nasdaq",
+      "ai spending"
+     ],
+     "entities": [
+      "Nasdaq"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "c5225338e75f",
+     "title": "October ends with a thud for Intel, Reddit, AI stalwarts",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdnVOYWtuZ0pscDhrZzNkRldHcFVCZmc2SHlBcDBhQ0JoSkQ4bURFRjBrWDlUb184bWFYcC1hR1c3SXpldTlvd3NBMkowX3loazVVdWlxUjhlYmwwSVhUVWdxamtMclpLTjV2WW5QSjM1YTl2b3hrOEkzclRmX19QSkp4a1FfckFTWWwtb0VfemJjUmVHNndxWU9fcXpWVVAwZThIbEF3OA?oc=5",
+     "source": "Reuters",
+     "published": 1793392440,
+     "text": "October ends with a thud for Intel, Reddit, AI stalwarts Reuters",
+     "summary_th": "เดือนตุลาคมสิ้นสุดลงด้วยความซบเซาสำหรับ Intel, Reddit และหุ้นหลักด้าน AI",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "intel",
+      "reddit",
+      "ai stalwarts"
+     ],
+     "entities": [
+      "Intel",
+      "Reddit"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
     }
    ]
   }
