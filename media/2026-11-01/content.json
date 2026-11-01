@@ -1,0 +1,201 @@
+{
+ "date": "2026-11-01",
+ "date_th": "1 พ.ย. 2026",
+ "headline": [
+  "Binance คืน 90%",
+  "ฝังโค้ดร้าย",
+  "OpenAI ลดเป้า"
+ ],
+ "dek": "สรุป 3 ข่าวเด่นของวันนี้ พร้อมมุมมองจากบทวิเคราะห์ อ่านจบใน 1 นาที",
+ "stories": [
+  {
+   "icon": "gold",
+   "short": "Binance ชดเชยแล้ว 90%",
+   "what": "Binance บอกว่าครอบคลุมความเสียหาย 90% จากการแฮก 6.3 พันล้านดอลลาร์แล้ว และจะกลับมาเปิดให้ถอนเงินวันอาทิตย์",
+   "big": "90%",
+   "big_label": "ความเสียหายที่ชดเชยแล้ว",
+   "status": "เปิดถอนเงินวันอาทิตย์",
+   "source": "CNBC",
+   "link": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
+   "details": [
+    {
+     "text": "FBI ระบุว่าเกาหลีเหนืออยู่เบื้องหลังการแฮก",
+     "source": "BBC",
+     "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "text": "Binance กันเงินบริษัทไว้กว่า $6.34B ส่วนที่เหลือ 10% เป็นโทเคนที่สภาพคล่องต่ำกว่า",
+     "source": "Techmeme",
+     "link": "https://www.techmeme.com/261031/p9"
+    },
+    {
+     "text": "การแฮก $6.3 พันล้านใช้เวลาแค่ 20 นาที",
+     "source": "Wired ผ่าน Hacker News",
+     "link": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/"
+    }
+   ],
+   "views": [
+    {
+     "text": "ถ้าชดเชยจริงและเปิดถอนได้ตามกำหนด ความตื่นตระหนกน่าจะจำกัด",
+     "confidence": "กลาง",
+     "from": "analysis/2026-11/2026-11-01-2day.md"
+    }
+   ],
+   "say": "ข่าวแรก ไบแนนซ์บอกว่า ครอบคลุมความเสียหายเก้าสิบเปอร์เซ็นต์ จากการแฮกหกพันสามร้อยล้านดอลลาร์แล้ว และจะกลับมาเปิดให้ถอนเงินวันอาทิตย์ ข่าวนี้มาจาก ซีเอ็นบีซี",
+   "caption": "ข่าวแรก: Binance ชดเชยความเสียหาย 90% จากแฮก $6.3 พันล้าน เปิดถอนเงินวันอาทิตย์ (CNBC)",
+   "view_say": "มุมมองจากบทวิเคราะห์ของเรา ถ้าชดเชยจริงและเปิดถอนได้ตามกำหนด ความตื่นตระหนกน่าจะจำกัด ความมั่นใจกลาง",
+   "view_caption": "มุมมองจากบทวิเคราะห์: ถ้าชดเชยจริงและเปิดถอนได้ ความตื่นตระหนกน่าจะจำกัด (ความมั่นใจ กลาง)"
+  },
+  {
+   "icon": "code",
+   "short": "ส่วนขยาย Claude Code ถูกฝังประตูลับ",
+   "what": "ส่วนขยาย VS Code ของ Anthropic บน Cursor ถูกฝังโค้ดอันตราย (backdoor) นานเกือบ 12 ชั่วโมง ยังไม่รู้ว่าผู้โจมตีเข้าบัญชีที่ยืนยันแล้วของ Anthropic ได้อย่างไร",
+   "big": "12 ชม.",
+   "big_label": "ช่วงที่ส่วนขยายถูกฝังโค้ด",
+   "status": "ผู้ติดตั้งราว 5,000 คน",
+   "source": "Ars Technica",
+   "link": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+   "details": [
+    {
+     "text": "Cursor บอกว่าผู้ใช้ราว 5,000 คนอาจติดตั้งส่วนขยายที่ถูกดัดแปลง",
+     "source": "The Verge",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbHJ0aFJnMjRBcDJ4WVpXVmtvRlQyQjVjN3Nhbk5XM28xeGJXZ29UNmFCeU9GaGY1SGRqV3E0SzhvYWl6UVhYbWhMd1NMR3dzbndBSlFjYnk4QUNfbkgtLXhaTWFQU1d6RFhZTm1xUXVqc3Mya0RXSHhNTlFrVjdRQkpObUJJVGtjUElFTEJna1pfc0E3WXBwdm1vb09mX0wzT3lad3BPMEJtYmR6SWFBYmt3YVBhb0tWQjFvakJvZnZPLXFIcE9MSDZ2S0J3NXFOQnBGbFgxd2FvODA?oc=5"
+    },
+    {
+     "text": "Northflank ถูกเจาะ คีย์ AI API ของลูกค้าถูกใช้โดยไม่ได้รับอนุญาต",
+     "source": "BleepingComputer",
+     "link": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/"
+    },
+    {
+     "text": "ช่องโหว่วิกฤตใน Linux kernel ให้ผู้โจมตีเป็น root ผ่านเซิร์ฟเวอร์ MPTCP จากระยะไกล",
+     "source": "BleepingComputer",
+     "link": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/"
+    }
+   ],
+   "views": [
+    {
+     "text": "เครื่องมือ AI ที่รันในเครื่องนักพัฒนาเป็นเป้าโจมตีจริง ควรหมุนคีย์และตรวจส่วนขยายที่ติดตั้ง",
+     "confidence": "สูง",
+     "from": "analysis/2026-11/2026-11-01-2day.md"
+    },
+    {
+     "text": "มุมธุรกิจ: ใช้เป็นจุดขายงานตรวจความปลอดภัยเครื่องและระบบของลูกค้า",
+     "confidence": "—",
+     "from": "analysis/2026-11/2026-11-01-2day.md"
+    }
+   ],
+   "say": "ข่าวที่สอง ส่วนขยายวีเอสโค้ดของแอนโธรปิก บนเคอร์เซอร์ ถูกฝังโค้ดอันตราย นานเกือบสิบสองชั่วโมง ยังไม่รู้ว่าผู้โจมตีเข้าบัญชีที่ยืนยันแล้วของแอนโธรปิกได้อย่างไร ข่าวนี้มาจาก อาร์ส เทคนิกา",
+   "caption": "ข่าวที่สอง: ส่วนขยาย VS Code ของ Anthropic บน Cursor ถูกฝัง backdoor เกือบ 12 ชั่วโมง (Ars Technica)",
+   "view_say": "มุมมองจากบทวิเคราะห์ของเรา เครื่องมือเอไอที่รันในเครื่องนักพัฒนาเป็นเป้าโจมตีจริง ควรหมุนคีย์และตรวจส่วนขยายที่ติดตั้ง ความมั่นใจสูง",
+   "view_caption": "มุมมองจากบทวิเคราะห์: เครื่องมือ AI ในเครื่องนักพัฒนาเป็นเป้าจริง ควรหมุนคีย์ ตรวจส่วนขยาย (ความมั่นใจ สูง)"
+  },
+  {
+   "icon": "deal",
+   "short": "OpenAI ลดเป้าระดมทุนเหลือ $20B",
+   "what": "OpenAI ปรับลดเป้าหมายการระดมทุนรอบล่าสุด ตอนนี้ต้องการเงินสูงสุด 20 พันล้านดอลลาร์",
+   "big": "$20B",
+   "big_label": "เป้าระดมทุนใหม่ (เดิม $30B)",
+   "status": "เป็นรายงานจากแหล่งข่าว",
+   "source": "CNBC",
+   "link": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
+   "details": [
+    {
+     "text": "มีรายงานว่าได้คำมั่นเงินลงทุนราว $11B น้อยกว่าครึ่งของเป้าเดิม $30B",
+     "source": "Techmeme",
+     "link": "https://www.techmeme.com/261030/p31"
+    },
+    {
+     "text": "FT รายงานว่า OpenAI ลดเป้าลง $10 พันล้าน ท่ามกลางหุ้นเทคร่วง",
+     "source": "Reuters",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTWw3N0l5dm5KUi1FQmllTEpEeUdkY1k5TVlFNTlnWWFlbTgtdUJfZE9RMjZiQlJEVXU2VFo2blVaWk1MZzNYMm9OYmdrSngtSk02YnhKNDdVMVZkS3hIMHpWZ2dnRjJZWjBzQ0lFRU4ySFFUQzdTdnUzN3JETGtCYlo3Y3kxeGJseG5veVJMSVVCRDVPYzB3TXQyaFE?oc=5"
+    },
+    {
+     "text": "เดือนก่อนรายงานว่าระดมทุน $30B ที่มูลค่า $1.25 ล้านล้าน",
+     "source": "CNBC",
+     "link": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html"
+    }
+   ],
+   "views": [
+    {
+     "text": "ตลาดเปลี่ยนจาก \"AI ดีหมด\" เป็น \"ขอดูเงินที่ได้กลับมา\" กระทบหุ้นชิป ไฟฟ้า และผู้รับเหมา data center",
+     "confidence": "กลาง",
+     "from": "analysis/2026-11/2026-11-01-2day.md"
+    }
+   ],
+   "say": "ข่าวที่สาม โอเพ่นเอไอ ปรับลดเป้าหมายการระดมทุนรอบล่าสุด ตอนนี้ต้องการเงินสูงสุดสองหมื่นล้านดอลลาร์ จากเดิมสามหมื่นล้าน ข่าวนี้มาจาก ซีเอ็นบีซี",
+   "caption": "ข่าวที่สาม: OpenAI ลดเป้าระดมทุนเหลือสูงสุด $20 พันล้าน จากเดิม $30 พันล้าน (CNBC)",
+   "view_say": "มุมมองจากบทวิเคราะห์ของเรา ตลาดเปลี่ยนจากเอไอดีหมด เป็นขอดูเงินที่ได้กลับมา กระทบหุ้นชิป ไฟฟ้า และผู้รับเหมาดาต้าเซ็นเตอร์ ความมั่นใจกลาง",
+   "view_caption": "มุมมองจากบทวิเคราะห์: ตลาดเปลี่ยนเป็น \"ขอดูเงินที่ได้กลับมา\" จาก AI (ความมั่นใจ กลาง)"
+  }
+ ],
+ "market": {
+  "title": "ราคาปิดล่าสุด",
+  "source_note": "จากตารางราคาใน news/2026-11/2026-11-01.md (ปิดศุกร์ 30 ต.ค.)",
+  "items": [
+   {
+    "label": "S&P 500",
+    "pct": -1.82
+   },
+   {
+    "label": "Dow Jones",
+    "pct": -1.09
+   },
+   {
+    "label": "Nasdaq",
+    "pct": -2.86
+   },
+   {
+    "label": "น้ำมัน Brent",
+    "pct": 2.4
+   },
+   {
+    "label": "ทองคำ",
+    "pct": -3.29
+   },
+   {
+    "label": "บอนด์ 10 ปี",
+    "pct": -1.2,
+    "value": "4.93%"
+   }
+  ],
+  "views": [
+   {
+    "text": "ถ้าเฟดพูดเรื่องขึ้นดอกเบี้ยต่อ หุ้นเติบโตและทองยังถูกกดดัน",
+    "confidence": "กลาง",
+    "from": "analysis/2026-11/2026-11-01-2day.md"
+   }
+  ],
+  "watch": [
+   {
+    "text": "ตลาดเปิดจันทร์ 2 พ.ย. หลัง Binance เปิดถอนเงิน",
+    "source": "บทวิเคราะห์ 1 พ.ย.",
+    "link": ""
+   },
+   {
+    "text": "งบ Apple, AMD และตัวเลขจ้างงานสหรัฐ",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/10/30/jim-cramer-week-ahead-apple-amd-jobs-report.html"
+   },
+   {
+    "text": "เลือกตั้งกลางเทอม 3 พ.ย. กับความเสี่ยงสหรัฐ–อิหร่าน",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html"
+   }
+  ],
+  "say": "ส่วนตลาดวันศุกร์ เอสแอนด์พีห้าร้อย ลบหนึ่งจุดแปดสองเปอร์เซ็นต์ แนสแด็ก ลบสองจุดแปดหกเปอร์เซ็นต์ น้ำมันเบรนท์ขึ้นสองจุดสี่เปอร์เซ็นต์ ทองคำลงสามจุดสองเก้าเปอร์เซ็นต์",
+  "caption": "ราคาปิดล่าสุด: S&P 500 −1.82% · Dow −1.09% · Nasdaq −2.86% · Brent +2.40% · ทอง −3.29% · บอนด์ 10 ปี 4.93%"
+ },
+ "intro": {
+  "say": "สวัสดีค่ะ นี่คือ ดับเบิลยู ดับเบิลยู ดับเบิลยู เทรนด์ สรุปข่าวเด่นประจำวันที่หนึ่ง พฤศจิกายน สองพันยี่สิบหก",
+  "caption": "สวัสดีค่ะ นี่คือ WWWTrend สรุปข่าวเด่นวันที่ 1 พ.ย. 2026"
+ },
+ "footer": "ข่าวย่อจากหัวข่าว/RSS โดยโมเดลฟรี · ลิงก์ต้นทางครบอยู่ใน sources.md",
+ "disclaimer": {
+  "say": "ขอบอกก่อนนะคะ ดิฉันไม่ได้แนะนำให้ลงทุน ดิฉันแค่เอาข่าวมาเล่าให้ฟัง ตามที่ข่าวรายงาน",
+  "caption": "ขอบอกก่อน: ดิฉันไม่ได้แนะนำให้ลงทุน แค่เอาข่าวมาเล่าให้ฟังตามที่ข่าวรายงาน"
+ },
+ "outro": {
+  "say": "ตัวเลขสำคัญ กดลิงก์ต้นทางเช็คก่อนนะคะ ขอบคุณที่ติดตาม สวัสดีค่ะ",
+  "caption": "ตัวเลขสำคัญ กดลิงก์ต้นทางเช็คก่อน · ขอบคุณที่ติดตาม"
+ }
+}
