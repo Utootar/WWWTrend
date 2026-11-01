@@ -17,7 +17,7 @@ Claude เขียนไฟล์นี้จากข่าวที่เก�
 
 ## ธีมที่กำลังเดิน
 
-## ไฟฟ้าจาก AI: ไฟฟ้า นิวเคลียร์ ระบบไฟ (เริ่มเจอ 2026-10-06 · ล่าสุด 2026-10-27)
+## ไฟฟ้าจาก AI: ไฟฟ้า นิวเคลียร์ ระบบไฟ (เริ่มเจอ 2026-10-06 · ล่าสุด 2026-11-01)
 ทำไม: data center และ AI ใช้ไฟมากขึ้น ผู้ผลิตและผู้รับเหมาระบบไฟได้งาน
 หลักฐานจากข่าว: นิวเคลียร์พุ่ง · MYR/Powell/Comfort Systems พุ่ง · GE Vernova ราคาวิ่ง · X-energy (ดู analysis/2026-10/2026-10-07-2day.md)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -40,9 +40,10 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-10-25: แก้ตัวเลขรอบก่อน (+4% เป็นของวันที่ 21) วันที่ 22–23 ร่วงหนัก GEV -12.0% FIX -17.2% CEG -6.4% POWL ทรงตัว เหตุ: ความกังวลเครดิต/เงินทุน AI [CNBC](https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html) · [Nvidia ในฐานะผู้ให้เงิน AI](https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html) (analysis/2026-10/2026-10-25-2day.md)
 อัปเดต 2026-10-25 (weekly): ทั้งสัปดาห์ FIX -19.3% GEV -11.5% MYRG -9.2% POWL -8.6% VST -7.8% CEG -6.6% NEE +2.9% GULF -0.4% GPSC +1.0% เหตุ: เครดิต/เงินทุน AI ไม่ใช่ข่าวบริษัท หลักฐานใหม่: [Microsoft ถอนจาก data center ใหญ่สุดอังกฤษ](https://www.bbc.co.uk/news/articles/c9m26kl5y7epo?at_medium=RSS&at_campaign=rss) · [โรงนิวเคลียร์ขอเพิ่มกำลังผลิต](https://oilprice.com/Alternative-Energy/Nuclear-Power/The-Nuclear-Power-Shortcut-That-Could-Add-Gigawatts-to-the-US-Grid.html) · [TikTok หาไฟหลายกิกะวัตต์](https://www.cnbc.com/2026/10/23/tiktok-us-compute-capacity.html) · [ทรัมป์ไล่ยกเลิกโครงการลม $6.2B](https://oilprice.com/Alternative-Energy/Wind-Power/Trump-Targets-62-Billion-Offshore-Wind-Project-Nearing-Completion.html) น่าศึกษาก่อนเปลี่ยนเป็น NEE (analysis/2026-10/2026-10-25-weekly.md)
 อัปเดต 2026-10-27: ราคาธีมสหรัฐในไฟล์ยังเป็นของ 23 ต.ค. (ไม่อัปเดต) Anthropic ยื่น IPO เปิดว่า data center พึ่งก๊าซมากขึ้น [The Verge](https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk) · GPSC +0.98%
+อัปเดต 2026-11-01: ร่วงตามเทค 28→30 ต.ค. FIX -8.4% POWL -7.0% GEV -2.3% VST -3.0% CEG +1.7% เหตุ: [Intel พัง กังวลงบ AI](https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html) · [S&P ลบมุมมอง Meta](https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html) ดู analysis/2026-11/2026-11-01-2day.md
 ความเสี่ยงของธีม: ราคาอาจนำข่าวไปแล้ว ยีลด์สูง ผูกกับความเชื่อมั่น AI แรงต้าน data center จากทั้งสองพรรค
 
-## LNG/ก๊าซนอกอ่าวเปอร์เซีย (เริ่มเจอ 2026-10-07 · ล่าสุด 2026-10-27)
+## LNG/ก๊าซนอกอ่าวเปอร์เซีย (เริ่มเจอ 2026-10-07 · ล่าสุด 2026-11-01)
 ทำไม: ฮอร์มุซไม่ปลอดภัย Qatar ขยายเหตุสุดวิสัย ผู้ส่งออก LNG/ก๊าซนอกอ่าวได้ออเดอร์
 หลักฐานจากข่าว: [5 หุ้นก๊าซได้จากฮอร์มุซ (Cheniere)](https://oilprice.com/Energy/Natural-Gas/5-Natural-Gas-Stocks-Profiting-From-the-Strait-of-Hormuz-Standoff.html) · [Kinder Morgan ส่งก๊าซไปเม็กซิโกได้อีก](https://oilprice.com/Latest-Energy-News/World-News/Kinder-Morgan-Restores-US-Mexico-Gas-Flows-After-Pipeline-Outage.html) · [Alaska LNG กลับมา](https://oilprice.com/Energy/Natural-Gas/Who-Is-Going-to-Pay-for-Alaska-LNG.html)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -60,9 +61,10 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-10-25: Brent 116.72 LNG(Cheniere) +4.06% KMI +2.11% PTTEP +3.16% PTT +1.84% [กาตาร์ซื้อก๊าซสหรัฐ](https://www.cnbc.com/2026/10/23/cheniere-qatar-energy-lng-natural-gas-iran-war-strait-hormuz.html)
 อัปเดต 2026-10-25 (weekly): ทั้งสัปดาห์ PTTEP +5.2% LNG +3.2% PTT +1.2% KMI +0.7% Brent +6.2% แต่มีพาดหัวว่าน้ำมันออกจากอ่าวมากกว่าก่อนสงคราม [WSJ](https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ25MSXRodmt6X1ZwZFZ1b01nR01ZTE1PWDU0SGVaWTRKMXJLdl9FbXVHSnZTMGxiV1pMbGtOZTVUMjZER01kVHQ1TmtIczlGZ3Z3X2djQng0b0RrOEQtZkk4REEtYTE2U1JxVlpLMzAtUnNycVhiQXVqV3BET09SZDZLbWtfZGp3NFl6eDZPakRzeDk4N3VydmJucDB6SlgwNmNNWVlrVTVRdGQ2RTVVOUpqTXBJa3RWaXc?oc=5) = ความเสี่ยงราคาลงเร็วถ้าการโจมตีไม่เกิด
 อัปเดต 2026-10-27: Brent ลง 109.88 (-5.86%) ข่าวเจรจาซาอุฯ–อิหร่าน [CNBC](https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html) · สงครามเพิ่มบิล LNG โลก $39B [OilPrice](https://oilprice.com/Energy/Natural-Gas/The-Iran-War-Just-Added-39-Billion-to-the-Worlds-LNG-Bill.html) · PTTEP -0.61% PTT +0.60%
+อัปเดต 2026-11-01: LNG (Cheniere) +10.9% ใน 2 วัน (28→30 ต.ค.) หลักฐานใหม่: [แก๊สยุโรป >€101](https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Tops-101-Euros-for-First-Time-Since-2022.html) · [ญี่ปุ่นแซงจีนนำเข้า LNG](https://oilprice.com/Latest-Energy-News/World-News/Japan-to-Overtake-China-As-Worlds-Top-LNG-Importer-This-Year.html)
 ความเสี่ยงของธีม: หยุดยิง/ฮอร์มุซเปิด ราคาก๊าซร่วงเร็ว PTT อาจถูกคุมราคาในประเทศ
 
-## ชิปหน่วยความจำ (เริ่มเจอ 2026-10-08 · ล่าสุด 2026-10-27)
+## ชิปหน่วยความจำ (เริ่มเจอ 2026-10-08 · ล่าสุด 2026-11-01)
 ทำไม: AI ดูดหน่วยความจำ RAM ขาดและแพง ผู้ผลิตกำไรสถิติ
 หลักฐานจากข่าว: [Samsung กำไรสถิติ](https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html) · [Intel/AMD กลับไป DDR4 เพราะ RAM แพง](https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback) · [Micron ร่วงจากข่าว OpenAI](https://www.marketwatch.com/story/micron-nvidia-and-ai-chip-stocks-fall-as-report-on-openais-revenue-causes-undue-concern-2a2bcf53)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -79,9 +81,10 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-10-25: SK Hynix +4.42% Samsung +0.47% MU +2.46% เด้งสั้น ยังไม่มีข่าวราคา RAM ลง
 อัปเดต 2026-10-25 (weekly): ทั้งสัปดาห์ทรงตัว MU -0.2% SK Hynix +0.4% Samsung 0% HANA -3.5% สัญญาณใหม่: อุปสงค์ปลายทางอ่อน [PC -20%](https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram) ยังไม่มีข่าวราคา RAM ลง ยังไม่ตัด
 อัปเดต 2026-10-27: เด้งตามหุ้น AI หลัง Anthropic ยื่น IPO SK Hynix +6.90% Samsung +4.58% Micron +2.46% Hana -2.06% KOSPI +3.46% [ข่าว](https://news.google.com/rss/articles/CBMijgFBVV95cUxNSlZDNHhSYkVHOW9iNENjRlUycDhVZXVrc29jSFBNY18wZFhSS2VNYi1lcHhpM1M5dUtMYlU3Nmg1cmdVMEt2ZmdlRlZYR1hlOFpjLXE5RXRyN1JXUlkxR1d2THVDQVFJdTZPdzBkZzZzaFZrYk1FbVBZeHRsa2IxZUl6Q0dKRlZFR0pTSERB?oc=5)
+อัปเดต 2026-11-01: MU -10.0% SMH -7.96% (28→30 ต.ค.) ตามกลุ่มชิปหลัง [Intel/AMD](https://www.marketwatch.com/story/amds-stock-slides-after-intel-earnings-reveal-two-big-issues-d3afed91) ไม่มีข่าวหน่วยความจำเฉพาะ
 ความเสี่ยงของธีม: วัฏจักรหน่วยความจำกลับลงเร็ว ผูกกับข่าวรายได้ AI จีนเริ่มตามทัน
 
-## โรงกลั่น/ดีเซลขาด (เริ่มเจอ 2026-10-14 · ล่าสุด 2026-10-24)
+## โรงกลั่น/ดีเซลขาด (เริ่มเจอ 2026-10-14 · ล่าสุด 2026-11-01)
 ทำไม: ดีเซลตึงถึง 2027 ส่วนต่างราคาดีเซลกับน้ำมันดิบกว้าง รัฐเร่งกำลังกลั่น
 หลักฐานจากข่าว: [IEA ดีเซลตึงถึง 2027](https://www.cnbc.com/2026/10/14/diesel-deal-oil-price-iea-report.html) · [รัฐใช้กฎหมายยุคสงครามเกาหลีเร่งโรงกลั่น Delek](https://oilprice.com/Energy/Crude-Oil/White-House-Turns-to-Korean-War-Era-Law-as-Diesel-Prices-Stay-Above-6.html) · [Rubio เยือนโรงกลั่น Reliance](https://www.cnbc.com/2026/10/16/marco-rubio-reliance-jamnagar-refinery.html)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -89,14 +92,16 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 | DK | US | โรงกลั่นที่รัฐเร่ง | ข่าว |
 | VLO, MPC | US | โรงกลั่นใหญ่ | ความรู้ทั่วไป |
 | TOP.BK | TH | โรงกลั่นไทย | ความรู้ทั่วไป |
+| XOM, CVX | US | กำไรโรงกลั่นพุ่ง ราคาหุ้นทำสถิติ | ข่าว (2026-10-30) |
 อัปเดต 2026-10-19: สหรัฐปล่อย SPR อีก 17 ล้านบาร์เรล [OilPrice](https://oilprice.com/Latest-Energy-News/World-News/US-Offers-Another-17-Million-SPR-Barrels-as-Fuel-Crisis-Deepens.html) · ยกเลิกคว่ำบาตรรัสเซียส่วนใหญ่ อาจกดส่วนต่างกลั่นระยะกลาง
 อัปเดต 2026-10-21: DK +3.40% VLO +0.03% MPC +0.28% TOP -1.06% น้ำมันดิบลงช่วยต้นทุนโรงกลั่น
 อัปเดต 2026-10-23: DK +0.76% VLO +0.77% MPC -1.49% TOP +1.82% น้ำมันดิบกลับขึ้นอีก ดู [Brent เกิน $113](https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html)
 อัปเดต 2026-10-25: DK -1.82% VLO -1.64% MPC -0.45% TOP +1.82% ยังไม่มีข่าวดีเซลใหม่ มีข้อยกเว้นขายดีเซลรัสเซีย 6 เดือน [OilPrice](https://oilprice.com/Energy/Energy-General/Trumps-Reverse-Nixon-Strategy-Bring-Russia-In-Shut-China-Out.html)
 อัปเดต 2026-10-25 (weekly): ทั้งสัปดาห์ลง VLO -5.7% MPC -4.4% TOP -4.1% DK -2.9% แม้ดีเซลตึง [โดรนยูเครนตีโรงกลั่นรัสเซีย](https://www.cnbc.com/2026/10/21/ukraine-russia-drone-diesel-refinery-trump-putin-zelenskyy.html) · แรงกดดัน: ข้อยกเว้นดีเซลรัสเซีย + [ภาษีลาภลอย](https://oilprice.com/Energy/Energy-General/Big-Oil-Eyes-Record-Profits-but-Keeps-Spending-in-Check.html) มุมมองสัปดาห์ก่อน "โรงกลั่นได้ตรง" ผิดในสัปดาห์นี้
+อัปเดต 2026-11-01: VLO +2.9% MPC +0.9% (28→30 ต.ค.) หลักฐานใหม่: [Exxon กำไร $15.4B](https://oilprice.com/Latest-Energy-News/World-News/ExxonMobil-Profits-Double-to-154-Billion.html) · [Chevron กำไรเกือบ 3 เท่า](https://oilprice.com/Latest-Energy-News/World-News/Chevron-Profits-Nearly-Triple-to-99-Billion.html) · [ยุโรปทบทวนการลดโรงกลั่น](https://oilprice.com/Energy/Crude-Oil/Europe-Is-Now-Seriously-Rethinking-Its-Oil-Refinery-Phase-Down.html) เพิ่ม XOM, CVX (ที่มา: ข่าว)
 ความเสี่ยงของธีม: รัฐห้ามส่งออก/คุมราคา (โดยเฉพาะไทย) ฮอร์มุซเปิด ส่วนต่างหดเร็ว
 
-## ความปลอดภัยไซเบอร์ยุค AI agent (เริ่มเจอ 2026-10-12 · ล่าสุด 2026-10-25)
+## ความปลอดภัยไซเบอร์ยุค AI agent (เริ่มเจอ 2026-10-12 · ล่าสุด 2026-11-01)
 ทำไม: AI หาช่องโหว่ได้เร็ว agent ถูกใช้เจาะระบบ องค์กรต้องจ่ายเพิ่มเพื่ออุด
 หลักฐานจากข่าว: [BofA จ้าง 1,000 คนแก้ช่องโหว่ที่ Mythos เจอ](https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html) · [IonQ ซื้อ Elisity $1.3B](https://www.cnbc.com/2026/10/12/ionq-elisity-acquisition-cybersecurity.html) · [โมเดล OpenAI เจาะกระเป๋าคริปโต](https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/) · [AI agent นอกลู่ในอินเดีย](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -106,6 +111,7 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 | BE8.BK | TH | บริการไอที/ไซเบอร์ ทางอ้อม | ความรู้ทั่วไป |
 อัปเดต 2026-10-25: CRWD +8.25% PANW +7.22% IONQ +0.35% (23 ต.ค.) ไม่พบสาเหตุในข่าว ข่าวเกี่ยวข้อง: [AI พบช่องโหว่ PHP ทั้งโลกต้องรีบอุด](https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss)
 อัปเดต 2026-10-25 (weekly): ทั้งสัปดาห์ CRWD +13.3% PANW +11.3% IONQ 0% BE8 -4.1% หลักฐาน: [AI เจอช่องโหว่ PHP](https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss) · [FBI เตือน 70% ของเว็บ](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TSXJJNXZRcTdlbnlOOHFWTFIwV01hUlV2MjhieF82dmIwUzMtZ1BOOHBNZ0tRUEVCa0FvQTAxTGFrRndXekVqa1RMVkZpNnM1SlJ3anRB?oc=5) · [Microsoft: การโจมตีด้วย AI agent เชื่อมรัฐจีน](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRUxxWV9qVGlNR1BIcm1obUxtakoxb2dpTkl5R0FJU1VvakNmYU14MG43bVZMS1Rxa0l4RXNnbTlFMWxadUloOXNBVl9Mczk3UTZXSjlxdjZEVXN0UDhzMkp1UFAzSmZ6X1JuYzdGbzRWM3kyX21mRG5FMHBjcVEySGQ3ZFk3a2k0UmpQRG5fVzF1NWRtdG5BeTl4NVVLTzdYX0pGekdEWHdEcVU?oc=5)
+อัปเดต 2026-11-01: CRWD -6.1% PANW -7.3% (28→30 ต.ค.) ลงตามเทค แม้ข่าวเสี่ยงเพิ่ม: [ส่วนขยาย Claude Code บน Cursor โดน backdoor](https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/) · [Northflank โดนเจาะ](https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/) · [Binance แฮก $6.3B](https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss)
 ความเสี่ยงของธีม: ถูกเทขายไปกับหุ้นซอฟต์แวร์ มูลค่าแพง
 
 ## สุขภาพ: ยาที่มีผลทดลองเด่น (เริ่มเจอ 2026-10-25 · ล่าสุด 2026-10-25)
