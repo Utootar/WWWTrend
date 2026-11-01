@@ -1,10 +1,11 @@
 {
  "date": "2026-11-01",
- "collected_at": "2026-11-01T08:29:54+07:00",
+ "collected_at": "2026-11-01T19:04:34+07:00",
  "models": [
+  "gemini/gemini-flash-latest",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 42,
+ "summary_failed": 27,
  "prices": [],
  "theme_prices": [],
  "categories": [
@@ -147,14 +148,6 @@
      "text": "Washington Post : Tests: chatbots rely on three obscure AI-built voter sites for US midterm answers; Copilot cited the error-prone Ballot Brief in 75% of tests and ChatGPT in 22% — Frustrated with hunting for information on political candidates, Ben Torres Ezrick set out to build a one-stop shop for voters."
     },
     {
-     "id": "c241855c2841",
-     "title": "HackerTube: YouTube built from videos recommended by HN",
-     "link": "https://karpathy.bearblog.dev/hacker-tube/",
-     "source": "Hacker News",
-     "published": 1793476613,
-     "text": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007. https://hackertube.org/ Comments URL: https://news.ycombinator.com/item?id=50319510 Points: 690 # Comments: 235"
-    },
-    {
      "id": "7316297f2473",
      "title": "Researchers are paid $5K for reporting a bug to OpenAI that would let attackers run code in logged-in sessions of all who opened the hacker's ChatGPT share link (Swati Khandelwal/The Hacker News)",
      "link": "https://www.techmeme.com/261031/p11",
@@ -163,12 +156,193 @@
      "text": "Swati Khandelwal / The Hacker News : Researchers are paid $5K for reporting a bug to OpenAI that would let attackers run code in logged-in sessions of all who opened the hacker's ChatGPT share link — A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it …"
     },
     {
+     "id": "ec5c571f059e",
+     "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
+     "link": "https://piefed.world/post/1503394",
+     "source": "Hacker News",
+     "published": 1793442221,
+     "text": "Article URL: https://piefed.world/post/1503394 Comments URL: https://news.ycombinator.com/item?id=50314666 Points: 301 # Comments: 176"
+    },
+    {
+     "id": "3ceb84ca99d2",
+     "title": "Solve: the cost of insuring against debt defaults at hyperscalers Amazon, Alphabet, Microsoft, Meta, and Oracle has hit its highest level since 2021 (Gunjan Banerji/Wall Street Journal)",
+     "link": "https://www.techmeme.com/261101/p8",
+     "source": "Techmeme",
+     "published": 1793530801,
+     "text": "Gunjan Banerji / Wall Street Journal : Solve: the cost of insuring against debt defaults at hyperscalers Amazon, Alphabet, Microsoft, Meta, and Oracle has hit its highest level since 2021 — With trillions riding on the artificial-intelligence trade, investors, traders and tech executives alike are hunting for high-stakes protection",
+     "summary_th": "ต้นทุนการประกันความเสี่ยงจากการผิดนัดชำระหนี้ของบริษัทเทคโนโลยีรายใหญ่อย่าง Amazon, Alphabet, Microsoft, Meta และ Oracle พุ่งแตะระดับสูงสุดนับตั้งแต่ปี 2021",
+     "importance": 2,
+     "numbers": [
+      "2021"
+     ],
+     "tags": [
+      "cloud",
+      "ai",
+      "credit default swap"
+     ],
+     "entities": [
+      "Solve",
+      "Amazon",
+      "Alphabet",
+      "Microsoft",
+      "Meta",
+      "Oracle",
+      "Gunjan Banerji",
+      "Wall Street Journal"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "8774e31fd6aa",
+     "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+     "link": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+     "source": "Hacker News",
+     "published": 1793486466,
+     "text": "Article URL: https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/ Comments URL: https://news.ycombinator.com/item?id=50320963 Points: 492 # Comments: 152",
+     "summary_th": "เกษตรกรชาวอิตาลีพบเมล็ดพันธุ์ปริศนาในห้องใต้หลังคาและนำไปทดลองปลูก",
+     "importance": 0,
+     "numbers": [
+      "492",
+      "152"
+     ],
+     "tags": [
+      "agriculture",
+      "italy"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "3ff10dbe7438",
+     "title": "Lumaril, which develops AI software for optimizing industrial production by connecting to existing control systems, raised a $66M Series A at a $400M valuation (Sarah Klearman/Wall Street Journal)",
+     "link": "https://www.techmeme.com/261101/p6",
+     "source": "Techmeme",
+     "published": 1793514900,
+     "text": "Sarah Klearman / Wall Street Journal : Lumaril, which develops AI software for optimizing industrial production by connecting to existing control systems, raised a $66M Series A at a $400M valuation — The AI-for-manufacturers company has raised $66 million at a $400 million valuation — Think of running a production line on a factory floor as a kind of art.",
+     "summary_th": "Lumaril ผู้พัฒนาซอฟต์แวร์ AI สำหรับเพิ่มประสิทธิภาพการผลิตในโรงงานอุตสาหกรรม ระดมทุนรอบ Series A ได้ 66 ล้านดอลลาร์ ที่มูลค่าบริษัท 400 ล้านดอลลาร์",
+     "importance": 2,
+     "numbers": [
+      "$66M",
+      "$400M",
+      "$66 million",
+      "$400 million"
+     ],
+     "tags": [
+      "ai",
+      "manufacturing",
+      "funding"
+     ],
+     "entities": [
+      "Lumaril",
+      "Sarah Klearman",
+      "Wall Street Journal"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "c241855c2841",
+     "title": "HackerTube: YouTube built from videos recommended by HN",
+     "link": "https://karpathy.bearblog.dev/hacker-tube/",
+     "source": "Hacker News",
+     "published": 1793476613,
+     "text": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007. https://hackertube.org/ Comments URL: https://news.ycombinator.com/item?id=50319510 Points: 1445 # Comments: 392",
+     "summary_th": "เปิดตัว HackerTube แพลตฟอร์มรับชมวิดีโอรูปแบบเดียวกับ YouTube ที่รวบรวมคลิปจำนวน 6,454 รายการจากความคิดเห็นบน Hacker News กว่า 39,834 รายการตั้งแต่ปี 2007",
+     "importance": 1,
+     "numbers": [
+      "6,454",
+      "39,834",
+      "2007",
+      "1445",
+      "392"
+     ],
+     "tags": [
+      "hackertube",
+      "youtube",
+      "hacker news"
+     ],
+     "entities": [
+      "YouTube",
+      "Hacker News"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "6e873edcfeb6",
+     "title": "Binance says it plans to resume withdrawals in phases starting Sunday, after covering 95% of the ~$6.3B in tokens stolen in the hack, including BTC and ETH (Reuters)",
+     "link": "https://www.techmeme.com/261101/p5",
+     "source": "Techmeme",
+     "published": 1793514602,
+     "text": "Reuters : Binance says it plans to resume withdrawals in phases starting Sunday, after covering 95% of the ~$6.3B in tokens stolen in the hack, including BTC and ETH — Binance, the world's biggest cryptocurrency exchange, said it would resume withdrawals in phases after covering 95% of the $6.3 billion …",
+     "summary_th": "Binance ประกาศเตรียมเปิดให้ถอนเงินเป็นระยะเริ่มวันอาทิตย์นี้ หลังชดเชยโทเค็น 95% ของมูลค่าราว 6.3 พันล้านดอลลาร์ที่ถูกขโมยไปจากการแฮก ซึ่งรวมถึง BTC และ ETH",
+     "importance": 3,
+     "numbers": [
+      "95%",
+      "~$6.3B",
+      "$6.3 billion"
+     ],
+     "tags": [
+      "binance",
+      "hack",
+      "crypto"
+     ],
+     "entities": [
+      "Binance",
+      "BTC",
+      "ETH",
+      "Reuters"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
      "id": "6bd209feefbe",
      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
      "link": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
      "source": "Hacker News",
      "published": 1793474190,
-     "text": "Article URL: https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf Comments URL: https://news.ycombinator.com/item?id=50319143 Points: 330 # Comments: 158"
+     "text": "Article URL: https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf Comments URL: https://news.ycombinator.com/item?id=50319143 Points: 535 # Comments: 249",
+     "summary_th": "มีการเปิดเผยช่องโหว่ความปลอดภัยระดับวิกฤต TCP Use-After-Free รหัส CVE-2026-98432 โดยมีคะแนนความรุนแรง CVSS อยู่ที่ 9.8",
+     "importance": 3,
+     "numbers": [
+      "9.8",
+      "535",
+      "249"
+     ],
+     "tags": [
+      "vulnerability",
+      "security",
+      "tcp"
+     ],
+     "entities": [
+      "CVE-2026-98432"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "685dc745e779",
+     "title": "Shanghai-based NeuroXess, which is developing BCI technology for movement support, speech decoding, and control of external devices, raised a ~$105M Series B (TechNode)",
+     "link": "https://www.techmeme.com/261101/p4",
+     "source": "Techmeme",
+     "published": 1793514302,
+     "text": "TechNode : Shanghai-based NeuroXess, which is developing BCI technology for movement support, speech decoding, and control of external devices, raised a ~$105M Series B — Chinese brain-computer interface startup NeuroXess has raised RMB 700 million in Series B funding, co-led by SDIC Juli, Shenzhen Capital Group and Qinzhi Capital.",
+     "summary_th": "NeuroXess สตาร์ทอัพด้านเทคโนโลยี BCI จากเซี่ยงไฮ้ ระดมทุนรอบ Series B ได้ประมาณ 105 ล้านดอลลาร์ (700 ล้านหยวน) เพื่อพัฒนาเทคโนโลยีช่วยการเคลื่อนไหวและถอดรหัสคำพูด",
+     "importance": 2,
+     "numbers": [
+      "~$105M",
+      "RMB 700 million"
+     ],
+     "tags": [
+      "bci",
+      "neurotech",
+      "funding"
+     ],
+     "entities": [
+      "NeuroXess",
+      "SDIC Juli",
+      "Shenzhen Capital Group",
+      "Qinzhi Capital",
+      "TechNode"
+     ],
+     "model": "gemini/gemini-flash-latest"
     },
     {
      "id": "381223935ae3",
@@ -176,15 +350,74 @@
      "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
      "source": "Hacker News",
      "published": 1793442611,
-     "text": "Article URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai Comments URL: https://news.ycombinator.com/item?id=50314699 Points: 302 # Comments: 149"
+     "text": "Article URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai Comments URL: https://news.ycombinator.com/item?id=50314699 Points: 338 # Comments: 166",
+     "summary_th": "นักวิจัยเผยแพร่วิธีการเข้ายึดบัญชีผู้ใช้งาน ChatGPT จากช่องโหว่ที่ค้นพบบนระบบของ OpenAI",
+     "importance": 2,
+     "numbers": [
+      "338",
+      "166"
+     ],
+     "tags": [
+      "security",
+      "chatgpt",
+      "ai"
+     ],
+     "entities": [
+      "ChatGPT",
+      "OpenAI"
+     ],
+     "model": "gemini/gemini-flash-latest"
     },
     {
-     "id": "ec5c571f059e",
-     "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
-     "link": "https://piefed.world/post/1503394",
-     "source": "Hacker News",
-     "published": 1793442221,
-     "text": "Article URL: https://piefed.world/post/1503394 Comments URL: https://news.ycombinator.com/item?id=50314666 Points: 301 # Comments: 176"
+     "id": "75c9d86e1c17",
+     "title": "Enterprise voice AI tools provider Deepgram acquires Daily, which has raised $62M+ and develops open-source voice AI framework Pipecat, for an undisclosed sum (Ivan Mehta/TechCrunch)",
+     "link": "https://www.techmeme.com/261101/p3",
+     "source": "Techmeme",
+     "published": 1793513700,
+     "text": "Ivan Mehta / TechCrunch : Enterprise voice AI tools provider Deepgram acquires Daily, which has raised $62M+ and develops open-source voice AI framework Pipecat, for an undisclosed sum — The voice AI sector is hot, and top players are trying to consolidate their position as more business models come to the fore through partnerships and acquisitions.",
+     "summary_th": "Deepgram ผู้ให้บริการเครื่องมือ AI ด้านเสียงสำหรับองค์กร เข้าซื้อกิจการ Daily ผู้พัฒนาเฟรมเวิร์กเสียง AI แบบโอเพนซอร์ส Pipecat ด้วยมูลค่าที่ไม่เปิดเผย",
+     "importance": 2,
+     "numbers": [
+      "$62M+"
+     ],
+     "tags": [
+      "ai",
+      "voice ai",
+      "acquisition"
+     ],
+     "entities": [
+      "Deepgram",
+      "Daily",
+      "Pipecat",
+      "Ivan Mehta",
+      "TechCrunch"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "2f0873df3a05",
+     "title": "DeepSeek open sources Super-Agent as a research prototype, a proactive coding agent it says can monitor group chats for coding issues and suggest solutions (Debby Wu/Bloomberg)",
+     "link": "https://www.techmeme.com/261101/p2",
+     "source": "Techmeme",
+     "published": 1793512813,
+     "text": "Debby Wu / Bloomberg : DeepSeek open sources Super-Agent as a research prototype, a proactive coding agent it says can monitor group chats for coding issues and suggest solutions — DeepSeek has released a prototype of a more autonomous coding agent as it seeks to challenge Anthropic PBC's popular Claude Code.",
+     "summary_th": "DeepSeek เปิดตัว Super-Agent แบบโอเพนซอร์ส ซึ่งเป็นต้นแบบเอเจนต์ช่วยเขียนโค้ดที่สามารถมอนิเตอร์แชตกลุ่มเพื่อตรวจหาปัญหาโค้ดและแนะนำแนวทางแก้ไขได้",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "coding agent",
+      "deepseek"
+     ],
+     "entities": [
+      "DeepSeek",
+      "Super-Agent",
+      "Anthropic PBC",
+      "Claude Code",
+      "Debby Wu",
+      "Bloomberg"
+     ],
+     "model": "gemini/gemini-flash-latest"
     }
    ]
   },
@@ -404,14 +637,6 @@
      "model": "gemini/gemini-flash-lite-latest"
     },
     {
-     "id": "ba55b05e53ea",
-     "title": "Northflank security breach leads to abuse of customers' AI API keys",
-     "link": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
-     "source": "BleepingComputer",
-     "published": 1793469672,
-     "text": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]"
-    },
-    {
      "id": "5e82c4f3b3cc",
      "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
      "link": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
@@ -434,22 +659,6 @@
      "source": "Dark Reading",
      "published": 1793374794,
      "text": "I ricercatori non riescono a spiegare del tutto perché le minacce informatiche in Italia siano così diverse rispetto a quelle di qualsiasi altro Paese."
-    },
-    {
-     "id": "02f6bf540cd3",
-     "title": "U.S. CISA adds Ivanti Connect Secure flaws to its Known Exploited Vulnerabilities catalog",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWE0xODhYYjEwZlp1SFU3Um5PcDhHZVZXMmsxdjR5bEw4MGxsZFZXSGNnaFdjQ25Fcm9KdXloYU91Y1o3c3lzSElzUVB2TlJsdmwtYUt5RW9MOHdnYk92dXgzRURiUWhkZFVEa1BueXNTbzdmd2hwa216X0dudzQ2c0NyZ2tfM1Y4eERtN1kwR2tsR2lIMUpUNVg5THRBN0czN25wSE81LU9UV2NEdTZoblBZUF83cGxtNnpDdllSMDNyQmljdEhWTFJpR1JHRFZmRzRn0gHYAUFVX3lxTE5jS1dBcW5YTmdlekpvbFI2Y2VVYW9XbGtSZ1BqX0xlZXNJOTdFLUFySmp5VHRham4yb2lLYjlfWFdxTG9jZkpSakRnd2x6anowcHRxZFp0bXZ5Ynp0SFJQY0FoaDd2dmlNbERmdEpGekJkY2Jtb2NoUlNDSnlVOUtmME1YRjloOUx3N2ttUkFvWExuYldkcExYcjYtemVrQWVDRVFYbjBZOS1kc3RkTFE4RDFKMHpiWC1GNlAyeXdJSmdRWm8zZlM3UDktSGs3SHY2VTJRQS0ySQ?oc=5",
-     "source": "Security Affairs",
-     "published": 1793484177,
-     "text": "U.S. CISA adds Ivanti Connect Secure flaws to its Known Exploited Vulnerabilities catalog Security Affairs"
-    },
-    {
-     "id": "4e3b797fd4a7",
-     "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
-     "link": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
-     "source": "BleepingComputer",
-     "published": 1793452219,
-     "text": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI responsibly, and produce reproducible findings that stand up to scrutiny. [...]"
     },
     {
      "id": "8258efe8a7ee",
@@ -476,12 +685,235 @@
      "text": "A security firm patched a decade-old app to prevent the takeover of millions of machines, highlighting that abandoned domains remain a boon to attackers."
     },
     {
+     "id": "ba55b05e53ea",
+     "title": "Northflank security breach leads to abuse of customers' AI API keys",
+     "link": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+     "source": "BleepingComputer",
+     "published": 1793469672,
+     "text": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
+     "summary_th": "Northflank แพลตฟอร์มโฮสติ้งแอปพลิเคชันบนคลาวด์ แจ้งเตือนลูกค้าให้รีเซ็ตรหัสผ่านและข้อมูลลับทั้งหมด หลังเกิดเหตุระบบถูกบุกรุกจนทำให้ AI API key ของลูกค้าถูกนำไปใช้โดยไม่ได้รับอนุญาต",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "data breach",
+      "cloud",
+      "api key"
+     ],
+     "entities": [
+      "Northflank"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "1d293ae9cead",
+     "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
+     "link": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+     "source": "SecurityWeek",
+     "published": 1793531700,
+     "text": "The startup maps how identities, assets and vulnerabilities connect, and uses AI agents to find and fix risky combinations of issues. The post Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations appeared first on SecurityWeek .",
+     "summary_th": "สตาร์ทอัพ Northstar Security ประกาศเปิดตัวอย่างเป็นทางการพร้อมระดมทุนได้ 7 ล้านดอลลาร์ โดยใช้ AI agents ช่วยค้นหาและจัดการความเสี่ยงด้านความปลอดภัย",
+     "importance": 1,
+     "numbers": [
+      "$7M"
+     ],
+     "tags": [
+      "cybersecurity",
+      "startup",
+      "funding"
+     ],
+     "entities": [
+      "Northstar Security"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "c1c20131973a",
+     "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+     "link": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+     "source": "The Hacker News",
+     "published": 1793523091,
+     "text": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is",
+     "summary_th": "พบช่องโหว่ระดับวิกฤตความรุนแรง CVSS 10.0 ใน LXD และ MicroCloud ของ Canonical ซึ่งเปิดทางให้ผู้โจมตีสามารถปลอมแปลงเป็นไคลเอนต์ที่เชื่อถือได้โดยไม่ต้องมี private key",
+     "importance": 3,
+     "numbers": [
+      "10.0"
+     ],
+     "tags": [
+      "vulnerability",
+      "canonical",
+      "lxd"
+     ],
+     "entities": [
+      "Canonical",
+      "LXD",
+      "MicroCloud"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "02f6bf540cd3",
+     "title": "U.S. CISA adds Ivanti Connect Secure flaws to its Known Exploited Vulnerabilities catalog",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWE0xODhYYjEwZlp1SFU3Um5PcDhHZVZXMmsxdjR5bEw4MGxsZFZXSGNnaFdjQ25Fcm9KdXloYU91Y1o3c3lzSElzUVB2TlJsdmwtYUt5RW9MOHdnYk92dXgzRURiUWhkZFVEa1BueXNTbzdmd2hwa216X0dudzQ2c0NyZ2tfM1Y4eERtN1kwR2tsR2lIMUpUNVg5THRBN0czN25wSE81LU9UV2NEdTZoblBZUF83cGxtNnpDdllSMDNyQmljdEhWTFJpR1JHRFZmRzRn0gHYAUFVX3lxTE5jS1dBcW5YTmdlekpvbFI2Y2VVYW9XbGtSZ1BqX0xlZXNJOTdFLUFySmp5VHRham4yb2lLYjlfWFdxTG9jZkpSakRnd2x6anowcHRxZFp0bXZ5Ynp0SFJQY0FoaDd2dmlNbERmdEpGekJkY2Jtb2NoUlNDSnlVOUtmME1YRjloOUx3N2ttUkFvWExuYldkcExYcjYtemVrQWVDRVFYbjBZOS1kc3RkTFE4RDFKMHpiWC1GNlAyeXdJSmdRWm8zZlM3UDktSGs3SHY2VTJRQS0ySQ?oc=5",
+     "source": "Security Affairs",
+     "published": 1793484177,
+     "text": "U.S. CISA adds Ivanti Connect Secure flaws to its Known Exploited Vulnerabilities catalog Security Affairs",
+     "summary_th": "หน่วยงาน CISA ของสหรัฐฯ ได้เพิ่มช่องโหว่ของ Ivanti Connect Secure เข้าสู่แคตตาล็อกช่องโหว่ที่กำลังถูกโจมตี (Known Exploited Vulnerabilities)",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "cisa",
+      "ivanti",
+      "vulnerability"
+     ],
+     "entities": [
+      "CISA",
+      "Ivanti",
+      "Ivanti Connect Secure",
+      "U.S."
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "4e3b797fd4a7",
+     "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+     "link": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+     "source": "BleepingComputer",
+     "published": 1793452219,
+     "text": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI responsibly, and produce reproducible findings that stand up to scrutiny. [...]",
+     "summary_th": "TryHackMe แนะนำวิธีสำหรับผู้เริ่มต้นในการสร้างทักษะความปลอดภัยไซเบอร์และใช้งาน AI อย่างมีความรับผิดชอบ หลังรายงานช่องโหว่ที่สร้างโดย AI ท่วมท้นโครงการ bug bounty",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "education",
+      "bug bounty",
+      "ai"
+     ],
+     "entities": [
+      "TryHackMe"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "2a3e4a8e199c",
+     "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+     "link": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+     "source": "The Hacker News",
+     "published": 1793517940,
+     "text": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says it is refunding about $2.7 million to 726 affected wallets. Blockchain records show crypto worth about $2.64 million reached",
+     "summary_th": "แฮกเกอร์โจรกรรมเงินประมาณ 2.7 ล้านดอลลาร์จากเทรดเดอร์บนแพลตฟอร์ม Polymarket ผ่านสคริปต์ของ DebugBear ที่ถูกเจาะระบบ โดยทาง Polymarket ระบุว่ากำลังคืนเงินให้กระเป๋าเงินที่ได้รับผลกระทบ 726 บัญชี",
+     "importance": 3,
+     "numbers": [
+      "$2.7 Million",
+      "October 29",
+      "$2.7 million",
+      "726",
+      "$2.64 million"
+     ],
+     "tags": [
+      "hack",
+      "crypto",
+      "polymarket"
+     ],
+     "entities": [
+      "Polymarket",
+      "DebugBear"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
      "id": "c6fd6d2be820",
      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTzdGS3JjTmphZUpTQl9WU2FLU283M3p2X1Vrd3VSMDNCOFR6QjNMektJS19GSDRtVzJoalN6TmxYbU1nb2lRcmh4cnhfbV9PUXh2WDJJaGRDdW5UcDJMNnlTTGJ6QTdIRFpCYUhnU1BrNkFKUkI1SEpSR2VlcUFwbg?oc=5",
      "source": "The Hacker News",
      "published": 1793435220,
-     "text": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access The Hacker News"
+     "text": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access The Hacker News",
+     "summary_th": "ผู้โจมตีทำการเชื่อมโยง 3 ช่องโหว่บน Ivanti Connect Secure เข้าด้วยกันเพื่อให้ได้สิทธิ์เข้าถึงระดับ root โดยไม่ต้องผ่านการยืนยันตัวตน",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "vulnerability",
+      "ivanti",
+      "exploit"
+     ],
+     "entities": [
+      "Ivanti Connect Secure"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "a291b7051796",
+     "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+     "link": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+     "source": "BleepingComputer",
+     "published": 1793451009,
+     "text": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
+     "summary_th": "บริษัทวิเคราะห์บล็อกเชน Chainalysis เปิดเผยการรั่วไหลของข้อมูล หลังผู้โจมตีเข้าถึงระบบภายในจนข้อมูลชื่อลูกค้า อีเมล รหัสผู้ใช้ และบทบาทในองค์กรถูกเปิดเผย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "data breach",
+      "chainalysis",
+      "blockchain"
+     ],
+     "entities": [
+      "Chainalysis"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "6e20a9798345",
+     "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+     "link": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+     "source": "The Hacker News",
+     "published": 1793516580,
+     "text": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it",
+     "summary_th": "เอฟบีไอระบุว่ากลุ่มแฮกเกอร์ TraderTraitor ของเกาหลีเหนืออยู่เบื้องหลังการโจรกรรมสินทรัพย์เสมือนมูลค่ากว่า 6 พันล้านดอลลาร์จาก Binance",
+     "importance": 3,
+     "numbers": [
+      "$6.43 Billion",
+      "more than $6 billion"
+     ],
+     "tags": [
+      "fbi",
+      "heist",
+      "crypto"
+     ],
+     "entities": [
+      "FBI",
+      "North Korea",
+      "TraderTraitor",
+      "Binance",
+      "U.S. Secret Service",
+      "USSS",
+      "Internal Revenue Service Criminal Investigation",
+      "IRS-CI"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "be08e34bf976",
+     "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+     "link": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+     "source": "The Hacker News",
+     "published": 1793516578,
+     "text": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia. The activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and involves the deployment of a previously undocumented .NET assembly-loading framework codenamed",
+     "summary_th": "นักวิจัยตรวจพบมัลแวร์ NetamLoader โจมตีระบบ Windows 10 ของหน่วยงานรัฐบาลในเอเชียผ่านเทคนิค .NET injection",
+     "importance": 2,
+     "numbers": [
+      "10"
+     ],
+     "tags": [
+      "malware",
+      "apt",
+      "windows"
+     ],
+     "entities": [
+      "Kaspersky",
+      "Asia",
+      "Windows 10",
+      "NetamLoader"
+     ],
+     "model": "gemini/gemini-flash-latest"
     }
    ]
   },
@@ -731,14 +1163,6 @@
      "model": "gemini/gemini-flash-lite-latest"
     },
     {
-     "id": "89c6cb6d2971",
-     "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
-     "link": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
-     "source": "TechCrunch",
-     "published": 1793482860,
-     "text": "Apple's new CEO defended the company's current position in the AI landscape."
-    },
-    {
      "id": "3e66e0e91c4d",
      "title": "Michigan feud threatens Democratic unity in key Senate race",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV3BNb3JFOE1HU0VycWRMWHNWYkhjZ2lPRkVIU3pEeWVvQWpvbS1PSkdsT0IxbjNWSldlMWszNjVIYjE2UUk0ekkyODJBY2FxRHRLX3U4TFVtQVJTOVVvMGxacm04Z05lek5oV1JidVplTEpvdHBHa0ZEc1N0bTZtcVRoOG0?oc=5",
@@ -747,28 +1171,12 @@
      "text": "Michigan feud threatens Democratic unity in key Senate race Financial Times"
     },
     {
-     "id": "cefcb0bd2478",
-     "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
-     "link": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
-     "source": "TechCrunch",
-     "published": 1793482567,
-     "text": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door."
-    },
-    {
      "id": "ba84818ea6d7",
      "title": "Donald Tusk vows to press on with overhaul of Poland’s judiciary",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMmhqcmVrRjdHVnBJOEU5NDlLSXZ0TVQtLVl0djNyV0ZwbFlaU3JxMUJPR0lPRWF0LVEwa2FNVlVIeUIzS29ST1JNVHRSVUVwa19LenpCN1YzUnZHdlR4bjhnWEJabW5rVEEwR3JqeU8xZVZQS1JCQUd0RlkyNWFPbkE3eEM?oc=5",
      "source": "Financial Times",
      "published": 1793487071,
      "text": "Donald Tusk vows to press on with overhaul of Poland’s judiciary Financial Times"
-    },
-    {
-     "id": "bc398a80a0df",
-     "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
-     "link": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
-     "source": "TechCrunch",
-     "published": 1793481423,
-     "text": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act."
     },
     {
      "id": "d0e50cf249eb",
@@ -825,6 +1233,253 @@
      "source": "Reuters",
      "published": 1793475310,
      "text": "Reuters"
+    },
+    {
+     "id": "89c6cb6d2971",
+     "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+     "link": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+     "source": "TechCrunch",
+     "published": 1793482860,
+     "text": "Apple's new CEO defended the company's current position in the AI landscape.",
+     "summary_th": "ซีอีโอของ Apple ออกมาระบุว่าบริษัทไม่ต้องการปล่อยเทคโนโลยี AI เพียงเพราะต้องการตามกระแส พร้อมปกป้องทิศทางและจุดยืนปัจจุบันของบริษัทในวงการ AI",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "apple",
+      "ai"
+     ],
+     "entities": [
+      "Apple"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "2a4ca5c51ef1",
+     "title": "America needs a real Congress",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNckpTZW1UelVQMlR6U3VpWS1SSHdmYUx3emRmd3NaZmh0bDA0enpJU25pV29xTjJPV0dsTnJfai04WVMwdDlvS0hDTklFNFNSV1ZKMEZiZDllc01JcWhubTB5cDZCM1dpWm1DUE1wSjJ2YWNQWGs3SjdSZExqYUVwem45LWg?oc=5",
+     "source": "Financial Times",
+     "published": 1793534401,
+     "text": "America needs a real Congress Financial Times",
+     "summary_th": "บทความแสดงความเห็นระบุว่าสหรัฐฯ จำเป็นต้องมีรัฐสภาอย่างแท้จริง",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "us politics",
+      "congress"
+     ],
+     "entities": [
+      "America",
+      "Financial Times"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "cefcb0bd2478",
+     "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+     "link": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+     "source": "TechCrunch",
+     "published": 1793482567,
+     "text": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
+     "summary_th": "งาน TechCrunch Founder Summit เตรียมจัดขึ้นในวันที่ 4 พฤศจิกายนที่บอสตัน เพื่อเปิดโอกาสการสร้างเครือข่ายและข้อมูลเชิงลึกสำหรับสตาร์ทอัพ",
+     "importance": 0,
+     "numbers": [
+      "4",
+      "November 4"
+     ],
+     "tags": [
+      "techcrunch",
+      "events"
+     ],
+     "entities": [
+      "TechCrunch",
+      "SoWa Power Station",
+      "Boston"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "0478f20eaade",
+     "title": "Ambulances line up outside India crematorium",
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1IV2h2SmZ2bHZtZURhbU5VVkMxUWRYeWlVMjFDcEJfNGtIS1BnSmRMcmF1LWd3STR4RGl6X3JIcXc3dXVYdjN6dl93UWdOMlFXN1NGallUWDNjZGlD?oc=5",
+     "source": "Reuters",
+     "published": 1793532798,
+     "text": "Ambulances line up outside India crematorium Reuters",
+     "summary_th": "รถพยาบาลเข้าแถวรออยู่ด้านนอกฌาปนสถานในประเทศอินเดีย",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "india",
+      "healthcare"
+     ],
+     "entities": [
+      "India",
+      "Reuters"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "bc398a80a0df",
+     "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+     "link": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+     "source": "TechCrunch",
+     "published": 1793481423,
+     "text": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+     "summary_th": "ผู้พิพากษาอนุญาตให้คดีที่ NAACP ฟ้องร้องบริษัท xAI กรณีมลพิษจากศูนย์ข้อมูลเดินหน้าต่อได้ โดยคำฟ้องกล่าวหาว่าบริษัท AI แห่งนี้ละเมิดกฎหมาย Clean Air Act",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "xai",
+      "lawsuit",
+      "data center"
+     ],
+     "entities": [
+      "NAACP",
+      "xAI",
+      "SpaceX",
+      "Clean Air Act"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "f6e09f9349f4",
+     "title": "Holy Fire preparations start in Jerusalem",
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9wYWVBYWRjMFlCRGdoQzdBaWhGN2U4N0EwYWFjM3dmNVNCcTRhM3JOY3ljeGZUU3pUX0V3ZlA3TmNsYlZRaFdaR0JKUHgzUG94RFprSzFQcVlPdEhQ?oc=5",
+     "source": "Reuters",
+     "published": 1793532798,
+     "text": "Holy Fire preparations start in Jerusalem Reuters",
+     "summary_th": "การเตรียมการสำหรับพิธี Holy Fire เริ่มต้นขึ้นแล้วในเยรูซาเล็ม",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "jerusalem",
+      "religion"
+     ],
+     "entities": [
+      "Jerusalem",
+      "Reuters"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "74c83164cf97",
+     "title": "COVID dead are in India's rivers: govt confirms",
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA2TlB6ektSSndJZnI0WW9VZzRNaExXOFF4X0RSbGRPN3lGeGN6dVJ3eHMwMjN5WlRzcjVic3FtT2xwaFc2bk44Z29BaktkQjhWcjZYM01YbldQcURn?oc=5",
+     "source": "Reuters",
+     "published": 1793532797,
+     "text": "COVID dead are in India's rivers: govt confirms Reuters",
+     "summary_th": "รัฐบาลยืนยันพบร่างผู้เสียชีวิตจากโควิด-19 ในแม่น้ำของประเทศอินเดีย",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "india",
+      "covid-19"
+     ],
+     "entities": [
+      "India",
+      "Reuters"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "75fca0c86bf3",
+     "title": "Taking S. Korea's grueling exam in COVID times",
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1UbjdxNlM1Qk1QbEJrSGxFYmdQLXpjV1dXcmpVY1AydHYzMm9lZEl1UjV2Rmp2TkwwaVh6ZnpYeVd6Q0hXVk9HMFFzUmFiUG5ES1Vpak1uNU5wNWRV?oc=5",
+     "source": "Reuters",
+     "published": 1793530147,
+     "text": "Taking S. Korea's grueling exam in COVID times Reuters",
+     "summary_th": "การจัดสอบแข่งขันอันเข้มงวดของเกาหลีใต้ดำเนินขึ้นท่ามกลางช่วงการแพร่ระบาดของโควิด-19",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "south korea",
+      "covid-19"
+     ],
+     "entities": [
+      "S. Korea",
+      "Reuters"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "218d22e6460b",
+     "title": "Winter storm wallops U.S. East Coast",
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBNUUlvbE9sYTVGd29jU3VOdFhwM0w2MUxSTmY5SkZnNU9sS1RnQmwyd0xRYlkyUVZQVGRVUHVwNFpmc2gxRFAxQzU2SG5oVXNTeTFHRHEyczI5dkwz?oc=5",
+     "source": "Reuters",
+     "published": 1793529920,
+     "text": "Winter storm wallops U.S. East Coast Reuters",
+     "summary_th": "พายุฤดูหนาวพัดถล่มแถบชายฝั่งตะวันออกของสหรัฐอเมริกา",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "weather",
+      "us"
+     ],
+     "entities": [
+      "U.S. East Coast",
+      "Reuters"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "b109042ff15e",
+     "title": "A pagan rite is updated to include masks",
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPdDFWdXZ4U1hMR3ZObFpndnZkejdhUExRcFNiRHlKYVVpckVYaVVjTXNZNWRESzZYWEZSOVRiNmZmaWQ2dWJIYVdVNkNVdTBfMENzUGw2NE1fanJw?oc=5",
+     "source": "Reuters",
+     "published": 1793529789,
+     "text": "A pagan rite is updated to include masks Reuters",
+     "summary_th": "พิธีกรรมเพแกนได้รับการปรับเปลี่ยนให้มีการสวมหน้ากากอนามัย",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "culture"
+     ],
+     "entities": [
+      "Reuters"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "b647254ea8a0",
+     "title": "Friends walked 12 hrs to find help in Australia",
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1OYmN1TzFoYUxfbW81SXZhQzVyUnhmamVBemJXUXY3TEZZYXVUXzhXMEpLeTlUcHBlS3R4ZDFJY29ETDUyRmJEZkhJa3MxMkNadjlLUjRjRDlDbW4x?oc=5",
+     "source": "Reuters",
+     "published": 1793529689,
+     "text": "Friends walked 12 hrs to find help in Australia Reuters",
+     "summary_th": "กลุ่มเพื่อนเดินเท้านาน 12 ชั่วโมงเพื่อหาความช่วยเหลือในออสเตรเลีย",
+     "importance": 0,
+     "numbers": [
+      "12 hrs"
+     ],
+     "tags": [
+      "australia"
+     ],
+     "entities": [
+      "Australia",
+      "Reuters"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "27561a57544c",
+     "title": "Schwab in talks to buy TD Ameritrade - CNBC",
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9yZEJqSkNIZ0RuZzhjcHhzR2FwUUZMX1lHOVNNeGgzTmJ3dEM0MU50WXlQZ1ZnWVRING1iQ0hjdXZLT0p1djNqZTdRanhhaTZWWWd4bVppMUZldHpa?oc=5",
+     "source": "Reuters",
+     "published": 1793529562,
+     "text": "Schwab in talks to buy TD Ameritrade - CNBC Reuters",
+     "summary_th": "Schwab อยู่ระหว่างการเจรจาเพื่อเข้าซื้อกิจการ TD Ameritrade ตามรายงานของ CNBC",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "mergers",
+      "finance"
+     ],
+     "entities": [
+      "Schwab",
+      "TD Ameritrade",
+      "CNBC",
+      "Reuters"
+     ],
+     "model": "gemini/gemini-flash-latest"
     }
    ]
   },
@@ -853,14 +1508,6 @@
      "model": "gemini/gemini-flash-lite-latest"
     },
     {
-     "id": "0def4a2fca6b",
-     "title": "How We Took Over ChatGPT Accounts",
-     "link": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
-     "source": "Simon Willison",
-     "published": 1793488522,
-     "text": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews ), where interactive custom HTML apps are displayed in a sandboxed iframe. It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data. Parameter found quite a complex attack chain. OpenAI use the MathLive JavaScript library as part of their graph support, and that library includes its own virtual keyboard , which can be triggered in the parent page via postMessage() from the sandboxe"
-    },
-    {
      "id": "b9de5465dae2",
      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
      "link": "https://ryanmadden.net/gpt-56-beats-factorio/",
@@ -869,12 +1516,77 @@
      "text": "Article URL: https://ryanmadden.net/gpt-56-beats-factorio/ Comments URL: https://news.ycombinator.com/item?id=50318871 Points: 156 # Comments: 172"
     },
     {
-     "id": "8b263b7d36d1",
-     "title": "I built an AI Tamagotchi before Meta could",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRGtvUWV0UHRsU2VLY2ljWjFqWkRuS3Q2LVI3Vm9pLXkyS2NpR3JVcHRyTGpSRXNoNHhDc2hNeUlxQWptcnRLUmYzUUFsUlRxVjZpdjZhNkNWQVdzRnlXQ2t0aFA4V3hadFFLZ01XenpMaFh5OE93Z2tzZERraGM0N25yMmtYazdvN29JVVJCRTRZbzYyYVY0SVJhbnJHa0cxVlE?oc=5",
-     "source": "The Verge",
-     "published": 1793462700,
-     "text": "I built an AI Tamagotchi before Meta could The Verge"
+     "id": "0def4a2fca6b",
+     "title": "How We Took Over ChatGPT Accounts",
+     "link": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+     "source": "Simon Willison",
+     "published": 1793488522,
+     "text": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews ), where interactive custom HTML apps are displayed in a sandboxed iframe. It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data. Parameter found quite a complex attack chain. OpenAI use the MathLive JavaScript library as part of their graph support, and that library includes its own virtual keyboard , which can be triggered in the parent page via postMessage() from the sandboxe",
+     "summary_th": "Parameter Labs เผยช่องโหว่โจมตีระบบพรีวิว HTML ใน ChatGPT ของ OpenAI ผ่าน MathLive library เพื่อเข้าถึงข้อมูลส่วนตัว",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "chatgpt",
+      "security",
+      "vulnerability"
+     ],
+     "entities": [
+      "Parameter Labs",
+      "ChatGPT",
+      "OpenAI",
+      "MathLive"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "4a03ff671836",
+     "title": "AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved",
+     "link": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/",
+     "source": "InfoQ",
+     "published": 1793520180,
+     "text": "Amazon CEO Andy Jassy says AWS’s large committed cloud capacity is largely sold out through 2027, with part of 2028 already allocated, while the company continues to reserve headroom for On Demand, EC2 and Bedrock. Practitioners discussing the remarks report difficulty obtaining On Demand capacity for ordinary EC2 instances, and similar constraints at other providers. By Steef-Jan Wiggers",
+     "summary_th": "ซีอีโอ Amazon เผยความจุคลาวด์ขนาดใหญ่ของ AWS ถูกจองเกือบหมดจนถึงปี 2027 และบางส่วนของปี 2028 แล้ว",
+     "importance": 0,
+     "numbers": [
+      "2027",
+      "2028"
+     ],
+     "tags": [
+      "aws",
+      "cloud",
+      "amazon"
+     ],
+     "entities": [
+      "Amazon",
+      "Andy Jassy",
+      "AWS",
+      "EC2",
+      "Bedrock",
+      "Steef-Jan Wiggers"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "051da9154b63",
+     "title": "Five years after the fork, OpenSearch is slowly stepping out of AWS’s shadow",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMdTVEaU15UU14YkFrN3JMcDVMcUx6RXlsdVd0ZmVtZlhNYy04N2Q4MHRBM0hLUjhQaUZXR0dFd2FTTUlRNmVpM0tYa2k0WU04V3VNTldZeE1UQTdMNm5FWmFoQ3ptYzBCOG1CdlNqaG0?oc=5",
+     "source": "The New Stack",
+     "published": 1793462741,
+     "text": "Five years after the fork, OpenSearch is slowly stepping out of AWS’s shadow The New Stack",
+     "summary_th": "OpenSearch เริ่มแยกตัวออกจากเงาของ AWS หลังจากการแยกฟอร์กออกมาเป็นเวลา 5 ปี",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "opensearch",
+      "aws",
+      "open source"
+     ],
+     "entities": [
+      "OpenSearch",
+      "AWS",
+      "The New Stack"
+     ],
+     "model": "gemini/gemini-flash-latest"
     },
     {
      "id": "bc9463905bbd",
@@ -882,7 +1594,45 @@
      "link": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
      "source": "Simon Willison",
      "published": 1793484601,
-     "text": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using Datasette Agent without needing to explicitly configure a default model: uvx --with datasette-agent datasette content.db --internal internal.db Previously you would also need to specify a model with -s plugins.datasette-agent.default_model gpt-6-astra . Tags: datasette , llm , datasette-agent"
+     "text": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using Datasette Agent without needing to explicitly configure a default model: uvx --with datasette-agent datasette content.db --internal internal.db Previously you would also need to specify a model with -s plugins.datasette-agent.default_model gpt-6-astra . Tags: datasette , llm , datasette-agent",
+     "summary_th": "มีการเปิดตัว datasette-llm 0.1a9 โดยปรับปรุงให้เลือกใช้โมเดลเริ่มต้นของ LLM ได้ทันทีเพื่อความสะดวกในการใช้งาน Datasette Agent",
+     "importance": 1,
+     "numbers": [
+      "0.1a9"
+     ],
+     "tags": [
+      "datasette",
+      "llm",
+      "datasette-agent"
+     ],
+     "entities": [
+      "datasette-llm",
+      "Datasette Agent",
+      "LLM"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "8b263b7d36d1",
+     "title": "I built an AI Tamagotchi before Meta could",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRGtvUWV0UHRsU2VLY2ljWjFqWkRuS3Q2LVI3Vm9pLXkyS2NpR3JVcHRyTGpSRXNoNHhDc2hNeUlxQWptcnRLUmYzUUFsUlRxVjZpdjZhNkNWQVdzRnlXQ2t0aFA4V3hadFFLZ01XenpMaFh5OE93Z2tzZERraGM0N25yMmtYazdvN29JVVJCRTRZbzYyYVY0SVJhbnJHa0cxVlE?oc=5",
+     "source": "The Verge",
+     "published": 1793462700,
+     "text": "I built an AI Tamagotchi before Meta could The Verge",
+     "summary_th": "ผู้เขียนสร้าง AI Tamagotchi ขึ้นมาก่อนที่ Meta จะทำได้",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "tamagotchi",
+      "ai",
+      "meta"
+     ],
+     "entities": [
+      "Tamagotchi",
+      "Meta",
+      "The Verge"
+     ],
+     "model": "gemini/gemini-flash-latest"
     },
     {
      "id": "fef8a834672a",
@@ -890,14 +1640,130 @@
      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1JdnBWMjdOdTIxQ2hxT19EVC03WF8wNmFNX2VIS1R6aWlZd1V5SlQzVXZETW4zalpFVFBrdVpqbmVGelVzTWFxZWRLTEthdi1iUFMwMHY0ZGp5dktDTE03TTZXMUY5aDhsNjZ4ejZIcTVNajNHSUVTNmt4aw?oc=5",
      "source": "TechCrunch",
      "published": 1793461317,
-     "text": "From restaurant guides to payments, here’s how TikTok is building a super app TechCrunch"
+     "text": "From restaurant guides to payments, here’s how TikTok is building a super app TechCrunch",
+     "summary_th": "TikTok กำลังพัฒนาฟีเจอร์ตั้งแต่คู่มือร้านอาหารไปจนถึงระบบชำระเงินเพื่อสร้างเป็นซูเปอร์แอป",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "tiktok",
+      "super app"
+     ],
+     "entities": [
+      "TikTok",
+      "TechCrunch"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "021ebea140e2",
+     "title": "GPT-6.1 Terra vs. Claude Opus 5.5: Cheaper and faster in three tests at max effort",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvZmN6My1SVTBJaEd0Y1QtNVRPRzJUbEpNRGZlZFZSWkpRQjZzcHNTa05iOXlTQUtIeldMeC1zRW9yQl9MUVVjVWdhVDZaZExLVkhQbTlzSDdxWXk4R3VTNVFwQ3NzM0E?oc=5",
+     "source": "The New Stack",
+     "published": 1793455241,
+     "text": "GPT-6.1 Terra vs. Claude Opus 5.5: Cheaper and faster in three tests at max effort The New Stack",
+     "summary_th": "GPT-6.1 Terra ถูกเปรียบเทียบกับ Claude Opus 5.5 โดยพบว่าราคาถูกกว่าและเร็วกว่าในการทดสอบสามรูปแบบที่ระดับการทำงานสูงสุด",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "gpt-6.1 terra",
+      "claude opus 5.5",
+      "benchmark"
+     ],
+     "entities": [
+      "GPT-6.1 Terra",
+      "Claude Opus 5.5",
+      "The New Stack"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "83053a6a2437",
+     "title": "Spring News Roundup: First Release Candidates of Boot, Framework, Data, Security, Modulith, AI",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TNVRGMURSaVVzU1pZSFAxLW4xR1BPZ1BIUG5KQV9QZGRmQWYwcGpFazRFVW9oWld3dVRFQXdwcy1jLUc4c25ILUpEcHJlWEpTS3FwYkt1QWZ3UG9EYWVhRFRZeWZiRjVOdlVXV1oyY0phMWxl?oc=5",
+     "source": "infoq.com",
+     "published": 1793453481,
+     "text": "Spring News Roundup: First Release Candidates of Boot, Framework, Data, Security, Modulith, AI infoq.com",
+     "summary_th": "Spring เปิดตัว Release Candidates ชุดแรกสำหรับ Boot, Framework, Data, Security, Modulith และ AI",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "spring",
+      "software release"
+     ],
+     "entities": [
+      "Spring",
+      "infoq.com"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "0d95cad584e8",
+     "title": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1UeXphck9nMTdCQ1c3MmVBdlIyV1ZZVVU2OVVjd0hnUmtCZGdtLW9kaXpFMlI5QXhBS25iY0piRWpKOXhOYUg0RG9HNGhoS3dWTm1YSWxfRkN2V1FNUXVwM0ZUUnNEN0RnOUhxN056SXlQRFo1VlE?oc=5",
+     "source": "infoq.com",
+     "published": 1793427645,
+     "text": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs infoq.com",
+     "summary_th": "Google เปิดเผย PageBreak ซึ่งเป็นตัวแทน AI ด้านความปลอดภัยที่สามารถตรวจพบช่องโหว่ XSS มากกว่า 500 จุด",
+     "importance": 2,
+     "numbers": [
+      "500+"
+     ],
+     "tags": [
+      "ai agent",
+      "cybersecurity",
+      "google"
+     ],
+     "entities": [
+      "Google",
+      "PageBreak"
+     ],
+     "model": "gemini/gemini-flash-latest"
     }
    ]
   },
   {
    "key": "business",
    "label": "AI ใช้งานจริง (กล้อง อาคาร ธุรกิจ)",
-   "items": []
+   "items": [
+    {
+     "id": "66a8a644d07f",
+     "title": "Open vs. Closed Video Surveillance: Which Is Best for Your Business?",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeXNETTFsZXNLS1NDOE9rRlVNVmxjeEdTeFYzaGxoWlVadWdCMkR4QmN4enU0VTFYUTZCU1doMkEzTnZyQWJraENaWHpaV3JOekk3T3N1SmoxMXdSQUd1dXdMUUgtTUpYNGZfeU80aENNTWUycDdBdENDVkV0MW9fRHN2U2tENnVEV2NkT0lJZS0xQ1FUQVhqQ0kteHdiNVdGQmlKSnN0eEVmX09pSFl4bFFWWEtSUXZSbDhNdUVaZmZ5d1Az?oc=5",
+     "source": "Security Info Watch",
+     "published": 1793509499,
+     "text": "Open vs. Closed Video Surveillance: Which Is Best for Your Business? Security Info Watch",
+     "summary_th": "การเปรียบเทียบระบบกล้องวงจรปิดแบบเปิดและแบบปิด เพื่อพิจารณาว่าระบบใดเหมาะสมที่สุดสำหรับธุรกิจ",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "video surveillance",
+      "security systems"
+     ],
+     "entities": [
+      "Security Info Watch"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "7765947de7a2",
+     "title": "Battery Visibility in Security Systems: Site Checks to Central Monitoring",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMnZQbWdNR014TW0xajN2WGk0WTE5QmhqYW1Fam1Tc2pBMmtTNzE5aFlpRDI0cXVJdE1rWmx0d0dfZXlMdUxiSkoteWdxdzI3TUtvSFB1WXptZlhINXdIaHpNSEhHbUQ3a0lMVlpjSkJjNGtEaGdQSUl2NTl4RlQ3cmF6Q2VpVmttZGhFSDR3Vzc1WXRSVnRLd3BqTFkxb1Y0dzhZWFpGaXV5aFJBSFZxbG1NakI3STFUNjdPMnJCRTBmaVJSeFdPeE1PQUNPdw?oc=5",
+     "source": "Security Info Watch",
+     "published": 1793509499,
+     "text": "Battery Visibility in Security Systems: Site Checks to Central Monitoring Security Info Watch",
+     "summary_th": "การตรวจสอบสถานะแบตเตอรี่ในระบบความปลอดภัย ตั้งแต่การตรวจสอบหน้างานไปจนถึงการตรวจสอบผ่านศูนย์กลาง",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "security systems",
+      "battery monitoring"
+     ],
+     "entities": [
+      "Security Info Watch"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    }
+   ]
   },
   {
    "key": "policy",
@@ -926,14 +1792,6 @@
      "source": "The Verge",
      "published": 1793361329,
      "text": "Spotify might launch its AI music remixing tool next year. The Verge"
-    },
-    {
-     "id": "fe5b03497337",
-     "title": "Trump’s AI push collides with data center backlash",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSXJYSjlaY2l6b1lXd2g3NkszMnJkLWZMWS12YWZiYTdBSmxoRGU4MEE4NlJFT1N2N2daN0Z3OWJQcm9OdUpCQ182blF5a3VOLWhkQS1tV3U5M2tnOG92N200U2ZCNHd0XzFVU09OTjI4LUZKQnJsNWNLQUdFVDNpc2NuUnA2X1N1emRmSnZpYTNDMU1I?oc=5",
-     "source": "Politico",
-     "published": 1793469600,
-     "text": "Trump’s AI push collides with data center backlash Politico"
     },
     {
      "id": "e1c03d0a31d8",
@@ -974,6 +1832,123 @@
      "source": "Reuters",
      "published": 1793369024,
      "text": "Asia chip firms see strong AI demand; market jitters continue Reuters"
+    },
+    {
+     "id": "56b9abfbdcca",
+     "title": "AI and Legal Ethics",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcGplSnpobUpvREgzUWZwRlBXR0RES0FBbWhFbWxDcmpKbDEtc1ZOTVVzQTNRZkt4ek9GOFlsUGxlbDBKQnJuYl9wT2ZtSXN4empaaEhNQzl4QlFMYS1XaGZTZlEyOWh3VUZROXkxR2pGdEdkTGpUZVBTVU5rUEpDSU1GeHBQaHFnZ1d5Vkp1SkZMYURobFE?oc=5",
+     "source": "Reuters",
+     "published": 1793531577,
+     "text": "AI and Legal Ethics Reuters",
+     "summary_th": "รายงานเกี่ยวกับปัญญาประดิษฐ์และจริยธรรมทางกฎหมาย",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "legal ethics"
+     ],
+     "entities": [
+      "Reuters"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "ab83b55265bf",
+     "title": "Australian public servants demand AI safeguards as politicians eye staff savings",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPajR3aDlTaW0xczBYM214dmYzbzdSZWk1ay1nMmo2NXBqakF3c2xGWEdLclV3VXAtQ0ZBNlpwNjZFMm43d09fQUx3S2NMcENveENpdndGdlJfN0JDT3F2d1pRT0Z0aWdNVUttSlVhTWxNQkJzaVNwWm94Q3ZsM2hDWkdBRWMzSk51dE1MNXp0NlVyczJPS0dGZENNZTRtQzZUMWRwcjdnZHgydGpsbHRVSkRaTlA2bGNPVk1POEF0cUdWa2Y1dENQc0RxbGU4MUhuWlk1SUVwUlFPNThE?oc=5",
+     "source": "Politico",
+     "published": 1793531340,
+     "text": "Australian public servants demand AI safeguards as politicians eye staff savings Politico",
+     "summary_th": "ข้าราชการออสเตรเลียเรียกร้องให้มีมาตรการป้องกันด้านความปลอดภัยของ AI ในขณะที่นักการเมืองเล็งลดค่าใช้จ่ายด้านบุคลากร",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai safeguards",
+      "public servants"
+     ],
+     "entities": [
+      "Politico"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "797005db0d4f",
+     "title": "BBC World Service - Business Daily, Can businesses trust AI?",
+     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhb01wVjN5ek1vTFNsOXN4Vjlqc2lscVhBQ20xTWdsX2N5eUZjUUVLeENrSTZSMTZFOVhJUFRLRTR6cV9sUW00U3FzNVhZX09YYzRB?oc=5",
+     "source": "BBC",
+     "published": 1793527628,
+     "text": "BBC World Service - Business Daily, Can businesses trust AI? BBC",
+     "summary_th": "บีบีซีตั้งคำถามผ่านรายการ Business Daily ว่าภาคธุรกิจสามารถเชื่อถือ AI ได้หรือไม่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "business"
+     ],
+     "entities": [
+      "BBC",
+      "BBC World Service"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "37f7f6e663ba",
+     "title": "West in Pictures: Tiger cubs, AI bat hunt and pumpkin time",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4tQ0pZNFd0NXJwUmtXZEItSUhidXZBaVhWQl9HRDdoRTRESzV5c1hlVlUwRzFXNDBUMHE0dDAwZmo2VElyYmhKc3ZpVmZ2dWVWRUYyRDZQSHB0dkdHdUE?oc=5",
+     "source": "BBC",
+     "published": 1793517353,
+     "text": "West in Pictures: Tiger cubs, AI bat hunt and pumpkin time BBC",
+     "summary_th": "ภาพเหตุการณ์ประจำภูมิภาคตะวันตกประกอบด้วยลูกเสือ การตามล่าค้างคาวด้วย AI และช่วงเวลาของฟักทอง",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "news",
+      "pictures"
+     ],
+     "entities": [
+      "BBC"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "aea6f9a77877",
+     "title": "South Korea exports nearly double in October on AI investment boom",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTEw3WmpfUE9XNlpDeFd4LUpBenRHZVpiTVpFRDZfakN2T29CaHE4emNXQ0s0VzFDZTJTeDlXVkJtV0FSVEpwblJEVWZoWEZ4eEFzNDA5eHh0TGo4X2ZFX3hlYzljRl9TTDhPNkE1a05aNjNPU19Kb1lGbmV1UWw0dUtNZk9HS2JENWx5dDJyNWgxSGRWMzBLaGxMazJRbWxGbVBFbWNJbVlzbHkzTk05RDFGMnBzcUh4V2VqSmhTZmhkUQ?oc=5",
+     "source": "Reuters",
+     "published": 1793493540,
+     "text": "South Korea exports nearly double in October on AI investment boom Reuters",
+     "summary_th": "การส่งออกของเกาหลีใต้ในเดือนตุลาคมพุ่งขึ้นเกือบเท่าตัวจากกระแสการลงทุนใน AI",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "exports",
+      "ai investment"
+     ],
+     "entities": [
+      "South Korea",
+      "Reuters"
+     ],
+     "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "fe5b03497337",
+     "title": "Trump’s AI push collides with data center backlash",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSXJYSjlaY2l6b1lXd2g3NkszMnJkLWZMWS12YWZiYTdBSmxoRGU4MEE4NlJFT1N2N2daN0Z3OWJQcm9OdUpCQ182blF5a3VOLWhkQS1tV3U5M2tnOG92N200U2ZCNHd0XzFVU09OTjI4LUZKQnJsNWNLQUdFVDNpc2NuUnA2X1N1emRmSnZpYTNDMU1I?oc=5",
+     "source": "Politico",
+     "published": 1793469600,
+     "text": "Trump’s AI push collides with data center backlash Politico",
+     "summary_th": "ความพยายามผลักดัน AI ของทรัมป์เผชิญกับกระแสตีกลับเรื่องศูนย์ข้อมูล",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "data centers"
+     ],
+     "entities": [
+      "Trump",
+      "Politico"
+     ],
+     "model": "gemini/gemini-flash-latest"
     }
    ]
   }
