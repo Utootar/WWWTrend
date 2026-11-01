@@ -2,10 +2,11 @@
  "date": "2026-11-01",
  "collected_at": "2026-11-01T07:09:11+07:00",
  "models": [
+  "claude/routine",
   "gemini/gemini-flash-latest",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 87,
+ "summary_failed": 0,
  "prices": [
   {
    "symbol": "^GSPC",
@@ -413,7 +414,8 @@
       "WSJ",
       "Jeffrey Epstein"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c234bd50cb44",
@@ -431,7 +433,8 @@
       "personal finance"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d6bad7011784",
@@ -454,7 +457,8 @@
       "Nasdaq",
       "Bitcoin"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "68538fbfbf41",
@@ -477,7 +481,8 @@
      "entities": [
       "Binance"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "90548519984f",
@@ -486,7 +491,7 @@
      "source": "MarketWatch",
      "published": 1793475000,
      "text": "“I’m 68, she’s 74, and we’re both in good health. We married later in life and have no children.”",
-     "summary_th": "คู่สามีภรรยาวัย 68 และ 74 ปี ปรึกษาเรื่องการใช้เงินเก็บที่มีโอกาสใช้ชีวิตจนหมด",
+     "summary_th": "คู่สามีภรรยาวัย 68 และ 74 ปี บอกว่ามีโอกาส 99% ที่จะมีชีวิตยืนยาวกว่าเงินเก็บ และตั้งคำถามว่าทำไมจึงไม่ใช้เงินให้หมด",
      "importance": 0,
      "numbers": [
       "99%",
@@ -498,7 +503,10 @@
       "personal finance"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "แปลหัวข้อผิดทิศทาง: หัวข้อว่ามีโอกาส 99% ที่จะมีชีวิตยืนยาวกว่าเงินเก็บ",
+     "checked_by": "claude/review"
     },
     {
      "id": "1814c47d945c",
@@ -520,7 +528,8 @@
       "Apple",
       "AMD"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "71a1d39d156a",
@@ -542,7 +551,8 @@
       "NAACP",
       "SpaceXAI"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "17115ce5b227",
@@ -562,7 +572,8 @@
       "personal finance"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "cab00e0079ad",
@@ -580,7 +591,8 @@
       "market"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "db8706bfdae2",
@@ -602,7 +614,8 @@
      "entities": [
       "OpenAI"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "89ef9b5bcfc8",
@@ -624,7 +637,8 @@
       "personal finance"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "66133ab625dc",
@@ -645,7 +659,8 @@
       "Anthropic",
       "Nasdaq"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4c5692c93565",
@@ -654,7 +669,7 @@
      "source": "CNBC Top News",
      "published": 1793461031,
      "text": "Big Tech earnings reignited AI spending fears, sending investors into defensive stocks.",
-     "summary_th": "หุ้นสหรัฐฯ เริ่มต้นสัปดาห์ด้วยความหวังก่อนจะร่วงลงใน 0 เนื่องจากความกังวลเรื่องการใช้จ่ายด้าน AI ในหุ้นกลุ่มเทคโนโลยีขนาดใหญ่",
+     "summary_th": "หุ้นสหรัฐฯ เริ่มสัปดาห์ด้วยความหวังแต่จบด้วยความผิดหวัง หลังผลประกอบการของบิ๊กเทคทำให้ความกังวลเรื่องการใช้จ่ายด้าน AI กลับมา นักลงทุนจึงหันไปหุ้นกลุ่มป้องกันความเสี่ยง",
      "importance": 2,
      "numbers": [],
      "tags": [
@@ -663,7 +678,10 @@
       "ai"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "มีเลข 0 หลุดเข้ามาเอง ไม่มีในต้นทาง",
+     "checked_by": "claude/review"
     },
     {
      "id": "6a7541e62208",
@@ -685,7 +703,8 @@
      "entities": [
       "AARP"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "306d179b82d9",
@@ -694,7 +713,7 @@
      "source": "www.tokenpost.com",
      "published": 1793481643,
      "text": "Tech sell-off opens scope for a short-term rebound as oil tests S&P 500 uptrend www.tokenpost.com",
-     "summary_th": "การเทขายหุ้นกลุ่มเทคโนโลยีเปิดโอกาสให้เกิดการรีบาวด์ระยะสั้น ขณะที่ราคาน้ำมันทดสอบแนวโน้มขาขึ้นของดัชนี S&P 500",
+     "summary_th": "บทความมองว่าการเทขายหุ้นเทคโนโลยีอาจเปิดโอกาสให้เกิดการรีบาวด์ระยะสั้น ขณะที่ราคาน้ำมันกำลังทดสอบแนวโน้มขาขึ้นของดัชนี S&P 500",
      "importance": 1,
      "numbers": [],
      "tags": [
@@ -705,7 +724,10 @@
      "entities": [
       "S&P 500"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "คำทำนายของบทความถูกเขียนเป็นข้อเท็จจริง ต้องระบุว่าเป็นมุมมองของบทความ",
+     "checked_by": "claude/review"
     },
     {
      "id": "46a3ad4a96c6",
@@ -724,7 +746,8 @@
      "entities": [
       "Berkshire Hathaway"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "99809b5e97e6",
@@ -744,7 +767,8 @@
      "entities": [
       "Medicare"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a410415f270b",
@@ -764,7 +788,8 @@
       "NASDAQ",
       "OANDA"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "769afc1b4d88",
@@ -783,7 +808,8 @@
       "election"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4b41ce91dbb6",
@@ -803,7 +829,8 @@
       "taxes"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "10ada9daf180",
@@ -825,7 +852,8 @@
       "Anthropic",
       "Nasdaq"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4a61817e966f",
@@ -846,7 +874,8 @@
       "Anthropic",
       "Nasdaq"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "09a59aff65e1",
@@ -867,7 +896,8 @@
       "investing"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d81ade23bf7e",
@@ -889,7 +919,8 @@
       "ProShares NOBL",
       "The Motley Fool"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ba884a59c810",
@@ -907,7 +938,8 @@
       "safety"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -921,7 +953,21 @@
      "link": "https://www.bbc.co.uk/news/articles/cmq5npz5l5geo?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1793487973,
-     "text": "Ruchira Ranasingha, 50, has been stranded in the Cook Islands since 2023 and wants to return to Sri Lanka."
+     "text": "Ruchira Ranasingha, 50, has been stranded in the Cook Islands since 2023 and wants to return to Sri Lanka.",
+     "summary_th": "รูชิรา รานาซิงฮา วัย 50 ปี ติดอยู่ที่หมู่เกาะคุก ตั้งแต่ปี 2023 และต้องการกลับศรีลังกา แต่ยังขอวีซ่าทรานซิตเพื่อเดินทางกลับไม่ได้",
+     "importance": 1,
+     "numbers": [
+      "2023"
+     ],
+     "tags": [
+      "visa",
+      "cook islands"
+     ],
+     "entities": [
+      "Cook Islands",
+      "Sri Lanka"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "62113a5f81b6",
@@ -929,7 +975,18 @@
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSTZCUjZ1b2k3WXhmM0RLbERqelRvWHdXQkR0TUU1cWVOTWRJOFkxcmlZNEk4cHJneFRNRFplRXdGVWhwUl9ORHpfSkFLbWFlc0EtQjhDVEpnWXhGREg1WVBjMFJlc2FtdTdzUnVxdmFwZmpDR0dPdklnRkJFWXJtV213?oc=5",
      "source": "ABC News & Headlines – Australian Broadcasting Corporation",
      "published": 1793490832,
-     "text": "AUDIO: Finance minister promises more government savings amid inflation woes ABC News & Headlines – Australian Broadcasting Corporation"
+     "text": "AUDIO: Finance minister promises more government savings amid inflation woes ABC News & Headlines – Australian Broadcasting Corporation",
+     "summary_th": "รัฐมนตรีคลังให้คำมั่นว่าจะลดรายจ่ายรัฐบาลเพิ่มเติม ท่ามกลางปัญหาเงินเฟ้อ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "inflation",
+      "government spending"
+     ],
+     "entities": [
+      "ABC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "641fcec3e146",
@@ -937,7 +994,24 @@
      "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1793484705,
-     "text": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack."
+     "text": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack.",
+     "summary_th": "Binance ชดเชยความเสียหาย 90% หลังถูกแฮ็กมูลค่า $6.3bn เอฟบีไอระบุว่าเกาหลีเหนือเป็นผู้รับผิดชอบ",
+     "importance": 3,
+     "numbers": [
+      "$6.3bn",
+      "90%"
+     ],
+     "tags": [
+      "binance",
+      "crypto hack",
+      "north korea"
+     ],
+     "entities": [
+      "Binance",
+      "FBI",
+      "North Korea"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1cab751f79e2",
@@ -945,7 +1019,18 @@
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWmNydFVLY1BWbVhkTE1RbjJ2djMyaGtieHdqXzZaTG1EVURhX2c2NXBwNy1rTzVKUmIxUmQ3RXkzSnlhaGNobUpCcThXUF82eURhZU1UbzdDWF9Ecm9YbHI5bDNYbkFPZGRxTU9PeGNfd3ZyQ2s1ZUZweFJjYVVSenpOMTlpeTNRWWRVMGJKWDl0dGxlUFdVcmhmelgzWDdXNmstRjVCNE54bk55ZkNZ?oc=5",
      "source": "Hoodline",
      "published": 1793489850,
-     "text": "Alexandria Butchery Raises Prices as Tariffs Hit Imports Hoodline"
+     "text": "Alexandria Butchery Raises Prices as Tariffs Hit Imports Hoodline",
+     "summary_th": "ร้านขายเนื้อในอเล็กซานเดรียขึ้นราคาสินค้า เพราะภาษีนำเข้าที่กระทบสินค้านำเข้า",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "tariffs",
+      "food prices"
+     ],
+     "entities": [
+      "Alexandria Butchery"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3ef1a8112a73",
@@ -953,7 +1038,21 @@
      "link": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1793482141,
-     "text": "More than 320,000 people demonstrated across France against the rising cost of living and poor public services, with clashes between some protesters and police."
+     "text": "More than 320,000 people demonstrated across France against the rising cost of living and poor public services, with clashes between some protesters and police.",
+     "summary_th": "ผู้ประท้วงมากกว่า 320,000 คนชุมนุมทั่วฝรั่งเศสต่อต้านค่าครองชีพและบริการสาธารณะที่แย่ มีการปะทะกับตำรวจบางส่วน",
+     "importance": 2,
+     "numbers": [
+      "320,000"
+     ],
+     "tags": [
+      "france",
+      "protests",
+      "cost of living"
+     ],
+     "entities": [
+      "France"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5537ccc62b61",
@@ -961,7 +1060,20 @@
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUjJ4b1BrdjdSaWR6dXUzanZwNHJ5UnBoLVlwbEZ0aVd0Nk5FcTdWQ3YxSThuRFB6VlVkY2lUVnVGbFpDbzVtTG5qdFVHVkhHSWJZdC1TRW0wYVc0TjF1QUh5WVFOYW84X19DV3lqbVBFcDFJRFM0cnMzWEdCbkZBTkx1c3ZIXzIxdmNtN3ZUYThicTd0MVFNNWkwNWRyZ1ZzYmpoNEd0Uk9QS1BaRTljd05IX2pmSzZRcWNpZm95UVVPWVlvbnEweDFn?oc=5",
      "source": "WSET",
      "published": 1793488942,
-     "text": "Beer prices enter Virginia 5th District race as Perriello blasts aluminum tariffs WSET"
+     "text": "Beer prices enter Virginia 5th District race as Perriello blasts aluminum tariffs WSET",
+     "summary_th": "ราคาเบียร์กลายเป็นประเด็นในการเลือกตั้งเขต 5 รัฐเวอร์จิเนีย หลังเพอริเอลโลวิจารณ์ภาษีอะลูมิเนียม",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "tariffs",
+      "aluminum",
+      "midterms"
+     ],
+     "entities": [
+      "Perriello",
+      "Virginia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c02cb42c8aa4",
@@ -969,7 +1081,21 @@
      "link": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1793474546,
-     "text": "One evacuated couple says they crossed minefields in Oleshky in search of food."
+     "text": "One evacuated couple says they crossed minefields in Oleshky in search of food.",
+     "summary_th": "คู่รักชาวยูเครนคนหนึ่งที่ออกจากเมืองโอเลชกี้ ซึ่งถูกรัสเซียยึดครอง เล่าว่าต้องข้ามทุ่นระเบิดเพื่อหาอาหาร",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ukraine",
+      "russia",
+      "humanitarian"
+     ],
+     "entities": [
+      "Oleshky",
+      "Ukraine",
+      "Russia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "0966002706a5",
@@ -977,7 +1103,19 @@
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdUJFZWFfdFBTOWNmTG12ZzlzT3dpQkJ2d1RBYkJxVlNNamZmbGZWNkV5V1kzRXMySlF3OWRScmhiTmJDWm11NHNlMk9tQ1JzNTNVUWZXbk0zMzJBVmFVdkhpeXdOek9hWTJRR2RtelRudmZWRnF4MjBJb0YxZkxxNnJNVU9xLVNpSEhNb011QW52Y3RhME5ESlA5VUFVajE5a3BoSUdoaWp3ZGJkcDdMR0Nwc0Z0QTZhM0JfZkQyajIxWmdSNWlRT1dScw?oc=5",
      "source": "TMJ4 News",
      "published": 1793483383,
-     "text": "Strong growth and inflation paints mixed picture of economy days before midterms TMJ4 News"
+     "text": "Strong growth and inflation paints mixed picture of economy days before midterms TMJ4 News",
+     "summary_th": "ข้อมูลเศรษฐกิจสหรัฐแข็งแกร่งแต่เงินเฟ้อสูง ทำให้ภาพรวมเศรษฐกิจดูปนกันก่อนการเลือกตั้งกลางสมัย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "us economy",
+      "inflation",
+      "midterms"
+     ],
+     "entities": [
+      "US"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "896568e9efb4",
@@ -985,7 +1123,21 @@
      "link": "https://www.bbc.co.uk/news/videos/cmy83w0jwznpo?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1793465747,
-     "text": "The BBC's Dan Johnson travelled to the northern Ukrainian border with Belarus after evacuated Oleshky residents arrived in buses and ambulances following a temporary ceasefire."
+     "text": "The BBC's Dan Johnson travelled to the northern Ukrainian border with Belarus after evacuated Oleshky residents arrived in buses and ambulances following a temporary ceasefire.",
+     "summary_th": "ผู้อพยพจากโอเลชกี้เดินทางถึงชายแดนยูเครน-เบลารุส หลังหยุดยิงชั่วคราว และได้พบกับคนที่รักอย่างซาบซึ้ง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ukraine",
+      "ceasefire",
+      "evacuation"
+     ],
+     "entities": [
+      "Oleshky",
+      "Ukraine",
+      "Belarus"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a4c9860d8e56",
@@ -993,7 +1145,19 @@
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPanR5OVI0QlBKU3pBYjd5dndsbHJ4NW1FS3ZlRW9nUVJhazlSQ3J4UmE2Y003TmdXaDB0cVZYVTRKb0NSMW84RUd2MW1DR2RyQkVnazFTM1JHa09pbEhtTHBVempNX0NxdVp6aWp4c19UYXA0LVQ3LVQ1TENleEFWS0dKQThSZS0yU1N6VHpUSkxycHRtYURwYkZBUGJMSDkzSHk2UHczTGxHVUdIaW5fZkNDX2puUQ?oc=5",
      "source": "FOX 17 West Michigan News",
      "published": 1793481283,
-     "text": "U.S. economy grows faster than expected as inflation rises FOX 17 West Michigan News"
+     "text": "U.S. economy grows faster than expected as inflation rises FOX 17 West Michigan News",
+     "summary_th": "เศรษฐกิจสหรัฐขยายตัวเร็วกว่าที่คาด ขณะที่เงินเฟ้อเพิ่มขึ้น",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "us economy",
+      "gdp",
+      "inflation"
+     ],
+     "entities": [
+      "US"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3d21f51d375f",
@@ -1001,7 +1165,22 @@
      "link": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1793459780,
-     "text": "Government data shows that more than 10,000 people have contracted the rare virus."
+     "text": "Government data shows that more than 10,000 people have contracted the rare virus.",
+     "summary_th": "ผู้เสียชีวิตจากอีโบลาในคองโกเกิน 5,000 คน เป็นการระบาดที่ร้ายแรงที่สุดของประเทศ ข้อมูลรัฐบาลระบุผู้ติดเชื้อมากกว่า 10,000 คน",
+     "importance": 2,
+     "numbers": [
+      "5,000",
+      "10,000"
+     ],
+     "tags": [
+      "ebola",
+      "congo",
+      "outbreak"
+     ],
+     "entities": [
+      "DR Congo"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "146b18871341",
@@ -1009,7 +1188,18 @@
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd2xWNmhUM0VnUG9DVjhGU1B2Tnc5dU1vVnlRdXlReDJQY0hqMFN3R0FNbV9vbDk5SnZjbGVYWVFfVGRVS3NnYW5tenQxQzVzLTNDZTd1YVMyODhyMFBza3dfejhFY2tlWWwyQ1l2VEVfck0wNWFHdzE4d2NDV1JWUDB1NkhiLTIwZFFNZlc4S2Q3S0hWQnJTZm9YVDk0UQ?oc=5",
      "source": "Seoul Economic Daily",
      "published": 1793480405,
-     "text": "U.S. Midterms in Focus as Korea Reports October Inflation Seoul Economic Daily"
+     "text": "U.S. Midterms in Focus as Korea Reports October Inflation Seoul Economic Daily",
+     "summary_th": "เกาหลีใต้รายงานเงินเฟ้อเดือนตุลาคม ขณะที่ประเด็นการเลือกตั้งกลางสมัยสหรัฐกำลังอยู่ในความสนใจ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "korea inflation",
+      "midterms"
+     ],
+     "entities": [
+      "Korea"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "93f7b4ba334e",
@@ -1017,7 +1207,18 @@
      "link": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1793456895,
-     "text": "The prime minister has previously emphasised military preparedness as central to his government's ambitions."
+     "text": "The prime minister has previously emphasised military preparedness as central to his government's ambitions.",
+     "summary_th": "นายกรัฐมนตรีเอธิโอเปียให้รัฐมนตรีเข้ารับการฝึกทหาร นายกฯ เคยเน้นความพร้อมทางทหารเป็นหัวใจของนโยบายรัฐบาล",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ethiopia",
+      "military"
+     ],
+     "entities": [
+      "Ethiopia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "697a5a1d0948",
@@ -1025,7 +1226,21 @@
      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOR1VGTHpWTEo3Q29YQkZvZTVNS1ViWVZPUEx1NGR3RDRUWW52QUJsR3prWVpLQm51RzFSVlpobTU2NS1UcUU2WXpJaGU1OTE5dVNYdXJVZlVPOUhOV3dURFFMOExDaXl3Vk54SF9ieTlQY0Q3LVhPVU1LZkJOaWNqdmJaYWdsbmRkck5Bc19Sd0NyblNnVmdjcnYxN3JjZ0QwbjZxN1E3QnFxTG9aSXI0REN0RXBhSVFHUHk1cUx2TkVaRlNoYU5saVBFNEFtM2RmUFZn?oc=5",
      "source": "Capital Brief",
      "published": 1793480400,
-     "text": "‘Economic consequences’: RBA tipped to hike rates to 18-year high Capital Brief"
+     "text": "‘Economic consequences’: RBA tipped to hike rates to 18-year high Capital Brief",
+     "summary_th": "มีการคาดว่า RBA จะขึ้นดอกเบี้ยไปสู่ระดับสูงสุดในรอบ 18 ปี",
+     "importance": 2,
+     "numbers": [
+      "18-year high"
+     ],
+     "tags": [
+      "rba",
+      "rate hike",
+      "australia"
+     ],
+     "entities": [
+      "RBA"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a2f28390745f",
@@ -1033,7 +1248,21 @@
      "link": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1793412739,
-     "text": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become."
+     "text": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
+     "summary_th": "ผู้ต้องสงสัยหลักในการแฮกบิแนนซ์คือแฮกเกอร์ 'ชั้นยอด' ของเกาหลีเหนือ หากข้อกล่าวหาเป็นจริง การปล้นครั้งนี้แสดงว่าแฮกเกอร์กลุ่มนี้มีอำนาจมากขึ้น",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "north korea",
+      "binance",
+      "hack"
+     ],
+     "entities": [
+      "North Korea",
+      "Binance",
+      "BBC"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -1047,7 +1276,21 @@
      "link": "https://oilprice.com/Energy/Crude-Oil/Chevron-Raises-Exploration-Spending-By-50.html",
      "source": "OilPrice.com",
      "published": 1793487600,
-     "text": "After years of focusing on growing exploration and production in the U.S. Gulf of Mexico and the Permian shale basin, U.S. oil and gas supermajor Chevron returns to high-impact frontier exploration as it seeks to renew its portfolio with diverse opportunities globally. Exploration in South America, Africa, and the Eastern Mediterranean is now a key focus of Chevron’s upstream business, which the company looks to turn around by adding reserves and production growth opportunities in Guyana, Angola, Namibia, Nigeria, Guinea-Bissau, Equatorial…"
+     "text": "After years of focusing on growing exploration and production in the U.S. Gulf of Mexico and the Permian shale basin, U.S. oil and gas supermajor Chevron returns to high-impact frontier exploration as it seeks to renew its portfolio with diverse opportunities globally. Exploration in South America, Africa, and the Eastern Mediterranean is now a key focus of Chevron’s upstream business, which the company looks to turn around by adding reserves and production growth opportunities in Guyana, Angola, Namibia, Nigeria, Guinea-Bissau, Equatorial…",
+     "summary_th": "เชฟรอนเพิ่มงบสำรวจ 50% และกลับไปสำรวจแหล่งใหม่ที่มีความเสี่ยงสูง รวมถึงในอเมริกาใต้ เพื่อเติมพอร์ตการผลิต",
+     "importance": 2,
+     "numbers": [
+      "50%"
+     ],
+     "tags": [
+      "chevron",
+      "exploration",
+      "capex"
+     ],
+     "entities": [
+      "Chevron"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f876cf958a14",
@@ -1055,7 +1298,20 @@
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSXJoVkV5QTVIZkJTTUwzVVJBWVZIbE5aS1R0cG1aZ2hNbWY2TnMzMGdQenZ2VU16NWtUd0hnQ01abWtSYnBwTndLekFNcG1QZVFneWNQcW11UGd5bi1iTEN4MGMyc0pON1h4VHRsUFhLazVCamt6SVhrUmpudGZKb0xMbjBWSmhjNzJ5Z3pmTVdTOUlzRUNjaXRwYTlMd1h0TEVTdjhIZ28?oc=5",
      "source": "ad-hoc-news.de",
      "published": 1793489235,
-     "text": "Hanwha Ocean wins 356.8 billion won VLCC order ad-hoc-news.de"
+     "text": "Hanwha Ocean wins 356.8 billion won VLCC order ad-hoc-news.de",
+     "summary_th": "Hanwha Ocean ได้รับคำสั่งซื้อเรือ VLCC มูลค่า 356.8 พันล้านวอน",
+     "importance": 2,
+     "numbers": [
+      "356.8 billion won"
+     ],
+     "tags": [
+      "shipbuilding",
+      "vlcc"
+     ],
+     "entities": [
+      "Hanwha Ocean"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6ccfb5b1f535",
@@ -1063,7 +1319,22 @@
      "link": "https://oilprice.com/Geopolitics/International/US-Intelligence-China-Could-Put-Laser-Weapons-in-Space-by-2030.html",
      "source": "OilPrice.com",
      "published": 1793480400,
-     "text": "A new United States intelligence report warns that China is developing energy weapons and spaceplanes that it could use for military operations in outer space, with the capability of using directed-energy weapons in orbit by the end of the 2020s. The US Defence Intelligence Agency (DIA) report, published on Sunday, includes a rare image of the newly developed reusable spaceplane. The DIA report, entitled Challenges to Security in Space, is the first time that the U.S. government has offered an estimated timeline for China’s development…"
+     "text": "A new United States intelligence report warns that China is developing energy weapons and spaceplanes that it could use for military operations in outer space, with the capability of using directed-energy weapons in orbit by the end of the 2020s. The US Defence Intelligence Agency (DIA) report, published on Sunday, includes a rare image of the newly developed reusable spaceplane. The DIA report, entitled Challenges to Security in Space, is the first time that the U.S. government has offered an estimated timeline for China’s development…",
+     "summary_th": "รายงานหน่วยข่าวกรองสหรัฐ (DIA) ระบุว่าจีนอาจมีอาวุธพลังงานนำวิถีในอวกาศภายในปี 2030 และกำลังพัฒนายานอวกาศทางทหาร",
+     "importance": 2,
+     "numbers": [
+      "2030"
+     ],
+     "tags": [
+      "china",
+      "space weapons",
+      "defense"
+     ],
+     "entities": [
+      "China",
+      "US Defence Intelligence Agency"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "25175f97ba4c",
@@ -1071,7 +1342,19 @@
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVV9KU2ZCaWlqTVVpRDFnTTAxSFlCbUE4M20wSkZIejFjX2pWcUxlSGRUX29xNXREamt3alpVVUpaZlEwajVzUHM4OTYxMEVmZUNqN3RZUDRKQ1Fna2I0bU5TNWtYekpCQ3hESDM4N1ozenNKYVpSamJ5U25qamg2T19vcUtibzRzSWxKc1RRNFJBUXRhZUh6U0FaREhTWV9DY055ZENkSWhVamRSU3pnQlFsbURIaU5GRkZFNQ?oc=5",
      "source": "ad-hoc-news.de",
      "published": 1793487899,
-     "text": "BPCL stock faces sourcing shift as Russian crude loses appeal ad-hoc-news.de"
+     "text": "BPCL stock faces sourcing shift as Russian crude loses appeal ad-hoc-news.de",
+     "summary_th": "หุ้น BPCL เผชิญการเปลี่ยนแหล่งจัดหาน้ำมันดิบ เมื่อน้ำมันดิบรัสเซียเสียความน่าสนใจ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "india",
+      "crude oil",
+      "russia"
+     ],
+     "entities": [
+      "BPCL"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "43bf5494a953",
@@ -1079,7 +1362,23 @@
      "link": "https://oilprice.com/Energy/Energy-General/Jackdaw-Approval-Sparks-Fierce-Debate-Over-Britains-Energy-Future.html",
      "source": "OilPrice.com",
      "published": 1793473200,
-     "text": "The United Kingdom approved the development of the Jackdaw North Sea gas field on the 21st of October following years of legal battles and political uncertainty. Jackdaw is a large offshore natural gas field in the North Sea, owned by Adura, a joint venture between Shell and Equinor, since 2025, located around 240 km east of Aberdeen in Scotland. The field was approved by the U.K. government in 2022, but the development was challenged in Scotland's Court of Session in Edinburgh, and environmental approval was rescinded after a judge…"
+     "text": "The United Kingdom approved the development of the Jackdaw North Sea gas field on the 21st of October following years of legal battles and political uncertainty. Jackdaw is a large offshore natural gas field in the North Sea, owned by Adura, a joint venture between Shell and Equinor, since 2025, located around 240 km east of Aberdeen in Scotland. The field was approved by the U.K. government in 2022, but the development was challenged in Scotland's Court of Session in Edinburgh, and environmental approval was rescinded after a judge…",
+     "summary_th": "อังกฤษอนุมัติการพัฒนาแหล่งก๊าซ Jackdaw ในทะเลเหนือเมื่อวันที่ 21 ตุลาคม หลังผ่านการต่อสู้ทางกฎหมายหลายปี แหล่งนี้เป็นของ Adura ซึ่งเป็นกิจการร่วมค้าของ Shell และ Equinor",
+     "importance": 2,
+     "numbers": [
+      "21st of October"
+     ],
+     "tags": [
+      "gas",
+      "north sea",
+      "uk energy"
+     ],
+     "entities": [
+      "Adura",
+      "Shell",
+      "Equinor"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2b8879f9b79e",
@@ -1087,7 +1386,19 @@
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcU5uTXU5dENsTTMxU2JPd2l1UHVhYmJEc3d5Y2FxelI4S3dyZVNDV2dQeVJkb2lUSENoNEhnTHdaWWF3VEhmaEZqaTVZSVJ3QUhyVUxCLU5qcGZfbHpNMGJ0Zl81ZlRKajlBVXpsMzl0RHlQTmhQWk14MU1sZWhEQ2FOOHpHZmtjUWtxLTBtSmhNLWZ0akUzSkxpaHQ5R1VOMDdwTlpzNVJvdl9IVEc2X9IBtAFBVV95cUxOR0FOMS1fbDlKa0NaLW85bkdEUmU1ZG1RRTEzTjJHZFdFSURhazlGLWtuNFlnUVpvYy1tNEJzTlBRZEEyblhlWEU5Q0dJM2RxTW5jLWhhM2hwVm9XTXVicW9tUUhWWjU1SWxPdXI5NW9KODFEYlFQcWlCd1hNWUZlN1NLNW9oZndtdmVORHN5N0xzczM0YUUxTHRucEFISUgtbmJTNmdONHZCRlVCa1huUDN0c2Y?oc=5",
      "source": "Daily Excelsior",
      "published": 1793487042,
-     "text": "Bullions October correction deepens amid elevated crude prices, Fed rate jitters Daily Excelsior"
+     "text": "Bullions October correction deepens amid elevated crude prices, Fed rate jitters Daily Excelsior",
+     "summary_th": "ราคาทองคำปรับตัวลงลึกขึ้นในเดือนตุลาคม ท่ามกลางราคาน้ำมันดิบที่สูงและความกังวลเรื่องดอกเบี้ยของเฟด",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "fed",
+      "crude"
+     ],
+     "entities": [
+      "Fed"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "854e2ede3f81",
@@ -1095,7 +1406,19 @@
      "link": "https://oilprice.com/Energy/Energy-General/DARPA-Backs-Project-to-Measure-AI-Energy-Use-at-Every-Stage-of-the-Workflow.html",
      "source": "OilPrice.com",
      "published": 1793466000,
-     "text": "The artificial intelligence boom is creating an energy monster. The indiscriminate integration of machine learning into everything from from our energy grids to our electric toothbrushes – no, really – has created a global race to build up data center capacity as quickly as humanly possible, causing energy demand projections to skyrocket and placing unprecedented strain on the world’s energy grids. By 2030, data center energy consumption is expected to more than double from its 2024 consumption level, which stood at about 420…"
+     "text": "The artificial intelligence boom is creating an energy monster. The indiscriminate integration of machine learning into everything from from our energy grids to our electric toothbrushes – no, really – has created a global race to build up data center capacity as quickly as humanly possible, causing energy demand projections to skyrocket and placing unprecedented strain on the world’s energy grids. By 2030, data center energy consumption is expected to more than double from its 2024 consumption level, which stood at about 420…",
+     "summary_th": "DARPA สนับสนุนโครงการวัดการใช้พลังงานของ AI ในทุกขั้นตอนการทำงาน ท่ามกลางการแข่งขันสร้างศูนย์ข้อมูลทั่วโลก",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai energy",
+      "data center",
+      "darpa"
+     ],
+     "entities": [
+      "DARPA"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d5cbc3877cb8",
@@ -1103,7 +1426,18 @@
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc01lN2tNdjNCYkdlWW90SjVtNnV5RktpREVPVDViR2NmMUlLMHhqWWhkUWFlOUgySEdpLXlqeUZCZWEzaEl5TkljYWo1VkxsZ1BXcmRkUmo3MWtGajdhRThuLTNaM19PaUotZWlibEJmdElncWcwMzZHNlI5dzQ5SUZKS1FiZWhRSFljUUNUSnhkWUd3TlZFX0NyejZhUDM0V2VoblpMSzd0b1YxNkVuWXdvNURlM28?oc=5",
      "source": "EnergyNow",
      "published": 1793484131,
-     "text": "OPEC+ Set to Hold Oil Production Steady in December as Producers Focus on 2027 Strategy EnergyNow"
+     "text": "OPEC+ Set to Hold Oil Production Steady in December as Producers Focus on 2027 Strategy EnergyNow",
+     "summary_th": "กลุ่ม OPEC+ เตรียมคงกำลังการผลิตน้ำมันเดือนธันวาคมไว้ตามเดิม ขณะที่ผู้ผลิตให้ความสำคัญกับแผนปี 2027",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "opec+",
+      "oil production"
+     ],
+     "entities": [
+      "OPEC+"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "88ecc9b77dba",
@@ -1111,7 +1445,18 @@
      "link": "https://oilprice.com/Energy/Energy-General/Senegals-Ambitious-Plan-to-Slash-Electricity-Costs-and-Boost-Energy-Security.html",
      "source": "OilPrice.com",
      "published": 1793458800,
-     "text": "The government of Senegal has ambitious energy diversification aims, with plans to develop both the country’s oil and gas sector and grow its renewable energy capacity. As part of its Vision 2050 plan, the government aims to reduce energy costs and enhance energy security by diversifying energy sources. The government has announced several renewable projects in recent years and has recently made blocks available for oil and gas exploration to achieve these aims. Some of the government’s principal aims include expanding Senegal's energy…"
+     "text": "The government of Senegal has ambitious energy diversification aims, with plans to develop both the country’s oil and gas sector and grow its renewable energy capacity. As part of its Vision 2050 plan, the government aims to reduce energy costs and enhance energy security by diversifying energy sources. The government has announced several renewable projects in recent years and has recently made blocks available for oil and gas exploration to achieve these aims. Some of the government’s principal aims include expanding Senegal's energy…",
+     "summary_th": "เซเนกัลวางแผนลดต้นทุนไฟฟ้าและเพิ่มความมั่นคงด้านพลังงาน ตามแผนวิสัยทัศน์ 2050 โดยพัฒนาทั้งน้ำมัน ก๊าซ และพลังงานหมุนเวียน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "senegal",
+      "energy transition"
+     ],
+     "entities": [
+      "Senegal"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c4b42bfde1f5",
@@ -1119,7 +1464,16 @@
      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA4NUFRRnBILWRWTFhCZ3EzdGx5UDdmVE1rNEFtT181bUl0bThpdDZ2ZjMwSzRlczVuNFhZVnRPUWx3eVcycTJzTUthNElnNkU0LUd1Y0dBQ2ZUamx1cW9JSXpBREtMTWdjMHlDUllXSlBlWGRKSGI4MW5ScmZ0Z9IBhgFBVV95cUxOSE5LWXpUZ0ZTY1dJWFcxb3RMTEtpUFNjNGtLQlhISE1Sc1M2eThibFp4S0w0ODJmdWxPOUxDM3AycEdyME9FTG81UzgtRjR5ZlBxamNCdUM5OW5JS2tHeEtGSEtXT3ZfVVlmYXJxUW0zVktBLW1XQWxWNU5Cd21Da3lCWXk3QQ?oc=5",
      "source": "The Express Tribune",
      "published": 1793482869,
-     "text": "Refineries to sell petrol 'below cost' The Express Tribune"
+     "text": "Refineries to sell petrol 'below cost' The Express Tribune",
+     "summary_th": "โรงกลั่นจะขายน้ำมันเบนซิน 'ต่ำกว่าต้นทุน' ตามรายงานของ Express Tribune",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "petrol",
+      "refinery"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "4b1ba26e5c3a",
@@ -1127,7 +1481,17 @@
      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5JSkVYY1JYUHMxdTNQRERlOUdiQ2RtMjhFbEtLODhSN1lVLWpObUt5dDMtOVk4SHZFY09pVlZqa0lrOXg2NHpIWW93RmJGckcwNkRrQVJwVXdNRjM0QlVJeUpYT0M2NTRxajdQNjRpMzFKZw?oc=5",
      "source": "Los Angeles Times",
      "published": 1793481095,
-     "text": "Recapping Phoebe Bridgers’ Lost Tour with crude sketches from our mind palace Los Angeles Times"
+     "text": "Recapping Phoebe Bridgers’ Lost Tour with crude sketches from our mind palace Los Angeles Times",
+     "summary_th": "บทความสรุปการทัวร์ Lost Tour ของนักร้อง Phoebe Bridgers เป็นข่าวบันเทิง ไม่เกี่ยวกับเศรษฐกิจหรือพลังงาน",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "music"
+     ],
+     "entities": [
+      "Phoebe Bridgers"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "00683bbc0854",
@@ -1135,7 +1499,19 @@
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeFpTRDZIcUVlczlnNlE4QkFTbExkdll4S09JS0FEZjhzSDJKc0dPRTBtZ2xWeVg3ZUVmUkVzTlFqdXpGd1o1WFR6VEVpN1ZwNDB1dEF1MWptMzM0cnVFRDM2TVZFdG1iSGtpampVTHFFT3lFSTU3TUEtRUxQSXROc19XRXo3UUp2QzJQcll3WjhHdDFsMUg1Nk5jbXBpeURZT1Z2d19MMHczNXBQbGsyWHRtdUdPZGRaa1BubzJFMTdESm5GOUE?oc=5",
      "source": "Press Trust of India",
      "published": 1793481050,
-     "text": "Bullion's October correction deepens amid elevated crude prices, Fed rate jitters Press Trust of India"
+     "text": "Bullion's October correction deepens amid elevated crude prices, Fed rate jitters Press Trust of India",
+     "summary_th": "ราคาทองคำปรับตัวลงลึกขึ้นในเดือนตุลาคม ท่ามกลางราคาน้ำมันดิบที่สูงและความกังวลเรื่องดอกเบี้ยของเฟด",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "fed",
+      "crude"
+     ],
+     "entities": [
+      "Fed"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "268f8e7be4de",
@@ -1143,7 +1519,20 @@
      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVy0xMWZ3T3pwV19xNGJMdVFOY2lvajAxTVFoc1lDd3FnT2swYnd4T05Gb0phUmVfR082WmswbmlZSWZQU0c3S3pMN3JNZWZsY09Rc19PU0RULVZ2WFl6UTRDQVItOHl1bmJWNTk2MTVDTUZ0MXhyV3FEWV9uZks3YXQ2VHlGNEd1ZGd0V3VTckVzNmx6UVdSRDVNQlJOVmZkY28wUHNZTDlXNWFhamdBcXd6bVo1eU1HVkY4R2hiOFVwUHpEaDAzY3M4T25qQzFNRjNmdXVGWdIB1wFBVV95cUxPVy0xMWZ3T3pwV19xNGJMdVFOY2lvajAxTVFoc1lDd3FnT2swYnd4T05Gb0phUmVfR082WmswbmlZSWZQU0c3S3pMN3JNZWZsY09Rc19PU0RULVZ2WFl6UTRDQVItOHl1bmJWNTk2MTVDTUZ0MXhyV3FEWV9uZks3YXQ2VHlGNEd1ZGd0V3VTckVzNmx6UVdSRDVNQlJOVmZkY28wUHNZTDlXNWFhamdBcXd6bVo1eU1HVkY4R2hiOFVwUHpEaDAzY3M4T25qQzFNRjNmdXVGWQ?oc=5",
      "source": "Anadolu Ajansı",
      "published": 1793476253,
-     "text": "Armed group shuts crude pipeline linking western Libya’s Hamada field to Zawiya refinery Anadolu Ajansı"
+     "text": "Armed group shuts crude pipeline linking western Libya’s Hamada field to Zawiya refinery Anadolu Ajansı",
+     "summary_th": "กลุ่มติดอาวุธปิดท่อส่งน้ำมันดิบจากแหล่ง Hamada ทางตะวันตกของลิเบียไปยังโรงกลั่น Zawiya",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "libya",
+      "pipeline",
+      "crude oil"
+     ],
+     "entities": [
+      "Libya",
+      "Zawiya refinery"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e00933aacb43",
@@ -1151,7 +1540,20 @@
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaXBKZXBKT0JlYTNzRUhFOWVWWEpmT0t0LVpqVXoxZW1QNktQNkltYnQwTUtlSHNac093MlJBdUcybWFVNVdEZ2lKclVZQVZFb2JUYzZ6dVRma29yeXVEUVhiMVlmNGlCdTlUVFBSRTNGVmMwejZreHVUS0FwOGZiTzBrek5aOEhuUjBUamtjckZiNDlkSmgtX2hVcW9FNXNfdEZLZTlTMHJNaGRmVEtsaWVqQ3hHbV9wUmZTN0FndWY?oc=5",
      "source": "The Libya Observer",
      "published": 1793471330,
-     "text": "Armed group shuts down Hamada pipeline valve, halting crude oil supplies to Al-Zawiya refinery The Libya Observer"
+     "text": "Armed group shuts down Hamada pipeline valve, halting crude oil supplies to Al-Zawiya refinery The Libya Observer",
+     "summary_th": "กลุ่มติดอาวุธปิดวาล์วท่อ Hamada ทำให้การส่งน้ำมันดิบไปโรงกลั่น Al-Zawiya หยุดชะงัก",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "libya",
+      "pipeline",
+      "crude oil"
+     ],
+     "entities": [
+      "Libya",
+      "Al-Zawiya refinery"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3c7fbde1e31c",
@@ -1159,7 +1561,19 @@
      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPNTh1cHVqTlo4ckhCZkc5YWltUVdzRUl3ME1qR0ZQVFJQMFM2cHJ3UU8tRm9JMjY0MHJzX3NjdHQ2NlpITkFxQzhXMUJsWFF3dC1CQWE2a1NUZ0JaRkhBQktiRndkbmk2Ykdha2Q5UHBDeWMzVUllcFZkTXVldGNYT3ppNDFxZVd6UFJIaV9mT04xdkxjZlh5V3QxMk80MHlzNlNRcDd5ZTJYODBxN3Yyd0I1TnZHLWNrSFVCc2ZPUjkxODBuMHBVcUpRMVNtU1UtLUJReDBvWk9iNzFkUEYzVE5hUHl1UHNQNFgzUTgzSHo3ckYwMUhzWlkyUy1XUEE?oc=5",
      "source": "TradingView",
      "published": 1793470727,
-     "text": "Stock market prediction Nov 2-6 week: Nifty, Sensex rebound from losses - Will bulls deliver a Diwali bonanza? Outlook TradingView"
+     "text": "Stock market prediction Nov 2-6 week: Nifty, Sensex rebound from losses - Will bulls deliver a Diwali bonanza? Outlook TradingView",
+     "summary_th": "หัวข้อบทความพยากรณ์ตลาดหุ้นอินเดียสัปดาห์ 2–6 พ.ย. ว่า Nifty และ Sensex จะฟื้นจากการขาดทุนหรือไม่ พร้อมคำถามว่านักลงทุนขาขึ้นจะทำให้เทศกาลดีวาลีคึกคักได้หรือไม่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "india stocks",
+      "nifty",
+      "sensex"
+     ],
+     "entities": [
+      "TradingView"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -1173,7 +1587,19 @@
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOY2NoWWVNS0x2V1JYX1J2S1FpWFdYZ08weTNZcHpNbUxvNkd0Zm1xTXBscjJ5RnNEN0wwc1pOYUlMV1Mtb29Fdjh4OTc1TDFIRlh2dGZ0MVBQUEQxOXB4UkZQUmtET2xIUl8zWk9EZnFINkFfQmg3REt3M3ptbXNqSmxMRUQxY2RjS3BFdjBlT1h4MFNiWmdDeTVqYXRMVmxIeVo3TERHOXFyMzF3YVh5dzBIVHFKMktLeTZ4ck41VExrelE?oc=5",
      "source": "Laodong.vn",
      "published": 1793487600,
-     "text": "Gold price update morning of November 1st: Looking back at the week gold prices hit a bottom in more than 1 year Laodong.vn"
+     "text": "Gold price update morning of November 1st: Looking back at the week gold prices hit a bottom in more than 1 year Laodong.vn",
+     "summary_th": "ราคาทองคำในสัปดาห์นี้ลงไปแตะจุดต่ำสุดในรอบมากกว่า 1 ปี",
+     "importance": 2,
+     "numbers": [
+      "more than 1 year"
+     ],
+     "tags": [
+      "gold"
+     ],
+     "entities": [
+      "Laodong.vn"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5a8e36b0eff9",
@@ -1181,7 +1607,18 @@
      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZFlSUG1EZ1VUZjBMU05IV2FwNlhnZFFHZTZXZ3hGWFk2WjNIcFRwMjBhZmp4NUZqRWtKM1VHdGVUeXFoVWpyeENsN1FBMlEwNzMzeUQwa2drdTlRTXZIVU9jX0VxS0ZrTVdZdUMwVTBCTjZQNWFJOWFRVkJjWi1ZVnJoNmJFMzVqaWpfbA?oc=5",
      "source": "TechBullion",
      "published": 1793484957,
-     "text": "Gold, Forex, Indices and Crypto Signals: A 2026 Telegram Guide TechBullion"
+     "text": "Gold, Forex, Indices and Crypto Signals: A 2026 Telegram Guide TechBullion",
+     "summary_th": "บทความแนะนำช่องทางส่งสัญญาณเทรดทองคำ ฟอเร็กซ์ ดัชนี และคริปโทผ่าน Telegram เป็นเนื้อหาโฆษณาหรือคู่มือ ไม่ใช่ข่าว",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "trading signals",
+      "telegram"
+     ],
+     "entities": [
+      "TechBullion"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6a053ff7701d",
@@ -1189,7 +1626,18 @@
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY2hjM09rTVk1ZUxXd3F3dHowbWQxZ1RJUW1qM2ZRUzN4elJYWHI5MmlEbVI1YUw4OHFINVY4Q09iVDBzdjd1aEFYczBJdU9HZ3l3OG9MLWZKcThsWG5tRUpDR1hmVUNLZ2ZNRVltdjMzX21PUlBoUjZVc2ZFQW5rWDg5NkJxcm1qc3Qw?oc=5",
      "source": "Vietnam.vn",
      "published": 1793487566,
-     "text": "Gold prices today (November 1st): Freefall, deepest drop in months. Vietnam.vn"
+     "text": "Gold prices today (November 1st): Freefall, deepest drop in months. Vietnam.vn",
+     "summary_th": "ราคาทองคำวันนี้ (1 พ.ย.) ร่วงแรง ลดลงมากที่สุดในรอบหลายเดือน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "vietnam"
+     ],
+     "entities": [
+      "Vietnam.vn"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7554186338c4",
@@ -1197,7 +1645,20 @@
      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OZ1dIcV82dVdPTUxGRnFibVVWOEhHeVlEVDlPbWJTb0J0VUs2d243b3JvcXE2cjhScjFoQXMxem05bGR1LUlYWDdadl8wV1dKLXk4WFVTUHVoS3hfWFJuREl6YV8ySldfcFNTblJsSFlHZUlzTWFXLTdVWQ?oc=5",
      "source": "Sada Elbalad English",
      "published": 1793469344,
-     "text": "Egypt gold chiefs: sales down over 50%, advice for savers Sada Elbalad English"
+     "text": "Egypt gold chiefs: sales down over 50%, advice for savers Sada Elbalad English",
+     "summary_th": "ผู้บริหารด้านทองคำของอียิปต์ระบุยอดขายลดลงมากกว่า 50% และให้คำแนะนำแก่ผู้ออม",
+     "importance": 1,
+     "numbers": [
+      "50%"
+     ],
+     "tags": [
+      "gold",
+      "egypt"
+     ],
+     "entities": [
+      "Egypt"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e607e254758e",
@@ -1205,7 +1666,17 @@
      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE16UThpYmJWOVUzTW1GVGQwVzUxMXB1TDhFQ2RQelZ0bFNxNC1wT2hWVi1tRUpvb0dyemV2V2Jsek9GVFloMmxIallIcXE4T1R0OGJ1Nmdn0gFWQVVfeXFMTXpROGliYlY5VTNNbUZUZDBXNTExcHVMOEVDZFB6VnRsU3E0LXBPaFZWLW1FSm9vR3J6ZXZXYmx6T0ZUWWgybEhqWUhxcThPVHQ4YnU2Z2c?oc=5",
      "source": "Business Recorder",
      "published": 1793482268,
-     "text": "Gold prices nosedive Business Recorder"
+     "text": "Gold prices nosedive Business Recorder",
+     "summary_th": "ราคาทองคำร่วงลงอย่างรวดเร็ว",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold"
+     ],
+     "entities": [
+      "Business Recorder"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e3bd0820c6ac",
@@ -1213,7 +1684,19 @@
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFVfaE11b1VhWHZISWxqVHNocENHM2k5RGxpR0x2dlZvODFsamo5MjhORlpxMVJiX0Y2bjZwY19jM1hEMjZwdjNfcS03UjE0NVRDbnNkYWcyMjZsX2U3NW9uX3BvTTF0QTZCSGlRU0pONkZkQ3BhendpVUxXZEdGVGcycU5qNlZuWER0aVNXb3RnSjlBaXJTZklWUDNXNUhCakRN0gGoAUFVX3lxTE0xNTB0ZlUxcWgyVUx5dzZfNW0yUk81VEh6NjJIeHpoQVV4dGh2RzRnT2cxeUE5T2R0QWVMRGFfSHFoaS05aVJYSzVxWkRmUld3UUJ6UTQ4SzE4VE80YllUZlJlSUg4bmxMS0dQWTNESjJCMDJldXpaZWc1c2tuYm1laVgyb2dHZThuZDlla2NOdXdINmZhbzZYbkZ5NkZ3ZjRBY2IwdlI5aA?oc=5",
      "source": "Rediff MoneyWiz",
      "published": 1793452221,
-     "text": "Bengaluru Bullion Rates: Gold & Silver Prices (Oct 31) Rediff MoneyWiz"
+     "text": "Bengaluru Bullion Rates: Gold & Silver Prices (Oct 31) Rediff MoneyWiz",
+     "summary_th": "ราคาทองคำและเงินในเบงกาลูรูประจำวันที่ 31 ต.ค. (ข้อมูลราคาประจำวัน)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "silver",
+      "india"
+     ],
+     "entities": [
+      "Rediff MoneyWiz"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ea49afc9c66e",
@@ -1221,7 +1704,18 @@
      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQampIbE9sWVRBVElYVGdPZU1mdzZQS0Z2b3pwdlVLNkhKbExMM0tEZXBtYTBRaHhlSUZDR3hoMzA5N1lJRmFsYjJLaElDTHR0dndNVHNlUkFIVDdZa2FrZm1IYndKai1xNXBkTG9qTWMtRGloWUotRVJjb1hZU05GWWtxRzlGZTltQ0dueTI0ZFEwaFQwN3IyaHlaZkJzb1lGZGZvbWV6U1lha0ZtZ3lYTHVLRmRmamlncWNDRF93SXlaOG1EZnpWcUFiVUNUUGZNc2s0?oc=5",
      "source": "FinanceFeeds",
      "published": 1793477490,
-     "text": "Gold Price Today: $3,875 After a 7% October Drop FinanceFeeds"
+     "text": "Gold Price Today: $3,875 After a 7% October Drop FinanceFeeds",
+     "summary_th": "ราคาทองคำอยู่ที่ $3,875 หลังลดลง 7% ในเดือนตุลาคม",
+     "importance": 2,
+     "numbers": [
+      "$3,875",
+      "7%"
+     ],
+     "tags": [
+      "gold"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "93a6670e12b4",
@@ -1229,7 +1723,20 @@
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQazFEU3ctNmVrYXdiQ0xSeGlORGc3aHJkdkhDNXB5a0RIdlh6VllYNC13ZHY0Q3hUeU5MT0VVN0RTM3RoVU1DRHo5NmlFT3cwV1Eyc2tmaGtPbVNiajBOVGdKa1Z3WXZFUi1vU2h3X3VZQmJteTBQRGUwcHdlM0o2cXdVUXFtMk1CZ0Q1cnYxQWVqUDROMlE?oc=5",
      "source": "Monthly Review",
      "published": 1793451757,
-     "text": "Venezuela demands Bank of England return its gold reserves Monthly Review"
+     "text": "Venezuela demands Bank of England return its gold reserves Monthly Review",
+     "summary_th": "เวเนซุเอลาเรียกร้องให้ธนาคารแห่งอังกฤษคืนทุนสำรองทองคำ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "venezuela",
+      "gold reserves",
+      "bank of england"
+     ],
+     "entities": [
+      "Venezuela",
+      "Bank of England"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "cc8dac9497c0",
@@ -1237,7 +1744,21 @@
      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB1b2xKS29ZcnRCVWx2WS1PR2piMjZ6cXlXM3JKVUZsQnJfVnpPb00tdGl4bjh2Y3YyeGJJT3E0MHU1U2l2VDdLdEVkUWdSZElMRjk4VFlJcWptWk9zME1NLUZfdlhxZkxrQzNoT0F0bFIwT3VTNF9KeWlUTVc?oc=5",
      "source": "Business Today",
      "published": 1793475178,
-     "text": "Gold Rate Today in Greater Mumbai 1st November 2026 : 22 & 24 Carat, Todays Gold Price in Greater Mumbai Business Today"
+     "text": "Gold Rate Today in Greater Mumbai 1st November 2026 : 22 & 24 Carat, Todays Gold Price in Greater Mumbai Business Today",
+     "summary_th": "ราคาทองคำวันนี้ในมุมไบ (1 พ.ย. 2026) สำหรับทอง 22 และ 24 กะรัต",
+     "importance": 1,
+     "numbers": [
+      "22",
+      "24"
+     ],
+     "tags": [
+      "gold",
+      "india"
+     ],
+     "entities": [
+      "Greater Mumbai"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "59f9c1c35b7a",
@@ -1245,7 +1766,24 @@
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSHRkTDd4N09zSDRlTDBkUm4wbmk0aDlzaC1yMFRObktLVEFJcmJ4T21SbUpWOVJXZzNLZjRya2RnbzFSaHA4c0FVSDdBeGJlS1BnRGMzcWpkdTFCZkFfYmNCaF9uUlE5ZkMxWjVIb0tGRDA4LTJfZjJzTjJVRmk3UXpmRlBpVE82Z1FBem1qdGUwYXZwZS1WMG1DQVdiSzB4S1ROSGg2MnBxekd3Z0RsalFHa2tSbEd2Z1N6UzJobHRpeTQ?oc=5",
      "source": "LinkedIn",
      "published": 1793449806,
-     "text": "American Gold Eagle Sizes Explained | Money Metals Mike Maharrey compares the 1/10 oz, 1/4 oz, 1/2 oz, and 1 oz American Gold Eagles, explains the Type 2 reverse design introduced in 2021, and covers each coin’s face value. Get an up-close look at thes LinkedIn"
+     "text": "American Gold Eagle Sizes Explained | Money Metals Mike Maharrey compares the 1/10 oz, 1/4 oz, 1/2 oz, and 1 oz American Gold Eagles, explains the Type 2 reverse design introduced in 2021, and covers each coin’s face value. Get an up-close look at thes LinkedIn",
+     "summary_th": "บทความอธิบายขนาดเหรียญ American Gold Eagle (1/10, 1/4, 1/2 และ 1 ออนซ์) และดีไซน์แบบ Type 2 ที่เริ่มปี 2021 เป็นคู่มือ ไม่ใช่ข่าว",
+     "importance": 0,
+     "numbers": [
+      "1/10 oz",
+      "1/4 oz",
+      "1/2 oz",
+      "1 oz",
+      "2021"
+     ],
+     "tags": [
+      "gold coins"
+     ],
+     "entities": [
+      "American Gold Eagle",
+      "Money Metals"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "81a16c19ea9d",
@@ -1253,7 +1791,19 @@
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONmlJeHZyaXRzNmFFSW5iX0ZPMHBINFpuU1BtZGIyQlF6djRvUFlBT2F4eThQN3gxcUNSRjJlRjBab2xkV0dleU0zeExjOFFUdFVybC14ajJHYUJvNU94RnY4QkVPUTRldmt6blVOV3hzZGllUG5RUEdQNVIwNE14MGMteGtFaElIM0RQaG4wNjVEU2xuQUUtVVpma1l2OHVyOEE1LWM3cVJqTnhWNVE5czFBaDdwOUJnY0ZGa19IR0hDcmg2eVctdUNuMA?oc=5",
      "source": "Benzinga",
      "published": 1793474106,
-     "text": "Gold Price Drops Below Key Support as GLD ETF Outflows Jump as NFP Loom Benzinga"
+     "text": "Gold Price Drops Below Key Support as GLD ETF Outflows Jump as NFP Loom Benzinga",
+     "summary_th": "ราคาทองคำหลุดแนวรับสำคัญ ขณะที่เงินไหลออกจาก GLD ETF เพิ่มขึ้น ก่อนรายงาน NFP",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "gld etf",
+      "nfp"
+     ],
+     "entities": [
+      "GLD"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5edffd68be30",
@@ -1261,7 +1811,20 @@
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYVhyOU5YOC1IUUpNSVdXYUVGUVRyTXcxZEhMUW9ZT090cG1QUXhqdEhFMGtYUDQ0ZU9rTGhzSEVqZEVwOEJLOVhhUEJLYkJ3bXBRV1AyNUFjT0Y3R05sSVVjcDhsTGtUT3BFY2xaRm9PeUw4Z1FtRmxJZkZ2dU1scU5TTGI1UQ?oc=5",
      "source": "Daily Times",
      "published": 1793449247,
-     "text": "Gold prices fall sharply by Rs10,800 per tola Daily Times"
+     "text": "Gold prices fall sharply by Rs10,800 per tola Daily Times",
+     "summary_th": "ราคาทองคำในปากีสถานลดลงอย่างรวดเร็ว 10,800 รูปีต่อโตลา",
+     "importance": 1,
+     "numbers": [
+      "Rs10,800"
+     ],
+     "tags": [
+      "gold",
+      "pakistan"
+     ],
+     "entities": [
+      "Pakistan"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -1275,7 +1838,18 @@
      "link": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
      "source": "TechCrunch",
      "published": 1793482860,
-     "text": "Apple's new CEO defended the company's current position in the AI landscape."
+     "text": "Apple's new CEO defended the company's current position in the AI landscape.",
+     "summary_th": "CEO คนใหม่ของ Apple ยืนยันว่าบริษัทไม่ต้องการปล่อย AI เพียงเพื่อ AI และปกป้องตำแหน่งปัจจุบันในวงการ AI",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "apple",
+      "ai"
+     ],
+     "entities": [
+      "Apple"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ce0cce9f3bc5",
@@ -1283,7 +1857,23 @@
      "link": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
      "source": "Ars Technica",
      "published": 1793394594,
-     "text": "It's still unknown how attackers got access to Anthropic's verified Cursor account."
+     "text": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+     "summary_th": "ส่วนขยาย VS Code ของ Anthropic บน Cursor ถูกฝังโค้ดอันตราย (backdoor) อยู่นานเกือบ 12 ชั่วโมง ยังไม่ทราบว่าผู้โจมตีเข้าถึงบัญชี Cursor ที่ได้รับการยืนยันของ Anthropic ได้อย่างไร",
+     "importance": 3,
+     "numbers": [
+      "12 hours"
+     ],
+     "tags": [
+      "supply chain",
+      "security",
+      "anthropic"
+     ],
+     "entities": [
+      "Anthropic",
+      "Cursor",
+      "VS Code"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "691dfa44ca49",
@@ -1291,7 +1881,18 @@
      "link": "https://www.theverge.com/entertainment/1024096/halloween-spirit-youtube-horror",
      "source": "The Verge",
      "published": 1793480818,
-     "text": "Rather than recommend a single horror film or an unsettling album for our final installment of spooky season recs, I present you with a small selection of creepy, disturbing, and just plain weird videos from YouTube. There's a little something for everyone here. Whether you're a fan of surreal art house shorts, cosmic horror, or […]"
+     "text": "Rather than recommend a single horror film or an unsettling album for our final installment of spooky season recs, I present you with a small selection of creepy, disturbing, and just plain weird videos from YouTube. There's a little something for everyone here. Whether you're a fan of surreal art house shorts, cosmic horror, or […]",
+     "summary_th": "บทความแนะนำวิดีโอสยองขวัญและแปลกประหลาดบน YouTube เป็นบทแนะนำ ไม่ใช่ข่าว",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "youtube"
+     ],
+     "entities": [
+      "YouTube",
+      "The Verge"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c241855c2841",
@@ -1299,7 +1900,23 @@
      "link": "https://karpathy.bearblog.dev/hacker-tube/",
      "source": "Hacker News",
      "published": 1793476613,
-     "text": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007. https://hackertube.org/ Comments URL: https://news.ycombinator.com/item?id=50319510 Points: 545 # Comments: 201"
+     "text": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007. https://hackertube.org/ Comments URL: https://news.ycombinator.com/item?id=50319510 Points: 545 # Comments: 201",
+     "summary_th": "เว็บ HackerTube แสดงวิดีโอ 6,454 รายการ ดึงจากคอมเมนต์ใน Hacker News 39,834 รายการตั้งแต่ปี 2007",
+     "importance": 1,
+     "numbers": [
+      "6,454",
+      "39,834",
+      "2007"
+     ],
+     "tags": [
+      "hacker news",
+      "video"
+     ],
+     "entities": [
+      "Hacker News",
+      "HackerTube"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "93e7b1ce436e",
@@ -1307,7 +1924,25 @@
      "link": "https://www.techmeme.com/261031/p12",
      "source": "Techmeme",
      "published": 1793491214,
-     "text": "Washington Post : Tests: chatbots rely on three obscure AI-built voter sites for US midterm answers; Copilot cited the error-prone Ballot Brief in 75% of tests and ChatGPT in 22% — Frustrated with hunting for information on political candidates, Ben Torres Ezrick set out to build a one-stop shop for voters."
+     "text": "Washington Post : Tests: chatbots rely on three obscure AI-built voter sites for US midterm answers; Copilot cited the error-prone Ballot Brief in 75% of tests and ChatGPT in 22% — Frustrated with hunting for information on political candidates, Ben Torres Ezrick set out to build a one-stop shop for voters.",
+     "summary_th": "การทดสอบพบว่าแชตบอตพึ่งพาเว็บข้อมูลเลือกตั้งที่สร้างด้วย AI สามแห่งในการตอบคำถามเลือกตั้งกลางสมัยสหรัฐ Copilot อ้างอิง Ballot Brief ซึ่งมีข้อผิดพลาดบ่อย ใน 75% ของการทดสอบ และ ChatGPT อ้างอิงใน 22%",
+     "importance": 2,
+     "numbers": [
+      "75%",
+      "22%"
+     ],
+     "tags": [
+      "ai chatbots",
+      "midterms",
+      "misinformation"
+     ],
+     "entities": [
+      "Copilot",
+      "ChatGPT",
+      "Ballot Brief",
+      "Washington Post"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ba55b05e53ea",
@@ -1315,7 +1950,19 @@
      "link": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
      "source": "BleepingComputer",
      "published": 1793469672,
-     "text": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]"
+     "text": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
+     "summary_th": "แพลตฟอร์ม Northflank ถูกละเมิดความปลอดภัย ทำให้มีการใช้คีย์ API ของ AI ของลูกค้าโดยไม่ได้รับอนุญาต บริษัทเตือนให้ลูกค้าเปลี่ยนรหัสและความลับทั้งหมด",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "security breach",
+      "api keys",
+      "ai"
+     ],
+     "entities": [
+      "Northflank"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "4a54430aa75e",
@@ -1323,7 +1970,17 @@
      "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOV2RwdWI1ZlhTREVvak5PVVVvbVdscEh4eHM5TjRKTFhIbmJpZVV2TVUtZjFzdU92WnpLNVpuSTUwTVc2eWFpZU1JNzZZNmtxVXdVdWJUWF9BQndBaHptbkJXcWhOM1Z3dENOMTk4S2MxbjVnQU5TNWVsU2d1WEhwRi00N3ViWnBNY0Jfa1ZWRDRsNGlkc1RvaEFKNU84UVNURG10aGhYbmxUZlFUaTVQNU9ZclU5Y1F3RWNfSC1OT3Fac05OLXFvZDhUUkpfaVR6Rm1QcnFEZ0F2cUpfYkhTNkZURjBQa3BOaTdmUzMyOHlYRkpQMFJxTHNldGRlX25mWjdwY2pEUEkxSEZHNlc2aWNCRjlPbmdENjloWWdQcWFFa2lBX2huMmg2dkZvdGZYbmpQVUlvalE5Nm5IM3drREh3aEZfQl9kTldDSQ?oc=5",
      "source": "Adelaide Now",
      "published": 1793482322,
-     "text": "Watch: Chilling moment thief confronted in violent city restaurant robbery Adelaide Now"
+     "text": "Watch: Chilling moment thief confronted in violent city restaurant robbery Adelaide Now",
+     "summary_th": "คลิปวิดีโอเหตุการณ์โจรปล้นร้านอาหารในอาเดเลด เป็นข่าวอาชญากรรม ไม่เกี่ยวกับหมวดเทคโนโลยี",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "crime"
+     ],
+     "entities": [
+      "Adelaide Now"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "cefcb0bd2478",
@@ -1331,7 +1988,20 @@
      "link": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
      "source": "TechCrunch",
      "published": 1793482567,
-     "text": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door."
+     "text": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
+     "summary_th": "โฆษณาชวนลงทะเบียนงาน TechCrunch Founder Summit วันที่ 4 พ.ย. ที่บอสตัน",
+     "importance": 0,
+     "numbers": [
+      "November 4"
+     ],
+     "tags": [
+      "event",
+      "startups"
+     ],
+     "entities": [
+      "TechCrunch"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "65d255a74525",
@@ -1339,7 +2009,19 @@
      "link": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
      "source": "Ars Technica",
      "published": 1793392813,
-     "text": "People who love AI don't always love telling others they used it."
+     "text": "People who love AI don't always love telling others they used it.",
+     "summary_th": "รองอธิการบดีฝ่ายวิชาการของ Dartmouth ที่เคยเตือนเรื่องการโกงด้วย AI ต้องออกจากงานเพราะการใช้ AI ของตัวเอง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai ethics",
+      "education"
+     ],
+     "entities": [
+      "Dartmouth",
+      "Ars Technica"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8853d414a301",
@@ -1347,7 +2029,17 @@
      "link": "https://www.theverge.com/gadgets/1017979/keyboards-of-the-verge-staff-picks",
      "source": "The Verge",
      "published": 1793475000,
-     "text": "What is a keyboard if not the original brain-computer interface? You can tap on a touchscreen or talk to the computer, but if your work involves getting information out of your head and into the computer, you're probably spending a lot of time using a keyboard. We've written about many keyboards over the years, from […]"
+     "text": "What is a keyboard if not the original brain-computer interface? You can tap on a touchscreen or talk to the computer, but if your work involves getting information out of your head and into the computer, you're probably spending a lot of time using a keyboard. We've written about many keyboards over the years, from […]",
+     "summary_th": "บทความรวมคีย์บอร์ดที่ The Verge เคยรีวิวไว้หลายรุ่น เป็นบทความแนะนำ ไม่ใช่ข่าว",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "keyboards"
+     ],
+     "entities": [
+      "The Verge"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "73acf00ea168",
@@ -1355,7 +2047,19 @@
      "link": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
      "source": "Hacker News",
      "published": 1793427396,
-     "text": "Article URL: https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html Comments URL: https://news.ycombinator.com/item?id=50313661 Points: 302 # Comments: 223"
+     "text": "Article URL: https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html Comments URL: https://news.ycombinator.com/item?id=50313661 Points: 302 # Comments: 223",
+     "summary_th": "บทความเรื่อง Digital minimalism ถูกโพสต์ใน Hacker News และได้ 302 คะแนน",
+     "importance": 1,
+     "numbers": [
+      "302"
+     ],
+     "tags": [
+      "digital minimalism"
+     ],
+     "entities": [
+      "Hacker News"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7316297f2473",
@@ -1363,7 +2067,22 @@
      "link": "https://www.techmeme.com/261031/p11",
      "source": "Techmeme",
      "published": 1793473271,
-     "text": "Swati Khandelwal / The Hacker News : Researchers are paid $5K for reporting a bug to OpenAI that would let attackers run code in logged-in sessions of all who opened the hacker's ChatGPT share link — A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it …"
+     "text": "Swati Khandelwal / The Hacker News : Researchers are paid $5K for reporting a bug to OpenAI that would let attackers run code in logged-in sessions of all who opened the hacker's ChatGPT share link — A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it …",
+     "summary_th": "นักวิจัยได้รับเงินรางวัล $5K จาก OpenAI จากการรายงานช่องโหว่ที่ทำให้ผู้โจมตีรันโค้ดในเซสชันที่ล็อกอินของผู้ที่เปิดลิงก์แชร์ ChatGPT ได้",
+     "importance": 2,
+     "numbers": [
+      "$5K"
+     ],
+     "tags": [
+      "openai",
+      "chatgpt",
+      "vulnerability"
+     ],
+     "entities": [
+      "OpenAI",
+      "ChatGPT"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "845cf24b8961",
@@ -1371,7 +2090,21 @@
      "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
      "source": "BleepingComputer",
      "published": 1793460911,
-     "text": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]"
+     "text": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
+     "summary_th": "ผู้วิจัยเผยแพร่โค้ดทดสอบ (PoC) สำหรับช่องโหว่ Android ที่เพิ่งแพตช์ไป ชื่อ 'SMS of Death' (CVE-2026-58882) ทำให้ผู้โจมตีรบกวนสัญญาณหรือทำให้เครื่องค้างได้ด้วย SMS",
+     "importance": 2,
+     "numbers": [
+      "CVE-2026-58882"
+     ],
+     "tags": [
+      "android",
+      "vulnerability",
+      "sms"
+     ],
+     "entities": [
+      "Android"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f282efe79ecc",
@@ -1379,7 +2112,17 @@
      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNDg0cXJhRDlYdjQxX3N2RGhoa0dfR3pGZDlNN2g4a0dNaTlVVVdDU1VJVjRJWjNKN3FXNXdkc2g3VDFpTm5QNHhYRVJDTlZWb2FlRXhaWHlLenp5UDFPX19neC02aFZlSWlodUgtOEpOenZYQzNDNWJZaHA3ZVY4ZUlQS0c1dkhaZWdsV09wWElrdnlQc2xuME54ekczZXZMd3BNTGMwTFhRakg2ZjJBQnpPOG1XTDBoSTRjUmhHLXlsTEdEemJsU0llNm9Xdkd1OGdmTUlIbmRxSWpCbzJsMFBXYzhKdw?oc=5",
      "source": "Adelaide Now",
      "published": 1793482200,
-     "text": "CCTV shows Kade Nugent robbing Pardis Restaurant in Adelaide Adelaide Now"
+     "text": "CCTV shows Kade Nugent robbing Pardis Restaurant in Adelaide Adelaide Now",
+     "summary_th": "คลิปกล้องวงจรปิดแสดงเหตุการณ์ปล้นร้านอาหารในอาเดเลด เป็นข่าวอาชญากรรม ไม่เกี่ยวกับหมวดเทคโนโลยี",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "crime"
+     ],
+     "entities": [
+      "Pardis Restaurant"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "bc398a80a0df",
@@ -1387,7 +2130,21 @@
      "link": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
      "source": "TechCrunch",
      "published": 1793481423,
-     "text": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act."
+     "text": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+     "summary_th": "ศาลอนุญาตให้คดีของ NAACP เรื่องมลพิษจากศูนย์ข้อมูล xAI ดำเนินต่อไปได้ คดีกล่าวหาว่า xAI ซึ่งเป็นของ SpaceX ละเมิดกฎหมายอากาศสะอาด",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "xai",
+      "pollution",
+      "data center"
+     ],
+     "entities": [
+      "NAACP",
+      "xAI",
+      "SpaceX"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a222d0a212be",
@@ -1395,7 +2152,18 @@
      "link": "https://arstechnica.com/health/2026/10/over-25-of-people-lie-to-get-antibiotics-and-their-lies-arent-even-good/",
      "source": "Ars Technica",
      "published": 1793391470,
-     "text": "Faked symptoms still point to infections that antibiotics don't treat."
+     "text": "Faked symptoms still point to infections that antibiotics don't treat.",
+     "summary_th": "มากกว่า 25% ของคนโกหกเพื่อขอยาปฏิชีวนะ และอาการที่แต่งขึ้นยังชี้ไปที่การติดเชื้อที่ยาปฏิชีวนะรักษาไม่ได้",
+     "importance": 1,
+     "numbers": [
+      "25%"
+     ],
+     "tags": [
+      "antibiotics",
+      "health"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "7d968577e0ca",
@@ -1403,7 +2171,21 @@
      "link": "https://www.theverge.com/tech/1024091/binance-ceo-90-percent-stolen-crypto",
      "source": "The Verge",
      "published": 1793472032,
-     "text": "After hackers stole a shocking $6.3 billion from Binance customers in a record-breaking crypto heist, the company's CEO says that 90 percent of the funds have been replaced, and the company plans to cover the remaining 10 percent as well. Binance is covering the stolen funds directly, and the remaining 10 percent consists of \"less […]"
+     "text": "After hackers stole a shocking $6.3 billion from Binance customers in a record-breaking crypto heist, the company's CEO says that 90 percent of the funds have been replaced, and the company plans to cover the remaining 10 percent as well. Binance is covering the stolen funds directly, and the remaining 10 percent consists of \"less […]",
+     "summary_th": "ซีอีโอ Binance ระบุว่าสินทรัพย์ที่ถูกขโมยกว่า 90 เปอร์เซ็นต์ได้รับการชดเชยแล้ว และบริษัทจะชดเชย 10 เปอร์เซ็นต์ที่เหลือด้วย หลังแฮกเกอร์ขโมยไปกว่า $6.3 billion",
+     "importance": 3,
+     "numbers": [
+      "$6.3 billion",
+      "90 percent"
+     ],
+     "tags": [
+      "binance",
+      "crypto hack"
+     ],
+     "entities": [
+      "Binance"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ed64f2697e81",
@@ -1411,7 +2193,20 @@
      "link": "https://www.techmeme.com/261031/p10",
      "source": "Techmeme",
      "published": 1793463602,
-     "text": "Jyoti Mann / The Information : Sources: Meta built a prototype humanoid robot with Chinese firm Fourier in three months and is building a second; Meta says it has no plans to sell these units — Meta Platforms has built a prototype humanoid with Chinese robotics company Fourier and is already working on a second version …"
+     "text": "Jyoti Mann / The Information : Sources: Meta built a prototype humanoid robot with Chinese firm Fourier in three months and is building a second; Meta says it has no plans to sell these units — Meta Platforms has built a prototype humanoid with Chinese robotics company Fourier and is already working on a second version …",
+     "summary_th": "มีรายงานอ้างแหล่งข่าวว่า Meta สร้างหุ่นยนต์ฮิวแมนอยด์ต้นแบบร่วมกับบริษัท Fourier ของจีนภายในสามเดือน และกำลังสร้างตัวที่สอง ขณะที่ Meta ระบุว่าไม่มีแผนขายหุ่นเหล่านี้",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "humanoid robot",
+      "meta",
+      "fourier"
+     ],
+     "entities": [
+      "Meta",
+      "Fourier"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a291b7051796",
@@ -1419,7 +2214,18 @@
      "link": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
      "source": "BleepingComputer",
      "published": 1793451009,
-     "text": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]"
+     "text": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
+     "summary_th": "Chainalysis บริษัทวิเคราะห์บล็อกเชนเปิดเผยการรั่วไหลของข้อมูล หลังผู้โจมตีใช้ 'เทคนิค agentic เชิงรุก' เข้าถึงระบบภายใน ข้อมูลที่รั่วได้แก่ชื่อลูกค้า อีเมล ID และบทบาทในองค์กร",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "data breach",
+      "chainalysis"
+     ],
+     "entities": [
+      "Chainalysis"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7b8a705a53f7",
@@ -1427,7 +2233,21 @@
      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPMkFnZk9IMF91LWduWVQwYU1jT0ZIVHJIV3ZHWDNLaldFNHA5amQtM2VrYUU3MDZiZE1UbnY3bmlYUHRZVk1CbU5wWW9faGU2dmhaU2g3bGpHTlFrVlR4NE5vNEFneUZGOWpPMkRoM1QxMzRDa0oxNGlMYzdzWlg0SjM2YWVkQmNXZERYOG9vTjZMcktXYnRzVXMxYlFlWU9KQ1NwWHBpQkdXcm54VzJWdUY2ZEVSeHltTVdLRENqQ1hsUi11UnBIdExmT0ZfSHNwRmZod184Q05nbTJ0bWlQbTV3T3J0dGVxX0VrV1p5NVVXTHBPNjhnX21vb29zMnQ20gGGAkFVX3lxTFBRVmloSmRhNVJQTVhOd0dkUDdaTzVSNWJsWjFoU0g4SF9HUzRubzAtZjJObHZiZ1FheUNHbXhoOTR0NkZINjh6dEpadVFpeHdyY041YVJ1aEpkelBrUGtfTy1DTFFlS0JOTWNXN1VWanR4VFpmRHBVZkVuRGdLRzhuNnM3ZzlDWDlWNXdrdHpfYlN6cVpzN01XQUI2TmU0OGUwNkNRLUpJcUNPNzJnT2xNdmpFU1dmZk1TQzlVQndSTXdEVGExMlJ5NXpkRUJRTWs3Rl93eXI2TFdSX2FYSzlkM2dieHJtYXRLLUVBc3F4OGhzYV9VMDczcG04dU94blBuaHZjUmc?oc=5",
      "source": "The Times of India",
      "published": 1793482020,
-     "text": "10 lakh turnout target, 4,000 cops, 200 CCTV: Delhi braces for INDIA bloc's anti-CEC rally at Ramlila Mai The Times of India"
+     "text": "10 lakh turnout target, 4,000 cops, 200 CCTV: Delhi braces for INDIA bloc's anti-CEC rally at Ramlila Mai The Times of India",
+     "summary_th": "เดลีเตรียมรับการชุมนุมของกลุ่ม INDIA ต่อต้าน CEC ที่ Ramlila Maidan โดยตั้งเป้าผู้เข้าร่วม 10 lakh มีตำรวจ 4,000 นาย และกล้อง CCTV 200 ตัว",
+     "importance": 0,
+     "numbers": [
+      "10 lakh",
+      "4,000",
+      "200"
+     ],
+     "tags": [
+      "politics"
+     ],
+     "entities": [
+      "INDIA bloc"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "344dcf79744a",
@@ -1435,7 +2255,18 @@
      "link": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
      "source": "TechCrunch",
      "published": 1793463175,
-     "text": "OpenAI’s latest funding round doesn't seem to be living up to expectations."
+     "text": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+     "summary_th": "มีรายงานว่า OpenAI ลดเป้าหมายการระดมทุนรอบใหม่ เพราะการระดมทุนไม่เป็นไปตามที่คาดหวัง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "openai",
+      "funding"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "538ea1326a6a",
@@ -1443,7 +2274,18 @@
      "link": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
      "source": "Ars Technica",
      "published": 1793388652,
-     "text": "But it's still early days for the relatively new e-commerce use case."
+     "text": "But it's still early days for the relatively new e-commerce use case.",
+     "summary_th": "แทบไม่มีใครใช้ AI agent สั่งอาหารผ่าน DoorDash ซึ่งยังเป็นช่วงแรกของการใช้งานแบบนี้",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai agents",
+      "ecommerce"
+     ],
+     "entities": [
+      "DoorDash"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2e89c3febb5d",
@@ -1451,7 +2293,20 @@
      "link": "https://www.theverge.com/games/1024085/happy-pikmin-day-eve",
      "source": "The Verge",
      "published": 1793469012,
-     "text": "This morning, Nintendo announced that tomorrow, November 1st, would be the first annual Pikmin Day. As part of the short Pikmin Day Direct, Shigeru Miyamoto shared new info about Pikmin 4 for the Switch 2, as well as an update for the mobile app Pikmin Bloom, and announced the Hello! Pikmin series of shorts. Players […]"
+     "text": "This morning, Nintendo announced that tomorrow, November 1st, would be the first annual Pikmin Day. As part of the short Pikmin Day Direct, Shigeru Miyamoto shared new info about Pikmin 4 for the Switch 2, as well as an update for the mobile app Pikmin Bloom, and announced the Hello! Pikmin series of shorts. Players […]",
+     "summary_th": "Nintendo ประกาศให้วันที่ 1 พ.ย. เป็น Pikmin Day ครั้งแรก พร้อมข้อมูลใหม่ของ Pikmin 4 บน Switch 2 และอัปเดตแอป Pikmin Bloom",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gaming",
+      "nintendo"
+     ],
+     "entities": [
+      "Nintendo",
+      "Switch 2",
+      "Pikmin Bloom"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "431d34397064",
@@ -1459,7 +2314,21 @@
      "link": "https://www.techmeme.com/261031/p9",
      "source": "Techmeme",
      "published": 1793461501,
-     "text": "Angela Christy / Reuters : Binance says it has covered 90% of its hack losses, having set aside $6.34B+ of company funds; the remaining 10% is in less liquid tokens — Cryptocurrency exchange Binance said on Saturday that it was able to cover 90% of the amount stolen during its recent hack."
+     "text": "Angela Christy / Reuters : Binance says it has covered 90% of its hack losses, having set aside $6.34B+ of company funds; the remaining 10% is in less liquid tokens — Cryptocurrency exchange Binance said on Saturday that it was able to cover 90% of the amount stolen during its recent hack.",
+     "summary_th": "Binance ระบุว่าชดเชยความเสียหายจากการแฮกได้ 90% โดยกันเงินของบริษัทไว้มากกว่า $6.34B ส่วนที่เหลือ 10% อยู่ในโทเคนที่สภาพคล่องต่ำกว่า",
+     "importance": 3,
+     "numbers": [
+      "90%",
+      "$6.34B"
+     ],
+     "tags": [
+      "binance",
+      "crypto hack"
+     ],
+     "entities": [
+      "Binance"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f167e37bde6d",
@@ -1467,7 +2336,21 @@
      "link": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
      "source": "BleepingComputer",
      "published": 1793394586,
-     "text": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]"
+     "text": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
+     "summary_th": "พบช่องโหว่ระดับวิกฤตในเคอร์เนล Linux ที่ทำให้ผู้โจมตีที่ไม่ต้องล็อกอินรันคำสั่งเป็นผู้ดูแลระบบ (root) ผ่านเซิร์ฟเวอร์ MPTCP จากระยะไกลได้ นักวิจัยของ Anthropic พัฒนา exploit สำหรับช่องโหว่นี้แล้ว",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "linux",
+      "kernel",
+      "vulnerability",
+      "mptcp"
+     ],
+     "entities": [
+      "Linux",
+      "Anthropic"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -1481,7 +2364,20 @@
      "link": "https://medicalxpress.com/news/2026-10-reversing-immune-suppression-cancer.html",
      "source": "Medical Xpress",
      "published": 1793469601,
-     "text": "Researchers at the University of Chicago have identified a mechanism to make immune cells reprogrammed by radiation therapy attack tumors rather than protect them. The study, published in Cancer Cell, shows that radiation activates a protein called TET2 on immune cells in bone marrow, where it removes chemical tags from RNA and locks these cells into an immune-suppressing state."
+     "text": "Researchers at the University of Chicago have identified a mechanism to make immune cells reprogrammed by radiation therapy attack tumors rather than protect them. The study, published in Cancer Cell, shows that radiation activates a protein called TET2 on immune cells in bone marrow, where it removes chemical tags from RNA and locks these cells into an immune-suppressing state.",
+     "summary_th": "นักวิจัยมหาวิทยาลัยชิคาโกพบกลไกที่ทำให้เซลล์ภูมิคุ้มกันที่ถูกรังสีรักษาเปลี่ยนไป ให้กลับมาโจมตีเนื้องอกแทนการปกป้องมัน งานวิจัยตีพิมพ์ใน Cancer Cell",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "cancer",
+      "immunotherapy",
+      "radiation"
+     ],
+     "entities": [
+      "University of Chicago",
+      "Cancer Cell"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a7c7db219586",
@@ -1489,7 +2385,19 @@
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONTQzMWZrVGprUE9EN1NZMzVrX2ctYmZuMlRqT0dwOF95eWFhcnZIamJHYm5Sc0xXdGJ6T3Y0c0VVUnVpVWZBNHQ3ZGQwb1M2YV9La0l3NUwtNDJ5WWhxdnZNcEpSNll0bEsteVRxeXRZczY3cVJ3ZHlUcUlHNTgxdlljVW5SWHlmZFlHRkY4UG1Qdw?oc=5",
      "source": "Yahoo Finance",
      "published": 1793482241,
-     "text": "5 Best Biotech Stocks Under $10 to Buy Yahoo Finance"
+     "text": "5 Best Biotech Stocks Under $10 to Buy Yahoo Finance",
+     "summary_th": "หัวข้อ: 5 หุ้นไบโอเทคราคาไม่เกิน $10 ที่น่าซื้อ (บทความรวมหุ้น)",
+     "importance": 0,
+     "numbers": [
+      "$10"
+     ],
+     "tags": [
+      "biotech stocks"
+     ],
+     "entities": [
+      "Yahoo Finance"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6b47a376922c",
@@ -1497,7 +2405,20 @@
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdWFJcTllTnVNMFpkMXkxemo3QWlxNjdpbFpFTjdsS1plZlBqSTNualhqcUFYRGZaRXJranBVenIyeG4waTd5TkNvX21Lc0ZUMFczOFlNS1NpcGZSc3k1akxyVnlXbnRNTkl2dXV2emROc0pNWUY1YWxYc0llX0w1bGFjak1GQVppOS1jbmk4WmIwUVNObDdicUFOS2RjdTJtOUE?oc=5",
      "source": "Yahoo Finance",
      "published": 1793481172,
-     "text": "Hikma Pharmaceuticals And 2 British Biotech Stocks To Watch Yahoo Finance"
+     "text": "Hikma Pharmaceuticals And 2 British Biotech Stocks To Watch Yahoo Finance",
+     "summary_th": "บทความรวมหุ้น Hikma Pharmaceuticals และหุ้นไบโอเทคอังกฤษ 2 ตัวที่น่าจับตา (บทความรวมหุ้น)",
+     "importance": 0,
+     "numbers": [
+      "2"
+     ],
+     "tags": [
+      "biotech stocks",
+      "uk"
+     ],
+     "entities": [
+      "Hikma Pharmaceuticals"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d969b428cbf7",
@@ -1505,7 +2426,18 @@
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbWYzRXNYVkFYc2tyeUJpWnpvZ0o1RS0zaURvWExPOFJwNG1VM2Y1eWpBZENfQWhQYk04dmgxMGJSU2Jsb2o0U0RyWnFUelQzYlVTSTdJMkRUMXJQLWlOd3NrS2U1WDByNWwwdXhOSk9ZNHpNcUNGYUlaTkM5SG5QYS1ySUtKN3RkVzJ0UG9sOTdLS0dzTkhEU2V6MHVvRmxmY3JrY3AtSU_SAbABQVVfeXFMUExUal9Na2E2QVRWWkZLdHkwSEJCV0VGVXpQTlpSYmtxYl9Rb21GR1hkUEt4RmNnTkd5WGsxbFdXN21sejg4T2s5bFRhVEN0OXgxa0RhSm40dnMwakgyNWY1d3R3Nm4yeUJkdjc1SHNZWlNXbmJwaUZnU1k4dVJyOHVXbjQtSGVNOUl1UWdVbTBIOFBqRXEzLVB4ZzctY1BlMGxnaGdlMkxRN21NYUdLdXI?oc=5",
      "source": "NDTV",
      "published": 1793468983,
-     "text": "Indian Biotech Startup Claims To Offer Personalised Cancer Vaccines NDTV"
+     "text": "Indian Biotech Startup Claims To Offer Personalised Cancer Vaccines NDTV",
+     "summary_th": "สตาร์ทอัพไบโอเทคจากอินเดียอ้างว่าให้บริการวัคซีนมะเร็งเฉพาะบุคคล",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "cancer vaccine",
+      "india"
+     ],
+     "entities": [
+      "NDTV"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2c20f935d491",
@@ -1513,7 +2445,17 @@
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNHJnUFB2eHlHZVAxcEVxTGhYZWkycjZFWm1yTkJVRWV1dXpCYXpITDFzckxsOUZhR2hWc0RRYW9LNENiRERPYjl1SUZFYXJDUWJnRlhrb3Y4cWFSZXdvbFBWTHRYQmtYYld3S05ZcmthU3g4RkZLOS1UUmFKeVQ2V2RycW85dzU4YkhpZV9fNDdWOW8zOVBVNjlWVzNRdFpKdXJJ?oc=5",
      "source": "MarketBeat",
      "published": 1793463367,
-     "text": "Biotech Stocks Worth Watching - October 31st MarketBeat"
+     "text": "Biotech Stocks Worth Watching - October 31st MarketBeat",
+     "summary_th": "รายการหุ้นไบโอเทคที่น่าจับตาประจำวันที่ 31 ต.ค. (รายการหุ้น)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "biotech stocks"
+     ],
+     "entities": [
+      "MarketBeat"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "05708689bba4",
@@ -1521,7 +2463,18 @@
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbXlWUnFhYXRaSUVWOFcxSVlQOHdLZ290TlRYVDFBWXR0YmZFWUlETjktNXJHeXQ1V25jVzc5cDI1Rjh5ejdaZEJ1NjNqdnpuMl9PeUJFZlV3SWNUaUNRRWRHbjlZWjRNV295c0VKWkNES0dtamtoNWNWSUNhNmNGQlUzOXVUU3JFWFpuNGpUeElXRzZTWTZJ?oc=5",
      "source": "Yahoo Finance",
      "published": 1793455955,
-     "text": "Vita Life Sciences And 2 Australian Biotech Stock Picks Yahoo Finance"
+     "text": "Vita Life Sciences And 2 Australian Biotech Stock Picks Yahoo Finance",
+     "summary_th": "บทความแนะนำ Vita Life Sciences และหุ้นไบโอเทคออสเตรเลีย 2 ตัว (บทความเลือกหุ้น)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "biotech stocks",
+      "australia"
+     ],
+     "entities": [
+      "Vita Life Sciences"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "bf1e19cfa4a6",
@@ -1529,7 +2482,20 @@
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNG9QNXBETDJZTEtHYTM4Z3plaXB1U1d2Q2s4YXYyak54V1QyeFZCVjd4ZWUtMjNqTXVNMUpvNFpaWno5T3hUdFZtWS1GMjBIcm1BSXZ3V3dmSTVCaXZORFZEMDlNUVkwNTgxZjN6Uzd2cm1maDJydEc3Vk1zTWhTR2V3?oc=5",
      "source": "StocksToTrade",
      "published": 1793453880,
-     "text": "Inovio Pharmaceuticals Surges After VOCERYQ Wins FDA Approval StocksToTrade"
+     "text": "Inovio Pharmaceuticals Surges After VOCERYQ Wins FDA Approval StocksToTrade",
+     "summary_th": "หุ้น Inovio Pharmaceuticals พุ่งขึ้นหลังผลิตภัณฑ์ VOCERYQ ได้รับการอนุมัติจาก FDA",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "fda",
+      "biotech"
+     ],
+     "entities": [
+      "Inovio Pharmaceuticals",
+      "FDA",
+      "VOCERYQ"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3f9f98757bda",
@@ -1537,7 +2503,17 @@
      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zaS0zel84UTVJcGpCdU9iTjFSN0JocEgwTkN6S2RlaHZoU2VDOF8tRGx1cWpPdlBpc2xOWDhvX24zRERxa05vaEdlZzRHNjRfbXFWcjVodllRVjdodm5v?oc=5",
      "source": "INDmoney",
      "published": 1793448664,
-     "text": "Biotech Stocks - Invest from India INDmoney"
+     "text": "Biotech Stocks - Invest from India INDmoney",
+     "summary_th": "หน้าเว็บโฆษณาแพลตฟอร์มลงทุนหุ้นไบโอเทคสำหรับผู้ใช้ในอินเดีย ไม่ใช่ข่าว",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "biotech stocks"
+     ],
+     "entities": [
+      "INDmoney"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5483c05cc0da",
@@ -1545,7 +2521,19 @@
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeTdzMk10aFQxNE9ybDN6MzRaYW1tb0NsM1pjYzk3WlpjNVVKbXZXUTVENktQc3hQMFRsdFlfTGxzQTZYMHJVYTVqTGVwRFZrekRqa3Rwb0twSThfZm41dlJLQkQ1VXZBYS10M0FJa2hFZUNPUGI2QUlxZEROcVRYbk9Yd3Z2U080NUtCTGN4clVUMmFuUUFRdUp2dGlxOXlxZERVV0JWOUFDN25FUVp3?oc=5",
      "source": "The Morning Sun",
      "published": 1793440933,
-     "text": "Column: What China’s clinical trial boom really means for U.S. medicine The Morning Sun"
+     "text": "Column: What China’s clinical trial boom really means for U.S. medicine The Morning Sun",
+     "summary_th": "คอลัมน์เรื่องการทดลองทางคลินิกที่เติบโตในจีน และผลกระทบต่อการแพทย์สหรัฐ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "clinical trials",
+      "china"
+     ],
+     "entities": [
+      "China",
+      "US"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "aaf8fdc04c32",
@@ -1553,7 +2541,21 @@
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTG1fazB2WlMwVjJ4VTViam45Y1BKTXRWeDZYR1k4NmloZk81VzRjUGtyNDR5S0tqRXNMR1Q4UU5sUDF1TGpQTUkxLXlhZ3I0cExZVzY4WHpzcWlLbmVlQ1o5eFBqMWhOcm12TDhkUUQ0dm1IbjRXNkV5ZVJzYVNYemlXZjVNMTFUNVozd1J1d245bW9IUlp4M25fdFV2S2thcXV0Yy0zdw?oc=5",
      "source": "Endpoints News",
      "published": 1793440800,
-     "text": "Anthropic’s one-person biotech buy; Jake Van Naarden’s dealmaking strategy; and more Endpoints News"
+     "text": "Anthropic’s one-person biotech buy; Jake Van Naarden’s dealmaking strategy; and more Endpoints News",
+     "summary_th": "จดหมายข่าว Endpoints กล่าวถึงการซื้อบริษัทไบโอเทคที่มีพนักงานคนเดียวของ Anthropic และกลยุทธ์การทำดีลของ Jake Van Naarden",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "anthropic",
+      "biotech",
+      "dealmaking"
+     ],
+     "entities": [
+      "Anthropic",
+      "Jake Van Naarden",
+      "Endpoints News"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8814a7cc6a9f",
@@ -1561,7 +2563,20 @@
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVXZqZVM5UVQxWlpsY0pVUjhXbkN0XzFOMVRneUJ2OVlaYndsbzZGYlk2ZW5kN3pFZS1zUnFhQnVvRVdtQnBEN3pQMlZLWXNCRE91Q1k0a2hmWHNrWl9DN3pwaVJZZWtlMVM4TVBjRUZwUkF0dzBrd21WMmFseFdqQkhaWndJVXdNUlBMcnlYeVNFVVU0RnhkNm84RWtSWlE1Rk81S1Y2dE4wQQ?oc=5",
      "source": "Benzinga",
      "published": 1793438086,
-     "text": "Elon Musk Backs Eli Lilly’s Drug Pipeline as CEO Dave Ricks Challenges Big Biotech Skepticism - Merck & C Benzinga"
+     "text": "Elon Musk Backs Eli Lilly’s Drug Pipeline as CEO Dave Ricks Challenges Big Biotech Skepticism - Merck & C Benzinga",
+     "summary_th": "Elon Musk แสดงการสนับสนุนไปป์ไลน์ยาของ Eli Lilly ขณะที่ซีอีโอ Dave Ricks ท้าทายความคลางแคลงของไบโอเทคขนาดใหญ่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "eli lilly",
+      "pharma"
+     ],
+     "entities": [
+      "Eli Lilly",
+      "Elon Musk",
+      "Dave Ricks"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2374c4efc19d",
@@ -1569,7 +2584,19 @@
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZTdaaDlfM0NCbFpuNTMwZ0lCOHNzbWVQa1RnQ3lsejA0VURrS0lJcGc1M2ZDVndHTWFLaXBWUjFuZTdIVVNVWEplNHBSOW1ybTBHd3lXTU9CLWUtVTZkQkVxVTFHemJ1eWlodXpSYThJbEhYRDRhMGYzS053czFQSU1tdTRyaGlsd2phYlZWR1FYYnVjakptQmFSN2NCSGU3bW5tM2s2aEczb2R1aFBxcU9kTXFndmkxRHc2dkNZQQ?oc=5",
      "source": "Vietnam+ (VietnamPlus)",
      "published": 1793437877,
-     "text": "Minister addresses concerns about biotech development, disaster prevention funding Vietnam+ (VietnamPlus)"
+     "text": "Minister addresses concerns about biotech development, disaster prevention funding Vietnam+ (VietnamPlus)",
+     "summary_th": "รัฐมนตรีเวียดนามชี้แจงข้อกังวลเรื่องการพัฒนาไบโอเทคและงบประมาณป้องกันภัยพิบัติ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "vietnam",
+      "biotech",
+      "disaster prevention"
+     ],
+     "entities": [
+      "Vietnam"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3c94f65da0e3",
@@ -1577,7 +2604,19 @@
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5yeElkc25YeFNVc0JQR3V3LXBZM3g3cUFwT0JPMHR5OUdqSHVXYUR3UEJPZ2lDakxIcEFhMzlhblllOWdDY05EbC15X0NaX3FqaXBRcWNFdjIyQUhjWjNzNjBaQWcyd3d1?oc=5",
      "source": "Yahoo Finance Australia",
      "published": 1793436109,
-     "text": "Nanjing Vazyme Biotech Co., Ltd (688105.SS) Seasonal returns chart Yahoo Finance Australia"
+     "text": "Nanjing Vazyme Biotech Co., Ltd (688105.SS) Seasonal returns chart Yahoo Finance Australia",
+     "summary_th": "หน้ากราฟผลตอบแทนตามฤดูกาลของ Nanjing Vazyme Biotech (688105.SS) ไม่ใช่ข่าว",
+     "importance": 0,
+     "numbers": [
+      "688105.SS"
+     ],
+     "tags": [
+      "china stocks"
+     ],
+     "entities": [
+      "Nanjing Vazyme Biotech"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "75d8eaedd75e",
@@ -1585,7 +2624,20 @@
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQVgwcmdKRkpCdkhtcERKWFhHUm13emNxeTJENE04UTR0MGNmeWljREszaVFHMlRPZGRTV1l5anoxajdLNkhiMFUxcVJPYmdUcGhsM2lDcXJyVXVETU9lOV94VkdJUUg0Sl9IazdjdzM4WVBrckhmRDRBdkVnaXJpWXZ0QThJSk40X05rVW9YSVRYQXJONU1pSnVlRVEwMV8tOE1QRFJvZTBtYjZTaU1Ubjhjb3pmTFBS?oc=5",
      "source": "The Clinical Trial Vanguard",
      "published": 1793435312,
-     "text": "Moleculin Biotech Completes Dosing in Phase 2/3 MIRACLE Trial for AnnAraC The Clinical Trial Vanguard"
+     "text": "Moleculin Biotech Completes Dosing in Phase 2/3 MIRACLE Trial for AnnAraC The Clinical Trial Vanguard",
+     "summary_th": "Moleculin Biotech ให้ยาครบผู้ป่วยในการทดลองเฟส 2/3 MIRACLE สำหรับ AnnAraC",
+     "importance": 1,
+     "numbers": [
+      "2/3"
+     ],
+     "tags": [
+      "clinical trial",
+      "biotech"
+     ],
+     "entities": [
+      "Moleculin Biotech"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "4752a2b89c68",
@@ -1593,7 +2645,21 @@
      "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPUEF2WnZyRzFuUXRMQzRRQVlacFVORWN0dU8zOXBHV2FhLTVoMUFuTXZlTlJZT0Q5TEx6VGFBN1pzX0ctUUdZRHVKVS1rZFQxYzQtMVhHMTFUUFN2ZzVKVnRMU1Q5ZlpnY21PQld4SS0zd2pKU1dxX1lxZ2paeENQd08tWFRSd1lBYzd3dXozcWtNSUR2OGM1SHNfWGZselA5d1p6U3N1X1hheVh4UXBTeXZtYzJObGR6ako2VVdlb211VlNTZkxUbjY2M1VkRHZTNnR4QUlJeElKWlUyUWZSTXEzQXVCRzBEcHhRT0NRVFRiWGlRc2pacUdOdkJ5Y3N0SFlabVlQcHRUcWxsWnZTOTRoTkJaOEpwR0JhMnBQWS1QaWlieVhESEt3T1JPcENW0gG2AkFVX3lxTFBmSEg2UWFtMFFDLWFLb0NLcG1HQjAxUllVVWR0ZkdjdVV5ck04VUVRQ2dFR0lrRFNCeDFrVkMyQjFBci05MW05SVVDRHdJdXRoZFl2am5fSVBXQVA0YXpaaENndktaclBhTFVQZExBeXl2eXpFQ2FMOV9qeDNNUEFHQi1kS3FyMDZTeEdxOW5UdXF3S040RFdXNno0RTQwemQ2X0JuZUUzaDNmdl9FeFdlTUFjbEcwTGlZN1JURnBGZmFqOWZwUGVXUF9XX2ZNckFjYmp0RDVoUm90cVh0ekRKM2o1VE14ajFmRy16UzNHODlObXFqZTQ5ZHZBM2J0YlM3Tk5od0ZjWmVFT0FTYnhXcTQ2VkQ0dUlqVFlqWExidDFTX2ctRDFrb2c3cW14UzRDcEhhbWc?oc=5",
      "source": "The Manila Times",
      "published": 1793428987,
-     "text": "Zhimeng Biopharma has completed the patients enrollment of its investigational drug, CB03-154, in the pivotal Phase 2/3 ALS clinical trial. The Manila Times"
+     "text": "Zhimeng Biopharma has completed the patients enrollment of its investigational drug, CB03-154, in the pivotal Phase 2/3 ALS clinical trial. The Manila Times",
+     "summary_th": "Zhimeng Biopharma รับผู้ป่วยครบในการทดลองเฟส 2/3 ของยา CB03-154 สำหรับโรค ALS",
+     "importance": 1,
+     "numbers": [
+      "2/3"
+     ],
+     "tags": [
+      "als",
+      "clinical trial"
+     ],
+     "entities": [
+      "Zhimeng Biopharma",
+      "CB03-154"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d0fe7ced4d41",
@@ -1601,7 +2667,17 @@
      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3NnFUclRpRjRNbzRKMUJDVUxlLTBTd2dGX3RTUkdic0dHODZZR3hjWk1fYnMtSE1za2Q1LWNwWG9QUWRGT0NQZTAwaGFnMGdaenc?oc=5",
      "source": "Yahoo! Finance Canada",
      "published": 1793426852,
-     "text": "Moleculin Biotech, Inc. (MBRX) Stock Price, News, Quote & History Yahoo! Finance Canada"
+     "text": "Moleculin Biotech, Inc. (MBRX) Stock Price, News, Quote & History Yahoo! Finance Canada",
+     "summary_th": "หน้าข้อมูลราคาและประวัติหุ้น Moleculin Biotech (MBRX) ไม่ใช่ข่าว",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "stock quote"
+     ],
+     "entities": [
+      "Moleculin Biotech"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3b774dfaad74",
@@ -1609,7 +2685,20 @@
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNU3V6MWs0S3A3Qnh6OFdhMWVhUVNYbnRSeERWcEwyUzFPcllUanFVejRJZ0lxU0Z3R00weTZ4UnBxcWJYQU1hZnJVbE01anRtOHA0aFBrcndlQVlRRGNOS3FVcmFmZUh1U0tNVFpyV1NhS3ZvVUM4S2JUam9mWEh2U3VSQzRlc1NsTmYxNjlCUGE?oc=5",
      "source": "Yahoo Finance",
      "published": 1793423141,
-     "text": "Cathie Wood Loads Up On TEM, ILMN And Biotech Stocks — But Pares Stake In This Pharma Giant That Had A Blowout Q3 Yahoo Finance"
+     "text": "Cathie Wood Loads Up On TEM, ILMN And Biotech Stocks — But Pares Stake In This Pharma Giant That Had A Blowout Q3 Yahoo Finance",
+     "summary_th": "Cathie Wood เพิ่มหุ้น TEM, ILMN และหุ้นไบโอเทคอื่น แต่ลดสัดส่วนในบริษัทยารายใหญ่ที่มีผลประกอบการไตรมาส 3 ดีเด่น",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ark invest",
+      "biotech"
+     ],
+     "entities": [
+      "Cathie Wood",
+      "TEM",
+      "ILMN"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "fe19dd60a002",
@@ -1617,7 +2706,17 @@
      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CN2JtWDhPbGRwa29qWUNEekZ2MmQwMmtHMlVRRnJNNVBRNUttZ295SUhhbjkteTlReTE2WHkzWmxocXh1S3FWOW9reXFoVG9PYTFwYTl6enlhR0FsTmNaM0lYcVZBN0pFVWhZOUtn?oc=5",
      "source": "Yahoo Finance UK",
      "published": 1793420571,
-     "text": "Concord Biotech Limited (CONCORDBIO.NS) Seasonal returns chart Yahoo Finance UK"
+     "text": "Concord Biotech Limited (CONCORDBIO.NS) Seasonal returns chart Yahoo Finance UK",
+     "summary_th": "หน้ากราฟผลตอบแทนตามฤดูกาลของ Concord Biotech (CONCORDBIO.NS) ไม่ใช่ข่าว",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "india stocks"
+     ],
+     "entities": [
+      "Concord Biotech"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8db2e2b135da",
@@ -1625,7 +2724,19 @@
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQVlXZEo3OWJmRWxvbmhWRGpvdlByNUtCUUdxX0hERGdqb053dnBsWWc1cVpwalFpdDU3RVlWeU55SjhHdWptNm9pNWRWUDRiTjh6c1J4UXhaa0w4SHk4WlJrT09IZ0ZOdTdrc1kwMVN0dl8zX1B3TlUyb29lUnhoNlZQR01LeUVHZDRpeXV0ZFg?oc=5",
      "source": "Yahoo Finance",
      "published": 1793420460,
-     "text": "3 Biotech Stocks With Upside Of Up To 80% Yahoo Finance"
+     "text": "3 Biotech Stocks With Upside Of Up To 80% Yahoo Finance",
+     "summary_th": "หัวข้อ: หุ้นไบโอเทค 3 ตัวที่มี upside สูงสุด 80% (บทความรวมหุ้น)",
+     "importance": 0,
+     "numbers": [
+      "80%"
+     ],
+     "tags": [
+      "biotech stocks"
+     ],
+     "entities": [
+      "Yahoo Finance"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a7765d0265bd",
@@ -1633,7 +2744,20 @@
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdG5vdVRQSkZmTTFlaVlLM0dMVFJaWXBLZGRLMTVmVVVnNlhyZ3hZVlhnZ0w4dEtFdUNlN2pWTDV0X0RCS3Z2bHNuYWI3dGViaHFHc1NGMVJCTXFMS3BueW9KTkV1dzdzU1djemZ1ZGN3alRtVUQ1RGIxV1dLWkxWNDJnaXV2SzZJaVhtazJrRWxPTk5qTmZEdDBpd1hObGRW?oc=5",
      "source": "Dealroom",
      "published": 1793418621,
-     "text": "Sun Pharma wins US FDA approval for ILUMYA in psoriatic arthritis Dealroom"
+     "text": "Sun Pharma wins US FDA approval for ILUMYA in psoriatic arthritis Dealroom",
+     "summary_th": "Sun Pharma ได้รับการอนุมัติจาก FDA ให้ใช้ ILUMYA รักษาโรคข้ออักเสบสะเก็ดเงิน (psoriatic arthritis)",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "fda",
+      "pharma"
+     ],
+     "entities": [
+      "Sun Pharma",
+      "ILUMYA",
+      "FDA"
+     ],
+     "model": "claude/routine"
     }
    ]
   }
