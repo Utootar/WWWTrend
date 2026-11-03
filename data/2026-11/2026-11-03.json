@@ -2,9 +2,10 @@
  "date": "2026-11-03",
  "collected_at": "2026-11-03T01:25:00+07:00",
  "models": [
+  "claude/routine",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 6,
+ "summary_failed": 0,
  "prices": [
   {
    "symbol": "^GSPC",
@@ -451,7 +452,8 @@
      "entities": [
       "South Korea"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b49be74aa193",
@@ -471,7 +473,8 @@
      "entities": [
       "Apple"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "86b175405201",
@@ -480,7 +483,7 @@
      "source": "MarketWatch",
      "published": 1793643360,
      "text": "It’s crucial to distinguish economic from political uncertainty, because only one really moves the stock market.",
-     "summary_th": "วอลล์สตรีทไม่ได้กังวลกับการนับคะแนนเลือกตั้งกลางดอมที่อาจใช้เวลาหลายสัปดาห์",
+     "summary_th": "วอลล์สตรีทไม่กังวลกับการนับคะแนนเลือกตั้งกลางเทอมที่อาจใช้เวลาหลายสัปดาห์",
      "importance": 1,
      "numbers": [],
      "tags": [
@@ -489,7 +492,10 @@
       "stock market"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "คำผิดทำให้ความหมายเพี้ยน (กลางดอม → กลางเทอม)",
+     "checked_by": "claude/review"
     },
     {
      "id": "6807207741c0",
@@ -511,7 +517,8 @@
       "UnitedHealth",
       "Regeneron"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8444772366dc",
@@ -533,7 +540,8 @@
       "Apple",
       "Palantir"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "07f3e6c3f4a1",
@@ -554,7 +562,8 @@
      "entities": [
       "Commerce Department"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "cc2b541fa095",
@@ -577,7 +586,8 @@
       "Palantir",
       "ServiceNow"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ceb7929815ef",
@@ -601,7 +611,8 @@
       "California",
       "Alaska"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1fb5f40bff56",
@@ -620,7 +631,8 @@
       "personal finance"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "46c69c555092",
@@ -641,7 +653,8 @@
      "entities": [
       "State Street"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "885b04d7832e",
@@ -664,7 +677,8 @@
      "entities": [
       "Oracle"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "cd7e5ca2ee64",
@@ -687,7 +701,8 @@
       "Marvell",
       "Lumentum"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d5b36126e23f",
@@ -706,7 +721,8 @@
       "information technology"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "dd668d0c07ce",
@@ -724,7 +740,8 @@
       "stock market"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "fa8e2882d978",
@@ -747,7 +764,8 @@
      "entities": [
       "Oracle"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "33e94b33916d",
@@ -766,7 +784,8 @@
       "industrials"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d822a9117e89",
@@ -790,7 +809,8 @@
      "entities": [
       "Anthropic"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4209fe672ac6",
@@ -811,7 +831,8 @@
       "roth conversion"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "861e233b8f82",
@@ -821,7 +842,7 @@
      "published": 1793640900,
      "text": "CLASS ACTION DEADLINE TONIGHT: Faruqi & Faruqi, LLP Reminds Unicycive Therapeutics (NASDAQ: UNCY) Investors of Securities Class Action Lawsuit Deadline on November 2, 2026 Morningstar",
      "summary_th": "Faruqi & Faruqi เตือนนักลงทุน Unicycive Therapeutics ถึงกำหนดเส้นตายการฟ้องร้องแบบกลุ่มในวันที่ 2 พฤศจิกายน 2026",
-     "importance": 1,
+     "importance": 0,
      "numbers": [],
      "tags": [
       "unicycive therapeutics",
@@ -832,7 +853,10 @@
       "Faruqi & Faruqi, LLP",
       "Unicycive Therapeutics"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ประกาศจากสำนักงานกฎหมาย (โฆษณา/เตือนทั่วไป) ไม่ใช่ข่าว ให้ความสำคัญ 0 ตามข่าวอื่นในหมวดนี้",
+     "checked_by": "claude/review"
     },
     {
      "id": "7f8f068798e3",
@@ -856,7 +880,8 @@
       "U.S.",
       "Iran"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9f8ea0b6fbed",
@@ -864,7 +889,20 @@
      "link": "https://www.marketwatch.com/story/6-dividend-stocks-for-investors-who-want-to-cut-their-exposure-to-the-s-p-500-52519928",
      "source": "MarketWatch",
      "published": 1793638560,
-     "text": "Novartis, Mitsubishi and Canadian Natural are examples of companies in developed markets outside the U.S. that pass screens for high dividend yields and low volatility for prices and earnings."
+     "text": "Novartis, Mitsubishi and Canadian Natural are examples of companies in developed markets outside the U.S. that pass screens for high dividend yields and low volatility for prices and earnings.",
+     "summary_th": "บทความแนะนำหุ้นปันผลสูง 6 ตัวนอกสหรัฐ เช่น Novartis, Mitsubishi และ Canadian Natural สำหรับคนที่อยากลดสัดส่วนหุ้นใน S&P 500",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "dividend stocks",
+      "s&p 500"
+     ],
+     "entities": [
+      "Novartis",
+      "Mitsubishi",
+      "Canadian Natural"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "0c7d0478bcf7",
@@ -872,7 +910,23 @@
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMWtYMlg4alZObWZkaW9oS1U0VHVuSDNXZUxlOVU4VHF0NFZ6T2h2TEtUU0d2WGtucEdvU3dzUS1xckhOMDhEYkoxczQzX19GZ0NZTlZpcVZBbUtJZGlJSkIzbVdZdFU2REY1Z0JXZDh2QmJmaXlyU3NEX2wyblRBekRPOXZQNXFFczd1NElnWGlLLUhuR2ZtOVBCaGgzQmhnYWIzVkI0OUxsbl95WS1nYzYtWQ?oc=5",
      "source": "Benzinga",
      "published": 1793640767,
-     "text": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today Benzinga"
+     "text": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today Benzinga",
+     "summary_th": "ดาวโจนส์ขึ้น 1% ขณะที่น้ำมันร่วง 7% หลังมีความหวังเรื่องสันติภาพกับอิหร่าน",
+     "importance": 2,
+     "numbers": [
+      "1%",
+      "7%"
+     ],
+     "tags": [
+      "oil",
+      "iran",
+      "stocks"
+     ],
+     "entities": [
+      "Dow",
+      "Iran"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "029fa8c4005e",
@@ -880,7 +934,22 @@
      "link": "https://www.cnbc.com/2026/11/02/fbi-hunter-biden-doj-case-dismissed.html",
      "source": "CNBC Top News",
      "published": 1793640957,
-     "text": "Judge Zia Faruqui suggested the prosecution of ex-officials Nikki Floris and Bradley Benavides was rushed to come out ahead of the midterm election."
+     "text": "Judge Zia Faruqui suggested the prosecution of ex-officials Nikki Floris and Bradley Benavides was rushed to come out ahead of the midterm election.",
+     "summary_th": "ผู้พิพากษายกฟ้องคดีที่กระทรวงยุติธรรมฟ้องอดีตเจ้าหน้าที่ FBI สองคนที่ถูกกล่าวหาว่าโกหกเรื่องการสืบสวนคดี Hunter Biden โดยผู้พิพากษาให้ความเห็นว่าการฟ้องถูกเร่งก่อนการเลือกตั้งกลางเทอม",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "doj",
+      "fbi",
+      "hunter biden"
+     ],
+     "entities": [
+      "Zia Faruqui",
+      "Nikki Floris",
+      "Bradley Benavides",
+      "DOJ"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "557c6a5a8630",
@@ -888,7 +957,16 @@
      "link": "https://www.marketwatch.com/story/these-tech-stocks-got-unfairly-swept-up-in-last-weeks-selloff-analysts-say-e296c1b3",
      "source": "MarketWatch",
      "published": 1793638200,
-     "text": "One analyst notes “a meaningful gap between price and fundamentals” in some corners of the chip sector."
+     "text": "One analyst notes “a meaningful gap between price and fundamentals” in some corners of the chip sector.",
+     "summary_th": "นักวิเคราะห์บอกว่าหุ้นเทคบางตัวถูกขายรวมไปกับการร่วงในสัปดาห์ก่อน และในบางส่วนของหุ้นชิปมี 'ช่องว่างที่มีนัยสำคัญ' ระหว่างราคากับพื้นฐาน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "chip stocks",
+      "selloff"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "7bd3428a91be",
@@ -896,7 +974,19 @@
      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNNUFibG9fSmJyNmFXZnVZQ05XMHpUMjMxZ1UwekVRZWV0dFdZeEVsejFVN2tObWstOXpFVXVrLVRlak82ZUZvX3BPSi1JdHExV2w2UjdhRUtJYkFtVW9xakxYdEdhdkY5RHZkSmNYTkQ3RHNfdkh4UDAySmIwTklVVE9US25iYTZLd3NBTFdYemZFRUJFbzZld2J2VmhidVFzZVIxa1M5ejZnX3pub2xvSHpFSjh4bDk0eFZWSFNxRW5IbzRBTEpsa3hrUXZuRWg2RXNnYTItc3E0TWNyYlktM3Q5MG82N1dlWnUzUkMzTkt3YkZQUFhqM0dwa2dQZEt3Y1NWQ3hhVkdRSDc5Mkd0VGhKVmFndGNFMTVKZV9hM1hRNEdqcFdzeDJMTjRjR3FyaEV5b2JqS18?oc=5",
      "source": "Morningstar",
      "published": 1793640120,
-     "text": "CLASS ACTION DEADLINE TONIGHT: Faruqi & Faruqi, LLP Reminds Papa John’s (NASDAQ: PZZA) Investors of Securities Class Action Lawsuit Deadline on November 2, 2026 Morningstar"
+     "text": "CLASS ACTION DEADLINE TONIGHT: Faruqi & Faruqi, LLP Reminds Papa John’s (NASDAQ: PZZA) Investors of Securities Class Action Lawsuit Deadline on November 2, 2026 Morningstar",
+     "summary_th": "สำนักงานกฎหมาย Faruqi & Faruqi เตือนนักลงทุนของ Papa John's (PZZA) ว่าครบกำหนดยื่นคดีฟ้องร้องหลักทรัพย์แบบกลุ่มในวันที่ 2 พฤศจิกายน 2026",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "class action",
+      "papa johns"
+     ],
+     "entities": [
+      "Papa John's",
+      "Faruqi & Faruqi"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -922,7 +1012,8 @@
       "europe"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "7584627279c2",
@@ -947,7 +1038,8 @@
       "Kyiv",
       "Ukraine"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a208267fe483",
@@ -970,7 +1062,8 @@
      "entities": [
       "MLT Aikins"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "63cefec1fc51",
@@ -988,7 +1081,8 @@
       "food waste"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "980e6d03c6de",
@@ -1008,7 +1102,8 @@
      "entities": [
       "Kherson"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "7c03349bd26f",
@@ -1031,7 +1126,8 @@
       "SF Fed",
       "Reuters"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4e5577e538b1",
@@ -1053,7 +1149,8 @@
       "Steve Smith",
       "Wolverhampton"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "5434a1d73821",
@@ -1061,7 +1158,23 @@
      "link": "https://www.bbc.co.uk/news/articles/ckly0v2q2yxlo?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1793640589,
-     "text": "Jos Leijdekkers has been found guilty in absentia of cocaine smuggling and is believed to be in Sierra Leone."
+     "text": "Jos Leijdekkers has been found guilty in absentia of cocaine smuggling and is believed to be in Sierra Leone.",
+     "summary_th": "ตำรวจเนเธอร์แลนด์เสนอรางวัลสถิติ €2m เพื่อจับ Jos Leijdekkers ที่ถูกตัดสินลับหลังว่ามีความผิดฐานลักลอบค้าโคเคน และเชื่อว่าหลบอยู่ที่เซียร์ราลีโอน",
+     "importance": 1,
+     "numbers": [
+      "€2m"
+     ],
+     "tags": [
+      "cocaine",
+      "netherlands",
+      "organized crime"
+     ],
+     "entities": [
+      "Jos Leijdekkers",
+      "Sierra Leone",
+      "Dutch police"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "9ac50bc99eb8",
@@ -1081,7 +1194,8 @@
      "entities": [
       "Finimize"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4652b6ad9bef",
@@ -1104,7 +1218,8 @@
      "entities": [
       "Ryanair"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e590481c4770",
@@ -1126,7 +1241,8 @@
       "Luton",
       "Budapest"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6b7dff80a863",
@@ -1148,7 +1264,8 @@
       "New Zealand",
       "Bloomberg"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "bc46b33a5267",
@@ -1170,7 +1287,8 @@
      "entities": [
       "Binance"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b98972249986",
@@ -1190,7 +1308,8 @@
      "entities": [
       "Joe Tidy"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "cdf710df820b",
@@ -1208,7 +1327,8 @@
       "voters"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1223,7 +1343,7 @@
      "source": "OilPrice.com",
      "published": 1793642400,
      "text": "Sunday saw another vessel attacked in Persian Gulf regional waters. The UK Maritime Trade Operations agency (UKMTO) reported that a ship was struck by two projectiles some 83 miles east of Ras al-Khafji, which is the Saudi town on the Kuwaiti border in the northern Persian Gulf. Significantly and unusually, this particular attack occurred hundreds of miles from the Strait of Hormuz itself. Also, in this instance, the vessel targeted was not a large tanker, but instead was a tugboat. \"On Sunday evening, an Emirati-owned offshore tug was hit by a…",
-     "summary_th": "สำนักข่าว UKMTO รายงานเหตุเรือลากจูงของสหรัฐอาหรับเอมิเรตส์ถูกโจมตีด้วยกระสุนสองนัดในน่านน้ำอ่าวเปอร์เซีย ห่างจากช่องแคบฮอร์มุزหลายร้อยไมล์",
+     "summary_th": "หน่วยงาน UKMTO รายงานว่าเรือลากจูงนอกชายฝั่งที่เป็นของเอมิเรตส์ถูกโจมตีด้วยกระสุนสองนัด ห่างจากช่องแคบฮอร์มุซหลายร้อยไมล์",
      "importance": 2,
      "numbers": [
       "83"
@@ -1236,7 +1356,10 @@
      "entities": [
       "UKMTO"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "UKMTO เป็นหน่วยงานรายงานความปลอดภัยทางทะเล ไม่ใช่สำนักข่าว และเรือเป็นเรือลากจูงนอกชายฝั่งของเอมิเรตส์ มีอักขระแปลกปลอมในข้อความ",
+     "checked_by": "claude/review"
     },
     {
      "id": "766c4d34931a",
@@ -1257,7 +1380,8 @@
       "OpenAI",
       "Sam Altman"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d5f7c9ea8ff1",
@@ -1275,7 +1399,8 @@
       "us-iran"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "fcb595806f5e",
@@ -1300,7 +1425,8 @@
       "TotalEnergies",
       "Aurélien Hamelle"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ea228b589538",
@@ -1321,7 +1447,8 @@
       "Rubio",
       "Trump"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "856cbdd53691",
@@ -1341,7 +1468,8 @@
       "oil prices"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "bb35784d3667",
@@ -1364,7 +1492,8 @@
       "Kyrgyzstan",
       "Eurasian Development Bank"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "70d95aabb48e",
@@ -1389,7 +1518,8 @@
       "Royal Caribbean",
       "Norwegian Cruise Line"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8195c918eaec",
@@ -1417,7 +1547,8 @@
       "Masoud Pezeshkian",
       "Abbas"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "29ec858e2a92",
@@ -1435,7 +1566,8 @@
       "market"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "47ba8fca1f64",
@@ -1459,7 +1591,8 @@
       "Khanjee Holdings",
       "General Mediterranean Holding"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4e1e4f46bb88",
@@ -1477,7 +1610,8 @@
       "bonds"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8d8d1f38bf00",
@@ -1498,7 +1632,8 @@
       "Ras Tanura",
       "Houthis"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "68354fa257fa",
@@ -1519,7 +1654,8 @@
       "us-iran"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d830a15ab1f6",
@@ -1537,7 +1673,8 @@
       "refineries"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1562,7 +1699,8 @@
      "entities": [
       "Bangladesh"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "dfe8e140ad7f",
@@ -1579,7 +1717,8 @@
       "usa"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d134fa3497c7",
@@ -1597,7 +1736,8 @@
       "gold"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4bb36f85657e",
@@ -1615,7 +1755,8 @@
      "entities": [
       "U.S. Gold Bureau"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a8832629429e",
@@ -1635,7 +1776,8 @@
      "entities": [
       "US"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "adfdbe628642",
@@ -1655,7 +1797,8 @@
       "silver"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "7874726237ca",
@@ -1673,7 +1816,8 @@
       "gold price"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c1a1552e3188",
@@ -1694,7 +1838,8 @@
      "entities": [
       "Pakistan"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "bed5769522c9",
@@ -1716,7 +1861,8 @@
      "entities": [
       "JP Morgan"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "29d0947bd1fe",
@@ -1737,7 +1883,8 @@
      "entities": [
       "China"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "292d6108e389",
@@ -1753,7 +1900,8 @@
       "gold"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "737b2b596c91",
@@ -1772,7 +1920,8 @@
       "gold"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1801,7 +1950,8 @@
       "Lumentum",
       "Nvidia"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "0ad9e89a8ab0",
@@ -1818,7 +1968,8 @@
       "analytics"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "78036d3639cc",
@@ -1837,7 +1988,8 @@
       "conservation"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "16194c055af9",
@@ -1846,7 +1998,7 @@
      "source": "The Verge",
      "published": 1793642490,
      "text": "In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to […]",
-     "summary_th": "OpenAI เปิดตัวโครงการ Grid Protectors Program ที่ศูนย์ข้อมูลในรัฐจอร์เจีย เพื่อสำรองพลังงานไฟฟ้าสูงสุด 1,000 เมกะวัตต์ในช่วงสถานการณ์ฉุกเฉิน",
+     "summary_th": "OpenAI เปิดตัวโครงการ Grid Protectors Program ที่ศูนย์ข้อมูลในจอร์เจีย โดยสัญญาจะปลดปล่อยกำลังไฟฟ้าได้สูงสุด 1,000 เมกะวัตต์ช่วงสภาพอากาศสุดขั้วหรือเหตุฉุกเฉิน",
      "importance": 3,
      "numbers": [
       "1,000",
@@ -1860,7 +2012,10 @@
      "entities": [
       "OpenAI"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ต้นทางระบุว่าโครงการจะ 'ปลดปล่อย' กำลังไฟ ไม่ใช่ 'สำรอง'",
+     "checked_by": "claude/review"
     },
     {
      "id": "a2a6983e29e4",
@@ -1880,7 +2035,8 @@
       "Lumentum",
       "Marvell"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "0e6629be9749",
@@ -1899,7 +2055,8 @@
       "ubuntu"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "334ffc2b4b68",
@@ -1919,7 +2076,8 @@
      "entities": [
       "OpenAI"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f8e64d371b0e",
@@ -1941,7 +2099,8 @@
      "entities": [
       "Google"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "cbaace24e539",
@@ -1958,7 +2117,8 @@
       "privacy"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "fbc6034567ac",
@@ -1978,7 +2138,8 @@
       "Readwise",
       "Amazon"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "728c21b3deeb",
@@ -1998,7 +2159,8 @@
       "tokens"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "aa5c09b1dfd3",
@@ -2017,7 +2179,8 @@
       "display"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "dc6c7ef2ed74",
@@ -2039,7 +2202,8 @@
       "Brave",
       "New York Daily News"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4f75fd68cde1",
@@ -2062,7 +2226,8 @@
       "Fanatics",
       "NHL"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "242d15603b74",
@@ -2089,7 +2254,8 @@
      "entities": [
       "Apple TV"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8f21b8455339",
@@ -2113,7 +2279,8 @@
       "Tutor",
       "a16z"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "be1d39eaf1aa",
@@ -2133,7 +2300,8 @@
      "entities": [
       "BTCPay Server"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "898b8a68ca81",
@@ -2150,7 +2318,8 @@
       "cctv"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8f81a5b7fe99",
@@ -2174,7 +2343,8 @@
       "T-Mobile",
       "Verizon"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "54d517bb1328",
@@ -2196,7 +2366,8 @@
      "entities": [
       "Tim Berners-Lee"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9233f8bfd339",
@@ -2219,7 +2390,8 @@
       "Apple",
       "The Information"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d92ff4ebaa27",
@@ -2239,7 +2411,8 @@
      "entities": [
       "Apple"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c613f83c843e",
@@ -2263,7 +2436,8 @@
       "Debby Wu",
       "Bloomberg"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "5ea1d647d005",
@@ -2284,7 +2458,8 @@
      "entities": [
       "Cape"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4a94e17a4aa2",
@@ -2307,7 +2482,8 @@
      "entities": [
       "Jalgaon"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -2330,7 +2506,8 @@
       "billing"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "7b5885fbd59d",
@@ -2351,7 +2528,8 @@
       "World Bank",
       "Georgetown University"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "24d24b7e3cf8",
@@ -2373,7 +2551,8 @@
       "US FDA",
       "ILUMYA"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1cfaa57f1ad9",
@@ -2391,7 +2570,8 @@
       "mental health"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8fef21e5365c",
@@ -2409,7 +2589,8 @@
       "pediatric"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "7c7f8d9e5a76",
@@ -2428,7 +2609,8 @@
      "entities": [
       "Krystal Biotech, Inc."
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "38fd4c05e0fa",
@@ -2437,7 +2619,7 @@
      "source": "STAT News",
      "published": 1793636026,
      "text": "The FDA has approved a generic HIV prevention shot, a key step in widening access for dozens of lower-income countries.",
-     "summary_th": "องค์การอาหารและยาอนุมัติยาฉีดป้องกันเอชไอวีแบบสามสามัญ เพื่อขยายการเข้าถึงสำหรับประเทศที่มีรายได้น้อย",
+     "summary_th": "FDA อนุมัติยาฉีดป้องกันเอชไอวีแบบสามัญ เพื่อขยายการเข้าถึงในประเทศที่มีรายได้น้อย",
      "importance": 3,
      "numbers": [],
      "tags": [
@@ -2448,7 +2630,10 @@
      "entities": [
       "FDA"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "คำแปลผิด (สามสามัญ → สามัญ)",
+     "checked_by": "claude/review"
     },
     {
      "id": "c44f5481d6ce",
@@ -2466,7 +2651,8 @@
       "sex differences"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "87b4e30be93d",
@@ -2485,7 +2671,8 @@
      "entities": [
       "Croda International"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3f3b6bd4030a",
@@ -2494,7 +2681,7 @@
      "source": "STAT News",
      "published": 1793629328,
      "text": "Four big drugmakers allegedly paid tens of millions of dollars to middlemen to supply lifesaving drugs to Russian government entities",
-     "summary_th": "บริษัทยารายใหญ่ 4 แห่งจ่ายเงินหลายสิบล้านดอลลาร์ให้กับคนกลางเพื่อให้จัดหายาช่วยชีวิตแก่หน่วยงานรัฐบาลรัสเซีย",
+     "summary_th": "บริษัทยารายใหญ่สี่แห่งถูกกล่าวหาว่าจ่ายเงินหลายสิบล้านดอลลาร์ให้คนกลางเพื่อจัดหายาช่วยชีวิตแก่หน่วยงานรัฐบาลรัสเซีย",
      "importance": 2,
      "numbers": [],
      "tags": [
@@ -2502,7 +2689,10 @@
       "russia"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review",
+     "fixed_by": "claude/review",
+     "fix_reason": "ต้นทางระบุว่า 'allegedly' (ถูกกล่าวหา) ต้องไม่เขียนเป็นข้อเท็จจริง"
     },
     {
      "id": "1fa3157b42b3",
@@ -2525,7 +2715,8 @@
       "Cedars-Sinai Guerin Children's",
       "University of Cambridge"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "dd618b314a5e",
@@ -2544,7 +2735,8 @@
      "entities": [
       "Krystal Biotech"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9101d1c27d54",
@@ -2561,7 +2753,8 @@
       "mrt"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "871aaf7477a2",
@@ -2579,7 +2772,8 @@
       "vision"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8529bef938aa",
@@ -2598,7 +2792,8 @@
      "entities": [
       "Krystal Biotech"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e9e9ae9e87ea",
@@ -2617,7 +2812,8 @@
      "entities": [
       "STAT"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "edac287e6d13",
@@ -2635,7 +2831,8 @@
       "machine learning"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "cbc69506094f",
@@ -2652,7 +2849,8 @@
       "stocks"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "bf57fddfdf43",
@@ -2673,7 +2871,8 @@
       "Kymera",
       "Dupixent"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "052a2086214f",
@@ -2693,7 +2892,8 @@
      "entities": [
       "Pennington Biomedical Research Center"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   }
