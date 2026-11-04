@@ -2,9 +2,10 @@
  "date": "2026-11-04",
  "collected_at": "2026-11-04T08:24:49+07:00",
  "models": [
+  "claude/routine",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 45,
+ "summary_failed": 0,
  "prices": [
   {
    "symbol": "^GSPC",
@@ -445,7 +446,8 @@
      "entities": [
       "Google"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b7c40a1a1cdd",
@@ -465,7 +467,8 @@
      "entities": [
       "AMD"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "708b9f2dbeab",
@@ -486,7 +489,8 @@
       "Donald Trump",
       "Democrats"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "759e81cb3fc7",
@@ -505,7 +509,8 @@
      "entities": [
       "Jim Cramer"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "df48c553d389",
@@ -526,7 +531,8 @@
       "Super Micro",
       "Mark Long"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c0b1f38856f8",
@@ -546,7 +552,8 @@
      "entities": [
       "Nasdaq"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "166652bd0a39",
@@ -568,7 +575,8 @@
       "George Kurtz",
       "Jim Cramer"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a70ea8012d77",
@@ -590,7 +598,8 @@
      "entities": [
       "Apple"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d66b3daa2a52",
@@ -612,7 +621,8 @@
      "entities": [
       "S&P 500"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b13cbbf45030",
@@ -636,7 +646,8 @@
       "Nancy Bass Wyden",
       "Wyden"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "10820a26942f",
@@ -654,7 +665,8 @@
       "economy"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "845176d70265",
@@ -674,7 +686,8 @@
      "entities": [
       "UFP Technologies"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e685f10c5f8a",
@@ -683,7 +696,7 @@
      "source": "CNBC Top News",
      "published": 1793747077,
      "text": "AMD reported better-than-expected third-quarter results, driven by booming sales of AI chips",
-     "summary_th": "หุ้น AMD พุ่งขึ้น 8% หลังผลประกอบการไตรมาส 3 ดีกว่าคาดการณ์ โดยได้แรงหนุนจากยอดขายชิป AI ที่เพิ่มขึ้นเกือบเท่าตัว",
+     "summary_th": "หุ้น AMD พุ่งขึ้น 8% หลังผลประกอบการไตรมาสที่สามดีกว่าคาดการณ์ โดยรายได้จากศูนย์ข้อมูลเกือบเพิ่มเป็นสองเท่า",
      "importance": 2,
      "numbers": [
       "8%"
@@ -696,7 +709,10 @@
      "entities": [
       "AMD"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review",
+     "fixed_by": "claude/review",
+     "fix_reason": "ต้นทางระบุรายได้ศูนย์ข้อมูล ไม่ใช่ยอดขายชิป AI"
     },
     {
      "id": "35bff8e52b6f",
@@ -719,7 +735,8 @@
       "J.P. Morgan",
       "S&P 500"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f920b59cc4ea",
@@ -742,7 +759,8 @@
      "entities": [
       "LendingTree"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4b14c1a647b6",
@@ -762,7 +780,8 @@
      "entities": [
       "JetBlue"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "579bdde7b040",
@@ -779,7 +798,8 @@
       "career"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1fb13d9e32a2",
@@ -802,7 +822,8 @@
       "Nasdaq",
       "Apple"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "62f9a7de49ee",
@@ -824,7 +845,8 @@
       "Freddie Mac",
       "Bill Ackman"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8f2120eeedc3",
@@ -847,7 +869,8 @@
       "Google",
       "SpaceX"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3a080ad0abd9",
@@ -865,7 +888,8 @@
       "election"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "76355e7a2350",
@@ -883,7 +907,8 @@
       "election"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "5d32c1948398",
@@ -903,7 +928,8 @@
       "business models"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3ae5e1eaae12",
@@ -926,7 +952,8 @@
      "entities": [
       "QuidelOrtho Corp"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4db6f780f499",
@@ -946,7 +973,8 @@
      "entities": [
       "Eaton"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -974,7 +1002,8 @@
       "Canva",
       "Melanie Perkins"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f3989377ad57",
@@ -983,7 +1012,7 @@
      "source": "BBC World",
      "published": 1793750599,
      "text": "As South Africans vote in local elections, residents tell the BBC they are tired of the poor quality of services they get.",
-     "summary_th": "พรรค ANC ของแอฟริกาใต้เผชิญแรงกดดันให้แก้ไขปัญหาความเสื่อมถอยท่าศาลาการเลือกตั้งท้องถิ่น",
+     "summary_th": "พรรค ANC ของแอฟริกาใต้ถูกกดดันให้แก้ปัญหาความเสื่อมถอยของประเทศ ขณะที่ชาวแอฟริกาใต้ลงคะแนนเลือกตั้งท้องถิ่น และบอกว่าเบื่อคุณภาพบริการที่ได้รับ",
      "importance": 1,
      "numbers": [],
      "tags": [
@@ -993,7 +1022,10 @@
      "entities": [
       "ANC"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ประโยคไม่สมบูรณ์และแปลผิด (ต้นทางพูดถึงการเลือกตั้งท้องถิ่นและคุณภาพบริการ)",
+     "checked_by": "claude/review"
     },
     {
      "id": "3e1af0ccf63d",
@@ -1015,7 +1047,8 @@
       "Fed",
       "FOMC"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "93b118af97f6",
@@ -1033,7 +1066,8 @@
       "work experience"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "12b0eaea270a",
@@ -1052,7 +1086,8 @@
      "entities": [
       "Kim Kardashian"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2fdd20ba68ed",
@@ -1070,7 +1105,8 @@
       "economy"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2147ff51d925",
@@ -1090,7 +1126,8 @@
      "entities": [
       "Poundland"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d82818c11848",
@@ -1112,7 +1149,8 @@
      "entities": [
       "Spain"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "bba68b832897",
@@ -1130,7 +1168,8 @@
       "cost of living"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3a33380e2f39",
@@ -1150,7 +1189,8 @@
       "housing"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "15d9a348e921",
@@ -1170,7 +1210,8 @@
      "entities": [
       "NTSB"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "0156cfefd1a3",
@@ -1192,7 +1233,8 @@
       "Trump",
       "Biden"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "5a2163963e83",
@@ -1214,7 +1256,8 @@
      "entities": [
       "Binance"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a09a583b0825",
@@ -1232,7 +1275,8 @@
       "security"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c85d92adef7b",
@@ -1253,7 +1297,8 @@
      "entities": [
       "Federal Reserve"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1283,7 +1328,8 @@
       "REalloys",
       "U.S. Army"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6a72904034a8",
@@ -1303,7 +1349,8 @@
       "wind"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "94d117cdbc28",
@@ -1312,7 +1359,7 @@
      "source": "Reuters",
      "published": 1793753880,
      "text": "Gold firms on softer oil prices, US midterm results awaited Reuters",
-     "summary_th": "ราคาทองคำทรงตัวท่ามกลางราคาน้ำมันที่อ่อนตัวลงและการรอผลเลือกตั้งกลางดอมของสหรัฐฯ",
+     "summary_th": "ราคาทองคำทรงตัวท่ามกลางราคาน้ำมันที่อ่อนตัวลงและการรอผลเลือกตั้งกลางเทอมของสหรัฐฯ",
      "importance": 1,
      "numbers": [],
      "tags": [
@@ -1321,7 +1368,10 @@
       "us midterms"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "คำว่า 'กลางดอม' ผิด ควรเป็นกลางเทอม",
+     "checked_by": "claude/review"
     },
     {
      "id": "cbbb74e60e45",
@@ -1349,7 +1399,8 @@
       "QatarEnergy",
       "Egypt"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "171bc03bca1f",
@@ -1369,7 +1420,8 @@
      "entities": [
       "Saudi Aramco"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8a2aff26f6f3",
@@ -1389,7 +1441,8 @@
       "oil imports"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "fe96b345653c",
@@ -1398,10 +1451,9 @@
      "source": "BigGo Finance",
      "published": 1793750160,
      "text": "Middle East Conflict Lifts Oil Prices; Saudi Aramco's Q3 Net Profit Surges to $36.25 Billion, Up 34.5% Year-on-Year BigGo Finance",
-     "summary_th": "กำไรสุทธิไตรมาส 3 ของซาอุดีอาระมโคพุ่งขึ้น 34.5% แตะ 3.625 หมื่นล้านดอลลาร์ หลังความขัดแย้งในตะวันออกกลางดันราคาน้ำมันสูงขึ้น",
-     "importance": 3,
+     "summary_th": "กำไรสุทธิไตรมาส 3 ของ Saudi Aramco พุ่งขึ้น 34.5% เป็น $36.25 Billion หลังความขัดแย้งในตะวันออกกลางดันราคาน้ำมันสูงขึ้น",
+     "importance": 2,
      "numbers": [
-      "3",
       "$36.25 Billion",
       "34.5%"
      ],
@@ -1413,7 +1465,10 @@
      "entities": [
       "Saudi Aramco"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ตัวเลขกำไรถูกแปลงหน่วยจากต้นทาง และระดับความสำคัญสูงเกินไป",
+     "checked_by": "claude/review"
     },
     {
      "id": "4822e1f83ba5",
@@ -1437,7 +1492,8 @@
       "Exxon",
       "Chevron"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2c7c32dade28",
@@ -1457,7 +1513,8 @@
      "entities": [
       "Suncor Energy"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "42ab51a70cb1",
@@ -1485,7 +1542,8 @@
      "entities": [
       "American Petroleum Institute"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b699a8e02086",
@@ -1505,7 +1563,8 @@
      "entities": [
       "Suncor Energy"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2ee1818f64d8",
@@ -1514,12 +1573,10 @@
      "source": "OilPrice.com",
      "published": 1793743200,
      "text": "Africa needs $200 billion in annual energy investment, according to the Independent Petroleum Producers Group (IPPG). Around 600 million people across Africa lack access to electricity, a problem that could quickly intensify as sub-Saharan Africa rapidly grows, develops, and industrializes. The region’s energy demand is expected to increase threefold over the next decade, as emerging economies develop and the population continues to boom. But Western investors are pulling out of the continent right when funding is most needed. To fill this…",
-     "summary_th": "แอฟริกาลั่นกลองเปิดตัวธนาคารพลังงานมูลค่า 5,000 ล้านดอลลาร์ ท่ามกลางการถอนตัวของสถาบันการเงินตะวันตก",
+     "summary_th": "แอฟริกาเปิดตัวธนาคารพลังงานมูลค่า $5 Billion ท่ามกลางการถอนตัวของสถาบันการเงินตะวันตก",
      "importance": 2,
      "numbers": [
-      "5 Billion",
-      "200 billion",
-      "600 million"
+      "$5 Billion"
      ],
      "tags": [
       "energy bank",
@@ -1529,7 +1586,10 @@
      "entities": [
       "Independent Petroleum Producers Group"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ตัวเลขถูกแปลงหน่วยจากต้นทาง ($5 Billion)",
+     "checked_by": "claude/review"
     },
     {
      "id": "401e660ddd65",
@@ -1547,7 +1607,8 @@
       "us-iran"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3714a10d9ece",
@@ -1556,7 +1617,7 @@
      "source": "OilPrice.com",
      "published": 1793739600,
      "text": "Canada’s proposed associate membership with the European Union is a first-of-its-kind political and economic partnership announced by Prime Minister Mark Carney and EU leaders during the October 2026 Canada-EU Summit in Montreal. The arrangement creates a multi-layered tie that goes well beyond a standard free-trade agreement (like CETA), while stopping short of full EU membership. The push is driven largely by a need to reduce economic and strategic reliance on the United States amid ongoing trade tensions, tariff disputes, and political…",
-     "summary_th": "แคนาดาและสหภาพยุโรปประกาศความร่วมมือทางการเมืองและเศรษฐกิจในการประชุมสุดยอดแคนาดา-EU เดือนตุลาคม 2026",
+     "summary_th": "แคนาดาเสนอสถานะสมาชิกสมทบ (associate membership) กับสหภาพยุโรป ซึ่งนายกรัฐมนตรี Mark Carney ประกาศ",
      "importance": 1,
      "numbers": [
       "2026",
@@ -1570,7 +1631,10 @@
      "entities": [
       "Mark Carney"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ต้นทางระบุเป็นข้อเสนอ (proposed) และไม่ได้บอกว่าประกาศความร่วมมือแล้ว",
+     "checked_by": "claude/review"
     },
     {
      "id": "d15e9e3531f4",
@@ -1590,7 +1654,8 @@
       "peace talks"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1618,7 +1683,8 @@
      "entities": [
       "USD"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1c4362ed466d",
@@ -1637,7 +1703,8 @@
      "entities": [
       "Australians"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4a2d3f8ea312",
@@ -1657,7 +1724,8 @@
       "world gold"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "bd3933e9b882",
@@ -1677,7 +1745,8 @@
       "US",
       "Iran"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ce03308ba89b",
@@ -1699,7 +1768,8 @@
      "entities": [
       "SJC"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "48e7eb9af02b",
@@ -1708,11 +1778,10 @@
      "source": "investingLive",
      "published": 1793747161,
      "text": "Central bank gold buying jumps 42% in Q3 as high prices hit jewellery demand, WGC says investingLive",
-     "summary_th": "WGC เผยการซื้อทองคำของธนาคารกลางพุ่งขึ้น 42% ในไตรมาส 3 เนื่องจากราคาสูงส่งผลกระทบต่ออสงค์การซื้อเครื่องประดับ",
-     "importance": 3,
+     "summary_th": "ธนาคารกลางซื้อทองคำเพิ่มขึ้น 42% ในไตรมาส 3 ตามรายงานของ WGC เนื่องจากราคาสูงส่งผลต่ออุปสงค์เครื่องประดับ",
+     "importance": 2,
      "numbers": [
-      "42%",
-      "3"
+      "42%"
      ],
      "tags": [
       "central bank",
@@ -1722,7 +1791,10 @@
      "entities": [
       "WGC"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ระดับความสำคัญสูงเกินไป และคำว่า อสงค์ ผิด",
+     "checked_by": "claude/review"
     },
     {
      "id": "81fde86cf9f8",
@@ -1741,7 +1813,8 @@
       "morning update"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8906911524f1",
@@ -1750,11 +1823,11 @@
      "source": "Daily Excelsior",
      "published": 1793746692,
      "text": "Gold falls Rs 700 to Rs 1.41 lakh per 10 gm as higher oil prices, global selloff weigh on bullion Daily Excelsior",
-     "summary_th": "ราคาทองคำร่วงลง 700 รูปี สู่ระดับ 1.41 แสนรูปีต่อ 10 กรัม เนื่องจากราคาน้ำมันที่สูงขึ้นและการเทขายทั่วโลกกดดันตลาดทองคำ",
+     "summary_th": "ราคาทองคำร่วงลง Rs 700 สู่ Rs 1.41 lakh ต่อ 10 กรัม เนื่องจากราคาน้ำมันที่สูงขึ้นและการเทขายทั่วโลกกดดันตลาด",
      "importance": 2,
      "numbers": [
-      "700",
-      "1.41 lakh",
+      "Rs 700",
+      "Rs 1.41 lakh",
       "10 gm"
      ],
      "tags": [
@@ -1763,7 +1836,10 @@
       "global selloff"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "แปลงหน่วยตัวเลขจากต้นทาง (Rs 700, 1.41 lakh)",
+     "checked_by": "claude/review"
     },
     {
      "id": "27180b574f56",
@@ -1784,7 +1860,8 @@
      "entities": [
       "US"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9660e0caafda",
@@ -1803,7 +1880,8 @@
       "bail"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "692bdbf3ccb6",
@@ -1822,7 +1900,8 @@
       "reversal"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8510df012ee9",
@@ -1841,7 +1920,8 @@
       "tola"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1855,7 +1935,19 @@
      "link": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
      "source": "TechCrunch",
      "published": 1793745663,
-     "text": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from."
+     "text": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+     "summary_th": "Anthropic กำลังพัฒนาระบบชื่อ FlashProve ที่ให้ทุกคนตรวจได้ว่าคำตอบของ AI มาจากโมเดลที่อ้างจริงหรือไม่",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "anthropic",
+      "ai safety"
+     ],
+     "entities": [
+      "Anthropic",
+      "FlashProve"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5f58c4321f5d",
@@ -1863,7 +1955,19 @@
      "link": "https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/",
      "source": "Ars Technica",
      "published": 1793745577,
-     "text": "State tries to obtain broadband funds despite rejecting Trump admin condition."
+     "text": "State tries to obtain broadband funds despite rejecting Trump admin condition.",
+     "summary_th": "แคลิฟอร์เนียคัดค้านข้อเรียกร้องของรัฐบาลทรัมป์ให้ยกเลิกกฎหมายบรอดแบนด์ของรัฐ ซึ่งรัฐเรียกว่า 'ไร้สาระ' รัฐยังพยายามขอเงินทุนบรอดแบนด์ แม้จะปฏิเสธเงื่อนไขนั้นแล้ว",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "broadband",
+      "state law"
+     ],
+     "entities": [
+      "California",
+      "Trump administration"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1965c7f85c2d",
@@ -1871,7 +1975,22 @@
      "link": "https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc",
      "source": "The Verge",
      "published": 1793754934,
-     "text": "AMD CEO Lisa Su said in the company's quarterly earnings call on Tuesday that Q3 2026 was \"was the largest and most profitable in our history.\" AMD reported a record $13.4 billion in quarterly revenue, and it's predicting it will hit another record high next quarter of $17 billion. The company's data center business is […]"
+     "text": "AMD CEO Lisa Su said in the company's quarterly earnings call on Tuesday that Q3 2026 was \"was the largest and most profitable in our history.\" AMD reported a record $13.4 billion in quarterly revenue, and it's predicting it will hit another record high next quarter of $17 billion. The company's data center business is […]",
+     "summary_th": "AMD รายงานรายได้ไตรมาส 3 ปี 2026 เป็นสถิติ 13.4 พันล้านดอลลาร์ และคาดว่าไตรมาสถัดไปจะได้ 17 พันล้านดอลลาร์ โดยธุรกิจศูนย์ข้อมูลเป็นตัวหลัก",
+     "importance": 2,
+     "numbers": [
+      "$13.4 billion",
+      "$17 billion"
+     ],
+     "tags": [
+      "amd",
+      "data center"
+     ],
+     "entities": [
+      "AMD",
+      "Lisa Su"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "0a9be41eb00f",
@@ -1879,7 +1998,18 @@
      "link": "https://www.cnbc.com/2026/11/03/ai-generated-slopaganda-in-political-ads-puts-platforms-on-alert.html",
      "source": "CNBC Tech",
      "published": 1793738008,
-     "text": "Tuesday's midterm elections follow record spending on AI-generated political ads."
+     "text": "Tuesday's midterm elections follow record spending on AI-generated political ads.",
+     "summary_th": "ก่อนการเลือกตั้งกลางเทอม มีการใช้จ่ายโฆษณาการเมืองที่สร้างด้วย AI เป็นสถิติ ทำให้แพลตฟอร์มอินเทอร์เน็ตเริ่มเฝ้าระวัง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai ads",
+      "elections"
+     ],
+     "entities": [
+      "CNBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6857dc224a41",
@@ -1887,7 +2017,23 @@
      "link": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
      "source": "Hacker News",
      "published": 1793727600,
-     "text": "Article URL: https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/ Comments URL: https://news.ycombinator.com/item?id=50355251 Points: 482 # Comments: 151"
+     "text": "Article URL: https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/ Comments URL: https://news.ycombinator.com/item?id=50355251 Points: 482 # Comments: 151",
+     "summary_th": "บทความของ Simon Willison เล่าว่าโมเดล Qwen 3.8 ขนาด 27B รันบนแล็ปท็อปแล้วอธิบายน้ำหนักของโมเดล (model weights) ได้ มีคะแนน 482 บน Hacker News",
+     "importance": 1,
+     "numbers": [
+      "27B",
+      "482"
+     ],
+     "tags": [
+      "qwen",
+      "local ai"
+     ],
+     "entities": [
+      "Qwen",
+      "Simon Willison",
+      "Hacker News"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "4d9a75738416",
@@ -1895,7 +2041,20 @@
      "link": "https://www.techmeme.com/261103/p44",
      "source": "Techmeme",
      "published": 1793754605,
-     "text": "Isabel O'Brien / CNBC : Following backlash against its education updates, Google says schools can choose to enable Gemini, Gemini Notebook, and Search individually — Google is playing defense on Tuesday after a political backlash to its new policy surrounding use of artificial intelligence in schools."
+     "text": "Isabel O'Brien / CNBC : Following backlash against its education updates, Google says schools can choose to enable Gemini, Gemini Notebook, and Search individually — Google is playing defense on Tuesday after a political backlash to its new policy surrounding use of artificial intelligence in schools.",
+     "summary_th": "หลังถูกวิจารณ์เรื่องนโยบายการศึกษาด้วย AI Google บอกว่าโรงเรียนเลือกเปิดใช้ Gemini, Gemini Notebook และ Search แยกกันได้",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "google",
+      "ai education"
+     ],
+     "entities": [
+      "Google",
+      "Gemini",
+      "CNBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b0a8ea5b6986",
@@ -1903,7 +2062,18 @@
      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
      "source": "BleepingComputer",
      "published": 1793744330,
-     "text": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]"
+     "text": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
+     "summary_th": "ผู้โจมตีแฮ็กโครงสร้างระบบอัปเดตของชุดความปลอดภัยเว็บ cPGuard เพื่อส่งแบ็กดอร์และสคริปต์ขโมยข้อมูล",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "supply chain",
+      "backdoor"
+     ],
+     "entities": [
+      "cPGuard"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d6a6bfa51f78",
@@ -1911,7 +2081,20 @@
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSFh5QlozYjA1NENtSHRsTnd4am9NRHlpUWhJNWt6TkhnUDhiOHhiZmktNUtERHVDYTB2bTZ0TXYzc2xzN1JrdVRfZXk1Yy00SHE4d2JUQUFnRDY0QzU3bUhBanlqYnh4a3VKZl8xaDkxQzhxQ0hiR2d5VDR3VWxsaWtnUFpSYmxpVnhzc3BzalRaUURlM3NTcjI0Qng4Zw?oc=5",
      "source": "1News",
      "published": 1793755182,
-     "text": "Man's role in $2m tax fraud tracked by CCTV, home detention data 1News"
+     "text": "Man's role in $2m tax fraud tracked by CCTV, home detention data 1News",
+     "summary_th": "ชายคนหนึ่งมีบทบาทในการฉ้อโกงภาษี 2 ล้านดอลลาร์ ซึ่งติดตามได้จากกล้องวงจรปิดและข้อมูลการกักบริเวณที่บ้าน",
+     "importance": 1,
+     "numbers": [
+      "$2m"
+     ],
+     "tags": [
+      "tax fraud",
+      "cctv"
+     ],
+     "entities": [
+      "1News"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "59cb8a96ca92",
@@ -1919,7 +2102,18 @@
      "link": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
      "source": "TechCrunch",
      "published": 1793744393,
-     "text": "The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines."
+     "text": "The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.",
+     "summary_th": "ศูนย์ข้อมูลหันไปใช้เครื่องยนต์เจ็ตเก่า เพราะต้องรอไฟฟ้าจากกริดและกังหันใหม่นานหลายปี แม้จะประสิทธิภาพต่ำกว่าและเป็นมิตรต่อสิ่งแวดล้อมน้อยกว่า",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "data center",
+      "power"
+     ],
+     "entities": [
+      "TechCrunch"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2f70d6c369eb",
@@ -1927,7 +2121,19 @@
      "link": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
      "source": "Ars Technica",
      "published": 1793738395,
-     "text": "Russia tries to fix exposed digital infrastructure as data center war backfires."
+     "text": "Russia tries to fix exposed digital infrastructure as data center war backfires.",
+     "summary_th": "หลังการโจมตีด้วยโดรนของยูเครน รัสเซียรีบวางแผนศูนย์ข้อมูลใต้ดิน เพื่อแก้โครงสร้างดิจิทัลที่ถูกเปิดเผย",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ukraine",
+      "data center"
+     ],
+     "entities": [
+      "Russia",
+      "Ukraine"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "46d2f9239253",
@@ -1935,7 +2141,22 @@
      "link": "https://www.theverge.com/games/1026112/the-legend-of-zelda-ocarina-of-time-remake-nintendo-switch-2-news",
      "source": "The Verge",
      "published": 1793754173,
-     "text": "Ahead of the release of Rockstar Games’ Grand Theft Auto VI, Nintendo is launching its own fall juggernaut: a Switch 2 remake of The Legend of Zelda: Ocarina of Time. The remake, which is releasing 28 years after the launch of the original version on Nintendo 64, has a much more realistic visual style and […]"
+     "text": "Ahead of the release of Rockstar Games’ Grand Theft Auto VI, Nintendo is launching its own fall juggernaut: a Switch 2 remake of The Legend of Zelda: Ocarina of Time. The remake, which is releasing 28 years after the launch of the original version on Nintendo 64, has a much more realistic visual style and […]",
+     "summary_th": "Nintendo เปิดตัวรีเมค The Legend of Zelda: Ocarina of Time บน Switch 2 ภาพสมจริงขึ้นมาก ห่างจากเวอร์ชัน Nintendo 64 เดิม 28 ปี",
+     "importance": 1,
+     "numbers": [
+      "28 years"
+     ],
+     "tags": [
+      "nintendo",
+      "gaming"
+     ],
+     "entities": [
+      "Nintendo",
+      "Switch 2",
+      "Grand Theft Auto VI"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "35cf51a18907",
@@ -1943,7 +2164,18 @@
      "link": "https://www.cnbc.com/2026/11/03/crowdstrike-ai-kill-switch-rogue-agents.html",
      "source": "CNBC Tech",
      "published": 1793737641,
-     "text": "CrowdStrike launched an AI kill switch that the company says can stop internal agents, block relaunches and cut enterprise network access."
+     "text": "CrowdStrike launched an AI kill switch that the company says can stop internal agents, block relaunches and cut enterprise network access.",
+     "summary_th": "CrowdStrike เปิดตัว 'สวิตช์ปิด AI' ที่หยุดเอเจนต์ AI ภายในองค์กรที่ทำงานผิดพลาด บล็อกการรันซ้ำ และตัดการเข้าถึงเครือข่ายขององค์กร",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai agents",
+      "security"
+     ],
+     "entities": [
+      "CrowdStrike"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "da9a5824109f",
@@ -1951,7 +2183,21 @@
      "link": "https://github.com/postmanlabs/postman-app-support/issues/14370",
      "source": "Hacker News",
      "published": 1793726557,
-     "text": "Article URL: https://github.com/postmanlabs/postman-app-support/issues/14370 Comments URL: https://news.ycombinator.com/item?id=50354960 Points: 1012 # Comments: 338"
+     "text": "Article URL: https://github.com/postmanlabs/postman-app-support/issues/14370 Comments URL: https://news.ycombinator.com/item?id=50354960 Points: 1012 # Comments: 338",
+     "summary_th": "มีรายงานว่า Postman ติดตั้งปลั๊กอิน AI โดยอัตโนมัติและพยายามแชร์ข้อมูล API ทั้งหมด เรื่องนี้ได้ 1012 คะแนนบน Hacker News",
+     "importance": 2,
+     "numbers": [
+      "1012"
+     ],
+     "tags": [
+      "postman",
+      "privacy"
+     ],
+     "entities": [
+      "Postman",
+      "Hacker News"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "dc7100d115da",
@@ -1959,7 +2205,22 @@
      "link": "https://www.techmeme.com/261103/p43",
      "source": "Techmeme",
      "published": 1793752800,
-     "text": "Stephen Council / Business Insider : Cat Wu, product lead for Claude Code and Cowork, has left Anthropic; Thariq Shihipar, who worked on Claude Code, announced his departure last month — - Cat Wu, who helped scale Claude Code into one of tech's most important products, has left Anthropic. — She joined the startup in 2024 …"
+     "text": "Stephen Council / Business Insider : Cat Wu, product lead for Claude Code and Cowork, has left Anthropic; Thariq Shihipar, who worked on Claude Code, announced his departure last month — - Cat Wu, who helped scale Claude Code into one of tech's most important products, has left Anthropic. — She joined the startup in 2024 …",
+     "summary_th": "Cat Wu หัวหน้าทีมผลิตภัณฑ์ของ Claude Code และ Cowork ลาออกจาก Anthropic ส่วน Thariq Shihipar ซึ่งทำงานกับ Claude Code ประกาศการลาออกเมื่อเดือนก่อน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "anthropic",
+      "talent"
+     ],
+     "entities": [
+      "Anthropic",
+      "Cat Wu",
+      "Thariq Shihipar",
+      "Claude Code",
+      "Cowork"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "27b11b637919",
@@ -1967,7 +2228,19 @@
      "link": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
      "source": "BleepingComputer",
      "published": 1793741324,
-     "text": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]"
+     "text": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
+     "summary_th": "WorkOS ผู้ให้บริการแพลตฟอร์มนักพัฒนาถูกละเมิดข้อมูล ผู้โจมตีใช้ ARTEX AI เข้าถึงข้อมูลติดต่อธุรกิจและสรุปการสื่อสารกับลูกค้า",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "data breach",
+      "ai"
+     ],
+     "entities": [
+      "WorkOS",
+      "ARTEX AI"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6abc5dbe9266",
@@ -1975,7 +2248,22 @@
      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTEZDSWVwN0ZGV1JraS1HLTM0UDhEWkRwOEVBSXVfTnBqN0xoY3M3NjMwTE5QeFJzN0lkM0R6WlNHcFA2UVVPRU94cFNtY3ZOQWczaGcyaHRuY3BaM21TaTNkdmI3b3VfVWdnaEpoVFFKbDNhaUlYQlA4QTYtWTFsZ0hyY0pmUnhWeFoyZWxjcW1ZMjh0blFmLUwwVHRLZEMyT0tDeW52bmF3U0lVVkE5aHBlbEZqXzFQQU82c2xQWnpYMWll?oc=5",
      "source": "Kompas.com",
      "published": 1793755123,
-     "text": "MBG Supervision Tightened: BGN Filled by Former KPK Officials, Thousands of SPPG Sanctioned, and CCTV Installed Kompas.com"
+     "text": "MBG Supervision Tightened: BGN Filled by Former KPK Officials, Thousands of SPPG Sanctioned, and CCTV Installed Kompas.com",
+     "summary_th": "ระบบกำกับดูแลโครงการ MBG ในอินโดนีเซียถูกเข้มงวดขึ้น มีอดีตเจ้าหน้าที่ KPK เข้าไปดูแลหน่วยงาน BGN มี SPPG ถูกลงโทษหลายพันแห่ง และติดตั้ง CCTV",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "indonesia",
+      "surveillance"
+     ],
+     "entities": [
+      "BGN",
+      "KPK",
+      "SPPG",
+      "MBG",
+      "Kompas.com"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d37889a9ebdd",
@@ -1983,7 +2271,22 @@
      "link": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
      "source": "TechCrunch",
      "published": 1793742188,
-     "text": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle."
+     "text": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.",
+     "summary_th": "Ballistic Ventures ของ Ted Schlein กำลังระดมทุน โดยแยกเป็นกองทุนหลักใหม่ 360 ล้านดอลลาร์ และอีก 130 ล้านดอลลาร์สำหรับช่องทางการลงทุนอื่น",
+     "importance": 1,
+     "numbers": [
+      "$360 million",
+      "$130 million"
+     ],
+     "tags": [
+      "vc",
+      "cybersecurity"
+     ],
+     "entities": [
+      "Ballistic Ventures",
+      "Ted Schlein"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e9e1cc36cc97",
@@ -1991,7 +2294,20 @@
      "link": "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/",
      "source": "Ars Technica",
      "published": 1793730627,
-     "text": "Lawsuit calls Brave \"supplier, dealer, and distributor\" of stolen news content."
+     "text": "Lawsuit calls Brave \"supplier, dealer, and distributor\" of stolen news content.",
+     "summary_th": "NYT ยื่นฟ้องให้ Brave ปิดระบบบล็อกเพย์วอลล์และยุติข้อตกลงกับบริษัท AI โดยเรียก Brave ว่าเป็น 'ผู้จัดหา ผู้จำหน่าย และผู้กระจายข่าวที่ถูกขโมย'",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "copyright",
+      "paywall",
+      "ai"
+     ],
+     "entities": [
+      "New York Times",
+      "Brave"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5d47252e76d4",
@@ -1999,7 +2315,18 @@
      "link": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
      "source": "The Verge",
      "published": 1793752930,
-     "text": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the platform. \"One of the most consistent […]"
+     "text": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the platform. \"One of the most consistent […]",
+     "summary_th": "Nexus Mods เว็บไซต์โมดเกมพีซี บังคับให้ผู้อัปโหลดโมดใหม่ต้องระบุว่าใช้ AI ในงานหรือไม่",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai content",
+      "gaming"
+     ],
+     "entities": [
+      "Nexus Mods"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "97d6bd96f6e9",
@@ -2007,7 +2334,20 @@
      "link": "https://www.cnbc.com/2026/11/03/binance-breach-puts-custody-at-center-of-crypto-infrastructure-trade.html",
      "source": "CNBC Tech",
      "published": 1793736817,
-     "text": "Lessons from the $6.3 billion Binance hack could help shape the next phase of the crypto infrastructure trade."
+     "text": "Lessons from the $6.3 billion Binance hack could help shape the next phase of the crypto infrastructure trade.",
+     "summary_th": "บทความว่าด้วยบทเรียนจากการแฮ็ก Binance มูลค่า 6.3 พันล้านดอลลาร์ ที่อาจกำหนดทิศทางการลงทุนโครงสร้างพื้นฐานคริปโตระยะต่อไป",
+     "importance": 2,
+     "numbers": [
+      "$6.3 billion"
+     ],
+     "tags": [
+      "crypto",
+      "custody"
+     ],
+     "entities": [
+      "Binance"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "95dce5da618a",
@@ -2015,7 +2355,22 @@
      "link": "https://neufangled.com/",
      "source": "Hacker News",
      "published": 1793724449,
-     "text": "Article URL: https://neufangled.com/ Comments URL: https://news.ycombinator.com/item?id=50354358 Points: 367 # Comments: 141"
+     "text": "Article URL: https://neufangled.com/ Comments URL: https://news.ycombinator.com/item?id=50354358 Points: 367 # Comments: 141",
+     "summary_th": "หุ่นยนต์คีบแบบโอเพนซอร์สราคา 800 ดอลลาร์ สำหรับงานคีบขนาดห้อง มีคะแนน 367 บน Hacker News",
+     "importance": 1,
+     "numbers": [
+      "$800",
+      "367"
+     ],
+     "tags": [
+      "robotics",
+      "open source"
+     ],
+     "entities": [
+      "Stringman",
+      "Hacker News"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5e4afab1a6f2",
@@ -2023,7 +2378,21 @@
      "link": "https://www.techmeme.com/261103/p42",
      "source": "Techmeme",
      "published": 1793751601,
-     "text": "The Information : How Nvidia uses soft power to influence customers and shape US chip policy; sources: OpenAI took no public stance on China chip exports to avoid angering Nvidia — Last month, OpenAI Senior Research Scientist Noam Brown posted a link in a company Slack channel to a news story …"
+     "text": "The Information : How Nvidia uses soft power to influence customers and shape US chip policy; sources: OpenAI took no public stance on China chip exports to avoid angering Nvidia — Last month, OpenAI Senior Research Scientist Noam Brown posted a link in a company Slack channel to a news story …",
+     "summary_th": "The Information รายงานว่า Nvidia ใช้อิทธิพลกับลูกค้าและมีผลต่อนโยบายชิปของสหรัฐ มีแหล่งข่าวว่า OpenAI ไม่แสดงจุดยืนสาธารณะเรื่องการส่งออกชิปไปจีน เพื่อไม่ให้ Nvidia ไม่พอใจ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "export controls"
+     ],
+     "entities": [
+      "Nvidia",
+      "OpenAI",
+      "Noam Brown",
+      "The Information"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "317e8557e095",
@@ -2031,7 +2400,21 @@
      "link": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
      "source": "BleepingComputer",
      "published": 1793736350,
-     "text": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure and steal about $6.34 billion in digital assets. [...]"
+     "text": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure and steal about $6.34 billion in digital assets. [...]",
+     "summary_th": "Binance บอกว่าแฮกเกอร์เกาหลีเหนือใช้การสัมภาษณ์งานปลอมหลอกพนักงานให้ติดตั้งมัลแวร์ จนขโมยสินทรัพย์ดิจิทัลได้ประมาณ 6.34 พันล้านดอลลาร์",
+     "importance": 3,
+     "numbers": [
+      "$6.34 billion"
+     ],
+     "tags": [
+      "crypto hack",
+      "north korea"
+     ],
+     "entities": [
+      "Binance",
+      "North Korea"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ac2c96cb1358",
@@ -2039,7 +2422,21 @@
      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOEZIcnRLZ1lNZ3ZIYXhNVzQxU0Z1ZzZhVHk3RVcxRGxRcTg0aDlETVV0ZkdrcnJKQjlYM0g4MEI5SHNaeHRpREcteHI3N2hPTFNuUXZ4aGZqRkxpZC0xUUJPMTI0ZUdYem5QV2ZkQmZQemdNeXlWTjFfZFNBeTlKWkI5WktTak0?oc=5",
      "source": "Urban Acres",
      "published": 1793753590,
-     "text": "Nashik Kumbh CCTV Cameras: 1,500 to Go Live After Diwali Urban Acres"
+     "text": "Nashik Kumbh CCTV Cameras: 1,500 to Go Live After Diwali Urban Acres",
+     "summary_th": "กล้องวงจรปิด 1,500 ตัวสำหรับงานกุมภเมลาที่ Nashik จะเปิดใช้หลังเทศกาลดีวาลี",
+     "importance": 1,
+     "numbers": [
+      "1,500"
+     ],
+     "tags": [
+      "cctv",
+      "india"
+     ],
+     "entities": [
+      "Nashik",
+      "Urban Acres"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "dd34e5bf1c5e",
@@ -2047,7 +2444,18 @@
      "link": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
      "source": "TechCrunch",
      "published": 1793739955,
-     "text": "Palantir's U.S. commercial revenue surpassed U.S. government revenue for the first time ever."
+     "text": "Palantir's U.S. commercial revenue surpassed U.S. government revenue for the first time ever.",
+     "summary_th": "รายได้เชิงพาณิชย์ของ Palantir ในสหรัฐฯ แซงรายได้จากภาครัฐเป็นครั้งแรก",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "palantir",
+      "ai software"
+     ],
+     "entities": [
+      "Palantir"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -2061,7 +2469,20 @@
      "link": "https://www.statnews.com/2026/11/03/becker-muscular-dystrophy-servier-edgewise-sevasemten-fail/",
      "source": "STAT News",
      "published": 1793739200,
-     "text": "Servier reports a surprise setback for a drug being tested for a form of muscular dystrophy that lacks treatment."
+     "text": "Servier reports a surprise setback for a drug being tested for a form of muscular dystrophy that lacks treatment.",
+     "summary_th": "Servier รายงานว่ายาที่มูลค่า 1.55 พันล้านดอลลาร์สำหรับโรคกล้ามเนื้อเสื่อม ล้มเหลวในการทดสอบหลักครั้งแรก",
+     "importance": 2,
+     "numbers": [
+      "$1.55 billion"
+     ],
+     "tags": [
+      "muscular dystrophy",
+      "clinical trial"
+     ],
+     "entities": [
+      "Servier"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ac1bac90d7e7",
@@ -2069,7 +2490,19 @@
      "link": "https://medicalxpress.com/news/2026-11-major-medical-profiles-adults-autism.html",
      "source": "Medical Xpress",
      "published": 1793748611,
-     "text": "The medical profiles of adults diagnosed with autism have changed since 2010, finds a study of medical records in the U.K. and Sweden, published in the online journal BMJ Mental Health."
+     "text": "The medical profiles of adults diagnosed with autism have changed since 2010, finds a study of medical records in the U.K. and Sweden, published in the online journal BMJ Mental Health.",
+     "summary_th": "การศึกษาเวชระเบียนในอังกฤษและสวีเดนพบว่าโปรไฟล์ทางการแพทย์ของผู้ใหญ่ที่ได้รับการวินิจฉัยออทิสติกเปลี่ยนไปตั้งแต่ปี 2010",
+     "importance": 1,
+     "numbers": [
+      "2010"
+     ],
+     "tags": [
+      "autism"
+     ],
+     "entities": [
+      "BMJ Mental Health"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6ced7ba848ca",
@@ -2077,7 +2510,19 @@
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSVhsRFU5RllrMTlBRk5QSnVRU2Q3VF9xM080NkRQSEtENUQwUS0wcHlxTjlrT2FneEtydl8wNHJYSVVxRXFTdUxGY2Z2QlNla25VNUVkT3Q3NWR6QWZYZFJPSkRFVS1TLTYyd1ctbE5rQUNMREhQbThfelFYbHNhY1BpYVpjQQ?oc=5",
      "source": "Quantisnow",
      "published": 1793747618,
-     "text": "FDA Approval for IMPAVIDO issued to ETON Quantisnow"
+     "text": "FDA Approval for IMPAVIDO issued to ETON Quantisnow",
+     "summary_th": "FDA อนุมัติ IMPAVIDO ให้แก่บริษัท ETON",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "fda",
+      "approval"
+     ],
+     "entities": [
+      "ETON",
+      "FDA"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "0c61befab89b",
@@ -2085,7 +2530,18 @@
      "link": "https://www.statnews.com/2026/11/03/mass-general-brigham-layoffs-ceo-letter-staff-anxiety/",
      "source": "STAT News",
      "published": 1793738002,
-     "text": "A cryptic email sent to Mass General Brigham employees by the health system's CEO is stirring staff anxiety less than two weeks after a round of layoffs."
+     "text": "A cryptic email sent to Mass General Brigham employees by the health system's CEO is stirring staff anxiety less than two weeks after a round of layoffs.",
+     "summary_th": "CEO ของ Mass General Brigham ส่งอีเมลคลุมเครือถึงพนักงาน หลังมีการเลิกจ้างรอบล่าสุดไม่ถึงสองสัปดาห์ ทำให้พนักงานกังวล",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "layoffs",
+      "hospital"
+     ],
+     "entities": [
+      "Mass General Brigham"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "eac07fced3cc",
@@ -2093,7 +2549,22 @@
      "link": "https://medicalxpress.com/news/2026-11-large-unexplained-variation-emergency-hospital.html",
      "source": "Medical Xpress",
      "published": 1793748605,
-     "text": "Neither local case mix, primary care provision nor geography explains the large differences in hospital admission rates, ranging from less than 10% to more than 40%, from emergency departments across England, finds research published online in Emergency Medicine Journal."
+     "text": "Neither local case mix, primary care provision nor geography explains the large differences in hospital admission rates, ranging from less than 10% to more than 40%, from emergency departments across England, finds research published online in Emergency Medicine Journal.",
+     "summary_th": "งานวิจัยใน Emergency Medicine Journal พบว่าอัตราการรับผู้ป่วยเข้าโรงพยาบาลจากห้องฉุกเฉินในอังกฤษต่างกันมาก ตั้งแต่ต่ำกว่า 10% ถึงมากกว่า 40% และปัจจัยที่ศึกษาไม่อธิบายความต่างนี้",
+     "importance": 1,
+     "numbers": [
+      "10%",
+      "40%"
+     ],
+     "tags": [
+      "emergency care",
+      "nhs"
+     ],
+     "entities": [
+      "England",
+      "Emergency Medicine Journal"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "4a5c4179c7ca",
@@ -2101,7 +2572,21 @@
      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBmVkhXN1ZvLWtiUHJaTENQTlJFdWZobC0wbTRTTlZGUUV4N2xWVjNtSk1KZnJOckZRcy16bDRfU3JDemtmWV9BeENyRDNCME5WUHRvalRwTQ?oc=5",
      "source": "헤럴드경제",
      "published": 1793746558,
-     "text": "National Growth Fund biotech support tops W800b with blood product approval for GC Biopharma 헤럴드경제"
+     "text": "National Growth Fund biotech support tops W800b with blood product approval for GC Biopharma 헤럴드경제",
+     "summary_th": "กองทุน National Growth Fund สนับสนุนไบโอเทคเกิน W800b ขณะที่ GC Biopharma ได้รับอนุมัติผลิตภัณฑ์จากเลือด",
+     "importance": 1,
+     "numbers": [
+      "W800b"
+     ],
+     "tags": [
+      "biotech",
+      "korea"
+     ],
+     "entities": [
+      "GC Biopharma",
+      "National Growth Fund"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "90bf0d61bb78",
@@ -2109,7 +2594,20 @@
      "link": "https://www.statnews.com/2026/11/03/electoral-map-reveals-red-state-blue-state-mortality-gap/",
      "source": "STAT News",
      "published": 1793698200,
-     "text": "Leading drivers of mortality look different according to political geography, experts write."
+     "text": "Leading drivers of mortality look different according to political geography, experts write.",
+     "summary_th": "บทความความเห็นชี้ว่าปัจจัยหลักของอัตราการเสียชีวิตต่างกันตามภูมิศาสตร์การเมือง โดยอิงแผนที่การเลือกตั้งปี 2024",
+     "importance": 1,
+     "numbers": [
+      "2024"
+     ],
+     "tags": [
+      "mortality",
+      "politics"
+     ],
+     "entities": [
+      "STAT News"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a11500f99702",
@@ -2117,7 +2615,19 @@
      "link": "https://medicalxpress.com/news/2026-11-gut-virus-hijacks-mucus-production.html",
      "source": "Medical Xpress",
      "published": 1793748009,
-     "text": "Among the various viruses that sicken your gut, some at least leave behind a tiny path of cellular destruction as they replicate, implicating the guilty pathogen. Both rotavirus and norovirus invade the small intestine, multiply there and can break through the organ's outer lining as one way of proliferating in the body."
+     "text": "Among the various viruses that sicken your gut, some at least leave behind a tiny path of cellular destruction as they replicate, implicating the guilty pathogen. Both rotavirus and norovirus invade the small intestine, multiply there and can break through the organ's outer lining as one way of proliferating in the body.",
+     "summary_th": "ไวรัสในลำไส้ เช่น โรต้าไวรัสและนอโรไวรัส บุกลำไส้เล็กและเพิ่มจำนวนในนั้น และอาจทะลุชั้นผิวของอวัยวะได้",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gut virus",
+      "norovirus"
+     ],
+     "entities": [
+      "rotavirus",
+      "norovirus"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e4ca6fc0f2c6",
@@ -2125,7 +2635,19 @@
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQUJ4eF9NZWpZUTJSMkZraTRmaTRISFh4eUdDdUk5SmZIWkhkNldpbk1lMUhJSExnekRtY01tcWR0eWgzMi05Z3NrS2cya0FiRTY1Q0p6VUpRY3dIYlJTRlZZc0NvZnhZV01TYjItUVFKYm5hS0pKaWoxVlpBN01TYk9iMXpUX1RyYVQ3enR4SjNQX1FuelRrQ3ZB?oc=5",
      "source": "Quantisnow",
      "published": 1793746403,
-     "text": "FDA Approval for BENLYSTA issued to GLAXOSMITHKLINE LLC Quantisnow"
+     "text": "FDA Approval for BENLYSTA issued to GLAXOSMITHKLINE LLC Quantisnow",
+     "summary_th": "FDA อนุมัติ BENLYSTA ให้แก่ GlaxoSmithKline LLC",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "fda",
+      "approval"
+     ],
+     "entities": [
+      "GlaxoSmithKline",
+      "FDA"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f4e275afb632",
@@ -2133,7 +2655,18 @@
      "link": "https://www.statnews.com/2026/11/03/traumatic-eye-injuries-ophthalmologist-meditation-psychology/",
      "source": "STAT News",
      "published": 1793698200,
-     "text": "“The inner work of meditation and self-inquiry can support the outer work of patient care,” writes a physician."
+     "text": "“The inner work of meditation and self-inquiry can support the outer work of patient care,” writes a physician.",
+     "summary_th": "แพทย์คนหนึ่งเขียนความเห็นว่าการทำสมาธิช่วยให้ตนดูแลผู้ป่วยได้ดีขึ้น",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "meditation",
+      "opinion"
+     ],
+     "entities": [
+      "STAT News"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "9028fa51975d",
@@ -2141,7 +2674,18 @@
      "link": "https://medicalxpress.com/news/2026-11-hidden-ancestral-links-motor-neuron.html",
      "source": "Medical Xpress",
      "published": 1793746809,
-     "text": "Researchers at the Macquarie University Brain Institute and Clinic have helped accelerate the search for disease-causing genes by building new genetic 'families.' The team uncovered hundreds of previously unrecognized family connections by analyzing the DNA of people with frontotemporal dementia (FTD) and motor neuron disease (MND)."
+     "text": "Researchers at the Macquarie University Brain Institute and Clinic have helped accelerate the search for disease-causing genes by building new genetic 'families.' The team uncovered hundreds of previously unrecognized family connections by analyzing the DNA of people with frontotemporal dementia (FTD) and motor neuron disease (MND).",
+     "summary_th": "นักวิจัยที่ Macquarie University Brain Institute สร้างกลุ่มครอบครัวทางพันธุกรรมใหม่หลายร้อยกลุ่มจาก DNA ของผู้ป่วยสมองเสื่อมหน้าผาก (FTD) และโรคเซลล์ประสาทสั่งการ (MND) เพื่อเร่งหายีนก่อโรค",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "genetics",
+      "dementia"
+     ],
+     "entities": [
+      "Macquarie University Brain Institute"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6c4abd29f6c7",
@@ -2149,7 +2693,19 @@
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa19Ga3ZOVm9OYzJvcE1jeDFRSzJwdHA2NVA2RUNVVWdRUktteDI4LVlBSVpES19UbE50VlRkLW5uY0Y2eGI3YTdxbHpqM1ZMa1lZQ1MtZDcxd29FN200RVBhUXN2Y21zRktlSHlQMnF6dXdGa09UbVROYVZ5T0gxNHdUZVRwek1zaE4xMlFXVmtyS0NaYVBlY3hVUFJVU3lHcWMzQ0N2aGFDdnIzbVZTd3NXNEw0dXdNYXdkYVBJM3FqQQ?oc=5",
      "source": "Dealroom",
      "published": 1793744026,
-     "text": "Liminatus Pharma raises $650K in private placement, a small sum even for preclinical biotech Dealroom"
+     "text": "Liminatus Pharma raises $650K in private placement, a small sum even for preclinical biotech Dealroom",
+     "summary_th": "Liminatus Pharma ระดมทุนได้ $650K ผ่าน private placement ซึ่งน้อยแม้สำหรับบริษัทไบโอเทคระยะก่อนคลินิก",
+     "importance": 1,
+     "numbers": [
+      "$650K"
+     ],
+     "tags": [
+      "biotech funding"
+     ],
+     "entities": [
+      "Liminatus Pharma"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f77608437000",
@@ -2157,7 +2713,18 @@
      "link": "https://www.statnews.com/2026/11/03/three-parent-ivf-safety-ethics-questions-mitochondrial-replacement-technology/",
      "source": "STAT News",
      "published": 1793698200,
-     "text": "Scientists and ethicists are rethinking the potential risks and benefits of a technology to prevent babies from inheriting rare mitochondrial diseases."
+     "text": "Scientists and ethicists are rethinking the potential risks and benefits of a technology to prevent babies from inheriting rare mitochondrial diseases.",
+     "summary_th": "งานศึกษาใหม่ทำให้เกิดข้อสงสัยต่อเทคโนโลยี 'IVF สามพ่อแม่' ที่ตั้งใจป้องกันโรคไมโตคอนเดรียที่หายาก นักวิทยาศาสตร์และนักจริยธรรมกำลังประเมินความเสี่ยงและประโยชน์ใหม่",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ivf",
+      "mitochondrial disease"
+     ],
+     "entities": [
+      "STAT News"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "55b61df1abcd",
@@ -2165,7 +2732,19 @@
      "link": "https://medicalxpress.com/news/2026-11-recurrent-visual-field-glaucoma.html",
      "source": "Medical Xpress",
      "published": 1793745604,
-     "text": "Recurrent visual field progression after a first guided progression analysis (GPA) progression event is common, according to a study published online Oct. 22 in JAMA Ophthalmology."
+     "text": "Recurrent visual field progression after a first guided progression analysis (GPA) progression event is common, according to a study published online Oct. 22 in JAMA Ophthalmology.",
+     "summary_th": "การศึกษาใน JAMA Ophthalmology พบว่าหลังมีการก้าวหน้าของลานสายตาครั้งแรก การก้าวหน้าซ้ำพบได้บ่อย ประมาณ 1 ใน 4 ของผู้ป่วยต้อหิน",
+     "importance": 1,
+     "numbers": [
+      "1 in 4"
+     ],
+     "tags": [
+      "glaucoma"
+     ],
+     "entities": [
+      "JAMA Ophthalmology"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f09845c22d00",
@@ -2173,7 +2752,21 @@
      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNWEVObG82TEJRS2NNZ3V4MWxlZXp1aFpTMncwRVluakhwS1lVS2FNc1JEak1NZzBtc0VoZERQRFZzWWt1Z2M4X1VHNEtrV1NBTTdxWGVIVHR0ckRXdWoyTjhPcDJXcTZ0ai1nQUgwZDBhakdicUUtQ3JwVHZkSW5zcC01NUNBb0dIb0V6UUs3OXdOdjFzVU5aZ05JSnNRSmxDYU1DNHFUaFNMdE9jMmZaZE9PZnpvaFBaUUdSMGtDNlVTSGhvOEJTVk00WGlOdzFET3l1WHlVVWdEb2lSeUVlaUdWZl9xNndXcDdjZW44S0p1VmlaX2xTdkVJc25BbEhwYWtGLVE2V0hMQUE3?oc=5",
      "source": "Medtech Insight",
      "published": 1793743939,
-     "text": "TCT 2026: Abbott Expects H1 2027 FDA Approval Of SonicForce IVL After Successful TECTONIC Trial Medtech Insight"
+     "text": "TCT 2026: Abbott Expects H1 2027 FDA Approval Of SonicForce IVL After Successful TECTONIC Trial Medtech Insight",
+     "summary_th": "Abbott คาดว่าจะได้รับ FDA อนุมัติ SonicForce IVL ในช่วงครึ่งแรกของปี 2027 หลังการทดลอง TECTONIC ประสบความสำเร็จ",
+     "importance": 2,
+     "numbers": [
+      "H1 2027"
+     ],
+     "tags": [
+      "medtech",
+      "ivl"
+     ],
+     "entities": [
+      "Abbott",
+      "SonicForce"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "78555f1253d5",
@@ -2181,7 +2774,17 @@
      "link": "https://www.statnews.com/2026/11/02/bird-flu-washington-state-resident-dies-infected-cattle-exposure/",
      "source": "STAT News",
      "published": 1793652280,
-     "text": "A person in Washington state has died from complications of the bird flu, the first such U.S. death in a year."
+     "text": "A person in Washington state has died from complications of the bird flu, the first such U.S. death in a year.",
+     "summary_th": "มีรายงานว่าผู้อยู่อาศัยในรัฐวอชิงตันคนหนึ่งเสียชีวิตจากไข้หวัดนก หลังสัมผัสวัวที่ติดเชื้อ เป็นการเสียชีวิตแรกในสหรัฐฯ ในรอบหนึ่งปี",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "bird flu"
+     ],
+     "entities": [
+      "Washington state"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1e95c55d449b",
@@ -2189,7 +2792,22 @@
      "link": "https://medicalxpress.com/news/2026-11-health-analysis-reveals-shift-invasive.html",
      "source": "Medical Xpress",
      "published": 1793744404,
-     "text": "New research simultaneously published in the Journal of the Society for Cardiovascular Angiography & Interventions and presented at TCT 2026 found that the annual number of transcatheter aortic valve replacement (TAVR) procedures among patients younger than 70 increased nearly ninefold within one health system, rising from 15 in 2014 to 134 in 2024. Surgical aortic valve replacement (SAVR) remained the predominant approach across the age groups studied."
+     "text": "New research simultaneously published in the Journal of the Society for Cardiovascular Angiography & Interventions and presented at TCT 2026 found that the annual number of transcatheter aortic valve replacement (TAVR) procedures among patients younger than 70 increased nearly ninefold within one health system, rising from 15 in 2014 to 134 in 2024. Surgical aortic valve replacement (SAVR) remained the predominant approach across the age groups studied.",
+     "summary_th": "การวิเคราะห์ของระบบสุขภาพแห่งหนึ่งพบว่า การเปลี่ยนลิ้นหัวใจแบบไม่ผ่าตัด (TAVR) ในผู้ป่วยอายุต่ำกว่า 70 ปี เพิ่มจาก 15 ครั้งในปี 2014 เป็น 134 ครั้งในปี 2024",
+     "importance": 1,
+     "numbers": [
+      "15",
+      "134",
+      "70"
+     ],
+     "tags": [
+      "heart valve",
+      "tavr"
+     ],
+     "entities": [
+      "TCT 2026"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "4e04b2b1cc3f",
@@ -2197,7 +2815,19 @@
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZDctV3d2VVkxQmRTSWgwWXhNV3ZuajY1ai1Hb3RlYUZISFpLVVg1Y1R6R3hvWVpOb1RhdWdfU3dGaTJTS1JxejFQUXRnZXZVeWh1aFloUUFFZzVBQnBBMUVrdnRNYUdYT1paZGRPWXAzdHN0UHVtT0RCQllaaG5pZmZQaGZIenlwbE5ma3lDUk1jSzFzcURBS3YzbmNOckFKU2syYjZtWjBqTTByUE03YUlQOU1oTzVfLUVMZ084UzUxeUwtV3BvLVR6MTFma04xN251MUx1TU8tNlpxenVoZl9waV91SEtfT3l2dQ?oc=5",
      "source": "Stocktwits",
      "published": 1793743650,
-     "text": "CAPR Stock Rises As Clinical Trial Investigators Write To FDA Urging Approval For Deramiocel Stocktwits"
+     "text": "CAPR Stock Rises As Clinical Trial Investigators Write To FDA Urging Approval For Deramiocel Stocktwits",
+     "summary_th": "หุ้น CAPR ขึ้น หลังนักวิจัยในการทดลองทางคลินิกเขียนจดหมายถึง FDA ขอให้อนุมัติ deramiocel",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "deramiocel",
+      "fda"
+     ],
+     "entities": [
+      "CAPR",
+      "FDA"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "cd9db117c312",
@@ -2205,7 +2835,18 @@
      "link": "https://medicalxpress.com/news/2026-11-ai-tailor-treatment-childhood-brain.html",
      "source": "Medical Xpress",
      "published": 1793742006,
-     "text": "Choosing the right treatment for a child with a malignant brain tumor requires a careful balance. Therapy must be strong enough to keep the cancer from coming back, but it can also cause lasting side effects that affect learning, development and quality of life. Now, an international team led by researchers at Dana-Farber Cancer Institute has developed an artificial intelligence model that may help doctors make those decisions with greater precision."
+     "text": "Choosing the right treatment for a child with a malignant brain tumor requires a careful balance. Therapy must be strong enough to keep the cancer from coming back, but it can also cause lasting side effects that affect learning, development and quality of life. Now, an international team led by researchers at Dana-Farber Cancer Institute has developed an artificial intelligence model that may help doctors make those decisions with greater precision.",
+     "summary_th": "ทีมนานาชาติที่นำโดยนักวิจัยของ Dana-Farber Cancer Institute พัฒนาโมเดล AI ที่อาจช่วยเลือกการรักษาเนื้องอกสมองร้ายในเด็ก ให้สมดุลระหว่างการกันการกลับมาของโรคกับผลข้างเคียงระยะยาว",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "pediatric oncology"
+     ],
+     "entities": [
+      "Dana-Farber Cancer Institute"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "dec8590dfe94",
@@ -2213,7 +2854,18 @@
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObEs3OXUzMGlPVTdVZENjdDhNUllmVjREMWdZTWVzcHBFWWtmam1FNzg5RHI5LU1OR3Z0YTYyZm5hVXlPdjMxZ3ZJREFzQWE1MkltQ2t6UlZZNXQtSTAxTHMxZGliMGNnNzJDTmMwR1Fma1l1ak1wS0NpNGNhM2V2b2lmUEhaU1FOR3Zoek1DTnBzTE5DbE9IeVJ0TV9KZTlmajlCeFItUFUtbnVnVk1uU2lWdExEc041U3FZZjhmTTTSAdQBQVVfeXFMUDRXRmhGRDZsYVFCM0VyRTRTajJNajhZZ2dTNkhkWWZ5VHAtNjhmLV82RG5sMWQ1T3NSQS0zSExxRnlKSUdGSkkwaGgxRnY1RGtad3luQVhsUjBxMnBCZFVFRXRfa3M4czFGQm5NUnM5cnlzVURRU0tyRVYwZUY4M05JUXY2VHVHSjBlWlNBTGNMTldMZUhCNU1vSFJ3QWd2V2tYZGFxNXRobzJOZ2owc1VfY1FxRjdheUt0UWpPMGhqV0lxVFVoeFIxSEFLRUptTlFuSTk?oc=5",
      "source": "WEAU",
      "published": 1793742861,
-     "text": "Voters to decide Ohio governor’s race after Vivek Ramaswamy ran ad featuring Amy Acton’s mother WEAU"
+     "text": "Voters to decide Ohio governor’s race after Vivek Ramaswamy ran ad featuring Amy Acton’s mother WEAU",
+     "summary_th": "ผู้ลงคะแนนในรัฐโอไฮโอจะตัดสินการแข่งขันผู้ว่าการรัฐ หลัง Vivek Ramaswamy ฉายโฆษณาที่มีแม่ของ Amy Acton",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "ohio election"
+     ],
+     "entities": [
+      "Vivek Ramaswamy",
+      "Amy Acton"
+     ],
+     "model": "claude/routine"
     }
    ]
   }
