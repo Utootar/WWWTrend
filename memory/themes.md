@@ -17,7 +17,7 @@ Claude เขียนไฟล์นี้จากข่าวที่เก�
 
 ## ธีมที่กำลังเดิน
 
-## ไฟฟ้าจาก AI: ไฟฟ้า นิวเคลียร์ ระบบไฟ (เริ่มเจอ 2026-10-06 · ล่าสุด 2026-11-03)
+## ไฟฟ้าจาก AI: ไฟฟ้า นิวเคลียร์ ระบบไฟ (เริ่มเจอ 2026-10-06 · ล่าสุด 2026-11-05)
 ทำไม: data center และ AI ใช้ไฟมากขึ้น ผู้ผลิตและผู้รับเหมาระบบไฟได้งาน
 หลักฐานจากข่าว: นิวเคลียร์พุ่ง · MYR/Powell/Comfort Systems พุ่ง · GE Vernova ราคาวิ่ง · X-energy (ดู analysis/2026-10/2026-10-07-2day.md)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -42,10 +42,11 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-10-27: ราคาธีมสหรัฐในไฟล์ยังเป็นของ 23 ต.ค. (ไม่อัปเดต) Anthropic ยื่น IPO เปิดว่า data center พึ่งก๊าซมากขึ้น [The Verge](https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk) · GPSC +0.98%
 อัปเดต 2026-11-01: ร่วงตามเทค 28→30 ต.ค. FIX -8.4% POWL -7.0% GEV -2.3% VST -3.0% CEG +1.7% เหตุ: [Intel พัง กังวลงบ AI](https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html) · [S&P ลบมุมมอง Meta](https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html) ดู analysis/2026-11/2026-11-01-2day.md
 อัปเดต 2026-11-01 (weekly): ทั้งสัปดาห์ MYRG +11.1% FIX +6.2% GEV +5.3% CEG +3.5% POWL +3.5% NEE +2.0% VST -1.3% GULF -1.2% GPSC -3.4% เด้งแรงต้นสัปดาห์ (FIX ถึง 1,346) แล้วคืนวันศุกร์ หลักฐานใหม่: [GEV ซื้อ Trench อุปกรณ์ไฟแรงสูง](https://oilprice.com/Latest-Energy-News/World-News/GE-Vernova-Expands-in-High-Voltage-Grid-Gear-With-Trench-Deal.html) · ความเสี่ยงใหม่: [Arizona สองพรรคต้าน data center](https://www.techmeme.com/261031/p7)
+อัปเดต 2026-11-05: เด้ง 4 พ.ย. GEV +6.5% FIX +7.1% POWL +6.1% MYRG +4.8% VST +3.7% CEG +2.4% NEE -0.8% ความเสี่ยงใหม่: ผู้ลงคะแนนปฏิเสธข้อเสนอ data center เกือบทั้งหมด [CNBC](https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html) · [Texas อาจไม่ใช่ศูนย์กลางอีก](https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/) ฝั่งอุปสงค์ยังแรง [AMD](https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc)
 ความเสี่ยงของธีม: ราคาอาจนำข่าวไปแล้ว ยีลด์สูง ผูกกับความเชื่อมั่น AI แรงต้าน data center จากทั้งสองพรรค
 อัปเดต 2026-11-03: 2 วันที่ผ่านมา CEG -0.8%/-2.0% VST -1.8%/-2.7% FIX -7.1%/-2.6% GEV -3.4%/+0.5% หลักฐานใหม่: OpenAI Grid Protectors ลดไฟ 1,000 MW ยามไฟตึง [Techmeme](https://www.techmeme.com/261102/p34) · Oracle ขอระดมทุน $20B [CNBC](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html)
 
-## LNG/ก๊าซนอกอ่าวเปอร์เซีย (เริ่มเจอ 2026-10-07 · ล่าสุด 2026-11-03)
+## LNG/ก๊าซนอกอ่าวเปอร์เซีย (เริ่มเจอ 2026-10-07 · ล่าสุด 2026-11-05)
 ทำไม: ฮอร์มุซไม่ปลอดภัย Qatar ขยายเหตุสุดวิสัย ผู้ส่งออก LNG/ก๊าซนอกอ่าวได้ออเดอร์
 หลักฐานจากข่าว: [5 หุ้นก๊าซได้จากฮอร์มุซ (Cheniere)](https://oilprice.com/Energy/Natural-Gas/5-Natural-Gas-Stocks-Profiting-From-the-Strait-of-Hormuz-Standoff.html) · [Kinder Morgan ส่งก๊าซไปเม็กซิโกได้อีก](https://oilprice.com/Latest-Energy-News/World-News/Kinder-Morgan-Restores-US-Mexico-Gas-Flows-After-Pipeline-Outage.html) · [Alaska LNG กลับมา](https://oilprice.com/Energy/Natural-Gas/Who-Is-Going-to-Pay-for-Alaska-LNG.html)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -67,6 +68,8 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-11-01 (weekly): ทั้งสัปดาห์ LNG +10.6% PTTEP +1.2% PTT +1.2% KMI -1.6% Brent +0.8% (แกว่ง 109.9–117.6) แรงสุดของธีมทั้งหมด หลักฐาน: [แก๊สยุโรป >€101](https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Tops-101-Euros-for-First-Time-Since-2022.html) · [ก๊าซสหรัฐผลิตสถิติ](https://oilprice.com/Energy/Natural-Gas/US-Natural-Gas-Production-Hits-New-Records-as-Demand-Surges.html)
 ความเสี่ยงของธีม: หยุดยิง/ฮอร์มุซเปิด ราคาก๊าซร่วงเร็ว PTT อาจถูกคุมราคาในประเทศ
 อัปเดต 2026-11-03: Brent -15.5% ใน 2 วันจากความหวังเจรจาอิหร่าน LNG -2.3% PTTEP -3.4% [CNBC](https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html)
+
+อัปเดต 2026-11-05: Brent 93.96 (-9.3%) แต่หลักฐานฝั่งก๊าซยังแรง [แอฟริกา LNG +175%](https://oilprice.com/Energy/Natural-Gas/Africas-LNG-Exports-Set-to-Soar-175-as-Buyers-Flee-Hormuz.html) · [กาตาร์ซื้อ LNG สหรัฐมากสุด](https://oilprice.com/Energy/Natural-Gas/Qatar-Becomes-Largest-Buyer-of-US-LNG-Amid-Hormuz-Crisis.html) LNG -0.16% KMI +0.49% PTTEP -1.96% PTT -1.23%
 
 ## ชิปหน่วยความจำ (เริ่มเจอ 2026-10-08 · ล่าสุด 2026-11-03)
 ทำไม: AI ดูดหน่วยความจำ RAM ขาดและแพง ผู้ผลิตกำไรสถิติ
