@@ -1,0 +1,1853 @@
+{
+ "date": "2026-11-06",
+ "collected_at": "2026-11-06T08:35:07+07:00",
+ "models": [
+  "gemini/gemini-flash-lite-latest"
+ ],
+ "summary_failed": 72,
+ "prices": [
+  {
+   "symbol": "^GSPC",
+   "label": "S&P 500",
+   "close": 7353.73,
+   "prev_close": 7688.6201,
+   "change_pct": -4.36,
+   "as_of": "2026-11-05",
+   "currency": "USD"
+  },
+  {
+   "symbol": "^IXIC",
+   "label": "Nasdaq",
+   "close": 24314.998,
+   "prev_close": 25736.5098,
+   "change_pct": -5.52,
+   "as_of": "2026-11-05",
+   "currency": "USD"
+  },
+  {
+   "symbol": "^DJI",
+   "label": "Dow Jones",
+   "close": 51523.0586,
+   "prev_close": 53356.1211,
+   "change_pct": -3.44,
+   "as_of": "2026-11-05",
+   "currency": "USD"
+  },
+  {
+   "symbol": "^VIX",
+   "label": "VIX (ดัชนีความกลัว)",
+   "close": 28.18,
+   "prev_close": 16.61,
+   "change_pct": 69.66,
+   "as_of": "2026-11-05",
+   "currency": "USD"
+  },
+  {
+   "symbol": "^TNX",
+   "label": "บอนด์สหรัฐ 10 ปี (%)",
+   "close": 4.837,
+   "prev_close": 4.894,
+   "change_pct": -1.16,
+   "as_of": "2026-11-05",
+   "currency": "USD"
+  },
+  {
+   "symbol": "DX-Y.NYB",
+   "label": "ดัชนีดอลลาร์",
+   "close": 101.594,
+   "prev_close": 101.51,
+   "change_pct": 0.08,
+   "as_of": "2026-11-06",
+   "currency": "USD"
+  },
+  {
+   "symbol": "CL=F",
+   "label": "น้ำมัน WTI",
+   "close": 91.18,
+   "prev_close": 88.12,
+   "change_pct": 3.47,
+   "as_of": "2026-11-06",
+   "currency": "USD"
+  },
+  {
+   "symbol": "BZ=F",
+   "label": "น้ำมัน Brent",
+   "close": 99.18,
+   "prev_close": 94.62,
+   "change_pct": 4.82,
+   "as_of": "2026-11-06",
+   "currency": "USD"
+  },
+  {
+   "symbol": "GC=F",
+   "label": "ทองคำ (ดอลลาร์/ออนซ์)",
+   "close": 4074.8999,
+   "prev_close": 4073.0,
+   "change_pct": 0.05,
+   "as_of": "2026-11-06",
+   "currency": "USD"
+  },
+  {
+   "symbol": "THB=X",
+   "label": "บาทต่อดอลลาร์",
+   "close": 33.46,
+   "prev_close": 33.6,
+   "change_pct": -0.42,
+   "as_of": "2026-11-06",
+   "currency": "THB"
+  },
+  {
+   "symbol": "SMH",
+   "label": "กองชิป SMH",
+   "close": 504.27,
+   "prev_close": 518.52,
+   "change_pct": -2.75,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "XLV",
+   "label": "กองสุขภาพ XLV",
+   "close": 189.66,
+   "prev_close": 184.02,
+   "change_pct": 3.06,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  }
+ ],
+ "theme_prices": [
+  {
+   "symbol": "GEV",
+   "label": "GE Vernova · ไฟฟ้าจาก AI",
+   "close": 832.83,
+   "prev_close": 918.2,
+   "change_pct": -9.3,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "POWL",
+   "label": "Powell Industries · ไฟฟ้าจาก AI",
+   "close": 143.1,
+   "prev_close": 163.34,
+   "change_pct": -12.39,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "MYRG",
+   "label": "MYR Group · ไฟฟ้าจาก AI",
+   "close": 263.89,
+   "prev_close": 291.59,
+   "change_pct": -9.5,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "FIX",
+   "label": "Comfort Systems · ไฟฟ้าจาก AI",
+   "close": 1091.3101,
+   "prev_close": 1285.13,
+   "change_pct": -15.08,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "CEG",
+   "label": "Constellation · ไฟฟ้าจาก AI",
+   "close": 245.72,
+   "prev_close": 263.4,
+   "change_pct": -6.71,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "VST",
+   "label": "Vistra · ไฟฟ้าจาก AI",
+   "close": 120.29,
+   "prev_close": 139.59,
+   "change_pct": -13.83,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "NEE",
+   "label": "NextEra · ไฟฟ้าจาก AI",
+   "close": 88.45,
+   "prev_close": 84.33,
+   "change_pct": 4.89,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "GULF.BK",
+   "label": "Gulf Energy · ไฟฟ้าจาก AI",
+   "close": 62.5,
+   "prev_close": 61.0,
+   "change_pct": 2.46,
+   "as_of": "2026-11-05",
+   "currency": "THB"
+  },
+  {
+   "symbol": "GPSC.BK",
+   "label": "GPSC · ไฟฟ้าจาก AI",
+   "close": 53.0,
+   "prev_close": 49.5,
+   "change_pct": 7.07,
+   "as_of": "2026-11-05",
+   "currency": "THB"
+  },
+  {
+   "symbol": "LNG",
+   "label": "Cheniere · LNG นอกอ่าวเปอร์เซีย",
+   "close": 292.02,
+   "prev_close": 311.17,
+   "change_pct": -6.15,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "KMI",
+   "label": "Kinder Morgan · LNG นอกอ่าวเปอร์เซีย",
+   "close": 31.52,
+   "prev_close": 32.87,
+   "change_pct": -4.11,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "PTTEP.BK",
+   "label": "PTTEP · LNG นอกอ่าวเปอร์เซีย",
+   "close": 142.0,
+   "prev_close": 150.0,
+   "change_pct": -5.33,
+   "as_of": "2026-11-05",
+   "currency": "THB"
+  },
+  {
+   "symbol": "PTT.BK",
+   "label": "PTT · LNG นอกอ่าวเปอร์เซีย",
+   "close": 39.0,
+   "prev_close": 40.0,
+   "change_pct": -2.5,
+   "as_of": "2026-11-05",
+   "currency": "THB"
+  },
+  {
+   "symbol": "005930.KS",
+   "label": "Samsung · ชิปหน่วยความจำ",
+   "close": 186300.0,
+   "prev_close": 201500.0,
+   "change_pct": -7.54,
+   "as_of": "2026-11-06",
+   "currency": "KRW"
+  },
+  {
+   "symbol": "MU",
+   "label": "Micron · ชิปหน่วยความจำ",
+   "close": 795.23,
+   "prev_close": 855.1,
+   "change_pct": -7.0,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "000660.KS",
+   "label": "SK Hynix · ชิปหน่วยความจำ",
+   "close": 1131000.0,
+   "prev_close": 1264000.0,
+   "change_pct": -10.52,
+   "as_of": "2026-11-06",
+   "currency": "KRW"
+  },
+  {
+   "symbol": "HANA.BK",
+   "label": "Hana Micro · ชิปหน่วยความจำ",
+   "close": 41.25,
+   "prev_close": 44.25,
+   "change_pct": -6.78,
+   "as_of": "2026-11-05",
+   "currency": "THB"
+  },
+  {
+   "symbol": "SNDK",
+   "label": "Sandisk · ชิปหน่วยความจำ",
+   "close": 1037.4,
+   "prev_close": 1126.52,
+   "change_pct": -7.91,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "DK",
+   "label": "Delek US · โรงกลั่น/ดีเซล",
+   "close": 65.46,
+   "prev_close": 70.85,
+   "change_pct": -7.61,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "VLO",
+   "label": "Valero · โรงกลั่น/ดีเซล",
+   "close": 365.34,
+   "prev_close": 387.65,
+   "change_pct": -5.76,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "MPC",
+   "label": "Marathon Petroleum · โรงกลั่น/ดีเซล",
+   "close": 392.68,
+   "prev_close": 427.34,
+   "change_pct": -8.11,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "TOP.BK",
+   "label": "Thai Oil · โรงกลั่น/ดีเซล",
+   "close": 56.0,
+   "prev_close": 60.5,
+   "change_pct": -7.44,
+   "as_of": "2026-11-05",
+   "currency": "THB"
+  },
+  {
+   "symbol": "XOM",
+   "label": "ExxonMobil · โรงกลั่น/ดีเซล",
+   "close": 169.27,
+   "prev_close": 177.46,
+   "change_pct": -4.62,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "CVX",
+   "label": "Chevron · โรงกลั่น/ดีเซล",
+   "close": 216.96,
+   "prev_close": 225.27,
+   "change_pct": -3.69,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "IONQ",
+   "label": "IonQ · ไซเบอร์ยุค AI",
+   "close": 29.54,
+   "prev_close": 29.99,
+   "change_pct": -1.5,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "CRWD",
+   "label": "CrowdStrike · ไซเบอร์ยุค AI",
+   "close": 241.0,
+   "prev_close": 244.68,
+   "change_pct": -1.5,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "PANW",
+   "label": "Palo Alto Networks · ไซเบอร์ยุค AI",
+   "close": 348.04,
+   "prev_close": 350.2,
+   "change_pct": -0.62,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "BE8.BK",
+   "label": "Beryl 8 Plus · ไซเบอร์ยุค AI",
+   "close": 4.56,
+   "prev_close": 4.34,
+   "change_pct": 5.07,
+   "as_of": "2026-11-05",
+   "currency": "THB"
+  },
+  {
+   "symbol": "AMGN",
+   "label": "Amgen · สุขภาพ/ยาผลทดลองเด่น",
+   "close": 478.48,
+   "prev_close": 461.26,
+   "change_pct": 3.73,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "MRK",
+   "label": "Merck · สุขภาพ/ยาผลทดลองเด่น",
+   "close": 150.36,
+   "prev_close": 144.67,
+   "change_pct": 3.93,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "MRNA",
+   "label": "Moderna · สุขภาพ/ยาผลทดลองเด่น",
+   "close": 258.38,
+   "prev_close": 228.44,
+   "change_pct": 13.11,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "NVO",
+   "label": "Novo Nordisk · สุขภาพ/ยาผลทดลองเด่น",
+   "close": 42.18,
+   "prev_close": 40.19,
+   "change_pct": 4.95,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "LLY",
+   "label": "Eli Lilly · สุขภาพ/ยาผลทดลองเด่น",
+   "close": 1417.99,
+   "prev_close": 1409.38,
+   "change_pct": 0.61,
+   "as_of": "2026-11-04",
+   "currency": "USD"
+  },
+  {
+   "symbol": "BDMS.BK",
+   "label": "Bangkok Dusit Medical · สุขภาพ/ยาผลทดลองเด่น",
+   "close": 20.1,
+   "prev_close": 19.8,
+   "change_pct": 1.52,
+   "as_of": "2026-11-05",
+   "currency": "THB"
+  }
+ ],
+ "categories": [
+  {
+   "key": "us_stocks",
+   "label": "หุ้นสหรัฐ",
+   "items": [
+    {
+     "id": "6e38a863eca7",
+     "title": "The October jobs report is out Friday. Here's everything to expect",
+     "link": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
+     "source": "CNBC Markets",
+     "published": 1793914372,
+     "text": "The Bureau of Labor Statistics releases the October nonfarm payrolls report Friday at 8:30 a.m. ET.",
+     "summary_th": "สำนักงานสถิติแรงงานสหรัฐจะรายงานตัวเลขการจ้างงานนอกภาคเกษตรเดือนตุลาคมในวันศุกร์",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "jobs report",
+      "economy",
+      "bls"
+     ],
+     "entities": [
+      "Bureau of Labor Statistics"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "97a4eb0c7608",
+     "title": "IRS announces new federal income tax brackets for 2027",
+     "link": "https://www.cnbc.com/2026/11/05/2027-federal-tax-brackets.html",
+     "source": "CNBC Top News",
+     "published": 1793928068,
+     "text": "The IRS has announced higher federal income tax brackets and standard deductions for 2027. Here's what taxpayers need to know.",
+     "summary_th": "IRS ประกาศปรับเพิ่มขั้นบันไดภาษีเงินได้และลดหย่อนมาตรฐานสำหรับปี 2027",
+     "importance": 2,
+     "numbers": [
+      "2027"
+     ],
+     "tags": [
+      "irs",
+      "taxes"
+     ],
+     "entities": [
+      "IRS"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "f81f19829ddb",
+     "title": "Here’s what’s driving Iren’s stock higher after a brutal selloff",
+     "link": "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0",
+     "source": "MarketWatch",
+     "published": 1793927220,
+     "text": "Iren announced a new cloud-computing deal and noted that much of its backlog is tied to “investment-grade counterparties.”",
+     "summary_th": "หุ้น Iren ปรับตัวสูงขึ้นหลังประกาศดีลคลาวด์คอมพิวติ้งและแบ็กล็อก",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "stocks",
+      "cloud computing"
+     ],
+     "entities": [
+      "Iren"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "bb21969101a8",
+     "title": "The Nasdaq Composite Just Shattered Its Single-Session Point-Loss Record: 3 Reasons These Elevator-Down Moves May Be Just Beginning",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWVhDTFdKWUp4RUlIRi1CNlo1NjJneVJZR3l2bDJtUUxEdEVRWUVTMlhLTU1tMWZxMkhwYkY2bWpTYXNnRXpyNnRxc3V2dHpZb0psYVdBT2xzN0gwNVBhZE8yWUpESU53NTZlOWVsNkxKVUxLdlVWaE1IWEw1ei1IZWU0M0JZbldqNEFsMW55c2hMeTVLa0NOVGNoRjBocS1BbmZBeXdR?oc=5",
+     "source": "Yahoo Finance",
+     "published": 1793928375,
+     "text": "The Nasdaq Composite Just Shattered Its Single-Session Point-Loss Record: 3 Reasons These Elevator-Down Moves May Be Just Beginning Yahoo Finance",
+     "summary_th": "ดัชนี Nasdaq Composite ทำลายสถิติการร่วงลงเป็นจุดในเซสชันเดียว",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "nasdaq",
+      "stock market"
+     ],
+     "entities": [
+      "Nasdaq Composite"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "5303a7848ad1",
+     "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
+     "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
+     "source": "CNBC Markets",
+     "published": 1793894507,
+     "text": "One policymaker voted to raise the bank's key interest rate to 4.25%.",
+     "summary_th": "ธนาคารกลางอังกฤษปรับขึ้นอัตราดอกเบี้ยนโยบายสู่ระดับ 4.25% และเตือนว่าเงินเฟ้อจะเข้าใกล้ 5%",
+     "importance": 3,
+     "numbers": [
+      "4.25%",
+      "5%"
+     ],
+     "tags": [
+      "bank of england",
+      "interest rates",
+      "inflation"
+     ],
+     "entities": [
+      "Bank of England"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "4fbe7747124b",
+     "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
+     "link": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
+     "source": "CNBC Top News",
+     "published": 1793927495,
+     "text": "Asian technology stocks tumbled Friday, tracking a sharp sell-off on Wall Street overnight that sent the tech-heavy Nasdaq Composite into correction territory.",
+     "summary_th": "หุ้นกลุ่มเทคโนโลยีในเอเชียร่วงลงตามตลาดวอลล์สตรีท ส่งผลให้ดัชนี Nasdaq เข้าสู่เขตปรับฐาน",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "nasdaq",
+      "asian stocks",
+      "tech"
+     ],
+     "entities": [
+      "SK Hynix",
+      "Samsung",
+      "Softbank",
+      "TSMC",
+      "Nasdaq Composite"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "a94fa4c54778",
+     "title": "Cloudflare’s stock mounts a big comeback after fastest sales surge in nearly 4 years",
+     "link": "https://www.marketwatch.com/story/cloudflares-stock-mounts-a-big-comeback-after-fastest-sales-surge-in-nearly-4-years-d80d994d",
+     "source": "MarketWatch",
+     "published": 1793927160,
+     "text": "Demand for automated AI protection is on the rise — and manifesting in Cloudflare’s earnings results.",
+     "summary_th": "หุ้น Cloudflare ฟื้นตัวขึ้นหลังยอดขายพุ่งเร็วที่สุดในรอบเกือบ 4 ปีจากความต้องการระบบป้องกัน AI",
+     "importance": 2,
+     "numbers": [
+      "4"
+     ],
+     "tags": [
+      "cloudflare",
+      "earnings",
+      "ai"
+     ],
+     "entities": [
+      "Cloudflare"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "d8e84bb22464",
+     "title": "Dow Futures Fall, Techs Jump After Market Sell-Off. What To Do.",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONko0NmFjRU1udUJFdmdCRVBzbFpMVVFwWlR3cWY4aThIV1NrVTlKbzFjTHlNNzBwLU1tOTV1UktuSUtVMHQzc0h2UGMzdXZZQ0FwN1ZELVR0REhSSFFfcXVPbW8xN21CQXgyZENhVkZxeFh5dmpsRWVJTjJPdjlFLWR5NjU4eG9uUjFDcEZEcjUzbmFzcGpkbW9CTkVwN3hjVWZqTWdMUnZaUnFkOFJ5ZTNvWHljVjZCSDgwV2JoRXR5aE9ROFU3TXoyRVlmTkhCZ0E?oc=5",
+     "source": "Investor's Business Daily",
+     "published": 1793928000,
+     "text": "Dow Futures Fall, Techs Jump After Market Sell-Off. What To Do. Investor's Business Daily",
+     "summary_th": "ฟิวเจอร์สดาวโจนส์ร่วงลง ขณะที่หุ้นกลุ่มเทคโนโลยีดีดตัวขึ้นหลังตลาดเทขาย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "dow jones",
+      "futures",
+      "tech"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "4d9c17167d6b",
+     "title": "Here's what the Democratic election rout could mean for the U.S. economy",
+     "link": "https://www.cnbc.com/2026/11/05/emocratic-midterm-economy.html",
+     "source": "CNBC Markets",
+     "published": 1793889212,
+     "text": "The biggest forces shaping the economy aren't going to change just because the party in power did.",
+     "summary_th": "แรงขับเคลื่อนเศรษฐกิจสหรัฐฯ ไม่ได้เปลี่ยนไปตามพรรคการเมืองที่ครองอำนาจ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "economy",
+      "politics"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "7a8949accdd0",
+     "title": "IRS unveils higher capital gains tax brackets for 2027",
+     "link": "https://www.cnbc.com/2026/11/05/capital-gains-tax-2027-federal.html",
+     "source": "CNBC Top News",
+     "published": 1793926810,
+     "text": "The IRS has announced higher long-term capital gains brackets for 2027. Here's what investors need to know.",
+     "summary_th": "IRS เปิดเผยขั้นบันไดภาษีกำไรจากการขายทุนระยะยาวที่สูงขึ้นสำหรับปี 2027",
+     "importance": 2,
+     "numbers": [
+      "2027"
+     ],
+     "tags": [
+      "irs",
+      "capital gains",
+      "taxes"
+     ],
+     "entities": [
+      "IRS"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "8151a7094bca",
+     "title": "Here are the 2027 capital-gains tax rates for each income level",
+     "link": "https://www.marketwatch.com/story/here-are-the-2027-capital-gains-tax-rates-for-each-income-level-166fc306",
+     "source": "MarketWatch",
+     "published": 1793922480,
+     "text": "How much will you pay in capital-gains taxes next year? The IRS just released this crucial information.",
+     "summary_th": "IRS เผยแพรู้อัตราภาษีกำไรจากการขายทุนสำหรับปี 2027 ในแต่ละระดับรายได้",
+     "importance": 2,
+     "numbers": [
+      "2027"
+     ],
+     "tags": [
+      "irs",
+      "capital gains",
+      "taxes"
+     ],
+     "entities": [
+      "IRS"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "85fc59524739",
+     "title": "Trump blames Democrats for stock market plunge after sweeping midterm victories",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQjlDVmJrZVN4NldmOHV1aGtFVGJSUGhGeERZNE1ZX0cyMUNiUk83V29FbEJ5UW0zS2FfemxQX3I5bXdMQnVlTDU3czhHa0dQOUNsVTA0NjdjTWtYWkNtUHpwcENXRXpLUFNDX2VONTdTTEZNcGFMX0hSbno2T1VySUI3U1JJVFpiUVhZblpNeE1jdmJvTW9ld2JSaTRvb2JGWjRtWllkLXdCcHhBVUZ2UlFB?oc=5",
+     "source": "Fox Business",
+     "published": 1793927340,
+     "text": "Trump blames Democrats for stock market plunge after sweeping midterm victories Fox Business",
+     "summary_th": "ทรัมป์กล่าวโทษพรรคเดโมแครตหลังตลาดหุ้นดิ่งลง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "trump",
+      "stock market",
+      "politics"
+     ],
+     "entities": [
+      "Trump"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "14084c57cea9",
+     "title": "Costco is taking aim at its May record high — how it got here and where's it going",
+     "link": "https://www.cnbc.com/investingclub/2026/11/05/costco-is-taking-aim-at-its-may-record-high-how-it-got-here-and-wheres-going.html",
+     "source": "CNBC Top News",
+     "published": 1793922984,
+     "text": "Costco is finally back.",
+     "summary_th": "Costco กลับมาทำราคาเข้าใกล้ระดับสูงสุดในเดือนพฤษภาคม",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "costco",
+      "stocks"
+     ],
+     "entities": [
+      "Costco"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "b612a0d505cd",
+     "title": "Tech stocks log worst day since 2020 as carnage comes to the AI trade",
+     "link": "https://www.marketwatch.com/story/tech-stocks-log-worst-day-since-2020-as-carnage-comes-to-the-ai-trade-56109845",
+     "source": "MarketWatch",
+     "published": 1793918880,
+     "text": "The S&P 500 lost an estimated $2.9 trillion in market capitalization, the largest one-day loss of market value on record.",
+     "summary_th": "หุ้นเทคโนโลยีและหุ้น AI บันทึกวันแย่ที่สุดนับตั้งแต่ปี 2020 โดย S&P 500 สูญเสียมูลค่าตลาดราว 2.9 ล้านล้านดอลลาร์",
+     "importance": 3,
+     "numbers": [
+      "2020",
+      "$2.9 trillion"
+     ],
+     "tags": [
+      "stock market",
+      "ai trade",
+      "s&p 500"
+     ],
+     "entities": [
+      "S&P 500"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "bfa9d10ab3aa",
+     "title": "Trump blames 'Dumocrats' for stock market slide following midterm results",
+     "link": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxPTXNvRHF0eWhSN2FWNE1KQ05zOGRKOEZvcldLejJHWndIZUl3RE1mcm1qUXNZdmhNMWxRRDhlVV9nSTJWRGxVS3J1ZHJnWFgwUTRVQmdObWRzenFrR2xUWG5NY2VVUkFhNE5tMUdkVmwwbVRMTzJmR0p1SFVIU0NHV2FOUmFtZWxhVjcxeUVCQ3p5YzVSUm9OWTZVeUN2SVJ3UDJISjRUWmQ2VXJ0Sy0teE80LTRoZm5HVTJWUjFkSFhJNUowWkVGdmlzMTRsSXdFMzlFYkE4elVZWTFOdzhoVUhDSE1SOWVTYktYWXZRaFEyNzRqYjJxMnZYX0NDNFZvWURLejEwYlgzOE1nMWdTX2pWS3hhOUFmelpUaG9KZXFoQ3hvcldySXZCMDBaaUZHYVBwWVVJdlJpZnNiNVVXWHVZQ01JWi1POVljRl9ndzV0VTI4MVFtaEt4TXBrSTd6blB2THZobDFGTEVLQUE?oc=5",
+     "source": "KATU",
+     "published": 1793927146,
+     "text": "Trump blames 'Dumocrats' for stock market slide following midterm results KATU",
+     "summary_th": "ทรัมป์กล่าวโทษพรรคเดโมแครตหลังตลาดหุ้นร่วงลง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "trump",
+      "stock market",
+      "politics"
+     ],
+     "entities": [
+      "Trump"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "636451bb4bc5",
+     "title": "Mississippi Senate election: Democrat Scott Colom narrowly leads Republican Cindy Hyde-Smith",
+     "link": "https://www.cnbc.com/2026/11/05/mississippi-senate-election-scott-colom-hyde-smith.html",
+     "source": "CNBC Top News",
+     "published": 1793922000,
+     "text": "The Mississippi Senate election could be determined by the mail-in ballots received after Election Day, whose legality was upheld by the Supreme Court.",
+     "summary_th": "การเลือกตั้งวุฒิสภาในมิสซิสซิปปี้ระหว่าง Scott Colom และ Cindy Hyde-Smith มีคะแนนสูสี",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "election",
+      "senate"
+     ],
+     "entities": [
+      "Scott Colom",
+      "Cindy Hyde-Smith",
+      "Supreme Court"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "ebdc03bb6d1a",
+     "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
+     "link": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293",
+     "source": "MarketWatch",
+     "published": 1793918400,
+     "text": "The tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.",
+     "summary_th": "MarketWatch รายงานการประกาศขั้นบันไดภาษีปี 2027 รวมถึงการหักลดหย่อนมาตรฐาน",
+     "importance": 2,
+     "numbers": [
+      "2027"
+     ],
+     "tags": [
+      "taxes",
+      "inflation"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "87debd1d37b0",
+     "title": "S&P 500, Nasdaq, Dow Futures Dip As Investors Step Back From AI And Tech With Nasdaq In Correction Territory — NVDA, AAPL, UBER, SOXX In Focus",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPakszZDlYY0Z5ZXBoRUFISEVHWDQ1dFlyck05bUNJSzkyY3BGejk2QWZKZGdpeTJRVW9ZdVlxS01GZmpzUHhRTVZVN3k3RzY3R3FBekdITGxxOE41Nm5VRWN6RlhrdTI3Q3RsNmlzTk9na2QxZG5nTWQ2aDN4OWNtbFEzYUJJWng1TmVsUkg4OTJoejQ?oc=5",
+     "source": "Yahoo Finance",
+     "published": 1793926800,
+     "text": "S&P 500, Nasdaq, Dow Futures Dip As Investors Step Back From AI And Tech With Nasdaq In Correction Territory — NVDA, AAPL, UBER, SOXX In Focus Yahoo Finance",
+     "summary_th": "ฟิวเจอร์ส S&P 500, Nasdaq และ Dow ปรับตัวลดลงจากแรงขายหุ้น AI และเทคโนโลยี โดย Nasdaq อยู่ในเขตปรับฐาน",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "s&p 500",
+      "nasdaq",
+      "dow",
+      "ai"
+     ],
+     "entities": [
+      "NVDA",
+      "AAPL",
+      "UBER",
+      "SOXX",
+      "S&P 500",
+      "Nasdaq"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "2572ccceab97",
+     "title": "Magnificent 7 loses $1 trillion. The most eye-popping stats from Thursday's tech stock plunge",
+     "link": "https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html",
+     "source": "CNBC Top News",
+     "published": 1793921972,
+     "text": "Here are the most breathtaking statistics from the major stock sell-off on Thursday.",
+     "summary_th": "กลุ่ม Magnificent 7 สูญเสียมูลค่าตลาดรวม 1 ล้านล้านดอลลาร์จากการเทขายหุ้นเทคโนโลยี",
+     "importance": 3,
+     "numbers": [
+      "1",
+      "7"
+     ],
+     "tags": [
+      "magnificent 7",
+      "stocks",
+      "tech"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "6d668459fe16",
+     "title": "How much in Roth conversions can you do in 2027 with the new tax brackets?",
+     "link": "https://www.marketwatch.com/story/how-much-roth-conversion-can-you-do-in-2027-with-the-new-tax-brackets-a2f940c8",
+     "source": "MarketWatch",
+     "published": 1793917440,
+     "text": "The math should actually start with “if” — not “how much.”",
+     "summary_th": "MarketWatch เสนอแนะการคำนวณการแปลง Roth สำหรับปี 2027 ตามขั้นบันไดภาษีใหม่",
+     "importance": 1,
+     "numbers": [
+      "2027"
+     ],
+     "tags": [
+      "taxes",
+      "roth conversion"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "b3113a23b600",
+     "title": "Stock market tumbles following midterm elections as future is looked ahead",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSmR1WDVLX0hBX1NuNF9NTEZNZlNzZHo5aDBrMkxFdjFBa3VCR0FKUjJTRjdwM0R0TzJ1aHhGQnVrc0FYRE51MUpWVGtNZVhnV05jdEhvQ3ZHXzN4Z3lEYS1nVmMwTlYwR1p2SjIwOWNDVUNtTkNIN2RaOVN2U2RoQ3N1NmRpT2VISy1VeldXZzJWeDBETHhwZGNmSjBuUXlGTFpmTGhoY2VuRHhLMXFjSTR4bkJwNmZXRVJCSnJDVQ?oc=5",
+     "source": "cbs19.tv",
+     "published": 1793926555,
+     "text": "Stock market tumbles following midterm elections as future is looked ahead cbs19.tv",
+     "summary_th": "ตลาดหุ้นร่วงลงหลังการเลือกตั้งกลางเทอม",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "stock market",
+      "election"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "ad230e77f9a7",
+     "title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
+     "link": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
+     "source": "CNBC Top News",
+     "published": 1793921102,
+     "text": "Following a dramatic plunge in its stock price, IREN said some revenue is being delayed from 2026 until early next year.",
+     "summary_th": "IREN เผยรายได้ 4 พันล้านดอลลาร์ต่อปีถูกเลื่อนออกไปตามคำขอของลูกค้า",
+     "importance": 3,
+     "numbers": [
+      "$4 billion",
+      "2026"
+     ],
+     "tags": [
+      "iren",
+      "revenue"
+     ],
+     "entities": [
+      "IREN",
+      "Neocloud"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "1a6741000f03",
+     "title": "Buy the dip or wait it out? Young investors react as retail stock selling hits one of its highest levels since COVID crash.",
+     "link": "https://www.marketwatch.com/story/buy-the-dip-or-wait-it-out-young-investors-react-as-retail-stock-selling-hits-one-of-its-highest-levels-since-covid-crash-610d8087",
+     "source": "MarketWatch",
+     "published": 1793915040,
+     "text": "Some see another buying opportunity. Others fear the worst isn’t over. A market rout is testing the instincts of a generation raised on quick rebounds.",
+     "summary_th": "นักลงทุนรายย่อยเทขายหุ้นพุ่งสูงเกือบเท่าช่วงโควิด ขณะที่ตลาดหุ้นเผชิญภาวะดิ่งลง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "retail investors",
+      "stock selling"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "7e068c640c62",
+     "title": "Stocks plunge as election outcome and AI worries crush tech shares",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOTNfLWhKbG1YQW94UmZzUGpiYlNJUlNhZWstcGdKNE9mVnRlWDhTcE1FSW9iZkpwTDI3S1R2QWNoTFhndEN4bFpwMXQwQ1paZDlNbXNxSlBRNVh5MlVKOVNKMHowZVNiN00xX2FfcHVyeFBIVzhaVF96azRNWE5VZ1VndXItWmdwelE?oc=5",
+     "source": "NBC News",
+     "published": 1793926247,
+     "text": "Stocks plunge as election outcome and AI worries crush tech shares NBC News",
+     "summary_th": "หุ้นร่วงลงอย่างหนักจากผลการเลือกตั้งและความกังวลเรื่อง AI ที่กดดันหุ้นกลุ่มเทคโนโลยี",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "stocks",
+      "tech shares",
+      "ai"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "5f318cc375a8",
+     "title": "Jim Cramer says the AI sell-off isn't over, but it isn't another dot-com crash",
+     "link": "https://www.cnbc.com/2026/11/05/jim-cramer-ai-stocks-sell-off.html",
+     "source": "CNBC Top News",
+     "published": 1793920671,
+     "text": "Cramer warned that the sell-off in AI stocks likely has further to run.",
+     "summary_th": "Jim Cramer ระบุว่าการเทขายหุ้น AI ยังไม่สิ้นสุด แต่ไม่ใช่การล่มสลายแบบดอทคอม",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "jim cramer",
+      "ai stocks"
+     ],
+     "entities": [
+      "Jim Cramer"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    }
+   ]
+  },
+  {
+   "key": "macro",
+   "label": "เศรษฐกิจโลกและนโยบาย",
+   "items": [
+    {
+     "id": "0224349908e0",
+     "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+     "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
+     "source": "Federal Reserve",
+     "published": 1793894400,
+     "text": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+     "summary_th": "บอร์ดธนาคารกลางสหรัฐฯ ประกาศยุติการดำเนินการบังคับใช้กฎระเบียบกับ Allegiant United Holdings, Nano Financial Holdings และ Nano Banc",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "federal reserve",
+      "banking"
+     ],
+     "entities": [
+      "Allegiant United Holdings, LLC",
+      "Nano Financial Holdings, Inc.",
+      "Nano Banc",
+      "Federal Reserve Board"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "c0beb4b56091",
+     "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+     "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "published": 1793928412,
+     "text": "Markets have been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms.",
+     "summary_th": "หุ้นกลุ่มเทคโนโลยีร่วงลงท่ามกลางความกังวลเรื่องการชะลอตัวของ AI และการตรวจสอบการสร้างศูนย์ข้อมูลที่เข้มงวดขึ้นหลังการเลือกตั้งกลางเทอมของสหรัฐฯ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "tech stocks",
+      "ai",
+      "us midterms"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "c9f02ed29f7f",
+     "title": "Democratic socialist defeats incumbent Karen Bass in Los Angeles mayor's race",
+     "link": "https://www.bbc.co.uk/news/articles/c6e3xxwk3k11o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "published": 1793928483,
+     "text": "The results mean America's two most populous cities - New York and Los Angeles - will be led by democratic socialists.",
+     "summary_th": "นักสังคมนิยมประชาธิปไตยเอาชนะ Karen Bass ผู้ดำรงตำแหน่งเดิมในการเลือกตั้งนายกเทศมนตรีเมืองลอสแอนเจลิส",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "politics",
+      "election",
+      "los angeles"
+     ],
+     "entities": [
+      "Karen Bass",
+      "New York",
+      "Los Angeles"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "4271c6b376df",
+     "title": "Live Q&A: How Trump’s Midterms Defeat Affects Asia, From Markets Rout to Tariffs",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOTlNZzdPcThZUFFkRDE4NkZTMUEzTTd6SEI2N0I5LUZpTEFDU1pqS3NuYUpsa1lBdVNZenp0bmVjQ3VnTWp4Ymsxb2ZWTS1lYmpldW9LaXZWMElReVA3ZGNBYXR5LXRjTWlEOUhxMnlPTURyQi03ZjJXTjFka01sMHptZGRhSTYwVU01V2lsbVNBQ0dsYUo3a2laNUVEMUFzWDlCUnN0SEF6d2dSTVhYaG5GdFBZVmF3M1EyZVU5MUx2UVBsWHdJ?oc=5",
+     "source": "Bloomberg.com",
+     "published": 1793928401,
+     "text": "Live Q&A: How Trump’s Midterms Defeat Affects Asia, From Markets Rout to Tariffs Bloomberg.com",
+     "summary_th": "การวิเคราะห์ผลกระทบจากการพ่ายแพ้ในการเลือกตั้งกลางเทอมของทรัมป์ต่อตลาดและภาษีศุลกากรในเอเชีย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "trump",
+      "tariffs",
+      "asia markets"
+     ],
+     "entities": [
+      "Trump",
+      "Asia"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "ec3e64150f1c",
+     "title": "The engine parts that 'fight the laws of the universe'",
+     "link": "https://www.bbc.co.uk/news/articles/cwe9lmp1pyyxo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "published": 1793923566,
+     "text": "Investment has surged into the making of jet turbine blades - an extremely difficult component to make.",
+     "summary_th": "มีการลงทุนเพิ่มขึ้นในการผลิตใบพัดกังหันไอพ่นซึ่งเป็นชิ้นส่วนที่ผลิตได้ยาก",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "jet engines",
+      "manufacturing",
+      "investment"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "d81699aabec8",
+     "title": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+     "link": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "published": 1793923377,
+     "text": "Pope Leo, who had part of a lung removed last month, will visit Uruguay, Argentina and Peru.",
+     "summary_th": "โป๊ปเลโอเริ่มการเดินทางเยือนละตินอเมริกา ได้แก่ อุรุกวัย อาร์เจนตินา และเปรู หลังผ่าตัดมะเร็งปอด",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "pope",
+      "latin america",
+      "travel"
+     ],
+     "entities": [
+      "Pope Leo",
+      "Uruguay",
+      "Argentina",
+      "Peru"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "6844f06d0eda",
+     "title": "\"300% Tariffs\" Just Two Days After Election Defeat... Adding Fuel to Concerns Over Runaway Policies?",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBiUHVybjRWdk9zcHZSNTZPb3d6NGZqM1JvX2lfUFVJWVdpdHY2R0UtcUs1aHk3Yl9KRjZrRmw0ZXRqQmRXVERzak9EeWFKck9jTW5IM2ZXaHI5bmNneHRCeGZkYnZsYUhDc1pQeXZB?oc=5",
+     "source": "news.sbs.co.kr",
+     "published": 1793926548,
+     "text": "\"300% Tariffs\" Just Two Days After Election Defeat... Adding Fuel to Concerns Over Runaway Policies? news.sbs.co.kr",
+     "summary_th": "ข้อเสนอภาษีศุลกากร 300% สองวันหลังความพ่ายแพ้ในการเลือกตั้ง เพิ่มความกังวลเรื่องนโยบาย",
+     "importance": 2,
+     "numbers": [
+      "300%"
+     ],
+     "tags": [
+      "tariffs",
+      "election",
+      "policy"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "8a113b7172fb",
+     "title": "'I was asked if I was a crier': Your worst job interviews revealed",
+     "link": "https://www.bbc.co.uk/news/articles/c3j4751pqnj8o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "published": 1793923372,
+     "text": "Bad job interviews can be horrible to experience in the moment, but there is a lot they can teach us about the world of work",
+     "summary_th": "บทความเกี่ยวกับการสัมภาษณ์งานแย่ๆ และบทเรียนจากโลกการทำงาน",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "job interviews",
+      "work"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "927ac1fd8263",
+     "title": "Delhi's toxic winter air is back - is the Indian capital prepared for pollution?",
+     "link": "https://www.bbc.co.uk/news/articles/cm78p0n09q3xo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "published": 1793920613,
+     "text": "The Delhi government has announced a four-month winter action plan, but experts say that won't be enough.",
+     "summary_th": "รัฐบาลเดลีประกาศแผนปฏิบัติการฤดูหนาวสี่เดือนเพื่อรับมือปัญหามลพิษทางอากาศ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "pollution",
+      "delhi",
+      "air quality"
+     ],
+     "entities": [
+      "Delhi"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "5881b1f14b0d",
+     "title": "Outspoken critic of Trump's tariffs on India, Ro Khanna wins sixth term in Democratic House",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQlZsTTR2SVV0YnBFenlLampmZEU5c2lqY2VwYnFLR0tVZlBZUEJyUVppekxkX2w4cFkxeDVWUUxob2MzZUpxcjctbnZ0a3p5UVRaWks3X21TSlNWN3JXVGRBc2swcUVXMGU1c1FUUVlUdFowRy1SRDVoZTY1ZUE1OXVZSDdTWDQyVGNrdExnZWlHVlhwc0h1M25nTlJGaml0UGM5NFJ4YnVaRGxtbGswamF0d2s3M2Vxb3gxdUpvdWxOYnA4VmhaYjhtZGlWZw?oc=5",
+     "source": "New India Abroad",
+     "published": 1793926102,
+     "text": "Outspoken critic of Trump's tariffs on India, Ro Khanna wins sixth term in Democratic House New India Abroad",
+     "summary_th": "Ro Khanna สมาชิกสภาผู้แทนราษฎรจากพรรคเดโมแครตและผู้คัดค้านภาษีศุลกากรของทรัมป์ ชนะการเลือกตั้งสมัยที่หก",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "politics",
+      "tariffs",
+      "democrats"
+     ],
+     "entities": [
+      "Ro Khanna",
+      "Trump"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "473319152568",
+     "title": "Firms told to publish salaries in job adverts ahead of new law",
+     "link": "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "published": 1793917922,
+     "text": "The goverment argues the change will help jobseekers and could help to prevent pay discrimination.",
+     "summary_th": "บริษัทต่างๆ ถูกกำหนดให้ต้องเผยแพร่เงินเดือนในประกาศรับสมัครงานก่อนที่จะมีกฎหมายใหม่บังคับใช้",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "salary transparency",
+      "job adverts",
+      "law"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "a49f25ad0c4a",
+     "title": "California governor commutes sentences for state's 548 death row inmates",
+     "link": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "published": 1793920173,
+     "text": "California has historically had the largest population of people on death row in the US.",
+     "summary_th": "ผู้ว่าการรัฐแคลิฟอร์เนียลดโทษให้นักโทษประหารชีวิต 548 คนในรัฐ",
+     "importance": 1,
+     "numbers": [
+      "548"
+     ],
+     "tags": [
+      "death row",
+      "california",
+      "governor"
+     ],
+     "entities": [
+      "California"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "20aea0fb09fb",
+     "title": "El Niño could push U.S. inflation higher in 2027, Federal Reserve Bank analysis finds",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSlpiQzBkbTk1OVdMTUtyN1VEV3JhX3hnSVpxM0NJUGNnVlFfM3BjTkkyMWJsc2ljMnNrZW5Qb01lSkM2SmtVYjRmZXJlZzFqLTJFd25jM1RzT1IxcEliaXNRNG8yUzhXd3Bta2JBTzA5SEhSVEpRYWVHakIwWWpTaWpxeWhaUmZfeGRUQ2pJSVd5d1hSakMya21GZ2QyRmZ2MWlYSDBPNUplSTk2MG1ZTHZPUkxhRkkwR1pfRGdoOFFYZWlH?oc=5",
+     "source": "SILive.com",
+     "published": 1793925060,
+     "text": "El Niño could push U.S. inflation higher in 2027, Federal Reserve Bank analysis finds SILive.com",
+     "summary_th": "การวิเคราะห์จากธนาคารกลางสหรัฐฯ ระบุว่าปรากฏการณ์เอลนีโญอาจดันเงินเฟ้อในสหรัฐฯ ให้สูงขึ้นในปี 2027",
+     "importance": 2,
+     "numbers": [
+      "2027"
+     ],
+     "tags": [
+      "inflation",
+      "el nino",
+      "federal reserve"
+     ],
+     "entities": [
+      "Federal Reserve"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "ef5fd64a242d",
+     "title": "Drunk and dangerous e-bike riders face on-the-spot fines under crackdown",
+     "link": "https://www.bbc.co.uk/news/articles/cmze4zk4d789o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "published": 1793892429,
+     "text": "A consultation will consider fines and other ways to clamp down on dangerous e-bike riders.",
+     "summary_th": "ผู้ขับขี่จักรยานไฟฟ้าที่เมาและเป็นอันตรายต้องเผชิญกับค่าปรับหน้างานภายใต้มาตรการกวาดล้างใหม่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "e-bikes",
+      "fines",
+      "safety"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "413516c6ba41",
+     "title": "Who could be behind hoax bomb threats to European air travel?",
+     "link": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "published": 1793908720,
+     "text": "There is no hard evidence so far linking airline bomb threats to Russia, Iran or any proxy groups.",
+     "summary_th": "ยังไม่มีหลักฐานแน่ชัดที่เชื่อมโยงภัยคุกคามการวางระเบิดสายการบินในยุโรปกับรัสเซียหรืออิหร่าน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "aviation",
+      "security",
+      "europe"
+     ],
+     "entities": [
+      "Russia",
+      "Iran"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    }
+   ]
+  },
+  {
+   "key": "oil",
+   "label": "น้ำมันและพลังงาน",
+   "items": [
+    {
+     "id": "3fe6959ff1e7",
+     "title": "Oil Rebounds Toward $100 as Democrats’ Sweep Rattles Energy Stocks",
+     "link": "https://oilprice.com/Energy/Energy-General/Oil-Rebounds-Toward-100-as-Democrats-Sweep-Rattles-Energy-Stocks.html",
+     "source": "OilPrice.com",
+     "published": 1793926800,
+     "text": "Oil prices reversed their recent downtrend on Thursday, a day after Democrats swept control of both the House and Senate, creating a potential legislative check on U.S. President Donald Trump’s administration. Brent crude was up 4.0% to trade at $98.38 per barrel at 3:15 pm ET, while WTI gained 2.9% to $90.65, with prices rising for the first time in four sessions after plunging to a near two-month low on Wednesday. U.S. natural gas prices were flat at $2.95/MMBtu, while European gas prices rebounded 1.9% to €89.72/MWh. The U.S. stock…"
+    },
+    {
+     "id": "7d6ab8f651d2",
+     "title": "Trump's energy deals are about to face a wave of investigations by Democrats",
+     "link": "https://www.cnbc.com/2026/11/05/trump-election-energy-venezuela-critical-mineral-renewable-iran.html",
+     "source": "CNBC Energy",
+     "published": 1793905986,
+     "text": "Democrats are certain to scrutinize the U.S. intervention in Venezuela, administration mineral deals and the cancellation of previously funded energy projects."
+    },
+    {
+     "id": "401af70e4ce9",
+     "title": "EDITORIAL: Guess who benefits from high oil prices?",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ2RvSGZfNEViaG1vQWpPdWV2QjBYaWRObndNZU41WUdUV3BzSldZaEo2bngyazFmUWJ1SXFFMTlfaHFUdEppM3ZwVktGR01JQ2Y4Y2cxdlpvYmZEQzZvelhWS0tUZzJmWUxzNldMV1lVQW9uSDd5MXdnd0ZfX2dualN5emhVUjdud0ZlT3QxWmdqZEhBUXc?oc=5",
+     "source": "Toronto Sun",
+     "published": 1793928033,
+     "text": "EDITORIAL: Guess who benefits from high oil prices? Toronto Sun"
+    },
+    {
+     "id": "efe73118785c",
+     "title": "U.S. Shale Giants Hold Back on Drilling Despite Higher Oil Prices",
+     "link": "https://oilprice.com/Energy/Crude-Oil/US-Shale-Giants-Hold-Back-on-Drilling-Despite-Higher-Oil-Prices.html",
+     "source": "OilPrice.com",
+     "published": 1793923200,
+     "text": "The biggest U.S. shale producers have remained conservative in spending on drilling this year despite the spike in the average WTI crude price by $20 per barrel compared to last year. While signs have emerged that smaller independents have started to take advantage of the higher oil prices to increase drilling, the biggest shale producers are keeping their powder dry amid unprecedented uncertainty in global markets. One of the top shale producers and the biggest Permian-only focused driller, Diamondback Energy, signaled this week that it will not…"
+    },
+    {
+     "id": "1eafe4e67f90",
+     "title": "India Navigates Volatility to Keep Crude Supplies Robust",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9uVl9iLUd1NGhUU2NVUFVnbEJ4Wm9uQTBHY01uZG9TRDU2czFXWWtNSDRzcDROS1A0VXRQQlgtZm9yUzdFVzRvM1EyamFPaEp4dHRGSlZPa2JHMlVTOXNBZXNQRGppcWp1SVpSamR1WkVYQQ?oc=5",
+     "source": "Energy Intelligence",
+     "published": 1793926907,
+     "text": "India Navigates Volatility to Keep Crude Supplies Robust Energy Intelligence"
+    },
+    {
+     "id": "83615d5540ff",
+     "title": "Asia Hopes U.S. Midterm Results Will Ease Energy Crisis",
+     "link": "https://oilprice.com/Energy/Energy-General/Asia-Hopes-US-Midterm-Results-Will-Ease-Energy-Crisis.html",
+     "source": "OilPrice.com",
+     "published": 1793919600,
+     "text": "Asian countries that depend on oil and gas imports for their energy security are hoping that the results of the U.S. midterms will lead to an end to the war in the Middle East and, consequently, an end to the severe fuel crisis Asian countries are experiencing. The hopes may be premature, however. Trump is still president, and Democrats are no fans of Iran. Asia has been the hardest-hit by the fallout of the U.S. and Israel offensive against Iran that began on February 28. For geographical reasons, the Middle East is the top supplier of hydrocarbons…"
+    },
+    {
+     "id": "1441bcb0093d",
+     "title": "Middle East crude oil premiums tumble to pre-war levels amid ample supply",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOb240Y1FzQWVneG9DWHlwZTNkckd4NENKMzAwVlI4WnZYRHNzUzJhS25nWGtBc1RGTUVRZVVyMXFDUlRVN3pMaXpsam9POHA3eWo4aUVDRFVuUWlJYVM0WE90VHhNR2p1aDRlTS0yeHdNU0JVNmZWVVB3UHhtYnh5YVVmNTNmUUlTazQ3cW83Rkw1Rl9oNlI3TUtDbnN3VF8zVmF2b0paanZBVTY4SDRJOS02eHZvb3gyaDJ1RlpTaENhXzVjWkZPVnRnZk9HdWhiUXVlVlc1a2VLNTQ?oc=5",
+     "source": "TradingView",
+     "published": 1793925420,
+     "text": "Middle East crude oil premiums tumble to pre-war levels amid ample supply TradingView"
+    },
+    {
+     "id": "635ba5e00f4d",
+     "title": "India's Renewables Have Saved $100 Billion in Fuel Imports, IEA Says",
+     "link": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Indias-Renewables-Have-Saved-100-Billion-in-Fuel-Imports-IEA-Says.html",
+     "source": "OilPrice.com",
+     "published": 1793916000,
+     "text": "India’s clean energy growth is far surpassing expectations and quickly establishing the world’s most populous country as one of the major global players in clean energy markets. India is now the second-fastest-growing clean energy market in the world, and the world’s second-largest producer of solar panels, following China. And according to a new report from the International Energy Agency (IEA), the country’s embrace of clean energy as a key part of its economic development is already paying off. The IEA’s India…"
+    },
+    {
+     "id": "8336e6891a18",
+     "title": "Qantas Expects $2.63 Billion First-Half Fuel Bill Amid Elevated Oil Prices",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQck9VRzU4Q0VOYk4wUkR1QTVIaXpLMVJkOE41dDVMN3dNQkpReXVtRUhYcmd5d2pGY0g1cW9EMHdraGxRdXBRTGlRbUloajczNTcwclVWdXlkOXdpXzJuU3B1WDladU9vX3NOaDhONGFtbU1XNXFEcDZfMGlYeFVSUlNOZzAwS1BVMXFmZ0tpOXN4djlEWnZBUkxJVHJ2S3ZMSGF2THc1SElsX2o0Wm5aM2wtVWVHWTFVdlhaTTd3VQ?oc=5",
+     "source": "WSJ",
+     "published": 1793922240,
+     "text": "Qantas Expects $2.63 Billion First-Half Fuel Bill Amid Elevated Oil Prices WSJ"
+    },
+    {
+     "id": "139d72d9d52e",
+     "title": "Batteries Are Taking the Gas Peaker’s Best Hours",
+     "link": "https://oilprice.com/Energy/Energy-General/Batteries-Are-Taking-the-Gas-Peakers-Best-Hours.html",
+     "source": "OilPrice.com",
+     "published": 1793912400,
+     "text": "Gas peakers have always had one decisive economic advantage: they were relatively cheap to build. A peaking plant could sit idle for most of the year, then start when demand and electricity prices surged. Its fuel was expensive and its efficiency often mediocre, but low upfront costs made that acceptable. The owner did not need thousands of operating hours to recover an enormous initial investment. Australia has now crossed an important threshold. The country’s CSIRO, working with the Australian Energy Market Operator, finds that batteries…"
+    },
+    {
+     "id": "e3498b0cd744",
+     "title": "U.S. oil companies post billions in Q3 profits as crude production hits record level",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR1ZPZTRkeEp4QXZ6ZFQzNktRVlRoZDQzd1lRbVNDSzNzS1U1T1RfNGozVEE5Smp0akhFdWxwMlRNRG5EUkRxUEtUZnBIU3lXU0FueWZ0bF9lczhBQXFoU1Z0ZWRNelRyQ1JKaHMwamU4aTRGYVdITDRMbmdQRFVlaGQ5aURfTElvWFI4bWhSM0I0S0k?oc=5",
+     "source": "www.marketplace.org",
+     "published": 1793921770,
+     "text": "U.S. oil companies post billions in Q3 profits as crude production hits record level www.marketplace.org"
+    },
+    {
+     "id": "6924c3ef99d8",
+     "title": "ConocoPhillips Doubles Profit to $4 Billion, Raises Dividend",
+     "link": "https://oilprice.com/Latest-Energy-News/World-News/ConocoPhillips-Doubles-Profit-to-4-Billion-Raises-Dividend.html",
+     "source": "OilPrice.com",
+     "published": 1793910600,
+     "text": "ConocoPhillips more than doubled its third-quarter profit to $4 billion and raised its quarterly dividend by 11% on Thursday, joining a growing list of oil majors reporting enormous earnings gains as higher crude prices offset production disruptions caused by the Iran war. The Houston-based producer reported adjusted earnings of $3.27 per share, comfortably beating Wall Street's $2.97 estimate. Net income jumped from $1.7 billion a year earlier, despite a decline in production. The company's average realized price climbed 32% year over year to…"
+    },
+    {
+     "id": "51b76bb2a025",
+     "title": "Crude costs for Indian refiners dip to $103: Oil price decline lifts mood, but volatility remains high",
+     "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQNWh0aUVYd3pvX3NtS0g5N1VLSVRUbTlXWUl1Tl9RSE1JRHR5YjUtWVhQREUwZURFNExGUjFodFlkeW5FcXNuLVNjREZtYU9TTTBRVWQ4TXJ2SjBONkJvVTgyaWx4NThIQ0lUeElLeElwQmRVc0pTWTd5QXFuRjZpeXQ1T3N3dU5zOFpoNVFZSTBmRVRNV0tkd1lHSUpnUkZWenpKaVlnQ3d0Y2RrbVRPbklFaGlfTHA0aHpvY1FHUlpHLUNCT0RGaVd3a1FqUmdyUURuOHFyTHRmYmF5TGczNV9xZ080SDhrNEhmRm8yZTFYUEN4TUNrTUp4RXVDMUstRjNaSDhJdTFUcEpxY2tLWWZCa9IBmAJBVV95cUxQY1ZtNHFVYTFTcDZLS3NuaTc0Ty1lbnRObGVKcVdvZERqQlFsVGt4VW05S3lvYkc4T1lvc3BzamN6RjVtbndPc0NQTzVDdzgxdEVGaHdHM1M5OWFBTlZfX3VrWlZueGpMRE41M3FlcXdOMUsteFQ3c3lpeE90RjBBbEFNdlJfYVRUZmt1eE1BXzV2OWk3ZFhwbHFkQWFpaDBVM2tqd3BSNF9hUW9WOVVHZUZKZzlGODVuTGdNQ3F0SUhOa0NoVVVCekZhel9TMENXdHdtUjZpZms2VzM1bDJjOXdzSVVScktkYUlxcldwdTNSX2Q3QmZTUmFFSWN1Yk0wWFhxdnVYNV83TFAzODJiQk1lTUg3TG1F?oc=5",
+     "source": "The Times of India",
+     "published": 1793921700,
+     "text": "Crude costs for Indian refiners dip to $103: Oil price decline lifts mood, but volatility remains high The Times of India"
+    },
+    {
+     "id": "d0e1cf37e66c",
+     "title": "France's Debt Crisis Could Trigger a Much Bigger European Meltdown",
+     "link": "https://oilprice.com/Geopolitics/Europe/Frances-Debt-Crisis-Could-Trigger-a-Much-Bigger-European-Meltdown.html",
+     "source": "OilPrice.com",
+     "published": 1793908800,
+     "text": "France’s present economic woes signal serious trouble ahead for the coherence of the European Union. On Wednesday evening, the French National Assembly unanimously rejected the government’s proposed budget, provoking further fears in the bond market. A couple of weeks ago, it was reported that the French government’s budget deficit now stood at 5.1 per cent, the worst it had been for nearly a quarter of a century. Its national debt now stands at over 115 percent of its GDP. Last Friday, the credit ratings agency Fitch downgraded…"
+    },
+    {
+     "id": "a2a82da83fee",
+     "title": "Oil Prices Bounce Higher as Mideast War Realities Reemerge",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBXRUlQZjFWUUhOSDQxc3N3N1Y2V3ZVM0hxVnd6Tk9zbkhETTU5WEE4NjB0U1NZZTJ4cVRPQmNQR3hJSVFjbzg3QUY4cnFwaUgyOUdnUThYdEUzNzJEZ1dPbWhIcDdZdDRZTnJjeU50d3Ztdw?oc=5",
+     "source": "Energy Intelligence",
+     "published": 1793921486,
+     "text": "Oil Prices Bounce Higher as Mideast War Realities Reemerge Energy Intelligence"
+    }
+   ]
+  },
+  {
+   "key": "gold",
+   "label": "ทองคำ",
+   "items": [
+    {
+     "id": "5180af6297ac",
+     "title": "Gold Prices Today, November 6, 2026: Antam at IDR 2.55 Million, Check Latest UBS, Galeri24, and Buyback Rates",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb1lDa3I1dUFjcnFLaXdBNm9wbzVWc1hPX3c0QnlmZ1djcGJKamp3bE5wREtjcEN3RFFoSjFJNUoxYzUtaFJ2ZFJXNlJEd1NweGxjYnNqVUZDOXZGMUZ5Rk9fbUxycnk0T1RDN2YwRDBzOVVlWUpteGxtc3pUNGRELU5xTmdDenRGeFF2dE0xdnJnSXFlY0R4T3V6R2F2WTFsM3NybGIzNW1xTFNsOFZnc3lEb2ZnOURlUVpfY3lQNXpldm5BY0tFRWZLNGJTMDg?oc=5",
+     "source": "Aktualita.co",
+     "published": 1793927836,
+     "text": "Gold Prices Today, November 6, 2026: Antam at IDR 2.55 Million, Check Latest UBS, Galeri24, and Buyback Rates Aktualita.co"
+    },
+    {
+     "id": "c039a39ebdcb",
+     "title": "Dhanteras 2026: Gold Prices Surge Over ₹3,000, Silver Also Becomes Costlier Ahead of Festive Season",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9qVWM1TzdfYzNrcVh5YlV2SGR6UGNTRHNMbGd3X0dWeDl3NWlLUnVSaUh2bGY5MFBHMHVxTkFxclM5T2NUejNxeFljbWxSckhKcHFaRUJ1OXhLekJuTExtNjJPRXhJYS1KTzFBMmh1ZHFabkdpOXdrYWtn?oc=5",
+     "source": "theopenpress.in",
+     "published": 1793925787,
+     "text": "Dhanteras 2026: Gold Prices Surge Over ₹3,000, Silver Also Becomes Costlier Ahead of Festive Season theopenpress.in"
+    },
+    {
+     "id": "5e98e6e8aadf",
+     "title": "Gold Price Surges Back Above $4,000 – Is This the Start of a Much Bigger Rally?",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTnI0QklSODR0U05pcVVsYV9FLUV5ejR3NFAwNmYtSHBhZG1uNVBOS2NMSG5Qc3k0ODFSTVByUFBhYUNLMmYwSDVweEdlbzZYZTg5bldGS2pCR3RCWEhsR3RrUmNtRU5rRnF5bVhQTS1pc2dGZE5FRkR4UTVfVFY0R091dllNU25xZzdEVW5TZnJPV09TOVJQbGNKSEkybUEwcnZiVERVZDZmR1Q2S3RDcHppTV8xeWQxR3FpMGxsWTJwMlk?oc=5",
+     "source": "FXEmpire",
+     "published": 1793927025,
+     "text": "Gold Price Surges Back Above $4,000 – Is This the Start of a Much Bigger Rally? FXEmpire"
+    },
+    {
+     "id": "50fbbe652094",
+     "title": "Gold Price Today, November 6: Bullion climbs above $4,100, gains nearly 6% this week; MCX trading in focus on Dhanteras",
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZ0hYMFFEX2llelZuN3ZON29kN25vZUpzOUZLZnpUVWhpd09fVWhjcVpscFpteTZZNm16aGRmdUhvRDc5bVNkc2JMWFdtcVh5WC1tRlFmcXpTZnlUTVBwYzBZbHVVSUQ4YVhQNlRwNUVRT2xvNlhhTzYyOFNGb1VWYjlrR3FfSVhValphdEpjRFQwQ3ZjRXgzZGotVmFWNTRzTnY5TjJlc1VOTTlVT1F5cVNYeFhFTGxrbE92RWR6d1NGSW5lNjVtNXY0U1EySlE5Ym5EazFIS0ZiQkszSkZvSTlmVzVQanpmcUMzMTdnbWFKVXAyY0ZF0gH8AUFVX3lxTE5vaWVwcTlrY0tZc0hXQjVDSUx3Q2hKQjE4QTdzRjV0M05WR0FVbHQ4QTlIcUd6LTdmcmpTRldTZFlMV3lOX2tfZFA1eXhGRFNVeTljNnVxcXNWdXE2NXNsS2pHQnY3azB0SFQ5cWlhY0gxSHYzbW5yc3VOd0dHZnVKTmhmRmRXXzZIRjlGZzR1SVNsRkcyMzExZnV1QTV6Z0kyenlUcThUa3FlenE3ZFZEc3BaSkVPUVA1UllLWm0xei11TWZ0UjVjcDctMFU2YlVBNm5reTllWlVXSzJfRTdPQm45OWJOeWx0LUE5QzhKRVdVZFlLdEg0U0VXbA?oc=5",
+     "source": "ET Now",
+     "published": 1793925388,
+     "text": "Gold Price Today, November 6: Bullion climbs above $4,100, gains nearly 6% this week; MCX trading in focus on Dhanteras ET Now"
+    },
+    {
+     "id": "83b4d80ecf50",
+     "title": "Gold Prices Surge as Democrats Sweep U.S. Midterm Elections, Reclaiming $4,100 an Ounce",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16QVkyN01HYmN4cm5uYllIczJHOHA2MmJ0TDA2VHFOUmszMWdUZEQ1bU9ualAzS2Z0dWFFYnU4QTdPeG9nWFdsc1gzTWN1MmVjalZlWUxqeHdHXzZFOFdJRkNVakxIUWZyY1YwWE82RjdfMEtCOXc?oc=5",
+     "source": "BigGo Finance",
+     "published": 1793926560,
+     "text": "Gold Prices Surge as Democrats Sweep U.S. Midterm Elections, Reclaiming $4,100 an Ounce BigGo Finance"
+    },
+    {
+     "id": "87f727f87818",
+     "title": "Pure Money 13s - Gold Eagle Coin Pure Bullion Precious Metal Valuable and Collectible Stock Photo Image of",
+     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1lMkJicFIwV3JJNEZYUURfZURQSVlFdnpCWGxNTm5pY1pkQlZSRmU4SFZGbWQ5SndQU1dmQndTMkl3aDBpbUxzcThUbEwwdjlkTHNN?oc=5",
+     "source": "auroradesio.it",
+     "published": 1793921234,
+     "text": "Pure Money 13s - Gold Eagle Coin Pure Bullion Precious Metal Valuable and Collectible Stock Photo Image of auroradesio.it"
+    },
+    {
+     "id": "c7db25f41cdb",
+     "title": "Gold Price Drop: Should You Buy This Dhanteras? Expert Market Analysis",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdlRiUXhPdi1kTjVvZmlNOXlERUxLeDlFNVNFbUk0S0xGNEp5eWdmOUdHdzE1cjNGY2hWTngwQjlSTDMzcUJsbDdmOC1UNTlZbDVpQU1OY1NSQUhrb2Z2N1lvM0VxVDJ6OVRiYVAtU081eGo5YmhJSG54LUp2cThJcm1YbzRoUEVudm01R3RlQVNXRHhma0tUMVdodW14MHFvbHVPbTl3V2tsVTVkazZmSmRnTWRyQldMLTRLVmpQZFlnd29LNUhFaQ?oc=5",
+     "source": "Bhaskar English",
+     "published": 1793921400,
+     "text": "Gold Price Drop: Should You Buy This Dhanteras? Expert Market Analysis Bhaskar English"
+    },
+    {
+     "id": "14577f2f2148",
+     "title": "Two-day lover steals US$73 000 gold",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45U3psNXRobGhhR2J6SlhQQmJoem9RbzVWNEpGNGk0RkdZY3pvZVJpNFZYSHc0Q05HYjBoWm9vU1c1SGVIYWhTVFNCdkpsZUdjWnVNMHhKNjVJT3Q0ejIyMmd0S0k4WVlJZEo5Mmh2Tk1lRkxm?oc=5",
+     "source": "Herald.co.zw",
+     "published": 1793916884,
+     "text": "Two-day lover steals US$73 000 gold Herald.co.zw"
+    },
+    {
+     "id": "15de51d52d8e",
+     "title": "Gold price hits two-week high as post-election rally continues",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYXV0TkpZZF9udDdjMERjTDQ5THd4eFAxaVQwOF9EeUxBYjRVRGVKTVo3YXdqRURoOGVuMnFYdXNZR3NlbEhCVXV5MWwyNVVobVl6c21BQjU3bzlHZ25sOTdyTjRlNWJOS0t4VGozZFZNZ2NHYXk2SUpjbUNDSzdzaUJPUlJPZ3U2d3gtQXVR?oc=5",
+     "source": "Mining.com.au",
+     "published": 1793921175,
+     "text": "Gold price hits two-week high as post-election rally continues Mining.com.au"
+    },
+    {
+     "id": "956617f347f2",
+     "title": "SPDR Gold Shares (GLD) Stock Price, News, Quote & History",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1wd1BSUE5iX2QtRlBWNHV4X2NFZWpwb1FNZ0Y0Rzl3bUNhQmMzNU5xQWlpRDZJTVg5MFA2SWNkSE4yTlhZOEV4X0J4Rl8yM0JL?oc=5",
+     "source": "Yahoo! Finance Canada",
+     "published": 1793908556,
+     "text": "SPDR Gold Shares (GLD) Stock Price, News, Quote & History Yahoo! Finance Canada"
+    },
+    {
+     "id": "621aba46d115",
+     "title": "Gold prices today, November 6th: Global prices surge, gold rings become nearly 2 million VND more expensive.",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR00wNlpjQUxUYnllWFBONjZCbjlYODR5ZklhU2hKcTZ1anZJZ09uY3I1VU9iUElDWGExbzhnLXZLOVp5enRjV3hyNC1kSzRlUi0xWlZOSVFzaUl5MU84VjdPTE1QUzQ4U2doc0lXTElTUHJ1SFM5MDQ4N0NrdHhMb0NlWFl1eXdSYzdoZndEQ3NWbjBRd2hCQm9nUTQ?oc=5",
+     "source": "Vietnam.vn",
+     "published": 1793921041,
+     "text": "Gold prices today, November 6th: Global prices surge, gold rings become nearly 2 million VND more expensive. Vietnam.vn"
+    },
+    {
+     "id": "35d21b0a6b75",
+     "title": "Polish central bank sees no reason not to buy more gold, says governor",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRmlfQ0IwaUxJOVhUWEJmcmJtb3pzamZOeS1hVGxRREtrZjZtUkhPRE5sdUFzeW13STdvWWljenZhdFR3LURybG1BZnB5Z2E5YUtQVTRzU3pVQVFNcGNuTjJPN3BJZVQ2VVAwSXJYeXBKYXlZQldNSWJDalg2bi1WVjZOYjV0RFZfWjRJUDQwY0JrQ1hIa3hXdVd4bFh0NHlhbXc3N0stVXZxS2E3dmk1SnE2dnVZRjBWWHZadmdSdw?oc=5",
+     "source": "marketscreener.com",
+     "published": 1793907616,
+     "text": "Polish central bank sees no reason not to buy more gold, says governor marketscreener.com"
+    }
+   ]
+  },
+  {
+   "key": "tech",
+   "label": "เทคโนโลยี",
+   "items": [
+    {
+     "id": "6053cf3db6bf",
+     "title": "The New York Times reportedly in talks to buy Letterboxd for $330 million",
+     "link": "https://techcrunch.com/2026/11/05/the-new-york-times-reportedly-in-talks-to-buy-letterboxd-for-330-million/",
+     "source": "TechCrunch",
+     "published": 1793923638,
+     "text": "Letterboxd, an online platform for movie lovers, has grown dramatically in recent years."
+    },
+    {
+     "id": "2009a33d518f",
+     "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
+     "link": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+     "source": "MIT Technology Review",
+     "published": 1793884200,
+     "text": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s…"
+    },
+    {
+     "id": "e024b4cae3ca",
+     "title": "Blue Origin says it is building a higher-performing rocket engine at 1/4 the cost",
+     "link": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/",
+     "source": "Ars Technica",
+     "published": 1793924226,
+     "text": "\"This is going to be a game-changer.\""
+    },
+    {
+     "id": "85f398082dad",
+     "title": "OpenAI is stepping back from NDAs for data center projects",
+     "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+     "source": "The Verge",
+     "published": 1793925476,
+     "text": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data center projects have come under scrutiny for relying on NDAs to hide discussions […]"
+    },
+    {
+     "id": "a4a97f6031d9",
+     "title": "Jim Cramer explains why no AI stock seems safe from the market carnage",
+     "link": "https://www.cnbc.com/2026/11/05/jim-cramer-ai-stocks-data-center-uncertainty.html",
+     "source": "CNBC Tech",
+     "published": 1793921104,
+     "text": "CNBC’s Jim Cramer said AI stocks are becoming increasingly difficult to value."
+    },
+    {
+     "id": "3b58ffb304e7",
+     "title": "Claude Code sends your email address to websites",
+     "link": "https://github.com/anthropics/claude-code/issues/107757",
+     "source": "Hacker News",
+     "published": 1793917035,
+     "text": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 454 # Comments: 160"
+    },
+    {
+     "id": "8b736a134f3e",
+     "title": "Sources: Thinking Machines Lab is raising $5B led by Accel at a $40B pre-money valuation, more than tripling its valuation from its last public round last year (Business Insider)",
+     "link": "https://www.techmeme.com/261105/p66",
+     "source": "Techmeme",
+     "published": 1793927702,
+     "text": "Business Insider : Sources: Thinking Machines Lab is raising $5B led by Accel at a $40B pre-money valuation, more than tripling its valuation from its last public round last year — AI startup Thinking Machines Lab is set to close a fresh round of funding as soon as this week."
+    },
+    {
+     "id": "97d7db0e7e4a",
+     "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+     "link": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+     "source": "BleepingComputer",
+     "published": 1793926604,
+     "text": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]"
+    },
+    {
+     "id": "c4ada268c286",
+     "title": "Police scour venues’ CCTV after Darwin drink spiking increase",
+     "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPQ3JPMF96eDFZdTAxdEpKMVJZQjFGWWpxc1JPeFVOZ214QkpoOXY2NnNUck5ibWJWQm15aEtZLVhGWEREUW5Eb1d6Y0pLVTIydks4RkVzRGhlMVNyMGQ0elJiSXhQRmMxaWhFZmtRd2VaczY2MkxBYmVLX1IzMHozWUFYcEIwQkRrM0tRQ0xLbEVfeF9pdDl4ZGFUNV9iYmtRN1RmbC1TWlBHRmMzbVcxOUtiSEZIdzF0am8zd1pteXN4emVDUlplLW5PeXd1clpnTnRDMWVVNWtaYmlEdFE5SVplZHJNN3p0NXctQ1hfdGFySUZyV3Z1c0haVE8tdGotMnpNRm1zdzFsYnBfVkp4WGJKbVBTQlcyR01BcWotRQ?oc=5",
+     "source": "NT News",
+     "published": 1793928392,
+     "text": "Police scour venues’ CCTV after Darwin drink spiking increase NT News"
+    },
+    {
+     "id": "fb3e595a55eb",
+     "title": "Meta, Google, and TikTok sue California AG over teen social media law",
+     "link": "https://techcrunch.com/2026/11/05/meta-google-and-tiktok-sue-california-ag-over-teen-social-media-law/",
+     "source": "TechCrunch",
+     "published": 1793923298,
+     "text": "If it goes into effect next year, this California law would restrict social media access for children under 16."
+    },
+    {
+     "id": "1025afbf9ca2",
+     "title": "A new bill could change how the US builds energy infrastructure",
+     "link": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
+     "source": "MIT Technology Review",
+     "published": 1793872800,
+     "text": "A sweeping bit of legislation designed to cut red tape could speed up the buildout of energy infrastructure in the US. With the dust barely settled on this week’s momentous midterms, the Senate is set to vote on the Bipartisan American Affordability and Jobs Act (BAAJA) on November 9. It’s a plan that could finally…"
+    },
+    {
+     "id": "9ed3b44bda29",
+     "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+     "link": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+     "source": "Ars Technica",
+     "published": 1793920176,
+     "text": "Certain configurations of Alpine are affected. Other distros may be as well."
+    },
+    {
+     "id": "cc48f8093c5b",
+     "title": "Airbnb is working on an AI travel agent",
+     "link": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+     "source": "The Verge",
+     "published": 1793923572,
+     "text": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But […]"
+    },
+    {
+     "id": "8bced4d31522",
+     "title": "Blue Origin pushes launch to January 2027 as it races to rebuild damaged launchpad",
+     "link": "https://www.cnbc.com/2026/11/05/blue-origin-launch-new-glenn.html",
+     "source": "CNBC Tech",
+     "published": 1793919734,
+     "text": "CEO Dave Limp said the company has moved swiftly to repair a launchpad that was damaged by the New Glenn explosion in May but that the work hasn't been easy."
+    },
+    {
+     "id": "296687f94cd4",
+     "title": "MS Paint Remote Code Execution Vulnerability",
+     "link": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+     "source": "Hacker News",
+     "published": 1793911422,
+     "text": "Article URL: https://www.cve.org/CVERecord?id=CVE-2026-83844 Comments URL: https://news.ycombinator.com/item?id=50384233 Points: 303 # Comments: 99"
+    },
+    {
+     "id": "92da1995f4a6",
+     "title": "Artificial Analysis says Inkling 2 Small matches Gemini 3.8 Flash (high) in its index and would be the top open model outside China once its weights are out (Artificial Analysis)",
+     "link": "https://www.techmeme.com/261105/p65",
+     "source": "Techmeme",
+     "published": 1793926500,
+     "text": "Artificial Analysis : Artificial Analysis says Inkling 2 Small matches Gemini 3.8 Flash (high) in its index and would be the top open model outside China once its weights are out — Inkling 2 Small is launching as a proprietary model, available first-party through Thinking Machines' Tinker platform and Tinker Playground …"
+    },
+    {
+     "id": "886e9406677f",
+     "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+     "link": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+     "source": "BleepingComputer",
+     "published": 1793914230,
+     "text": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions. [...]"
+    },
+    {
+     "id": "5f9c8a0f02da",
+     "title": "Police to deploy facial recognition on CCTV networks",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1saFhpMnQ2Rk42VjIwUVl3cm0zenIwdVE4SjVnYnRDb1ZzQ0o5LS1uRXFVWjE3ZEFUeFBESmVOb3d1blhxaFJnWkpuZWEzNl92cjN4eWxSUVZNVzVSM3A5TXJQazNITDZMeVpzb3BfNA?oc=5",
+     "source": "RTHK News",
+     "published": 1793926260,
+     "text": "Police to deploy facial recognition on CCTV networks RTHK News"
+    },
+    {
+     "id": "01af2f668ade",
+     "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+     "link": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+     "source": "TechCrunch",
+     "published": 1793918455,
+     "text": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay."
+    },
+    {
+     "id": "a6dd2447219f",
+     "title": "NASA unveils mysterious X-70 experimental aircraft using AI-generated image",
+     "link": "https://arstechnica.com/gadgets/2026/11/nasas-experimental-x-70-aircraft-is-a-big-question-mark/",
+     "source": "Ars Technica",
+     "published": 1793918943,
+     "text": "NASA’s X-70 Fractal announcement comes as agency aims to grow X-plane fleet."
+    },
+    {
+     "id": "fae8746a9f7c",
+     "title": "The New York Times is in talks to buy Letterboxd for around $330 million",
+     "link": "https://www.theverge.com/news/1028375/the-new-york-times-letterboxd-acquisition-report",
+     "source": "The Verge",
+     "published": 1793922310,
+     "text": "The New York Times Company is in talks\"exclusive negotations\" to acquire Letterboxd, the social network for film lovers, for around $330 million, The New York Times reports. The Times Company, Sony Pictures Entertainment, and A24 were all recently rumored to be among those interested in buying Letterboxd. The negotiations with the Times Company have included […]"
+    },
+    {
+     "id": "2ec5637afef4",
+     "title": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
+     "link": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html",
+     "source": "CNBC Tech",
+     "published": 1793917873,
+     "text": "Elon Musk's Tesla and SpaceX lose $420 billion in combined market cap after midterms"
+    },
+    {
+     "id": "551c2101be10",
+     "title": "Search for everyone",
+     "link": "https://kagi.com/changelog",
+     "source": "Hacker News",
+     "published": 1793909014,
+     "text": "Article URL: https://kagi.com/changelog#11820 Comments URL: https://news.ycombinator.com/item?id=50383740 Points: 499 # Comments: 246"
+    },
+    {
+     "id": "7eb036802b14",
+     "title": "Lyft reports Q3 revenue up 8% YoY to $1.82B, vs. $1.92B est., and a net loss of $0.03 a share, vs. an est. profit of $0.20 a share; LYFT drops 8%+ after hours (Kelly Cloonan/Wall Street Journal)",
+     "link": "https://www.techmeme.com/261105/p64",
+     "source": "Techmeme",
+     "published": 1793925901,
+     "text": "Kelly Cloonan / Wall Street Journal : Lyft reports Q3 revenue up 8% YoY to $1.82B, vs. $1.92B est., and a net loss of $0.03 a share, vs. an est. profit of $0.20 a share; LYFT drops 8%+ after hours — However, the ride-hailing platform's top and bottom lines were dented by legal, tax and regulatory reserve changes and settlements"
+    },
+    {
+     "id": "58f4053a1bb9",
+     "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
+     "link": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
+     "source": "BleepingComputer",
+     "published": 1793909708,
+     "text": "Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly exposed secrets that remain valid. [...]"
+    }
+   ]
+  },
+  {
+   "key": "health",
+   "label": "การแพทย์และสุขภาพ",
+   "items": [
+    {
+     "id": "b12e2cf1a5e8",
+     "title": "STAT+: Pharma’s trade group spent heavily on search ads to sway public opinion",
+     "link": "https://www.statnews.com/pharmalot/2026/11/05/phrma-blamed-pbms-high-drug-prices-search-ads/",
+     "source": "STAT News",
+     "published": 1793914612,
+     "text": "PhRMA spent an estimated $59 million on search advertising over a recent seven-year period to influence how Americans view prescription drug costs."
+    },
+    {
+     "id": "542cec06110a",
+     "title": "Jim Cramer says the AI trade is not going away as Nasdaq enters correction",
+     "link": "https://www.cnbc.com/investingclub/2026/11/05/cramer-says-the-ai-trade-is-not-going-away-as-nasdaq-enters-correction.html",
+     "source": "CNBC Health",
+     "published": 1793904383,
+     "text": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET."
+    },
+    {
+     "id": "1e362fe96c09",
+     "title": "7 simple ways to turn a new workout routine into a lasting habit",
+     "link": "https://medicalxpress.com/news/2026-11-simple-ways-workout-routine-habit.html",
+     "source": "Medical Xpress",
+     "published": 1793922007,
+     "text": "Have you started a new workout routine only to watch it fizzle out a few weeks later?"
+    },
+    {
+     "id": "5f1660841239",
+     "title": "Ramaswamy’s biotech baggage haunted his political run",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSFFxZkFyUHJhUkpad1Y3XzBHQWp1MlotWV9RSFBZTUlaR3I3VHBHUzV5emtnYnlQNGhtcnlYSWxwX1lVaHpzdENKaDV3aHZyX01rRm9qd3dFamQtdGZpYVJmQ0IzWDI4UVdiMTRsMVVSLXZmdG1QdUtJZEMxVXozMnpjcEcyWmpfZzFvaGR3?oc=5",
+     "source": "Pharma Voice",
+     "published": 1793924321,
+     "text": "Ramaswamy’s biotech baggage haunted his political run Pharma Voice"
+    },
+    {
+     "id": "58b717a3b875",
+     "title": "Ballot measures affirm divisions over abortion and transgender issues",
+     "link": "https://www.statnews.com/2026/11/05/state-health-ballot-measures-abortion-marijuana-transgender-issues/",
+     "source": "STAT News",
+     "published": 1793911773,
+     "text": "Voters in 2026 midterm elections decided state health policy ballot measures on abortion rights, marijuana laws, science bonds, and transgender youth care."
+    },
+    {
+     "id": "4d360f884230",
+     "title": "High levels of indoor radon linked to higher risk of heart failure in postmenopausal women",
+     "link": "https://medicalxpress.com/news/2026-11-high-indoor-radon-linked-higher.html",
+     "source": "Medical Xpress",
+     "published": 1793919608,
+     "text": "New findings from a study of women who have gone through menopause suggest that those living in areas with higher estimated indoor radon levels may be at higher risk of heart failure. The study, published in JAMA Network Open, was led by researchers at the UNC Gillings School of Global Public Health and adds the newest evidence that radon exposure may pose a significant risk to heart health among aging women."
+    },
+    {
+     "id": "3ca8bbccb83e",
+     "title": "Ebola: Two Candidate Vaccines to Join Clinical Trial in the Democratic Republic of the Congo",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRkNJakh5RDc2Nlp6Qi1IN2pxbEF0cFFkMW9HQ29qNjlNdEdiTS1ZdmdNaEdGd3RxY25nSVNwbUctel9DdlItVGFJSXRSN1RuYlB4RzBwQUxVamJycW1ZcnczVXl6YnRhelp1dXFRRHNDcm56WngtNXltdmptRDRQMnI1UGV5RG1zUURtZU52bXNzR3JYWFVQWTZOSzdZbi1tbk5pZkREbjZ0TGpDa2N0UXhEeDA4dw?oc=5",
+     "source": "ACP | Agence Congolaise de Presse",
+     "published": 1793918660,
+     "text": "Ebola: Two Candidate Vaccines to Join Clinical Trial in the Democratic Republic of the Congo ACP | Agence Congolaise de Presse"
+    },
+    {
+     "id": "e8aa33ef2d76",
+     "title": "Child dies of measles in Wisconsin’s first such death since 1990",
+     "link": "https://www.statnews.com/2026/11/05/child-dies-measles-wisconsin-first-death-since-1990/",
+     "source": "STAT News",
+     "published": 1793910684,
+     "text": "An infant in southwestern Wisconsin has died after contracting measles, the state’s first death from the disease in 36 years."
+    },
+    {
+     "id": "1da84d5a4cbd",
+     "title": "Hybrid light method reveals how camera signals can probe blood flow in deeper tissues",
+     "link": "https://medicalxpress.com/news/2026-11-hybrid-method-reveals-camera-probe.html",
+     "source": "Medical Xpress",
+     "published": 1793916003,
+     "text": "How can we efficiently collect light returning from tissues while also identifying what it tells us about blood flow in the deeper tissues? Conventional interferometric near-infrared spectroscopy (iNIRS) can distinguish signals according to the amount of time that light takes to travel through tissue, but it collects only a few photons. Camera-based systems capture many more photons, but this distinction is not realized when living tissue changes rapidly. Researchers associated with ICTER combined both approaches in a hybrid system. They showed that an appropriately analyzed camera signal can reproduce the blood-flow response observed with iNIRS for late-arriving photons, which are more sens"
+    },
+    {
+     "id": "c9e3013b35a9",
+     "title": "Nisa Leung’s Aulis Capital closes $200M debut fund for cross-border biotech",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdGxBT1hkWVhtY2tEaW9DSjY2YVRtUXFvMjBwU0V6aG5fd2xLX1ZuTXFMTWx1SExVVlhXRHhDcDBabFp1UkZNU1k2NklwS0Z4SENqY2Rxb0g5QWlNWUJ0Wmx4SHVoU1JaSnNnU0cyZnFINUIxWC1YUmNucnFnU0h1T2ItdExaOWw5ODlqdF9VajFYY3ZGbjA3Z2I2SGFKdlltZ0FZWEV2S0hfYmY3?oc=5",
+     "source": "Dealroom",
+     "published": 1793917627,
+     "text": "Nisa Leung’s Aulis Capital closes $200M debut fund for cross-border biotech Dealroom"
+    },
+    {
+     "id": "9137abd854ee",
+     "title": "STAT+: Novartis cites cases of previously unknown tumors possibly tied to its SMA gene therapy",
+     "link": "https://www.statnews.com/pharmalot/2026/11/05/novartis-sma-zolgensma-tumor-case-reports/",
+     "source": "STAT News",
+     "published": 1793904814,
+     "text": "Novartis has acknowledged seven previously unknown instances in which tumors were found in children who were treated with its spinal muscular atrophy therapy, Zolgensma."
+    },
+    {
+     "id": "7a5a6095d492",
+     "title": "Kidney care trial challenges default dialysis planning for older adults with frailty",
+     "link": "https://medicalxpress.com/news/2026-11-kidney-trial-default-dialysis-older.html",
+     "source": "Medical Xpress",
+     "published": 1793914805,
+     "text": "Dialysis should not necessarily be regarded as the default option for older people with kidney failure, the first randomized study of its kind in the world, led by the University of Bristol, has found."
+    },
+    {
+     "id": "7318a6a2d2de",
+     "title": "Puma Biotech (PBYI) Tops Q3 EPS by 6c",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUVlIWEdjMjdrUmVXNVJ2bF80Mi1CY09zcHpnRkY1NFFrV25tMm9KU3dJdFZRcWtaS19Yb1hDS0NCWV9PaEVIbmNZR2xMRUxHcW1xSHpOSXhkTVhlVS1tR0U5WXVlTVVTUmpzWEdrSmpzQldrN0FMSmRyWHdqWkhKS1B4cXUyeEpJak5IYnJrZEtZNE9OMkZKTEF3?oc=5",
+     "source": "StreetInsider",
+     "published": 1793917494,
+     "text": "Puma Biotech (PBYI) Tops Q3 EPS by 6c StreetInsider"
+    },
+    {
+     "id": "b9ac5fd44525",
+     "title": "STAT+: Stunning $6M defamation verdict reverberates at MIT campus, global scientific community",
+     "link": "https://www.statnews.com/2026/11/05/david-sabatini-defamation-verdict-reverberates-mit-scientific-community/",
+     "source": "STAT News",
+     "published": 1793902748,
+     "text": "The explosive court battle between a former star scientist at the Massachusetts Institute of Technology and a younger colleague continues to roil the campus community."
+    },
+    {
+     "id": "0422d8faa091",
+     "title": "Engineered protein that cuts Alzheimer's-linked brain deposits opens potential therapeutic avenue",
+     "link": "https://medicalxpress.com/news/2026-11-protein-alzheimer-linked-brain-deposits.html",
+     "source": "Medical Xpress",
+     "published": 1793913602,
+     "text": "A KAIST-led research team has found that a protein involved in gene regulation can suppress the harmful aggregation of amyloid-beta, a peptide associated with Alzheimer's disease. The approach also reduced the toxicity of protein aggregates that had already formed."
+    },
+    {
+     "id": "fc6ad1e203a5",
+     "title": "Five takeaways from Align Summit 2026’s regulators panel on FDA, the SEC, and biotech capital",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNY3RZWmxZY1hZSmxRTVFJNGRQeUhzT3VjdE5FU1pjRVVnMzdNQlJQbng1QXBHTG9UUmlXcGVVa2w1RkozeFpoZ3AyMjZ3eUo4RW83WjZDX09YVXI0eDJsRU9UZ1lZZ09ielZuc3FjOElIVFBGOG1paFdRYV9COGhrWVVRTlFNaEp1Wnk0S201VjZSMHUyTWZvODdn?oc=5",
+     "source": "Massachusetts Biotechnology Council",
+     "published": 1793917198,
+     "text": "Five takeaways from Align Summit 2026’s regulators panel on FDA, the SEC, and biotech capital Massachusetts Biotechnology Council"
+    },
+    {
+     "id": "f806e853b844",
+     "title": "STAT+: Two No Surprises Act arbitrators lose government contracts to decide payment disputes",
+     "link": "https://www.statnews.com/2026/11/05/no-surprises-act-arbitrators-idr-ipro-network-medical-review-lose-contracts/",
+     "source": "STAT News",
+     "published": 1793902179,
+     "text": "The Trump administration is cutting off two groups tasked with arbitrating disputes over surprise medical bills, citing a failure “to meet minimum performance standards.”"
+    },
+    {
+     "id": "0f3e36323955",
+     "title": "Two 'forever chemicals' associated with higher risk of aggressive breast cancer in analysis",
+     "link": "https://medicalxpress.com/news/2026-11-chemicals-higher-aggressive-breast-cancer.html",
+     "source": "Medical Xpress",
+     "published": 1793912409,
+     "text": "Women with higher blood levels of two common per- and polyfluoroalkyl substances, also familiarly known as PFAS, were more likely to develop estrogen receptor-negative, or ER-negative, breast cancer, according to a new study by the National Institutes of Health (NIH), part of the U.S. Department of Health and Human Services (HHS). PFAS are a large group of chemicals used in common consumer products. Often referred to as \"forever chemicals,\" PFAS do not break down easily in the environment and can remain in the body for years."
+    },
+    {
+     "id": "e320ee06a0fd",
+     "title": "Puma Biotech: Q3 Earnings Snapshot",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdWRWTE5aeU4tcVJKUHVLc3Z0dk53eDJvclBDVW5uazdyNG4xaGtESzVic2h2VkpDY29OOEFrUXlDTXNNLUpsNDlxcnFaNkxuYW4zaDVBQVlfU3VEYXB4bXVhQzQwbFBOVU9MaC1FNEZyRWRlQTZPb0NpU0tfTl9NbGpVRnpqVUVxUmlNbVZRWHBSZ3NTdjNLQjB3?oc=5",
+     "source": "Yahoo Finance",
+     "published": 1793917036,
+     "text": "Puma Biotech: Q3 Earnings Snapshot Yahoo Finance"
+    },
+    {
+     "id": "8af9a6ea1648",
+     "title": "Opinion: MAHA 1.0 is dead. MAHA 2.0 is born",
+     "link": "https://www.statnews.com/2026/11/05/end-of-maha-2026-midterms-losses-democrats-aoc-cory-booker/",
+     "source": "STAT News",
+     "published": 1793901623,
+     "text": "MAHA 1.0 is dead. MAHA 2.0 is born, write “Why Should I Trust You?” hosts Brinda Adhikari and Tom W. Johnson"
+    }
+   ]
+  }
+ ],
+ "title": "ข่าวประจำวัน"
+}
