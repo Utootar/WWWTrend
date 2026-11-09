@@ -363,33 +363,55 @@ def video_segments(c):
     return segs
 
 
-def tts(text, wav):
-    """Thai speech to a mono 16-bit wav. Default edge-tts (needs internet, runs in GitHub Actions);
-    espeak-ng only when MEDIA_TTS=espeak because it cannot really read Thai."""
+class VoiceDown(Exception):
+    pass
+
+
+def tts(text, wav, engine="edge"):
+    """Thai speech to a mono 16-bit wav. Default edge-tts neural voice (needs internet, runs in GitHub Actions);
+    engine "gtts" is Google's free Thai voice, the backup when edge-tts is down; espeak-ng only when
+    MEDIA_TTS=espeak because it cannot really read Thai."""
     if os.environ.get("MEDIA_TTS") == "espeak":
         subprocess.run(ESPEAK + ["-w", str(wav), text], check=True)
         return
     mp3 = wav.with_suffix(".mp3")
     # Separate process: Playwright's sync API already runs an event loop in this one.
-    for attempt in range(6):  # the service sometimes returns no audio for a minute or two; waiting it out works
-        r = subprocess.run([sys.executable, "-m", "edge_tts", "--voice", THAI_VOICE, "--rate=+8%",
-                            "--text", text, "--write-media", str(mp3)], capture_output=True, text=True)
+    if engine == "gtts":
+        cmd = [sys.executable, "-c", "import sys; from gtts import gTTS; gTTS(sys.argv[1], lang='th').save(sys.argv[2])",
+               text, str(mp3)]
+        tries = 3
+    else:
+        cmd = [sys.executable, "-m", "edge_tts", "--voice", THAI_VOICE, "--rate=+8%", "--text", text,
+               "--write-media", str(mp3)]
+        tries = 6  # the service sometimes returns no audio for a minute or two; waiting it out often works
+    for attempt in range(tries):
+        r = subprocess.run(cmd, capture_output=True, text=True)
         if r.returncode == 0 and mp3.exists() and mp3.stat().st_size > 0:
             break
         time.sleep(15 * (attempt + 1))
-    if r.returncode or not mp3.exists():
-        sys.exit(f"Thai voice failed ({(r.stderr or '').strip()[-300:]}). The video needs edge-tts with internet: "
-                 "push content.json and let the 'Render media video' workflow make it.")
+    else:
+        raise VoiceDown(f"{engine}: {(r.stderr or '').strip()[-300:]}")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp3), "-ac", "1", "-ar", "24000",
                     "-c:a", "pcm_s16le", str(wav)], check=True)
 
 
 def synth(segs, tmp):
-    """Voice each segment; return mono samples, rate, and segment start/end times."""
+    """Voice each segment; return mono samples, rate, and segment start/end times.
+    If edge-tts is down, the whole clip is voiced with the backup engine so it keeps one voice."""
+    for engine in ("edge", "gtts"):
+        try:
+            return _synth(segs, tmp, engine)
+        except VoiceDown as e:
+            print(f"Thai voice {e}", file=sys.stderr)
+    sys.exit("Thai voice failed with every engine. The video needs internet: "
+             "push content.json and let the 'Render media video' workflow make it.")
+
+
+def _synth(segs, tmp, engine):
     chunks, rate, t = [], None, 0.0
     for k, seg in enumerate(segs):
         f = tmp / f"seg{k}.wav"
-        tts(seg["say"], f)
+        tts(seg["say"], f, engine)
         with wave.open(str(f)) as w:
             rate = w.getframerate()
             data = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16)
