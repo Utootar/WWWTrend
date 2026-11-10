@@ -2,10 +2,11 @@
  "date": "2026-11-10",
  "collected_at": "2026-11-10T01:50:19+07:00",
  "models": [
+  "claude/routine",
   "gemini/gemini-flash-latest",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 25,
+ "summary_failed": 0,
  "prices": [
   {
    "symbol": "^GSPC",
@@ -469,7 +470,8 @@
       "China",
       "Reuters"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "26c3dc729937",
@@ -494,7 +496,8 @@
       "737 Max",
       "Seattle"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c8331c014b92",
@@ -516,7 +519,8 @@
       "Broadcom",
       "Nvidia"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "fa2ebb810d30",
@@ -539,7 +543,8 @@
       "Windward Bio",
       "Nasdaq"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ff8574d6f8fd",
@@ -562,7 +567,8 @@
       "Texas",
       "Democrats"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6f1d12c31e4a",
@@ -579,7 +585,8 @@
       "fixed income"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9a202c5278b4",
@@ -599,7 +606,8 @@
       "PKW",
       "NASDAQ:PKW"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2f74281a7706",
@@ -619,7 +627,8 @@
       "Goldman",
       "David Solomon"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "bad3583dfc91",
@@ -640,7 +649,8 @@
       "Fed",
       "U.S."
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "7ff006ba213e",
@@ -659,7 +669,8 @@
       "Invesco",
       "RSPC"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e381efe08520",
@@ -683,7 +694,8 @@
       "Honda",
       "Ohio"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8eecca0476e3",
@@ -699,7 +711,8 @@
       "personal finance"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "82a302e82755",
@@ -721,7 +734,8 @@
       "Nvidia",
       "Huang"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c6fdad5d65b9",
@@ -730,7 +744,7 @@
      "source": "CNBC Top News",
      "published": 1794247368,
      "text": "President Trump's questioning of the legitimacy of his loss in the 2020 election culminated with an attack on the U.S. Capitol by a mob of his supporters.",
-     "summary_th": "อดีตประธานาธิบดีทรัมป์ตั้งคำถามต่อผลการเลือกตั้งกลางเทอมและหยิบยกทฤษฎีสมคบคิดเกี่ยวกับเครื่องนับคะแนนเสียงกลับมาอีกครั้ง",
+     "summary_th": "ประธานาธิบดีทรัมป์ตั้งคำถามต่อผลการเลือกตั้งกลางเทอม และหยิบยกทฤษฎีสมคบคิดเรื่องเครื่องนับคะแนนขึ้นมาอีกครั้ง",
      "importance": 0,
      "numbers": [
       "2020"
@@ -743,7 +757,10 @@
       "Trump",
       "U.S. Capitol"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ระบุว่าเป็นอดีตประธานาธิบดี ทั้งที่ต้นทางเรียกว่า President Trump",
+     "checked_by": "claude/review"
     },
     {
      "id": "e7f47d89143d",
@@ -752,7 +769,7 @@
      "source": "MarketWatch",
      "published": 1794247200,
      "text": "“We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”",
-     "summary_th": "คอลัมน์ปรึกษาปัญหาครอบครัวเกี่ยวกับการเกษียณอายุของสามีที่วัย 65 ปี และการจัดการเงินออมมูลค่า 2.6 ล้านดอลลาร์",
+     "summary_th": "คอลัมน์ตอบปัญหาครอบครัว: ภรรยาอยากให้สามีเกษียณเมื่ออายุ 65 ปี แต่ไม่อยากเสียเงินเดือน $280,000 ของสามี ครอบครัวมีเงินรวม $2.6 million",
      "importance": 0,
      "numbers": [
       "65",
@@ -767,7 +784,10 @@
       "401(k)",
       "IRAs"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ทำให้เข้าใจว่าสามีอายุ 65 ปี ทั้งที่ต้นทางพูดถึงอายุที่อยากให้เกษียณ",
+     "checked_by": "claude/review"
     },
     {
      "id": "61b81a16f428",
@@ -791,7 +811,8 @@
       "Nvidia",
       "DeepSeek"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "22d31f958aca",
@@ -813,7 +834,8 @@
       "Democrats",
       "House"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a75bfe64d7e4",
@@ -836,7 +858,8 @@
       "GLP-1",
       "NAION"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "22d660e4e26d",
@@ -854,7 +877,8 @@
      "entities": [
       "Astera Labs"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e84aeaebb3b4",
@@ -873,7 +897,8 @@
      "entities": [
       "CNBC"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "708cc7dd245d",
@@ -881,7 +906,15 @@
      "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af",
      "source": "MarketWatch",
      "published": 1794245400,
-     "text": "“It would be a less drastic step than selling the home now and splitting the proceeds.”"
+     "text": "“It would be a less drastic step than selling the home now and splitting the proceeds.”",
+     "summary_th": "บทความถามว่า หญิงม่ายควรยกบ้านของคู่ชีวิตที่เสียไปให้ลูกเลี้ยง หรือควรตัดการติดต่อกับพวกเขา",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "estate planning"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "4179683be22a",
@@ -889,7 +922,19 @@
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNendzaU5mSV9saVFEWmR2UlRUWFRuUHhjOFRDT2ZLZ1Y5ZU1FOE5lQUVmVkxoQmRkTUd2SFRXUzVpSW5yUFBwREdQMC1UbU1NNTRTRTBSQ3h2SmlWZzVwN3NXazFnY1JVd0ZFNXBfQW1wM1Z1T3BITElNU2ZaMGZHMURkY3pfdTFDTWJB?oc=5",
      "source": "Yahoo Finance",
      "published": 1794246548,
-     "text": "S&P 500 Just Wiped Out $3 Trillion: Why This 0.35-Beta Stock is a Safe Haven Yahoo Finance"
+     "text": "S&P 500 Just Wiped Out $3 Trillion: Why This 0.35-Beta Stock is a Safe Haven Yahoo Finance",
+     "summary_th": "S&P 500 ลดมูลค่าไปราว 3 ล้านล้านดอลลาร์ บทความอธิบายว่าทำไมหุ้นที่มีค่าเบต้า 0.35 ถึงเป็นที่หลบภัย",
+     "importance": 1,
+     "numbers": [
+      "$3 Trillion",
+      "0.35"
+     ],
+     "tags": [
+      "s&p 500",
+      "beta"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "6f778c8690b8",
@@ -897,7 +942,16 @@
      "link": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-affair-congress-scrutiny.html",
      "source": "CNBC Top News",
      "published": 1794243925,
-     "text": "Nvidia CEO Jensen Huang's extramarital affair with an alleged Chinese spy comes as the company is already about to face heightened scrutiny."
+     "text": "Nvidia CEO Jensen Huang's extramarital affair with an alleged Chinese spy comes as the company is already about to face heightened scrutiny.",
+     "summary_th": "ข่าวเรื่องส่วนตัวของ Jensen Huang ซีอีโอ Nvidia กับบุคคลที่ถูกกล่าวหาว่าเป็นสายลับจีน ทำให้พรรคเดโมแครตมีประเด็นใหม่ในการผลักดันการตรวจสอบ ขณะที่บริษัทกำลังถูกจับตามากขึ้น",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "governance"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "b208a5094da1",
@@ -905,7 +959,16 @@
      "link": "https://www.marketwatch.com/story/there-is-no-one-at-nvidia-who-would-be-ready-to-replace-jensen-huang-816cc405",
      "source": "MarketWatch",
      "published": 1794244860,
-     "text": "Nvidia’s CEO has an “outsize role and unclear succession.”"
+     "text": "Nvidia’s CEO has an “outsize role and unclear succession.”",
+     "summary_th": "บทความระบุว่า Nvidia ยังไม่มีผู้ที่พร้อมจะมาแทน Jensen Huang ซีอีโอ บทบาทของเขาในบริษัทมีมาก และการสืบทอดตำแหน่งยังไม่ชัดเจน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "ceo succession"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "017b796ab201",
@@ -913,7 +976,16 @@
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRnN5a2VMYjZPNE5EeEZwazh6YXdLRXFBbU9EdWhSWHFOVE5mMTJXcUdmUkZmc3BmdlY3QjUydlF1R1djZUdDNVV0ZjJaR1J2dHlseEJuRVFoR3p0cjBCcnhLNG0wZFRGLXZTNXFKeFpKUFd1LVE1ZFVHSDVrTWh2MnBLOHJNcVZfSm1CQldtU2hLVmFHX19OejJfOHJyNmRoM3JXYzNB?oc=5",
      "source": "The Free Press of the University of Southern Maine",
      "published": 1794246485,
-     "text": "Concerns over AI bubble pop loom after drop in S&P 500 post-midterms The Free Press of the University of Southern Maine"
+     "text": "Concerns over AI bubble pop loom after drop in S&P 500 post-midterms The Free Press of the University of Southern Maine",
+     "summary_th": "บทความพูดถึงความกังวลว่าฟองสบู่ AI อาจแตกหลัง S&P 500 ปรับตัวลงหลังการเลือกตั้งกลางเทอม",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai bubble",
+      "s&p 500"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     }
    ]
   },
@@ -940,7 +1012,8 @@
      "entities": [
       "Kashim Chowdhury"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "dfdd7bb2e5a4",
@@ -961,7 +1034,8 @@
       "Hegseth",
       "Trump"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "25628acce3e1",
@@ -983,7 +1057,8 @@
      "entities": [
       "New York Fed"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c1a8be3a6f4b",
@@ -1004,7 +1079,8 @@
       "Nvidia",
       "Huang"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c30ff4fbaf05",
@@ -1022,7 +1098,8 @@
       "news"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "253fa3f0483a",
@@ -1031,7 +1108,7 @@
      "source": "Breakingthenews.net",
      "published": 1794249480,
      "text": "Barkin urges Fed to balance inflation fight with job risks Breakingthenews.net",
-     "summary_th": "Barkin กระตุ้นให้ธนาคารกลางสหรัฐฯ (Fed) สร้างความสมดุลระหว่างการต่อสู้กับเงินเฟ้อและความเสี่ยงด้าน 0-3",
+     "summary_th": "Barkin กระตุ้นให้ Fed สร้างความสมดุลระหว่างการต่อสู้กับเงินเฟ้อและความเสี่ยงด้านการจ้างงาน",
      "importance": 2,
      "numbers": [],
      "tags": [
@@ -1043,7 +1120,10 @@
       "Barkin",
       "Fed"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ประโยคเพี้ยนมีตัวเลขปนที่ไม่มีในต้นทาง",
+     "checked_by": "claude/review"
     },
     {
      "id": "a1175999e133",
@@ -1063,7 +1143,8 @@
      "entities": [
       "Kashim Chowdhury"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "12647216fa6b",
@@ -1086,7 +1167,8 @@
       "Habas Demir Celik",
       "Aliaga"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "0cd00f92886a",
@@ -1106,7 +1188,8 @@
      "entities": [
       "Mexico"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f4eb275bd926",
@@ -1126,7 +1209,8 @@
      "entities": [
       "Poundland"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "46e24dd13879",
@@ -1147,7 +1231,8 @@
       "Trump",
       "Truth Social"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6045dcb7ea69",
@@ -1165,7 +1250,8 @@
      "entities": [
       "White House"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2e8d8d0112c3",
@@ -1185,7 +1271,8 @@
      "entities": [
       "Fahnbulleh"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "88aea3d1a064",
@@ -1204,7 +1291,8 @@
       "russia"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3b6db77de404",
@@ -1224,7 +1312,8 @@
       "listicle"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1251,7 +1340,8 @@
      "entities": [
       "US"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "21ba89329aa4",
@@ -1274,7 +1364,8 @@
       "Iran",
       "US"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "0b8c5bb45330",
@@ -1294,7 +1385,8 @@
      "entities": [
       "US"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6ded7d23fb95",
@@ -1322,7 +1414,8 @@
       "Chevron",
       "Israel"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "15b1f0736eac",
@@ -1331,7 +1424,7 @@
      "source": "CNBC Energy",
      "published": 1794222001,
      "text": "Republicans have less than two months left with majorities in both the Senate and the House — and a long list of legislation to take up in the coming weeks.",
-     "summary_th": "สภาคองเกรสสหรัฐฯ กลับมาพิจารณาวาระสำคัญ เช่น การจัด่างบประมาณรัฐบาลและเพดานหนี้",
+     "summary_th": "สภาคองเกรสสหรัฐฯ กลับมาพิจารณาวาระสำคัญ เช่น งบประมาณรัฐบาลและเพดานหนี้",
      "importance": 1,
      "numbers": [],
      "tags": [
@@ -1343,7 +1436,10 @@
      "entities": [
       "Pete Hegseth"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "คำผิด 'จัด่าง' ควรเป็นงบประมาณ",
+     "checked_by": "claude/review"
     },
     {
      "id": "1f901e939fcc",
@@ -1361,7 +1457,8 @@
       "arson"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "eb848dd7a82a",
@@ -1385,7 +1482,8 @@
       "OPEC",
       "Saudi Arabia"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "543089b26503",
@@ -1406,7 +1504,8 @@
       "US",
       "Iran"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d77e8a1fd5c1",
@@ -1431,7 +1530,8 @@
       "Europe",
       "Middle East"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "5cdc376b6768",
@@ -1453,7 +1553,8 @@
       "US",
       "Iran"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4b0b87d5fa0f",
@@ -1480,7 +1581,8 @@
       "Belgium",
       "Netherlands"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "639f586fd6af",
@@ -1503,7 +1605,8 @@
      "entities": [
       "Sable Offshore"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ee5e526d31b7",
@@ -1526,7 +1629,8 @@
      "entities": [
       "Donald Trump"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6a4d8cc3ddf1",
@@ -1544,7 +1648,8 @@
       "fuel"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "fdf0b53f6b61",
@@ -1569,7 +1674,8 @@
       "Antalya",
       "Turkey"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1594,7 +1700,8 @@
      "entities": [
       "News Karnataka"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ac2238798d41",
@@ -1616,7 +1723,8 @@
      "entities": [
       "Uzbekistan"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8dfda01e394a",
@@ -1638,7 +1746,8 @@
      "entities": [
       "London"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "194f05011863",
@@ -1660,7 +1769,8 @@
      "entities": [
       "GoldSilver"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "754f88705482",
@@ -1680,7 +1790,8 @@
      "entities": [
       "Barrick"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d7a37992e1af",
@@ -1690,7 +1801,7 @@
      "published": 1794240900,
      "text": "SD Bullion Partners with The Royal Mint as Worldwide Exclusive for the First Una and the Lion Bullion Coins EIN News",
      "summary_th": "SD Bullion เป็นพาร์ทเนอร์ร่วมกับ The Royal Mint ในฐานะผู้จัดจำหน่ายเหรียญทองคำ Una and the Lion แต่เพียงผู้เดียวทั่วโลก",
-     "importance": 1,
+     "importance": 0,
      "numbers": [],
      "tags": [
       "sd bullion",
@@ -1701,7 +1812,10 @@
       "SD Bullion",
       "The Royal Mint"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "เป็นประกาศขายเหรียญของผู้ค้าทองคำ ไม่ใช่ข่าว",
+     "checked_by": "claude/review"
     },
     {
      "id": "650846e9bdfb",
@@ -1721,7 +1835,8 @@
      "entities": [
       "Barrick"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1903a4c65113",
@@ -1744,7 +1859,8 @@
       "Russia",
       "China"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2635fe01700b",
@@ -1764,7 +1880,8 @@
       "gold reserves"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "54bd5c16f81f",
@@ -1774,7 +1891,7 @@
      "published": 1794238847,
      "text": "Solomon Global Offers Exclusive Signed Una and the Lion 2027 Gold Bullion Coins The Manila Times",
      "summary_th": "Solomon Global เสนอขายเหรียญทองคำ Una and the Lion 2027 พร้อมลายเซ็นแบบเอ็กซ์คลูซีฟ",
-     "importance": 1,
+     "importance": 0,
      "numbers": [
       "2027"
      ],
@@ -1785,7 +1902,10 @@
      "entities": [
       "Solomon Global"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "เป็นประกาศขายเหรียญของผู้ค้าทองคำ ไม่ใช่ข่าว",
+     "checked_by": "claude/review"
     },
     {
      "id": "d7618d659ae4",
@@ -1807,7 +1927,8 @@
      "entities": [
       "USA Today"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a1eb8f2c53e4",
@@ -1829,7 +1950,8 @@
      "entities": [
       "China"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1857,7 +1979,8 @@
       "Jensen Huang",
       "Nvidia"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "50d303e5bf84",
@@ -1866,7 +1989,7 @@
      "source": "MIT Technology Review",
      "published": 1794243943,
      "text": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wiener on Friday, only a…",
-     "summary_th": "Scott Wiener สมาชิกวุฒิสภาแห่งรัฐแคลิฟอร์เนียผู้ร่างกฎหมายควบคุมความเสี่ยง AI ได้รับเลือกตั้งเข้าสู่สภาผู้แทนราษฎรแทน Nancy Pelosi และอาจมีบทบาทสำคัญในการกำหนดนโยบาย AI ของ联邦",
+     "summary_th": "Scott Wiener สมาชิกวุฒิสภาแห่งรัฐแคลิฟอร์เนียผู้ร่างกฎหมายควบคุมความเสี่ยง AI ได้รับเลือกตั้งเข้าสภาผู้แทนราษฎรแทน Nancy Pelosi และอาจมีบทบาทสำคัญในการกำหนดนโยบาย AI",
      "importance": 2,
      "numbers": [],
      "tags": [
@@ -1878,7 +2001,10 @@
       "Scott Wiener",
       "Nancy Pelosi"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "มีอักษรจีนปนในสรุป และพูดเกินต้นทาง",
+     "checked_by": "claude/review"
     },
     {
      "id": "4065836ff3f5",
@@ -1900,7 +2026,8 @@
       "GitHub",
       "Claude Code"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "960cf247a7a8",
@@ -1910,7 +2037,7 @@
      "published": 1794249325,
      "text": "The price of Xbox Game Pass Ultimate has fluctuated between $20 and $30 per month over the last year, but you can get three months of the top plan for around $19 per month. At Newegg, using the coupon code BNWF2656 at checkout knocks $11 off the usual cost of a three-month subscription. That brings […]",
      "summary_th": "ผู้ใช้สามารถสมัครสมาชิก Xbox Game Pass Ultimate ระยะเวลา 3 เดือนในราคาต่ำกว่า 20 ดอลลาร์ต่อเดือน ผ่านการใช้คูปองส่วนลดที่ Newegg",
-     "importance": 1,
+     "importance": 0,
      "numbers": [
       "$20",
       "$30",
@@ -1926,7 +2053,10 @@
       "Newegg",
       "Xbox Game Pass Ultimate"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "เป็นโปรโมชันคูปองส่วนลด ไม่ใช่ข่าว",
+     "checked_by": "claude/review"
     },
     {
      "id": "2e104f370e83",
@@ -1950,7 +2080,8 @@
       "Nvidia",
       "Jensen Huang"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "466816c50f91",
@@ -1971,7 +2102,8 @@
       "hacker news"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "21c84b330f30",
@@ -1997,7 +2129,8 @@
       "Binance Holdings Ltd.",
       "NEAR"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e89c57c6d564",
@@ -2021,7 +2154,8 @@
      "entities": [
       "France"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "cfbcbf6f7e62",
@@ -2040,7 +2174,8 @@
      "entities": [
       "Whitefield School"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "fe9001b06ea6",
@@ -2065,7 +2200,8 @@
       "Haiku",
       "Luna"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b09ab79ba3e1",
@@ -2087,7 +2223,8 @@
       "UCLA School of Law",
       "California Air Resources Board"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8af7bc60b891",
@@ -2110,7 +2247,8 @@
       "SpaceX",
       "Grok"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9d5aee5d27ee",
@@ -2133,7 +2271,8 @@
      "entities": [
       "Instagram"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3b528b4f10ac",
@@ -2155,7 +2294,8 @@
       "Jim Cramer",
       "Amazon"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2f5d27c93321",
@@ -2175,7 +2315,8 @@
       "hacker news"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8d02b48d8a04",
@@ -2201,7 +2342,8 @@
       "Haiku",
       "GPT-6 Luna"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "073e03d22dae",
@@ -2222,7 +2364,8 @@
      "entities": [
       "Beget"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4c5ad3b961ab",
@@ -2238,7 +2381,8 @@
       "cctv"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8814f9d2297c",
@@ -2260,7 +2404,8 @@
       "Uber",
       "SpotHero"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b044ec790c18",
@@ -2281,7 +2426,8 @@
      "entities": [
       "Lubrizol"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "5d63754d84e9",
@@ -2301,7 +2447,8 @@
      "entities": [
       "Nvidia"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d118edf4cdc6",
@@ -2328,7 +2475,8 @@
       "Jeremy Latcham",
       "Marvel"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "acde48b00621",
@@ -2350,7 +2498,8 @@
       "Nvidia",
       "Megaspeed"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f49487fb0428",
@@ -2376,7 +2525,8 @@
      "entities": [
       "Opus"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c845183a8b12",
@@ -2402,7 +2552,8 @@
       "NYC",
       "San Francisco"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -2416,7 +2567,17 @@
      "link": "https://www.statnews.com/2026/11/09/midterm-elections-good-news-for-hospitals-cvs-breakup-explained/",
      "source": "STAT News",
      "published": 1794246853,
-     "text": "We explain the CVS breakup, and why Democrats' election victories are good news for hospitals."
+     "text": "We explain the CVS breakup, and why Democrats' election victories are good news for hospitals.",
+     "summary_th": "STAT อธิบายการแยกธุรกิจของ CVS และระบุว่าชัยชนะของพรรคเดโมแครตในการเลือกตั้งกลางเทอมเป็นข่าวดีสำหรับโรงพยาบาล",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "cvs",
+      "hospitals",
+      "midterms"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "f6df5d2bfd05",
@@ -2424,7 +2585,17 @@
      "link": "https://www.cnbc.com/2026/11/09/eli-lilly-foundayo-sleep-apnea-trial.html",
      "source": "CNBC Health",
      "published": 1794234601,
-     "text": "Lilly plans to file by the end of the year for U.S. approval of the daily pill for moderate-to-severe obstructive sleep apnea in adults with obesity."
+     "text": "Lilly plans to file by the end of the year for U.S. approval of the daily pill for moderate-to-severe obstructive sleep apnea in adults with obesity.",
+     "summary_th": "Eli Lilly วางแผนยื่นขออนุมัติจาก FDA ในสหรัฐภายในสิ้นปี สำหรับยาเม็ดรายวัน Foundayo ที่ใช้กับภาวะหยุดหายใจขณะหลับในผู้ใหญ่ที่เป็นโรคอ้วนระดับปานกลางถึงรุนแรง หลังการทดลองระยะปลายผลออกมาดี",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "eli lilly",
+      "foundayo",
+      "sleep apnea"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "a263a2af6100",
@@ -2432,7 +2603,16 @@
      "link": "https://medicalxpress.com/news/2026-11-members-sexual-gender-minorities-trauma.html",
      "source": "Medical Xpress",
      "published": 1794249611,
-     "text": "When therapies for psychological trauma are adapted for sexual and gender minorities and delivered by therapists with high levels of sensitivity to their experiences, outcomes are better, according to a scoping review by McGill University researchers. In particular, there are fewer post-traumatic stress symptoms such as nightmares and intrusive thoughts, as well as risk-taking behaviors (e.g., self-harm, drug use), the researchers said."
+     "text": "When therapies for psychological trauma are adapted for sexual and gender minorities and delivered by therapists with high levels of sensitivity to their experiences, outcomes are better, according to a scoping review by McGill University researchers. In particular, there are fewer post-traumatic stress symptoms such as nightmares and intrusive thoughts, as well as risk-taking behaviors (e.g., self-harm, drug use), the researchers said.",
+     "summary_th": "งานทบทวนวิจัยโดยนักวิจัยจาก McGill พบว่าการบำบัดบาดแผลทางใจที่ปรับให้เหมาะกับกลุ่มเพศหลากหลายและทำโดยนักบำบัดที่เข้าใจประสบการณ์เหล่านี้ได้ผลดีกว่า",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "trauma therapy",
+      "lgbtq"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "e23c6bd959b5",
@@ -2440,7 +2620,16 @@
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSU1hX191LTJQWU1WQV9oSUJfZnJ2Y19iUm5Lbk0xaDB6ZkdRdF8wTEpVLWx4Nm5WTDk4d2themc1WnlvV1gzaUdjanpRd0xaWUpPYVVhWUx2NndyaHpPeUtJeG9sYnJzcDJUTS1aNnNOT0RjQ0EtZlRGQ09BaUR5MDJHWll6bHJIQ1RNR3h2WUNBV2ZhWUdLZmpsU2tIUjZtOUVLcVRLSUVjUUtJRW9PME5YcVUwdkxE?oc=5",
      "source": "TradingView",
      "published": 1794246208,
-     "text": "Alaris Secures Investment From Bloomage Biotech TradingView"
+     "text": "Alaris Secures Investment From Bloomage Biotech TradingView",
+     "summary_th": "Alaris ได้รับการลงทุนจาก Bloomage Biotech",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "alaris",
+      "bloomage biotech"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "b0e31faff39f",
@@ -2448,7 +2637,16 @@
      "link": "https://www.statnews.com/2026/11/09/aha-2026-news-neutral-clinical-trials-lessons-learned/",
      "source": "STAT News",
      "published": 1794243201,
-     "text": "The theme of the American Heart Association meetings was \"neutral\" results. Yet no one wants to stop pursuing inflammation or Lp(a) lowering."
+     "text": "The theme of the American Heart Association meetings was \"neutral\" results. Yet no one wants to stop pursuing inflammation or Lp(a) lowering.",
+     "summary_th": "ผลการประชุมของสมาคมโรคหัวใจอเมริกันปีนี้ออกมาเป็นกลาง แต่ผู้เชี่ยวชาญยังไม่อยากหยุดศึกษาเรื่องการอักเสบและการลด Lp(a)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "heart disease",
+      "inflammation"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "91ea79ab50fb",
@@ -2456,7 +2654,17 @@
      "link": "https://www.cnbc.com/2026/11/09/novonesis-glp1-weight-loss-drugs-supplements-probiotics.html",
      "source": "CNBC Health",
      "published": 1794230877,
-     "text": "Novonesis is exploring whether gut health supplements could benefit patients taking GLP-1 weight-loss drugs, opening up a potentially lucrative new market."
+     "text": "Novonesis is exploring whether gut health supplements could benefit patients taking GLP-1 weight-loss drugs, opening up a potentially lucrative new market.",
+     "summary_th": "Novonesis กำลังศึกษาว่าอาหารเสริมเพื่อสุขภาพลำไส้จะช่วยผู้ที่ใช้ยาลดน้ำหนัก GLP-1 ได้หรือไม่ ซึ่งอาจเปิดตลาดใหม่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "glp-1",
+      "novonesis",
+      "supplements"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "b3a5d25a4b71",
@@ -2464,7 +2672,16 @@
      "link": "https://medicalxpress.com/news/2026-11-potentially-deadly-soil-bacterium-gaining.html",
      "source": "Medical Xpress",
      "published": 1794249602,
-     "text": "A potentially deadly disease caused by a soil-dwelling bacterium long found in tropical regions may be slowly gaining a foothold in the continental United States and other regions around the world. The discovery of the bacterium in Mississippi is raising new questions about how doctors should identify infections and track its spread."
+     "text": "A potentially deadly disease caused by a soil-dwelling bacterium long found in tropical regions may be slowly gaining a foothold in the continental United States and other regions around the world. The discovery of the bacterium in Mississippi is raising new questions about how doctors should identify infections and track its spread.",
+     "summary_th": "แบคทีเรียในดินที่อาจทำให้เสียชีวิตได้ กำลังแพร่ไปในพื้นที่ใหม่ รวมถึงสหรัฐฯ โดยพบการติดเชื้อในรัฐมิสซิสซิปปี้",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "soil bacterium",
+      "infection"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "b1b7f8d09f50",
@@ -2472,7 +2689,16 @@
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcC1IelA1SEJsOG13Tk04a0E2enM5VlJqSHJWLVhDSEZfOFdxYTE4STlIQTgtUzZQNDZkR21DLWFQT2F6eGpKZ2t6QkZCbU84QktxS1dhVkhMbFhjblBmTFRSNkhaSV9RbEd5R1JGcmtsZnZxZGZYMjFyMVI3SHVMZE4xbW0wS2lYem85WUtFYkZBMWRDTmZISUlaXzR0WmM?oc=5",
      "source": "Quiver Quantitative",
      "published": 1794245640,
-     "text": "Edesa Biotech Surges After Japan Licensing Deal for Paridiprubart Quiver Quantitative"
+     "text": "Edesa Biotech Surges After Japan Licensing Deal for Paridiprubart Quiver Quantitative",
+     "summary_th": "หุ้น Edesa Biotech พุ่งขึ้นหลังข้อตกลงให้สิทธิ์ใบอนุญาต Paridiprubart ในญี่ปุ่น",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "edesa biotech",
+      "licensing"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "d1bb445e3365",
@@ -2480,7 +2706,17 @@
      "link": "https://www.statnews.com/2026/11/09/glp-1-drugs-potential-risk-rare-eye-condition-naion-fda/",
      "source": "STAT News",
      "published": 1794239815,
-     "text": "The FDA on Monday warned that GLP-1 drugs carry a potential risk for a rare but serious eye condition that's sometimes referred to as an \"eye stroke.\""
+     "text": "The FDA on Monday warned that GLP-1 drugs carry a potential risk for a rare but serious eye condition that's sometimes referred to as an \"eye stroke.\"",
+     "summary_th": "FDA เตือนว่ายากลุ่ม GLP-1 อาจมีความเสี่ยงต่อภาวะตาที่หายากแต่รุนแรง ซึ่งบางครั้งเรียกว่า eye stroke",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "glp-1",
+      "fda",
+      "eye condition"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "ea5c7f9f6c5f",
@@ -2488,7 +2724,18 @@
      "link": "https://medicalxpress.com/news/2026-11-small-daily-ease-dementia-caregivers.html",
      "source": "Medical Xpress",
      "published": 1794248417,
-     "text": "Nearly 12 million people in the U.S. provide unpaid care to a relative or friend with Alzheimer's disease and related dementias (ADRD). Compared with caregivers of people without dementia, ADRD caregivers face greater demands that may contribute to higher rates of depression, anxiety, sleep problems, reduced physical activity and chronic illness."
+     "text": "Nearly 12 million people in the U.S. provide unpaid care to a relative or friend with Alzheimer's disease and related dementias (ADRD). Compared with caregivers of people without dementia, ADRD caregivers face greater demands that may contribute to higher rates of depression, anxiety, sleep problems, reduced physical activity and chronic illness.",
+     "summary_th": "กิจกรรมประจำวันเล็กๆ อาจช่วยลดความเครียดของผู้ดูแลผู้ป่วยอัลไซเมอร์และสมองเสื่อม ผู้ดูแลในสหรัฐฯ ราว 12 ล้านคนดูแลญาติหรือเพื่อนที่มีภาวะนี้โดยไม่ได้รับค่าจ้าง",
+     "importance": 1,
+     "numbers": [
+      "12 million"
+     ],
+     "tags": [
+      "dementia",
+      "caregivers"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "3b8b761aa395",
@@ -2496,7 +2743,15 @@
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaDAtNkxQdDdFcGFlckN0bktmZVRiUHJXYTVxZ1JhTTZSYTNHRE1md0lxQldxU1NYS2ZCR2dnT0J2dUhRNnRMcnhDcDRweFVhOFNOQWFRclM1ZE1kMXBRZnVTcTJJblpFVnZaOTBlanEteTFKUWJLWHJxQmFkN1k1THQ4czhacDdCenlxT05NME9sdlFXUC1kcHVTbWFkeHQ0bHlZ?oc=5",
      "source": "MarketBeat",
      "published": 1794245599,
-     "text": "Biotech Stocks To Watch Today - November 9th MarketBeat"
+     "text": "Biotech Stocks To Watch Today - November 9th MarketBeat",
+     "summary_th": "รายการหุ้นไบโอเทคที่น่าจับตามองวันที่ 9 พฤศจิกายน",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "biotech stocks"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "531716969690",
@@ -2504,7 +2759,16 @@
      "link": "https://www.statnews.com/2026/11/09/biotech-news-gene-therapy-long-debated-cancer-risk-materializes/",
      "source": "STAT News",
      "published": 1794234972,
-     "text": "For years, gene therapy researchers debated whether the viruses they use to ferry replacement genes into cells could cause tumors. A small number of cases now offer strong evidence that…"
+     "text": "For years, gene therapy researchers debated whether the viruses they use to ferry replacement genes into cells could cause tumors. A small number of cases now offer strong evidence that…",
+     "summary_th": "STAT รายงานว่าความเสี่ยงมะเร็งจากการรักษาด้วยยีนที่นักวิจัยถกเถียงกันมานาน เริ่มปรากฏเป็นจริง โดยมีผู้ป่วยจำนวนไม่มาก แต่ให้หลักฐานที่ค่อนข้างแข็งแรง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gene therapy",
+      "cancer risk"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "5fb57312b46b",
@@ -2512,7 +2776,17 @@
      "link": "https://medicalxpress.com/news/2026-11-glp-drugs-obesity-cancer-insulin.html",
      "source": "Medical Xpress",
      "published": 1794248404,
-     "text": "Years of research point to obesity and type 2 diabetes raising the risk of developing several types of cancer. Glucagon-like peptide-1 receptor agonists (GLP-1 RAs), a recent medical breakthrough, were originally developed for blood sugar control or diabetes management and also work overtime promoting weight loss. Scientists are curious to explore whether there are any links between these drugs and the onset of cancers in people with diabetes."
+     "text": "Years of research point to obesity and type 2 diabetes raising the risk of developing several types of cancer. Glucagon-like peptide-1 receptor agonists (GLP-1 RAs), a recent medical breakthrough, were originally developed for blood sugar control or diabetes management and also work overtime promoting weight loss. Scientists are curious to explore whether there are any links between these drugs and the onset of cancers in people with diabetes.",
+     "summary_th": "งานวิจัยพบว่ายากลุ่ม GLP-1 เกี่ยวข้องกับความเสี่ยงมะเร็งที่เกี่ยวกับโรคอ้วนต่ำกว่าอินซูลิน แต่ไม่ใช่กับการรักษาเบาหวานทุกประเภท",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "glp-1",
+      "cancer risk",
+      "insulin"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "461dfbcb0fb1",
@@ -2520,7 +2794,17 @@
      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQa2Vwd1pEcWpKbjE2ZlctUnN4dFpNQUVoQTd5d2c5Mm5KRTFTTXVYUU53Z1R2MGJtZTNpSDVHNTFkTE5ZTldXcjJ1Ym4tbkJQZTdMRWpWempIX3dDeUg5WVE1aGpwTTR6eV9KN1pyWUNtVXk4WnlBRkhmOGRZa0pmUk9PeXRIMkFQNW1xZDJwa0czaU1ROWxrS19KN0o5RWk3b2NiN0VKV2NnN2dPVFQ3TFJKMVRQQ3hELUFGWDFfOEtndWRldUNvQm4yTXNvZXV4TlFJbHRGakdsM2pTMEdTdmVBejc2QUREZWNYMm1iX3g1bmpwYm81T08zLVlSRUk2MVU4dmVpRVdEMEwzV2k5N3ZDRFVBRWc?oc=5",
      "source": "Investing News Network",
      "published": 1794244853,
-     "text": "PharmAla Biotech Signs Supply and Data Agreement with Aalborg University Hospital for Danish Randomized Trial of MDMA-Assisted Treatment for Service-Related PTSD Investing News Network"
+     "text": "PharmAla Biotech Signs Supply and Data Agreement with Aalborg University Hospital for Danish Randomized Trial of MDMA-Assisted Treatment for Service-Related PTSD Investing News Network",
+     "summary_th": "PharmAla Biotech ลงนามข้อตกลงจัดหายาและข้อมูลกับโรงพยาบาลมหาวิทยาลัย Aalborg สำหรับการทดลองแบบสุ่มในเดนมาร์ก เรื่องการรักษา PTSD จากการรับราชการด้วย MDMA",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "pharmala biotech",
+      "mdma",
+      "ptsd"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "14c434286f37",
@@ -2528,7 +2812,17 @@
      "link": "https://www.statnews.com/2026/11/09/eli-lilly-foundayo-sleep-apnea/",
      "source": "STAT News",
      "published": 1794234600,
-     "text": "Eli Lilly’s GLP-1 pill Foundayo helped alleviate sleep apnea in two late-stage studies, but it doesn’t appear as effective as Lilly’s injectable drug Zepbound."
+     "text": "Eli Lilly’s GLP-1 pill Foundayo helped alleviate sleep apnea in two late-stage studies, but it doesn’t appear as effective as Lilly’s injectable drug Zepbound.",
+     "summary_th": "ยา Foundayo ของ Eli Lilly ช่วยบรรเทาภาวะหยุดหายใจขณะหลับในการศึกษาระยะปลายสองชิ้น แต่ดูเหมือนได้ผลน้อยกว่ายาฉีด Zepbound",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "eli lilly",
+      "foundayo",
+      "sleep apnea"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "d831828b9349",
@@ -2536,7 +2830,19 @@
      "link": "https://medicalxpress.com/news/2026-11-strong-el-nio-episodes-additional.html",
      "source": "Medical Xpress",
      "published": 1794247231,
-     "text": "The current El Niño episode, often described as a \"super El Niño,\" raises concerns about the potential impact of this phenomenon on global temperatures and related health impacts. A new study by the Barcelona Institute for Global Health (ISGlobal) has examined the relationship between this climate phenomenon and temperature-related mortality worldwide. The study, published in Nature Medicine, estimates that very strong El Niño episodes are associated with 107,035 additional heat-related deaths and 112,681 fewer cold-related deaths per year compared with neutral conditions."
+     "text": "The current El Niño episode, often described as a \"super El Niño,\" raises concerns about the potential impact of this phenomenon on global temperatures and related health impacts. A new study by the Barcelona Institute for Global Health (ISGlobal) has examined the relationship between this climate phenomenon and temperature-related mortality worldwide. The study, published in Nature Medicine, estimates that very strong El Niño episodes are associated with 107,035 additional heat-related deaths and 112,681 fewer cold-related deaths per year compared with neutral conditions.",
+     "summary_th": "การศึกษาของ ISGlobal ที่ตีพิมพ์ใน Nature Medicine พบว่า El Niño ที่รุนแรงมากเกี่ยวข้องกับการเสียชีวิตจากความร้อนเพิ่มขึ้นมากกว่า 100,000 รายต่อปีทั่วโลก",
+     "importance": 2,
+     "numbers": [
+      "100,000"
+     ],
+     "tags": [
+      "el nino",
+      "heat deaths",
+      "climate"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "ca6726ede602",
@@ -2544,7 +2850,17 @@
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQU1sTGUydHFkVmpJb2pDR2xJMVVjY2Z5NDhJbjUyeUxZR2JVX0IwRF90YXY5cjY1NjVpX0hNVVNYc3ZtY3N0UkwtdmZoaUFzSklMbURRT3Nybm1zUGV6NWZNbHFObjNEdnBmbFYwZmtxendEb1hHQlg4dHY2cXozMTNrMzZYZnpFV3BPLXdWU0tDTzdmbE8yMFBn?oc=5",
      "source": "Yahoo Finance",
      "published": 1794244140,
-     "text": "Can Moderna's First Cancer Therapy Win FDA Approval in 2027? Yahoo Finance"
+     "text": "Can Moderna's First Cancer Therapy Win FDA Approval in 2027? Yahoo Finance",
+     "summary_th": "บทความตั้งคำถามว่า การรักษามะเร็งตัวแรกของ Moderna จะได้รับการอนุมัติจาก FDA ในปี 2027 หรือไม่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "moderna",
+      "fda",
+      "cancer therapy"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "801f8d965af3",
@@ -2552,7 +2868,17 @@
      "link": "https://www.statnews.com/pharmalot/2026/11/09/novartis-abandons-heart-drug-bio-fighting-trump-program/",
      "source": "STAT News",
      "published": 1794234522,
-     "text": "Novartis is largely abandoning a drug once considered a potential blockbuster after a study found it had little promise for preventing heart attacks and deaths"
+     "text": "Novartis is largely abandoning a drug once considered a potential blockbuster after a study found it had little promise for preventing heart attacks and deaths",
+     "summary_th": "STAT รายงานว่า Novartis ละทิ้งยาที่เคยถูกมองว่าอาจเป็นยาขายดี หลังการศึกษาพบว่าแทบไม่ช่วยป้องกันหัวใจวายและการเสียชีวิต และมีข่าว BIO ต่อต้านโปรแกรมหนึ่งของรัฐบาลทรัมป์",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "novartis",
+      "bio",
+      "trump administration"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "d2d89c3c2821",
@@ -2560,7 +2886,16 @@
      "link": "https://medicalxpress.com/news/2026-11-odor-signify-unsafe-consumption.html",
      "source": "Medical Xpress",
      "published": 1794247210,
-     "text": "Learning to associate certain food smells with unpleasant ailments following consumption helps many organisms learn which foods are unsafe. In a new study in JNeurosci, Dan Rokni and colleagues at the Hebrew University of Jerusalem used mice to explore how the brain learns that some smells signify \"unsafe to ingest.\" The researchers focused on the role of the nucleus of the lateral olfactory tract (NLOT), which supports communication between the nose and the brain about smells."
+     "text": "Learning to associate certain food smells with unpleasant ailments following consumption helps many organisms learn which foods are unsafe. In a new study in JNeurosci, Dan Rokni and colleagues at the Hebrew University of Jerusalem used mice to explore how the brain learns that some smells signify \"unsafe to ingest.\" The researchers focused on the role of the nucleus of the lateral olfactory tract (NLOT), which supports communication between the nose and the brain about smells.",
+     "summary_th": "งานวิจัยในวารสาร JNeurosci ใช้หนูศึกษาว่าสมองเรียนรู้ได้อย่างไรว่ากลิ่นบางอย่างบอกว่าอาหารหรือน้ำไม่ปลอดภัยที่จะกิน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "olfaction",
+      "neuroscience"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "6436e5501103",
@@ -2568,7 +2903,15 @@
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNHlseXFwYU9haV9zT2FERVJvRDBVMWNIRWhpbjJhYkZYZEJIbE5hY19WVXdrZXNhb29kd2syQkFydG5aZWlDNzRBV2liWEd5TlZqaHMxLVlWVDN0bTVDR3Jsd3VMSzI1Qk96Wm9kbEdSZ2Q4Q2NZTG5MdXhlY3VuMlc2aGRfZW5vc0pv?oc=5",
      "source": "Yahoo! Finance Canada",
      "published": 1794244020,
-     "text": "Stocks in play: Oncolytics Biotech Inc Yahoo! Finance Canada"
+     "text": "Stocks in play: Oncolytics Biotech Inc Yahoo! Finance Canada",
+     "summary_th": "หุ้น Oncolytics Biotech Inc ถูกนำเสนอว่าเป็นหุ้นที่น่าสนใจ (stocks in play)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "oncolytics biotech"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     }
    ]
   }
