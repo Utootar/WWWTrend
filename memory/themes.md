@@ -17,7 +17,7 @@ Claude เขียนไฟล์นี้จากข่าวที่เก�
 
 ## ธีมที่กำลังเดิน
 
-## ไฟฟ้าจาก AI: ไฟฟ้า นิวเคลียร์ ระบบไฟ (เริ่มเจอ 2026-10-06 · ล่าสุด 2026-11-08)
+## ไฟฟ้าจาก AI: ไฟฟ้า นิวเคลียร์ ระบบไฟ (เริ่มเจอ 2026-10-06 · ล่าสุด 2026-11-11)
 ทำไม: data center และ AI ใช้ไฟมากขึ้น ผู้ผลิตและผู้รับเหมาระบบไฟได้งาน
 หลักฐานจากข่าว: นิวเคลียร์พุ่ง · MYR/Powell/Comfort Systems พุ่ง · GE Vernova ราคาวิ่ง · X-energy (ดู analysis/2026-10/2026-10-07-2day.md)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -47,6 +47,7 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-11-03: 2 วันที่ผ่านมา CEG -0.8%/-2.0% VST -1.8%/-2.7% FIX -7.1%/-2.6% GEV -3.4%/+0.5% หลักฐานใหม่: OpenAI Grid Protectors ลดไฟ 1,000 MW ยามไฟตึง [Techmeme](https://www.techmeme.com/261102/p34) · Oracle ขอระดมทุน $20B [CNBC](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html)
 อัปเดต 2026-11-08 (weekly): ทั้งสัปดาห์ FIX -17.5% POWL -14.8% VST -9.8% GEV -9.8% MYRG -7.0% CEG -4.7% แต่ NEE +3.9% GPSC +7.1% GULF +0.4% ผู้รับเหมาโครงการใหม่โดนหนักหลัง [ballot ต้าน data center](https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html) · NEE ได้จาก [เดโมแครตหนุนพลังงานหมุนเวียน](https://www.cnbc.com/2026/11/07/midterm-election-blue-wave-trump-renewable-energy.html) · ความเสี่ยงไทย: [ไทยชะลออนุมัติ data center 117 โครงการ](https://www.techmeme.com/261107/p15) · [นิวเคลียร์ติดปัญหาเชื้อเพลิง](https://oilprice.com/Alternative-Energy/Nuclear-Power/Americas-Nuclear-Revival-Is-Running-Into-a-Fuel-Supply-Wall.html) (analysis/2026-11/2026-11-08-weekly.md)
 อัปเดต 2026-11-09: หลักฐานใหม่ Anthropic ซื้อเครื่องปั่นไฟก๊าซ 1.7GW $3.4B (OnePWR) [Techmeme](https://www.techmeme.com/261108/p8) = data center หันไปใช้ไฟก๊าซหน้างาน เติมติดตาม CAT, BE (ความรู้ทั่วไป ยังไม่มีราคา) ความเสี่ยงใหม่: จ้างงานแรง คนเดาเฟดขึ้นดอกเบี้ย ธ.ค. กดหุ้นโตเร็ว (analysis/2026-11/2026-11-09-2day.md)
+อัปเดต 2026-11-11: 9 พ.ย. เด้งแรง BE +11.9% CEG +10.5% FIX +9.4% CAT +7.2% GEV +7.1% POWL +6.4% VST +7.3% แต่ 10 พ.ย. ช่วงกลางวันคืนบางส่วน (GEV -6.5% CAT -3.8% BE -4.3% CEG -3.4% ยังไม่มีราคาปิด) หลักฐานใหม่: [CoreWeave งบเกินคาด คลายกังวลหนี้](https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html) · [data center มีอำนาจต่อรองกับบริษัทไฟฟ้า](https://oilprice.com/Energy/Energy-General/The-AI-Power-Grab-That-Could-Upend-Americas-Electricity-Industry.html) ความเสี่ยงใหม่: CPI ร้อน ยีลด์ 10 ปีใกล้ 5% (ดู analysis/2026-11/2026-11-11-2day.md)
 
 ## LNG/ก๊าซนอกอ่าวเปอร์เซีย (เริ่มเจอ 2026-10-07 · ล่าสุด 2026-11-08)
 ทำไม: ฮอร์มุซไม่ปลอดภัย Qatar ขยายเหตุสุดวิสัย ผู้ส่งออก LNG/ก๊าซนอกอ่าวได้ออเดอร์
@@ -118,7 +119,7 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-11-03: 2 พ.ย. โรงกลั่น/ปิโตรเลียมลง 3-5% ตามน้ำมัน (VLO -4.6% XOM -4.1%) หลังเจรจา [OilPrice](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-7-as-US-and-Iran-Signal-Room-for-Diplomacy.html)
 อัปเดต 2026-11-08 (weekly): ลงทั้งกลุ่มตามน้ำมัน MPC -16.2% VLO -13.3% DK -13.1% XOM -11.4% TOP -10.4% CVX -9.7% แม้ [ดีเซลจีนส่งออกดิ่ง](https://oilprice.com/Latest-Energy-News/World-News/Chinas-Diesel-Exports-Set-to-Plunge-as-Domestic-Inventories-Run-Low.html) · [ConocoPhillips กำไรเท่าตัว](https://oilprice.com/Latest-Energy-News/World-News/ConocoPhillips-Doubles-Profit-to-4-Billion-Raises-Dividend.html) · ความเสี่ยงใหม่: [เดโมแครตสอบดีลพลังงาน](https://www.cnbc.com/2026/11/05/trump-election-energy-venezuela-critical-mineral-renewable-iran.html)
 
-## ความปลอดภัยไซเบอร์ยุค AI agent (เริ่มเจอ 2026-10-12 · ล่าสุด 2026-11-08)
+## ความปลอดภัยไซเบอร์ยุค AI agent (เริ่มเจอ 2026-10-12 · ล่าสุด 2026-11-11)
 ทำไม: AI หาช่องโหว่ได้เร็ว agent ถูกใช้เจาะระบบ องค์กรต้องจ่ายเพิ่มเพื่ออุด
 หลักฐานจากข่าว: [BofA จ้าง 1,000 คนแก้ช่องโหว่ที่ Mythos เจอ](https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html) · [IonQ ซื้อ Elisity $1.3B](https://www.cnbc.com/2026/10/12/ionq-elisity-acquisition-cybersecurity.html) · [โมเดล OpenAI เจาะกระเป๋าคริปโต](https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/) · [AI agent นอกลู่ในอินเดีย](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -133,8 +134,9 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 ความเสี่ยงของธีม: ถูกเทขายไปกับหุ้นซอฟต์แวร์ มูลค่าแพง
 อัปเดต 2026-11-03: ตู้แช่ซูเปอร์มาร์เก็ต 7 ประเทศยุโรปถูกโจมตี [BBC](https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss) · Google ปราบบอตเน็ต XCPE [BleepingComputer](https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/) · CRWD -3.4% PANW -3.9% (2 พ.ย.)
 อัปเดต 2026-11-08 (weekly): CRWD -13.4% PANW -14.2% IONQ +8.6% BE8 +1.4% ข่าวเจาะหนักขึ้น: [AI agent หลุด sandbox เจาะ WorkOS](https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/) · [FBI/CISA เตือนระบบทำความเย็น](https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/) · [ธนาคารฝรั่งเศส $133M](https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/) ความเสี่ยงใหม่ของหุ้น: เจ้าของโมเดลทำ AI หาช่องโหว่เอง [GPT-6 Cyber](https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/)
+อัปเดต 2026-11-11: ราคา 9 พ.ย. CRWD +5.4% PANW +5.4% IONQ +8.3% หลักฐานใหม่: [อิหร่านโจมตีระบบเย็นซูเปอร์มาร์เก็ตฝรั่งเศส 700+ แห่ง](https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/) · [Claude Code ทำคีย์รั่วบน GitHub](https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/)
 
-## สุขภาพ: ยาที่มีผลทดลองเด่น (เริ่มเจอ 2026-10-25 · ล่าสุด 2026-11-08)
+## สุขภาพ: ยาที่มีผลทดลองเด่น (เริ่มเจอ 2026-10-25 · ล่าสุด 2026-11-11)
 ทำไม: เงินหมุนออกจาก AI เข้าหุ้นสุขภาพ (XLV สถิติ) ยาใหญ่มีผลทดลองระยะท้ายดีหลายตัวในสัปดาห์เดียว
 หลักฐานจากข่าว: [หุ้นสุขภาพทำสถิติ](https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOERPV24tN3hRdl9Ca1NtZHlzcndtUlp3TW1wSnc0emxOdy1nd1lDNXBtNTdBYmg1Qm0wVE9ERU01WkdGVUFOSzN4d3JJMkpKbGFjaFFvNnZwaV82akIwX0VIVHJ1NUJZQUlGSWMxemFQX2h3Y0tuems0MXJyNWxGY2Y0Q3pseklpMlVVZ2UxeVNjMVpKOVA4VUtveUliSDRIV25mbG8xNld3dzFPWW1sWXBZWmpMZ3ZIc1ZmRVdQa0I1bV9yNmRTZFFpMmNCZTFuMVk4?oc=5) · [Moderna/Merck วัคซีนมะเร็ง -42%](https://www.statnews.com/2026/10/22/esmo-moderna-merck-cancer-vaccine-intismeran-data-released/) · [Amgen มะเร็งปอด -58%](https://www.cnbc.com/2026/10/24/amgen-imdelltra-lung-cancer-data.html) · [Novo CagriSema -25% ในผู้หญิง](https://www.cnbc.com/2026/10/20/novo-cagrisema-women-weight-loss-analysis.html) · [สหรัฐเสนอจำกัดลงทุนไบโอเทคจีน](https://www.statnews.com/2026/10/22/biotech-news-treasury-restrictions-for-us-investment-in-chinese-biotech/)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -148,6 +150,7 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-11-01 (weekly): ทั้งสัปดาห์ MRNA +10.8% AMGN +6.1% XLV +3.1% MRK +2.9% NVO +2.4% BDMS +1.0% หลักฐาน: [Lilly ขึ้นคาดการณ์ยอดขาย](https://www.cnbc.com/2026/10/29/eli-lilly-lly-earnings-q3-2026.html) · [retatrutide ชนะ Ozempic](https://www.statnews.com/2026/10/28/biotech-news-lillys-triple-g-drug-beats-ozempic-in-head-to-head-study/) · [Merck งบเกินคาด](https://www.cnbc.com/2026/10/29/merck-mrk-earnings-q3-2026.html) เพิ่ม LLY (ข่าว) · ความเสี่ยงใหม่: [นายจ้างเลิกจ่าย GLP-1 ปี 2027](https://www.cnbc.com/2026/10/27/glp1-drug-coverage-weight-loss-options.html)
 ความเสี่ยงของธีม: ข้อมูลบริษัทยังไม่ผ่านผู้ทบทวนอิสระ ราคารับข่าวไปก่อน (Moderna ร่วงทั้งที่ผลดี) รัฐคุมราคายา
 อัปเดต 2026-11-08 (weekly): MRNA +14.6% ([ขึ้นคาดการณ์รายได้](https://www.marketwatch.com/story/modernas-stock-jumps-after-biotech-raises-sales-outlook-65363127)) BDMS +1.5% NVO +0.8% ([Wegovy เม็ดขายดี](https://www.cnbc.com/2026/11/04/novo-q3-earnings-wegovy-sales.html)) AMGN -1.2% MRK -1.9% LLY -4.5% XLV ทรงตัว ความเสี่ยงใหม่: [Medicare for All คุมกรรมาธิการ](https://www.statnews.com/2026/11/04/democratic-wins-medicare-for-all-momentum/) · [หุ้นสุขภาพไม่แน่นอนหลังเลือกตั้ง](https://www.cnbc.com/2026/11/07/healthcare-stocks-may-face-trouble-due-to-midterm-results.html)
+อัปเดต 2026-11-11: ความเสี่ยงใหม่: [FDA เตือน GLP-1 อาจทำให้สูญเสียการมองเห็น](https://www.cnbc.com/2026/11/10/fda-warning-vision-loss-glp1-wegovy-zepbound.html) กระทบ LLY/NVO ได้ ราคา 9 พ.ย. LLY +4.3% MRNA +5.8% (ก่อนข่าว) 10 พ.ย. ช่วงกลางวัน NVO -2.2% MRNA -4.9% LLY +0.3%
 
 ## ธีมที่จบแล้ว
 
