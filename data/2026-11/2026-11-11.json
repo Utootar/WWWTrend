@@ -6,7 +6,7 @@
   "gemini/gemini-flash-latest",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 97,
+ "summary_failed": 0,
  "prices": [
   {
    "symbol": "^GSPC",
@@ -1019,7 +1019,18 @@
      "link": "https://www.cnbc.com/2026/11/11/october-retail-sales-cnbc-nrf-2026.html",
      "source": "CNBC Markets",
      "published": 1794400067,
-     "text": "Retail sales rose at their slowest pace in nearly a year in October as American consumers showed signs of strain from high prices."
+     "text": "Retail sales rose at their slowest pace in nearly a year in October as American consumers showed signs of strain from high prices.",
+     "summary_th": "ยอดค้าปลีกสหรัฐในเดือนตุลาคมเพิ่มช้าที่สุดในรอบเกือบปี สะท้อนว่าผู้บริโภคเริ่มตึงตัวจากราคาสูง แม้ยังใช้จ่ายอยู่",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "retail sales",
+      "consumer"
+     ],
+     "entities": [
+      "CNBC/NRF Retail Monitor"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2dedcfedf592",
@@ -1027,7 +1038,21 @@
      "link": "https://www.cnbc.com/2026/11/11/trump-company-equity-takes.html",
      "source": "CNBC Top News",
      "published": 1794413483,
-     "text": "The Trump administration had established some form of equity position in 41 companies as of November, according to the CATO Institute's tally."
+     "text": "The Trump administration had established some form of equity position in 41 companies as of November, according to the CATO Institute's tally.",
+     "summary_th": "ตามการนับของ CATO Institute รัฐบาลทรัมป์มีส่วนได้เสียในหุ้นของ 41 บริษัท ณ เดือนพฤศจิกายน ขณะที่พรรคเดโมแครตอาจก่อความยุ่งยากกับการถือหุ้นเหล่านี้",
+     "importance": 2,
+     "numbers": [
+      "41"
+     ],
+     "tags": [
+      "government equity stakes"
+     ],
+     "entities": [
+      "CATO Institute",
+      "Trump administration",
+      "U.S. Steel"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "687904491404",
@@ -1035,7 +1060,18 @@
      "link": "https://www.marketwatch.com/story/anthropics-ipo-roadshow-kicks-off-and-the-big-money-is-already-lining-up-7cdd4f8b",
      "source": "MarketWatch",
      "published": 1794412980,
-     "text": "Despite nagging concerns over the AI trade, Anthropic’s IPO is reportedly seeing very strong demand."
+     "text": "Despite nagging concerns over the AI trade, Anthropic’s IPO is reportedly seeing very strong demand.",
+     "summary_th": "Anthropic เริ่มโรดโชว์ IPO และรายงานว่ามีความต้องการซื้อหุ้นสูงมาก แม้มีความกังวลเรื่องกระแส AI",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "anthropic",
+      "ipo"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e669c322f41d",
@@ -1043,7 +1079,20 @@
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQek9wUW01SjFDSmE0dThwM01fWU1TSmdCeVpGSTQxcTJfak9XQ2FRdFRiLXFTckZaWHZYX2FhOTN3M2NCanBDSk5EeDBfbEhUbEw5eTlYNWZ3Y0FwVG9IVVFjajEyZ1h1ZUFBbVduVnNSeTQzdGxkWjlDSV9RV0d5cld1cnU1TU9SakJUdWpENURZT2xPX1RzQkFybkpxQWppdkVfYmEzSG5UYTQ?oc=5",
      "source": "Benzinga",
      "published": 1794412814,
-     "text": "Tech Stocks Add Over $500 Billion as CoreWeave's Blockbuster Results Rescue AI Rally Benzinga"
+     "text": "Tech Stocks Add Over $500 Billion as CoreWeave's Blockbuster Results Rescue AI Rally Benzinga",
+     "summary_th": "หุ้นเทคโนโลยีเพิ่มมูลค่ากว่า 500 พันล้านดอลลาร์ หลังผลประกอบการ CoreWeave ช่วยฟื้นกระแสการขึ้นของ AI",
+     "importance": 2,
+     "numbers": [
+      "$500 Billion"
+     ],
+     "tags": [
+      "ai trade",
+      "coreweave"
+     ],
+     "entities": [
+      "CoreWeave"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "16dadfebd335",
@@ -1051,7 +1100,21 @@
      "link": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
      "source": "CNBC Top News",
      "published": 1794413088,
-     "text": "Neoclouds such as CoreWeave, Nebius and IREN have come under scrutiny this month as investors assessed the sustainability of the AI trade."
+     "text": "Neoclouds such as CoreWeave, Nebius and IREN have come under scrutiny this month as investors assessed the sustainability of the AI trade.",
+     "summary_th": "หุ้น CoreWeave พุ่ง 23% หลัง CEO ยืนยันความต้องการ AI compute หลังผลประกอบการไตรมาส 3 ที่แข็งแกร่ง",
+     "importance": 2,
+     "numbers": [
+      "23%"
+     ],
+     "tags": [
+      "coreweave"
+     ],
+     "entities": [
+      "CoreWeave",
+      "Nebius",
+      "IREN"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "bc843e28a939",
@@ -1059,7 +1122,20 @@
      "link": "https://www.marketwatch.com/story/micron-and-other-ai-stocks-surge-as-coreweave-calms-wall-streets-worst-fears-0a18152a",
      "source": "MarketWatch",
      "published": 1794410760,
-     "text": "CoreWeave’s improved AI economics and its vow to show some discipline around debt are sparking a broad rally across the chip sector."
+     "text": "CoreWeave’s improved AI economics and its vow to show some discipline around debt are sparking a broad rally across the chip sector.",
+     "summary_th": "การปรับปรุงเศรษฐศาสตร์ AI ของ CoreWeave และคำมั่นเรื่องวินัยด้านหนี้ จุดกระแสการขึ้นของหุ้นชิปทั้งกลุ่ม",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai chips",
+      "coreweave"
+     ],
+     "entities": [
+      "CoreWeave",
+      "Micron",
+      "Lumentum"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8c33522ae79f",
@@ -1067,7 +1143,18 @@
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNm9rUDU1R28zR2NubWRaeWdaYUl6dG4wWW9CTWpoNlNpUEtWRDAyUHVJRGdEeFVqa3FHNTJISkc4TGxLR3Nsc2YweC1aT1BKcEdhYjlLR09CRXFoRjJyRzZqSEkxV01BTFBrOERCWHBoODVocXItcGlJWjl4d1V2NmVvMHhJQ1BpVUNrVFlYejMyTUhTNDNiWmMtRTZyMExuVU94bGJUQQ?oc=5",
      "source": "Seeking Alpha",
      "published": 1794412632,
-     "text": "Micron: HBM Repricing Strengthens The Buy Case After The Selloff (NASDAQ:MU) Seeking Alpha"
+     "text": "Micron: HBM Repricing Strengthens The Buy Case After The Selloff (NASDAQ:MU) Seeking Alpha",
+     "summary_th": "บทความจาก Seeking Alpha ระบุว่าการปรับราคา HBM ทำให้มุมมองการซื้อหุ้น Micron แข็งแกร่งขึ้นหลังหุ้นลง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "micron",
+      "hbm"
+     ],
+     "entities": [
+      "Micron"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b61c3675cf53",
@@ -1075,7 +1162,18 @@
      "link": "https://www.cnbc.com/2026/11/11/jetblue-ceo-premium.html",
      "source": "CNBC Top News",
      "published": 1794412664,
-     "text": "JetBlue will give reporters a look at its new first class seats on Wednesday."
+     "text": "JetBlue will give reporters a look at its new first class seats on Wednesday.",
+     "summary_th": "CEO ของ JetBlue ตอบโต้ความกังวลของเจ้าหนี้ และเดิมพันว่าบริการพรีเมียมจะช่วยให้กลับมามีกำไร บริษัทจะให้ดูที่นั่งชั้นหนึ่งใหม่ในวันพุธ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "jetblue",
+      "airlines"
+     ],
+     "entities": [
+      "JetBlue"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b50a485f776c",
@@ -1083,7 +1181,18 @@
      "link": "https://www.marketwatch.com/story/im-63-and-want-to-spend-95-000-on-a-roof-deck-for-my-500-000-home-is-that-a-good-investment-f1a59c27",
      "source": "MarketWatch",
      "published": 1794410700,
-     "text": "“I have a net worth of $2.3 million and my only debt is a 15-year mortgage with an outstanding balance of $295,000.”"
+     "text": "“I have a net worth of $2.3 million and my only debt is a 15-year mortgage with an outstanding balance of $295,000.”",
+     "summary_th": "เป็นคอลัมน์ถามตอบการเงินส่วนบุคคล ผู้ถามอายุ 63 ปีถามว่าการทำระเบียงดาดฟ้า 95,000 ดอลลาร์ในบ้านราคา 500,000 ดอลลาร์ คุ้มค่าหรือไม่",
+     "importance": 0,
+     "numbers": [
+      "$95,000",
+      "$500,000"
+     ],
+     "tags": [
+      "personal finance"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "173410fbb4d3",
@@ -1091,7 +1200,17 @@
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQc1BFOGNEYzFQQ0NXV1B0OEN0bXpTRDA0b2hMa3hWOE8yR095NENZZEdONHJnalBNeTZlenk3MDQyVExnT19XMTJQODkyd0NGUTV1MjNxTW54Yk5DNmVTN0FhYThVQUdRWm5WMnUzMjdxYXFQMTczWkJMLVAyajZHZ19NdkdJTkFUeGMwcHFSeFl2cE0zdG9JdDlvZWRpS1lreVBCWmxBVDhCUjFqZ1E?oc=5",
      "source": "Benzinga",
      "published": 1794412598,
-     "text": "What's Going On With Marvell Technology Stock Wednesday? Benzinga"
+     "text": "What's Going On With Marvell Technology Stock Wednesday? Benzinga",
+     "summary_th": "ข่าวสั้นเรื่องหุ้น Marvell Technology ที่เคลื่อนไหวในวันพุธ ต้นทางไม่มีรายละเอียดเพิ่ม",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "marvell"
+     ],
+     "entities": [
+      "Marvell Technology"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8961e729b820",
@@ -1099,7 +1218,19 @@
      "link": "https://www.cnbc.com/2026/11/11/coreweave-ceo-election-data-center-buildout.html",
      "source": "CNBC Top News",
      "published": 1794412416,
-     "text": "After CoreWeave beat on revenue and upped its forecast, CEO Mike Intrator indicated the company will be fine despite last week's Democratic midterm sweep."
+     "text": "After CoreWeave beat on revenue and upped its forecast, CEO Mike Intrator indicated the company will be fine despite last week's Democratic midterm sweep.",
+     "summary_th": "CEO ของ CoreWeave บอกกับ CNBC ว่ายกเลิกแผนขายหุ้นออกมาแล้ว หลังบริษัทมีรายได้เกินคาดและปรับประมาณการขึ้น",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "coreweave"
+     ],
+     "entities": [
+      "CoreWeave",
+      "Mike Intrator",
+      "CNBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "dc922cd23496",
@@ -1107,7 +1238,16 @@
      "link": "https://www.marketwatch.com/story/market-angst-is-driving-investors-into-low-volatility-stocks-as-ai-trade-stumbles-23d905e9",
      "source": "MarketWatch",
      "published": 1794410100,
-     "text": "Anxiety in the U.S. stock market has surged amid a sharp selloff in artificial intelligence names and stubbornly high bond yields."
+     "text": "Anxiety in the U.S. stock market has surged amid a sharp selloff in artificial intelligence names and stubbornly high bond yields.",
+     "summary_th": "ความกังวลในตลาดหุ้นสหรัฐเพิ่มขึ้น ทำให้นักลงทุนหันไปหาหุ้นที่ความผันผวนต่ำ ท่ามกลางการร่วงของหุ้น AI และอัตราพันธบัตรที่ยังสูง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "low volatility",
+      "ai trade"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "11ce923e605f",
@@ -1115,7 +1255,17 @@
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX3pFQTR6MjVmcVpNak42UEFXYU1PUkxrVUpOMUNMVGJ0aW12OE1WVDlJcDNwQmNhT2w4ZWZHbVFOa2ZLTTZ1OVZjQ3RQSC1aSEdkUTVDbUtvM2Z6MW5HUUhtaWgyX0hWQWhOVkxZT3J4cUxjSF9Hc20zWjR4YVdBVkpaYi1acDhmZjRqazhxeEo3OFh5OC1kX1ZiNHJiTjBfdmdyNGdB?oc=5",
      "source": "Benzinga",
      "published": 1794412436,
-     "text": "Costco Stock Moves Higher: What's Going On? Benzinga"
+     "text": "Costco Stock Moves Higher: What's Going On? Benzinga",
+     "summary_th": "ข่าวสั้นว่าหุ้น Costco ปรับตัวขึ้น ต้นทางไม่มีรายละเอียดเพิ่ม",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "costco"
+     ],
+     "entities": [
+      "Costco"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "76c999da91fe",
@@ -1123,7 +1273,18 @@
      "link": "https://www.cnbc.com/2026/11/11/gabby-williams-embraces-role-in-wnbas-political-and-cultural-debates-.html",
      "source": "CNBC Top News",
      "published": 1794410459,
-     "text": "Golden State Valkyries star Gabby Williams speaks about winning the WNBA championship, being named Finals MVP, and the culture war over women's sports."
+     "text": "Golden State Valkyries star Gabby Williams speaks about winning the WNBA championship, being named Finals MVP, and the culture war over women's sports.",
+     "summary_th": "Gabby Williams MVP รอบชิงแชมป์ WNBA พูดว่า 'การมีอยู่ของเราคือการเมือง' และพูดถึงความขัดแย้งทางวัฒนธรรมเรื่องกีฬาหญิง",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "wnba"
+     ],
+     "entities": [
+      "Gabby Williams",
+      "Golden State Valkyries"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "300f0f387290",
@@ -1131,7 +1292,17 @@
      "link": "https://www.marketwatch.com/story/from-living-in-his-car-to-a-756-credit-score-how-one-veteran-rebuilt-his-finances-026c3336",
      "source": "MarketWatch",
      "published": 1794409680,
-     "text": "Many service members face an often invisible financial trap when they step out of uniform."
+     "text": "Many service members face an often invisible financial trap when they step out of uniform.",
+     "summary_th": "เรื่องเล่าของทหารผ่านศึกที่ฟื้นฟูการเงินจากการอาศัยในรถจนได้คะแนนเครดิต 756",
+     "importance": 0,
+     "numbers": [
+      "756"
+     ],
+     "tags": [
+      "personal finance"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "3c735f7cf75c",
@@ -1139,7 +1310,19 @@
      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZE5UemJ1c0dZMUgxRGl1bUtFS1ZaeVZoWEFjYWFlODVqSFNxU3QtVGd6VGJpV1k1bFhTbW5OUW50WHYySUZ5SndwRGUtWjczaHFvQ25CRVhxZkoxWTRuTXdOR2JUSGl3RUpsYWlHT21yNnNuTFhXb0NmblhUTG84OA?oc=5",
      "source": "Seeking Alpha",
      "published": 1794411992,
-     "text": "Liquidia stock upgraded at Raymond James (LQDA:NASDAQ) Seeking Alpha"
+     "text": "Liquidia stock upgraded at Raymond James (LQDA:NASDAQ) Seeking Alpha",
+     "summary_th": "Raymond James ปรับอันดับหุ้น Liquidia ขึ้น",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "liquidia",
+      "analyst rating"
+     ],
+     "entities": [
+      "Liquidia",
+      "Raymond James"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "fafd0716dc85",
@@ -1147,7 +1330,19 @@
      "link": "https://www.cnbc.com/2026/11/11/measles-outbreak-us-economic-cost.html",
      "source": "CNBC Top News",
      "published": 1794410093,
-     "text": "A new tool developed by Johns Hopkins researchers estimates that the 2025 measles outbreak in the U.S. carried an economic cost of more than $37 million."
+     "text": "A new tool developed by Johns Hopkins researchers estimates that the 2025 measles outbreak in the U.S. carried an economic cost of more than $37 million.",
+     "summary_th": "นักวิจัย Johns Hopkins ประเมินว่าการระบาดของหัดในสหรัฐปี 2025 สร้างความเสียหายทางเศรษฐกิจกว่า $37 million",
+     "importance": 1,
+     "numbers": [
+      "$37 million"
+     ],
+     "tags": [
+      "measles"
+     ],
+     "entities": [
+      "Johns Hopkins"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d1c93b655fab",
@@ -1155,7 +1350,15 @@
      "link": "https://www.marketwatch.com/story/my-friend-feels-trapped-at-her-job-but-wont-do-anything-about-it-am-i-supposed-to-step-in-7e55604e",
      "source": "MarketWatch",
      "published": 1794407040,
-     "text": "It’s counterintuitive, but the worst thing you could do is give your friend advice, says one career coach."
+     "text": "It’s counterintuitive, but the worst thing you could do is give your friend advice, says one career coach.",
+     "summary_th": "คอลัมน์ให้คำแนะนำ โค้ชอาชีพคนหนึ่งบอกว่าการให้คำแนะนำกับเพื่อนที่เกลียดงานอาจเป็นสิ่งที่ทำให้แย่ที่สุด",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "advice"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "fc51348c1185",
@@ -1163,7 +1366,20 @@
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdTdCOTBpTmh1WVNYd0hQcFpDUFdrZm95SnNNNm9pTThjUmowUzN5cUZVRFFjSVVHdWtuZDREWnZvLUdlS3NSOE9fYTRtc1RVMF9laXk5M1JOejhoM21kZjVoZWZ6Z0h1TU9MMVh3NXU1Vko3dW15QWZKbVp3YXh4Y0dUd3pTRWhvc3RYcHlFaEZTTWRscENtQVlJNEphZHhzSGhQUmZUN2ljYmNQYWJsT2ljZG1yVWpoN2NFbVFmOV9OZjM5WGdvTkhEWUVZU0JuamtXTFN1V2RtQQ?oc=5",
      "source": "Benzinga",
      "published": 1794411244,
-     "text": "Nasdaq Jumps Over 300 Points; Boyd Group Services Shares Plunge After Q3 Results Benzinga"
+     "text": "Nasdaq Jumps Over 300 Points; Boyd Group Services Shares Plunge After Q3 Results Benzinga",
+     "summary_th": "ดัชนี Nasdaq เพิ่มกว่า 300 จุด ขณะที่หุ้น Boyd Group Services ร่วงหนักหลังผลประกอบการไตรมาส 3",
+     "importance": 1,
+     "numbers": [
+      "300 Points"
+     ],
+     "tags": [
+      "nasdaq",
+      "boyd group"
+     ],
+     "entities": [
+      "Boyd Group Services"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "65274679228c",
@@ -1171,7 +1387,19 @@
      "link": "https://www.cnbc.com/2026/11/11/cftc-investigates-if-kalshi-improperly-self-certified-event-contracts.html",
      "source": "CNBC Top News",
      "published": 1794408556,
-     "text": "News of the probe comes after the CFTC ordered Kalshi to take down a sports-related \"mention markets\" back in August."
+     "text": "News of the probe comes after the CFTC ordered Kalshi to take down a sports-related \"mention markets\" back in August.",
+     "summary_th": "CFTC สอบสวนว่า Kalshi จัดประเภทสัญญาอีเวนต์เองอย่างไม่ถูกต้องหรือไม่ หลังเคยสั่งให้ลบตลาดการพูดถึงกีฬาเมื่อเดือนสิงหาคม",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "kalshi",
+      "cftc"
+     ],
+     "entities": [
+      "Kalshi",
+      "CFTC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8e878c343827",
@@ -1179,7 +1407,15 @@
      "link": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996",
      "source": "MarketWatch",
      "published": 1794405120,
-     "text": "The market is dramatically underpricing the economic impact of Americans age 50 and older."
+     "text": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
+     "summary_th": "บทความระบุว่าภาคธุรกิจสหรัฐกำลังพลาดเรื่องการเกษียณ โดยตลาดประเมินผลกระทบทางเศรษฐกิจของคนอายุ 50 ปีขึ้นไปต่ำเกินไป",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "retirement"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "110813180a48",
@@ -1187,7 +1423,18 @@
      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNXzhacWEyeTZuSmtIV3pTXzNsa09wLTZPRF95bm5meVFsVi1XVm5vTmw4QXcxOVZScF9VUm5Rd2lGVHdjLWZIUXZQcmFnbTAtVG1IMnZHVEpNUVA0dHpTTGc1VV8xLWUzSmk0WUhjN2ZsajBvTkJma3E0MVJ3eWhBbV96Zm1CNmthNndMUjVRR3NONlgwR2lPX2FNTVNuZk9OQkxubW1ZQi05cUdhRV9kZXVhY1huWTFhV004MWZRN2QyLUFMSHFvNVNuN05ENW90QXNud0Vn?oc=5",
      "source": "Benzinga",
      "published": 1794411146,
-     "text": "These Analysts Cut Their Forecasts On CoreWeave After Q3 Results Benzinga"
+     "text": "These Analysts Cut Their Forecasts On CoreWeave After Q3 Results Benzinga",
+     "summary_th": "นักวิเคราะห์หลายรายลดประมาณการของ CoreWeave หลังผลประกอบการไตรมาส 3",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "coreweave",
+      "analyst"
+     ],
+     "entities": [
+      "CoreWeave"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7befb3377f15",
@@ -1195,7 +1442,19 @@
      "link": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
      "source": "CNBC Top News",
      "published": 1794407723,
-     "text": "Investors are assessing whether CEO Jensen Huang's affair will have spillover effects on Nvidia's business."
+     "text": "Investors are assessing whether CEO Jensen Huang's affair will have spillover effects on Nvidia's business.",
+     "summary_th": "หุ้น Nvidia กลับตัวขึ้น ท่ามกลางการจับตาเรื่องชู้สาวของ Jensen Huang ก่อนประกาศผลประกอบการ ว่าจะกระทบธุรกิจ Nvidia หรือไม่",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "jensen huang"
+     ],
+     "entities": [
+      "Nvidia",
+      "Jensen Huang"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "78ce9b4bdcb7",
@@ -1203,7 +1462,18 @@
      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPc005QkVpeDRXbm1uZi1Odzh1NDB0dk1nb094V3l5b0gwX3d2TXdsR0xWZGJFWldxNUhuWGpjX2JEN29obGpaVUZVZEM2SzNONkEyYzVrdk1vc01UTTRMMW0wWDRHS1g1TE5nOHdJU1owVmExNmYtRkhiRVV0UDVIN1pSWm4yc2dEbmhEQkNzMkl0eUE5VElTVjdmRGRGV1diWi1LWEVfMjFiT3B1eEZSSDBXR2pRTnRoUHpvZDBXTDl6cFRveFU0VXBSaHZBd3RYN0h6R3l5RHhmdWtSeUNQMy0zLVhrcHpDclU3YWxB?oc=5",
      "source": "TradingView",
      "published": 1794411079,
-     "text": "PodcastOne (Nasdaq: PODC) to Report Second Quarter Fiscal 2027 Financial Results on November 12, 2026 TradingView"
+     "text": "PodcastOne (Nasdaq: PODC) to Report Second Quarter Fiscal 2027 Financial Results on November 12, 2026 TradingView",
+     "summary_th": "PodcastOne จะรายงานผลประกอบการไตรมาส 2 ปีงบ 2027 ในวันที่ 12 พฤศจิกายน 2026",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "podcastone",
+      "earnings"
+     ],
+     "entities": [
+      "PodcastOne"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "33a677852d37",
@@ -1211,7 +1481,19 @@
      "link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
      "source": "CNBC Top News",
      "published": 1794407068,
-     "text": "The consumer price index rose more than expected in October, raising alarm among Federal Reserve officials."
+     "text": "The consumer price index rose more than expected in October, raising alarm among Federal Reserve officials.",
+     "summary_th": "Goolsbee จาก Fed เรียกรายงานเงินเฟ้อว่า 'borderline disturbing' หลัง CPI เดือนตุลาคมสูงกว่าคาด ขณะที่ Fed ชั่งใจเรื่องการขึ้นดอกเบี้ยเพิ่ม",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "fed",
+      "inflation"
+     ],
+     "entities": [
+      "Goolsbee",
+      "Federal Reserve"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -1542,7 +1824,8 @@
      "entities": [
       "Spain"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3a270928c1cf",
@@ -1565,7 +1848,8 @@
       "Abu Dhabi",
       "US"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6346adf6f24f",
@@ -1574,8 +1858,8 @@
      "source": "The Washington Post",
      "published": 1794412952,
      "text": "Analysis | Fed chair needs friends in Congress as inflation fight drags on The Washington Post",
-     "summary_th": "Analysis | Fed chair needs friends in Congress as inflation fight drags on",
-     "importance": 0,
+     "summary_th": "บทวิเคราะห์ของ The Washington Post ระบุว่าประธาน Fed ต้องการพันธมิตรในสภาคองเกรส ขณะที่การต่อสู้กับเงินเฟ้อยังยืดเยื้อ",
+     "importance": 1,
      "numbers": [],
      "tags": [
       "fed",
@@ -1584,7 +1868,10 @@
      "entities": [
       "Congress"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "เป็นข่าวเกี่ยวกับ Fed และเงินเฟ้อ ไม่ใช่หมวดที่ไม่เกี่ยว ปรับเป็น 1 และแปลพาดหัวให้ครบ",
+     "checked_by": "claude/review"
     },
     {
      "id": "23565797d1ba",
@@ -1604,7 +1891,8 @@
      "entities": [
       "Spain"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "bc93c941a230",
@@ -1628,7 +1916,8 @@
       "Argentina",
       "Italy"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "963f9126550e",
@@ -1645,7 +1934,8 @@
       "treasury yields"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ac17f050604f",
@@ -1666,7 +1956,8 @@
       "Wales",
       "Northern Ireland"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ff8b6bdaf492",
@@ -1687,7 +1978,8 @@
       "Lina Attalah",
       "Mada Masr"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8a1085c3e765",
@@ -1706,7 +1998,8 @@
      "entities": [
       "Allison Schrager"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "5accaa548694",
@@ -1715,14 +2008,17 @@
      "source": "BBC Business",
      "published": 1794391200,
      "text": "Tracking down the men who have made serious money from internet porn.",
-     "summary_th": "The Global Story",
+     "summary_th": "บทความติดตามกลุ่มคนที่ทำเงินจำนวนมากจากธุรกิจคอนเทนต์ผู้ใหญ่ออนไลน์",
      "importance": 0,
      "numbers": [],
      "tags": [
       "podcast"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "สรุปเป็นหัวข้อภาษาอังกฤษ ไม่บอกใจความที่ต้นทางระบุ",
+     "checked_by": "claude/review"
     },
     {
      "id": "c7c5ecc65616",
@@ -1746,7 +2042,8 @@
       "Selah Reed",
       "Canada"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "702bc7595831",
@@ -1767,7 +2064,8 @@
       "GOP",
       "Iran"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e5a1a30a6c22",
@@ -1788,7 +2086,8 @@
      "entities": [
       "Jersey Electricity"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "90dc2babdee0",
@@ -1810,7 +2109,8 @@
      "entities": [
       "Kenya"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "89640dc653b0",
@@ -1830,7 +2130,8 @@
      "entities": [
       "Trump"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -2162,7 +2463,16 @@
      "link": "https://oilprice.com/Energy/Energy-General/How-a-Super-El-Nio-Could-Reshape-Global-Coal-Markets.html",
      "source": "OilPrice.com",
      "published": 1794412800,
-     "text": "Most countries are finding ways to reduce their use of coal and coal-burning power plants as they strive to meet climate commitments. The pariah fossil fuel has wide-ranging impacts on human health and the environment, from extraction through combustion and waste disposal. Burning coal releases fine particulate matter, sulfur dioxide, nitrogen oxides and heavy metals. Inhaling these fine particles causes or worsens asthma, chronic bronchitis, heart disease, strokes, and may even lead to premature death. Coal combustion is a leading driver…"
+     "text": "Most countries are finding ways to reduce their use of coal and coal-burning power plants as they strive to meet climate commitments. The pariah fossil fuel has wide-ranging impacts on human health and the environment, from extraction through combustion and waste disposal. Burning coal releases fine particulate matter, sulfur dioxide, nitrogen oxides and heavy metals. Inhaling these fine particles causes or worsens asthma, chronic bronchitis, heart disease, strokes, and may even lead to premature death. Coal combustion is a leading driver…",
+     "summary_th": "บทความพิจารณาว่าปรากฏการณ์เอลนีโญรุนแรงอาจเปลี่ยนตลาดถ่านหินโลกอย่างไร",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "el nino",
+      "coal"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "eb87dafad822",
@@ -2170,7 +2480,20 @@
      "link": "https://www.cnbc.com/2026/11/11/us-iran-war-trump-hormuz-bessent-threats.html",
      "source": "CNBC Energy",
      "published": 1794404275,
-     "text": "The move comes as the Department of Justice said late Tuesday that three Iranian nationals have been indicted on terrorism-related charges."
+     "text": "The move comes as the Department of Justice said late Tuesday that three Iranian nationals have been indicted on terrorism-related charges.",
+     "summary_th": "รายงานของ NYT ระบุว่า Bessent ถูกย้ายไปฐานทัพทหาร หลังถูกขู่จากอิหร่าน ขณะที่กระทรวงยุติธรรมฟ้องชาวอิหร่านสามคนในข้อหาก่อการร้าย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "iran",
+      "bessent"
+     ],
+     "entities": [
+      "Bessent",
+      "Iran",
+      "Department of Justice"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "78b8e6626cd5",
@@ -2178,7 +2501,19 @@
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTVZlVUdVNnBXMnNlMVhXRlFZRkhINnVHQW1YZHZTNDBteTF3T0xYOS1sdWVfUVZXZldBeGlzQmo5Q09kNkJYTFB4alRJbzhJd3FCVkVqWFZ1eFB5OFliNDliX2d4dmlaVlRuRTZBOEZtQXBKZXZ4Vkd1M25VVXVuTGV2bFcyb3VFM29tUXQ1cDA5ME4zOUF4YjR2WU12QjZZM1Q3NVNGakRjakpIaDhIMWFR?oc=5",
      "source": "Forbes Middle East",
      "published": 1794413146,
-     "text": "Saudi Arabia Leads OPEC+ Oil Output Recovery Forbes Middle East"
+     "text": "Saudi Arabia Leads OPEC+ Oil Output Recovery Forbes Middle East",
+     "summary_th": "ซาอุดีอาระเบียนำการฟื้นตัวของผลผลิตน้ำมันในกลุ่ม OPEC+",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "opec+",
+      "saudi arabia"
+     ],
+     "entities": [
+      "Saudi Arabia",
+      "OPEC+"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f6a5d1239414",
@@ -2186,7 +2521,27 @@
      "link": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Crude-Output-Jumps-26-as-Riyadh-Reports-Near-Pre-War-Production.html",
      "source": "OilPrice.com",
      "published": 1794411000,
-     "text": "Saudi Arabia told OPEC it raised crude production in October to 10.563 million barrels per day, back near pre-war levels and slightly above its OPEC quota of about 10.5 million bpd, Bloomberg columnist Javier Blas reported on Wednesday. Output rose 26% from 8.372 million bpd in September to the highest level since February, when the kingdom reported 10.882 million bpd in the last month before the Iran war disrupted Middle East supply, according to Reuters. Riyadh’s official data put supply to the market, net of storage, at 9.203 million bpd,…"
+     "text": "Saudi Arabia told OPEC it raised crude production in October to 10.563 million barrels per day, back near pre-war levels and slightly above its OPEC quota of about 10.5 million bpd, Bloomberg columnist Javier Blas reported on Wednesday. Output rose 26% from 8.372 million bpd in September to the highest level since February, when the kingdom reported 10.882 million bpd in the last month before the Iran war disrupted Middle East supply, according to Reuters. Riyadh’s official data put supply to the market, net of storage, at 9.203 million bpd,…",
+     "summary_th": "ซาอุดีอาระเบียแจ้ง OPEC ว่าเพิ่มการผลิตในเดือนตุลาคมเป็น 10.563 ล้านบาร์เรลต่อวัน ใกล้ระดับก่อนสงคราม และเกินโควตาเล็กน้อย โดยเพิ่มขึ้น 26% จาก 8.372 ล้านบาร์เรลต่อวันในเดือนกันยายน",
+     "importance": 2,
+     "numbers": [
+      "26%",
+      "10.563",
+      "8.372",
+      "10.5"
+     ],
+     "tags": [
+      "saudi arabia",
+      "opec+",
+      "crude output"
+     ],
+     "entities": [
+      "Saudi Arabia",
+      "OPEC",
+      "Javier Blas",
+      "Bloomberg"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "172fb3329e6d",
@@ -2194,7 +2549,22 @@
      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UZWprV1F5YjBzc2RTYy1DeEc0dk5fNjlnTUpYc0FKS3FqMFBXdWxMbjIzcUpqZ3NMb2hyTkF1S2VrcTljLS14TkxnSElhZ3RyMVo4M1pCZEdlNlV6aXo1RWJR?oc=5",
      "source": "https://houseofsaud.com/",
      "published": 1794412310,
-     "text": "Saudi Arabia Tells OPEC Output Surged 26% to 10.563M Bpd in October https://houseofsaud.com/"
+     "text": "Saudi Arabia Tells OPEC Output Surged 26% to 10.563M Bpd in October https://houseofsaud.com/",
+     "summary_th": "ซาอุดีอาระเบียแจ้ง OPEC ว่าผลผลิตเพิ่มขึ้น 26% เป็น 10.563 ล้านบาร์เรลต่อวันในเดือนตุลาคม",
+     "importance": 2,
+     "numbers": [
+      "26%",
+      "10.563M"
+     ],
+     "tags": [
+      "saudi arabia",
+      "opec"
+     ],
+     "entities": [
+      "Saudi Arabia",
+      "OPEC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1948238e88d3",
@@ -2202,7 +2572,24 @@
      "link": "https://oilprice.com/Energy/Energy-General/Iran-War-Breathes-New-Life-Into-Turkmenistans-10-Billion-Pipeline-Dream.html",
      "source": "OilPrice.com",
      "published": 1794409200,
-     "text": "At an energy forum in Ashgabat in late October, Turkmenistan made an unexpected announcement. After years of delays and speculation that the project would be canceled, the forum audience was told the Turkmenistan-Afghanistan-Pakistan-India (TAPI) gas pipeline had just reached \"the outskirts of Herat\" and would be \"commissioned by the end of 2026.\" Depending on one's definition of \"outskirts\" for the northwestern Afghan city, that first claim appears to be true. Satellite images made on November 7 show the natural gas pipeline extending from Turkmenistan's…"
+     "text": "At an energy forum in Ashgabat in late October, Turkmenistan made an unexpected announcement. After years of delays and speculation that the project would be canceled, the forum audience was told the Turkmenistan-Afghanistan-Pakistan-India (TAPI) gas pipeline had just reached \"the outskirts of Herat\" and would be \"commissioned by the end of 2026.\" Depending on one's definition of \"outskirts\" for the northwestern Afghan city, that first claim appears to be true. Satellite images made on November 7 show the natural gas pipeline extending from Turkmenistan's…",
+     "summary_th": "ท่อก๊าซ TAPI มูลค่า 10 พันล้านดอลลาร์ของเติร์กเมนิสถานมีความคืบหน้า โดยมีการประกาศว่าท่อไปถึงชานเมืองเฮรัตในอัฟกานิสถาน",
+     "importance": 1,
+     "numbers": [
+      "$10 billion"
+     ],
+     "tags": [
+      "tapi pipeline",
+      "turkmenistan"
+     ],
+     "entities": [
+      "Turkmenistan",
+      "Afghanistan",
+      "Pakistan",
+      "India",
+      "Herat"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1b90e3b1ebd4",
@@ -2210,7 +2597,19 @@
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVFNfSjlGZWFOd01laGhIaG9idVhwaUxEOXctN1hkb1E2Qkd6YXEyaE5DUHFzMEdoT3dqWXNQbkxScXRFb3o2aGU4SEpWdnU5SGdKQUJXTUFMdS1kcHJKVnJPVnBUZk1XUjd6NXRLcnJwSGhXMFZVa2hqQ1VvVWkzM2FxT2tCNlhGN1VYYjgwRTdiY2Z6SElpNmtfMXRmTjF0RW5fX0JVVWhuZVlsX1lWdDBMU1g1ZzBFeXlGT2tZbUNyQjlLUFE?oc=5",
      "source": "WSJ",
      "published": 1794411138,
-     "text": "Oil Futures Slide as Trump Says New Strikes on Iran Unlikely WSJ"
+     "text": "Oil Futures Slide as Trump Says New Strikes on Iran Unlikely WSJ",
+     "summary_th": "ราคาน้ำมันฟิวเจอร์สร่วง หลังทรัมป์กล่าวว่าการโจมตีอิหร่านรอบใหม่ไม่น่าจะเกิดขึ้น",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "oil",
+      "iran"
+     ],
+     "entities": [
+      "Trump",
+      "Iran"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "87cf980e5dfb",
@@ -2218,7 +2617,22 @@
      "link": "https://oilprice.com/Latest-Energy-News/World-News/India-Approves-73-Billion-High-Capacity-Power-Link-to-Back-Renewables.html",
      "source": "OilPrice.com",
      "published": 1794407400,
-     "text": "India has just approved plans for a high-capacity power transmission corridor to help bring electricity from generation to demand centers. The 1,150-kilovolt (kV) system, which will be India’s highest-voltage power corridor, is expected to cost about $7.34 billion (688 billion Indian rupees). At present, most of India’s transmission network consists of 765-kV lines. The plan, approved by the national transmission panel this week, is estimated to take about six years to build. The first phase of the power corridor project includes…"
+     "text": "India has just approved plans for a high-capacity power transmission corridor to help bring electricity from generation to demand centers. The 1,150-kilovolt (kV) system, which will be India’s highest-voltage power corridor, is expected to cost about $7.34 billion (688 billion Indian rupees). At present, most of India’s transmission network consists of 765-kV lines. The plan, approved by the national transmission panel this week, is estimated to take about six years to build. The first phase of the power corridor project includes…",
+     "summary_th": "อินเดียอนุมัติระบบส่งไฟฟ้า 1,150 kV กำลังสูงสุดของประเทศ ค่าใช้จ่ายประมาณ $7.34 billion (688 billion Indian rupees) เพื่อรองรับพลังงานหมุนเวียน",
+     "importance": 2,
+     "numbers": [
+      "$7.34 billion",
+      "688 billion",
+      "1,150"
+     ],
+     "tags": [
+      "india",
+      "power transmission"
+     ],
+     "entities": [
+      "India"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c5f2a638545e",
@@ -2226,7 +2640,19 @@
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbTc0SHBUdGhvWkRkdkt2c2NCcEFpbXRKSW1rZzN6NzhyLUxTLWE4R1RGanpOVkdVU3dJcWdaYXBka2ZNVWhidVlFOEJQOXljVjhzX0pyaURlTF8xNU9aNEgyak5mWURyRXJIZnMxejl2N3NCYzJ0U2pKZGdneXNlWU5Yd2VCU2hEYzVET0U2QWJaYVRXclNBeTBqN1otaTA?oc=5",
      "source": "Moomoo",
      "published": 1794411092,
-     "text": "Saudi Arabia's crude oil output in October returned to pre-war levels; OPEC+ supply rebound exceeded expectations Moomoo"
+     "text": "Saudi Arabia's crude oil output in October returned to pre-war levels; OPEC+ supply rebound exceeded expectations Moomoo",
+     "summary_th": "ผลผลิตน้ำมันดิบของซาอุดีอาระเบียในเดือนตุลาคมกลับไประดับก่อนสงคราม และการฟื้นตัวของอุปทาน OPEC+ เกินความคาดหมาย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "saudi arabia",
+      "opec+"
+     ],
+     "entities": [
+      "Saudi Arabia",
+      "OPEC+"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e87ef7fe3360",
@@ -2234,7 +2660,21 @@
      "link": "https://oilprice.com/Latest-Energy-News/World-News/Ukrainian-Drone-Attack-Sparks-Fire-at-Russias-Key-Baltic-Oil-Export-Hub.html",
      "source": "OilPrice.com",
      "published": 1794403800,
-     "text": "A Ukrainian drone attack hit the key Russian commodity export hub Ust-Luga on the Baltic Sea early on Wednesday, as Russia and Ukraine continue to trade strikes on each other’s energy infrastructure amid ongoing U.S.-mediated talks in Abu Dhabi. Drones hit the port area of Ust-Luga, Alexander Drozdenko, the governor of the Leningrad region, said in a Telegram post on Wednesday. A preliminary investigation indicates that the drone attack struck the port area of Ust-Luga, sparking a fire. Efforts to extinguish the fire are…"
+     "text": "A Ukrainian drone attack hit the key Russian commodity export hub Ust-Luga on the Baltic Sea early on Wednesday, as Russia and Ukraine continue to trade strikes on each other’s energy infrastructure amid ongoing U.S.-mediated talks in Abu Dhabi. Drones hit the port area of Ust-Luga, Alexander Drozdenko, the governor of the Leningrad region, said in a Telegram post on Wednesday. A preliminary investigation indicates that the drone attack struck the port area of Ust-Luga, sparking a fire. Efforts to extinguish the fire are…",
+     "summary_th": "โดรนยูเครนโจมตีท่าส่งออก Ust-Luga ของรัสเซียบนทะเลบอลติก ทำให้เกิดไฟไหม้ ระหว่างที่สองฝ่ายยังโจมตีโครงสร้างพลังงานกันอยู่และเจรจาที่อาบูดาบี",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ust-luga",
+      "ukraine drone"
+     ],
+     "entities": [
+      "Ukraine",
+      "Russia",
+      "Ust-Luga",
+      "Abu Dhabi"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "299939cd9fbd",
@@ -2242,7 +2682,19 @@
      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLTEtGSnUxbW1lTS0ya3BNM0d1MUhfcGIzT2VoMjRFZHY1enhTbnpualpqLTJWdWZuUm5OR296UHFjZjZZVXllOXlwb192b1dzZklQV1E4WnF0dFdRbEs5Vk9hU0ctd1ZDd0RuSFQtZEdZZw?oc=5",
      "source": "Energy Intelligence",
      "published": 1794410543,
-     "text": "UAE Offers Saudi Crude From Stricken Tanker in Rare Tender Energy Intelligence"
+     "text": "UAE Offers Saudi Crude From Stricken Tanker in Rare Tender Energy Intelligence",
+     "summary_th": "UAE เสนอขายน้ำมันดิบซาอุดีจากเรือบรรทุกน้ำมันที่ได้รับความเสียหาย ในการประมูลที่หายาก",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "uae",
+      "crude tender"
+     ],
+     "entities": [
+      "UAE",
+      "Saudi Arabia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "78521192fd2a",
@@ -2250,7 +2702,21 @@
      "link": "https://oilprice.com/Latest-Energy-News/World-News/India-Eyes-50-Wind-Power-Capacity-Boost-Without-Acquiring-More-Land.html",
      "source": "OilPrice.com",
      "published": 1794400200,
-     "text": "India’s wind turbine manufacturers are in discussions with state and federal authorities about a plan to repower old turbines with higher-capacity, higher-efficiency new ones to boost power output without sacrificing more land. Modern turbines can replace a total of 8 gigawatts (GW) of old and less efficient turbines, Aditya Pyasi, CEO of the Indian Wind Turbine Manufacturers Association, told Bloomberg in an interview published on Wednesday. The repowering project could boost capacity at these sites by nearly 50%, according to estimates…"
+     "text": "India’s wind turbine manufacturers are in discussions with state and federal authorities about a plan to repower old turbines with higher-capacity, higher-efficiency new ones to boost power output without sacrificing more land. Modern turbines can replace a total of 8 gigawatts (GW) of old and less efficient turbines, Aditya Pyasi, CEO of the Indian Wind Turbine Manufacturers Association, told Bloomberg in an interview published on Wednesday. The repowering project could boost capacity at these sites by nearly 50%, according to estimates…",
+     "summary_th": "ผู้ผลิตกังหันลมของอินเดียหารือแผนเปลี่ยนกังหันเก่าเป็นรุ่นใหม่กำลังสูงกว่า เพื่อเพิ่มกำลังผลิตได้ประมาณ 50% โดยไม่ต้องใช้พื้นที่เพิ่ม และแทนที่กำลังผลิตเก่า 8 gigawatts (GW)",
+     "importance": 1,
+     "numbers": [
+      "50%",
+      "8 gigawatts"
+     ],
+     "tags": [
+      "india",
+      "wind power"
+     ],
+     "entities": [
+      "India"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c92dfe54412b",
@@ -2258,7 +2724,19 @@
      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPendYaURHNWRCQVFRSXhKWG5fOWh1STFkR2RSRkZPTXp4eF9nelpSV3NVeENYU3VqMVdNaEMxNTNaTWlOVHd1aDZjYTB3eW5CVkRBNTNueDFYdkFVSnNDSVZwZF9pVjJWSEl4Mi1Vbk1HUHlWVEFlOVF2SV8zb2tfeDdhTUR0cWlLcTNhMkZreWtGdmoyZHdrSnZfckpsT3I2YXJZS2Nzd1NIRE5oR1ZQbjhHcHZpcVFrVFpJbkhOZWpKdnR4TnpVckhhSy1RZw?oc=5",
      "source": "The Santa Barbara Independent",
      "published": 1794409924,
-     "text": "Red Flag for Sable Offshore as Chevron Refinery That Processes Its Oil Stops Buying Its Crude The Santa Barbara Independent"
+     "text": "Red Flag for Sable Offshore as Chevron Refinery That Processes Its Oil Stops Buying Its Crude The Santa Barbara Independent",
+     "summary_th": "โรงกลั่น Chevron ที่รับน้ำมันจาก Sable หยุดซื้อน้ำมันดิบจาก Sable ซึ่งเป็นสัญญาณเตือนสำหรับ Sable Offshore",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "sable offshore",
+      "chevron"
+     ],
+     "entities": [
+      "Sable Offshore",
+      "Chevron"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "0bc226822f7b",
@@ -2266,7 +2744,22 @@
      "link": "https://oilprice.com/Latest-Energy-News/World-News/RWE-and-KKR-Seal-16-Billion-UK-Offshore-Wind-Mega-Deal.html",
      "source": "OilPrice.com",
      "published": 1794396600,
-     "text": "German energy company RWE and global investment firm KKR will invest $16 billion (£12 billion) in offshore wind projects in the UK in what is likely the biggest renewable energy investment in Britain ever. RWE and KKR expect to deliver the Vanguard West and Vanguard East offshore wind projects in the UK North Sea with this investment after reaching financial close for both projects. Together, the projects, representing £12 billion investment including the construction of the wind farms and their associated transmission infrastructure,…"
+     "text": "German energy company RWE and global investment firm KKR will invest $16 billion (£12 billion) in offshore wind projects in the UK in what is likely the biggest renewable energy investment in Britain ever. RWE and KKR expect to deliver the Vanguard West and Vanguard East offshore wind projects in the UK North Sea with this investment after reaching financial close for both projects. Together, the projects, representing £12 billion investment including the construction of the wind farms and their associated transmission infrastructure,…",
+     "summary_th": "RWE และ KKR ตกลงลงทุนกังหันลมนอกชายฝั่งอังกฤษ $16 billion (£12 billion) ในโครงการ Vanguard West และ Vanguard East",
+     "importance": 2,
+     "numbers": [
+      "$16 billion",
+      "£12 billion"
+     ],
+     "tags": [
+      "offshore wind",
+      "uk"
+     ],
+     "entities": [
+      "RWE",
+      "KKR"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1414986f5371",
@@ -2274,7 +2767,20 @@
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVU9hQmNWalBZZklOamxrOE1GdWRaT3JsS0NhSFZpaXIwcFBlUTBfUzlqbndPdlpKSm5ZdzJ5djg0NTZkQ3g5b0IzYnpyNmVJd2dURWI2ZFA2QzF2QzFtVnJzNVFiNUN3U01LOW5sZTdKSmQ1SlFURTFpUEhfU2k0RlgzNGNPaWY2REU4cVZHeEJqZWlBMXlybw?oc=5",
      "source": "Egypt Oil & Gas",
      "published": 1794409418,
-     "text": "OPEC Forecasts Global Oil Demand to Grow by 2.6 Mmbbl/d in 2027 Egypt Oil & Gas"
+     "text": "OPEC Forecasts Global Oil Demand to Grow by 2.6 Mmbbl/d in 2027 Egypt Oil & Gas",
+     "summary_th": "OPEC คาดว่าความต้องการน้ำมันโลกจะเพิ่มขึ้น 2.6 ล้านบาร์เรลต่อวันในปี 2027",
+     "importance": 2,
+     "numbers": [
+      "2.6 Mmbbl/d"
+     ],
+     "tags": [
+      "opec",
+      "oil demand"
+     ],
+     "entities": [
+      "OPEC"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -2530,7 +3036,18 @@
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTGZwdW5oU0ZsMmpORUFiV3VyRm5jWXU5Z2dDQUZBTGdzOXdoY0Exc2YxZnNWNnI4OTM4V1dPX0VrVWx5Skl4dGFQVGZmRmEyTFBXb1Z1TkZGcXpETDNIVVl3b2NiU1hZTHVqVnRWMUcxVUx1U3VTRFFCSXI1YVVRUHlLak9sNHliTWJIenNaQUJCS3F1RFZQZW9tTjlXT3NG?oc=5",
      "source": "Pluang",
      "published": 1794409742,
-     "text": "Gold prices pressured by rising U.S. real yields despite easing headline inflation in October CPI data. Pluang"
+     "text": "Gold prices pressured by rising U.S. real yields despite easing headline inflation in October CPI data. Pluang",
+     "summary_th": "ราคาทองคำถูกกดดันจากอัตราผลตอบแทนที่แท้จริงของสหรัฐที่เพิ่มขึ้น แม้เงินเฟ้อพาดหัวใน CPI เดือนตุลาคมจะผ่อนคลายลง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "real yields"
+     ],
+     "entities": [
+      "US"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "fc664c9ff6a5",
@@ -2538,7 +3055,20 @@
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUlhwcmI3S2xINXpzcUQ5Y21ocUhfRDlZUDhuYnI3WVdsRGpDeVVEaUdPMU55VDI3MFE5cklQaEQ4WTN3LUlPUjdtYXpQT1ZaQU9TLWtBSElxWmotZW56WWNzLUNubm5mVzE2TTduVXFuY0kwMjBxN2NMaDBSd1poVXVNMHRKV20xTmxnVGdkWXJXZnQtMzZEdjZKYlAzX3R1MGM5VXpn?oc=5",
      "source": "CaptainAltcoin",
      "published": 1794412327,
-     "text": "Gold Price Today: Central Banks Buy 321 Tonnes in Biggest Quarter Since 2024 CaptainAltcoin"
+     "text": "Gold Price Today: Central Banks Buy 321 Tonnes in Biggest Quarter Since 2024 CaptainAltcoin",
+     "summary_th": "ธนาคารกลางซื้อทองคำ 321 ตัน ในไตรมาสที่ใหญ่ที่สุดนับตั้งแต่ปี 2024",
+     "importance": 2,
+     "numbers": [
+      "321 tonnes"
+     ],
+     "tags": [
+      "central banks",
+      "gold"
+     ],
+     "entities": [
+      "central banks"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d0b4394ca3e7",
@@ -2546,7 +3076,20 @@
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcTdZZ29abnRtWmUzXzBtRFB5TWR5WmN3MVFRNTZEcndrZ0swRElJalRWVUx1X2xYS0FreHNXVmZ6ZWdLSEZIeXFIVG1JYW44ZTUxazllMzVvaFlKWG9vOTVhU3hKMjU2TG52Z0VpS2JmbEh6WUQwY09qeVpMNzk5NHFqTmJaUVRCQzlwbWRPTzA5UQ?oc=5",
      "source": "Investify",
      "published": 1794409587,
-     "text": "Gold price per tola drops Rs3,400 in Pakistan Investify"
+     "text": "Gold price per tola drops Rs3,400 in Pakistan Investify",
+     "summary_th": "ราคาทองคำต่อโทลาในปากีสถานลดลง 3,400 รูปี",
+     "importance": 1,
+     "numbers": [
+      "Rs3,400"
+     ],
+     "tags": [
+      "gold price",
+      "pakistan"
+     ],
+     "entities": [
+      "Pakistan"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d4271cf877d8",
@@ -2554,7 +3097,18 @@
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeXJQTmVQMFVuWV82THhmdjRMLUpwZmpwS1NhZnJZZk50LVJzVElOTE1rMnhLNTQtWVptT2xreFowX1hnd1FRclN1YndWLWN4MEpFRG1uSU9RMDVudWJFdGxXbDdqM2N4bjR5M2R3aGZIWnBmNHVYejhNNk1wU0hoNXB4bzV4RHNvN2wzbnFrTi16V2pKSllR?oc=5",
      "source": "WSJ",
      "published": 1794411221,
-     "text": "Singapore Central Bank Rolls Out Gold-Vaulting Services to Boost Trading Hub WSJ"
+     "text": "Singapore Central Bank Rolls Out Gold-Vaulting Services to Boost Trading Hub WSJ",
+     "summary_th": "ธนาคารกลางสิงคโปร์เปิดบริการเก็บรักษาทองคำ เพื่อหนุนให้สิงคโปร์เป็นศูนย์กลางการซื้อขาย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "singapore",
+      "gold vault"
+     ],
+     "entities": [
+      "Singapore"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e77a6d356022",
@@ -2562,7 +3116,21 @@
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUllaZWRQc1poVDQzVEh2N3BDSmhHd0ZDMnE0WU8zZi1YUEI3TTg0Yk1LTWJ1UlhzNnlIY0ZRYWdzZkhicGZvRWxBTk9uazE3UERhdE15MUQxR25oOGdkVS1UTEc4aW8yY2U1WDNvdTFBMzNjNmJoeldUOW1UOEVKNzU0UUhZaVprR0dFcHRWV19SR05fV0czM3FkdWdhbFQ0eXBtay1SRi1laFMzRE9RT25Bcy1GMlRHSlhGWU5n?oc=5",
      "source": "Kitco",
      "published": 1794409193,
-     "text": "Gold prices find solid support at $4,000 as Standard Chartered sees rally to $4,650 by year-end Kitco"
+     "text": "Gold prices find solid support at $4,000 as Standard Chartered sees rally to $4,650 by year-end Kitco",
+     "summary_th": "ราคาทองคำได้แนวรับที่ 4,000 ดอลลาร์ และ Standard Chartered คาดการณ์ว่าจะขึ้นไป 4,650 ดอลลาร์ภายในสิ้นปี",
+     "importance": 2,
+     "numbers": [
+      "$4,000",
+      "$4,650"
+     ],
+     "tags": [
+      "gold",
+      "standard chartered"
+     ],
+     "entities": [
+      "Standard Chartered"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "be4ad7e30c78",
@@ -2570,7 +3138,18 @@
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOXhhdXpqYlQxQlBkekE4aU1ZaGlmNzRwNHBKSlBMV2tZYUZ0WGIyODB1N1ktUkowUjNGSTJHemFUOENkRlp0eC1nSHo2N1JOTFdWRUhsTzFOaGpkYnZXVjZhaFVNSXNyYXlnMUFXcUgtNW42cUdxQnBlUDdEX1ZiVzRYQTVPdnE1anNGTkdISHk3MEpsejlYcGkzbnNTY21PLWVtamtxZw?oc=5",
      "source": "LinkedIn",
      "published": 1794410834,
-     "text": "Random Silver Coins, Rounds & Bargain Bin: What You Get What’s the difference between random silver coins, random silver rounds, and bargain-bin silver? Money Metals shows real examples and explains how government-issued coins, privately minted ro LinkedIn"
+     "text": "Random Silver Coins, Rounds & Bargain Bin: What You Get What’s the difference between random silver coins, random silver rounds, and bargain-bin silver? Money Metals shows real examples and explains how government-issued coins, privately minted ro LinkedIn",
+     "summary_th": "เป็นเนื้อหาโฆษณาเกี่ยวกับเหรียญเงินและแท่งเงินจาก Money Metals",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "silver",
+      "advertisement"
+     ],
+     "entities": [
+      "Money Metals"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "32f3a7c822ad",
@@ -2578,7 +3157,17 @@
      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1INi1zd05zUGNCdnk4MzNlWXkzRzVlbTBDOGFBUXlhMTN2WncyRTh5blVtQW1CcTVScFlSMDlNU3NSZzA2QXRnOFU1YXk3ZUR1UUR0azdhZWE2c01CZ3BFZmdtbnBUOE84WmhHVDhR?oc=5",
      "source": "Fortune",
      "published": 1794406200,
-     "text": "Current price of gold as of November 11, 2026 Fortune"
+     "text": "Current price of gold as of November 11, 2026 Fortune",
+     "summary_th": "Fortune รายงานราคาทองคำ ณ วันที่ 11 พฤศจิกายน 2026",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold price"
+     ],
+     "entities": [
+      "Fortune"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "9fe8597c4373",
@@ -2586,7 +3175,16 @@
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZU9kLU56RHlyTGJPb0FiT1FvRTNidldFUmVqSHZ0LWsxYzYzTHBnQnRQeFEtZGlmS1J6WXN3eEVCdUZuSmFoc05DMm4ycXdmN2gxVnN1YXpXQmV3RF9TU0FDclExaGNGS0lXdlVwdHdwdW9kRzRoNHpfRUhTM1VvTlg5aTVWLUZaclZDVWRVMWdoUzQ?oc=5",
      "source": "SilverTrade",
      "published": 1794408366,
-     "text": "Is Gold Being Spoofed Lower Again? SilverTrade"
+     "text": "Is Gold Being Spoofed Lower Again? SilverTrade",
+     "summary_th": "บทความตั้งคำถามว่าราคาทองคำถูกทำให้ดูเหมือนลงอีกครั้งหรือไม่ (spoofing)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "market manipulation"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "d27b47790fc6",
@@ -2594,7 +3192,17 @@
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYXlib2VSTU1yZ1IxV29lV3pnb2V3MkxOc3AzaGExeGpWaDBmLVNjcFo3VmZDMDF5a0RscVdPSGd6MkZyNGw3TDNHQUMyOUhaOVAxVzB5Z1QyYU55YTlsT3pzNnpyb2lLVmU4Ulprdy1zODhTU0NaeHQwY25fQVZpY3hJSm9lWUJsR3RGOFpEeTl2a08wRmxHRk51TGNlWm5rUUtSeVZxMEJ1ekU?oc=5",
      "source": "USA Today",
      "published": 1794403216,
-     "text": "Gold Price Today on November 11, 2026 USA Today"
+     "text": "Gold Price Today on November 11, 2026 USA Today",
+     "summary_th": "USA Today รายงานราคาทองคำประจำวันที่ 11 พฤศจิกายน 2026",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold price"
+     ],
+     "entities": [
+      "USA Today"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "07bb2f2aff5e",
@@ -2602,7 +3210,16 @@
      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcVJJdUdmNTNZUjl3ZWl5Sm9kcURaRXNfcUNScnZYeHdraE1nU3RtWFZQa2FpS2ZEOVl5Q0JuSGxmNy1vaU9sUER0U3NmVGFKZ2hBLTRVQ3RBRlkxWUlyZG1hRTFoU1dFTEFqTUhHenNhc1VRY2xXc3dmM2ZWcXotU0hCaGpKS00?oc=5",
      "source": "Yahoo Finance Singapore",
      "published": 1794405395,
-     "text": "Gold mining stocks rise as bullion climbs after inflation-driven slide Yahoo Finance Singapore"
+     "text": "Gold mining stocks rise as bullion climbs after inflation-driven slide Yahoo Finance Singapore",
+     "summary_th": "หุ้นเหมืองทองคำขึ้น เมื่อราคาทองคำฟื้นตัวหลังการร่วงจากเงินเฟ้อ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold miners",
+      "gold"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "bb303b093701",
@@ -2610,7 +3227,16 @@
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbnMtY0VtdW8tdWJrRHNBWHAyaFRWVDhqQ2NXVzN2aHBMRlhzUUlBNUFfQWtxNDgwQ21iZFZOY0hzTUlNdnEwUjF4U1hqZG1SZE44M3UwcXNtc3djTXNvZk82YTJ5UGM4U0w1LThDMmxFMmpUU2M0LVc2dlZwRFVtRjE1dThFa0pYa0Y0U2JveF9WMGNJVnlXZDEyaTU?oc=5",
      "source": "Laodong.vn",
      "published": 1794402977,
-     "text": "Gold price at the close of the session on November 11: Conflicting developments Laodong.vn"
+     "text": "Gold price at the close of the session on November 11: Conflicting developments Laodong.vn",
+     "summary_th": "รายงานราคาทองคำในเวียดนามตอนปิดตลาดวันที่ 11 พฤศจิกายน ซึ่งมีปัจจัยที่ขัดแย้งกัน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "vietnam"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "7d3fb09640c2",
@@ -2618,7 +3244,16 @@
      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQa1psRGZBRDdFRTVQc3doLTJBenZxd3o4QnB2Uml3YkRZMUhtX3BlWUFDVTdDY1psZGtrelpxakltUVZOSEo5dld2U2dPOEh4LUh0NkwxMHE1OGV2Nk5qcjFvTmpfa0lIWDhuVUhOOHZBN2Q5RDZMNFk3QmZOMmdvcE5mZEpOODBUa20zQjRjdUk3REdiUmhZYnI1WVlnMGZ0c2h4ZXNxb2NFMlZOMFVNdXhKZTY3Nkd3NjZyTjlhYjhyYllnOG1vMFZLc2FSY1VLd1E?oc=5",
      "source": "TradingView",
      "published": 1794403391,
-     "text": "Gold gains after steep drop, but hawkish central bank signals weigh TradingView"
+     "text": "Gold gains after steep drop, but hawkish central bank signals weigh TradingView",
+     "summary_th": "ทองคำฟื้นหลังร่วงแรง แต่สัญญาณธนาคารกลางที่เข้มงวดกดดันราคา",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "central banks"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     }
    ]
   },
@@ -3152,7 +3787,19 @@
      "link": "https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech/",
      "source": "TechCrunch",
      "published": 1794409367,
-     "text": "Helix said that its voice ID tech can run on an iPhone 13"
+     "text": "Helix said that its voice ID tech can run on an iPhone 13",
+     "summary_th": "Helix ระบุว่าเทคโนโลยี voice ID ของบริษัททำงานบน iPhone 13 ได้ และ co-founder ของ Siri สนับสนุนการลงทุน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "voice id",
+      "helix"
+     ],
+     "entities": [
+      "Helix",
+      "iPhone 13"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ad8780c2a1d5",
@@ -3160,7 +3807,18 @@
      "link": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
      "source": "MIT Technology Review",
      "published": 1794402600,
-     "text": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Six wild ideas for perpetuating your mind As we age, we forget most of what we’ve experienced, yet there’s still undeniable continuity: At 30, or 50, or 70, you will still…"
+     "text": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Six wild ideas for perpetuating your mind As we age, we forget most of what we’ve experienced, yet there’s still undeniable continuity: At 30, or 50, or 70, you will still…",
+     "summary_th": "จดหมายข่าวประจำวันของ MIT Technology Review พูดถึงแนวคิดการเก็บรักษาจิตใจ และความเสี่ยงของ AI แบบเปิด",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "newsletter"
+     ],
+     "entities": [
+      "MIT Technology Review"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "66338c1cb4f3",
@@ -3168,7 +3826,19 @@
      "link": "https://arstechnica.com/cars/2026/11/toyota-resurrects-scion-with-right-hand-drive-kei-trucks/",
      "source": "Ars Technica",
      "published": 1794410744,
-     "text": "Does this herald the start of a small car revolution, or is it a meaningless distraction?"
+     "text": "Does this herald the start of a small car revolution, or is it a meaningless distraction?",
+     "summary_th": "ทรัมป์ต้องการรถกระบะ Kei ขนาดเล็กในสหรัฐ และ Toyota เป็นผู้ทำให้เกิดขึ้น",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "toyota",
+      "kei trucks"
+     ],
+     "entities": [
+      "Toyota",
+      "Trump"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2d8f602ac5a8",
@@ -3176,7 +3846,19 @@
      "link": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
      "source": "The Verge",
      "published": 1794412800,
-     "text": "Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual similarities with workplace management apps like Asana and Monday, but with a built-in AI feature that allows you to vibecode personalized interactive tools by describing […]"
+     "text": "Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual similarities with workplace management apps like Asana and Monday, but with a built-in AI feature that allows you to vibecode personalized interactive tools by describing […]",
+     "summary_th": "Google ทดลองเครื่องมือ AI ชื่อ Tabletop ที่สร้างแอปร่วมมือแบบกำหนดเองสำหรับครอบครัวและเพื่อน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "google",
+      "ai tools"
+     ],
+     "entities": [
+      "Google",
+      "Tabletop"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e3df3e3c2890",
@@ -3184,7 +3866,22 @@
      "link": "https://www.cnbc.com/2026/11/11/coreweave-provides-silver-lining-for-neoclouds-as-nvidia-storm-swirls.html",
      "source": "CNBC Tech",
      "published": 1794398171,
-     "text": "Huang's close ties to the White House are in the firing line"
+     "text": "Huang's close ties to the White House are in the firing line",
+     "summary_th": "CoreWeave เป็นความหวังของกลุ่ม neocloud ท่ามกลางกระแส Nvidia ที่วุ่นวาย โดยความสัมพันธ์ของ Huang กับทำเนียบขาวกำลังถูกจับตา",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "coreweave",
+      "nvidia",
+      "neoclouds"
+     ],
+     "entities": [
+      "CoreWeave",
+      "Nvidia",
+      "Jensen Huang",
+      "White House"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "27b698fbd0ee",
@@ -3192,7 +3889,22 @@
      "link": "https://pietromiotti.com/latest/maya-site/",
      "source": "Hacker News",
      "published": 1794398722,
-     "text": "Article URL: https://pietromiotti.com/latest/maya-site/?maya Comments URL: https://news.ycombinator.com/item?id=50452455 Points: 564 # Comments: 219"
+     "text": "Article URL: https://pietromiotti.com/latest/maya-site/?maya Comments URL: https://news.ycombinator.com/item?id=50452455 Points: 564 # Comments: 219",
+     "summary_th": "วิศวกร Google ใช้ AI agent 48 ตัวกับข้อมูล Lidar ของ NASA และพบพีระมิดมายาที่ยังไม่มีแผนที่ภายใน 72 ชั่วโมง",
+     "importance": 1,
+     "numbers": [
+      "48",
+      "72"
+     ],
+     "tags": [
+      "ai agents",
+      "lidar"
+     ],
+     "entities": [
+      "Google",
+      "NASA"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a3cb225e21f7",
@@ -3200,7 +3912,20 @@
      "link": "https://www.techmeme.com/261111/p33",
      "source": "Techmeme",
      "published": 1794410460,
-     "text": "Tim Keary / Forbes : Tel Aviv- and SF-based Edelbyte, which is building a data analytics platform optimized for AI agents, emerges from stealth with $70M across Series A and seed — This voice experience is generated by AI. Learn more. … Big data analytics is being reimagined for AI agents."
+     "text": "Tim Keary / Forbes : Tel Aviv- and SF-based Edelbyte, which is building a data analytics platform optimized for AI agents, emerges from stealth with $70M across Series A and seed — This voice experience is generated by AI. Learn more. … Big data analytics is being reimagined for AI agents.",
+     "summary_th": "Edelbyte แพลตฟอร์มวิเคราะห์ข้อมูลสำหรับ AI agent เปิดตัวจากโหมดลับ ระดมทุนได้ $70M ในรอบ Series A และ seed",
+     "importance": 1,
+     "numbers": [
+      "$70M"
+     ],
+     "tags": [
+      "funding",
+      "ai agents"
+     ],
+     "entities": [
+      "Edelbyte"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "9c9df925add3",
@@ -3208,7 +3933,20 @@
      "link": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
      "source": "BleepingComputer",
      "published": 1794409979,
-     "text": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]"
+     "text": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
+     "summary_th": "แฮกเกอร์ใช้ AI agent ชื่อ AntiFox โจมตีโดยขโมย credential ของ AWS โดยโฮสต์บน Alibaba Cloud",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "cyberattack",
+      "aws"
+     ],
+     "entities": [
+      "AntiFox",
+      "AWS",
+      "Alibaba Cloud"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1493b1d9996c",
@@ -3216,7 +3954,18 @@
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVUJuMGtNcjA2aDhZYThDMmhvbVlTTHRBSUgzWk51bGhJc3A5cy1pMkdtNEx5OURIWkVmN1hiVHd2Y3JBdklmdkx6ZjgtcDZ0MHdrMmZLb3ZVYmpDdEhlWkJaNEVrZzZpSXB1Mi1HS1d6S3BpT3hjb3dfTE5IcWZYX2VuOWg?oc=5",
      "source": "조선일보",
      "published": 1794412270,
-     "text": "China Uses Sun Yat-sen Anniversary to Push Unification 조선일보"
+     "text": "China Uses Sun Yat-sen Anniversary to Push Unification 조선일보",
+     "summary_th": "จีนใช้วันครบรอบของซุนยัตเซ็นผลักดันเรื่องการรวมชาติ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "china unification"
+     ],
+     "entities": [
+      "China",
+      "Sun Yat-sen"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7d4c517a6890",
@@ -3224,7 +3973,21 @@
      "link": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
      "source": "TechCrunch",
      "published": 1794409200,
-     "text": "At 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that."
+     "text": "At 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that.",
+     "summary_th": "Databricks ปรับปรุง AI agent ชื่อ Genie ให้ CEO Ali Ghodsi ได้ฟังข้อมูลตรงไปตรงมาจากพนักงาน 12,000 คน",
+     "importance": 1,
+     "numbers": [
+      "12,000"
+     ],
+     "tags": [
+      "databricks",
+      "ai agents"
+     ],
+     "entities": [
+      "Databricks",
+      "Ali Ghodsi"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ef892408bebc",
@@ -3232,7 +3995,19 @@
      "link": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
      "source": "Ars Technica",
      "published": 1794406137,
-     "text": "The four-week project hints that AI could make formal verification far more practical."
+     "text": "The four-week project hints that AI could make formal verification far more practical.",
+     "summary_th": "Google DeepMind ใช้ AI พิสูจน์ความถูกต้องทางคณิตศาสตร์ส่วนสำคัญของ Signal ในโครงการสี่สัปดาห์",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "formal verification",
+      "deepmind"
+     ],
+     "entities": [
+      "Google DeepMind",
+      "Signal"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b10ebf43407e",
@@ -3240,7 +4015,15 @@
      "link": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
      "source": "The Verge",
      "published": 1794412435,
-     "text": "The countdown to Black Friday is on, and the first discounts are starting to appear. Although the shopping holiday isn’t officially until November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn’t necessarily mean you’re getting a historically low […]"
+     "text": "The countdown to Black Friday is on, and the first discounts are starting to appear. Although the shopping holiday isn’t officially until November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn’t necessarily mean you’re getting a historically low […]",
+     "summary_th": "เป็นบทความรวมดีลลดราคาสินค้าเทคที่เริ่มออกมาก่อนวันแบล็กฟรายเดย์ ซึ่งตรงกับวันที่ 27 พฤศจิกายน",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "deals"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "17a88325dc58",
@@ -3248,7 +4031,16 @@
      "link": "https://www.cnbc.com/2026/11/11/tech-selloff-defensive-pivot.html",
      "source": "CNBC Tech",
      "published": 1794376801,
-     "text": "Technology stocks have lost momentum while defensive sectors gain ground, as investors reassess risks."
+     "text": "Technology stocks have lost momentum while defensive sectors gain ground, as investors reassess risks.",
+     "summary_th": "นักลงทุนย้ายไปหุ้นป้องกันความเสี่ยง (defensive) เมื่อตลาดเข้าสู่ภาวะ 'state of alert' หุ้นเทคโนโลยีเสียโมเมนตัม",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "defensive stocks",
+      "tech stocks"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "53d6f601edc3",
@@ -3256,7 +4048,18 @@
      "link": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
      "source": "Hacker News",
      "published": 1794371337,
-     "text": "Article URL: https://gatezh.com/posts/macos-secure-enclave-ssh-keys/ Comments URL: https://news.ycombinator.com/item?id=50449748 Points: 326 # Comments: 119"
+     "text": "Article URL: https://gatezh.com/posts/macos-secure-enclave-ssh-keys/ Comments URL: https://news.ycombinator.com/item?id=50449748 Points: 326 # Comments: 119",
+     "summary_th": "บทความแนะนำวิธีป้องกันคีย์ SSH ด้วย Secure Enclave ของ macOS",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ssh",
+      "macos"
+     ],
+     "entities": [
+      "macOS"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e3b7bcad8292",
@@ -3264,7 +4067,22 @@
      "link": "https://www.techmeme.com/261111/p32",
      "source": "Techmeme",
      "published": 1794409804,
-     "text": "Robert Hart / The Verge : Google DeepMind launches AlphaGenome 2, trained on 100M+ cell profiles across 68 tissues to predict genetic mutation effects, for non-commercial research — DeepMind's new DNA model better predicts how mutations affect different cells, potentially opening paths to treatment."
+     "text": "Robert Hart / The Verge : Google DeepMind launches AlphaGenome 2, trained on 100M+ cell profiles across 68 tissues to predict genetic mutation effects, for non-commercial research — DeepMind's new DNA model better predicts how mutations affect different cells, potentially opening paths to treatment.",
+     "summary_th": "Google DeepMind เปิด AlphaGenome 2 ที่ฝึกจากโปรไฟล์เซลล์กว่า 100M+ จาก 68 เนื้อเยื่อ เพื่อทำนายผลของการกลายพันธุ์ ใช้เฉพาะงานวิจัยที่ไม่ใช่เชิงพาณิชย์",
+     "importance": 2,
+     "numbers": [
+      "100M+",
+      "68"
+     ],
+     "tags": [
+      "deepmind",
+      "genomics"
+     ],
+     "entities": [
+      "Google DeepMind",
+      "AlphaGenome 2"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a9021fd43362",
@@ -3272,7 +4090,19 @@
      "link": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
      "source": "BleepingComputer",
      "published": 1794409271,
-     "text": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors are sharing rootkit source code, tutorials, and exploits targeting Linux systems. [...]"
+     "text": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors are sharing rootkit source code, tutorials, and exploits targeting Linux systems. [...]",
+     "summary_th": "บทความจาก Flare ระบุว่า rootkit ที่ใช้ eBPF บน Linux สามารถซ่อนกิจกรรมอันตรายและหลบการตรวจจับ และกำลังแพร่ในฟอรัมใต้ดิน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ebpf",
+      "rootkit",
+      "linux"
+     ],
+     "entities": [
+      "Flare"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ffb788306cb1",
@@ -3280,7 +4110,19 @@
      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNU2hCbm9tR2ZKUWltZENUNzVEOXYwNXF1UkJkYlZLRXNUdzBYSmdaalI1NWcxMUlHVC1oOWI5M0Z2YVRENkVTZ1UwWFZ5NXdGYXk0QlJpOVpyLXotdTU2Vnl3VFNvcE5FbWd3aUNmNEpqVlVpWGpMNmFHeGktVmVMMUpPRW43SzlHMnJBT2lKUXhiaFdfWVNiMzlXOXgwVlhJdE4xdnN4c0ZpUDlvSHRhaFZiSVhVd01sdXRQTHY0NHROUWZENFpKc0FvVlFyVGxacHdrUDVTeHg3bWIxV1lVY2RGbVVMdVo1OGR2NTFfOWJ4YU9nU3B1c3hxV1dZclpy?oc=5",
      "source": "Farming Life",
      "published": 1794411360,
-     "text": "Appeal for information and CCTV footage following a number of reported burglaries in the Rathfriland, Banbridge and Newry areas Farming Life"
+     "text": "Appeal for information and CCTV footage following a number of reported burglaries in the Rathfriland, Banbridge and Newry areas Farming Life",
+     "summary_th": "ตำรวจขอข้อมูลและภาพ CCTV หลังมีเหตุลักทรัพย์หลายครั้งในพื้นที่ Rathfriland, Banbridge และ Newry",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "burglary"
+     ],
+     "entities": [
+      "Rathfriland",
+      "Banbridge",
+      "Newry"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7c021a2e6c5b",
@@ -3288,7 +4130,18 @@
      "link": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
      "source": "TechCrunch",
      "published": 1794405600,
-     "text": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments."
+     "text": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
+     "summary_th": "Plurai ใช้แนวทางเดียวกับการฝึกรถยนต์ขับเคลื่อนอัตโนมัติ เพื่อช่วยให้ AI agent ทำงานได้ดีขึ้น",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai agents",
+      "plurai"
+     ],
+     "entities": [
+      "Plurai"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "61142563917e",
@@ -3296,7 +4149,19 @@
      "link": "https://arstechnica.com/tech-policy/2026/11/democrats-oppose-plan-to-stack-fcc-with-republicans-plan-probes-of-chairman-carr/",
      "source": "Ars Technica",
      "published": 1794347726,
-     "text": "Democrats accuse FCC nominee of evading questions about Carr, her current boss."
+     "text": "Democrats accuse FCC nominee of evading questions about Carr, her current boss.",
+     "summary_th": "พรรคเดโมแครตคัดค้านแผนเพิ่มกรรมการพรรครีพับลิกันใน FCC และวางแผนตรวจสอบประธาน FCC Carr",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "fcc",
+      "carr"
+     ],
+     "entities": [
+      "FCC",
+      "Carr"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "fa929d0299dc",
@@ -3304,7 +4169,22 @@
      "link": "https://www.theverge.com/gadgets/1031301/sharge-140w-gan-charger-lenovo-yoga-mini-desktop-pc-deal-sale",
      "source": "The Verge",
      "published": 1794411000,
-     "text": "Looking for a MacBook and device charger that’s as stylish as it is capable? Both Amazon and Sharge are selling the Pixel 140W GaN charger for $69.88 and $69.90, respectively, a $24 discount on its usual price. If you’re not in need of that much wattage but like the style, Sharge is also selling the […]"
+     "text": "Looking for a MacBook and device charger that’s as stylish as it is capable? Both Amazon and Sharge are selling the Pixel 140W GaN charger for $69.88 and $69.90, respectively, a $24 discount on its usual price. If you’re not in need of that much wattage but like the style, Sharge is also selling the […]",
+     "summary_th": "ที่ชาร์จ MacBook ของ Sharge ลดราคาเกิน 25 percent เหลือประมาณ $69.88 จากราคาปกติ",
+     "importance": 0,
+     "numbers": [
+      "25 percent",
+      "$69.88"
+     ],
+     "tags": [
+      "deal",
+      "charger"
+     ],
+     "entities": [
+      "Sharge",
+      "Amazon"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8181e961dff0",
@@ -3312,7 +4192,21 @@
      "link": "https://www.cnbc.com/2026/11/11/trump-xi-summit-ai-nvidia-.html",
      "source": "CNBC Tech",
      "published": 1794374150,
-     "text": "During Xi's September visit, Washington and Beijing agreed to launch an AI dialogue with a communications channel to help defuse serious incidents."
+     "text": "During Xi's September visit, Washington and Beijing agreed to launch an AI dialogue with a communications channel to help defuse serious incidents.",
+     "summary_th": "Bessent กล่าวว่าสหรัฐและจีนไม่ควรมีภาพลวงตาขณะร่วมมือและแข่งขันด้าน AI หลังทั้งสองฝ่ายตกลงเปิดการสนทนาด้าน AI ในช่วงที่ Xi เยือนเดือนกันยายน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "us china"
+     ],
+     "entities": [
+      "Bessent",
+      "US",
+      "China",
+      "Xi"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "168143ea4218",
@@ -3320,7 +4214,18 @@
      "link": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
      "source": "Hacker News",
      "published": 1794345903,
-     "text": "Article URL: https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/ Comments URL: https://news.ycombinator.com/item?id=50446520 Points: 423 # Comments: 437"
+     "text": "Article URL: https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/ Comments URL: https://news.ycombinator.com/item?id=50446520 Points: 423 # Comments: 437",
+     "summary_th": "Apple กำลังเปิดแอป Mac ใหม่ที่ทำให้การรัน AI โมเดลในเครื่องเป็นเรื่องง่าย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "apple",
+      "local ai"
+     ],
+     "entities": [
+      "Apple"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "762aabc7a35c",
@@ -3328,7 +4233,21 @@
      "link": "https://www.techmeme.com/261111/p31",
      "source": "Techmeme",
      "published": 1794409556,
-     "text": "Tim Fernholz / TechCrunch : Plurai, founded by former Nexar staffers to use synthetic data and digital twins of corporate IT environments to assess AI agents, raised a $13M seed — AI agents are all the rage, but they're not quite as capable as their purveyors would have you believe."
+     "text": "Tim Fernholz / TechCrunch : Plurai, founded by former Nexar staffers to use synthetic data and digital twins of corporate IT environments to assess AI agents, raised a $13M seed — AI agents are all the rage, but they're not quite as capable as their purveyors would have you believe.",
+     "summary_th": "Plurai ซึ่งก่อตั้งโดยอดีตพนักงาน Nexar ระดมทุนรอบ seed $13M เพื่อประเมิน AI agent ด้วยข้อมูลสังเคราะห์และ digital twin ของระบบไอที",
+     "importance": 1,
+     "numbers": [
+      "$13M"
+     ],
+     "tags": [
+      "funding",
+      "ai agents"
+     ],
+     "entities": [
+      "Plurai",
+      "Nexar"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "693679885746",
@@ -3336,7 +4255,20 @@
      "link": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
      "source": "BleepingComputer",
      "published": 1794400347,
-     "text": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]"
+     "text": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
+     "summary_th": "N-able ปล่อยแพตช์แก้ช่องโหว่ zero-day ในแพลตฟอร์ม N-central RMM ซึ่งถูกเปิดเผยช่วงสุดสัปดาห์ จนต้องนำระบบโฮสต์ที่เสี่ยงออกจากอินเทอร์เน็ต",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "zero-day",
+      "rmm",
+      "n-able"
+     ],
+     "entities": [
+      "N-able",
+      "N-central"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6b87e08963a4",
@@ -3344,7 +4276,16 @@
      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fZ0RySGhYa052cko5dzRET2V1akNTMlNhRUI3LWpzUTYzVFU1MW9OOUtlOWdtbG5IWG43dlZUUm1DTWE0NkpSR2x3ZEg5OW14TXhDaGFRSjR6aHhEUzFpbkFYdlByWkY0NTNDWDFRbnZCdE5iT0ZoZ2ln?oc=5",
      "source": "The Holderness and Hornsea Gazette",
      "published": 1794408289,
-     "text": "CCTV now monitoring dangerous bridge The Holderness and Hornsea Gazette"
+     "text": "CCTV now monitoring dangerous bridge The Holderness and Hornsea Gazette",
+     "summary_th": "ข่าวท้องถิ่นว่ามีกล้อง CCTV ติดตามสะพานที่อันตราย",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "cctv",
+      "local news"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     }
    ]
   },
@@ -3763,7 +4704,16 @@
      "link": "https://www.statnews.com/2026/11/11/obesity-diagnosis-bmi-lancet-commission-proposal-impact/",
      "source": "STAT News",
      "published": 1794412800,
-     "text": "A newly proposed way of identifying obesity could flip the diagnoses of millions of people. Proponents argue it could lead to more precise care."
+     "text": "A newly proposed way of identifying obesity could flip the diagnoses of millions of people. Proponents argue it could lead to more precise care.",
+     "summary_th": "วิธีวินิจฉัยโรคอ้วนแบบใหม่ที่เสนอ อาจเปลี่ยนผลการวินิจฉัยของคนจำนวนมาก ผู้เสนอระบุว่าอาจช่วยการดูแลที่แม่นยำขึ้น",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "obesity",
+      "bmi"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "fa096f5eff61",
@@ -3771,7 +4721,18 @@
      "link": "https://medicalxpress.com/news/2026-11-doomsday-today.html",
      "source": "Medical Xpress",
      "published": 1794412850,
-     "text": "According to the late Heinz von Foerster, Friday, Nov. 13, 2026, is doomsday. Professor von Foerster and two colleagues at the University of Illinois published that prediction in 1960 in the respected journal Science. The paper has been widely discussed ever since."
+     "text": "According to the late Heinz von Foerster, Friday, Nov. 13, 2026, is doomsday. Professor von Foerster and two colleagues at the University of Illinois published that prediction in 1960 in the respected journal Science. The paper has been widely discussed ever since.",
+     "summary_th": "บทความพูดถึงการทำนายวันโลกาวินาศของ Heinz von Foerster ที่ตีพิมพ์ในวารสาร Science เมื่อปี 1960 ซึ่งระบุวันที่ในปี 2026",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "doomsday prediction"
+     ],
+     "entities": [
+      "Heinz von Foerster",
+      "Science"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c0c951065143",
@@ -3779,7 +4740,15 @@
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWnZzdmxlRlpsVVVlUkhVWWJkTGw3cEFZZGliV0lmYktReEZIV0xzYURoOGlpR0wybUtuS2VqYk82QWNPU1hEclVES3ZQaWJkaWJjX3k2VzB5Q0ZGZ25UbENBZWh6Qk80YjJ1NXg0MDhjSEI5ODlTWEZpNHFuNUEzMm9pTWhEb25ic2RTckZWd1Z6UQ?oc=5",
      "source": "Pluang",
      "published": 1794413359,
-     "text": "Healthcare stocks, led by biotech firms Recursi... Pluang"
+     "text": "Healthcare stocks, led by biotech firms Recursi... Pluang",
+     "summary_th": "ข่าวสั้นเรื่องหุ้นกลุ่มสุขภาพที่นำโดยบริษัทไบโอเทค ต้นทางถูกตัดข้อความไว้",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "healthcare stocks"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "df9d7465a58b",
@@ -3787,7 +4756,18 @@
      "link": "https://www.statnews.com/2026/11/11/mdcalc-cofounder-graham-walker-on-crosscover-ai-prognosis/",
      "source": "STAT News",
      "published": 1794410423,
-     "text": "In this edition of AI Prognosis: A conversation with Graham Walker, co-founder of MDCalc, about the company's new AI tool."
+     "text": "In this edition of AI Prognosis: A conversation with Graham Walker, co-founder of MDCalc, about the company's new AI tool.",
+     "summary_th": "Graham Walker ผู้ร่วมก่อตั้ง MDCalc พูดถึงเครื่องมือ AI ใหม่ และบอกว่าการให้ข้อมูลกับ AI น้อยลงบางครั้งอาจดีกว่า",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "medical ai"
+     ],
+     "entities": [
+      "MDCalc",
+      "Graham Walker"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "73ffa08ab25d",
@@ -3795,7 +4775,18 @@
      "link": "https://medicalxpress.com/news/2026-11-clinical-definition-outperforms-bmi-obesity.html",
      "source": "Medical Xpress",
      "published": 1794412840,
-     "text": "A new diagnostic definition of obesity outperforms body mass index (BMI) in identifying differences in health and prognosis, including mortality risk, according to a large international study published in Nature."
+     "text": "A new diagnostic definition of obesity outperforms body mass index (BMI) in identifying differences in health and prognosis, including mortality risk, according to a large international study published in Nature.",
+     "summary_th": "การศึกษาขนาดใหญ่ใน Nature พบว่านิยามคลินิกใหม่ของโรคอ้วนดีกว่า BMI ในการระบุความแตกต่างด้านสุขภาพและความเสี่ยงการเสียชีวิต",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "obesity",
+      "bmi"
+     ],
+     "entities": [
+      "Nature"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "93af0f6aa516",
@@ -3803,7 +4794,17 @@
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSWdKQzZiM2MtRDYtcTE1V01DeF9wWTRrUFRFUXY0c2tGSU9UZjJiTm1rQ29NN3h6bWhzMGFGTzFTR2REOUZhZzFmRW5LN2xPNVRaRGtIV0lxT200Qnc1dWlMNnZEVWYtVFMzZWFHTEtFZGJYcWR4WE1Wa0Rkay1HbGpRdjQycGdQeHJtOXR1Z09LTDM0Q3c?oc=5",
      "source": "GuruFocus",
      "published": 1794411225,
-     "text": "PharmaCyte Biotech, Inc. Announces Reverse Stock Split GuruFocus"
+     "text": "PharmaCyte Biotech, Inc. Announces Reverse Stock Split GuruFocus",
+     "summary_th": "PharmaCyte Biotech ประกาศรวมหุ้น (reverse stock split)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "reverse split"
+     ],
+     "entities": [
+      "PharmaCyte Biotech"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "9287e6047284",
@@ -3811,7 +4812,20 @@
      "link": "https://www.statnews.com/2026/11/11/fda-commissioner-nominee-heidi-overton-senate-committee-vote/",
      "source": "STAT News",
      "published": 1794409648,
-     "text": "Cassidy said he and other GOP lawmakers are undecided on Heidi Overton to lead the FDA."
+     "text": "Cassidy said he and other GOP lawmakers are undecided on Heidi Overton to lead the FDA.",
+     "summary_th": "Cassidy กำหนดวันลงมติสำคัญเรื่อง Overton แต่ยังไม่ตัดสินใจเกี่ยวกับ Heidi Overton ผู้ถูกเสนอให้เป็นผู้นำ FDA",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "fda",
+      "overton"
+     ],
+     "entities": [
+      "Cassidy",
+      "Heidi Overton",
+      "FDA"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6341e56b8923",
@@ -3819,7 +4833,18 @@
      "link": "https://medicalxpress.com/news/2026-11-fossil-blood-samples-scientists-leukemia.html",
      "source": "Medical Xpress",
      "published": 1794412829,
-     "text": "Scientists have reconstructed how acute myeloid leukemia (AML) develops over the decades before diagnosis, showing that in two-thirds of cases the first cancer-driving mutation had been acquired before the age of 20—more than 50 years before diagnosis."
+     "text": "Scientists have reconstructed how acute myeloid leukemia (AML) develops over the decades before diagnosis, showing that in two-thirds of cases the first cancer-driving mutation had been acquired before the age of 20—more than 50 years before diagnosis.",
+     "summary_th": "นักวิจัยใช้ตัวอย่างเลือดที่เก็บไว้สร้างลำดับการพัฒนาของ leukemia ย้อนหลังหลายทศวรรษก่อนการวินิจฉัย โดยพบว่าในสองในสามของกรณีการกลายพันธุ์แรกเกิดก่อนอายุ 20 ปี และนานกว่า 50 years ก่อนวินิจฉัย",
+     "importance": 1,
+     "numbers": [
+      "50 years"
+     ],
+     "tags": [
+      "leukemia",
+      "aml"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "d97a568c6e4d",
@@ -3827,7 +4852,19 @@
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSTdUMWJDWHB6cTVzN0c4YU9yNzA5dWpVeGxHa0wxaVNabDd6VnFuc29kU3RfRzJkejZEV21hT1B1UVk0TG1VYlhUT3BGSExpR2RDcVhEdEU3T1lxUkNTY2RFcFlicWpKZmhQbDVNQ19yOVZXRUxsNHJnX0tNRjdBcURXU1Rhc3lpOVFaME4tRXdYTWQ3bUg1VlpHSlJzMnlLcm1NRFhwTVZhT1k?oc=5",
      "source": "Fierce Pharma",
      "published": 1794410380,
-     "text": "Legend Biotech shares fall 16% after first earnings report under new CEO Fierce Pharma"
+     "text": "Legend Biotech shares fall 16% after first earnings report under new CEO Fierce Pharma",
+     "summary_th": "หุ้น Legend Biotech ร่วง 16% หลังรายงานผลประกอบการครั้งแรกภายใต้ CEO คนใหม่",
+     "importance": 1,
+     "numbers": [
+      "16%"
+     ],
+     "tags": [
+      "legend biotech"
+     ],
+     "entities": [
+      "Legend Biotech"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "dc6aa6da49ab",
@@ -3835,7 +4872,18 @@
      "link": "https://www.statnews.com/pharmalot/2026/11/11/dems-eye-trump-mfn-deals-fewer-drug-launches-in-europe/",
      "source": "STAT News",
      "published": 1794407668,
-     "text": "Incoming Democratic chairs of key congressional committees have taken a new step toward investigating most-favored nation drug pricing agreements"
+     "text": "Incoming Democratic chairs of key congressional committees have taken a new step toward investigating most-favored nation drug pricing agreements",
+     "summary_th": "ประธานคณะกรรมาธิการเดโมแครตชุดใหม่ก้าวสู่การตรวจสอบข้อตกลง MFN ด้านราคายาของทรัมป์ และบริษัทยาในยุโรปเปิดตัวยาน้อยลง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "most-favored nations",
+      "drug pricing"
+     ],
+     "entities": [
+      "Trump"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5d3d5b8a8c07",
@@ -3843,7 +4891,18 @@
      "link": "https://medicalxpress.com/news/2026-11-receptor-uncovers-hidden-sites-asthma.html",
      "source": "Medical Xpress",
      "published": 1794412825,
-     "text": "Researchers at the Center for Genomic Regulation (CRG) have developed a new way of identifying new druggable sites on a family of proteins that could help design treatments with fewer side effects for a very wide range of conditions from heart disease to depression."
+     "text": "Researchers at the Center for Genomic Regulation (CRG) have developed a new way of identifying new druggable sites on a family of proteins that could help design treatments with fewer side effects for a very wide range of conditions from heart disease to depression.",
+     "summary_th": "นักวิจัย CRG พัฒนาวิธีระบุตำแหน่งที่ยาจับได้ในตระกูลโปรตีน ซึ่งอาจช่วยออกแบบยารักษาโรคหอบหืด โรคหัวใจ และภาวะซึมเศร้า",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "drug design",
+      "receptors"
+     ],
+     "entities": [
+      "Center for Genomic Regulation"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "96e3cc477837",
@@ -3851,7 +4910,22 @@
      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPc1BRTmxUWnVpdUtFRHlIV041Q0NreHVRYXZnN0RMZnF5WWFNTlBZLTB0MlBIUHJLQ25mNHRROWdRcXV3aDgwQm8zY0Rsakd5T3MyRnNUUmx0eXFLZkRaeHhnMVJDY0ZNN1J4UU4zSjFpQ0dSbnVjMWtxRXFlTFN5RkNNWms2RHpZUFZSdTVGd0MzeVFtRkI2LUNsSVZtQlRNUjRNYlhMZXd3c1JUVjB6VElQam8xX0ZsWGoweVNfMmFSZDJ4R245SUlyTXllM3JMcTBQd25naFptZE5PSmlz?oc=5",
      "source": "TradingView",
      "published": 1794410352,
-     "text": "RBC Capital maintains Legend Biotech at Outperform, lowers price target to $50 from $56 TradingView"
+     "text": "RBC Capital maintains Legend Biotech at Outperform, lowers price target to $50 from $56 TradingView",
+     "summary_th": "RBC Capital คงอันดับ Outperform ให้ Legend Biotech และปรับราคาเป้าหมายจาก $56 เป็น $50",
+     "importance": 1,
+     "numbers": [
+      "$50",
+      "$56"
+     ],
+     "tags": [
+      "legend biotech",
+      "analyst"
+     ],
+     "entities": [
+      "RBC Capital",
+      "Legend Biotech"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1287992cdfea",
@@ -3859,7 +4933,19 @@
      "link": "https://www.statnews.com/2026/11/11/health-news-us-may-soon-lose-measles-elimination-status/",
      "source": "STAT News",
      "published": 1794401773,
-     "text": "A regional WHO body will hold a four-day meeting determining whether the U.S. has maintained measles elimination. All signs point to no:"
+     "text": "A regional WHO body will hold a four-day meeting determining whether the U.S. has maintained measles elimination. All signs point to no:",
+     "summary_th": "สหรัฐอาจสูญเสียสถานะการกำจัดโรคหัดได้เร็วๆ นี้ หน่วยงาน WHO ระดับภูมิภาคจะประชุมสี่วันเพื่อตัดสิน โดยสัญญาณทั้งหมดชี้ว่าคำตอบคือไม่ใช่",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "measles",
+      "who"
+     ],
+     "entities": [
+      "WHO",
+      "US"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "4d2a18eef956",
@@ -3867,7 +4953,15 @@
      "link": "https://medicalxpress.com/news/2026-11-atlas-tracks-proteins-blood-brain.html",
      "source": "Medical Xpress",
      "published": 1794412813,
-     "text": "Your brain is protected by the blood-brain barrier—a network of cells in the brain's blood vessels that serves as a border between the brain and the rest of your bloodstream. But it's not just a barrier; it's a sophisticated interface that shuttles specific molecules between the blood and the brain to keep your brain healthy."
+     "text": "Your brain is protected by the blood-brain barrier—a network of cells in the brain's blood vessels that serves as a border between the brain and the rest of your bloodstream. But it's not just a barrier; it's a sophisticated interface that shuttles specific molecules between the blood and the brain to keep your brain healthy.",
+     "summary_th": "Atlas แรกที่ติดตามโปรตีนที่ข้ามกำแพงกั้นเลือด-สมองได้",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "blood-brain barrier"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "f1ebf7d892c0",
@@ -3875,7 +4969,19 @@
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNM1J3aXJOM3p2dUZtNmtvektUZ3EzQXo5MUpUQ0hxRnEzNFVsRFpYVWtva1U3aTdXSzk4bi1jWFpVZ3VQdHhmT3lMYjdKN0VrWDQxcHhMTVZfcFZ2OTVScHl6c3ktMk5HWE45YlNTMUhwQWdjMXR3Q0JWckx2OEpfOFBEWkpNOVl2R1ZYVURLSXNHQjdsS3RTa04wSkZ1VWNyR3h0U1JZQnhaMVBTNWc?oc=5",
      "source": "PR Newswire",
      "published": 1794409800,
-     "text": "Transformative Biotech Welcomes Nicholas Meyerson, PhD PR Newswire"
+     "text": "Transformative Biotech Welcomes Nicholas Meyerson, PhD PR Newswire",
+     "summary_th": "ประกาศการแต่งตั้ง Nicholas Meyerson, PhD เข้าร่วม Transformative Biotech",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "biotech",
+      "personnel"
+     ],
+     "entities": [
+      "Transformative Biotech",
+      "Nicholas Meyerson"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "4aaf4b83de22",
@@ -3883,7 +4989,18 @@
      "link": "https://www.statnews.com/2026/11/11/mdcalc-launches-crosscover-rumble-strip-for-clinical-ai-chatbots/",
      "source": "STAT News",
      "published": 1794389400,
-     "text": "MDCalc, a medical reference tool site, is launching CrossCover, a tool meant to help clinicians trust the answers of medical AI chatbots."
+     "text": "MDCalc, a medical reference tool site, is launching CrossCover, a tool meant to help clinicians trust the answers of medical AI chatbots.",
+     "summary_th": "MDCalc เปิดตัว CrossCover เครื่องมือช่วยให้แพทย์ตรวจสอบคำตอบจากแชตบอต AI ทางการแพทย์",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "medical ai",
+      "mdcalc"
+     ],
+     "entities": [
+      "MDCalc"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "0fd96aaf8c86",
@@ -3891,7 +5008,16 @@
      "link": "https://medicalxpress.com/news/2026-11-human-neurons-regain-communication-motor.html",
      "source": "Medical Xpress",
      "published": 1794412808,
-     "text": "A novel potential treatment approach for motor neuron disease (MND), similar to the approach being pursued with an investigational drug that recently entered human clinical trials, has been shown to restore broken communication between neurons in lab models of the disease. This could have beneficial therapeutic implications for 97% of people with MND, for whom there is currently no significant disease-modifying treatment."
+     "text": "A novel potential treatment approach for motor neuron disease (MND), similar to the approach being pursued with an investigational drug that recently entered human clinical trials, has been shown to restore broken communication between neurons in lab models of the disease. This could have beneficial therapeutic implications for 97% of people with MND, for whom there is currently no significant disease-modifying treatment.",
+     "summary_th": "แนวทางการรักษาใหม่ที่ทดลองในแล็บ ช่วยฟื้นการสื่อสารระหว่างเซลล์ประสาทที่เสียไปในโรค motor neuron ซึ่งคล้ายแนวทางของยาทดลองที่เข้าทดลองในคนแล้ว",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "motor neuron disease",
+      "neurons"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "06b98d338786",
@@ -3899,7 +5025,20 @@
      "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQX0c0V2xrVVhtYUJOY3FwcDlNM0hyemJsOEswM2VzTFZKTXRweUhTV2hDb0tFZTdCN2dMV3RRS1ltbFV5OHJUdVFzQThNNWlnTGdwOFV5dDdUTllDT1VDYV8wWXZOdHFtM1RtdjNhWng5bGg5dGp6aXc1cWEydVB5bkFNaUVpUEM2U0pLZ1AzdldOdFVkb1dVR1hNcE1GV3dDZVh0Y1haQmV4NnhOdmRmUzgtaHpIbVI2WG95aWE0TkJYbGVUT01OQ0ROWGhtV2JYTGNqSmFmS2d4UmVnbndJTnFpZTNzTVFBMEJqZlk3RUsxQy1WWnFYUUozODlLQXFTUE41RW42ZXMzOWpTSFN0eS1MLUEwWi11NDFJYkRiakVqU2RDRzlLRE9NVXJjc2JO?oc=5",
      "source": "USA Today",
      "published": 1794408917,
-     "text": "Protagenic Therapeutics Announces Private Placement of Up to $5 Million to Advance PT00114 into Its First U.S. Clinical Trial in Generalized Anxiety Disorder USA Today"
+     "text": "Protagenic Therapeutics Announces Private Placement of Up to $5 Million to Advance PT00114 into Its First U.S. Clinical Trial in Generalized Anxiety Disorder USA Today",
+     "summary_th": "Protagenic Therapeutics ประกาศเสนอขายหุ้นส่วนตัวสูงสุด $5 Million เพื่อนำ PT00114 เข้าทดลองคลินิกในสหรัฐครั้งแรกสำหรับโรควิตกกังวล",
+     "importance": 1,
+     "numbers": [
+      "$5 Million"
+     ],
+     "tags": [
+      "protagenic",
+      "anxiety trial"
+     ],
+     "entities": [
+      "Protagenic Therapeutics"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c6f2efbe5ace",
@@ -3907,7 +5046,19 @@
      "link": "https://www.statnews.com/2026/11/11/kennedy-hhs-preventive-care-panel-conflict-interest-waivers/",
      "source": "STAT News",
      "published": 1794389400,
-     "text": "Federal health officials granted blanket ethics waivers to USPSTF panel members, some of whom own pharma stocks and private medical practices."
+     "text": "Federal health officials granted blanket ethics waivers to USPSTF panel members, some of whom own pharma stocks and private medical practices.",
+     "summary_th": "เอกสารชี้ว่าสมาชิกคณะกรรมการ USPSTF ที่อยู่ภายใต้ Kennedy ได้รับการยกเว้นจริยธรรมแบบกว้าง บางคนถือหุ้นยาและมีคลินิกส่วนตัว",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "uspstf",
+      "conflicts of interest"
+     ],
+     "entities": [
+      "USPSTF",
+      "Kennedy"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "55ecdaf7f0ac",
@@ -3915,7 +5066,18 @@
      "link": "https://medicalxpress.com/news/2026-11-molecular-brace-cancer-proteins-suppress.html",
      "source": "Medical Xpress",
      "published": 1794412801,
-     "text": "Many modern cancer drugs typically target a specific protein or signaling pathway to treat tumors. Now, researchers at the University of Michigan Health Rogel Cancer Center are taking a new approach by throwing a molecular wrench into the machinery driving prostate cancer. In preclinical studies, this new approach demonstrated greater antitumor activity while sparing normal cells."
+     "text": "Many modern cancer drugs typically target a specific protein or signaling pathway to treat tumors. Now, researchers at the University of Michigan Health Rogel Cancer Center are taking a new approach by throwing a molecular wrench into the machinery driving prostate cancer. In preclinical studies, this new approach demonstrated greater antitumor activity while sparing normal cells.",
+     "summary_th": "โมเลกุลที่ออกแบบขึ้นจับโปรตีนสองตัวที่ขับเคลื่อนมะเร็งไว้ด้วยกัน ช่วยยับยั้งการเติบโตของมะเร็งต่อมลูกหมากในการทดลองก่อนคลินิก",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "prostate cancer",
+      "preclinical"
+     ],
+     "entities": [
+      "University of Michigan Health Rogel Cancer Center"
+     ],
+     "model": "claude/routine"
     }
    ]
   }
