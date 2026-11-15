@@ -2,9 +2,10 @@
  "date": "2026-11-15",
  "collected_at": "2026-11-15T09:10:01+07:00",
  "models": [
+  "claude/routine",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 25,
+ "summary_failed": 0,
  "prices": [],
  "theme_prices": [],
  "categories": [
@@ -31,7 +32,8 @@
       "Jensen Huang",
       "Nathan Lambert"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a33801e4ff46",
@@ -52,7 +54,8 @@
      "entities": [
       "Monkey Island"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c42dff3d9e96",
@@ -73,7 +76,8 @@
       "Sean Duffy",
       "L3Harris"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6c41dcbf34a2",
@@ -95,7 +99,8 @@
      "entities": [
       "Ggml"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c7a7e3447305",
@@ -120,7 +125,8 @@
       "Trump Media",
       "Truth Social"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d25e210f3f7b",
@@ -137,7 +143,8 @@
       "coding"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "71f810637667",
@@ -159,7 +166,8 @@
      "entities": [
       "Tesla"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1b2323ae814d",
@@ -168,7 +176,7 @@
      "source": "Techmeme",
      "published": 1794669002,
      "text": "Reuters : Italy's data protection agency fines Meta €805M for allegedly accessing Android users' photos and videos without their consent or informing them — Italy's data protection agency said on Saturday it had fined Meta Platforms (META.O) €805 million ($887 million) …",
-     "summary_th": "หน่วยงานคุ้มครองข้อมูลของอิตาลีปรับ Meta เป็นเงิน €805 ล้าน จากข้อกล่าวหาเข้าถึงรูปภาพและวิดีโอของผู้ใช้ Android โดยไม่ได้รับความยินยอม",
+     "summary_th": "หน่วยงานคุ้มครองข้อมูลของอิตาลีปรับ Meta €805M จากข้อกล่าวหาเข้าถึงรูปภาพและวิดีโอของผู้ใช้ Android โดยไม่ได้รับความยินยอมหรือแจ้งให้ทราบ",
      "importance": 3,
      "numbers": [
       "805M",
@@ -183,7 +191,10 @@
       "Meta",
       "Italy"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ใช้ตัวเลขตามต้นทาง (ไม่แปลงหน่วย)",
+     "checked_by": "claude/review"
     },
     {
      "id": "b67df2668da0",
@@ -205,7 +216,8 @@
       "Jensen Huang",
       "Alice Huang"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "7923dfd6dd55",
@@ -228,7 +240,8 @@
       "Tendrils",
       "Benchmark"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "020574a00007",
@@ -252,7 +265,8 @@
       "Google",
       "Nvidia"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4e501f9826d0",
@@ -272,7 +286,8 @@
      "entities": [
       "SpaceX"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1f4201b5895a",
@@ -295,7 +310,8 @@
       "Oracle",
       "Meta"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c8d55e521b5b",
@@ -304,7 +320,7 @@
      "source": "Hacker News",
      "published": 1794678190,
      "text": "Article URL: https://www.crissyfield.de/research/lovable-en/ Comments URL: https://news.ycombinator.com/item?id=50499017 Points: 649 # Comments: 279",
-     "summary_th": "แอป Lovable เปิดเผยรายละเอียดหนังสือเดินทางและข้อความส่วนตัวกว่า 200,000 ข้อความ",
+     "summary_th": "แอป Lovable เปิดเผยรายละเอียดหนังสือเดินทางและข้อความส่วนตัวมากกว่า 200K ข้อความ",
      "importance": 3,
      "numbers": [
       "200K"
@@ -316,7 +332,10 @@
      "entities": [
       "Lovable"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ใช้ตัวเลขตามต้นทาง (ไม่แปลงหน่วย)",
+     "checked_by": "claude/review"
     },
     {
      "id": "24ef21022a96",
@@ -339,7 +358,8 @@
       "Evan Spiegel",
       "Nvidia"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b02211b1de7e",
@@ -348,7 +368,7 @@
      "source": "Hacker News",
      "published": 1794664086,
      "text": "Article URL: https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/ Comments URL: https://news.ycombinator.com/item?id=50497009 Points: 335 # Comments: 223",
-     "summary_th": "อิตาลีปรับ Meta เป็นเงิน 887 ล้านดอลลาร์เนื่องจากการเข้าถึงข้อมูลผู้ใช้ Android",
+     "summary_th": "อิตาลีปรับ Meta $887M จากการเข้าถึงข้อมูลผู้ใช้ Android",
      "importance": 3,
      "numbers": [
       "$887M"
@@ -362,7 +382,10 @@
      "entities": [
       "Meta"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ใช้ตัวเลขตามต้นทาง (ไม่แปลงหน่วย)",
+     "checked_by": "claude/review"
     },
     {
      "id": "4e08fe10a1c1",
@@ -380,7 +403,8 @@
       "latin america"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "fbb4c2fd353e",
@@ -397,7 +421,8 @@
       "documentary"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e7dbcffaa991",
@@ -423,7 +448,8 @@
       "Atreides",
       "Nvidia"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f67a5ae71b6e",
@@ -440,7 +466,8 @@
       "tech"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -468,7 +495,8 @@
       "Cursor",
       "Fireworks AI"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3772cdf174b0",
@@ -485,7 +513,8 @@
       "cybersecurity"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b58e8e6c37ed",
@@ -509,7 +538,8 @@
       "CISA",
       "UnrealIRCd"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "98a243da03a2",
@@ -528,7 +558,8 @@
      "entities": [
       "UnrealIRCd"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e253199b5be0",
@@ -537,7 +568,7 @@
      "source": "BleepingComputer",
      "published": 1794669349,
      "text": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]",
-     "summary_th": "รัฐบาลสหรัฐฯ ขัดขวางแคมเปญวิศวกรรมสังคม FaceStealer ของเกาหลีเหนือ ซึ่งขโมยคริปโตเคอร์เรนซีไปมากกว่า 400 ล้านดอลลาร์",
+     "summary_th": "รัฐบาลสหรัฐฯ ขัดขวางแคมเปญวิศวกรรมสังคม FaceStealer ของเกาหลีเหนือ ซึ่งขโมยคริปโตไปมากกว่า $400 million",
      "importance": 3,
      "numbers": [
       "$400 million"
@@ -551,7 +582,10 @@
       "United States",
       "North Korea"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ใช้ตัวเลขตามต้นทาง (ไม่แปลงหน่วย)",
+     "checked_by": "claude/review"
     },
     {
      "id": "11d7cc16194d",
@@ -570,7 +604,8 @@
      "entities": [
       "FAA"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c6e1d6a77271",
@@ -579,7 +614,7 @@
      "source": "The Hacker News",
      "published": 1794580138,
      "text": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months. As part of a coordinated set of actions announced by the U.S. government, the cloud-based",
-     "summary_th": "FBI เผยแฮกเกอร์เกาหลีเหนือขโมยคริปโตมูลค่ากว่า 400 ล้านดอลลาร์ ผ่านวิดีโอคอลปลอมในรอบ 18 เดือน",
+     "summary_th": "FBI ระบุว่าแฮกเกอร์เกาหลีเหนือขโมยคริปโตมูลค่ามากกว่า $400 million ผ่านวิดีโอคอลปลอมในรอบ 18 เดือน",
      "importance": 3,
      "numbers": [
       "$400 million",
@@ -595,7 +630,10 @@
       "FBI",
       "North Korea"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ใช้ตัวเลขตามต้นทาง (ไม่แปลงหน่วย)",
+     "checked_by": "claude/review"
     },
     {
      "id": "2da0d8b20d6a",
@@ -616,7 +654,8 @@
       "CISA",
       "Check Point"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b297d876237e",
@@ -638,7 +677,8 @@
       "Check Point",
       "VMware ESXi"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c3cb9f990617",
@@ -663,7 +703,8 @@
       "Microsoft",
       "Baker Tilly"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "db3fd3a5adb8",
@@ -683,7 +724,8 @@
      "entities": [
       "Token Security"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1eeed33e6b06",
@@ -705,7 +747,8 @@
       "CISA",
       "Check Point"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2946c8ba9539",
@@ -727,7 +770,8 @@
       "CISA",
       "Check Point"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -741,7 +785,20 @@
      "link": "https://openai.com/business/customer-stories/shield",
      "source": "OpenAI",
      "published": 1794556800,
-     "text": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment."
+     "text": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+     "summary_th": "Shield ใช้ OpenAI ช่วยช่างไอทีส่งต่องานในพอร์ทัลระบบเก่า โดยเอเจนต์ Forge นำทางระบบ ให้ช่างโฟกัสกับปัญหาที่ต้องใช้วิจารณญาณ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "agents",
+      "it automation"
+     ],
+     "entities": [
+      "Shield",
+      "OpenAI",
+      "Forge"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "40e78db6601d",
@@ -749,7 +806,21 @@
      "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
      "source": "Hugging Face",
      "published": 1794578722,
-     "text": ""
+     "text": "",
+     "summary_th": "llama.cpp v1.0.0 เปิดตัวเป็นฐานที่แข็งแกร่งขึ้นสำหรับระบบนิเวศ AI ที่รันในเครื่อง",
+     "importance": 2,
+     "numbers": [
+      "1.0.0"
+     ],
+     "tags": [
+      "llama.cpp",
+      "local ai"
+     ],
+     "entities": [
+      "Hugging Face",
+      "llama.cpp"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6bd27b41ddbf",
@@ -757,7 +828,23 @@
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSVFmcHRvNGEzVXRKbU5Kc0JhSDV4R2o0bnpXSUJMZnRMc1E2ckNCRzBaWDhzY2xObHVtNmtiWmdoX3g4NlVsYkc1bzFDbVB0T016LWczNHJ6bGx2ZXlQeDZPUGNjeXJPaWZ3Wm5DdU9za21PMXFlZVVDckh5Q1I0QnROcElOTnA2bGMzczBMbFJweW1ISkkwWUgzNXJpTU95N0NR?oc=5",
      "source": "Reuters",
      "published": 1794679925,
-     "text": "Italy fines Meta $887 million over Android users' data access Reuters"
+     "text": "Italy fines Meta $887 million over Android users' data access Reuters",
+     "summary_th": "อิตาลีปรับ Meta $887 million จากการเข้าถึงข้อมูลผู้ใช้ Android",
+     "importance": 2,
+     "numbers": [
+      "$887 million"
+     ],
+     "tags": [
+      "meta",
+      "privacy",
+      "fine"
+     ],
+     "entities": [
+      "Italy",
+      "Meta",
+      "Android"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f1368ee77a5c",
@@ -765,7 +852,22 @@
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbXE1Zk80dUNIeVd0WkQ2cVVyYUxIV2E2SDZyeENXdVp6ei11dXQ1amFtTEFxd2diNDVzVlBvdFk4N2pqNTFRWW50MWtsYlNTaFFuT25ZNWwzeUtvVnQ5WTBTZnIteUlzM2FIVE5ESm9ud011RXNfT1FvbnZfUVkxRTJMTmIxUkYyS0dTbDA1VnpFZzhWU2pabHdYdFMxekhSM1VmSDdFZEQ3Znc?oc=5",
      "source": "Bloomberg.com",
      "published": 1794678891,
-     "text": "Italy Fines Meta €805 Million Over Access to Users’ Photos Bloomberg.com"
+     "text": "Italy Fines Meta €805 Million Over Access to Users’ Photos Bloomberg.com",
+     "summary_th": "อิตาลีปรับ Meta €805 Million เกี่ยวกับการเข้าถึงรูปภาพของผู้ใช้",
+     "importance": 2,
+     "numbers": [
+      "€805 Million"
+     ],
+     "tags": [
+      "meta",
+      "privacy",
+      "fine"
+     ],
+     "entities": [
+      "Italy",
+      "Meta"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ec577d4c46a6",
@@ -773,7 +875,19 @@
      "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
      "source": "TechCrunch",
      "published": 1794609780,
-     "text": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations."
+     "text": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+     "summary_th": "หลังการลาออกของ Jensen Huang ผู้ก่อตั้งและ VC คาดว่าจะลงทุนน้อยลงและมูลค่าต่ำลง หลัง Nvidia เคยลงทุนในสตาร์ทอัพ AI จำนวนหลายสิบพันล้าน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai startups",
+      "funding"
+     ],
+     "entities": [
+      "Nvidia",
+      "Jensen Huang"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "951c84561943",
@@ -781,7 +895,20 @@
      "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
      "source": "The Verge",
      "published": 1794602710,
-     "text": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card […]"
+     "text": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card […]",
+     "summary_th": "OpenAI เปิดตัว ChatGPT Wallet สำหรับเอเจนต์ Dots เริ่มใช้กับสมาชิก ChatGPT Pro ในสหรัฐอายุ 18 ปีขึ้นไปที่ใช้ที่อยู่เรียกเก็บเงินในสหรัฐและบัตรที่รองรับ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "openai",
+      "agents",
+      "payments"
+     ],
+     "entities": [
+      "OpenAI",
+      "ChatGPT"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "acaf00569e86",
@@ -789,7 +916,20 @@
      "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
      "source": "TechCrunch",
      "published": 1794701287,
-     "text": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch."
+     "text": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+     "summary_th": "หัวหน้าความปลอดภัยของ Nvidia ลาออกตั้งแต่สิงหาคม และ Jensen Huang ลาออกจากตำแหน่ง CEO เพราะความสัมพันธ์บางอย่าง รวมถึงกับผู้บริหารของบริษัทที่ถูกสงสัยว่าส่งชิปไปจีน อดีตเจ้าหน้าที่ข่าวกรองมองว่าเป็นการรั่วไหลที่ทีมความปลอดภัยองค์กรส่วนใหญ่รับมือยาก",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "chip smuggling",
+      "leadership"
+     ],
+     "entities": [
+      "Nvidia",
+      "Jensen Huang"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d46b516a4c83",
@@ -797,7 +937,18 @@
      "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
      "source": "The Verge",
      "published": 1794668400,
-     "text": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on […]"
+     "text": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on […]",
+     "summary_th": "บทสนทนากับ Helen Toner ผู้อำนวยการ Center for Security and Emerging Technology ที่ Georgetown University ในตอนที่ 2 ของซีรีส์ AI in real life",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai policy"
+     ],
+     "entities": [
+      "Helen Toner",
+      "Georgetown University"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c479f2841d4a",
@@ -805,7 +956,18 @@
      "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
      "source": "Ars Technica",
      "published": 1794604847,
-     "text": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved."
+     "text": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+     "summary_th": "สายการบินชื่นชมเครื่องมือ AI แต่สหภาพผู้ควบคุมการจราจรทางอากาศไม่ได้เข้าร่วม",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "aviation"
+     ],
+     "entities": [
+      "air traffic controllers' union"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b6e2ea0ded70",
@@ -813,7 +975,17 @@
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMG1KRkt1blhhelVrbDFMYk9FODBSeVA5dDQyN1hDZE1NZkoyd1BlZDRmQXlaNFRWZDRvemEwVXhtbF90YzAxblNQZURSb2JGa1ZVNHJObXVhVWJiMHlhSWxZUlIyYTB5b3h0ZWdhM2hjMTNrRjhkQ3R6aVpNS1ZOUHlhTVJvQndVbU8ycVFXR3BNU2tVaG9uOFJCbU13ejludjQ4UzNYcFNtcTRHczVaREt3?oc=5",
      "source": "Bloomberg.com",
      "published": 1794701040,
-     "text": "US Flight Chaos Spills Into Weekend After Nationwide Stoppage Bloomberg.com"
+     "text": "US Flight Chaos Spills Into Weekend After Nationwide Stoppage Bloomberg.com",
+     "summary_th": "การเดินทางทางอากาศของสหรัฐยังโกลาหลต่อเนื่องถึงสุดสัปดาห์หลังการหยุดบินทั่วประเทศ (ข่าวการบิน นอกหมวด AI)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "aviation"
+     ],
+     "entities": [
+      "Bloomberg"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a4a92fbcda03",
@@ -821,7 +993,17 @@
      "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
      "source": "TechCrunch",
      "published": 1794692482,
-     "text": "The petition had attracted more than 115,000 signatures as of Saturday afternoon."
+     "text": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+     "summary_th": "คำร้องหนึ่ง (ไม่ระบุในข้อความ) มีผู้ลงชื่อกว่า 115,000 รายเมื่อบ่ายวันเสาร์",
+     "importance": 1,
+     "numbers": [
+      "115,000"
+     ],
+     "tags": [
+      "petition"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "567fa298898a",
@@ -829,7 +1011,20 @@
      "link": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
      "source": "The Verge",
      "published": 1794657600,
-     "text": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that […]"
+     "text": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that […]",
+     "summary_th": "The Verge เล่าเหตุการณ์ที่ Jensen Huang ขึ้นเวทีต่อหน้าผู้ชมราว 14,000 คนเมื่อ 6 มกราคม 2025",
+     "importance": 1,
+     "numbers": [
+      "14,000"
+     ],
+     "tags": [
+      "nvidia"
+     ],
+     "entities": [
+      "Jensen Huang",
+      "Nvidia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "743e8b03b2d9",
@@ -837,7 +1032,15 @@
      "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
      "source": "Ars Technica",
      "published": 1794590745,
-     "text": "Researcher traces a path from AI reward hacking to potential human extinction."
+     "text": "Researcher traces a path from AI reward hacking to potential human extinction.",
+     "summary_th": "นักวิจัยรายหนึ่งลากเส้นจาก AI reward hacking ไปสู่ความเป็นไปได้ที่มนุษย์จะสูญพันธุ์",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai safety"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "e53cfcabb302",
@@ -845,7 +1048,17 @@
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaUxaazZEWDlnYnJQUGQ3ZjgwX0xSR3hWclVzd2ZFOUtvYXh5Nkl5WTdBSVE0S21Xb3hvazVIa2xYZklNZVBROG9OeUstY1U4N01hbERCc1o1TVdNZkotVU1PeGNPNnFyajZNbmVBaFR2WFZjaldlN3JPenRnZldjaFpzRkg?oc=5",
      "source": "Financial Times",
      "published": 1794697046,
-     "text": "US air travel chaos exposes system held together by ‘string and duct tape’ Financial Times"
+     "text": "US air travel chaos exposes system held together by ‘string and duct tape’ Financial Times",
+     "summary_th": "Financial Times รายงานว่าระบบการเดินทางทางอากาศของสหรัฐโกลาหล เพราะยึดด้วยการซ่อมชั่วคราว (ข่าวการบิน นอกหมวด AI)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "aviation"
+     ],
+     "entities": [
+      "Financial Times"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7134e7e1ad67",
@@ -853,7 +1066,19 @@
      "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
      "source": "TechCrunch",
      "published": 1794677400,
-     "text": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations."
+     "text": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+     "summary_th": "TechCrunch รวบรวมโครงการ AI ที่ปิดตัวหรือไม่ตรงตามที่คาดหวัง เช่น Siri ของ Apple ที่ล่าช้าซ้ำ และการเปิดตัว 'super app' ของ OpenAI",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai projects"
+     ],
+     "entities": [
+      "Apple",
+      "Siri",
+      "OpenAI"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "04367a7d0b10",
@@ -861,7 +1086,20 @@
      "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
      "source": "The Verge",
      "published": 1794613751,
-     "text": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their […]"
+     "text": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their […]",
+     "summary_th": "Amazon วางแผนสร้างคลังข้อมูลสินค้าเกือบทุกรายการที่ขายบนอินเทอร์เน็ต ชื่อโครงการ 'World Product Graph' ตามรายงานของ Reuters",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "amazon",
+      "ai agents",
+      "data"
+     ],
+     "entities": [
+      "Amazon",
+      "Reuters"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f4c4b3b7884b",
@@ -869,7 +1107,19 @@
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcm01TWcwVzQ3d3FvaU5DbUhzbGJZUVlOY1ZSU1FtOEFqQzFzencyRUJPLThkVVVYRVhzWVNfUDdKYnVaOTBIZjhXblpaa0d4SGFKanl0aXZZeXREOVV0SFpUVzZ1VnZ4bzF2T2d1X19LZ2N6aGQ4LTJiWWFsSDY4d25jeEo5VkJob1lLdUxULTZITHgzVFI0c2FYUTNuZ0hYWlhTdEtvRdIBrAFBVV95cUxQaVpSYlpxVFpHZG42b19vX2IwaTF4QWk1dml0dWkxeV94Y0tiN1d6LVRVSkN3TmlZWTJ5T2ZTcENBblZlclV1LW5KdERndGV5SWpCTF9HQlZrN0VfR2lDaWYyQ3luaTIxek0zT0liVk1HelJzT3lUcGZGNTVoQ0hGY3ZVdUpyVWYxSUNTa3gteWdNWXNPb0VUWS1taHFiRTRQZnBVUlZRbnlWcTNF?oc=5",
      "source": "CNBC",
      "published": 1794695647,
-     "text": "$180 million Van Gogh tests the art market and collector confidence CNBC"
+     "text": "$180 million Van Gogh tests the art market and collector confidence CNBC",
+     "summary_th": "ภาพวาด Van Gogh มูลค่า $180 million ทดสอบตลาดศิลปะและความเชื่อมั่นของนักสะสม (ข่าวศิลปะ นอกหมวด AI)",
+     "importance": 0,
+     "numbers": [
+      "$180 million"
+     ],
+     "tags": [
+      "art market"
+     ],
+     "entities": [
+      "CNBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "075bbfb634c2",
@@ -877,7 +1127,15 @@
      "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
      "source": "TechCrunch",
      "published": 1794674055,
-     "text": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations."
+     "text": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+     "summary_th": "รัฐบาลบางประเทศยืนยันคำมั่นด้านการจัดหาชิป ขณะที่บางประเทศติดตามผลกระทบต่อโครงการในท้องถิ่นและจัดการการสอบสวนที่ยังดำเนินอยู่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "chips"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     }
    ]
   },
@@ -891,7 +1149,19 @@
      "link": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
      "source": "Simon Willison",
      "published": 1794700768,
-     "text": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol. This means that if you're running local models with LM Studio or Ollama or llama.cpp (which just hit v1.0.0 ) you can run Datasette via uvx like this: wget https://datasette.io/content.db uvx --with datasette-agent datasette \\ --root --secret 1 \\ -s plugins.datasette-llm.default_model ' { \"model\": \"lmstudio-qwen\", \"model_name\": \"qwen/qwen3.8-27b\", \"api_base\": \"http://loca"
+     "text": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol. This means that if you're running local models with LM Studio or Ollama or llama.cpp (which just hit v1.0.0 ) you can run Datasette via uvx like this: wget https://datasette.io/content.db uvx --with datasette-agent datasette \\ --root --secret 1 \\ -s plugins.datasette-llm.default_model ' { \"model\": \"lmstudio-qwen\", \"model_name\": \"qwen/qwen3.8-27b\", \"api_base\": \"http://loca",
+     "summary_th": "ออกเวอร์ชัน datasette-llm 0.1a11 ซึ่งเพิ่มการรองรับ endpoint ที่เข้ากันได้กับ OpenAI",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "datasette",
+      "llm plugin"
+     ],
+     "entities": [
+      "Simon Willison",
+      "Datasette"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c49a7de77276",
@@ -899,7 +1169,18 @@
      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqdkVHUnViYURRYktPeUZVVUVSbi03a2tjeHlnTkdYU3dpSE13SjNBV1d5bWZ4SUxOcWs0S0h4ZzNOWnI0YmFFdzdNZ2ZMU3JHZ3BabGVycUxLOUxnaXlNdzRINk1jSUoyYllwc2tDQTVhVTg?oc=5",
      "source": "infoq.com",
      "published": 1794638305,
-     "text": "Open Source DocumentDB 1.0 Reaches General Availability infoq.com"
+     "text": "Open Source DocumentDB 1.0 Reaches General Availability infoq.com",
+     "summary_th": "DocumentDB 1.0 โอเพนซอร์สเปิดให้ใช้งานทั่วไป (General Availability) แล้ว",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "database",
+      "open source"
+     ],
+     "entities": [
+      "DocumentDB"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "cd67e7c43214",
@@ -907,7 +1188,20 @@
      "link": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
      "source": "Simon Willison",
      "published": 1794676149,
-     "text": "Release: datasette-vega 0.7 A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite ) against data in a table or custom query. The last release was in July 2018! I finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to make it work better with Datasette Lite . (Datasette Lite just gained the ability to run JavaScript plugins like this! I'll write more about that soon.) Since it works with Datasette Lite, the live demo in the README now links to this demo on Datasette Lite . Tags: datasette , visualisation , datasette-lite"
+     "text": "Release: datasette-vega 0.7 A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite ) against data in a table or custom query. The last release was in July 2018! I finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to make it work better with Datasette Lite . (Datasette Lite just gained the ability to run JavaScript plugins like this! I'll write more about that soon.) Since it works with Datasette Lite, the live demo in the README now links to this demo on Datasette Lite . Tags: datasette , visualisation , datasette-lite",
+     "summary_th": "ออกเวอร์ชัน 0.7 ของปลั๊กอิน datasette-vega สำหรับแสดงแผนภูมิ หลังไม่มีการอัปเดตตั้งแต่ปี 2018",
+     "importance": 1,
+     "numbers": [
+      "2018"
+     ],
+     "tags": [
+      "datasette",
+      "charts"
+     ],
+     "entities": [
+      "Datasette"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "002c9a6d4f74",
@@ -915,7 +1209,20 @@
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNazB2cTNEbl9qWDE2Z3BCOVh4Q1U1eDRka1Uxc18wQWhQNXRRTGRQV3VSOHRrUFlhZ0FKamNQb21zYkM5WWVfc0tJcGUwWktRbUFWTkkwc0Nya1RFbTVjNTBKa01XMzNhOTFyNzNWTG9NQXVHcGVTM2xwZ2xyUjNEVkxmSU9rY3Nq?oc=5",
      "source": "The Verge",
      "published": 1794602710,
-     "text": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you The Verge"
+     "text": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you The Verge",
+     "summary_th": "ChatGPT Wallet ช่วยให้เอเจนต์ Dots ของ OpenAI ซื้อสินค้าแทนผู้ใช้ได้",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "openai",
+      "agents",
+      "payments"
+     ],
+     "entities": [
+      "OpenAI",
+      "ChatGPT"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6a01efc35e40",
@@ -923,7 +1230,20 @@
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORVlFMEkwbmY1d2wxb2xNTGlWaTctSi1UdU9ZeUU3dzFVRDFzV2JsUlhDUFQtR1RyanBiMkVhSXZDRVdJWG9MeHhqbzc1VEpnVVc3emdrSTB1ZVlOSmJpeXl6OUptM19EaUlUdVRXbzBCXy1FRGNWRkRmenczcUtNNldXWnpPQQ?oc=5",
      "source": "TechCrunch",
      "published": 1794598677,
-     "text": "AI agent startup LangChain hits $3B valuation TechCrunch"
+     "text": "AI agent startup LangChain hits $3B valuation TechCrunch",
+     "summary_th": "สตาร์ทอัพ AI agent LangChain มีมูลค่า $3B",
+     "importance": 2,
+     "numbers": [
+      "$3B"
+     ],
+     "tags": [
+      "langchain",
+      "funding"
+     ],
+     "entities": [
+      "LangChain"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "59e057eee201",
@@ -931,7 +1251,17 @@
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQc1VrWGJ1SDZGWXZRT1VZZmpoSEV6a184dTd2WkpqeFNkNzdxbmxMcU1leVJnT2xXLTVhS2pxcWtPTkw0ZmN5OFgwel9NN3JaTnJyTFl0RHZSZVlIcVZxMDhjWE5IWUVfbVA4VFlUcVVQUVU1QUU4OTZiNGpJQmpIVVpfXzJzMFFFeVN2TjdDRjJkZEt1NTlBWTF3U1FidEVXRk9YTXhBbEZ6bXN2RUFlbVpDTzlDQy1FV2c?oc=5",
      "source": "TechCrunch",
      "published": 1794581875,
-     "text": "Uber confirms hackers stole thousands of drivers’ license information in data breach TechCrunch"
+     "text": "Uber confirms hackers stole thousands of drivers’ license information in data breach TechCrunch",
+     "summary_th": "Uber ยืนยันว่าแฮกเกอร์ขโมยข้อมูลใบขับขี่ของคนขับหลายพันรายจากการเจาะข้อมูล",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "data breach"
+     ],
+     "entities": [
+      "Uber"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -957,7 +1287,8 @@
      "entities": [
       "FAA"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -982,7 +1313,8 @@
      "entities": [
       "Edinburgh"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4c5204023774",
@@ -1002,7 +1334,8 @@
      "entities": [
       "Cerebras"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "dbeab3d6274d",
@@ -1023,7 +1356,8 @@
       "Singapore",
       "US"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e75af7bae148",
@@ -1040,7 +1374,8 @@
       "ai regulation"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4fe2bf18177c",
@@ -1060,7 +1395,8 @@
      "entities": [
       "Nvidia"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a714bb7a334c",
@@ -1077,7 +1413,8 @@
       "election"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3e5c07f69b44",
@@ -1086,7 +1423,7 @@
      "source": "Reuters",
      "published": 1794574803,
      "text": "China's $3 billion-plus pipeline of Nvidia-powered AI data centres Reuters",
-     "summary_th": "โครงการศูนย์ข้อมูล AI ที่ใช้ชิป Nvidia ของจีนมีมูลค่ามากกว่า 3,000 ล้านดอลลาร์",
+     "summary_th": "โครงการศูนย์ข้อมูล AI ที่ใช้ชิป Nvidia ของจีนมีมูลค่ามากกว่า $3 billion",
      "importance": 2,
      "numbers": [
       "$3 billion-plus"
@@ -1100,7 +1437,10 @@
       "China",
       "Nvidia"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ใช้ตัวเลขตามต้นทาง (ไม่แปลงหน่วย)",
+     "checked_by": "claude/review"
     },
     {
      "id": "bc76bb07f228",
@@ -1116,7 +1456,8 @@
       "ai mania"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a87d41590503",
@@ -1124,7 +1465,18 @@
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZ1QyOGQ0YnVkYU9yRllfalFudDJPbDY1T2dzX3BpeW11WUlxblAzWWJaVlk2S2wwbl9NcDdIMENPc19CTUVMY2NPOFZSMUdqQ0hpV3RlbDVsR21Fd3M1LVZMSVhTenFXT0xmR2tHdklyZl9LSnc3UXliNk5EZmN6LWZnYmoxQ2syeko0eTZMSHRETHd2T2RDRw?oc=5",
      "source": "Reuters",
      "published": 1794592800,
-     "text": "YouArt Launches YouArt Desktop App, AI Creative Teammate on the Computer Reuters"
+     "text": "YouArt Launches YouArt Desktop App, AI Creative Teammate on the Computer Reuters",
+     "summary_th": "YouArt เปิดตัวแอปเดสก์ท็อป YouArt ซึ่งเป็น AI creative teammate บนคอมพิวเตอร์",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai creative tools"
+     ],
+     "entities": [
+      "YouArt",
+      "Reuters"
+     ],
+     "model": "claude/routine"
     }
    ]
   }
