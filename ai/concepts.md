@@ -48,6 +48,7 @@ Claude เขียนและอัปเดตไฟล์นี้ทุก�
 ที่มา: [ข่าว](https://news.google.com/rss/articles/CBMijgFBVV95cUxPOTFhSkhiUlQ4X0o2Z01DV21TejM0Q2YyYXBSSTY1dS0tTVRKZTRPa1BxMnhPSWo2VlhIMWVhbTRGN3FQdXc4Tk5QQUk5aHJsU1l0TDZOejBqU0xDcmhOaWZ0OXc0elhyYkRtem5WZWJJbGtSejI5Ty11UFRRN2RaVzNDYTBKRUwwTjhhZGl3?oc=5) · [ข่าว](https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb2RVblpnaEg1N2RMQ0dkRUl4MVBGbFpHampwaEFLcEdXX1R1QmV6TzljT0o1TlluYURTQ1kyY0llUjBZWllrOWJ3cmZ4bmVZR0V0RWd5NmNvSzE1WHd5TlBqeEtkM053ZUdMc2thNlQzQk4xblNTUmdGUzBZbHctbVBFMEdRLUhoc0ZjR2dMRnJqZ251blJVV3pFenZmdjk0VHM2MEstR2Y?oc=5)
 อัปเดต 2026-11-01: DoorDash ได้ออเดอร์จาก agent ภายนอกแค่หลักร้อย [Ars Technica](https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/) แต่ agent ในระบบตัวเองลดเวลาสั่งซ้ำจาก 16 เหลือ 2 วินาที [InfoQ](https://www.infoq.com/news/2026/10/doordash-ai-grocery-reorder/)
 อัปเดต 2026-11-08: Expedia ว่า agent ยังไม่เปลี่ยนพฤติกรรมจอง [CNBC](https://www.cnbc.com/2026/11/05/expedia-ai-agents-booking-habits.html) · Airbnb จะมี agent ครึ่งแรกปี 2027 [TechCrunch](https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/)
+อัปเดต 2026-11-15: OpenAI เปิด ChatGPT Wallet ให้ agent ซื้อของโดยผู้ใช้อนุมัติ (เริ่ม Pro สหรัฐ) [OpenAI](https://openai.com/index/introducing-chatgpt-wallet) · ฝั่งร้านตั้งกำแพง: United บล็อก agent จองตั๋ว [Verge](https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents) · eBay ปิดประตู agent ภายนอก [Verge](https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping)
 
 ### AI ใช้คอมพิวเตอร์แทนคน (computer use) (เจอครั้งแรก 2026-11-01)
 คืออะไร: โมเดลดูหน้าจอ คลิก พิมพ์ กรอกฟอร์มเอง เหมือนคนนั่งหน้าคอม
@@ -58,6 +59,12 @@ Claude เขียนและอัปเดตไฟล์นี้ทุก�
 คืออะไร: ให้โมเดลถูกทำงานส่วนใหญ่ เจอเคสยากค่อยส่งต่อโมเดลแพง ได้ความแม่นใกล้โมเดลใหญ่ในราคาถูกกว่า
 ตัวอย่าง: Hightouch ใช้โมเดลเล็กตัดสินผล ขอ Opus ช่วยเมื่อจำเป็น ถูกลง 4 เท่า
 ที่มา: [Hightouch](https://hightouch.com/blog/llm-judges-identity-resolution)
+อัปเดต 2026-11-15: โมเดลเล็กราคาถูกออกใหม่ Muse Ember $0.10/$0.50 ต่อล้าน token [Simon Willison](https://simonwillison.net/2026/Nov/10/muse-ember/) · Gemini 4 Hydrogen $1.50/$7.50 [Simon Willison](https://simonwillison.net/2026/Nov/12/llm-gemini/)
+
+### agent หลงทางเพราะของเก่าในงาน (agent distraction) (เจอครั้งแรก 2026-11-15)
+คืออะไร: agent เจอ TODO เก่า เอกสารที่เลิกใช้ หรือบั๊กที่ปิดแล้ว แล้วออกไปทำงานข้างทางที่ไม่ได้สั่ง
+ตัวอย่าง: ล้างของเก่าในโค้ด/แฟ้มงานก่อนให้ agent ทำ ช่วยให้ทำงานตรงขึ้น
+ที่มา: [InfoQ](https://www.infoq.com/news/2026/11/google-agent-distraction/)
 
 ## ความปลอดภัยและกฎ
 
@@ -79,13 +86,21 @@ Claude เขียนและอัปเดตไฟล์นี้ทุก�
 คืออะไร: คนร้ายปลอมหรือแก้ "ของที่เราติดตั้ง" เช่น ส่วนขยาย (extension) skill หรือแพลตฟอร์มที่เก็บคีย์ แทนการเจาะเครื่องเราตรงๆ
 ตัวอย่าง: ส่วนขยาย Claude Code ปลอมบน Cursor ฝัง backdoor เกือบ 12 ชม. · Northflank ถูกเจาะ คีย์ AI API ลูกค้าถูกใช้
 ที่มา: [Ars Technica](https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/) · [BleepingComputer](https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/)
+อัปเดต 2026-11-15: เจาะต่อเป็นทอด: Fireworks AI ถูกเจาะ [Techmeme](https://www.techmeme.com/261109/p42) → คนร้ายใช้คีย์ที่ได้ปล่อยส่วนขยาย Claude Code ปลอมบนตลาดของ Cursor [BleepingComputer](https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/)
 
 ### เฝ้าดู agent แบบเรียลไทม์ (runtime monitoring) (เจอครั้งแรก 2026-11-01)
 คืออะไร: ดูว่า agent กำลังทำอะไรตลอดเวลา และหยุดได้ทัน ไม่ใช่แค่ทดสอบก่อนปล่อย
 ตัวอย่าง: ให้ agent ขออนุมัติก่อนลงมือ แบบ Claude Duet · ระบบจับ agent ที่ทำเกินคำสั่ง
 ที่มา: [MIT TR](https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/) · [ข่าว](https://news.google.com/rss/articles/CBMi9AFBVV95cUxPMnJvVVJxdHg1T0Frd2R1ekQtZzZZUWhIY09sT0pISUdidjlCNHYwLXQybVpJQUNlTktodTFINEFKNkE4VEowX0VXdHpvWXJQWVNTSl9Edmg3S190bFZKS0tVTkgwRG5iX1k4cy15WDN3ZUFjYXI5SWVYSmtUcDhXVWlEenR1UDViYVNhQmNfS1hCZDZwOUM2c0FrZHBuYzBpdk0zTnVPVTV4V1E5b095RExvdTZCM3MzRGJGR19HYVkzNVNRbEJCZ2U4eTFnb213V1FDS3VoR0R1YXI4aGNkdmpOaDN3Z0JhWlEwLTFpV09QdXZG?oc=5) · [ข่าว](https://news.google.com/rss/articles/CBMikAFBVV95cUxOTTFaRGtKRW9PSDBuVGdjMVlZenZWTDNyYkZEcGh4WndvNjZYWXBTdkdTYzU1cHhxTzR1MmpTNkJIQllqdUhuc09KR0w2cHZwcnBiZWlBSFEtUG8zakozR0g5VVB6bUJFTFlCMzNZMUdYdHFWLWFId1BPeWFjSDhlaVBtc09CVmtSYTJ1enFQOWs?oc=5)
+อัปเดต 2026-11-15: Google เปิดโอเพนซอร์ส AQuA ไล่ดูว่า agent ในระบบจริงพลาดซ้ำแบบไหน [InfoQ](https://www.infoq.com/news/2026/11/google-ambient-agent-prod/)
 
 ### Zero trust สำหรับ agent (คุมที่ชั้นเครื่องมือ) (เจอครั้งแรก 2026-11-08)
 คืออะไร: ไม่หวังให้ prompt ห้าม agent ได้ ให้คุมที่เครื่องมือ: agent แต่ละตัวมีตัวตนและสิทธิ์เฉพาะงาน และถือว่าผลจากเครื่องมืออาจมีคำสั่งแฝง (prompt injection) เสมอ
 ตัวอย่าง: agent ดูกล้องได้อย่างเดียว ลบไฟล์ไม่ได้ · Uber คุม MCP ผ่านประตูกลาง
 ที่มา: [InfoQ](https://www.infoq.com/presentations/zero-trust-ai-agents-production-security/) · [InfoQ](https://www.infoq.com/news/2026/11/uber-mcp-gateway-ai-agents/)
+อัปเดต 2026-11-15: GitHub เปิด Agentic Workflows ให้ใช้ทั่วไป พร้อมแยกสภาพแวดล้อมและคุมงบ [ข่าว](https://news.google.com/rss/articles/CBMicEFVX3lxTE9kZWg3dGFrYTQwYnhXWThMMFhHU0F1MDhyWGdnb0l5X2IxSkJfWWZZcHdzakRPWWRpWWJiU1BzY3pBeHFQQlpBOV9mQ3RneW9ObFQ3N1oxNlQ0NjBqVXotanJfQ2dtamh6NkE0WFdfVEs?oc=5) (พาดหัวอย่างเดียว)
+
+### เครื่องมือรีโมตของช่างถูกเจาะ (RMM/MSP attack) (เจอครั้งแรก 2026-11-15)
+คืออะไร: บริษัทดูแล IT ใช้โปรแกรมรีโมต (RMM) เข้าเครื่องลูกค้าหลายราย ถ้าโปรแกรมนี้ถูกเจาะ คนร้ายเข้าได้ทุกรายพร้อมกัน
+ตัวอย่าง: N-able ปิดระบบหลังช่องโหว่ 30+ ตัว · หนอน SCKit แพร่ผ่าน ScreenConnect จากเครื่องลูกค้ากลับไปเครื่องช่าง
+ที่มา: [BleepingComputer](https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/) · [BleepingComputer](https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/)

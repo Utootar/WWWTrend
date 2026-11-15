@@ -17,7 +17,7 @@ Claude เขียนไฟล์นี้จากข่าวที่เก�
 
 ## ธีมที่กำลังเดิน
 
-## ไฟฟ้าจาก AI: ไฟฟ้า นิวเคลียร์ ระบบไฟ (เริ่มเจอ 2026-10-06 · ล่าสุด 2026-11-13)
+## ไฟฟ้าจาก AI: ไฟฟ้า นิวเคลียร์ ระบบไฟ (เริ่มเจอ 2026-10-06 · ล่าสุด 2026-11-15)
 ทำไม: data center และ AI ใช้ไฟมากขึ้น ผู้ผลิตและผู้รับเหมาระบบไฟได้งาน
 หลักฐานจากข่าว: นิวเคลียร์พุ่ง · MYR/Powell/Comfort Systems พุ่ง · GE Vernova ราคาวิ่ง · X-energy (ดู analysis/2026-10/2026-10-07-2day.md)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -50,8 +50,9 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-11-11: 9 พ.ย. เด้งแรง BE +11.9% CEG +10.5% FIX +9.4% CAT +7.2% GEV +7.1% POWL +6.4% VST +7.3% แต่ 10 พ.ย. ช่วงกลางวันคืนบางส่วน (GEV -6.5% CAT -3.8% BE -4.3% CEG -3.4% ยังไม่มีราคาปิด) หลักฐานใหม่: [CoreWeave งบเกินคาด คลายกังวลหนี้](https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html) · [data center มีอำนาจต่อรองกับบริษัทไฟฟ้า](https://oilprice.com/Energy/Energy-General/The-AI-Power-Grab-That-Could-Upend-Americas-Electricity-Industry.html) ความเสี่ยงใหม่: CPI ร้อน ยีลด์ 10 ปีใกล้ 5% (ดู analysis/2026-11/2026-11-11-2day.md)
 อัปเดต 2026-11-13: ปิด 12 พ.ย. BE +13.0% POWL +5.6% FIX +5.0% CAT +2.9% CEG +2.6% GEV +1.4% ขึ้นตามหุ้น AI หลัง [Cisco AI รายได้เท่าตัว](https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html) ไม่มีข่าวบริษัทใหม่ แรงกดจากยีลด์ 5% ยังอยู่ (analysis/2026-11/2026-11-13-2day.md)
 อัปเดต 2026-11-15: หลักฐานใหม่ [วุฒิสภาผ่านร่าง BAAJA เบื้องต้น บริษัท AI อาจสร้างโรงไฟฟ้าเอง](https://oilprice.com/Energy/Energy-General/Will-the-Senates-BAAJA-Bill-Let-AI-Giants-Outmuscle-Utilities.html) (บทความมุมมอง ยังเป็นร่างเบื้องต้น) ราคา 13 พ.ย. BE -4.92% GEV -1.88% FIX -1.38% CEG -0.78% VST -1.12% POWL +0.67% ลงน้อยกว่าชิป
+อัปเดต 2026-11-15 (weekly): ทั้งสัปดาห์ CEG +12.1% FIX +9.3% POWL +7.2% VST +6.6% MYRG +3.9% GEV +3.7% GULF +2.0% GPSC 0% NEE -2.1% BE -1.0% CAT +0.2% (BE/CAT จาก 9 พ.ย.) เด้งตามงบ AI หลักฐาน: [CEO บริษัทไฟไม่เห็นอุปสงค์ชะลอ](https://www.cnbc.com/2026/11/13/data-center-slowdown-utility-stocks.html) · [สายส่งโลกโต 50%](https://oilprice.com/Energy/Energy-General/Global-Power-Grid-Expansion-Surges-50-to-Record-High.html) น่าศึกษาก่อนกลับเป็น GEV · วิ่งนำ: CEG (analysis/2026-11/2026-11-15-weekly.md)
 
-## LNG/ก๊าซนอกอ่าวเปอร์เซีย (เริ่มเจอ 2026-10-07 · ล่าสุด 2026-11-08)
+## LNG/ก๊าซนอกอ่าวเปอร์เซีย (เริ่มเจอ 2026-10-07 · ล่าสุด 2026-11-15)
 ทำไม: ฮอร์มุซไม่ปลอดภัย Qatar ขยายเหตุสุดวิสัย ผู้ส่งออก LNG/ก๊าซนอกอ่าวได้ออเดอร์
 หลักฐานจากข่าว: [5 หุ้นก๊าซได้จากฮอร์มุซ (Cheniere)](https://oilprice.com/Energy/Natural-Gas/5-Natural-Gas-Stocks-Profiting-From-the-Strait-of-Hormuz-Standoff.html) · [Kinder Morgan ส่งก๊าซไปเม็กซิโกได้อีก](https://oilprice.com/Latest-Energy-News/World-News/Kinder-Morgan-Restores-US-Mexico-Gas-Flows-After-Pipeline-Outage.html) · [Alaska LNG กลับมา](https://oilprice.com/Energy/Natural-Gas/Who-Is-Going-to-Pay-for-Alaska-LNG.html)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -76,8 +77,9 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 
 อัปเดต 2026-11-05: Brent 93.96 (-9.3%) แต่หลักฐานฝั่งก๊าซยังแรง [แอฟริกา LNG +175%](https://oilprice.com/Energy/Natural-Gas/Africas-LNG-Exports-Set-to-Soar-175-as-Buyers-Flee-Hormuz.html) · [กาตาร์ซื้อ LNG สหรัฐมากสุด](https://oilprice.com/Energy/Natural-Gas/Qatar-Becomes-Largest-Buyer-of-US-LNG-Amid-Hormuz-Crisis.html) LNG -0.16% KMI +0.49% PTTEP -1.96% PTT -1.23%
 อัปเดต 2026-11-08 (weekly): กลับทิศแรง LNG -15.9% PTTEP -13.6% KMI -11.5% PTT -8.9% Brent -13.3% (113.43→98.32) ตามความหวังสันติภาพหลังเลือกตั้ง [CNBC](https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html) · [แก๊สยุโรปลง](https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Drop-on-Iran-Deal-Hopes-after-US-Midterms.html) พื้นฐานก๊าซยังตึง · 7 พ.ย. [สหรัฐโจมตีอิหร่านเล็กน้อย](https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html) ถ้าข่าวสงบอีก 2 สัปดาห์ พิจารณาย้ายลงธีมจบ
+อัปเดต 2026-11-15 (weekly): LNG +11.1% KMI +6.5% PTTEP +1.4% PTT -0.7% หลักฐาน: [LNG หน้าหนาวไม่แน่นอนสูง](https://oilprice.com/Energy/Energy-General/Global-LNG-Markets-Face-a-Winter-of-Extreme-Uncertainty.html) ข่าวบริษัทเงียบ ราคาตามน้ำมัน/อากาศ
 
-## ชิปหน่วยความจำ (เริ่มเจอ 2026-10-08 · ล่าสุด 2026-11-13)
+## ชิปหน่วยความจำ (เริ่มเจอ 2026-10-08 · ล่าสุด 2026-11-15)
 ทำไม: AI ดูดหน่วยความจำ RAM ขาดและแพง ผู้ผลิตกำไรสถิติ
 หลักฐานจากข่าว: [Samsung กำไรสถิติ](https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html) · [Intel/AMD กลับไป DDR4 เพราะ RAM แพง](https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback) · [Micron ร่วงจากข่าว OpenAI](https://www.marketwatch.com/story/micron-nvidia-and-ai-chip-stocks-fall-as-report-on-openais-revenue-causes-undue-concern-2a2bcf53)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -85,7 +87,6 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 | 005930.KS (Samsung) | KR | หน่วยความจำ | ข่าว |
 | MU | US | หน่วยความจำ | ข่าว |
 | 000660.KS (SK Hynix) | KR | HBM | ความรู้ทั่วไป |
-| HANA.BK | TH | ประกอบ/ทดสอบชิป ทางอ้อม | ความรู้ทั่วไป |
 | SNDK | US | NAND/SSD รายได้เกือบ 5 เท่า | ข่าว (2026-10-30) |
 อัปเดต 2026-10-15: ร่วงแรง SK Hynix -11.1% Samsung -9.0% Micron -7.4% หลังรายงาน CXMT (จีน) คืบหน้าออกแบบชิป [CNBC](https://www.cnbc.com/2026/10/13/cxmt-memory-chip-stock-rout.html) · [Micron ลงต่อ จีนแข่งแรง](https://www.marketwatch.com/story/microns-stock-extends-declines-as-china-competition-heats-up-b8ec25f0) (ดู analysis/2026-10/2026-10-15-2day.md)
 อัปเดต 2026-10-18 (weekly): SK Hynix -24.3% Samsung -17.8% (เทียบ 8 ต.ค.) MU -14.6% HANA -3.8% ยังไม่มีข่าวราคา RAM ลง [รมว.คลังเกาหลี: ชิปแข็งถึงปีหน้า](https://www.cnbc.com/2026/10/17/south-korea-semiconductor-outlook-lee-hyoung-il.html) · [SK Hynix ถูกค้านนำ Solidigm เข้า Nasdaq](https://news.google.com/rss/articles/CBMijgFBVV95cUxNc1lkMl9lTkxyUmhKRElVZGQtMy1PQ19PeGEtU1NHSzVuQWp3NUpES3RTNF9rSTNIeURkS2JRb3Q5NUQ0RE5oMW9) สถานะ: ธีมเสี่ยงสูง ยังไม่ตัด จบถ้าราคา RAM สัญญาเริ่มลง
@@ -102,8 +103,9 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-11-08 (weekly): แย่สุดของทุกธีม SNDK -27.4% MU -22.0% SK Hynix -20.2% HANA -17.1% Samsung -16.1% สัญญาณวัฏจักรกลับ: [Qualcomm โดน RAM แพงกดยอดมือถือ](https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html) · [TSMC พิจารณาผลิต 3D DRAM](https://www.techmeme.com/261106/p13) · ยังไม่มีข่าวราคา RAM ลดจริง
 อัปเดต 2026-11-13: ปิด 12 พ.ย. SNDK +13.7% MU +11.9% SK Hynix +2.8% Samsung +2.8% เด้งตามกลุ่มชิป [Cerebras +17%](https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html) ยังไม่ใช่สัญญาณวัฏจักรกลับ HANA ราคาค้าง 48.00 (analysis/2026-11/2026-11-13-2day.md)
 อัปเดต 2026-11-15: 13 พ.ย. SNDK -5.59% SK Hynix -3.03% MU -2.52% SMH -2.99% ตามกลุ่มชิปหลัง Huang ลาออก ทองแดงลงสัปดาห์ที่ 5 ติด ผู้ค้าโยงกับ AI deal ที่ชะลอ [OilPrice](https://oilprice.com/Metals/Commodities/Nvidia-Without-Huang-What-a-Pause-in-AI-Deals-Means-for-Metals.html)
+อัปเดต 2026-11-15 (weekly): ทั้งสัปดาห์ MU +12.8% Samsung +9.2% SK Hynix +7.4% SNDK +6.0% เด้งหลัง [CoreWeave](https://www.marketwatch.com/story/micron-and-other-ai-stocks-surge-as-coreweave-calms-wall-streets-worst-fears-0a18152a) ยังไม่มีข่าวราคา RAM · ถอด HANA.BK ออก (ราคาในไฟล์ค้างหลายวัน และเกี่ยวทางอ้อม)
 
-## โรงกลั่น/ดีเซลขาด (เริ่มเจอ 2026-10-14 · ล่าสุด 2026-11-13)
+## โรงกลั่น/ดีเซลขาด (เริ่มเจอ 2026-10-14 · ล่าสุด 2026-11-15)
 ทำไม: ดีเซลตึงถึง 2027 ส่วนต่างราคาดีเซลกับน้ำมันดิบกว้าง รัฐเร่งกำลังกลั่น
 หลักฐานจากข่าว: [IEA ดีเซลตึงถึง 2027](https://www.cnbc.com/2026/10/14/diesel-deal-oil-price-iea-report.html) · [รัฐใช้กฎหมายยุคสงครามเกาหลีเร่งโรงกลั่น Delek](https://oilprice.com/Energy/Crude-Oil/White-House-Turns-to-Korean-War-Era-Law-as-Diesel-Prices-Stay-Above-6.html) · [Rubio เยือนโรงกลั่น Reliance](https://www.cnbc.com/2026/10/16/marco-rubio-reliance-jamnagar-refinery.html)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -123,8 +125,9 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-11-03: 2 พ.ย. โรงกลั่น/ปิโตรเลียมลง 3-5% ตามน้ำมัน (VLO -4.6% XOM -4.1%) หลังเจรจา [OilPrice](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-7-as-US-and-Iran-Signal-Room-for-Diplomacy.html)
 อัปเดต 2026-11-08 (weekly): ลงทั้งกลุ่มตามน้ำมัน MPC -16.2% VLO -13.3% DK -13.1% XOM -11.4% TOP -10.4% CVX -9.7% แม้ [ดีเซลจีนส่งออกดิ่ง](https://oilprice.com/Latest-Energy-News/World-News/Chinas-Diesel-Exports-Set-to-Plunge-as-Domestic-Inventories-Run-Low.html) · [ConocoPhillips กำไรเท่าตัว](https://oilprice.com/Latest-Energy-News/World-News/ConocoPhillips-Doubles-Profit-to-4-Billion-Raises-Dividend.html) · ความเสี่ยงใหม่: [เดโมแครตสอบดีลพลังงาน](https://www.cnbc.com/2026/11/05/trump-election-energy-venezuela-critical-mineral-renewable-iran.html)
 อัปเดต 2026-11-13: ปิด 12 พ.ย. DK +7.2% VLO +3.7% MPC +3.4% LNG +3.8% ตามน้ำมันที่ขึ้นหลัง [ทรัมป์พูดแข็งเรื่องอิหร่าน](https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html)
+อัปเดต 2026-11-15 (weekly): กลับทิศ MPC +11.2% VLO +9.6% TOP +9.0% DK +7.1% CVX +3.4% XOM +2.8% ขณะ Brent -2.5% หลักฐาน: [น้ำมันดิบล้นแต่ดีเซลไม่ถูก](https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8) · [รัสเซียผลิตฟื้นหลังดีลดีเซล](https://www.cnbc.com/2026/11/13/russia-oil-exports-iea-diesel-deal.html)
 
-## ความปลอดภัยไซเบอร์ยุค AI agent (เริ่มเจอ 2026-10-12 · ล่าสุด 2026-11-13)
+## ความปลอดภัยไซเบอร์ยุค AI agent (เริ่มเจอ 2026-10-12 · ล่าสุด 2026-11-15)
 ทำไม: AI หาช่องโหว่ได้เร็ว agent ถูกใช้เจาะระบบ องค์กรต้องจ่ายเพิ่มเพื่ออุด
 หลักฐานจากข่าว: [BofA จ้าง 1,000 คนแก้ช่องโหว่ที่ Mythos เจอ](https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html) · [IonQ ซื้อ Elisity $1.3B](https://www.cnbc.com/2026/10/12/ionq-elisity-acquisition-cybersecurity.html) · [โมเดล OpenAI เจาะกระเป๋าคริปโต](https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/) · [AI agent นอกลู่ในอินเดีย](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -142,8 +145,9 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-11-11: ราคา 9 พ.ย. CRWD +5.4% PANW +5.4% IONQ +8.3% หลักฐานใหม่: [อิหร่านโจมตีระบบเย็นซูเปอร์มาร์เก็ตฝรั่งเศส 700+ แห่ง](https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/) · [Claude Code ทำคีย์รั่วบน GitHub](https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/)
 อัปเดต 2026-11-13: หลักฐานใหม่ [SCKit หนอนเจาะ MSP ผ่าน ScreenConnect](https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/) · [บัญชี GitHub 4,800 ถูกเจาะ](https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/) PANW +2.5% CRWD +1.5%
 อัปเดต 2026-11-15: หลักฐานใหม่ [Cursor ถูกเจาะ ส่วนขยาย Claude Code ปลอมผ่านตลาดของ Cursor](https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/) = ความเสี่ยงห่วงโซ่อุปทานของเครื่องมือ AI agent ราคา 13 พ.ย. IONQ -6.42% CRWD -1.42% PANW -0.13%
+อัปเดต 2026-11-15 (weekly): CRWD +4.5% PANW +2.7% BE8 +0.5% IONQ -11.5% หลักฐาน: [N-able ช่องโหว่ 30+ ตัว](https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/) · [AntiFox AI agent ขโมยคีย์ AWS](https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/)
 
-## สุขภาพ: ยาที่มีผลทดลองเด่น (เริ่มเจอ 2026-10-25 · ล่าสุด 2026-11-11)
+## สุขภาพ: ยาที่มีผลทดลองเด่น (เริ่มเจอ 2026-10-25 · ล่าสุด 2026-11-15)
 ทำไม: เงินหมุนออกจาก AI เข้าหุ้นสุขภาพ (XLV สถิติ) ยาใหญ่มีผลทดลองระยะท้ายดีหลายตัวในสัปดาห์เดียว
 หลักฐานจากข่าว: [หุ้นสุขภาพทำสถิติ](https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOERPV24tN3hRdl9Ca1NtZHlzcndtUlp3TW1wSnc0emxOdy1nd1lDNXBtNTdBYmg1Qm0wVE9ERU01WkdGVUFOSzN4d3JJMkpKbGFjaFFvNnZwaV82akIwX0VIVHJ1NUJZQUlGSWMxemFQX2h3Y0tuems0MXJyNWxGY2Y0Q3pseklpMlVVZ2UxeVNjMVpKOVA4VUtveUliSDRIV25mbG8xNld3dzFPWW1sWXBZWmpMZ3ZIc1ZmRVdQa0I1bV9yNmRTZFFpMmNCZTFuMVk4?oc=5) · [Moderna/Merck วัคซีนมะเร็ง -42%](https://www.statnews.com/2026/10/22/esmo-moderna-merck-cancer-vaccine-intismeran-data-released/) · [Amgen มะเร็งปอด -58%](https://www.cnbc.com/2026/10/24/amgen-imdelltra-lung-cancer-data.html) · [Novo CagriSema -25% ในผู้หญิง](https://www.cnbc.com/2026/10/20/novo-cagrisema-women-weight-loss-analysis.html) · [สหรัฐเสนอจำกัดลงทุนไบโอเทคจีน](https://www.statnews.com/2026/10/22/biotech-news-treasury-restrictions-for-us-investment-in-chinese-biotech/)
 | หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
@@ -158,6 +162,19 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 ความเสี่ยงของธีม: ข้อมูลบริษัทยังไม่ผ่านผู้ทบทวนอิสระ ราคารับข่าวไปก่อน (Moderna ร่วงทั้งที่ผลดี) รัฐคุมราคายา
 อัปเดต 2026-11-08 (weekly): MRNA +14.6% ([ขึ้นคาดการณ์รายได้](https://www.marketwatch.com/story/modernas-stock-jumps-after-biotech-raises-sales-outlook-65363127)) BDMS +1.5% NVO +0.8% ([Wegovy เม็ดขายดี](https://www.cnbc.com/2026/11/04/novo-q3-earnings-wegovy-sales.html)) AMGN -1.2% MRK -1.9% LLY -4.5% XLV ทรงตัว ความเสี่ยงใหม่: [Medicare for All คุมกรรมาธิการ](https://www.statnews.com/2026/11/04/democratic-wins-medicare-for-all-momentum/) · [หุ้นสุขภาพไม่แน่นอนหลังเลือกตั้ง](https://www.cnbc.com/2026/11/07/healthcare-stocks-may-face-trouble-due-to-midterm-results.html)
 อัปเดต 2026-11-11: ความเสี่ยงใหม่: [FDA เตือน GLP-1 อาจทำให้สูญเสียการมองเห็น](https://www.cnbc.com/2026/11/10/fda-warning-vision-loss-glp1-wegovy-zepbound.html) กระทบ LLY/NVO ได้ ราคา 9 พ.ย. LLY +4.3% MRNA +5.8% (ก่อนข่าว) 10 พ.ย. ช่วงกลางวัน NVO -2.2% MRNA -4.9% LLY +0.3%
+อัปเดต 2026-11-15 (weekly): LLY +6.6% NVO +3.3% XLV +2.2% AMGN +1.1% BDMS +1.0% MRK +0.7% MRNA -12.1% หลักฐาน: [Lilly Foundayo ช่วยหยุดหายใจขณะหลับ](https://www.cnbc.com/2026/11/09/eli-lilly-foundayo-sleep-apnea-trial.html) · [Blackstone หนุน Pfizer ยาลดน้ำหนักรายเดือน](https://www.statnews.com/2026/11/12/biotech-news-blackstone-backs-pfizer-bet-on-monthly-obesity-treatment/) · ความเสี่ยง: [เดโมแครตสอบดีลราคายา](https://www.statnews.com/2026/11/10/democrats-investigate-most-favored-nation-deals-letters-drugmakers/)
+
+## ชิป AI ทางเลือก Nvidia (เริ่มเจอ 2026-11-15 · ล่าสุด 2026-11-15)
+ทำไม: Huang ลาออก Nvidia เจอทั้งวิกฤตผู้นำและกฎส่งออก ลูกค้าอาจกระจายไปค่ายอื่น งบ AI ของค่ายอื่นดี
+หลักฐานจากข่าว: [AMD/Broadcom อาจได้จากเรื่อง Nvidia](https://www.marketwatch.com/story/are-amd-and-broadcom-the-real-winners-of-the-nvidia-spy-scandal-d2) · [Cerebras +17% ดีล Microsoft](https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html) · [Cisco รายได้ AI เท่าตัว](https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html) · [ชิปร่วงตามเมื่อไม่มี Huang](https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547)
+| หุ้น | ตลาด | เกี่ยวยังไง | ที่มา |
+|---|---|---|---|
+| AMD | US | GPU คู่แข่งตรง | ข่าว |
+| AVGO | US | ชิป AI สั่งทำให้รายใหญ่ | ข่าว |
+| CBRS | US | ชิป AI ขนาดใหญ่ ดีล Microsoft | ข่าว |
+| CSCO | US | เครือข่าย data center AI | ข่าว |
+| DELTA.BK | TH | ระบบไฟเซิร์ฟเวอร์ ทางอ้อม | ความรู้ทั่วไป |
+ความเสี่ยงของธีม: กฎส่งออกเข้มกระทบทุกค่าย · ชิปลงพร้อมกันเมื่อตลาดกลัว · Nvidia นิ่งเร็วแล้วลูกค้าไม่ย้าย
 
 ## ธีมที่จบแล้ว
 
