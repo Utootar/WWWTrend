@@ -6,7 +6,7 @@
   "gemini/gemini-flash-latest",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 35,
+ "summary_failed": 0,
  "prices": [
   {
    "symbol": "^GSPC",
@@ -1061,7 +1061,8 @@
       "Nvidia",
       "Anthropic"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9d1b4368b86f",
@@ -1081,7 +1082,8 @@
       "Nvidia",
       "Jensen Huang"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3ebf88a96e7c",
@@ -1091,14 +1093,17 @@
      "published": 1794756900,
      "text": "History Says This Dividend Stock Can Protect Your Portfolio if a Stock Market Slump Is Coming Yahoo Finance",
      "summary_th": "บทความแนะนำหุ้นปันผลเพื่อปกป้องพอร์ตการลงทุนหากเกิดภาวะตลาดหุ้นตกต่ำ",
-     "importance": 1,
+     "importance": 0,
      "numbers": [],
      "tags": [
       "dividend",
       "stocks"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "บทความแนะนำหุ้นปันผล ไม่ใช่ข่าว",
+     "checked_by": "claude/review"
     },
     {
      "id": "abbe913370fd",
@@ -1115,7 +1120,8 @@
       "taxes"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c8a841856d9c",
@@ -1136,7 +1142,8 @@
       "Anthropic",
       "SpaceX"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c557c7e8a859",
@@ -1160,7 +1167,8 @@
       "Gilead",
       "S&P 500"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "389a713d68b8",
@@ -1180,7 +1188,8 @@
      "entities": [
       "Federal Aviation Administration"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "fa1af0ed5e44",
@@ -1189,7 +1198,7 @@
      "source": "MarketWatch",
      "published": 1794749400,
      "text": "A handy chart shows how the U.S. used to be among the economies with the least state control — until that changed last year.",
-     "summary_th": "นักวิเคราะห์กล่าวถึงทิศทางเศรษฐกิจสหรัฐฯ ภายใต้รัฐบาลทรัมป์และสภาคองเกรสที่นำโดยเดโมแครต",
+     "summary_th": "นักวิเคราะห์คนหนึ่งระบุว่าสหรัฐฯ กำลังมีแนวทางสังคมนิยมมากขึ้นภายใต้ Trump 2.0 (ความเห็นตามหัวข่าว) และตั้งคำถามว่าสภาคองเกรสที่เดโมแครตควบคุมอาจเปลี่ยนอะไรได้บ้าง",
      "importance": 1,
      "numbers": [
       "2.0"
@@ -1201,7 +1210,10 @@
      "entities": [
       "Trump"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ข้ามใจความหลัก (socialist) และไม่ได้ระบุว่าบอกว่าเป็นความเห็น",
+     "checked_by": "claude/review"
     },
     {
      "id": "4add8c64d1e9",
@@ -1210,8 +1222,8 @@
      "source": "Seeking Alpha",
      "published": 1794755640,
      "text": "CoreWeave: Timely Entry Point After The Recent Panic (NASDAQ:CRWV) Seeking Alpha",
-     "summary_th": "CoreWeave เผชิญกับจุดเข้าซื้อที่ทันท่วงทีหลังภาวะตื่นตระหนก",
-     "importance": 1,
+     "summary_th": "หัวข่าวบอกว่า CoreWeave มี 'จุดเข้า' ที่ทันท่วงทีหลังภาวะตื่นตระหนกล่าสุด (ความเห็นตามหัวข่าว)",
+     "importance": 0,
      "numbers": [],
      "tags": [
       "coreweave",
@@ -1220,7 +1232,10 @@
      "entities": [
       "CoreWeave"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "แปลผิด: หัวข่าวบอกว่ามีจุดเข้าซื้อ ไม่ได้บอกว่าบริษัทเผชิญ และเป็นความเห็น",
+     "checked_by": "claude/review"
     },
     {
      "id": "27f1bc5ed4dd",
@@ -1241,7 +1256,8 @@
      "entities": [
       "Mark Travers"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f81dcf500bc2",
@@ -1250,7 +1266,7 @@
      "source": "MarketWatch",
      "published": 1794745800,
      "text": "Charts show the potential for more pain ahead",
-     "summary_th": "ราคาทองคำและเงินร่วงลงท่ามกลางความกังวลเรื่องเงินเฟ้อ",
+     "summary_th": "ราคาทองคำและเงินร่วงลง ทั้งที่ทั้งสองมักถูกมองว่าช่วยป้องกันเงินเฟ้อ (ตามหัวข่าว)",
      "importance": 1,
      "numbers": [],
      "tags": [
@@ -1259,7 +1275,10 @@
       "inflation"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "เพิ่มประเด็นเงินเฟ้อที่ต้นทางไม่ได้ระบุในหัวข่าว",
+     "checked_by": "claude/review"
     },
     {
      "id": "02cf9b3ee34e",
@@ -1280,7 +1299,8 @@
       "banks"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6eed0b95e9ae",
@@ -1302,7 +1322,8 @@
       "Lucid",
       "Scout"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a039d9fa7705",
@@ -1321,7 +1342,8 @@
       "history"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1c324a85ab91",
@@ -1330,8 +1352,8 @@
      "source": "CNBC Top News",
      "published": 1794746947,
      "text": "Here are three stocks favored by some of Wall Street's top pros, according to TipRanks.",
-     "summary_th": "นักวิเคราะห์วอลล์สตรีทแนะนำ 3 หุ้นสำหรับการลงทุนระยะยาว",
-     "importance": 1,
+     "summary_th": "นักวิเคราะห์วอลล์สตรีทมองในแง่บวกต่อ 3 หุ้นสำหรับการลงทุนระยะยาว (ตามหัวข่าว)",
+     "importance": 0,
      "numbers": [
       "3"
      ],
@@ -1342,7 +1364,10 @@
      "entities": [
       "TipRanks"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "หัวข่าวบอกว่านักวิเคราะห์ 'bullish' ไม่ใช่แนะนำ และเป็นบทความหุ้นแนะนำ ระดับ 0",
+     "checked_by": "claude/review"
     },
     {
      "id": "c2ace3105179",
@@ -1359,7 +1384,8 @@
       "stock market"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3effc3d40526",
@@ -1379,7 +1405,8 @@
      "entities": [
       "Anthropic"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "01c690d27011",
@@ -1398,7 +1425,8 @@
      "entities": [
       "Warren Buffett"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9a8a0a7e5148",
@@ -1422,7 +1450,8 @@
       "Alice Huang",
       "Jensen Huang"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3d3410a26d56",
@@ -1441,7 +1470,8 @@
      "entities": [
       "Journey Medical Corporation"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b3730a3128e5",
@@ -1450,7 +1480,7 @@
      "source": "CNBC Top News",
      "published": 1794722401,
      "text": "With its mix of sights, cafés and culture, Hungary's capital Budapest has become popular with those embracing the \"work from anywhere\" trend.",
-     "summary_th": "บูดาเปสต์ เมืองหลวงของฮังการี กลายเป็นจุดหมายปลายทางยอดนิยมสำหรับกลุ่มคนที่ทำงานจากที่ไหนก็ได้",
+     "summary_th": "หัวข่าวตั้งคำถามว่าบูดาเปสต์อาจเป็นจุดหมายยอดนิยมของคนทำงานจากที่ไหนก็ได้รายต่อไปหรือไม่",
      "importance": 0,
      "numbers": [],
      "tags": [
@@ -1461,7 +1491,10 @@
       "Budapest",
       "Hungary"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "หัวข่าวเป็นคำถาม ไม่ใช่ข่าวว่าเป็นจุดหมายแล้ว",
+     "checked_by": "claude/review"
     },
     {
      "id": "b10a19a2ad58",
@@ -1483,7 +1516,8 @@
      "entities": [
       "IREN"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "30e62f8f8087",
@@ -1508,7 +1542,8 @@
       "Ford",
       "S&P 500"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "08bfe53dc47f",
@@ -1525,7 +1560,8 @@
       "portfolio"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a1eba018ab7b",
@@ -1547,7 +1583,8 @@
       "Anthropic",
       "Nvidia"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1845,7 +1882,21 @@
      "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
      "source": "BBC Business",
      "published": 1794754581,
-     "text": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions."
+     "text": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+     "summary_th": "Megaspeed ระบุว่ามีผู้ต้องสงสัยเป็นสายลับจีนที่เชื่อมโยงกับอดีตผู้บริหารของ Nvidia ซึ่งออกจากบริษัทในปี 2025 ท่ามกลางคำถามว่าชิป AI ขั้นสูงหลุดไปจีนแม้มีข้อจำกัดของสหรัฐฯ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "china chips",
+      "export controls"
+     ],
+     "entities": [
+      "Nvidia",
+      "Megaspeed",
+      "China"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "cba5f678d19e",
@@ -1853,7 +1904,20 @@
      "link": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1794753239,
-     "text": "The lawsuit filed by New Orleans officials also requests that the tanker involved in the collision with the cruise ship be seized and sold to pay for damages."
+     "text": "The lawsuit filed by New Orleans officials also requests that the tanker involved in the collision with the cruise ship be seized and sold to pay for damages.",
+     "summary_th": "เจ้าหน้าที่ท่าเรือนิวออร์ลีนส์ยื่นฟ้องเรียกค่าเสียหาย 1 ล้านดอลลาร์ หลังเรือบรรทุกน้ำมันชนเรือสำราญ และขอยึดเรือลำนั้นมาขายเพื่อชดใช้ความเสียหาย",
+     "importance": 1,
+     "numbers": [
+      "$1m"
+     ],
+     "tags": [
+      "shipping",
+      "lawsuit"
+     ],
+     "entities": [
+      "New Orleans port"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8b9310e309d1",
@@ -1861,7 +1925,19 @@
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSENGWlpId0p5YlRod0tMckM5aDRiR3lHSENXeEdVV3dlVHNmby1fel9oYjBSUm9IdzZHcHBoRGFYblBXU3lSeHdKQ3Z3Nm1kRXZjdDA2QlBqWnRVQk16MUNSUHZjeF90emdfejMyMjdhVWJwZm5tamFoeU5WWUZnWnVTbEhCb3BWOHkxOVFn?oc=5",
      "source": "조선일보",
      "published": 1794756978,
-     "text": "87% of Wall Street Experts Cite AI as Major Risk 조선일보"
+     "text": "87% of Wall Street Experts Cite AI as Major Risk 조선일보",
+     "summary_th": "หัวข่าวระบุว่าผู้เชี่ยวชาญวอลล์สตรีท 87% มอง AI เป็นความเสี่ยงสำคัญ",
+     "importance": 1,
+     "numbers": [
+      "87%"
+     ],
+     "tags": [
+      "ai risk"
+     ],
+     "entities": [
+      "Wall Street"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ffb362cc5584",
@@ -1869,7 +1945,17 @@
      "link": "https://www.bbc.co.uk/news/articles/cqr7gn1zmlj1o?at_medium=RSS&at_campaign=rss",
      "source": "BBC Business",
      "published": 1794747975,
-     "text": "The work and pensions secretary said the level of support currently on offer was too vague."
+     "text": "The work and pensions secretary said the level of support currently on offer was too vague.",
+     "summary_th": "รัฐมนตรีด้านงานและบำนาญสนับสนุนให้คนหนุ่มสาวมีสิทธิ์ตามกฎหมายในการได้รับการช่วยหางาน เพราะการสนับสนุนที่มีอยู่ตอนนี้คลุมเครือเกินไป",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "youth employment"
+     ],
+     "entities": [
+      "work and pensions secretary"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c7e011fee4e7",
@@ -1877,7 +1963,21 @@
      "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1794750178,
-     "text": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz."
+     "text": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.",
+     "summary_th": "อิหร่านโจมตีฐานทัพสหรัฐฯ ในบาห์เรนด้วยโดรน เป็นการโจมตีครั้งที่สองในสามวัน ขณะที่สหรัฐฯ กับอิหร่านยังตึงเครียดเรื่องช่องแคบฮอร์มุซ",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "iran",
+      "strait of hormuz",
+      "geopolitics"
+     ],
+     "entities": [
+      "Iran",
+      "US",
+      "Bahrain"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5780adbc4f21",
@@ -1885,7 +1985,17 @@
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUkFwUjlTbFFmOUtlN2R4R2ktd2pjUThLbS14c3dLa3pha19xazZUU1lSVzk4Mzg2Uk9ha253dG9PVEVxTmQzcTlWclFuZXdzVF9oN3o3b0JHcE1MU2RwUi1faWktdTc1M0lXNldVbHAyUDIyRktDejNFeERJd18zajdkblJTc0s5UDhiR1d2b0k1bklMSXRmNUN6d2VmdlNNTUR2RGpGaFhpV1VraDdmU1pzellReDF4V2xwZnROQmZtWVU?oc=5",
      "source": "ASHARQ AL-AWSAT English",
      "published": 1794756915,
-     "text": "Saudi Arabia Keeps Inflation in Check Despite Geopolitical Tensions and Global Trade Disruptions ASHARQ AL-AWSAT English"
+     "text": "Saudi Arabia Keeps Inflation in Check Despite Geopolitical Tensions and Global Trade Disruptions ASHARQ AL-AWSAT English",
+     "summary_th": "หัวข่าวระบุว่าซาอุดีอาระเบียควบคุมเงินเฟ้อได้ แม้มีความตึงเครียดทางภูมิรัฐศาสตร์และการค้าโลกติดขัด",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "saudi inflation"
+     ],
+     "entities": [
+      "Saudi Arabia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b74d8070ffe9",
@@ -1893,7 +2003,21 @@
      "link": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1794749865,
-     "text": "Han Won-seok, 34, confessed to using a hidden camera and AI to get a near-perfect mark on the significant test."
+     "text": "Han Won-seok, 34, confessed to using a hidden camera and AI to get a near-perfect mark on the significant test.",
+     "summary_th": "Han Won-seok วัย 34 ปี ผู้ได้คะแนนสูงสุดในการสอบบัญชีภาษีของเกาหลีใต้ สารภาพว่าทุจริตโดยใช้กล้องซ่อนและ AI",
+     "importance": 1,
+     "numbers": [
+      "34"
+     ],
+     "tags": [
+      "exam cheating",
+      "ai"
+     ],
+     "entities": [
+      "Han Won-seok",
+      "South Korea"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "229018f9b3c0",
@@ -1901,7 +2025,20 @@
      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRklqcmpzeVQ2SmM3SlNaZVcwNVg2cDNSMDJ6UWEweE9QZ0hEQjg3WjNVNGZFOThOUnBiTklOeGl0Nk5kODNhOUJBZlpLQ0p0Y0FBSjhIZHh6SGJfTlZMT001WE5QWVA2TlVKSm14Q1p1bjE3eTBvWFo1NEVsdUxzQndlRHlUNk5NVS1VdU1Db3NZYmVhNFE2eVFnRl83NUFSbHM4QnAtYTlhMXJxQ3MwdWJ3N1hsTjhhS1pFakpvbnlTaFJUSzhydWtNM2g3NHNTVGszd0hwS194aWluSUZoaHlWdlYzV1k?oc=5",
      "source": "TradingView",
      "published": 1794755939,
-     "text": "Bessent On Fox Cautions Federal Reserve Against Further Tightening Monetary Policy TradingView"
+     "text": "Bessent On Fox Cautions Federal Reserve Against Further Tightening Monetary Policy TradingView",
+     "summary_th": "Bessent ให้สัมภาษณ์ทาง Fox เตือนธนาคารกลางสหรัฐฯ (Fed) ไม่ให้ขยายการขึ้นดอกเบี้ยหรือการคุมนโยบายการเงินให้เข้มงวดเพิ่ม",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "fed",
+      "monetary policy"
+     ],
+     "entities": [
+      "Bessent",
+      "Federal Reserve",
+      "Fox"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "cedd4c64ea04",
@@ -1909,7 +2046,20 @@
      "link": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1794740792,
-     "text": "The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month."
+     "text": "The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month.",
+     "summary_th": "ศาลจอร์แดนตัดสินประหารชีวิตชาย 3 คน ในคดียิงกันในงานศพที่โบสถ์กรีกออร์ทอดอกซ์ เหตุนี้เมื่อเดือนก่อนทำให้เสียชีวิต 9 คนและบาดเจ็บ 34 คน",
+     "importance": 1,
+     "numbers": [
+      "34"
+     ],
+     "tags": [
+      "jordan",
+      "crime"
+     ],
+     "entities": [
+      "Jordan"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "88571861c48a",
@@ -1917,7 +2067,15 @@
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWUI2VHlSWEcwWVVZVUYtTHZGdEVxdTIxZzhwN21iSDBNRmJqR3VXYnVvY2ZIRkVLaTVIVnNPTlRaaGJWcVNRbzN0c3c2QTlHQl91WElhN20wWlBCTm81cW1NN1FoUW1qV0pHV2lsNjAzdGVXeUFFbjJoUGJQSjRxbzZ5UDFtanRWaUE5SzRuSDFDNlJKT1ZqWXlQYXZsR0tHRUVVRHgtQzFhZ0Mzc1VXWjhlQUdNRzVmQU1IcTNobzJPMnctUWc?oc=5",
      "source": "FlamboroughToday.com",
      "published": 1794755016,
-     "text": "How did tariffs hit your town? This interactive map zooms in for the answer FlamboroughToday.com"
+     "text": "How did tariffs hit your town? This interactive map zooms in for the answer FlamboroughToday.com",
+     "summary_th": "แผนที่เชิงโต้ตอบแสดงว่าภาษีศุลกากรกระทบแต่ละเมืองอย่างไร (อิงตามหัวข่าว)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "tariffs"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "9f25a7bec450",
@@ -1925,7 +2083,22 @@
      "link": "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1794736645,
-     "text": "Santa Cruz de Succhabamba is part of the Diocese of Chiclayo, where the Pope served as bishop from 2015 to 2023."
+     "text": "Santa Cruz de Succhabamba is part of the Diocese of Chiclayo, where the Pope served as bishop from 2015 to 2023.",
+     "summary_th": "สมเด็จพระสันตะปาปาเลโอ กล่าวถึงความทุกข์ยากของชุมชนระหว่างเยือนเมืองห่างไกลในเทือกเขาแอนดีส ซึ่งอยู่ในเขตปกครองที่พระองค์เคยเป็นบิชอปในช่วงปี 2015 ถึง 2023",
+     "importance": 0,
+     "numbers": [
+      "2015",
+      "2023"
+     ],
+     "tags": [
+      "pope",
+      "religion"
+     ],
+     "entities": [
+      "Pope Leo",
+      "Santa Cruz de Succhabamba"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "70eb7cdf383a",
@@ -1933,7 +2106,17 @@
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUXlwMV9PU2R2Z2tlQmstRC1kek5YZUZQRWZrYlhySVpVYllRODY1bWhmVGtxMUNJNzl0Y0Y3Sm1ldmtUSEdVaWZac19RR0Vud3p5R25WR2E4MlcwT2ttRUI5YkVfZGhTTk1feEZhbzB2NThPaVhlV2tILUllenFkdk95WXFzVVFiMjJ3UmxiUXF0Wm5FcjBMdkRMbTVBejRRNjBQNS1B?oc=5",
      "source": "LinkedIn",
      "published": 1794754866,
-     "text": "You Earn More Than Your Parents Did. So Why Does Life Feel More Expensive? Those who grew up in the 80s and 90s will remember how parents could survive on one modest salary, raise five or more children, educate them, host visiting relatives and still s LinkedIn"
+     "text": "You Earn More Than Your Parents Did. So Why Does Life Feel More Expensive? Those who grew up in the 80s and 90s will remember how parents could survive on one modest salary, raise five or more children, educate them, host visiting relatives and still s LinkedIn",
+     "summary_th": "บทความความเห็นบน LinkedIn ตั้งคำถามว่าทำไมคนรุ่นนี้รายได้มากกว่าพ่อแม่ แต่ชีวิตกลับรู้สึกแพงขึ้น",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "cost of living"
+     ],
+     "entities": [
+      "LinkedIn"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "840edfb81102",
@@ -1941,7 +2124,18 @@
      "link": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1794734797,
-     "text": "Pte William Douglas Dal Bianco died from his injuries on Friday, a month after a fire that tore through CFB Wainwright."
+     "text": "Pte William Douglas Dal Bianco died from his injuries on Friday, a month after a fire that tore through CFB Wainwright.",
+     "summary_th": "ทหารแคนาดาคนที่ 5 เสียชีวิตจากบาดเจ็บในเหตุไฟไหม้ใหญ่ที่ฐานทัพ CFB Wainwright ซึ่งเกิดขึ้นเมื่อหนึ่งเดือนก่อน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "canada military"
+     ],
+     "entities": [
+      "CFB Wainwright",
+      "William Douglas Dal Bianco"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "21efec02a891",
@@ -1949,7 +2143,18 @@
      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBFYVFMTXNPaHRkLVJjajJucmdsLUtxbS1ZMWI1MzBmQzJUeGFYNmNWa256djRsOVh4Rmx2RDJjZE1hTnRBaHVORWc0UDY0a3EydnhJ?oc=5",
      "source": "Bangladesh Sangbad Sangstha (BSS)",
      "published": 1794754696,
-     "text": "Govt committed to improving living standards thru inflation control: Commerce Minister Bangladesh Sangbad Sangstha (BSS)"
+     "text": "Govt committed to improving living standards thru inflation control: Commerce Minister Bangladesh Sangbad Sangstha (BSS)",
+     "summary_th": "รัฐมนตรีพาณิชย์บังกลาเทศ กล่าวว่ารัฐบาลตั้งใจยกระดับความเป็นอยู่ของประชาชนผ่านการควบคุมเงินเฟ้อ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "inflation",
+      "bangladesh"
+     ],
+     "entities": [
+      "Bangladesh"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "96e3b3873fda",
@@ -1957,7 +2162,20 @@
      "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1794730661,
-     "text": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade."
+     "text": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.",
+     "summary_th": "อิสราเอลสังหารผู้บัญชาการฮามาส Samir Abu Younis ในการโจมตีค่ายในฉนวนกาซา ทั้งฮามาสและกองทัพอิสราเอลยืนยันการเสียชีวิต",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gaza",
+      "hamas"
+     ],
+     "entities": [
+      "Israel",
+      "Hamas",
+      "Samir Abu Younis"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -2288,7 +2506,8 @@
       "Iraq",
       "Syria"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "63a46643dd53",
@@ -2309,7 +2528,8 @@
      "entities": [
       "WTI"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "01de7fed4494",
@@ -2330,7 +2550,8 @@
       "Nigeria",
       "Ghana"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c465e8476a6e",
@@ -2353,7 +2574,8 @@
       "Kazakhstan",
       "Uzbekistan"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "db96862bd0a4",
@@ -2363,7 +2585,7 @@
      "published": 1794752179,
      "text": "FPIs Pump ₹84,290 Cr into Indian Equities in Early Nov Rediff MoneyWiz",
      "summary_th": "FPIs Pump ₹84,290 Cr into Indian Equities in Early Nov",
-     "importance": 0,
+     "importance": 1,
      "numbers": [
       "₹84,290"
      ],
@@ -2374,7 +2596,10 @@
      "entities": [
       "India"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "การไหลเงินของนักลงทุนต่างชาติเข้าตลาดอินเดียเป็นข่าวตลาดทั่วไป ระดับ 1",
+     "checked_by": "claude/review"
     },
     {
      "id": "d6c02be98029",
@@ -2397,7 +2622,8 @@
       "Rivers",
       "Nigerian Navy"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "51f786e49314",
@@ -2417,7 +2643,8 @@
      "entities": [
       "US"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "902a094d6b57",
@@ -2434,7 +2661,8 @@
       "fuel price cut"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "7f454bcdf5f8",
@@ -2453,7 +2681,8 @@
      "entities": [
       "MIPEC"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "22666b049e68",
@@ -2472,7 +2701,8 @@
       "forecast"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4b744e1629e3",
@@ -2494,7 +2724,8 @@
      "entities": [
       "Rivers"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "802adb3bc1a6",
@@ -2516,7 +2747,8 @@
      "entities": [
       "Brent"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "94062939b8a1",
@@ -2533,7 +2765,8 @@
       "oil prices"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4bd626a94e90",
@@ -2542,7 +2775,7 @@
      "source": "Cotswold Journal",
      "published": 1794742835,
      "text": "Mystery prankster plagues city restaurant with crude stickers Cotswold Journal",
-     "summary_th": "Mystery prankster plagues city restaurant with crude stickers",
+     "summary_th": "มีผู้แกล้งไม่ทราบชื่อติดสติกเกอร์ที่มีคำว่า crude ที่ร้านอาหารในเมือง (ข่าวเบา ไม่ใช่ข่าวเศรษฐกิจ)",
      "importance": 0,
      "numbers": [],
      "tags": [
@@ -2550,7 +2783,10 @@
       "stickers"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "สรุปยังเป็นภาษาอังกฤษ แก้เป็นไทยตามหัวข่าว",
+     "checked_by": "claude/review"
     },
     {
      "id": "575864066bab",
@@ -2559,8 +2795,8 @@
      "source": "NDTV Profit",
      "published": 1794742180,
      "text": "Stock Markets This Week: WPI Inflation, Crude Oil, FII Trading Activity To Guide Movement, Say Analysts NDTV Profit",
-     "summary_th": "Stock Markets This Week: WPI Inflation, Crude Oil, FII Trading Activity To Guide Movement, Say Analysts",
-     "importance": 0,
+     "summary_th": "หัวข่าวบอกว่าสัปดาห์นี้ตลาดหุ้นจะถูกชี้นำโดยเงินเฟ้อ WPI ราคาน้ำมันดิบ และการซื้อขายของ FII (ตามหัวข่าว)",
+     "importance": 1,
      "numbers": [],
      "tags": [
       "stock markets",
@@ -2568,7 +2804,10 @@
       "fii trading"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "สรุปยังเป็นภาษาอังกฤษ และเป็นภาพรวมตลาดรายสัปดาห์ ระดับ 1",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -2821,7 +3060,8 @@
      "entities": [
       "Barrick"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "43d58e321857",
@@ -2839,7 +3079,8 @@
       "inflation"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "511778befca2",
@@ -2858,7 +3099,8 @@
      "entities": [
       "Titan"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8007cd10cd48",
@@ -2868,7 +3110,7 @@
      "published": 1794754861,
      "text": "Glitter Bug Gold Buyers Expands Estate and Large-Collection Evaluation Services in Orange County StreetInsider",
      "summary_th": "Glitter Bug Gold Buyers ขยายบริการประเมินมรดกและคอลเลกชันขนาดใหญ่ใน Orange County",
-     "importance": 1,
+     "importance": 0,
      "numbers": [],
      "tags": [
       "gold buyers",
@@ -2877,7 +3119,10 @@
      "entities": [
       "Glitter Bug Gold Buyers"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "เป็นประกาศบริการของร้านรับซื้อทอง ไม่ใช่ข่าว ระดับ 0",
+     "checked_by": "claude/review"
     },
     {
      "id": "dbd40e7984c8",
@@ -2902,7 +3147,8 @@
      "entities": [
       "MCX"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6b9309bf38c4",
@@ -2912,7 +3158,7 @@
      "published": 1794754822,
      "text": "A closer look at the Sunshine Mint Gold Bar from Money Metals. This 1 troy oz .9999 fine gold bar comes sealed in an assay package and features a unique serial number and MintMark SI security feature. Explore Sunshine Mint gold bars and gold bullion at M LinkedIn",
      "summary_th": "การนำเสนอแท่งทองคำ Sunshine Mint ขนาด 1 troy oz จาก Money Metals",
-     "importance": 1,
+     "importance": 0,
      "numbers": [
       "1 troy oz",
       ".9999"
@@ -2925,7 +3171,10 @@
       "Sunshine Mint",
       "Money Metals"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "เป็นรีวิวสินค้าแท่งทอง ไม่ใช่ข่าว ระดับ 0",
+     "checked_by": "claude/review"
     },
     {
      "id": "2587f7bb7e04",
@@ -2941,7 +3190,8 @@
       "gold price"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1bd9406a1fde",
@@ -2962,7 +3212,8 @@
      "entities": [
       "Fed"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2ec70b0ea0cf",
@@ -2978,7 +3229,8 @@
       "gold price"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f569e2030e6a",
@@ -2997,7 +3249,8 @@
      "entities": [
       "Goldman"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "839ae2e963e3",
@@ -3015,7 +3268,8 @@
       "gold price"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3c434961e5fd",
@@ -3032,7 +3286,8 @@
       "middle east"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -3528,7 +3783,19 @@
      "link": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
      "source": "TechCrunch",
      "published": 1794678304,
-     "text": "FAA administrator Bryan Bedford also said there's \"zero evidence of anything AI-related.\""
+     "text": "FAA administrator Bryan Bedford also said there's \"zero evidence of anything AI-related.\"",
+     "summary_th": "รัฐมนตรีคมนาคมสหรัฐฯ โทษว่าการอัปเกรดอุปกรณ์ตามปกติทำให้สายการบินถูกสั่งหยุดบินทั่วประเทศ ขณะที่ผู้บริหาร FAA กล่าวว่าไม่มีหลักฐานที่เกี่ยวกับ AI",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "aviation",
+      "faa"
+     ],
+     "entities": [
+      "FAA",
+      "Bryan Bedford"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f6708dd5d15d",
@@ -3536,7 +3803,18 @@
      "link": "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/",
      "source": "Ars Technica",
      "published": 1794744454,
-     "text": "COVID-19 lockdowns cut global fire activity by 12.3 percent."
+     "text": "COVID-19 lockdowns cut global fire activity by 12.3 percent.",
+     "summary_th": "การปิดเมืองช่วงโควิด-19 ทำให้กิจกรรมไฟป่าทั่วโลกลดลง 12.3 percent",
+     "importance": 1,
+     "numbers": [
+      "12.3 percent"
+     ],
+     "tags": [
+      "wildfire",
+      "covid"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "589f2eca044b",
@@ -3544,7 +3822,22 @@
      "link": "https://www.theverge.com/gadgets/1033432/lg-b6e-oled-tv-best-buy-doorbuster-black-friday-2026-deal-sale",
      "source": "The Verge",
      "published": 1794751200,
-     "text": "LG’s B6E was already one of the most affordable OLED TVs you could buy, but it’s an even better deal now that it’s included as part of Best Buy’s latest doorbuster event. Now through the end of today, November 15th, the 55-inch model is 50 percent off, dropping it to an all-time low of $699.99 […]"
+     "text": "LG’s B6E was already one of the most affordable OLED TVs you could buy, but it’s an even better deal now that it’s included as part of Best Buy’s latest doorbuster event. Now through the end of today, November 15th, the 55-inch model is 50 percent off, dropping it to an all-time low of $699.99 […]",
+     "summary_th": "ทีวี OLED LG รุ่น B6E ขนาด 55 นิ้ว ลดราคา 50 เปอร์เซ็นต์ใน Best Buy เหลือ $699.99 (โฆษณา)",
+     "importance": 0,
+     "numbers": [
+      "$699.99",
+      "50 percent"
+     ],
+     "tags": [
+      "deal",
+      "tv"
+     ],
+     "entities": [
+      "LG",
+      "Best Buy"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "14ba8d169059",
@@ -3552,7 +3845,16 @@
      "link": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
      "source": "Hacker News",
      "published": 1794705516,
-     "text": "Article URL: https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal Comments URL: https://news.ycombinator.com/item?id=50502988 Points: 338 # Comments: 140"
+     "text": "Article URL: https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal Comments URL: https://news.ycombinator.com/item?id=50502988 Points: 338 # Comments: 140",
+     "summary_th": "ศาลปฏิเสธคำร้องขอให้ยกฟ้องคดีฮั้วราคาชิป DRAM",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "dram",
+      "price fixing"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "fde250448f56",
@@ -3560,7 +3862,18 @@
      "link": "https://www.techmeme.com/261115/p7",
      "source": "Techmeme",
      "published": 1794744136,
-     "text": "Corbin Bolies / Variety : Inside the first AI Music Awards in Los Angeles, featuring AI announcers, lip-syncing, and human stand-ins, as the ceremony was mired in technical issues — I knew things were a little off when the first thing I heard on my walk to the AI Music Awards was “the winner...” followed by the sweet voice of Kelly Clarkson."
+     "text": "Corbin Bolies / Variety : Inside the first AI Music Awards in Los Angeles, featuring AI announcers, lip-syncing, and human stand-ins, as the ceremony was mired in technical issues — I knew things were a little off when the first thing I heard on my walk to the AI Music Awards was “the winner...” followed by the sweet voice of Kelly Clarkson.",
+     "summary_th": "งาน AI Music Awards ครั้งแรกในลอสแองเจลิส มีผู้ประกาศเป็น AI การลิปซิงก์ และคนแทน แต่งานมีปัญหาทางเทคนิคหลายจุด",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai music"
+     ],
+     "entities": [
+      "AI Music Awards",
+      "Variety"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "bbb8a6727085",
@@ -3568,7 +3881,20 @@
      "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
      "source": "BleepingComputer",
      "published": 1794756228,
-     "text": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]"
+     "text": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+     "summary_th": "TSMC ยืนยันว่าข้อมูลพนักงานส่วนบุคคลรั่วไหลออนไลน์ หลังมีผู้โจมตีนำข้อมูล 6.9GB ไปประมูลขาย และเกี่ยวข้องกับผู้ให้บริการคลาวด์",
+     "importance": 2,
+     "numbers": [
+      "6.9GB"
+     ],
+     "tags": [
+      "data breach",
+      "tsmc"
+     ],
+     "entities": [
+      "TSMC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "4d9a9ffd47cf",
@@ -3576,7 +3902,17 @@
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9NMkhpajVCYk5RNWUybXBmcnA1MkR6UVZYMS1aUkozOVNyRWFWLU1yeDlKYlpoS0U3Z1JST1I3UGFDdTdkNlpHemRIdG9NRkhSWXVVdmozSjJpRlNtXzVWQ1FkdjNBbUZo?oc=5",
      "source": "Daily Nigerian",
      "published": 1794757135,
-     "text": "Airport Security: SAHCO deploys locally fabricated solar-powered CCTV surveillance facilities Daily Nigerian"
+     "text": "Airport Security: SAHCO deploys locally fabricated solar-powered CCTV surveillance facilities Daily Nigerian",
+     "summary_th": "SAHCO ติดตั้งกล้อง CCTV พลังงานแสงอาทิตย์ที่ผลิตในประเทศในสนามบิน (อิงตามหัวข่าว)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "airport security"
+     ],
+     "entities": [
+      "SAHCO"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7134e7e1ad67",
@@ -3584,7 +3920,19 @@
      "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
      "source": "TechCrunch",
      "published": 1794677400,
-     "text": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations."
+     "text": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+     "summary_th": "รวมรายการโปรเจกต์และสตาร์ทอัป AI ที่ปิดตัวหรือไม่เป็นไปตามที่คาด เช่น Siri ของ Apple ที่ล่าช้าซ้ำ และแอป super app ของ OpenAI",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "product delays"
+     ],
+     "entities": [
+      "Apple",
+      "OpenAI"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "93924dd20f9b",
@@ -3592,7 +3940,18 @@
      "link": "https://www.theverge.com/podcast/1033948/sony-aibo-robot-dog-version-history",
      "source": "The Verge",
      "published": 1794751050,
-     "text": "In the 1990s, Sony was absolutely convinced that we were on the precipice of a robot takeover. Pretty soon, the company decided, we'd all be living among countless humanoid robots. Some would be our coworkers; others would be our friends; and at least one would be our pet. And \"pet\" was exactly what Sony was […]"
+     "text": "In the 1990s, Sony was absolutely convinced that we were on the precipice of a robot takeover. Pretty soon, the company decided, we'd all be living among countless humanoid robots. Some would be our coworkers; others would be our friends; and at least one would be our pet. And \"pet\" was exactly what Sony was […]",
+     "summary_th": "บทความย้อนมองหุ่นยนต์สุนัข Aibo ของ Sony ในยุค 1990 ที่บริษัทคิดว่าหุ่นยนต์จะเข้ามาในชีวิตประจำวัน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "robotics",
+      "retro"
+     ],
+     "entities": [
+      "Sony"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2d95802617f2",
@@ -3600,7 +3959,15 @@
      "link": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
      "source": "Hacker News",
      "published": 1794678319,
-     "text": "Article URL: https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/ Comments URL: https://news.ycombinator.com/item?id=50499038 Points: 376 # Comments: 188"
+     "text": "Article URL: https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/ Comments URL: https://news.ycombinator.com/item?id=50499038 Points: 376 # Comments: 188",
+     "summary_th": "ผังต้นไม้แสดงที่มาของชื่อตำแหน่งงานด้านซอฟต์แวร์ (อิงตามหัวข่าว)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "software jobs"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "9da2f5416fc1",
@@ -3608,7 +3975,21 @@
      "link": "https://www.techmeme.com/261115/p6",
      "source": "Techmeme",
      "published": 1794726095,
-     "text": "Chris Miller / Financial Times : A post-Jensen Nvidia must reshuffle its leadership, reset its DC ties, and recognize that even the US' most valuable company cannot dictate US foreign policy — The chip company has only itself to blame for a long list of adversaries — Jensen Huang's exit from Nvidia, the company he co-founded …"
+     "text": "Chris Miller / Financial Times : A post-Jensen Nvidia must reshuffle its leadership, reset its DC ties, and recognize that even the US' most valuable company cannot dictate US foreign policy — The chip company has only itself to blame for a long list of adversaries — Jensen Huang's exit from Nvidia, the company he co-founded …",
+     "summary_th": "คอลัมน์ความเห็นใน Financial Times หลังการลาออกของ Jensen Huang จาก Nvidia (เป็นความเห็นของผู้เขียน)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "leadership"
+     ],
+     "entities": [
+      "Nvidia",
+      "Jensen Huang",
+      "Chris Miller",
+      "Financial Times"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d41d111a969f",
@@ -3616,7 +3997,15 @@
      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQTUp3aXJmUi00OU4yNnRjNHAtN2l5eHE3cWFFZUg4ak5rWXdfYWQxMWxpNlZfVDdHU0hpbGd3dm81LVRaamxKdVVPaEdCdkh3ZDlsUlVOdGx5U1hMRmp5eW0xdmNfU01MaE14Y2NwLU9iVUN2NlRhWDR5ZXZJTEk2OG5zblhicGFEVU1uWDAxLUxQZlR3Qk1JWDM4dTJwcVF3V3k0VmV2Qy0zODdOQS1xX3ZkYlNWYVBmXy1EcnRkYk5VSEZOZlppSlluSkVsam9JVFd4R0tBWTFzM2lBQ0N0Q25aVWhIbHdmdUJRbElyVXA2N0h4VnRNZVFJMXphZ9IBgwJBVV95cUxQMDN2SFpRQzg1eTRmM21hNkxxT1JXOW1yYTZ5OS1jN1JnREM1RVVGV1ViQXJDRU50b19rd01nWHo5TVRialE3aXZDR3hkeHY0bk16TjREd2J3WVpqczhYaEVZUmxkbUpsVFVXNEZMbVAxeDh6bnFKRHI3TXJPM2FpTTIzdldXQ0ZUX3hYV05tMFVJNUFweGNaNTZVMHhhc0U3VllnUTJtY1k4d0syam9zUkw1Mi1yWTc2WnBrMG5IUDFDYi1SYTFJdmkzUkdvNlNvckgtZ1A5RTUycnU2WW5Cdy00TjlfQ1dJd1NYTl8xQTFJd3lEazVsYmZNNEh2YW5BaHpN?oc=5",
      "source": "Asianet Newsable",
      "published": 1794756957,
-     "text": "Tragic Death Caught On CCTV: Bengaluru Man Seen Clutching Chest Before Collapsing At Restaurant Asianet Newsable"
+     "text": "Tragic Death Caught On CCTV: Bengaluru Man Seen Clutching Chest Before Collapsing At Restaurant Asianet Newsable",
+     "summary_th": "คลิป CCTV แสดงชายในเมืองเบงกาลูรูกุมหน้าอกก่อนหมดสติที่ร้านอาหารและเสียชีวิต (อิงตามหัวข่าว)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "crime"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "075bbfb634c2",
@@ -3624,7 +4013,19 @@
      "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
      "source": "TechCrunch",
      "published": 1794674055,
-     "text": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations."
+     "text": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+     "summary_th": "หลายรัฐบาลในเอเชียตอบสนองต่อการลาออกของ Jensen Huang บางประเทศยืนยันการรับประกันการจัดหาชิป ส่วนบางประเทศติดตามผลกระทบต่อโครงการในประเทศ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "chip supply"
+     ],
+     "entities": [
+      "Jensen Huang",
+      "Nvidia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "4c525e5e54fa",
@@ -3632,7 +4033,19 @@
      "link": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
      "source": "The Verge",
      "published": 1794747600,
-     "text": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started On October […]"
+     "text": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started On October […]",
+     "summary_th": "สรุปเหตุการณ์ Jensen Huang ลาออกจาก Nvidia และวิกฤตการบริหารของบริษัท",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "leadership"
+     ],
+     "entities": [
+      "Jensen Huang",
+      "Nvidia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "fbb4c2fd353e",
@@ -3640,7 +4053,17 @@
      "link": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
      "source": "Hacker News",
      "published": 1794663808,
-     "text": "Article URL: https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c Comments URL: https://news.ycombinator.com/item?id=50496976 Points: 534 # Comments: 121"
+     "text": "Article URL: https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c Comments URL: https://news.ycombinator.com/item?id=50496976 Points: 534 # Comments: 121",
+     "summary_th": "สารคดีเรื่อง KDE (วิดีโอ ตามหัวข่าวและลิงก์ต้นทาง)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "open source"
+     ],
+     "entities": [
+      "KDE"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d40d81a7b8b6",
@@ -3648,7 +4071,23 @@
      "link": "https://www.techmeme.com/261115/p5",
      "source": "Techmeme",
      "published": 1794725401,
-     "text": "Alex Konrad / Upstarts Media : Nidus, which is developing AI-powered tech for manufacturing robots used by US defense industrial companies, raised $30M across a pre-seed and a seed — The startup backed by Kleiner Perkins and Costanoa says it's reached “seven figures” in bookings with defense industrial customers in just 4 months."
+     "text": "Alex Konrad / Upstarts Media : Nidus, which is developing AI-powered tech for manufacturing robots used by US defense industrial companies, raised $30M across a pre-seed and a seed — The startup backed by Kleiner Perkins and Costanoa says it's reached “seven figures” in bookings with defense industrial customers in just 4 months.",
+     "summary_th": "Nidus ซึ่งพัฒนาเทคโนโลยี AI สำหรับการผลิตหุ่นยนต์ระดับอุตสาหกรรมด้านกลาโหมสหรัฐฯ ระดมทุน 30 ล้านดอลลาร์จากรอบ pre-seed และ seed",
+     "importance": 1,
+     "numbers": [
+      "$30M"
+     ],
+     "tags": [
+      "defense tech",
+      "robotics",
+      "funding"
+     ],
+     "entities": [
+      "Nidus",
+      "Kleiner Perkins",
+      "Costanoa"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e2d42f70d46e",
@@ -3656,7 +4095,15 @@
      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNM2dwWGNaOFk4MDVmNHRMb2NZeERjV3hyM3l2WGlQYVAzQjYwQ1lDX1BoWDhqT01wb194UzJyTjVxYkUyZEt0UU9QUTY0a2RJRldTTVJEdkhjNzdkMm5oR1c4SFJqYUhqNU5TLXN1LWtiN3RtLWpHckt6Q2NhMG9HQU5aamdyY0JpMkRyQU9Rd25KaDhIOVdZZnZRQXNtVVNEcFZxNGhwY2dQWlBObVM3ZlB4WXRxNURUaHExUFJ5ZVl1cmZNN1UyQ0xpTWN6cUJLOE1KWWNqeG5RS1JwRHkyNktPcl9XZmhmT1NkdnZYb9IB9AFBVV95cUxOSHNOZ0F2UEQyY3NIbklMeXFVdl9ISHVFaEZINU9vdXYyc210cmtDQUdScjFab1ZhdENsbjliaFBtdEVYckExalFSLXZydFlaLWFvRDBGaThoazh6V0JSMzdEQTM3MEdvQ2VBcEVYNlEtbFFrOEhxT1FZRWpSY3M3RG10YXo3bndnMEpLX2M5QVNkcmlZZ2R6Y3NnRVF3aEFyNGFSN1JlNWdobnNtbFZYSnJYaldoekVYOTN2Z1Y2VkRHYnNiNXFFbWdZZVpoVWZzZnZEQUVBcnVBMms0QXk4MGJZeWdQazlCYjNyU3Fvby1IUWN6?oc=5",
      "source": "The Times of India",
      "published": 1794756720,
-     "text": "Delhi showroom murder: CCTV shows victim's final struggle with 'ex-friend' before killing The Times of India"
+     "text": "Delhi showroom murder: CCTV shows victim's final struggle with 'ex-friend' before killing The Times of India",
+     "summary_th": "CCTV ในเดลีแสดงการต่อสู้ของผู้เสียชีวิตกับอดีตเพื่อนก่อนถูกฆ่า (อิงตามหัวข่าว)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "crime"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "30ba9526ee50",
@@ -3664,7 +4111,15 @@
      "link": "https://www.theverge.com/tech/1013985/crkd-atom-plus-tmr-analog-thumbstick-controller-gamepad-switch-ios-android-hands-on",
      "source": "The Verge",
      "published": 1794664800,
-     "text": "As much as I appreciate the ingenious design of the Nintendo Switch's Joy-Con, my family and I can't stand using them as standalone gamepads. So when we travel with the Switch 2, we always bring at least one full-size gamepad, plus a couple of 8BitDo's Zero 2 controllers for games that don't use analog thumbsticks. […]"
+     "text": "As much as I appreciate the ingenious design of the Nintendo Switch's Joy-Con, my family and I can't stand using them as standalone gamepads. So when we travel with the Switch 2, we always bring at least one full-size gamepad, plus a couple of 8BitDo's Zero 2 controllers for games that don't use analog thumbsticks. […]",
+     "summary_th": "แนะนำจอเกมแพดขนาดเล็กที่มีแท่งอนาล็อกคู่สำหรับพกพา (อิงตามหัวข่าว)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "gaming hardware"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "3415f039d30c",
@@ -3672,7 +4127,20 @@
      "link": "https://www.techmeme.com/261115/p4",
      "source": "Techmeme",
      "published": 1794725146,
-     "text": "Cheng Ting-Fang / Nikkei Asia : TSMC plans to set up a new $500M fund to invest in chip startups, suppliers, and other upstream partners, saying “we also want to support the future's Nvidia” — TOKYO — Taiwan Semiconductor Manufacturing Co. plans to use a new $500 million venture fund to support promising chip startups …"
+     "text": "Cheng Ting-Fang / Nikkei Asia : TSMC plans to set up a new $500M fund to invest in chip startups, suppliers, and other upstream partners, saying “we also want to support the future's Nvidia” — TOKYO — Taiwan Semiconductor Manufacturing Co. plans to use a new $500 million venture fund to support promising chip startups …",
+     "summary_th": "TSMC วางแผนตั้งกองทุนร่วมลงทุน 500 ล้านดอลลาร์ เพื่อลงทุนในสตาร์ทอัปชิป ซัพพลายเออร์ และพันธมิตรต้นน้ำ",
+     "importance": 2,
+     "numbers": [
+      "$500M"
+     ],
+     "tags": [
+      "tsmc",
+      "chip startups"
+     ],
+     "entities": [
+      "TSMC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "36d71e4656fe",
@@ -3680,7 +4148,15 @@
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNR09lQVNvaFlhdTRTekFhWUtwSnpWSnB3THdoTy1sNnhJZ2VJSGxRR0lGcEEtTkVuajliajc4ODJTVGVRVlhjMlVWZ1FWeWJ3R2IzRUp2Y1VrTVNZZnpYdGJFckQ3WTBOWEJVVWl3VmFTWFp1alRRaktVdWlMeDJENHg1UEE4b0c5UHUzUDlRVGFsdEY4Y21pLUEyeTQ?oc=5",
      "source": "Rediff",
      "published": 1794754869,
-     "text": "Man Arrested For Brutal Showroom Murder Of Teen Girl In West Delhi Rediff"
+     "text": "Man Arrested For Brutal Showroom Murder Of Teen Girl In West Delhi Rediff",
+     "summary_th": "ตำรวจจับกุมชายที่ก่อเหตุฆาตกรรมเด็กสาววัยรุ่นในโชว์รูมที่เวสต์เดลี (อิงตามหัวข่าว)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "crime"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "336ec6a19415",
@@ -3689,7 +4165,7 @@
      "source": "Techmeme",
      "published": 1794724802,
      "text": "Tamara Djurickovic / Tech.eu : Nebuly, whose tech helps enterprises measure the business value of AI agents by analyzing their impact on productivity and revenue, raised a $21M Series A — Nebuly develops a platform that helps enterprises measure the business value of AI agents by analysing their impact on productivity …",
-     "summary_th": "Nebuly ระดมทุนระดับ Series A ได้ 21 ล้านดอลลาร์ โดยบริษัทพัฒนาเทคโนโลยีที่ช่วยให้องค์กรวัดมูลค่าทางธุรกิจของ AI agents จากผลกระทบต่อผลิตภาพและรายได้",
+     "summary_th": "Nebuly ระดมทุน Series A มูลค่า $21M โดยบริษัทพัฒนาเทคโนโลยีที่ช่วยให้องค์กรวัดมูลค่าทางธุรกิจของ AI agents จากผลกระทบต่อผลิตภาพและรายได้",
      "importance": 2,
      "numbers": [
       "$21M"
@@ -3702,7 +4178,10 @@
      "entities": [
       "Nebuly"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ตัวเลขถูกแปลงเป็น 'ล้านดอลลาร์' ต้องคงตามต้นทาง",
+     "checked_by": "claude/review"
     },
     {
      "id": "c6e05b9112fe",
@@ -3721,7 +4200,8 @@
      "entities": [
       "Delhi"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "5783d647ccf2",
@@ -3743,7 +4223,8 @@
       "Jensen Huang",
       "New York Post"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d1da36ac1b5a",
@@ -3762,7 +4243,8 @@
      "entities": [
       "GT Road"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9291e766cc76",
@@ -3786,7 +4268,8 @@
       "US",
       "SE Asian"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -4181,7 +4664,8 @@
       "Summit Therapeutics",
       "Akeso"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "fda848474841",
@@ -4198,7 +4682,8 @@
       "brain"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "0368da2e3da9",
@@ -4219,7 +4704,8 @@
       "FDA",
       "Summit Therapeutics"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "39583229e17b",
@@ -4240,7 +4726,8 @@
      "entities": [
       "Brazil"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "fe1191f10677",
@@ -4262,7 +4749,8 @@
       "Legend Biotech Corp",
       "Ingrid Zhang"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9f98528f9e43",
@@ -4272,7 +4760,7 @@
      "published": 1794747898,
      "text": "Six months after an Ebola outbreak was declared in Congo, the disease remains out of control and efforts to contain it are faltering.",
      "summary_th": "การแพร่ระบาดของเชื้ออีโบลาในคองโกยังคงควบคุมไม่ได้หลังผ่านไป 6 เดือน",
-     "importance": 3,
+     "importance": 2,
      "numbers": [
       "6"
      ],
@@ -4283,7 +4771,10 @@
      "entities": [
       "Congo"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "อีโบลาเป็นข่าวสาธารณสุข ไม่ใช่เรื่องตลาด ระดับ 2",
+     "checked_by": "claude/review"
     },
     {
      "id": "647ddc9d0ed6",
@@ -4306,7 +4797,8 @@
       "Anthropic",
       "Medicare"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1b82033f568f",
@@ -4328,7 +4820,8 @@
       "Diego Candia-Rivera",
       "Sofia Carrion-Falgarona"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "011d4ba733fe",
@@ -4348,7 +4841,8 @@
       "Virtus Lifesci Biotech Products Etf",
       "BBP"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c365f84261f8",
@@ -4368,7 +4862,8 @@
       "Sandra Koseoglu",
       "Merck"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c17ddb78c468",
@@ -4388,7 +4883,8 @@
       "Fortress Biotech, Inc.",
       "FBIOP"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "5c616b44555f",
@@ -4411,7 +4907,8 @@
       "Oncolytics Biotech",
       "Nasdaq"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "bbf00ffa9f25",
@@ -4431,7 +4928,8 @@
      "entities": [
       "Fortress Biotech"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2b49ea3aaad9",
@@ -4450,7 +4948,8 @@
      "entities": [
       "Biotech Peptides"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2f9a1bf63ade",
@@ -4468,7 +4967,8 @@
       "headquarters"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2e229bddee7c",
@@ -4488,7 +4988,8 @@
      "entities": [
       "Legend Biotech"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "737bb74f4f3b",
@@ -4511,7 +5012,8 @@
       "FDA",
       "CGuard Prime"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "29a5ffc549ed",
@@ -4530,7 +5032,8 @@
      "entities": [
       "Andrew Forrest"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "5dc2d424c5ad",
@@ -4549,7 +5052,8 @@
      "entities": [
       "Krystal Biotech"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "157e3efac583",
@@ -4566,7 +5070,8 @@
       "biotech"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   }
