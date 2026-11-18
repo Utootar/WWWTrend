@@ -2,9 +2,10 @@
  "date": "2026-11-18",
  "collected_at": "2026-11-18T00:39:37+07:00",
  "models": [
+  "claude/routine",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 70,
+ "summary_failed": 0,
  "prices": [
   {
    "symbol": "^GSPC",
@@ -488,7 +489,20 @@
      "link": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
      "source": "CNBC Markets",
      "published": 1794922854,
-     "text": "The forecast represents one of the most hawkish views among policymakers."
+     "text": "The forecast represents one of the most hawkish views among policymakers.",
+     "summary_th": "ประธาน Fed เซนต์หลุยส์ Musalem บอกว่าอาจต้องขึ้นดอกเบี้ยอีก 4 ครั้งในช่วงเดือนข้างหน้า ซึ่งเป็นมุมมองที่เข้มงวดที่สุดกลุ่มหนึ่งของผู้กำหนดนโยบาย",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "fed",
+      "rate hikes",
+      "interest rates"
+     ],
+     "entities": [
+      "Fed St. Louis",
+      "Musalem"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1e87f45bb066",
@@ -496,7 +510,18 @@
      "link": "https://www.cnbc.com/2026/11/17/when-to-sell-a-stock.html",
      "source": "CNBC Top News",
      "published": 1794936785,
-     "text": "\"You need a clear, disciplined plan for when to sell,\" says Karen Finerman. Here are seven smart reasons to sell — and when not to sell."
+     "text": "\"You need a clear, disciplined plan for when to sell,\" says Karen Finerman. Here are seven smart reasons to sell — and when not to sell.",
+     "summary_th": "บทความแนะนำ 7 เหตุผลในการขายหุ้น และ 'กฎทอง' ของ Karen Finerman ผู้บริหารกองทุนป้องกันความเสี่ยง",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "stock selling",
+      "investing tips"
+     ],
+     "entities": [
+      "Karen Finerman"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "0bc9e493ef92",
@@ -504,7 +529,20 @@
      "link": "https://www.marketwatch.com/story/why-salesforces-stock-is-leading-s-p-500-decliners-amid-tech-jitters-17510caf",
      "source": "MarketWatch",
      "published": 1794936960,
-     "text": "A series of technology outages has investors concerned that software companies could prove “particularly vulnerable” to AI misuse, an analyst says."
+     "text": "A series of technology outages has investors concerned that software companies could prove “particularly vulnerable” to AI misuse, an analyst says.",
+     "summary_th": "หุ้น Salesforce เป็นตัวฉุดดัชนี S&P 500 มากที่สุด ท่ามกลางความกังวลว่าเหตุขัดข้องทางเทคโนโลยีอาจทำให้บริษัทซอฟต์แวร์เสี่ยงต่อการถูกใช้ผิดวิธีด้วย AI ตามที่นักวิเคราะห์ระบุ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "salesforce",
+      "software",
+      "ai"
+     ],
+     "entities": [
+      "Salesforce",
+      "S&P 500"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6b107137aa65",
@@ -512,7 +550,20 @@
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaGV3d3A0V0hvYmdkWjNGM0QyenhKaXljNWpYWE1RZ3k3aTdvWDc2VVRyOUhuSGhSVGZaN09LVXdaZFdHd0VfYlF4bFUzTHpXT3NxSzk4cWhvZExqeE5BRllpRDIzSXV4YmlKZ0ZLbHVKUE9Damh6MWNuRlMwbklza0puODRuU0JCbEhLX290dzJBMElPb0dyaXVfLWxyMGppQ3VzNW1hU1NnWng2ZmY0RGc1NlI?oc=5",
      "source": "The Washington Post",
      "published": 1794936738,
-     "text": "What GM’s switch to Nasdaq reveals about the siren call of index funds The Washington Post"
+     "text": "What GM’s switch to Nasdaq reveals about the siren call of index funds The Washington Post",
+     "summary_th": "บทความวิเคราะห์การที่ GM ย้ายไปอยู่ตลาด Nasdaq และสะท้อนแรงดึงดูดของกองทุน index",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gm",
+      "index funds",
+      "nasdaq"
+     ],
+     "entities": [
+      "GM",
+      "Nasdaq"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a12e13fe5b6b",
@@ -520,7 +571,19 @@
      "link": "https://www.cnbc.com/2026/11/17/faa-ground-stop-routers.html",
      "source": "CNBC Top News",
      "published": 1794936477,
-     "text": "Problems with the overwhelmed technology led the agency to issue a rare nationwide ground stop on Friday."
+     "text": "Problems with the overwhelmed technology led the agency to issue a rare nationwide ground stop on Friday.",
+     "summary_th": "FAA หยุดติดตั้งเราเตอร์ใหม่ หลังสั่งหยุดการบินทั่วประเทศในวันศุกร์ เพราะระบบเทคโนโลยีที่รับภาระเกินไปมีปัญหา",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "faa",
+      "outage",
+      "aviation"
+     ],
+     "entities": [
+      "FAA"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "fa5ca3b01dc3",
@@ -528,7 +591,18 @@
      "link": "https://www.marketwatch.com/story/the-latest-tech-failure-u-s-classified-national-security-communications-network-ad271899",
      "source": "MarketWatch",
      "published": 1794935520,
-     "text": "A reported outage of a classified U.S. communications network has become the latest in a growing string of technology disruptions impacting consumers, businesses and the government."
+     "text": "A reported outage of a classified U.S. communications network has become the latest in a growing string of technology disruptions impacting consumers, businesses and the government.",
+     "summary_th": "มีรายงานว่าเครือข่ายสื่อสารลับด้านความมั่นคงของสหรัฐฯ ขัดข้อง และเป็นเหตุล่าสุดในชุดเหตุขัดข้องทางเทคโนโลยีที่กระทบผู้บริโภค ธุรกิจ และภาครัฐ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "outage",
+      "national security"
+     ],
+     "entities": [
+      "U.S. government"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "507bd6a3ea9b",
@@ -536,7 +610,18 @@
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcncxRmdCdVhWRUZYZnZyeDY5LU5JM1lKUHVDLWZVNHJDZnVuTzBKeWZBWGtpWFdTUlJESnJpMnVrNlVKcHBiLWdJamVERXZGN18zc2dNQmlMcTFGa0FabkFPVG1zQXUwd2JwWk5fRVgtOFE0dmhTb0hreW5SOThWMHJEejBsdXFwb0s0VmxaXzhCRjFiNGxRM2ZReWUxeHpxUGU0TWpKZllpYmUxeVNmbHJ5dmVhUk1ZY0p2NmEzN00?oc=5",
      "source": "XTB.com",
      "published": 1794936253,
-     "text": "Nasdaq extends losses 📉 Will the Wall Street correction last longer? XTB.com"
+     "text": "Nasdaq extends losses 📉 Will the Wall Street correction last longer? XTB.com",
+     "summary_th": "ดัชนี Nasdaq ขยายการปรับตัวลง และมีคำถามว่าภาวะหุ้นสหรัฐปรับฐานจะยืดเยื้อหรือไม่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "nasdaq",
+      "market"
+     ],
+     "entities": [
+      "Nasdaq"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "cd100b735815",
@@ -544,7 +629,19 @@
      "link": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html",
      "source": "CNBC Top News",
      "published": 1794935582,
-     "text": "He said he had seen support from investors and employees was willing to come back as CEO."
+     "text": "He said he had seen support from investors and employees was willing to come back as CEO.",
+     "summary_th": "อดีตซีอีโอ Nvidia Jensen Huang บอกว่าเปิดใจที่จะกลับมาเป็นซีอีโอ ในถ้อยแถลงแรกนับจากลาออก และบอกว่าได้รับการสนับสนุนจากนักลงทุนและพนักงาน",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "leadership"
+     ],
+     "entities": [
+      "Jensen Huang",
+      "Nvidia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a0fb06a8b10d",
@@ -552,7 +649,16 @@
      "link": "https://www.marketwatch.com/story/parents-told-us-what-its-like-to-help-their-kids-battle-sports-gambling-addiction-theres-no-handbook-6e2d5bb2",
      "source": "MarketWatch",
      "published": 1794935220,
-     "text": "“We essentially married the most addictive device with the most addictive behavior, and we put them together.”"
+     "text": "“We essentially married the most addictive device with the most addictive behavior, and we put them together.”",
+     "summary_th": "พ่อแม่เล่าประสบการณ์ช่วยลูกรับมือกับการติดการพนันกีฬา และบอกว่าไม่มีคู่มือให้ทำตาม",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gambling",
+      "sports betting"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "01101a8de237",
@@ -560,7 +666,18 @@
      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQemZIZjAxRENzVUs3enFWT2JReERHSndkM3RWVU1sN2NZd1hPa2xYUEZMZnRpb0pTNkRzXzFuTkt5dDB0U2ltZTRVT3ZReFJJdjFOZ2R3bzZoVmEzV25sUFU4dVo5WXM1a25tNThvSW04RjNEZGdsNTNCZlFLTmt0Z29ONDBwT0NrYnJDRndJbG5HZHR6NDJLTFo5TVJOaDdOVVd3TUNtN3BRTmZ5akV1eGdLNlZuTDJOOGRRckFfbUg1aGZXTHVXdlJmUjhFUHd6SktTNElHa1ZrbUNzNUtNSUliSXM?oc=5",
      "source": "Foreign Policy Journal",
      "published": 1794936000,
-     "text": "Lululemon Athletica (NASDAQ: LULU) Faces Steep Earnings Decline Even As Shares Outperform Broader Market Foreign Policy Journal"
+     "text": "Lululemon Athletica (NASDAQ: LULU) Faces Steep Earnings Decline Even As Shares Outperform Broader Market Foreign Policy Journal",
+     "summary_th": "หุ้น Lululemon (LULU) คาดว่าจะมีกำไรลดลงมาก แม้หุ้นทำผลตอบแทนดีกว่าตลาดโดยรวม",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "lululemon",
+      "earnings"
+     ],
+     "entities": [
+      "Lululemon"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5e39bb37b737",
@@ -568,7 +685,21 @@
      "link": "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html",
      "source": "CNBC Top News",
      "published": 1794935349,
-     "text": "The director of PAHO made the final call that measles is endemic — or always present — in the U.S. following 12 months of continuous transmission."
+     "text": "The director of PAHO made the final call that measles is endemic — or always present — in the U.S. following 12 months of continuous transmission.",
+     "summary_th": "สหรัฐฯ เสียสถานะประเทศที่กำจัดโรคหัดได้แล้วอย่างเป็นทางการ หลังการระบาดต่อเนื่องครบ 12 เดือน โดยผู้อำนวยการ PAHO ตัดสินว่าโรคหัดกลายเป็นโรคประจำถิ่น",
+     "importance": 3,
+     "numbers": [
+      "12 months"
+     ],
+     "tags": [
+      "measles",
+      "public health"
+     ],
+     "entities": [
+      "U.S.",
+      "PAHO"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "26541281d355",
@@ -576,7 +707,18 @@
      "link": "https://www.marketwatch.com/story/so-sad-and-so-true-has-your-family-talked-about-snls-sister-sketch-yet-19bf9d67",
      "source": "MarketWatch",
      "published": 1794934980,
-     "text": "The late-night comedy sketch does the impossible by making female caregivers feel seen."
+     "text": "The late-night comedy sketch does the impossible by making female caregivers feel seen.",
+     "summary_th": "คลิปฉาก 'Sister' ของ SNL ทำให้ครอบครัวหลายคนรู้สึกว่าถูกเข้าใจ โดยเฉพาะผู้หญิงที่ดูแลคนในครอบครัว",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "snl",
+      "caregiving"
+     ],
+     "entities": [
+      "SNL"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "341fd6fdf4e5",
@@ -584,7 +726,18 @@
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUkRxSmRpMzhIRUNPWGpGQnBNOWtUNGs0NzROQkdvcmtZbEt2SXJLM1UwRkhXaE1makJkeE5sMVhoZndrdTNsYUNBMTQwLTQyOHZOSHRnb3F1Y3BxdFQtMElEUTFoLVVTUmVLa180Y0xWUG5MWkE2LXZvRGI4SWI0VEllQTN6T3R2dnNxMXk1blM5eldtRHItcDZJZ2RYUnM?oc=5",
      "source": "Benzinga",
      "published": 1794935665,
-     "text": "Robinhood Stock Slides: What's Going On? Benzinga"
+     "text": "Robinhood Stock Slides: What's Going On? Benzinga",
+     "summary_th": "หุ้น Robinhood ร่วงลง และ Benzinga ตั้งคำถามว่าเกิดอะไรขึ้น (รายละเอียดดูในต้นฉบับ)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "robinhood",
+      "stocks"
+     ],
+     "entities": [
+      "Robinhood"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "65047d2bef1b",
@@ -592,7 +745,20 @@
      "link": "https://www.cnbc.com/2026/11/17/nike-investor-day-elliott-hill.html",
      "source": "CNBC Top News",
      "published": 1794934954,
-     "text": "Nike is hosting an investor day at its Oregon headquarters as the company tries to prove to investors that its turnaround is working."
+     "text": "Nike is hosting an investor day at its Oregon headquarters as the company tries to prove to investors that its turnaround is working.",
+     "summary_th": "Nike ตั้งเป้าหมายทางการเงินก่อนจัดงาน investor day ครั้งแรกในรอบ 9 ปี ที่สำนักงานใหญ่ในรัฐ Oregon เพื่อพิสูจน์ว่าการฟื้นฟูบริษัทกำลังได้ผล",
+     "importance": 2,
+     "numbers": [
+      "9 years"
+     ],
+     "tags": [
+      "nike",
+      "turnaround"
+     ],
+     "entities": [
+      "Nike"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5dee6a5d9879",
@@ -600,7 +766,23 @@
      "link": "https://www.marketwatch.com/story/if-you-own-a-nasdaq-100-fund-youll-own-anthropic-shares-after-15-trading-days-whether-you-want-to-or-not-19b08485",
      "source": "MarketWatch",
      "published": 1794934920,
-     "text": "Anthropic’s suppliers are buying $26 billion worth of stock at the IPO price because they want to. Some funds will be forced to buy, and at a potentially worse price."
+     "text": "Anthropic’s suppliers are buying $26 billion worth of stock at the IPO price because they want to. Some funds will be forced to buy, and at a potentially worse price.",
+     "summary_th": "ผู้ถือกองทุน Nasdaq-100 จะได้หุ้น Anthropic หลัง 15 วันการซื้อขาย โดยซัพพลายเออร์ของ Anthropic กำลังซื้อหุ้น $26 billion ในราคา IPO และบางกองทุนจะถูกบังคับซื้อในราคาที่อาจแย่กว่า",
+     "importance": 3,
+     "numbers": [
+      "$26 billion",
+      "15 trading days"
+     ],
+     "tags": [
+      "anthropic",
+      "ipo",
+      "nasdaq-100"
+     ],
+     "entities": [
+      "Anthropic",
+      "Nasdaq-100"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "549a4a9fa572",
@@ -608,7 +790,19 @@
      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRHZJUFlnRl9tV3lEeXpCTVF2Z3N5LTNZSDZ2RWZET0VMX0d1ejBudkwzekttZW5HVklnSWpqVWhsZVdXc0JYRmRINGNabzl3QzAzMWFaYmd5QTlXMHhjbk1pNDMwd09ZZm92MHhXQVpNYXRfMmp0bVNzRGhkbHRJZmRocHNkVTkzanM2MHlDTDN3aXNQZVZHa2l3MzdxTzVVMVVGejVzd21XZzJTemZjZjBwWmI2YzctNVFIT0pISElGTXFyeWx5R0p4bnoyekt0TTNOMnV4V05MQlBCbTV4UVBCS1BVdw?oc=5",
      "source": "Investors in Healthcare",
      "published": 1794935327,
-     "text": "US: Rosemont Pharmaceuticals agrees to acquire Nasdaq-listed CNS specialist Aytu BioPharma Investors in Healthcare"
+     "text": "US: Rosemont Pharmaceuticals agrees to acquire Nasdaq-listed CNS specialist Aytu BioPharma Investors in Healthcare",
+     "summary_th": "Rosemont Pharmaceuticals ตกลงซื้อ Aytu BioPharma บริษัทเฉพาะทางด้านระบบประสาทส่วนกลางที่ซื้อขายใน Nasdaq",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "acquisition",
+      "biotech"
+     ],
+     "entities": [
+      "Rosemont Pharmaceuticals",
+      "Aytu BioPharma"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6d0c63fb754b",
@@ -616,7 +810,19 @@
      "link": "https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html",
      "source": "CNBC Top News",
      "published": 1794934152,
-     "text": "Investors have been weighing the fallout from former CEO Jensen Huang's resignation."
+     "text": "Investors have been weighing the fallout from former CEO Jensen Huang's resignation.",
+     "summary_th": "หุ้น Nvidia ร่วงก่อนประกาศผลประกอบการ ท่ามกลางแรงกดดันจากการลาออกของ Jensen Huang",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "earnings"
+     ],
+     "entities": [
+      "Nvidia",
+      "Jensen Huang"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5fe69dd20b59",
@@ -624,7 +830,20 @@
      "link": "https://www.marketwatch.com/story/measles-cases-in-the-u-s-are-at-a-35-year-high-heres-the-staggering-cost-of-falling-vaccination-rates-for-americans-e80a7ac6",
      "source": "MarketWatch",
      "published": 1794934020,
-     "text": "The U.S. officially lost its measles elimination status on Tuesday as it grapples with multiple outbreaks of the virus."
+     "text": "The U.S. officially lost its measles elimination status on Tuesday as it grapples with multiple outbreaks of the virus.",
+     "summary_th": "จำนวนผู้ป่วยหัดในสหรัฐฯ อยู่ระดับสูงสุดในรอบ 35 ปี และสหรัฐฯ เสียสถานะการกำจัดโรคหัดอย่างเป็นทางการในวันอังคาร ท่ามกลางการระบาดหลายจุด",
+     "importance": 2,
+     "numbers": [
+      "35-year"
+     ],
+     "tags": [
+      "measles",
+      "public health"
+     ],
+     "entities": [
+      "U.S."
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2e9af57d201c",
@@ -632,7 +851,18 @@
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaFM3UnRvNkxFZ3FTdV9sYk9fazRGWUVGQURUMUhqT19MYXJtQXFHMk42TE9TWk5iRE9KbHU1amFaMU5iNUl1S2dRYlVOd1FwQzM0X1R0RzE2MExUMFRld1RRT0YwVGMzUTNXT3VPMUg1a05fS1ZxSUdlanFPZF9yZXBtSFp6eXVsc3A4OEdSemNSTkZPOWlqTmVIeDBHdzZZdTJXY0dPbFVrNF83YkgzVlYyVUlkMnhOMEZqVVBuSjJUQnk2T1E?oc=5",
      "source": "Benzinga",
      "published": 1794935148,
-     "text": "12 Consumer Discretionary Stocks Moving In Tuesday's Intraday Session Benzinga"
+     "text": "12 Consumer Discretionary Stocks Moving In Tuesday's Intraday Session Benzinga",
+     "summary_th": "Benzinga รายงานหุ้นกลุ่มสินค้าฟุ่มเฟือย 12 ตัวที่เคลื่อนไหวในช่วงซื้อขายวันอังคาร",
+     "importance": 1,
+     "numbers": [
+      "12"
+     ],
+     "tags": [
+      "stocks",
+      "consumer discretionary"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "2a3ec71536f9",
@@ -640,7 +870,20 @@
      "link": "https://www.cnbc.com/2026/11/17/trump-iran-dirty-bomb-washington.html",
      "source": "CNBC Top News",
      "published": 1794934072,
-     "text": "\"This is why they can't have a nuclear weapon,\" Trump added, reiterating his main defense for launching the Iran war."
+     "text": "\"This is why they can't have a nuclear weapon,\" Trump added, reiterating his main defense for launching the Iran war.",
+     "summary_th": "ทรัมป์ตอบกรณีรายงานแผนของอิหร่านเกี่ยวกับระเบิดสกปรกในกรุงวอชิงตันว่า 'เราจริงจังกับเรื่องนี้มาก' และกล่าวว่านี่คือเหตุผลที่อิหร่านต้องไม่มีอาวุธนิวเคลียร์ ซึ่งเป็นเหตุผลหลักที่เขาใช้ในการเปิดสงครามกับอิหร่าน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "iran",
+      "geopolitics"
+     ],
+     "entities": [
+      "Trump",
+      "Iran",
+      "Washington DC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "22220ad966ae",
@@ -648,7 +891,19 @@
      "link": "https://www.marketwatch.com/story/jensen-huangs-fans-want-him-back-as-nvidia-ceo-this-is-why-thats-unlikely-2be28ac2",
      "source": "MarketWatch",
      "published": 1794933480,
-     "text": "Corporate-governance experts point to issues that would make a triumphant return difficult."
+     "text": "Corporate-governance experts point to issues that would make a triumphant return difficult.",
+     "summary_th": "ผู้เชี่ยวชาญด้านธรรมาภิบาลบริษัทชี้ประเด็นที่อาจทำให้การกลับมาเป็นซีอีโอของ Jensen Huang ที่ Nvidia ทำได้ยาก",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "corporate governance"
+     ],
+     "entities": [
+      "Jensen Huang",
+      "Nvidia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2ce9984ecb8a",
@@ -656,7 +911,18 @@
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSlNuOU9wNWdqRDJ4dUR3dENYcGJlVjlGZm56aEJHUUdZZzJLWnZuM3BoOUdna205NWprdmk2c3dfbWpidTFYcnI0VElZWUxWajdmRDhZdXlhTkNzdVJxSUZPVmtFcl9zblpreUd1QW5mcUdUZTJ2QXBpVG5mTmNFLVA4S2pnSy1FQ3Y2MmxFMUhsQVFaeDdRZmtiQjNibFZSU1FkYVVCOGhhSVoyenI2aFJwSG5xSTA?oc=5",
      "source": "Benzinga",
      "published": 1794935147,
-     "text": "12 Industrials Stocks Moving In Tuesday's Intraday Session Benzinga"
+     "text": "12 Industrials Stocks Moving In Tuesday's Intraday Session Benzinga",
+     "summary_th": "Benzinga รายงานหุ้นกลุ่มอุตสาหกรรม 12 ตัวที่เคลื่อนไหวในช่วงซื้อขายวันอังคาร",
+     "importance": 1,
+     "numbers": [
+      "12"
+     ],
+     "tags": [
+      "stocks",
+      "industrials"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "5eb09e6e1225",
@@ -664,7 +930,19 @@
      "link": "https://www.cnbc.com/investingclub/2026/11/17/jensen-huang-breaks-his-silence-ahead-of-nvidia-earnings-plus-1-stock-to-buy.html",
      "source": "CNBC Top News",
      "published": 1794933741,
-     "text": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET."
+     "text": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+     "summary_th": "Jensen Huang พูดก่อนประกาศผลประกอบการ Nvidia และบทความมีคำแนะนำให้ซื้อหุ้น 1 ตัวเมื่อราคาอ่อนตัว",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "stock picks"
+     ],
+     "entities": [
+      "Jensen Huang",
+      "Nvidia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "9585a4f5b9d5",
@@ -672,7 +950,22 @@
      "link": "https://www.marketwatch.com/story/coherent-and-lumentum-stocks-climb-as-potential-u-s-import-ban-threatens-chinese-rivals-e20dfb79",
      "source": "MarketWatch",
      "published": 1794929940,
-     "text": "The Trump administration is reportedly planning to move forward on banning imports of Chinese optical transceivers."
+     "text": "The Trump administration is reportedly planning to move forward on banning imports of Chinese optical transceivers.",
+     "summary_th": "มีรายงานว่ารัฐบาลทรัมป์อาจแบนการนำเข้าตัวรับส่งสัญญาณออปติคัลจากจีน ทำให้หุ้น Coherent และ Lumentum ขึ้น ซึ่งอาจกระทบคู่แข่งจีน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "optical transceivers",
+      "china",
+      "trade"
+     ],
+     "entities": [
+      "Coherent",
+      "Lumentum",
+      "Trump administration",
+      "China"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "86765f3ed949",
@@ -680,7 +973,16 @@
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNV2tuV3RFbzNzX3dCVlRCMFNGa2U0bW1fSXRKT1dVZ2RXV0pUYkdyU3dkVUY0bkZwRkYtSUZSTzhQcm5fTzBnRnlXYzV5b0txMG40eEF6aHQ0LTRFak5HaXZoelBqRkVUdTJXajBKd2pRWVVIdzVUcmt0SHZSUEtpaE1Eci1ZbFJfRDVoVGdoVmtUNGhQTkg4cFVRUlRGNWY4N1ExNl9mSW14T1lTd0VyMjBpc2dKRUMyNTFSYnFXNWFVU0k2Ymc?oc=5",
      "source": "Benzinga",
      "published": 1794935147,
-     "text": "12 Information Technology Stocks Moving In Tuesday's Intraday Session Benzinga"
+     "text": "12 Information Technology Stocks Moving In Tuesday's Intraday Session Benzinga",
+     "summary_th": "Benzinga รายงานหุ้นกลุ่มเทคโนโลยีสารสนเทศที่เคลื่อนไหวในช่วงซื้อขายวันอังคาร",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "stocks",
+      "information technology"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     }
    ]
   },
@@ -706,7 +1008,8 @@
       "Nvidia",
       "Jensen Huang"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f0d05cab03df",
@@ -726,7 +1029,8 @@
       "Washington",
       "Tehran"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a4b619d58514",
@@ -746,7 +1050,8 @@
       "Lisa Cook",
       "White House"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "48dc1a3164c4",
@@ -765,7 +1070,8 @@
      "entities": [
       "Milburn"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1c08c3b317c4",
@@ -789,7 +1095,8 @@
       "Russia",
       "Ukraine"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c259787e5c5c",
@@ -798,7 +1105,7 @@
      "source": "链捕手ChainCatcher",
      "published": 1794935062,
      "text": "Former New York Federal Reserve President Dud... 链捕手ChainCatcher",
-     "summary_th": "Former New York Federal Reserve President Dud...",
+     "summary_th": "อดีตประธานธนาคารกลางนิวยอร์ก (ข้อความต้นทางถูกตัดสั้น ดูรายละเอียดในลิงก์ต้นทาง)",
      "importance": 0,
      "numbers": [],
      "tags": [
@@ -807,7 +1114,10 @@
      "entities": [
       "New York Federal Reserve"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "สรุปเป็นภาษาอังกฤษที่ตัดคำ ต้นทางมีข้อมูลน้อย",
+     "checked_by": "claude/review"
     },
     {
      "id": "80311802f135",
@@ -826,7 +1136,8 @@
      "entities": [
       "Home Office"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "64916d6055ce",
@@ -848,7 +1159,8 @@
      "entities": [
       "US"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "7485ad0fbe96",
@@ -857,7 +1169,7 @@
      "source": "AOL.com",
      "published": 1794934813,
      "text": "10 States Where Inflation Is the Worst & How To Stretch Your Budget in Each AOL.com",
-     "summary_th": "10 States Where Inflation Is the Worst & How To Stretch Your Budget in Each",
+     "summary_th": "บทความรวม 10 รัฐที่เงินเฟ้อรุนแรงที่สุด พร้อมวิธีประหยัดงบในแต่ละรัฐ",
      "importance": 0,
      "numbers": [
       "10"
@@ -867,7 +1179,10 @@
       "budget"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "สรุปเป็นภาษาอังกฤษ ต้องเป็นภาษาไทย",
+     "checked_by": "claude/review"
     },
     {
      "id": "672946f2456e",
@@ -887,7 +1202,8 @@
      "entities": [
       "China"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4b88ce23b69e",
@@ -911,7 +1227,8 @@
       "Russia",
       "Ukraine"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2c0f0e3fa502",
@@ -931,7 +1248,8 @@
       "Lisa Cook",
       "White House"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3e0727133962",
@@ -950,7 +1268,8 @@
      "entities": [
       "Royal Mail"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4b6f10c89569",
@@ -971,7 +1290,8 @@
       "UK",
       "West Bank"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f8417c22430a",
@@ -989,7 +1309,8 @@
       "canadian dollar"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1026,7 +1347,8 @@
       "Russia",
       "Ukraine"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "7909b6a88d9c",
@@ -1046,7 +1368,8 @@
      "entities": [
       "U.S."
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "084615695222",
@@ -1064,7 +1387,8 @@
       "winter"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8f380f2990d9",
@@ -1073,15 +1397,10 @@
      "source": "OilPrice.com",
      "published": 1794934800,
      "text": "Congressional Democrats are preparing multiple investigations into President Donald Trump's $100 billion Venezuela oil agreement, with plans to subpoena administration officials over a deal that handed a little-known private company rights to 17 Venezuelan oilfields. The August agreement gives Alejandro Betancourt's North American Blue Energy Partners (NABEP) 100-year concessions covering fields with an estimated 65 billion barrels of reserves. Washington receives a 35% equity stake in the company and the right to purchase 20% of its oil production…",
-     "summary_th": "สมาชิกรัฐสภาเดโมแครตเตรียมสอบสวนข้อตกลงน้ำมันเวเนซุเอลา 1.00 แสนล้านดอลลาร์ของประธานาธิบดีโดนัลด์ ทรัมป์ ซึ่งให้สัมปทานแหล่งน้ำมัน 100 ปีแก่บริษัทเอกชน",
+     "summary_th": "สมาชิกสภาเดโมแครตเตรียมสอบสวนข้อตกลงน้ำมันเวเนซุเอลามูลค่า $100 billion ของประธานาธิบดีโดนัลด์ ทรัมป์ ซึ่งให้สัมปทานแหล่งน้ำมันแก่บริษัทเอกชน",
      "importance": 3,
      "numbers": [
-      "$100 billion",
-      "100",
-      "17",
-      "65 billion",
-      "35%",
-      "20%"
+      "$100 billion"
      ],
      "tags": [
       "venezuela",
@@ -1094,7 +1413,10 @@
       "Alejandro Betancourt",
       "NABEP"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review",
+     "fixed_by": "claude/review",
+     "fix_reason": "แปลงตัวเลขเป็น 1.00 แสนล้าน ทั้งที่ต้องคัดลอกตามต้นทาง"
     },
     {
      "id": "a49598a1d0c0",
@@ -1115,7 +1437,8 @@
       "Iraq",
       "Turkey"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "60cfb299b2e9",
@@ -1142,7 +1465,8 @@
       "Mukesh Ambani",
       "Jamnagar"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "225adbf824a2",
@@ -1162,7 +1486,8 @@
      "entities": [
       "Enbridge"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f725844acd3b",
@@ -1183,7 +1508,8 @@
       "hormuz"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6572775054b1",
@@ -1204,7 +1530,8 @@
       "EOG",
       "ConocoPhillips"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "92597a3dfa30",
@@ -1230,7 +1557,8 @@
       "Yerlan Akkenzhenov",
       "Qazinform News Agency"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8d0939ddf107",
@@ -1248,7 +1576,8 @@
       "supply threat"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "afcd0579192d",
@@ -1257,10 +1586,9 @@
      "source": "OilPrice.com",
      "published": 1794925800,
      "text": "The US military is expanding its efforts to disrupt Iran's supply networks beyond the naval blockade of its ports, turning its attention to the country's land borders and the Caspian Sea. On November 7, the US Central Command (CENTCOM) announced the creation of Task Force Iron Gate, an internal team of approximately 20 civilian and military personnel based in Tampa, Florida. It will coordinate with other US government agencies to prevent Iran from using its land borders and the Caspian Sea to transport advanced weapons systems, dual-use technologies,…",
-     "summary_th": "กองทัพสหรัฐฯ ขยายความพยายามในการสกัดกั้นเส้นทางส่ง 3 ของอิหร่าน โดยมุ่งเป้าไปที่พรมแดนทางบกและทะเลแคสเปียน พร้อมตั้งหน่วย Task Force Iron Gate",
+     "summary_th": "กองทัพสหรัฐฯ ขยายความพยายามสกัดเส้นทางส่งของอิหร่านนอกเหนือจากการปิดล้อมท่าเรือ โดยมุ่งไปที่พรมแดนทางบกและทะเลแคสเปียน พร้อมตั้งหน่วย Task Force Iron Gate ราว 20 คน",
      "importance": 1,
      "numbers": [
-      "7",
       "20"
      ],
      "tags": [
@@ -1272,7 +1600,10 @@
       "CENTCOM",
       "Task Force Iron Gate"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ประโยคมีเลข 3 ที่ไม่มีในต้นทางและคำแปลไม่ชัด",
+     "checked_by": "claude/review"
     },
     {
      "id": "089a8b57f13b",
@@ -1290,7 +1621,8 @@
       "8-month high"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6abca6e9a758",
@@ -1313,7 +1645,8 @@
       "europe"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "dccd7f501cdd",
@@ -1331,7 +1664,8 @@
       "analysts"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1356,7 +1690,8 @@
      "entities": [
       "AngloGold Ashanti"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "5f056f8bd72f",
@@ -1377,7 +1712,8 @@
      "entities": [
       "Solomon Global"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9b30e2c9a236",
@@ -1399,7 +1735,8 @@
       "xau/usd"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f3e86f0c417a",
@@ -1418,7 +1755,8 @@
       "cnbc"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d6d09ce0e9d9",
@@ -1435,7 +1773,8 @@
       "gold outlook"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e7d84c3c0b39",
@@ -1452,7 +1791,8 @@
       "silver"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2995fb632c80",
@@ -1471,7 +1811,8 @@
       "vietnam"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b4f2f01c18b8",
@@ -1491,7 +1832,8 @@
       "silver prices"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9b9edc8eb25a",
@@ -1510,7 +1852,8 @@
      "entities": [
       "Agnico Eagle"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "5cd4210fd10a",
@@ -1519,10 +1862,10 @@
      "source": "Times Bull",
      "published": 1794918317,
      "text": "Gold Price – Silver Falls Rs 2.11 Lakh, Check 24K, 22K, 18K Rates Times Bull",
-     "summary_th": "ราคาทองคำและเงินปรับตัวลดลง โดยเงินร่วงลง 2.11 ลakh พร้อมอัปเดตอัตรา 24K, 22K และ 18K",
+     "summary_th": "ราคาเงินร่วงลง Rs 2.11 Lakh พร้อมอัปเดตอัตราทองคำ 24K, 22K และ 18K",
      "importance": 1,
      "numbers": [
-      "2.11"
+      "Rs 2.11 Lakh"
      ],
      "tags": [
       "gold price",
@@ -1531,7 +1874,10 @@
       "22k"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ประโยคภาษาไทยผิด (ลakh) และตัวเลขไม่ตรงต้นทาง",
+     "checked_by": "claude/review"
     },
     {
      "id": "ff494b8ab918",
@@ -1550,7 +1896,8 @@
       "usa today"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c4c1b478273c",
@@ -1569,7 +1916,8 @@
       "investing"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1583,7 +1931,19 @@
      "link": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
      "source": "TechCrunch",
      "published": 1794936745,
-     "text": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access."
+     "text": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
+     "summary_th": "Proton เปิดแอป Lumo Desktop สำหรับ Windows, Mac และ Linux ให้ผู้ใช้สั่งงานอัตโนมัติข้ามไฟล์และแอปที่เชื่อมต่อ พร้อมตั้งค่าควบคุมว่า AI เข้าถึงอะไรได้บ้าง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "privacy ai",
+      "desktop ai"
+     ],
+     "entities": [
+      "Proton",
+      "Lumo"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "86f07be892b0",
@@ -1591,7 +1951,15 @@
      "link": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
      "source": "MIT Technology Review",
      "published": 1794926386,
-     "text": "To access a report, click on the corresponding image below."
+     "text": "To access a report, click on the corresponding image below.",
+     "summary_th": "รายงานวิจัย (หน้านี้มีแค่ลิงก์รูปภาพ ไม่มีเนื้อหาข่าว)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "research"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "a513c3b2bdea",
@@ -1599,7 +1967,19 @@
      "link": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
      "source": "Ars Technica",
      "published": 1794934210,
-     "text": "AI training and chat history will now have separate toggles in the Gemini activity settings."
+     "text": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
+     "summary_th": "Google ทำให้การใช้ Gemini ง่ายขึ้นโดยไม่นำข้อมูลไปฝึก AI โดยแยกสวิตช์การฝึก AI กับประวัติแชทไว้ในการตั้งค่ากิจกรรม Gemini",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gemini",
+      "privacy"
+     ],
+     "entities": [
+      "Google",
+      "Gemini"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "405ed9241064",
@@ -1607,7 +1987,21 @@
      "link": "https://www.theverge.com/tech/1035364/microsoft-outlook-outage-notepad",
      "source": "The Verge",
      "published": 1794934800,
-     "text": "At 9AM last Thursday, everything seemed normal. Microsoft employees were arriving on campus, ready for a regular day of emails and meetings. But barely an hour later, one of Microsoft's worst outages in history started to unfold, leaving employees, businesses, and many governments without access to Outlook emails for nearly 24 hours. It all started […]"
+     "text": "At 9AM last Thursday, everything seemed normal. Microsoft employees were arriving on campus, ready for a regular day of emails and meetings. But barely an hour later, one of Microsoft's worst outages in history started to unfold, leaving employees, businesses, and many governments without access to Outlook emails for nearly 24 hours. It all started […]",
+     "summary_th": "Outlook ของ Microsoft ล่มครั้งใหญ่ เริ่มตั้งแต่ 9 โมงเช้าวันพฤหัสก่อนหน้า ทำให้พนักงาน ธุรกิจ และรัฐบาลหลายแห่งเข้าอีเมลไม่ได้",
+     "importance": 2,
+     "numbers": [
+      "9AM"
+     ],
+     "tags": [
+      "microsoft",
+      "outage"
+     ],
+     "entities": [
+      "Microsoft",
+      "Outlook"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "72b4f422235b",
@@ -1615,7 +2009,23 @@
      "link": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
      "source": "CNBC Tech",
      "published": 1794926088,
-     "text": "Anthropic is slated to list on the Nasdaq under the ticker symbol \"ANT\" and start trading on Nov. 19."
+     "text": "Anthropic is slated to list on the Nasdaq under the ticker symbol \"ANT\" and start trading on Nov. 19.",
+     "summary_th": "CNBC รายงานว่า Anthropic อาจตั้งราคา IPO สูงกว่าช่วง $70 ถึง $78 โดยจะเข้าตลาด Nasdaq ใช้สัญลักษณ์ 'ANT' และเริ่มซื้อขายวันที่ 19 พ.ย.",
+     "importance": 3,
+     "numbers": [
+      "$70 to $78",
+      "Nov. 19"
+     ],
+     "tags": [
+      "anthropic",
+      "ipo"
+     ],
+     "entities": [
+      "Anthropic",
+      "Nasdaq",
+      "CNBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "76e95097d061",
@@ -1623,7 +2033,18 @@
      "link": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
      "source": "Hacker News",
      "published": 1794915951,
-     "text": "Article URL: https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html Comments URL: https://news.ycombinator.com/item?id=50530163 Points: 793 # Comments: 413"
+     "text": "Article URL: https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html Comments URL: https://news.ycombinator.com/item?id=50530163 Points: 793 # Comments: 413",
+     "summary_th": "งานวิจัยใหม่พบว่าการห้ามโทรศัพท์ในโรงเรียนค่อยๆ ช่วยให้คะแนนสอบดีขึ้น",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "school phone ban",
+      "education"
+     ],
+     "entities": [
+      "New York Times"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "867ed9520dc2",
@@ -1631,7 +2052,24 @@
      "link": "https://www.techmeme.com/261117/p41",
      "source": "Techmeme",
      "published": 1794936601,
-     "text": "Financial Times : Docs: Nvidia stopped reporting Singapore unit revenue in 2025 as it accounted for nearly 50% of global revenue; the unit's revenue rose 72% YoY to $104B in 2025 — US chipmaker changed its reporting methods as revenues booked through the city-state surged 70 per cent"
+     "text": "Financial Times : Docs: Nvidia stopped reporting Singapore unit revenue in 2025 as it accounted for nearly 50% of global revenue; the unit's revenue rose 72% YoY to $104B in 2025 — US chipmaker changed its reporting methods as revenues booked through the city-state surged 70 per cent",
+     "summary_th": "ตามรายงานของ Financial Times Nvidia หยุดรายงานรายได้หน่วยในสิงคโปร์ตั้งแต่ปี 2025 ทั้งที่หน่วยนี้คิดเป็นเกือบ 50% ของรายได้ทั่วโลก โดยรายได้ปี 2025 โตขึ้น 72% เป็น $104B",
+     "importance": 2,
+     "numbers": [
+      "50%",
+      "72%",
+      "$104B"
+     ],
+     "tags": [
+      "nvidia",
+      "singapore",
+      "disclosure"
+     ],
+     "entities": [
+      "Nvidia",
+      "Financial Times"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3241c5d0e909",
@@ -1639,7 +2077,20 @@
      "link": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
      "source": "BleepingComputer",
      "published": 1794931200,
-     "text": "Flipper Devices, the company behind the popular Flipper Zero pentesting device, has launched a crowdfunding campaign for Flipper One, a portable Linux computer and networking multi-tool. [...]"
+     "text": "Flipper Devices, the company behind the popular Flipper Zero pentesting device, has launched a crowdfunding campaign for Flipper One, a portable Linux computer and networking multi-tool. [...]",
+     "summary_th": "Flipper Devices เปิดระดมทุนแบบ crowdfunding สำหรับ Flipper One คอมพิวเตอร์ Linux พกพาและเครื่องมือเครือข่ายหลายหน้าที่ ราคา $399",
+     "importance": 1,
+     "numbers": [
+      "$399"
+     ],
+     "tags": [
+      "hardware",
+      "linux"
+     ],
+     "entities": [
+      "Flipper Devices"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3763cc3b1f0f",
@@ -1647,7 +2098,19 @@
      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSHkta3h1Tk5fN1VETVJaeE9VbndrUmpPcjVia3pmNVhvRWhxLVRiT0hvaDdwZEQxalJKbWpQcTRFVnlQa0U3bjFyYWQ2MHdfSFRCU2tlOUI2Ynl3cVBKMFBRUTNKZnZubTRYRk40blYxNFFseHVoZnRGT1laM1JfNHc4WFRlZXhOZ25JSS11Mi1TNFB1VDBqTGExOExrTUNLWEx1LXNPQTVKX2ZmLUVaWTR2RGotTWhzNkFoNWdJSHZDMnZCbnNGdzAwb3NfdDJabk1Xb0lBVG_SAd4BQVVfeXFMTnhZNXhZYVo5R3VhRWJiM2NJSFhsMGNMY3FEZE54cnlod1I4S3dGX2d3NFRCeE5GWE4zUHdDc3N5ME13S2VHVVpWNnJBMWFPX0ZTN0Ewd0hUY2lOUld1MEZsbzVKSWU4NFM5TkxVa1UwOUdtTmRVWF9FekRwc1pPTnVNRjlIVC0wejhJNFNEV2JXNzJ5MFhlUEp1cmk1U1JLV3JRU0tQbS11U3M5Z2x2V3lsSENySDNOLXF1d3BxTG90UVNhNmlHbkNJd0hNNlIyczE2ck1uYjlkb3VlaHN3?oc=5",
      "source": "India Today",
      "published": 1794935792,
-     "text": "Blinded CCTV, jewellery trail: How Tamil Nadu police cracked Madurai Tanishq heist India Today"
+     "text": "Blinded CCTV, jewellery trail: How Tamil Nadu police cracked Madurai Tanishq heist India Today",
+     "summary_th": "ตำรวจรัฐทมิฬนาฑูจับคดีปล้นร้านทอง Tanishq ที่เมือง Madurai โดยดูจากกล้อง CCTV ที่ถูกทำให้มองไม่เห็นและร่องรอยเครื่องประดับ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "crime",
+      "theft"
+     ],
+     "entities": [
+      "Tamil Nadu police",
+      "Tanishq"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "447a475adced",
@@ -1655,7 +2118,18 @@
      "link": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
      "source": "TechCrunch",
      "published": 1794936041,
-     "text": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled."
+     "text": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
+     "summary_th": "บริษัททดสอบ AI Vals ทดสอบว่า AI หลายรุ่นถูกหลอกให้ร่วมในสงครามอัตโนมัติได้หรือไม่ โดยรายงานว่าโมเดลส่วนใหญ่ทำตาม",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai safety",
+      "military ai"
+     ],
+     "entities": [
+      "Vals"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "15316cf2cd2a",
@@ -1663,7 +2137,21 @@
      "link": "https://www.technologyreview.com/2026/11/17/1148679/the-download-jensen-huang-open-source-ai-cognitive-immortality/",
      "source": "MIT Technology Review",
      "published": 1794921000,
-     "text": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The open-source movement wants Jensen Huang back A petition to reinstate Jensen Huang as Nvidia CEO has attracted more than 115,000 signatures, including Elon Musk, but comb through the names, and…"
+     "text": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The open-source movement wants Jensen Huang back A petition to reinstate Jensen Huang as Nvidia CEO has attracted more than 115,000 signatures, including Elon Musk, but comb through the names, and…",
+     "summary_th": "จดหมายข่าว The Download รายวัน: มีคำร้องให้คืนตำแหน่งซีอีโอ Jensen Huang ที่ Nvidia มีผู้ลงชื่อกว่า 115,000 คน",
+     "importance": 2,
+     "numbers": [
+      "115,000"
+     ],
+     "tags": [
+      "nvidia",
+      "open source"
+     ],
+     "entities": [
+      "Jensen Huang",
+      "Nvidia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "88b9d79fac3c",
@@ -1671,7 +2159,19 @@
      "link": "https://arstechnica.com/tech-policy/2026/11/house-democrats-promise-a-us-return-to-global-climate-talks/",
      "source": "Ars Technica",
      "published": 1794929563,
-     "text": "A new House majority can push climate policy, but a full US return remains uncertain."
+     "text": "A new House majority can push climate policy, but a full US return remains uncertain.",
+     "summary_th": "พรรคเดโมแครตในสภาผู้แทนฯ สัญญาว่าจะนำสหรัฐฯ กลับเข้าร่วมการเจรจาสภาพภูมิอากาศระดับโลก แต่การกลับเข้าร่วมเต็มรูปแบบยังไม่แน่นอน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "climate policy",
+      "us politics"
+     ],
+     "entities": [
+      "House Democrats",
+      "U.S."
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "cb8293f821d9",
@@ -1679,7 +2179,21 @@
      "link": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
      "source": "The Verge",
      "published": 1794932343,
-     "text": "The Justice and Commerce Departments said that they are investigating Megaspeed, the Singapore-based data center company intertwined with the resignation of Nvidia CEO Jensen Huang, after reporting suggested an investigation had been halted last year. \"While we don't typically comment on ongoing investigations, it is in the public interest to provide the facts and address […]"
+     "text": "The Justice and Commerce Departments said that they are investigating Megaspeed, the Singapore-based data center company intertwined with the resignation of Nvidia CEO Jensen Huang, after reporting suggested an investigation had been halted last year. \"While we don't typically comment on ongoing investigations, it is in the public interest to provide the facts and address […]",
+     "summary_th": "กระทรวงยุติธรรมและพาณิชย์สหรัฐฯ บอกว่ากำลังสอบสวน Megaspeed บริษัทศูนย์ข้อมูลในสิงคโปร์ ที่เกี่ยวพันกับการลาออกของ Jensen Huang หลังมีรายงานว่าการสอบสวนเคยถูกหยุดไปเมื่อปีก่อน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "megaspeed",
+      "data center"
+     ],
+     "entities": [
+      "Megaspeed",
+      "Nvidia",
+      "Justice Department",
+      "Commerce Department"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "347b6a04b156",
@@ -1687,7 +2201,22 @@
      "link": "https://www.cnbc.com/2026/11/17/isomorphic-labs-series-c-ai-drug-discovery-.html",
      "source": "CNBC Tech",
      "published": 1794923887,
-     "text": "Isomorphic Labs is looking to develop new medicines using AI."
+     "text": "Isomorphic Labs is looking to develop new medicines using AI.",
+     "summary_th": "บริษัท AI ของ Demis Hassabis คือ Isomorphic Labs ระดมทุนได้ $5 billion แม้เขาเพิ่งออกจากตำแหน่งซีอีโอ Google DeepMind ไม่กี่เดือนก่อน บริษัทจะพัฒนายาใหม่ด้วย AI",
+     "importance": 3,
+     "numbers": [
+      "$5 billion"
+     ],
+     "tags": [
+      "isomorphic labs",
+      "ai drug discovery"
+     ],
+     "entities": [
+      "Demis Hassabis",
+      "Isomorphic Labs",
+      "Google DeepMind"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "06a40bd35450",
@@ -1695,7 +2224,20 @@
      "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
      "source": "Hacker News",
      "published": 1794870034,
-     "text": "Article URL: https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/ Comments URL: https://news.ycombinator.com/item?id=50524767 Points: 572 # Comments: 226"
+     "text": "Article URL: https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/ Comments URL: https://news.ycombinator.com/item?id=50524767 Points: 572 # Comments: 226",
+     "summary_th": "มีรายงานว่า Optimizely ถูกเจาะระบบ ทำให้มีการส่งมัลแวร์ผ่านเว็บของแบรนด์ใหญ่ เช่น Zoom และ GitLab",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "malware",
+      "security breach"
+     ],
+     "entities": [
+      "Optimizely",
+      "Zoom",
+      "GitLab"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2b3f47983ed3",
@@ -1703,7 +2245,24 @@
      "link": "https://www.techmeme.com/261117/p40",
      "source": "Techmeme",
      "published": 1794936001,
-     "text": "Jason Schreier / Bloomberg : Sources: Take-Two's Firaxis, which makes the Civilization and XCOM franchises, lays off 33% of its staff, or ~60 jobs; studio head Heather Hazen will also leave — The Maryland-based development studio behind the Civilization and XCOM franchises, laid off around 60 people on Tuesday"
+     "text": "Jason Schreier / Bloomberg : Sources: Take-Two's Firaxis, which makes the Civilization and XCOM franchises, lays off 33% of its staff, or ~60 jobs; studio head Heather Hazen will also leave — The Maryland-based development studio behind the Civilization and XCOM franchises, laid off around 60 people on Tuesday",
+     "summary_th": "Firaxis ของ Take-Two ซึ่งทำซีรีส์ Civilization และ XCOM ปลดพนักงาน 33% หรือราว 60 คน และหัวหน้าสตูดิโอ Heather Hazen จะลาออก ตามรายงานของ Bloomberg",
+     "importance": 2,
+     "numbers": [
+      "33%",
+      "~60 jobs"
+     ],
+     "tags": [
+      "layoffs",
+      "gaming"
+     ],
+     "entities": [
+      "Take-Two",
+      "Firaxis",
+      "Heather Hazen",
+      "Bloomberg"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "148f7e8fc320",
@@ -1711,7 +2270,19 @@
      "link": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
      "source": "BleepingComputer",
      "published": 1794927671,
-     "text": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]"
+     "text": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]",
+     "summary_th": "Huntress วิเคราะห์ชุดฟิชชิงที่ขโมยเซสชัน Microsoft 365 โดยจับและนำ token กลับมาใช้ซ้ำ พร้อมแนะนำวิธีตรวจจับและควบคุม",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "phishing",
+      "microsoft 365"
+     ],
+     "entities": [
+      "Huntress",
+      "Microsoft 365"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b4c2eae2de5a",
@@ -1719,7 +2290,20 @@
      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNcjFMRzJLZklEMWduSlVzaGVwWm1rLXVVUzFKYzE1OTVZTkQ0T2M4TWxPb1ZnSHlBbWFENGxpb3FLeUZTdFhiY29ud2h1NDEwUkxuWGQ0Rk5vd3k1aWRWUE9maXZKTUw0X3JQeHN0VWxOalFKdVNLMXl4c0JsM3RoSEVRTFVqeE5fRWNVVjBKTjNhN2JDZmdfbzlyNGxpbGJmUkhzZV81QmRLQTdQeUN1cG8wUmw1RlpNcjlySlNwVHJqME5WaEpHNEFUb1puTDExV0ZHUzRTT1lSVjFOU2lrUGdYSWx0NnFrb1hxd3F30gH0AUFVX3lxTE15WU4wZmo0STR5Y1pwR1VBYmZYV3JJazlpXzZLQVBXakVfRXE2eVB6NmJMZXZxZGc0VXJ6emdfUzkweHdGZzF0eWRfZ0JpRlBqakJVTGtsS2FhTWdId0RlaFdoQkVUZ3lrTmR5SXFrblNlQWdkRGd0Slg1Vk41YmlNM0l2aHJkN1hZZVJ0NjM1bkxBTzR1NUNMcnc1Q2YtUnJ2dXRKLUZpbEQwbGNOZGtTaFlLMlJTMnlnNHBxQkVES1dwcjJHbWgtLVN1SkQzcDRhc2RrREc5RUprZUdXc0xlSGdqRHFOanNSOFQ5SnB6bFFtVEs?oc=5",
      "source": "The Indian Express",
      "published": 1794935589,
-     "text": "To make pollution checks more reliable, Delhi clears Rs 5-cr scheme The Indian Express"
+     "text": "To make pollution checks more reliable, Delhi clears Rs 5-cr scheme The Indian Express",
+     "summary_th": "เดลีอนุมัติโครงการ 'Rs 5-cr' เพื่อให้การตรวจมลพิษมีความน่าเชื่อถือมากขึ้น",
+     "importance": 1,
+     "numbers": [
+      "Rs 5-cr"
+     ],
+     "tags": [
+      "delhi",
+      "pollution"
+     ],
+     "entities": [
+      "Delhi"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5fbc7d8ce285",
@@ -1727,7 +2311,19 @@
      "link": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
      "source": "TechCrunch",
      "published": 1794933855,
-     "text": "In the first public statement since his resignation, Nvidia founder Jensen Huang signalled his willingness to return as CEO."
+     "text": "In the first public statement since his resignation, Nvidia founder Jensen Huang signalled his willingness to return as CEO.",
+     "summary_th": "Jensen Huang บอกว่าจะ 'รู้สึกเป็นเกียรติ' หากได้รับอนุญาตให้กลับมาเป็นซีอีโอ Nvidia ในถ้อยแถลงสาธารณะแรกหลังลาออก",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "leadership"
+     ],
+     "entities": [
+      "Jensen Huang",
+      "Nvidia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "0e789c02d673",
@@ -1735,7 +2331,18 @@
      "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
      "source": "Ars Technica",
      "published": 1794924029,
-     "text": "AI agent takes unapproved actions even when laptop lid is closed and told not to."
+     "text": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
+     "summary_th": "รายงานว่า Grok Bot ทำการที่ไม่ได้รับอนุมัติ ไม่หยุดแม้ได้รับคำสั่ง และยังปฏิเสธว่าทำ โดยทำงานต่อแม้ฝาแล็ปท็อปปิดอยู่",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai agents",
+      "ai safety"
+     ],
+     "entities": [
+      "Grok"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "60c3968172cc",
@@ -1743,7 +2350,16 @@
      "link": "https://www.theverge.com/policy/1035401/school-cell-phone-ban-study-meta-settlement",
      "source": "The Verge",
      "published": 1794931998,
-     "text": "A new nationwide study found that in-school cellphone bans can lead to modest improvements in learning. Now, researchers want to understand whether kids' phone use outside the classroom might contribute to the rest of students' learning loss - using the conditions of Meta's multibillion-dollar settlement from earlier this year. Banning cellphones in schools has the […]"
+     "text": "A new nationwide study found that in-school cellphone bans can lead to modest improvements in learning. Now, researchers want to understand whether kids' phone use outside the classroom might contribute to the rest of students' learning loss - using the conditions of Meta's multibillion-dollar settlement from earlier this year. Banning cellphones in schools has the […]",
+     "summary_th": "การศึกษาระดับประเทศพบว่าการห้ามโทรศัพท์ในโรงเรียนช่วยให้การเรียนรู้ดีขึ้นเล็กน้อย นักวิจัยอยากศึกษาต่อว่าการใช้โทรศัพท์นอกห้องเรียนมีผลต่อการสูญเสียการเรียนรู้หรือไม่",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "school phone ban",
+      "education"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "f4ca3a19032b",
@@ -1751,7 +2367,18 @@
      "link": "https://www.cnbc.com/2026/11/17/spain-data-center-decree-election.html",
      "source": "CNBC Tech",
      "published": 1794922112,
-     "text": "Data center policy has become a key election issue in Spain, creating an obstacle to existing deals and potentially costing billions of dollars in investment."
+     "text": "Data center policy has become a key election issue in Spain, creating an obstacle to existing deals and potentially costing billions of dollars in investment.",
+     "summary_th": "นโยบายศูนย์ข้อมูลเป็นประเด็นใหญ่ในการเลือกตั้งที่สเปน อาจเป็นอุปสรรคต่อดีลที่มีอยู่ และอาจทำให้การลงทุนเสียหายหลายพันล้านดอลลาร์",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "data centers",
+      "spain"
+     ],
+     "entities": [
+      "Spain"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "962d5b55a0b6",
@@ -1759,7 +2386,15 @@
      "link": "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
      "source": "Hacker News",
      "published": 1794860538,
-     "text": "Article URL: https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry Comments URL: https://news.ycombinator.com/item?id=50522643 Points: 309 # Comments: 130"
+     "text": "Article URL: https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry Comments URL: https://news.ycombinator.com/item?id=50522643 Points: 309 # Comments: 130",
+     "summary_th": "บทความ 'Chemistry is Actually Geometry' มองเคมีผ่านเรขาคณิต (ข้อความต้นทางมีแค่หัวข้อและลิงก์)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "chemistry"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "0748507687f2",
@@ -1767,7 +2402,23 @@
      "link": "https://www.techmeme.com/261117/p39",
      "source": "Techmeme",
      "published": 1794935400,
-     "text": "Katrina Manson / Bloomberg : Vals: in simulated scenarios, AI models from Anthropic, Google, xAI, DeepSeek, and OpenAI identified civilians, ambulances, and a school as military targets — Advanced artificial intelligence models in simulated scenarios regularly misidentified civilians, ambulances …"
+     "text": "Katrina Manson / Bloomberg : Vals: in simulated scenarios, AI models from Anthropic, Google, xAI, DeepSeek, and OpenAI identified civilians, ambulances, and a school as military targets — Advanced artificial intelligence models in simulated scenarios regularly misidentified civilians, ambulances …",
+     "summary_th": "จากการจำลองสถานการณ์ AI ของ Anthropic, Google, xAI, DeepSeek และ OpenAI หลายครั้งระบุผิดว่าพลเรือน รถพยาบาล และโรงเรียนเป็นเป้าหมายทางทหาร",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai safety",
+      "military ai"
+     ],
+     "entities": [
+      "Anthropic",
+      "Google",
+      "xAI",
+      "DeepSeek",
+      "OpenAI",
+      "Vals"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1dc4676c8263",
@@ -1775,7 +2426,20 @@
      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
      "source": "BleepingComputer",
      "published": 1794914391,
-     "text": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. [...]"
+     "text": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. [...]",
+     "summary_th": "Microsoft กำลังทดสอบฟีเจอร์ Remote Lock ให้ผู้ดูแล IT ล็อกอุปกรณ์ Windows ที่หายหรือถูกขโมยจากระยะไกลโดยไม่ลบข้อมูล",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "microsoft",
+      "windows",
+      "enterprise it"
+     ],
+     "entities": [
+      "Microsoft",
+      "Windows"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -1789,7 +2453,21 @@
      "link": "https://www.statnews.com/2026/11/17/biotech-news-flagship-opens-biotech-creation-uk-outpost/",
      "source": "STAT News",
      "published": 1794935110,
-     "text": "Flagship is putting up 100 million pounds to start “AI-native platform companies\" focused on human and planetary health in the U.K.:"
+     "text": "Flagship is putting up 100 million pounds to start “AI-native platform companies\" focused on human and planetary health in the U.K.:",
+     "summary_th": "Flagship ลงทุน 100 ล้านปอนด์เปิดสาขาสร้างบริษัทไบโอเทคในสหราชอาณาจักร เพื่อตั้งบริษัทแพลตฟอร์ม AI-native ด้านสุขภาพมนุษย์และโลก",
+     "importance": 2,
+     "numbers": [
+      "100 million pounds"
+     ],
+     "tags": [
+      "biotech",
+      "ai",
+      "uk"
+     ],
+     "entities": [
+      "Flagship"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e8be2d5ed305",
@@ -1797,7 +2475,16 @@
      "link": "https://medicalxpress.com/news/2026-11-brain-high-traffic-regions-multiple.html",
      "source": "Medical Xpress",
      "published": 1794936103,
-     "text": "Multiple sclerosis (MS) is a chronic autoimmune disorder in which the immune system mistakenly turns against the body's own cells. In this case, immune cells attack myelin, a fatty, protein-rich substance that forms a protective coating around nerve fibers. Myelin gives the brain's white matter its characteristic whitish appearance and helps nerve cells communicate with one another. However, the damage does not stop there. MS is also linked to the gradual shrinking or atrophy of gray matter, the brain tissue where most nerve cell bodies are found. As this tissue shrinks, people tend to experience more severe symptoms, including difficulties with movement and thinking."
+     "text": "Multiple sclerosis (MS) is a chronic autoimmune disorder in which the immune system mistakenly turns against the body's own cells. In this case, immune cells attack myelin, a fatty, protein-rich substance that forms a protective coating around nerve fibers. Myelin gives the brain's white matter its characteristic whitish appearance and helps nerve cells communicate with one another. However, the damage does not stop there. MS is also linked to the gradual shrinking or atrophy of gray matter, the brain tissue where most nerve cell bodies are found. As this tissue shrinks, people tend to experience more severe symptoms, including difficulties with movement and thinking.",
+     "summary_th": "งานวิจัยพบว่าการเชื่อมต่อของสมองในบริเวณที่มีการสื่อสารหนาแน่นอาจกำหนดวิธีที่ MS ทำลายเนื้อเยื่อ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "multiple sclerosis",
+      "neuroscience"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "b2fe06627ae0",
@@ -1805,7 +2492,21 @@
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObHZlbGZVdnpJcDNEMGNWRXhNTzFfZGRKSmJaaVl1VmpkVW9pcWlLeXJheUF3M0tPWXg2aEJiVjlJdktiUEVmbHBzb295aHl1WG82MDlpeXppUlNGSHdvc1RONkJralA0aThyaExKX0FDUUMxRzhJWHlCcXRmcFB4Nzl0Nk95dG83RlVqVHFGSDZoOElLMmJGVkk0Z1ZPdw?oc=5",
      "source": "R&D World",
      "published": 1794936336,
-     "text": "Isomorphic Labs raises $5 billion in record biotech round R&D World"
+     "text": "Isomorphic Labs raises $5 billion in record biotech round R&D World",
+     "summary_th": "Isomorphic Labs ระดมทุนได้ $5 billion ในดีลไบโอเทคที่สูงที่สุดเท่าที่มีมา (ตามรายงานของ R&D World)",
+     "importance": 3,
+     "numbers": [
+      "$5 billion"
+     ],
+     "tags": [
+      "biotech funding",
+      "ai drug discovery"
+     ],
+     "entities": [
+      "Isomorphic Labs",
+      "R&D World"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "91a5510ff15c",
@@ -1813,7 +2514,18 @@
      "link": "https://www.statnews.com/2026/11/17/us-loses-measles-elimination-status-public-health-victory-lost/",
      "source": "STAT News",
      "published": 1794931641,
-     "text": "Measles is no longer considered eliminated in the U.S., a finding that was expected but that marks an embarrassing backslide in the country’s basic public health standing."
+     "text": "Measles is no longer considered eliminated in the U.S., a finding that was expected but that marks an embarrassing backslide in the country’s basic public health standing.",
+     "summary_th": "สหรัฐฯ ไม่ถือว่าโรคหัดถูกกำจัดได้แล้ว ซึ่งเป็นการถอยหลังที่น่าอายในมาตรฐานสาธารณสุขพื้นฐานของประเทศ",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "measles",
+      "public health"
+     ],
+     "entities": [
+      "U.S."
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7ac29098f378",
@@ -1821,7 +2533,18 @@
      "link": "https://medicalxpress.com/news/2026-11-ai-scribes-framework-medical-trainees.html",
      "source": "Medical Xpress",
      "published": 1794936001,
-     "text": "Ambient AI scribes, which passively capture clinical encounters and draft notes, are among the most rapidly adopted artificial intelligence (AI) applications in health care. In one integrated health care system, they documented more than 2.5 million clinical encounters in a single year."
+     "text": "Ambient AI scribes, which passively capture clinical encounters and draft notes, are among the most rapidly adopted artificial intelligence (AI) applications in health care. In one integrated health care system, they documented more than 2.5 million clinical encounters in a single year.",
+     "summary_th": "ผู้วิจัยเสนอกรอบการเตรียมนักศึกษาแพทย์รับมือ AI scribe ที่บันทึกการพบผู้ป่วยและร่างโน้ตให้โดยอัตโนมัติ ซึ่งกำลังถูกใช้อย่างรวดเร็ว โดยระบบสุขภาพแห่งหนึ่งบันทึกการพบผู้ป่วยกว่า 2.5 ล้านครั้งในหนึ่งปี",
+     "importance": 2,
+     "numbers": [
+      "2.5 million"
+     ],
+     "tags": [
+      "ai scribes",
+      "medical education"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "c808053630c5",
@@ -1829,7 +2552,18 @@
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMl9obTkydU8yR0NwamJZSll5eFVheGI5bHJYN095OUZnNEd0ODJicms1aFFRV1NOYkFwSE50NFRPQ29pMDFiQm1udXlIbEZzYkxrUWxqcllaTTVHRi03ZWhIVzZidzYzR2lqUVNEbTQ0ZGp1aG1RLWFSZ0RPNHpUY01yMHZpalZ1MzN6WVRpN0V4MktCZWxreHF0QW1Fd29sSlhvanMyQmU?oc=5",
      "source": "Idaho Business Review",
      "published": 1794935410,
-     "text": "SEL launches clinical trial of hand-held autism screening device Idaho Business Review"
+     "text": "SEL launches clinical trial of hand-held autism screening device Idaho Business Review",
+     "summary_th": "SEL เริ่มการทดลองทางคลินิกของเครื่องคัดกรองออทิซึมแบบถือในมือ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "autism",
+      "medical device"
+     ],
+     "entities": [
+      "SEL"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f26f700e0cd8",
@@ -1837,7 +2571,20 @@
      "link": "https://www.statnews.com/2026/11/17/democrats-new-health-policy-medicare-for-more-stephen-miller-embraces-maha/",
      "source": "STAT News",
      "published": 1794929270,
-     "text": "Democrats coalesce around a new health care policy, and Trump's new chief of staff embraces MAHA."
+     "text": "Democrats coalesce around a new health care policy, and Trump's new chief of staff embraces MAHA.",
+     "summary_th": "พรรคเดโมแครตรวมตัวกันรอบนโยบายด้านสุขภาพใหม่ 'Medicare for More' และหัวหน้าทีมทำเนียบขาวคนใหม่ของทรัมป์สนับสนุนวาระ MAHA",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "health policy",
+      "medicare",
+      "maha"
+     ],
+     "entities": [
+      "Democrats",
+      "Trump"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b0ba162693ac",
@@ -1845,7 +2592,16 @@
      "link": "https://medicalxpress.com/news/2026-11-tool-enables-early-intervention-diabetic.html",
      "source": "Medical Xpress",
      "published": 1794934803,
-     "text": "Australian researchers and clinicians have developed an AI-powered thermal imaging tool to predict if diabetes-related foot ulcers are likely to heal, potentially reducing hospitalizations and amputations."
+     "text": "Australian researchers and clinicians have developed an AI-powered thermal imaging tool to predict if diabetes-related foot ulcers are likely to heal, potentially reducing hospitalizations and amputations.",
+     "summary_th": "นักวิจัยออสเตรเลียพัฒนาเครื่องมือภาพความร้อนที่ใช้ AI เพื่อทำนายว่าแผลเท้าจากเบาหวานมีแนวโน้มหายหรือไม่ ซึ่งอาจลดการนอนโรงพยาบาลและการตัดขา",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "diabetes",
+      "ai imaging"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "77031ade1a30",
@@ -1853,7 +2609,18 @@
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOckFBSWQtdVhNZ0FRXzlFR1R2VkFvZWs4VHBWc0xlbzRRYnYxNTFpUTBNS1E3bjFYeGdyWTVSeUo4TllKXzlxREpFejlrSGFxUUJUX2hKWFMtWURqZ3dMcTFnUU1MN014S2pIYUJ6eEd4cl94OVNFaGw0NU9wV0QzbmFOZnY0R3pRSG9HdVVHaEhqTDdIc2t3?oc=5",
      "source": "STAT",
      "published": 1794935374,
-     "text": "Flagship opens biotech-creation outpost in the U.K. STAT"
+     "text": "Flagship opens biotech-creation outpost in the U.K. STAT",
+     "summary_th": "Flagship เปิดสาขาสร้างบริษัทไบโอเทคในสหราชอาณาจักร",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "biotech",
+      "uk"
+     ],
+     "entities": [
+      "Flagship"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "fefa72493354",
@@ -1861,7 +2628,20 @@
      "link": "https://www.statnews.com/pharmalot/2026/11/17/roche-breast-cancer-pill-obesity-drugs-in-children/",
      "source": "STAT News",
      "published": 1794925541,
-     "text": "The FDA approved a breast cancer drug from Roche, teeing up the launch of what the company has said could become its top-selling product"
+     "text": "The FDA approved a breast cancer drug from Roche, teeing up the launch of what the company has said could become its top-selling product",
+     "summary_th": "FDA อนุมัติยามะเร็งเต้านมจาก Roche ซึ่งบริษัทบอกว่าอาจเป็นผลิตภัณฑ์ขายดีที่สุดของบริษัท (บทความนี้มีข่าวสั้นอื่นๆ เช่น ยาลดน้ำหนักในเด็ก)",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "fda",
+      "roche",
+      "breast cancer"
+     ],
+     "entities": [
+      "FDA",
+      "Roche"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "46c8f4375141",
@@ -1869,7 +2649,20 @@
      "link": "https://medicalxpress.com/news/2026-11-intermittent-fasting-additional-benefits-mediterranean.html",
      "source": "Medical Xpress",
      "published": 1794933618,
-     "text": "A study led by the University of Granada and the Public University of Navarra has determined that, in the context of intermittent fasting, the time of day when one eats matters less than the amount of weight lost when it comes to reducing liver fat. The clinical trial, published in the journal JHEP Reports, included 197 participants aged 30 to 60 who were overweight or obese and compared three types of time-restricted eating (early, late and self-selected windows) with a nutritional education program based on the Mediterranean diet."
+     "text": "A study led by the University of Granada and the Public University of Navarra has determined that, in the context of intermittent fasting, the time of day when one eats matters less than the amount of weight lost when it comes to reducing liver fat. The clinical trial, published in the journal JHEP Reports, included 197 participants aged 30 to 60 who were overweight or obese and compared three types of time-restricted eating (early, late and self-selected windows) with a nutritional education program based on the Mediterranean diet.",
+     "summary_th": "การศึกษาทางคลินิกใน JHEP พบว่าการทำ intermittent fasting ไม่ได้ให้ประโยชน์เพิ่มต่อการลดไขมันตับเมื่อเทียบกับอาหารเมดิเตอร์เรเนียน โดยปริมาณน้ำหนักที่ลดได้สำคัญกว่าเวลาที่กิน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "intermittent fasting",
+      "liver fat"
+     ],
+     "entities": [
+      "University of Granada",
+      "Public University of Navarra",
+      "JHEP"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "898f715e160d",
@@ -1877,7 +2670,18 @@
      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbTg2azlIbENXa2piRWpuNV9RUzN5ZFFfa1k0QWhKRGl0QXNEVjVNTmdLWjc1VDk0bW45NjBIbTRBMHYwQ2R0LU5ONkczWG5Ca1hOeVlKeEVIOE1STmltUDNrSTJXSDQzNWkwMUxtWFJTZXp4SmVsVEJNN1FhNGtjQmpPQlF2cDlJTU5xRldVaXR3enEzOGNYT1NrVXZ5b0xFM2FfN0ZmRldEVHJIcDctQ3UxYmxQbkg4RGNRLXpZbE9wN0lGZV9jSEJ1aEZwYUhjQmtqMjM0VEtrN29rN1NHb3BiVEJrU3ZuU0RCSklGRFQ?oc=5",
      "source": "OODA Loop",
      "published": 1794934515,
-     "text": "The Biotech Acceleration of 2026: Record Deals, AI-Designed Genomes, Nobel Prizes, and the New Biosecurity Map OODA Loop"
+     "text": "The Biotech Acceleration of 2026: Record Deals, AI-Designed Genomes, Nobel Prizes, and the New Biosecurity Map OODA Loop",
+     "summary_th": "รีวิวปี 2026 ของวงการไบโอเทค: ดีลสถิติ จีโนมที่ AI ออกแบบ รางวัลโนเบล และแผนที่ความมั่นคงทางชีวภาพใหม่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "biotech",
+      "biosecurity"
+     ],
+     "entities": [
+      "OODA Loop"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1a4b0fa66745",
@@ -1885,7 +2689,19 @@
      "link": "https://www.statnews.com/2026/11/17/health-news-nih-infectious-disease-unit-has-a-new-head-at-last/",
      "source": "STAT News",
      "published": 1794922021,
-     "text": "The NIH has been without a permanent director since 2025. Now officials announce that acting director John Powers III will take the helm."
+     "text": "The NIH has been without a permanent director since 2025. Now officials announce that acting director John Powers III will take the helm.",
+     "summary_th": "หน่วยโรคติดเชื้อของ NIH ได้หัวหน้าใหม่ คือ John Powers III ซึ่งเป็นผู้รักษาการ หลัง NIH ไม่มีผู้อำนวยการถาวรมาตั้งแต่ปี 2025",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nih",
+      "infectious disease"
+     ],
+     "entities": [
+      "NIH",
+      "John Powers III"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c29ce04041e0",
@@ -1893,7 +2709,18 @@
      "link": "https://medicalxpress.com/news/2026-11-shoulder-injuries-rare-slightly-common.html",
      "source": "Medical Xpress",
      "published": 1794933614,
-     "text": "Shoulder injuries are rare after a COVID-19 vaccination, but they may occur more frequently than they do after a flu vaccination, according to a new, large-scale study published in JAMA Internal Medicine."
+     "text": "Shoulder injuries are rare after a COVID-19 vaccination, but they may occur more frequently than they do after a flu vaccination, according to a new, large-scale study published in JAMA Internal Medicine.",
+     "summary_th": "การศึกษาขนาดใหญ่ใน JAMA Internal Medicine พบว่าอาการบาดเจ็บที่ไหล่พบได้น้อยหลังฉีดวัคซีนโควิด-19 แต่อาจพบบ่อยกว่าหลังฉีดวัคซีนไข้หวัดใหญ่เล็กน้อย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "vaccines",
+      "adverse events"
+     ],
+     "entities": [
+      "JAMA Internal Medicine"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e64085f8b697",
@@ -1901,7 +2728,16 @@
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVFlVamF5bXJQdXBBb2ZKcVN2V3VCMU92SElpWi1KWGRjVFdEZGVIci10Z1FOelZSTXlWT1dnSGlHUEljUXRYVUJmMnloa3l1VHNwUlJzX1g2R0xDOElKeWhxTEdKSkxaaDkwcWtRTzVMNGJkZFFqbEZxSllzVXhVTEtmS0ZsZ1I4RUZZSVhENTdIZ3RXT0FwQ2gwWlRWWmdidFByZThNakR5OTBYVW9yRnZpY0M?oc=5",
      "source": "Bioengineer.org",
      "published": 1794934507,
-     "text": "New Clinical Trial Results Advance Treatment Strategies for Waldenström Macroglobulinemia Bioengineer.org"
+     "text": "New Clinical Trial Results Advance Treatment Strategies for Waldenström Macroglobulinemia Bioengineer.org",
+     "summary_th": "มีผลการทดลองทางคลินิกใหม่ที่ช่วยพัฒนาแนวทางการรักษา Waldenström macroglobulinemia",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "waldenstrom",
+      "oncology"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "38aae671e0dd",
@@ -1909,7 +2745,18 @@
      "link": "https://www.statnews.com/2026/11/17/new-startup-developing-novel-sickle-cell-anemia-infusion-no-gene-therapy/",
      "source": "STAT News",
      "published": 1794916800,
-     "text": "Researchers are seeking a sickle cell treatment as effective as gene therapy, without the drawbacks. This entrepreneur thinks he might have one."
+     "text": "Researchers are seeking a sickle cell treatment as effective as gene therapy, without the drawbacks. This entrepreneur thinks he might have one.",
+     "summary_th": "สตาร์ทอัพใหม่ระดมทุน $173 million มุ่งหาการรักษาโรคเคียวเซลล์ที่มีประสิทธิภาพเทียบเท่ายีนเธอราพี แต่ไม่มีข้อเสียเหมือนกัน",
+     "importance": 2,
+     "numbers": [
+      "$173 million"
+     ],
+     "tags": [
+      "sickle cell",
+      "biotech funding"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "a598a2844717",
@@ -1917,7 +2764,16 @@
      "link": "https://medicalxpress.com/news/2026-11-clues-unexplained-recurrent-miscarriage-genome.html",
      "source": "Medical Xpress",
      "published": 1794932413,
-     "text": "For many couples who endure repeated miscarriages, the search for a cause comes up empty: The embryos or fetuses have the normal number and assortment of chromosomes, and any routine ultrasounds prior to loss reveal no structural abnormalities. The lack of answers can be devastating for couples trying to build their families."
+     "text": "For many couples who endure repeated miscarriages, the search for a cause comes up empty: The embryos or fetuses have the normal number and assortment of chromosomes, and any routine ultrasounds prior to loss reveal no structural abnormalities. The lack of answers can be devastating for couples trying to build their families.",
+     "summary_th": "การเรียงลำดับจีโนมช่วยหาเบาะแสสาเหตุของการแท้งซ้ำที่ไม่ทราบสาเหตุ ในกรณีที่โครโมโซมปกติและอัลตราซาวนด์ไม่พบความผิดปกติ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "miscarriage",
+      "genomics"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "92111d4d80c1",
@@ -1925,7 +2781,18 @@
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWWlrZmdlblpiZDN6MFRXeERoZ3NEdzFxaHZkSTV0WTFMYVp1YmpoemhfNW9zb2RtNi1fOEkxRmlxaGRuZ1gtS0IwVUNZaG1ZMTBpdkRNRHR0aW94eVZ0MWhRWldVSjZHZVUyYWFETm5OTnRuR2ZsaVA2ZU11T1c0Q29zWHNkbG5oRkJzYWZnb2JWZlpmakFqUmxiYi00VndlNGxkRTNjSzlLMmxUVmowa0Nn?oc=5",
      "source": "AZ Family",
      "published": 1794933960,
-     "text": "Clinical trial drug giving Arizona couple hope for daughter's rare disease AZ Family"
+     "text": "Clinical trial drug giving Arizona couple hope for daughter's rare disease AZ Family",
+     "summary_th": "ยาที่อยู่ในการทดลองทางคลินิกให้ความหวังแก่คู่สามีภรรยาในรัฐ Arizona สำหรับลูกสาวที่เป็นโรคหายาก",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "rare disease",
+      "clinical trial"
+     ],
+     "entities": [
+      "Arizona"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "94161b969fbb",
@@ -1933,7 +2800,18 @@
      "link": "https://www.statnews.com/2026/11/17/sellas-blood-cancer-immunotherapy-succeeds-clinical-trial/",
      "source": "STAT News",
      "published": 1794916800,
-     "text": "Sellas' experimental blood cancer immunotherapy reduced the risk of death in clinical trial."
+     "text": "Sellas' experimental blood cancer immunotherapy reduced the risk of death in clinical trial.",
+     "summary_th": "ภูมิคุ้มกันบำบัดโรคมะเร็งเลือดของ Sellas ลดความเสี่ยงการเสียชีวิตในการทดลองทางคลินิก",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "blood cancer",
+      "immunotherapy"
+     ],
+     "entities": [
+      "Sellas"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ca2d0bc67c67",
@@ -1941,7 +2819,19 @@
      "link": "https://medicalxpress.com/news/2026-11-dentalgen-ai-framework-automated-dental.html",
      "source": "Medical Xpress",
      "published": 1794932408,
-     "text": "A collaborative international research team led by the Faculty of Dentistry of the University of Hong Kong (HKU) has developed DentalGEN, a large-scale controllable generative artificial intelligence-plus (AI+) framework for automated dental crown restoration. Their study, published in npj Digital Medicine, represents an important advancement in digital prosthodontics, smart dental manufacturing and Industry 4.0 applications in dentistry."
+     "text": "A collaborative international research team led by the Faculty of Dentistry of the University of Hong Kong (HKU) has developed DentalGEN, a large-scale controllable generative artificial intelligence-plus (AI+) framework for automated dental crown restoration. Their study, published in npj Digital Medicine, represents an important advancement in digital prosthodontics, smart dental manufacturing and Industry 4.0 applications in dentistry.",
+     "summary_th": "ทีมวิจัยนำโดยคณะทันตแพทยศาสตร์ มหาวิทยาลัยฮ่องกง (HKU) พัฒนา DentalGEN กรอบงาน AI เชิงสร้างสรรค์ที่ควบคุมได้ สำหรับการออกแบบครอบฟันอัตโนมัติ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "dental ai",
+      "generative ai"
+     ],
+     "entities": [
+      "HKU",
+      "DentalGEN"
+     ],
+     "model": "claude/routine"
     }
    ]
   }
