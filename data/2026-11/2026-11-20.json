@@ -1,0 +1,1595 @@
+{
+ "date": "2026-11-20",
+ "collected_at": "2026-11-20T00:24:14+07:00",
+ "models": [
+  "gemini/gemini-flash-lite-latest"
+ ],
+ "summary_failed": 97,
+ "prices": [
+  {
+   "symbol": "^GSPC",
+   "label": "S&P 500",
+   "close": 7260.3198,
+   "prev_close": 7323.6299,
+   "change_pct": -0.86,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "^IXIC",
+   "label": "Nasdaq",
+   "close": 24276.6914,
+   "prev_close": 24429.8809,
+   "change_pct": -0.63,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "^DJI",
+   "label": "Dow Jones",
+   "close": 49494.9492,
+   "prev_close": 50198.1719,
+   "change_pct": -1.4,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "^VIX",
+   "label": "VIX (ดัชนีความกลัว)",
+   "close": 26.71,
+   "prev_close": 24.56,
+   "change_pct": 8.75,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "^TNX",
+   "label": "บอนด์สหรัฐ 10 ปี (%)",
+   "close": 5.066,
+   "prev_close": 5.066,
+   "change_pct": 0.0,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "DX-Y.NYB",
+   "label": "ดัชนีดอลลาร์",
+   "close": 103.849,
+   "prev_close": 103.86,
+   "change_pct": -0.01,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "CL=F",
+   "label": "น้ำมัน WTI",
+   "close": 83.2,
+   "prev_close": 83.26,
+   "change_pct": -0.07,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "BZ=F",
+   "label": "น้ำมัน Brent",
+   "close": 90.09,
+   "prev_close": 91.95,
+   "change_pct": -2.02,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "GC=F",
+   "label": "ทองคำ (ดอลลาร์/ออนซ์)",
+   "close": 3688.8999,
+   "prev_close": 3741.8999,
+   "change_pct": -1.42,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "THB=X",
+   "label": "บาทต่อดอลลาร์",
+   "close": 33.94,
+   "prev_close": 33.793,
+   "change_pct": 0.43,
+   "as_of": "2026-11-19",
+   "currency": "THB"
+  },
+  {
+   "symbol": "SMH",
+   "label": "กองชิป SMH",
+   "close": 455.62,
+   "prev_close": 459.54,
+   "change_pct": -0.85,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "XLV",
+   "label": "กองสุขภาพ XLV",
+   "close": 178.101,
+   "prev_close": 181.17,
+   "change_pct": -1.69,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  }
+ ],
+ "theme_prices": [
+  {
+   "symbol": "GEV",
+   "label": "GE Vernova · ไฟฟ้าจาก AI",
+   "close": 767.925,
+   "prev_close": 772.22,
+   "change_pct": -0.56,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "POWL",
+   "label": "Powell Industries · ไฟฟ้าจาก AI",
+   "close": 158.2,
+   "prev_close": 154.95,
+   "change_pct": 2.1,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "MYRG",
+   "label": "MYR Group · ไฟฟ้าจาก AI",
+   "close": 268.26,
+   "prev_close": 272.21,
+   "change_pct": -1.45,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "FIX",
+   "label": "Comfort Systems · ไฟฟ้าจาก AI",
+   "close": 1122.76,
+   "prev_close": 1140.59,
+   "change_pct": -1.56,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "CEG",
+   "label": "Constellation · ไฟฟ้าจาก AI",
+   "close": 256.5151,
+   "prev_close": 262.74,
+   "change_pct": -2.37,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "VST",
+   "label": "Vistra · ไฟฟ้าจาก AI",
+   "close": 124.88,
+   "prev_close": 125.58,
+   "change_pct": -0.56,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "NEE",
+   "label": "NextEra · ไฟฟ้าจาก AI",
+   "close": 83.7835,
+   "prev_close": 84.78,
+   "change_pct": -1.18,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "GULF.BK",
+   "label": "Gulf Energy · ไฟฟ้าจาก AI",
+   "close": 61.75,
+   "prev_close": 61.0,
+   "change_pct": 1.23,
+   "as_of": "2026-11-18",
+   "currency": "THB"
+  },
+  {
+   "symbol": "GPSC.BK",
+   "label": "GPSC · ไฟฟ้าจาก AI",
+   "close": 50.0,
+   "prev_close": 49.8,
+   "change_pct": 0.4,
+   "as_of": "2026-11-18",
+   "currency": "THB"
+  },
+  {
+   "symbol": "CAT",
+   "label": "Caterpillar · ไฟฟ้าจาก AI",
+   "close": 541.2,
+   "prev_close": 558.77,
+   "change_pct": -3.14,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "BE",
+   "label": "Bloom Energy · ไฟฟ้าจาก AI",
+   "close": 171.5005,
+   "prev_close": 170.98,
+   "change_pct": 0.3,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "LNG",
+   "label": "Cheniere · LNG นอกอ่าวเปอร์เซีย",
+   "close": 294.29,
+   "prev_close": 296.49,
+   "change_pct": -0.74,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "KMI",
+   "label": "Kinder Morgan · LNG นอกอ่าวเปอร์เซีย",
+   "close": 31.385,
+   "prev_close": 31.36,
+   "change_pct": 0.08,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "PTTEP.BK",
+   "label": "PTTEP · LNG นอกอ่าวเปอร์เซีย",
+   "close": 143.0,
+   "prev_close": 142.5,
+   "change_pct": 0.35,
+   "as_of": "2026-11-18",
+   "currency": "THB"
+  },
+  {
+   "symbol": "PTT.BK",
+   "label": "PTT · LNG นอกอ่าวเปอร์เซีย",
+   "close": 37.4,
+   "prev_close": 37.2,
+   "change_pct": 0.54,
+   "as_of": "2026-11-18",
+   "currency": "THB"
+  },
+  {
+   "symbol": "005930.KS",
+   "label": "Samsung · ชิปหน่วยความจำ",
+   "close": 194700.0,
+   "prev_close": 190300.0,
+   "change_pct": 2.31,
+   "as_of": "2026-11-18",
+   "currency": "KRW"
+  },
+  {
+   "symbol": "MU",
+   "label": "Micron · ชิปหน่วยความจำ",
+   "close": 704.88,
+   "prev_close": 705.27,
+   "change_pct": -0.06,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "000660.KS",
+   "label": "SK Hynix · ชิปหน่วยความจำ",
+   "close": 1144000.0,
+   "prev_close": 1098000.0,
+   "change_pct": 4.19,
+   "as_of": "2026-11-18",
+   "currency": "KRW"
+  },
+  {
+   "symbol": "SNDK",
+   "label": "Sandisk · ชิปหน่วยความจำ",
+   "close": 780.01,
+   "prev_close": 776.22,
+   "change_pct": 0.49,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "DK",
+   "label": "Delek US · โรงกลั่น/ดีเซล",
+   "close": 59.69,
+   "prev_close": 60.32,
+   "change_pct": -1.04,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "VLO",
+   "label": "Valero · โรงกลั่น/ดีเซล",
+   "close": 342.28,
+   "prev_close": 343.7,
+   "change_pct": -0.41,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "MPC",
+   "label": "Marathon Petroleum · โรงกลั่น/ดีเซล",
+   "close": 371.285,
+   "prev_close": 373.86,
+   "change_pct": -0.69,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "TOP.BK",
+   "label": "Thai Oil · โรงกลั่น/ดีเซล",
+   "close": 57.5,
+   "prev_close": 57.5,
+   "change_pct": 0.0,
+   "as_of": "2026-11-18",
+   "currency": "THB"
+  },
+  {
+   "symbol": "XOM",
+   "label": "ExxonMobil · โรงกลั่น/ดีเซล",
+   "close": 159.19,
+   "prev_close": 160.58,
+   "change_pct": -0.87,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "CVX",
+   "label": "Chevron · โรงกลั่น/ดีเซล",
+   "close": 206.22,
+   "prev_close": 205.88,
+   "change_pct": 0.17,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "IONQ",
+   "label": "IonQ · ไซเบอร์ยุค AI",
+   "close": 23.725,
+   "prev_close": 23.48,
+   "change_pct": 1.04,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "CRWD",
+   "label": "CrowdStrike · ไซเบอร์ยุค AI",
+   "close": 249.0,
+   "prev_close": 237.03,
+   "change_pct": 5.05,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "PANW",
+   "label": "Palo Alto Networks · ไซเบอร์ยุค AI",
+   "close": 361.0,
+   "prev_close": 339.92,
+   "change_pct": 6.2,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "BE8.BK",
+   "label": "Beryl 8 Plus · ไซเบอร์ยุค AI",
+   "close": 4.26,
+   "prev_close": 4.16,
+   "change_pct": 2.4,
+   "as_of": "2026-11-18",
+   "currency": "THB"
+  },
+  {
+   "symbol": "AMGN",
+   "label": "Amgen · สุขภาพ/ยาผลทดลองเด่น",
+   "close": 439.47,
+   "prev_close": 443.89,
+   "change_pct": -1.0,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "MRK",
+   "label": "Merck · สุขภาพ/ยาผลทดลองเด่น",
+   "close": 133.64,
+   "prev_close": 137.78,
+   "change_pct": -3.0,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "MRNA",
+   "label": "Moderna · สุขภาพ/ยาผลทดลองเด่น",
+   "close": 202.622,
+   "prev_close": 196.79,
+   "change_pct": 2.96,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "NVO",
+   "label": "Novo Nordisk · สุขภาพ/ยาผลทดลองเด่น",
+   "close": 38.78,
+   "prev_close": 39.43,
+   "change_pct": -1.65,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "LLY",
+   "label": "Eli Lilly · สุขภาพ/ยาผลทดลองเด่น",
+   "close": 1357.15,
+   "prev_close": 1382.75,
+   "change_pct": -1.85,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "BDMS.BK",
+   "label": "Bangkok Dusit Medical · สุขภาพ/ยาผลทดลองเด่น",
+   "close": 20.45,
+   "prev_close": 20.95,
+   "change_pct": -2.39,
+   "as_of": "2026-11-18",
+   "currency": "THB"
+  },
+  {
+   "symbol": "AMD",
+   "label": "AMD · ชิป AI ทางเลือก Nvidia",
+   "close": 489.795,
+   "prev_close": 530.14,
+   "change_pct": -7.61,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "AVGO",
+   "label": "Broadcom · ชิป AI ทางเลือก Nvidia",
+   "close": 353.0,
+   "prev_close": 354.05,
+   "change_pct": -0.3,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "CBRS",
+   "label": "Cerebras · ชิป AI ทางเลือก Nvidia",
+   "close": 91.34,
+   "prev_close": 94.15,
+   "change_pct": -2.98,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "CSCO",
+   "label": "Cisco · ชิป AI ทางเลือก Nvidia",
+   "close": 96.28,
+   "prev_close": 97.18,
+   "change_pct": -0.93,
+   "as_of": "2026-11-19",
+   "currency": "USD"
+  },
+  {
+   "symbol": "DELTA.BK",
+   "label": "Delta Electronics TH · ชิป AI ทางเลือก Nvidia",
+   "close": 179.0,
+   "prev_close": 177.5,
+   "change_pct": 0.85,
+   "as_of": "2026-11-18",
+   "currency": "THB"
+  }
+ ],
+ "categories": [
+  {
+   "key": "us_stocks",
+   "label": "หุ้นสหรัฐ",
+   "items": [
+    {
+     "id": "91e723dd188e",
+     "title": "We're adding to a consumer stock as the market enters oversold territory",
+     "link": "https://www.cnbc.com/investingclub/2026/11/19/were-adding-to-a-consumer-stock-as-the-market-enters-oversold-territory.html",
+     "source": "CNBC Top News",
+     "published": 1795108366,
+     "text": "The S&P Oscillator officially moved into oversold territory after Wednesday's session."
+    },
+    {
+     "id": "6d068f9f6f65",
+     "title": "A CoreWeave co-founder just made an unconventional $30 million wager on its battered bonds",
+     "link": "https://www.marketwatch.com/story/a-coreweave-co-founder-just-made-an-unconventional-30-million-wager-on-its-battered-bonds-5586b0e9",
+     "source": "MarketWatch",
+     "published": 1795108860,
+     "text": "While executives typically buy shares to signal confidence, CoreWeave co-founder Brian Venturo is turning to the bond market to calm AI jitters."
+    },
+    {
+     "id": "3c16d2512414",
+     "title": "Nasdaq turns negative after Anthropic valued at over $2 trillion in Nasdaq debut",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkJROHlNRUszZ0o0ZEtZaklQc2hZSmxUWjcwMTR0TVJORjFvcFN6QlhRbFZQQk1lc2p2ZzZBV0F2d3dlTklkYVpCdGs4NTVrS3pCR1gzalZ0SFhsS2lSMDBwanpNdUIxcE9VSTdKR05lOWZsbXdESTBva3FxeE5XSWZER2J3SmZYLTA5LTk0Z3pJTlVYYWJsVWV5NXpvbWJPSXdFdjAtVHhueVZWc2tj?oc=5",
+     "source": "WTVB",
+     "published": 1795108704,
+     "text": "Nasdaq turns negative after Anthropic valued at over $2 trillion in Nasdaq debut WTVB"
+    },
+    {
+     "id": "795407703f90",
+     "title": "Trump, Xi, Putin said they plan to boost oil production, revamp UN after trilateral talks",
+     "link": "https://www.cnbc.com/2026/11/19/trump-xi-putin-trilateral-meeting-china.html",
+     "source": "CNBC Top News",
+     "published": 1795107701,
+     "text": "The leaders of the U.S., China and Russia met in Shenzhen, China on Thursday for a rare trilateral gathering."
+    },
+    {
+     "id": "2fbb79d9c657",
+     "title": "Anthropic is coming to your 401(k). Love it or hate it, AI is becoming a bigger part of your financial plan.",
+     "link": "https://www.marketwatch.com/story/anthropic-is-coming-to-your-401-k-love-it-or-hate-it-ai-is-becoming-a-bigger-part-of-your-financial-plan-2e9ae533",
+     "source": "MarketWatch",
+     "published": 1795107180,
+     "text": "A number of public pension plans already have a stake in Anthropic."
+    },
+    {
+     "id": "7532929b1e87",
+     "title": "Nasdaq turns negative after Anthropic valued at over $2 trillion in Nasdaq debut By Reuters",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZWkwSGI5NzQzOHJtTzJILVQtMGZ3bEJHaUVLVUI4bjA3d0dTT1JBS2hUNVY2ODc5N3U1XzNEM3JWNFRxV3FXaGhLbGowZDZkckdoUzJJeGFpb09EeFRXNjlQdTVFenJwaU9TYXRjX3lBWHpxNTNiV0tESF85STA2bFVhZ1VrY3lmUVFRekJySFFfUS1QMGhJdWVMU3k0eG16T1lNQU1tNzh0a0ZpR2tMTG5PdkxrYUVwNXZzNFdTdl9xTmVwaVJ1TlMyRl9ORUtZZGc?oc=5",
+     "source": "Investing.com",
+     "published": 1795108500,
+     "text": "Nasdaq turns negative after Anthropic valued at over $2 trillion in Nasdaq debut By Reuters Investing.com"
+    },
+    {
+     "id": "4524fd3f0ca3",
+     "title": "AMD falls on short-seller report of alleged China exposure",
+     "link": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
+     "source": "CNBC Top News",
+     "published": 1795107227,
+     "text": "AMD was slumping Wednesday after a short-seller alleged that its firmware showed up at blacklisted Chinese company"
+    },
+    {
+     "id": "e092b0b4fb3d",
+     "title": "Alibaba’s cloud business is thriving. But those profits are completely offset by losses from its AI labs.",
+     "link": "https://www.marketwatch.com/story/alibabas-cloud-business-is-thriving-but-those-profits-are-completely-offset-by-losses-from-its-ai-labs-74bf4b3c",
+     "source": "MarketWatch",
+     "published": 1795107120,
+     "text": "The cloud-services business of Chinese internet giant Alibaba is thriving — but the losses from the artificial-intelligence labs business is completely offsetting it."
+    },
+    {
+     "id": "f32b126cb35b",
+     "title": "Dow Leads Losses as S&P 500 Eyes 6th-Straight Decline",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYUdWWnlENG5jekVMalExeEg1d2NRVzRxbFE3WmZWQVgyVl81NVJzLWVKaElRdXVTYkx1VlNKRUFSZE9kQ1JOb3hVRGw3bVY0cHUxWFdFMHFmbW14Q0lVLXJ1WjVvTGhLOFpoNDhnZ2wyZ2I3eXNEX1hxWDJ0X1BMNk5yZVMyTkR1QzFINHhHZ2NJOGk0dXRFQkhnTDNSeWF1X1hHWDRXVEhPQklwUFJRb1FMU2Y?oc=5",
+     "source": "Schaeffer's Investment Research",
+     "published": 1795108479,
+     "text": "Dow Leads Losses as S&P 500 Eyes 6th-Straight Decline Schaeffer's Investment Research"
+    },
+    {
+     "id": "f5a616b2913e",
+     "title": "Anthropic IPO: Investors who flip the stock may face brokerage penalty",
+     "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-flipping-rules.html",
+     "source": "CNBC Top News",
+     "published": 1795105883,
+     "text": "Brokerage firms may put future IPO limits in place for investors who sell their Anthropic stake too soon."
+    },
+    {
+     "id": "c857067920f8",
+     "title": "Anthropic’s IPO poses this big risk to an already shaky stock market",
+     "link": "https://www.marketwatch.com/story/anthropics-ipo-poses-this-big-risk-to-an-already-shaky-stock-market-83ce7794",
+     "source": "MarketWatch",
+     "published": 1795106940,
+     "text": "Investors are worried that a flood of equity issuance could overwhelm demand."
+    },
+    {
+     "id": "5256019bc9d5",
+     "title": "U.S. Stocks Turn Lower; Nasdaq Falls 1.50%",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5YSHRGVDVzYzlsVnRvX1RfODhxdTRmVFFPUVpEMWJCc2VKWlJpeG8zNy00RG01WlhKR0ZQcG1VZFVWSW5xN0hPQVIwdXYtVElmQ1VXeQ?oc=5",
+     "source": "bloomingbit",
+     "published": 1795108156,
+     "text": "U.S. Stocks Turn Lower; Nasdaq Falls 1.50% bloomingbit"
+    },
+    {
+     "id": "3d43a7a82c1b",
+     "title": "Gold's bad year is getting worse. Why its price keeps falling",
+     "link": "https://www.cnbc.com/2026/11/19/gold-prices-fall-fed-rates-dollar.html",
+     "source": "CNBC Top News",
+     "published": 1795105792,
+     "text": "Gold has fallen sharply from its January record as higher interest rates and a stronger dollar change the investment case for the precious metal."
+    },
+    {
+     "id": "986af52a788c",
+     "title": "Want to create more competition in grocery delivery? Let DoorDash and Instacart merge.",
+     "link": "https://www.marketwatch.com/story/want-to-create-more-competition-in-grocery-delivery-let-doordash-and-instacart-merge-10505ad0",
+     "source": "MarketWatch",
+     "published": 1795105260,
+     "text": "The combined company would be better able to challenge corporate juggernauts like Amazon, Walmart and Uber."
+    },
+    {
+     "id": "37a21bffad78",
+     "title": "Anthropic shares open 34% above IPO price in Nasdaq debut after record listing",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMHNHXzFKejVQQjhoajh0QkZKVnJiMUVZTFhBeXU1Ym05b2lVS3M2UzhCRE9DQTBxVUhTd2h6RTRBZm5TWG5uNnVZTlU2bHZuS0JjM2RNT0F4SjBVS1JQeGlFOHpKcE4tc3FKVmhCc2RUb3RTUmRfQkJ5clk3QV9ZOTVfbVhMajlZWFBRamxjUUFwU1IwbDlZNWR5RmdwX0hqUGkwQXRfTkRFdW5lelhqV3RnZw?oc=5",
+     "source": "Euronews.com",
+     "published": 1795108110,
+     "text": "Anthropic shares open 34% above IPO price in Nasdaq debut after record listing Euronews.com"
+    },
+    {
+     "id": "1d814fe00b8a",
+     "title": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+     "link": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html",
+     "source": "CNBC Top News",
+     "published": 1795105686,
+     "text": "Palo Alto Networks reported better-than-expected first-quarter results and inked a $4.5 billion deal for AI startup Applied Compute"
+    },
+    {
+     "id": "a50c49c5abf3",
+     "title": "We’re in our 50s and terrified of a market crash. Should we put $400,000 of our $1 million retirement savings into an annuity?",
+     "link": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240",
+     "source": "MarketWatch",
+     "published": 1795104900,
+     "text": "“We have a house worth $450,000. Our combined annual income is $125,000.”"
+    },
+    {
+     "id": "637f9c641c91",
+     "title": "Anthropic shares jump 34% in Nasdaq debut after record IPO",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa1lxbkZyNkpiT3JiUjY3QlY1WUhWdE5XREsxTW1Mbk5XVlEtNTVWZG9WMm9QXzdtc0d4OXAxcjNqZjlQZkRKeXp3MWFoWW1GbW5aR2lCcjI4YWtxVDdDT19wamZ5MGxiVHJVYW9mUjdldlBsMVpUSVhKQURGY0lKdlFFMjdhVVBiUkVqY3g4ZE00NUpSRUZvaEZMNXp2WGNOVDRwM3J4UWQtVlk4SVNyNjh0RUE3TlUzZTlUbTBtVFlpUzVqTUpv?oc=5",
+     "source": "Proactive financial news",
+     "published": 1795108020,
+     "text": "Anthropic shares jump 34% in Nasdaq debut after record IPO Proactive financial news"
+    },
+    {
+     "id": "88ad1820dfba",
+     "title": "Amazon launches in-app push against Mamdani-backed delivery bill in New York City",
+     "link": "https://www.cnbc.com/2026/11/19/amazon-nyc-delivery-protection-act.html",
+     "source": "CNBC Top News",
+     "published": 1795104940,
+     "text": "Amazon has lobbied heavily against the proposed legislation, while New York City Mayor Zohran Mamdani backed the bill earlier this year."
+    },
+    {
+     "id": "159a14b1bff7",
+     "title": "‘Buyers are out for blood’: With home sales at a record low, buyers are calling the shots",
+     "link": "https://www.marketwatch.com/story/buyers-are-out-for-blood-as-housing-market-finally-hits-rock-bottom-fa5093a6",
+     "source": "MarketWatch",
+     "published": 1795104840,
+     "text": "The few buyers left in the market braving record-high home prices and 7% mortgage rates are starting to call the shots, real-estate agents say."
+    },
+    {
+     "id": "da41b4ca5d12",
+     "title": "12 Communication Services Stocks Moving In Thursday's Intraday Session",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaVMzcHE0ZjZNVjlEN2pzOU13czU3ZG4tNkV3VFhIMjY3a1hPYmpqSkxZZ0p2UGxmNWFYN2xVRkx3bDFzS1M1Y29ncnM1cWN2YmRMX2wtSkYxUE9IRHBnUG1FRG14QzduU1FtRG94elpCRENTMGhmSXZaRk9XNWdKQ3hlVnROZjY4RU5WUExnS0xDX20wOEdjLUg4ZWR4aGFDVUdORHZuVzBIU0c1OHBGUGJqNTVXeFdTUGNucEplWTZlcC04cThV?oc=5",
+     "source": "Benzinga",
+     "published": 1795107944,
+     "text": "12 Communication Services Stocks Moving In Thursday's Intraday Session Benzinga"
+    },
+    {
+     "id": "ba77697c883e",
+     "title": "Anthropic IPO, AI wealth spawn a new, leaner kind of family office",
+     "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-wealth-spawn-a-new-leaner-kind-of-family-office.html",
+     "source": "CNBC Top News",
+     "published": 1795100258,
+     "text": "The Anthropic IPO and a flood of AI wealth are spurring the creation of new family offices built for the era of artificial intelligence."
+    },
+    {
+     "id": "b142765d3df4",
+     "title": "Tech outages are rattling Americans so much that they’re stockpiling cash and supplies",
+     "link": "https://www.marketwatch.com/story/why-are-these-tech-outages-rattling-americans-so-much-that-theyre-stockpiling-cash-and-supplies-07516bdd",
+     "source": "MarketWatch",
+     "published": 1795103820,
+     "text": "A lack of clarity from world leaders is prompting some people to prepare for the worst."
+    },
+    {
+     "id": "cdc02a026343",
+     "title": "12 Industrials Stocks Moving In Thursday's Intraday Session",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPd2FiS2ZXS0xxUmwzVzFLU3NGdVBzeVBLQUZKSmg1Q2dVeEo1T0d0WHlHVW1zWkZnQ3pCODRBM3JGVVlNenpnb1hxdmpSblgyckMxbVVLdm5CUTZ6RU9uQTl3QlBSZEtaSmJBdzlyYXRDd0c0QUdzdUIxU3lKWEp0Wk1aRWVUSTFyd0piSUNUeXZOU2ZzeHljZC1Hc21xZXlQQWY4TnRjMlRHZkFBTldCSHJ1RFJhU1Bt?oc=5",
+     "source": "Benzinga",
+     "published": 1795107943,
+     "text": "12 Industrials Stocks Moving In Thursday's Intraday Session Benzinga"
+    },
+    {
+     "id": "51c5886a825b",
+     "title": "Walmart hikes outlook as CEO tells CNBC retailer aims to keep prices low despite soaring fuel costs",
+     "link": "https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html",
+     "source": "CNBC Top News",
+     "published": 1795094630,
+     "text": "Walmart said it saw strength with store-fulfilled pickup and delivery in its fiscal third quarter."
+    }
+   ]
+  },
+  {
+   "key": "macro",
+   "label": "เศรษฐกิจโลกและนโยบาย",
+   "items": [
+    {
+     "id": "241d9c35f2a8",
+     "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+     "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
+     "source": "Federal Reserve",
+     "published": 1795104000,
+     "text": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+     "summary_th": "คณะผู้ว่าการธนาคารกลางสหรัฐฯ ออกคำสั่งบังคับใช้กฎหมายกับอดีตพนักงานของ First Security Bancorp",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "federal reserve",
+      "banking"
+     ],
+     "entities": [
+      "Federal Reserve Board",
+      "First Security Bancorp"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "c6d87bb33ae7",
+     "title": "Anthropic raises $81bn in record-breaking stock market debut",
+     "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "published": 1795103938,
+     "text": "The company behind the Claude chatbot will become one of the most valuable firms in the world.",
+     "summary_th": "Anthropic ระดมทุน 81,000 ล้านดอลลาร์ในการเปิดตัวซื้อขายหุ้นในตลาดหลักทรัพย์ครั้งใหญ่",
+     "importance": 3,
+     "numbers": [
+      "$81bn"
+     ],
+     "tags": [
+      "ipo",
+      "ai",
+      "anthropic"
+     ],
+     "entities": [
+      "Anthropic",
+      "Claude"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "f1f6e4f97f50",
+     "title": "Susan Smith denied parole again 32 years after drowning her two sons",
+     "link": "https://www.bbc.co.uk/news/articles/ckdd1y09eqjmo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "published": 1795109014,
+     "text": "At a hearing on the possibility of parole, Smith said she wished she could change the past, and her two children \"did not deserve to die\".",
+     "summary_th": "Susan Smith ถูกปฏิเสธทัณฑ์บนอีกครั้ง 32 ปีหลังจากคดีฆาตกรรมลูกชายสองคน",
+     "importance": 0,
+     "numbers": [
+      "32"
+     ],
+     "tags": [
+      "crime",
+      "parole"
+     ],
+     "entities": [
+      "Susan Smith"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "f8c4099d06a5",
+     "title": "Impact grows on the poorest",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE16aUU5YXpRN0hicm1CNWl3TVEyakNHYWRoaUE2OWRlTm5ITEcyT1ZrN1ExazBnUHJJOUZKY1lSRklmNGY5UklaY0tMOTdkeG13WUlSWDdkdWdSQ1hrWkZZVF83OE1HN1pvZUV1Ukk2WGdqQ0QtcG1xRUFoM3podw?oc=5",
+     "source": "eKathimerini.com",
+     "published": 1795108770,
+     "text": "Impact grows on the poorest eKathimerini.com",
+     "summary_th": "ผลกระทบที่มีต่อประชากรกลุ่มที่ยากจนที่สุดกำลังเพิ่มสูงขึ้น",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "economy",
+      "poverty"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "dbea10a75a84",
+     "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+     "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+     "source": "Federal Reserve",
+     "published": 1795028400,
+     "text": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+     "summary_th": "การเปิดเผยบันทึกการประชุมของคณะกรรมการกำหนดนโยบายการเงินสหรัฐฯ (FOMC) ระหว่างวันที่ 27-28 ตุลาคม 2026",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "fomc",
+      "federal reserve",
+      "interest rates"
+     ],
+     "entities": [
+      "Federal Open Market Committee"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "1e75cc3e067b",
+     "title": "More support for households reliant on heating oil",
+     "link": "https://www.bbc.co.uk/news/articles/cwm2mj7vezr3o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "published": 1795101751,
+     "text": "North Northamptonshire Council is encouraging eligible residents to apply for more support.",
+     "summary_th": "สภา North Northamptonshire สนับสนุนเพิ่มเติมให้ครัวเรือนที่พึ่งพาน้ำมันทำความร้อนยื่นขอรับความช่วยเหลือ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "energy",
+      "household support"
+     ],
+     "entities": [
+      "North Northamptonshire Council"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "c3261a1d086e",
+     "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
+     "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "published": 1795107803,
+     "text": "Hamas condemned the incursion, which the Israeli military said was to dismantle a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
+     "summary_th": "กองทัพอิสราเอลปฏิบัติการภาคพื้นดินในฉนวนกาซาแล้วเสร็จนอกเส้นสีเหลือง ท่ามกลางการประณามจากกลุ่มฮามาส",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "israel",
+      "gaza",
+      "conflict"
+     ],
+     "entities": [
+      "Hamas"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "3eac9dba9b95",
+     "title": "Policymakers want rate hike but disagree on pace",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBLenkzRHR2cnQwLVFSSFBrY2RhT0ZNbk1UZzdRSmFyQVhSa1UwN0w0WThGQ19aNGNOcnQ4YzhBRGkxZXFucjZpa2ZkMGwwcTRGNjMwQ2JFVmFoTVp0Q2Etdks2YmpWNU9JaTRSYi1TYw?oc=5",
+     "source": "Axios",
+     "published": 1795108521,
+     "text": "Policymakers want rate hike but disagree on pace Axios",
+     "summary_th": "ผู้กำหนดนโยบายต้องการปรับขึ้นอัตราดอกเบี้ยแต่ยังมีความเห็นไม่ตรงกันในเรื่องของจังหวะเวลา",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "interest rates",
+      "central bank",
+      "monetary policy"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "a837c0894ab9",
+     "title": "Viagogo may have broken law on hidden fees, watchdog provisionally finds",
+     "link": "https://www.bbc.co.uk/news/articles/cmvg2ex7j30lo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "published": 1795095352,
+     "text": "The UK's competition body says initial findings suggest the ticket-reselling website used drip pricing.",
+     "summary_th": "หน่วยงานกำกับดูแลของสหราชอาณาจักรพบข้อบ่งชี้เบื้องต้นว่า Viagogo อาจฝ่าฝืนกฎหมายเรื่องค่าธรรมเนียมที่ซ่อนอยู่",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "consumer protection",
+      "regulations",
+      "viagogo"
+     ],
+     "entities": [
+      "Viagogo"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "11685b3b01c1",
+     "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+     "link": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "published": 1795107357,
+     "text": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands.",
+     "summary_th": "ศาลสูงสุดยูเนสโกตัดสินว่าเมียนมาร์มีความผิดฐานก่อการฆ่าล้างเผ่าพันธุ์ชนกลุ่มน้อยโรฮิงญา",
+     "importance": 3,
+     "numbers": [
+      "2017"
+     ],
+     "tags": [
+      "icj",
+      "myanmar",
+      "rohingya",
+      "genocide"
+     ],
+     "entities": [
+      "International Court of Justice"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "e3d2ef35069a",
+     "title": "Mexico central bank: peso depreciation not expected to hit inflation",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS1d5U1duWmVrMExDdVFmMUFzeURiZ1dpQzNSSVZtTUFZTFZITU05TUZwVUxwLUVpelE1ZnRlb1ZqOWZjUzdTbkJlM0N0X0VQOWs2dTRGT1NJbi1GVlJDVE53WmxwUFhTblh1eHU1OUFjcG9ha3UzaW5pWmRnTnlsVHZlYVEzYlU5NEVteEZMVmlobDRsUzdHVFlfa2hkaEhsd0VEN1d0UGdlZDFNZWY3SXJNMzUyVmhJRTNqYg?oc=5",
+     "source": "marketscreener.com",
+     "published": 1795108412,
+     "text": "Mexico central bank: peso depreciation not expected to hit inflation marketscreener.com",
+     "summary_th": "ธนาคารกลางเม็กซิโกแถลงว่าการอ่อนค่าของเงินเปโซไม่คาดว่าจะส่งผลกระทบต่ออัตราเงินเฟ้อ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "mexico",
+      "central bank",
+      "inflation",
+      "currency"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "fc0b4dc161ad",
+     "title": "Indian driver wins $1.3m in life-changing lottery prize",
+     "link": "https://www.bbc.co.uk/news/videos/cke89vdn75gyo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "published": 1795088289,
+     "text": "A truck driver's fortunes have changed overnight after he won a Diwali lottery in the northern Indian state of Punjab.",
+     "summary_th": "คนขับรถบรรทุกชาวอินเดียคว้าเงินรางวัลลอตเตอรี่มูลค่า 1.3 ล้านดอลลาร์ในรัฐปัญจาบ",
+     "importance": 1,
+     "numbers": [
+      "$1.3m"
+     ],
+     "tags": [
+      "lottery",
+      "india"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "2cddf338ba79",
+     "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+     "link": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "published": 1795103546,
+     "text": "At least four bodies have been recovered from the boat which was reportedly carrying between 50 and 100 people.",
+     "summary_th": "ผู้อพยพสูญหายจำนวนมากหลังจากเรือบรรทุกผู้อพยพจมลงนอกชายฝั่งเซเนกัล โดยมีการกู้ร่างผู้เสียชีวิตแล้วอย่างน้อย 4 ราย",
+     "importance": 2,
+     "numbers": [
+      "50",
+      "100"
+     ],
+     "tags": [
+      "migration",
+      "senegal",
+      "accident"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "dca254fdcebf",
+     "title": "Why is food inflation at a five-year low?",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQy1xQkVYYWhSbUV0UkMyc2cwSGk5Zms0SVNfR3Y2NzlXTlI4SDhZLXY5dWV0TjVPREpPZEtIVHZ5dnpyWGJRVk56eHFaM1RUS3pBeG01N0FGWldTRUo1YkxOaXBpTmd1R0MzWUVBRnpOUkM3d21tUjZYeWxLdFd3aQ?oc=5",
+     "source": "IGD (Institute of Grocery Distribution)",
+     "published": 1795107621,
+     "text": "Why is food inflation at a five-year low? IGD (Institute of Grocery Distribution)",
+     "summary_th": "สถาบันจัดจำหน่ายสินค้าอุปโภคบริโภค (IGD) เผยแพร่รายงานวิเคราะห์สาเหตุที่อัตราเงินเฟ้อด้านอาหารลดลงสู่ระดับต่ำสุดในรอบ 5 ปี",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "food inflation",
+      "igd",
+      "grocery"
+     ],
+     "entities": [
+      "IGD",
+      "Institute of Grocery Distribution"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "7c7ba7c7fb79",
+     "title": "Increase in direct cremations since pandemic",
+     "link": "https://www.bbc.co.uk/news/articles/ck5ywnr59z85o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "published": 1795069402,
+     "text": "A 2026 Cost of Dying Report found direct cremation was now chosen for about one in five funerals.",
+     "summary_th": "รายงานต้นทุนความตายปี 2026 ระบุว่ามีการเผาศพแบบไร้พิธีการเพิ่มขึ้นนับตั้งแต่การแพร่ระบาด โดยเลือกใช้สำหรับงานศพประมาณ 1 ใน 5",
+     "importance": 1,
+     "numbers": [
+      "2026"
+     ],
+     "tags": [
+      "cost of living",
+      "funerals"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    }
+   ]
+  },
+  {
+   "key": "oil",
+   "label": "น้ำมันและพลังงาน",
+   "items": [
+    {
+     "id": "09e3fc1165ed",
+     "title": "How Energy Security Is Reshaping Global Investment Decisions",
+     "link": "https://oilprice.com/Energy/Energy-General/How-Energy-Security-Is-Reshaping-Global-Investment-Decisions.html",
+     "source": "OilPrice.com",
+     "published": 1795107600,
+     "text": "Energy security has traditionally been viewed as a policy issue, but we're seeing a fundamental shift. It's increasingly becoming a capital allocation decision, with significant implications for the banks, investors, and companies financing the energy sector. Over the past five years, global energy markets have experienced two major crises: the energy crisis of 2022 and the 2026 disruption through the Strait of Hormuz. History has shown us that the duration of a crisis and the amount of supply disrupted often determine whether it leads to lasting…"
+    },
+    {
+     "id": "d5ba42fbe1ea",
+     "title": "Data center electricity use could double by 2030, IEA says",
+     "link": "https://www.cnbc.com/2026/11/19/data-center-electricity-demand-iea.html",
+     "source": "CNBC Energy",
+     "published": 1795088064,
+     "text": "Global electricity use by data centers could double by 2030 as the AI boom adds pressure to power grids across the world, according to the IEA."
+    },
+    {
+     "id": "8f2575368782",
+     "title": "Hormuz Strait — Tanker Attacks Persist Daily Despite Falling Oil Prices",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wTkVKdXZZak1CM2R2ZzZHS0NyZ0ZGR2FTMWowNTFjMnhJb0tGMFp3U1BGajBCLUVBT1pRMjB1cTV4U1NHWEVyU0I3a0lScXo0anlnc3pza3gwZW1tbnZSNDFncjV6QQ?oc=5",
+     "source": "The Korea Daily",
+     "published": 1795108156,
+     "text": "Hormuz Strait — Tanker Attacks Persist Daily Despite Falling Oil Prices The Korea Daily"
+    },
+    {
+     "id": "b7d1a5781608",
+     "title": "Carlyle and Orlen Team Up to Hunt for Energy Deals Across Europe",
+     "link": "https://oilprice.com/Latest-Energy-News/World-News/Carlyle-and-Orlen-Team-Up-to-Hunt-for-Energy-Deals-Across-Europe.html",
+     "source": "OilPrice.com",
+     "published": 1795105800,
+     "text": "Global investment firm Carlyle and the largest energy company in central Europe, Poland’s Orlen, on Thursday agreed to jointly explore investment opportunities in the energy sector across in Poland, Europe, and internationally. The two firms signed a memorandum of understanding at the seventh ministerial meeting of the Partnership for Transatlantic Energy Cooperation (P-TEC) in Warsaw, Poland, on Thursday. Building a joint pipeline of energy investment projects, strengthening Europe’s energy security, and boosting industrial competitiveness…"
+    },
+    {
+     "id": "138aedbfb49f",
+     "title": "IEA chief sees no 'credible pathway' back to pre-war normality in the Strait of Hormuz",
+     "link": "https://www.cnbc.com/2026/11/18/iea-strait-hormuz-energy-risk.html",
+     "source": "CNBC Energy",
+     "published": 1795003201,
+     "text": "The Iran war has 'crushed' confidence in the Strait of Hormuz as a reliable energy and goods corridor, the IEA's chief warned."
+    },
+    {
+     "id": "35a9bbd668f8",
+     "title": "US Sour Crude’s War Premium Vanishes as Supply Surges",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT0E4SzBJeVR5Zm9EdEI5Uk5GNTB5cGFDblVvTGxPeUtTME9wRVVtT05wZExkNkR4X000QUdNdTVVNVFIS1ZLbTZjcFZrLVZmRGt6WGJ1cEt5RVJSTkozeEVsb3lSSHlGQmJMTVF4TkxhR1dMV3RBcGJ4Y2gtN0Eybkl4djVTOVBDVkVzLW5GeFh1dWs4c1ZfRmpXRE9wWDlza0xlYk9HSQ?oc=5",
+     "source": "Bloomberg.com",
+     "published": 1795106706,
+     "text": "US Sour Crude’s War Premium Vanishes as Supply Surges Bloomberg.com"
+    },
+    {
+     "id": "27f20e641f2c",
+     "title": "AI Jitters Haven't Slowed the Bet on U.S. Power Demand",
+     "link": "https://oilprice.com/Energy/Energy-General/AI-Jitters-Havent-Slowed-the-Bet-on-US-Power-Demand.html",
+     "source": "OilPrice.com",
+     "published": 1795104000,
+     "text": "We finally have hard data to show us exactly how much energy data centers are using in the United States, and the results are staggering. Driven by the artificial intelligence boom, energy-hungry data centers are popping up in record numbers around the country and driving up domestic energy demand after decades of plateaued growth. Data center hyperscalers in the United States alone now rival the energy demand of entire other nations, with worrying implications for energy security, economic inflation, and the climate. But AI development is careening…"
+    },
+    {
+     "id": "fa23f7791f78",
+     "title": "Crude Oil Prices Edge Higher on Fears of Escalation in US-Iran Conflict",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOakVQNFFWQWc4WldBSkN0LThtZkZvejcxRDBIb3U5bGoycEJUYWNaRDJPbXlNbVdudUVZX1drX0xmSzVsOGpPWGdWbi1lMk1CV1U0S2tOYkFIZVhleU0xa0dIeWJ6aW42Zlk0X29WNU1sdXBvWF9rQkVUcllJVVF4dUtNd1JUUHpDakh1S0lvVFgzN2xZUnFUdmVRZFlxRnloZ0JXZFJmbi1NUk0zV25iWF9JamNGdw?oc=5",
+     "source": "Barchart.com",
+     "published": 1795106310,
+     "text": "Crude Oil Prices Edge Higher on Fears of Escalation in US-Iran Conflict Barchart.com"
+    },
+    {
+     "id": "72d679cfd8cd",
+     "title": "Venezuela Turns to AI to Cut Methane Leaks",
+     "link": "https://oilprice.com/Latest-Energy-News/World-News/Venezuela-Turns-to-AI-to-Cut-Methane-Leaks.html",
+     "source": "OilPrice.com",
+     "published": 1795102200,
+     "text": "Venezuela is using artificial intelligence to reduce emissions and increase efficiency in its oil and gas industry, a senior official told Reuters on the sidelines of the COP31 summit in Antalya, as the world’s biggest crude reserves holder looks to boost production. Venezuela will not stop pumping oil, Albania del Mar Villarroel Gomez, vice minister for AI and efficiency in hydrocarbons, told Reuters. “Our policy is not to stop producing hydrocarbons,” the official told Reuters, as Venezuela defends its right to keep…"
+    },
+    {
+     "id": "dd1eedc4def2",
+     "title": "Stocks wobble with focus on Anthropic debut; oil prices rise",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOY2luRllWbTFkVkV1VUY2TExjb3kzSVQwcTZYRzhQeFNPOXpOWDVwWVo5SEhoc3RUbUZPTTQ2UjlBVkxNN2VTd0kyTE0xa2FPM05Pd2ktU1BiTHdxZ19uZGFGS0thSGtnZlIxSzQweHoyR3NWZ2ZyUElWcjY5RGg2M2JvZ29EMWxPbUFpbUxxUzdocHJWM194Z1FsbjBTSDBTUlE?oc=5",
+     "source": "CNA",
+     "published": 1795106204,
+     "text": "Stocks wobble with focus on Anthropic debut; oil prices rise CNA"
+    },
+    {
+     "id": "445879461148",
+     "title": "Russia Faces a Logistics Nightmare After Crimea Bridge Collapse",
+     "link": "https://oilprice.com/Geopolitics/Europe/Russia-Faces-a-Logistics-Nightmare-After-Crimea-Bridge-Collapse.html",
+     "source": "OilPrice.com",
+     "published": 1795098600,
+     "text": "It’s a $4 billion engineering showpiece, bridging 19 kilometers of Black Sea waterway and cementing Moscow’s grip on Crimea, the Ukrainian peninsula Russia occupied in 2014. Now, more than 200 meters of the Crimea Bridge lie wrecked in 9 meters of water, leaving an asphalt-and-steel debris field cluttering the Kerch Strait shipping channel and a gaping hole in Russia’s efforts to keep Crimea occupied and functional. The missile-and-drone attack was not the first time Ukraine has targeted the structure over the course of Russia’s…"
+    },
+    {
+     "id": "7941e9ee5c73",
+     "title": "Oil Futures Pick Up as Middle East Risks Remain",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeUlHaVFFSnlSWkY0ako5NjJsMTNsVjQ4eGhKc05oZGFWMDN4c3RQR0NyODVNUzNUenFRNS01Y1QyZi03Vm45eTNkbXF3bVBlTUhkWGVHeXIteUlPNFY2aEh3bnh4VXFaVzRMWk1fOV84SXQ4RlRMb2p4QWZ1b2NMb0JJQWZpdURHb2VLLVZVT20yQk5nWTBPUl9hUUxvcllXM0p1dFdxZjd2WWFlaEtVUGFoUzNHNG1IYWQyTkZfLUtOQQ?oc=5",
+     "source": "WSJ",
+     "published": 1795104720,
+     "text": "Oil Futures Pick Up as Middle East Risks Remain WSJ"
+    },
+    {
+     "id": "e0e4fb9a9dfc",
+     "title": "Australia Explores Gas Phase-Out Deal in Talks on Reservation Scheme",
+     "link": "https://oilprice.com/Latest-Energy-News/World-News/Australia-Explores-Gas-Phase-Out-Deal-in-Talks-on-Reservation-Scheme.html",
+     "source": "OilPrice.com",
+     "published": 1795098600,
+     "text": "Australia’s federal Labor government is considering a deal with the Greens to include a clause of gas phase-out in the new gas reservation scheme, amid deadlocked talks with the Liberal–National Coalition, sources familiar with the talks told Australian Financial Review on Thursday. Following the collapse of talks with the Coalition, the main opposition party, the federal Labor government is now talking to the Greens, focusing on a so-called “demand destruction” clause in the gas reservation scheme. The scheme, designed…"
+    },
+    {
+     "id": "0cde4cd2ef67",
+     "title": "New York Stock Market Reverses Gains Amid Rising Oil Prices, Yields",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOERXeXhJbE9ObmRsbC1jS1RiYndpRWFXV1ZLdEE3ekpOREFKbjhoczZGSmZCSHpOSmlJb1VIYnlXbG1Fa08wTUJhbmRXQXRzcmlLOHVvd0NPQlRwRmMxZGFpMEo1VFFod0g3SDlEaTBPeTVOUEpwZVU0U1ZpS2h3RHB1LVdpZUp1M1NDQmZn?oc=5",
+     "source": "조선일보",
+     "published": 1795104297,
+     "text": "New York Stock Market Reverses Gains Amid Rising Oil Prices, Yields 조선일보"
+    },
+    {
+     "id": "1ef7465616a0",
+     "title": "Traders Seek Long-Term Crude Supply Deals with Qatar",
+     "link": "https://oilprice.com/Latest-Energy-News/World-News/Traders-Seek-Long-Term-Crude-Supply-Deals-with-Qatar.html",
+     "source": "OilPrice.com",
+     "published": 1795095000,
+     "text": "The biggest international oil trading houses are in talks with state-owned QatarEnergy to receive supply of Qatari crude oil for 2027 amid recovering flows through the Strait of Hormuz and traders’ experience of shuttling crude through the chokepoint in wartime conditions. Some of the largest commodity traders are asking for Qatari crude for 2027, mostly the Qatar Marine and Land grades, anonymous sources involved in the talks earlier this month have told Bloomberg. While some refiners are still hesitant to commit supply from the Persian…"
+    }
+   ]
+  },
+  {
+   "key": "gold",
+   "label": "ทองคำ",
+   "items": [
+    {
+     "id": "59bd31bde66b",
+     "title": "Gold prices drop by Tk 17,554 in two weeks",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV0lVTXNWMDFrMnlRRmI3UDlNTUlIeWhiQjNYVlhMT1RNV0dfbnpkczBya1ItWlhlOVRxZ0I0VUk0WXRRQmxGMFU3aUl4eFVzeDBrR05ucUg3M3FqcU1FcURSbFFsWXdvc245ZTFuc1BudHVhOVhMbHJEMmtxWTJBN0lNbWdpOEVHZTdXZ1NCTHdCN0pNczZXeVBhV1RYN3c?oc=5",
+     "source": "New Age BD",
+     "published": 1795108968,
+     "text": "Gold prices drop by Tk 17,554 in two weeks New Age BD"
+    },
+    {
+     "id": "056525faf194",
+     "title": "Gold Slips as Investors Raid Bullion ETFs for Cash to Cover Tech Losses",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcm1YM21IcEt1RmdOV1FhblRqYy1fdEFNRE16eHdxRFctTl9kWnJPcHNxeGpYaFJFVW84ek9VeDdkOGNnbENid3lQSDY1ZmZKQlJvMXNnUHF2M25QZksxNEJjbjcyVENpSWNMSlhvbVBJYm1YMWNxUTlwVG9hbC03M3VKa2ptSmJqSGYtSHo4WTNXV09NbG1waHdRcktvLXEzNkFlTTU3cE4tbzlIS0dPaWR6VUQ0SkpwX19lMkdWRGNqT2kwa2RpZ2lJNXdYZzdrWUhlZ3VuM3V5dWs?oc=5",
+     "source": "ad-hoc-news.de",
+     "published": 1795106517,
+     "text": "Gold Slips as Investors Raid Bullion ETFs for Cash to Cover Tech Losses ad-hoc-news.de"
+    },
+    {
+     "id": "1b9d52590616",
+     "title": "Gold prices are plummeting today, November 20, 2026, with a stable bottom being established. Is it time to buy?",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObkVZbzZCM3BtcHRHcFpISkdqemhxaEVuUkJicmE1ckUycmZ2Wk5Bbkd4OElEMV92ZWFGQlk5ckdMRElPbkVXWVFjYzFpejhzZXk5LWJtT1ZkN1gwbkJKUEFUeG5TSzZGYnZBZG1TNHY1WlJkWXNza3d0TTQ3TE5qQnU0d2JfWU56M3YyRXlNTnFOdTVPLWl6cncxdFp6X3lsdHRIajhQMU0wV3d2SlJXMGlCTFJIWWRDN2VKNXcydWhFRWRQWTVR?oc=5",
+     "source": "Vietnam.vn",
+     "published": 1795108569,
+     "text": "Gold prices are plummeting today, November 20, 2026, with a stable bottom being established. Is it time to buy? Vietnam.vn"
+    },
+    {
+     "id": "87e88e9e2e06",
+     "title": "Hallmarking, XRF tests can detect gold adulteration: Bullion Association Chief",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUnlfb19uckxzRkZSbTd1eVBFODNfRDZYemhBcWtZV0Q3TXRCd091Y1hMRlFWV2tHdDFrdnJEeHVGQ3FDbTlZdTVDaUVTUlhGMm5TZ05QelE2RVRyblJqbV96S2gtTzhvb0xhbklXS2JaS2dUcFRvYlhIbUlvWnhoYXozRzc1TXM2a2E3dW5PRWtlT3p3ZEViYjlaeENzcUlWM2owMnRHc0RnTG5HYkZjeHJacVI4d9IBtgFBVV95cUxPUnlfb19uckxzRkZSbTd1eVBFODNfRDZYemhBcWtZV0Q3TXRCd091Y1hMRlFWV2tHdDFrdnJEeHVGQ3FDbTlZdTVDaUVTUlhGMm5TZ05QelE2RVRyblJqbV96S2gtTzhvb0xhbklXS2JaS2dUcFRvYlhIbUlvWnhoYXozRzc1TXM2a2E3dW5PRWtlT3p3ZEViYjlaeENzcUlWM2owMnRHc0RnTG5HYkZjeHJacVI4dw?oc=5",
+     "source": "Social News XYZ",
+     "published": 1795102317,
+     "text": "Hallmarking, XRF tests can detect gold adulteration: Bullion Association Chief Social News XYZ"
+    },
+    {
+     "id": "0e894c159d4b",
+     "title": "Gold Price Falls Below $3,800, Putting pressure on African producers’ export earnings and Public Finances",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNU9rd0R4elFIUV9JM1k3V3RoS2FSVHRvXzZTU0J5ci1BWjlRQzBDWE1sRWoyZ2huMEZjS19xODlYY0J4dWVHN0dwUzBhd0FYa3lqQjlmNVRfQ3pndUJ2MkRQQ0p0c3NLcXNvcjZwbGtZZlFINjl5OXNwMTNLZHNTcWhfd3BPR2IxV3J3dkZkV0dCVE5ySWoxSTFhd082dXUzczhxSm1OWXlCS2JBcERPNWdqdzRpRlRFZ0xVVldudmd6dHJvVG54bUppMTdaMndMZ1N1dHg4MVlzdw?oc=5",
+     "source": "Africa Sustainability Matters",
+     "published": 1795107615,
+     "text": "Gold Price Falls Below $3,800, Putting pressure on African producers’ export earnings and Public Finances Africa Sustainability Matters"
+    },
+    {
+     "id": "37701dc72549",
+     "title": "Mumbai Crime: Conman Posing As Political Party Office-Bearer Dupes 54-Year-Old Central Bank Of India Clerk Of",
+     "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNaGcyc3A1X2MzTGJJWTJTZk9RbERrcl9keTBiQmV5em9yNERHeXdMZnluM3ZNTXAzM2lfS01zUWt3c1BjNFVOd2JrSHVfRUhZdXJFY3BBbXRXZUVHUHc0U2k1LTF6ZmVuOXk1U0RRMXA4SzYzelFVWGVDYTRhelYyaHFIN0dJeklVNWU2TV9vS1VzZ1h4SFYyR0l5elQxcXZpQnNNbkZ5Rzdqb3JZTi1JbHRUSnZkVmY2S2VXVm5pUUlhUEwyOU9NRUJYdGtobVNTNUtNSW9CcldFdGJibVhEYVA2bmFIak11dVd5c1dLbTFmX1NwdE5EWVBCMWg3Sl9RWEpFbFZlNGEwbGpwM25YX2dnN0pXUkF5X2RJ0gGgAkFVX3lxTFA3Nkk1THJ4amI5akdaSHFIeDZaTDdDWVJHTXZYbTJhejNHdWpXYUN6bU90TnZ6Y2xkODdpQTJuRW5DRl9Ob0hIajdFaWgwWDZHUVFsbkd6bk1JSUY1MmFFVUQyQVZrWWRtWngzOXVFVGNrQUdMYWJrTXNCOFYzbkFJTjZFb1Z4WmE5RXBXQUx0VEx6bUFYbF9OamlxMWF5Q0FvS3BuZTQyYV9FS2NHTkg1eHc4UnBtMXM3YlRadDRnQXRZZTU3Yl9vcWFkYzFjdDFfUDFkT25nU0gzbGpXbVotVlQtczdKS0hOMW5CeWZUYXU0aFJ0WDRrVVVURDRyY2VyWmF1bGpVU0FSMWg4ZHZwMVphMy05YnF2MFB3bWhTYg?oc=5",
+     "source": "Free Press Journal",
+     "published": 1795100495,
+     "text": "Mumbai Crime: Conman Posing As Political Party Office-Bearer Dupes 54-Year-Old Central Bank Of India Clerk Of Free Press Journal"
+    },
+    {
+     "id": "547413b21dd3",
+     "title": "Gold price extends losses on tighter Fed outlook",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5rbVZHOEhIdFZ6S3FrVmMyNlZjN203WnNnbWJQeDRuaFhIbG5qMFFXei1fa1djd3Rnd3hDYVdGa3NlYjFmVGF4N2ptWDk4eFk0anptXzFseHNkSktfMFZ1YmJSd3dwMExYOV9aSlVwNkEzMG9hN24xeExkUQ?oc=5",
+     "source": "Mining.com.au",
+     "published": 1795102530,
+     "text": "Gold price extends losses on tighter Fed outlook Mining.com.au"
+    },
+    {
+     "id": "e86d63c3bf89",
+     "title": "The price of gold today, Nov. 19, 2026 — and the best places to buy",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1CWThmLWY0NFpPcERMSGJ0a2Q5X2M2Wnl4cGFULXpPX3hXRXROd2hBY09FdXpDMy1lWGo1N21wSzU4VUVBYk1XM2d4Q1lzbUJmNS1rakVqYlpYM280Yy10bGs3Qk4zNGN1U00xZ0NzTnVwN0Zxb2lN0gF3QVVfeXFMTUJZOGYtZjQ0Wk9wRExIYnRrZDlfYzZaeXhwYVQtek9feFdFdE53aEFjT0V1ekMzLWVYajU3bXBLNThVRUFiTVczZ3hDWXNtQmY1LWtqRWpiWlgzbzRjLXRsazdCTjM0Y3VTTTFnQ3NOdXA3RnFvaU0?oc=5",
+     "source": "CNBC",
+     "published": 1795098490,
+     "text": "The price of gold today, Nov. 19, 2026 — and the best places to buy CNBC"
+    },
+    {
+     "id": "ec2c36940c9d",
+     "title": "Gold Price Forecast Mexico 2026, 2027 and Next 5 Years (XAU/MXN)",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaHFTeG1nazdGWFJhLWdMUGFfV2sxVWx5Y1V4Q3JBc2FkZGNHeGVVS3ZsM0MyWFVPR0lpX3FTeElCd04zc1VLaGxKSDUxTklobkExVXNwa2RrUUFEVW4xQ2RLQ0d4MzZaNGd4NUJ4bDV5b1dnRkYxMzlzLVNHRUNVWUlxa1YwSkdEN1FqbXFqaXIzNk0?oc=5",
+     "source": "LiteFinance",
+     "published": 1795101696,
+     "text": "Gold Price Forecast Mexico 2026, 2027 and Next 5 Years (XAU/MXN) LiteFinance"
+    },
+    {
+     "id": "be7f9008b14a",
+     "title": "Gold extends losing streak to 8th sessions, sheds Rs 12,400 per 10gm; silver slides further",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOTZmLXFaQmxIWEdER0NFQ05SNV8ydDRPQW9xTkJzSndKNkxKVUc2OGQ3TGZzRkMwcGVxdmMyaUl2YXRUMHROa3NHZF9QTzNGclpGVHQycUR4dE45UDVHVk1PcmhHZmxOR1UzWU1qUlE0QTJjUVlGWUxjT1NPTTIyTjRkSS1xTjhvWXRqTGpqUG9VUkhqM3lZdG90UTBrcDV0ck5zdVFTNkRKYk1WRGhzNW82dUlaR0VMRThoV3Zhb0gwRmpZWGVDMENscVBvS3p6blgzelpmUkREd9IB5wFBVV95cUxNb0R5c2UwdlBfd3VIOUZyZGlhQnlaNXN3OU1kZXUtbW9VUGh2dno2bTlJV1dGUW43aHBLQ3hvU0dncV9MT1d0eVZWeXRUZ1BwTnQ0M2xLclg0MllJOXpUaHMyb3l3VjQ5bllzaE1RWWd0VHFyNWZQdlNsN19ELWhjMG9kb05wQWZYTjFhSV9EYTl2T3RnUjhzbERHX2hiU2ZXOUw3MUdyR1ExTUI5UGtJMEFoV1hPVnd1Vm9wREQ3aXVDNG5DRF9KS3BrM3JRdEZJOENDVDNCMWRvVWN5RmN3QkpoZFMzNU0?oc=5",
+     "source": "Deccan Herald",
+     "published": 1795097197,
+     "text": "Gold extends losing streak to 8th sessions, sheds Rs 12,400 per 10gm; silver slides further Deccan Herald"
+    },
+    {
+     "id": "84ce81f852ef",
+     "title": "Bitcoin vs Gold Price Forecast: XAU Hits 14-Month Low as BTC Retests $63K on Fed Rate Hike Fears",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWUVoSVRtZWNiN1piZU5vbTZUVlNiblJIRy11UDdvUEVlb1dxX3J6czlpaGcwWi1PR0ZsZEEyR1gwYy1KdXJaNjA0UzhrSlJhTk9EQnNWUTJMVFBxV25UY0hnRThYeDBrZmtGYkZ6aVBzQTRvTl9YSEhGZjdXVFFRNEZnMncxbl84ZXprSnR0WTNkQ3FHZlFtSGp0ckdOTHRMUkFLN3J1Zmt1MEVPTENfVjlYSUc4WVd2?oc=5",
+     "source": "CoinGape",
+     "published": 1795100072,
+     "text": "Bitcoin vs Gold Price Forecast: XAU Hits 14-Month Low as BTC Retests $63K on Fed Rate Hike Fears CoinGape"
+    },
+    {
+     "id": "65e958b09660",
+     "title": "Gold rate today: Why is price of gold down below USD 4000-mark? Check bullion prediction for December",
+     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQRHptdW1lUFBPMkpDTThxLXdKeHdnLUMtOGRmQjdOVTFyLXZfMEU3WFk0bXFmWm5xVHlUSlJZdHc0Z2xxUXRzT3M4cFNYMWgwSEc2NGpRYVZOT2hXSGlTOUgzdTZXZUcwMlZka0NWUmRDbEZSWE5xS3ViNERwUlh6RXpERDZWQ1VBakt2WG00d3B5VThHc1lGZUpsX3VwLXp6SWNPNHpqanFTY3Q4djBHd0ZmMUYzVVE3ZE1KclAtalVOTnZDblNGUC1icUtOZGF4SmdRVDYwenY4NnFTQ0VPUTJqaGpkbENtNDA5ZmxVWnN0NkJuaG5YbGNJYXc4X3RtUlMtZ0RQb2XSAYICQVVfeXFMT01Tdl9Vejl6cUFpcGp5R1hnd2IxekVfa2N3N1VNQnBFY0NQTDFteFlmVFdKRFVTMTFMTzNKNG1TQ3hoV2I2OFhEbkVXTDRkWGlxSzVlc2U3cnl2dE1kdE1Ec0RxenJ5RlljT1R0TDUyTTk4eXNxZUZvTWNuMUZhRWo0MUlMRklVa0Mzd3RsY1hWY3NuNkc0SktCLWRPeUIyZGZfcHpXNElBNHdjUGdRdUwyNVdlZ1VBMkIxaUFBMzBoRjkzRUpheGJ0Y2xsSjBIUEF2Rlk3bXZrZm9WTndBNllwUlNYWTlMakNyR1IzU3lrRGRKZHRPUXRDSjdwbnpPNXh3?oc=5",
+     "source": "The Economic Times",
+     "published": 1795094707,
+     "text": "Gold rate today: Why is price of gold down below USD 4000-mark? Check bullion prediction for December The Economic Times"
+    }
+   ]
+  },
+  {
+   "key": "tech",
+   "label": "เทคโนโลยี",
+   "items": [
+    {
+     "id": "27f297a759c1",
+     "title": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
+     "link": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+     "source": "TechCrunch",
+     "published": 1795107600,
+     "text": "Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers."
+    },
+    {
+     "id": "0011ae0145f0",
+     "title": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
+     "link": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
+     "source": "MIT Technology Review",
+     "published": 1795093800,
+     "text": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A human liver has been kept alive outside the body for a record seven weeks Researchers in Australia claim they’ve kept a human liver alive on life support outside the body…"
+    },
+    {
+     "id": "983221233ae8",
+     "title": "Mouse fight club might explain why we like to watch violent things",
+     "link": "https://arstechnica.com/science/2026/11/watching-mouse-fight-club-teaches-the-critters-how-to-fight/",
+     "source": "Ars Technica",
+     "published": 1795097078,
+     "text": "Watching fights wasn't as good as practical experience, but it got the mice halfway there."
+    },
+    {
+     "id": "e1761609bd5f",
+     "title": "Amazon’s last-gen Kindle Paperwhite hasn’t been this cheap since June",
+     "link": "https://www.theverge.com/gadgets/1037635/amazon-kindle-paperwhite-black-friday-2026-deal-sale",
+     "source": "The Verge",
+     "published": 1795108500,
+     "text": "alt: Amazon’s last-gen Kindle Paperwhite is just $10 more than the base modelalt: The last-gen Kindle Paperwhite for $130 is a stellar Black Friday deal Amazon debuted its latest Kindle Paperwhite in October, which is now available for $199.99 and replaces the outgoing 2024 model. However, given the minimal improvements on the new model — […]"
+    },
+    {
+     "id": "8214829797b2",
+     "title": "Anthropic lifts Nasdaq futures and tech stocks ahead of its record-breaking IPO",
+     "link": "https://www.cnbc.com/2026/11/19/anthropic-lifts-nasdaq-futures-and-tech-stocks-ahead-of-its-record-breaking-ipo.html",
+     "source": "CNBC Tech",
+     "published": 1795091429,
+     "text": "Shares price above the expected range, raising over $81 billion"
+    },
+    {
+     "id": "695c7c40782b",
+     "title": "Sources: Alphabet plans to raise at least CA$5B in a five-part Canadian bond sale, after raising CA$8.5B in its debut Canadian offering in May (Bloomberg)",
+     "link": "https://www.techmeme.com/261119/p42",
+     "source": "Techmeme",
+     "published": 1795108502,
+     "text": "Bloomberg : Sources: Alphabet plans to raise at least CA$5B in a five-part Canadian bond sale, after raising CA$8.5B in its debut Canadian offering in May — Alphabet Inc. is returning to the Canadian market with a five-part bond sale, just six months after issuing its first notes in the currency."
+    },
+    {
+     "id": "c5e7bc1c4238",
+     "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+     "link": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+     "source": "BleepingComputer",
+     "published": 1795105703,
+     "text": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]"
+    },
+    {
+     "id": "ec9ddb99d7aa",
+     "title": "‘I’m going to kill you’: Neighbour from hell’s outburst over CCTV cameras",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTVA5aHl0bDJLcWNGdDhyRmw0LTFjcnpoVjVWWHdBaXZQVlBDRXZobzlHZjJ0VHM4cmxOeFNwOUlIVW82dDFsZUhKMjAtWi15alpzd0ZUMGE0Z3FOZlVfWGxQYjg0b3YyRjdtdFFsUWNybHlIZlFnY3lnVU5qemx0YmhwQVcwS0pGbTFHRjRlWG9rS3Z0MFRNZm5PV3BqSVN3d21ISl94N01nYVRzM0otVnc2Ym1rS0Q1RC1MeU1rcVBjVUY1MkplRFZTeXl2RVlqd0dKWWdR?oc=5",
+     "source": "Herald Sun",
+     "published": 1795108904,
+     "text": "‘I’m going to kill you’: Neighbour from hell’s outburst over CCTV cameras Herald Sun"
+    },
+    {
+     "id": "d680d8751ecd",
+     "title": "Anthropic hits NASDAQ exchanges at $111, 33% above IPO price",
+     "link": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+     "source": "TechCrunch",
+     "published": 1795107563,
+     "text": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised."
+    },
+    {
+     "id": "200c26dcc801",
+     "title": "A human liver has been kept alive outside the body for a record seven weeks",
+     "link": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/",
+     "source": "MIT Technology Review",
+     "published": 1795089600,
+     "text": "Researchers in Australia claim they’ve kept a human liver alive, on life support, outside the body for seven weeks, opening up speculative new possibilities in biomedical engineering. The feat, whose details are pending publication, was carried out in Sydney after a team led by surgeon and inventor Carlo Pulitano connected a donated liver to a…"
+    },
+    {
+     "id": "a2d0889c92df",
+     "title": "NASA's new Moon plans have a problem: Orion wasn't designed to fly this way",
+     "link": "https://arstechnica.com/space/2026/11/to-make-moon-landings-easier-nasa-is-making-life-harder-for-orion/",
+     "source": "Ars Technica",
+     "published": 1795095602,
+     "text": "\"We also have a responsibility to not go too fast and cut too many corners.\""
+    },
+    {
+     "id": "d0946e26531a",
+     "title": "Anthropic starts trading on Wall Street",
+     "link": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+     "source": "The Verge",
+     "published": 1795107121,
+     "text": "Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, […]"
+    },
+    {
+     "id": "5bc1bac2c163",
+     "title": "Jim Cramer says Nvidia has a new problem — and it has nothing to do with earnings",
+     "link": "https://www.cnbc.com/2026/11/18/nvidia-cramer-anthropic-ipo-ceo.html",
+     "source": "CNBC Tech",
+     "published": 1795087569,
+     "text": "CNBC's Jim Cramer warned that Anthropic's highly anticipated IPO presents another headwind for Nvidia."
+    },
+    {
+     "id": "78cbb6a660ac",
+     "title": "London-based Boltz, which is developing AI models to speed up drug discovery, raised a $110M Series A led by Bessemer, after raising a $28M seed in 2025 (John Reynolds/Tech.eu)",
+     "link": "https://www.techmeme.com/261119/p41",
+     "source": "Techmeme",
+     "published": 1795107916,
+     "text": "John Reynolds / Tech.eu : London-based Boltz, which is developing AI models to speed up drug discovery, raised a $110M Series A led by Bessemer, after raising a $28M seed in 2025 — Boltz was spun out of MIT but is now located in London. — London-based AI drug discovery startup Boltz has raised a $110m Series A funding round …"
+    },
+    {
+     "id": "75044bab3e73",
+     "title": "Five warning signs of ransomware breach before encryption or data theft",
+     "link": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+     "source": "BleepingComputer",
+     "published": 1795100410,
+     "text": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical systems and backups. [...]"
+    },
+    {
+     "id": "e66944a5dc2b",
+     "title": "Anele Tembe inquest: Cop flags contradictions in friend’s account as room disarray and CCTV questioned",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZnNmcVM4VGYwMlYwN25mdmQ1VV9IRHZ2VnpjTjJYdmpUeGN6SU9pV1piUUZ4SlBDV012cWQ2NXRGSE9FU0g3U1M0UFByZWU0V0xlQXRncndQX01lZXgwQWVHSFJXZ1h2LVp5QVhTYzN2NFIxcTBKdW1hbEgtM3U1ZU9oaGF5a0JiclBSOFZERHdUVmhYSkFuaHZ4eTUxR2M1ckR2VElLdXI3dWRMdjU4SG5iNV9saDRNMGdYeTdpM0hqMDc2SGZzV0VMdFNwM2c?oc=5",
+     "source": "EWN",
+     "published": 1795107296,
+     "text": "Anele Tembe inquest: Cop flags contradictions in friend’s account as room disarray and CCTV questioned EWN"
+    },
+    {
+     "id": "b80c1a82c17c",
+     "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+     "link": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+     "source": "TechCrunch",
+     "published": 1795105181,
+     "text": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure."
+    },
+    {
+     "id": "1208f01e00a6",
+     "title": "What a billion-dollar deal says about the US battery market",
+     "link": "https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/",
+     "source": "MIT Technology Review",
+     "published": 1795086000,
+     "text": "After a tough few years littered with some high-profile failures, there’s some positive news for next-generation batteries in the US. Sila just signed an agreement with Panasonic Energy, a global battery manufacturer, to supply silicon-carbon anode material, a possible key to smaller, lighter batteries. It’s a deal that Sila says could be worth more than…"
+    },
+    {
+     "id": "45584a3597b1",
+     "title": "How to tell a cyberattack from a plain old outage",
+     "link": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/",
+     "source": "Ars Technica",
+     "published": 1795086781,
+     "text": "When everything goes down, don’t assume it’s a cyberattack."
+    },
+    {
+     "id": "0be3fe3fa1cf",
+     "title": "Microsoft is killing its great tasks app in favor of its worse tasks app",
+     "link": "https://www.theverge.com/tech/1037558/microsoft-to-do-shutdown-planner",
+     "source": "The Verge",
+     "published": 1795105692,
+     "text": "In 2015 Microsoft acquired a to-do list app called Wunderlist, for a price rumored to be as high as $200 million. Wunderlist fans were worried that Microsoft would make their beloved app soulless and corporate, or worse, hide it behind some convoluted enterprise subscription. But against all odds, Microsoft was a good steward: The app […]"
+    },
+    {
+     "id": "564866e14a73",
+     "title": "Musk accuses Zelenskyy of lying about Starshield restrictions in Ukraine",
+     "link": "https://www.cnbc.com/2026/11/19/elon-musk-zelenskyy-starshield-ukraine.html",
+     "source": "CNBC Tech",
+     "published": 1795068449,
+     "text": "Elon Musk was asked about Zelenskyy claims over the Starshield network, and he said, \"I don't want to blow your mind, but Zelenskyy is not always truthful.\""
+    },
+    {
+     "id": "be573a319a8d",
+     "title": "Anthropic makes its Nasdaq debut, opening at $111.50 per share after pricing at $83 each, giving it a ~$2T market cap, in a historic moment for the AI industry (Reuters)",
+     "link": "https://www.techmeme.com/261119/p40",
+     "source": "Techmeme",
+     "published": 1795107395,
+     "text": "Reuters : Anthropic makes its Nasdaq debut, opening at $111.50 per share after pricing at $83 each, giving it a ~$2T market cap, in a historic moment for the AI industry — Anthropic's (ANT.O) market value hit $2 trillion in its Nasdaq debut on Thursday, soaring past SpaceX's (SPCX.O) …"
+    },
+    {
+     "id": "7cc3b724b66a",
+     "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+     "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+     "source": "BleepingComputer",
+     "published": 1795100244,
+     "text": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]"
+    },
+    {
+     "id": "7a3b979b9d11",
+     "title": "CCTV appeal: Police investigate alleged theft of bag containing Lego in Louth",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT2dxYlhOYTIzNHNJOEZHX3doamk1OW5OajZDMGljakppeWlzUk80OFV4TEZwR000ZzRSXzBhWGNsVEZQYi1WX0l0RGphanJwMl95ZXRRVkEtNUVBTHdkUjZiY0Rpa2F4SDQ2Q2UxNEctb3Z4Z3VoTGtJVDV3Q3VKNkNiZ1NiNUI3M2t5d2QtSUdFbE5Oa2tSUE5pZXFvMldhNGZSbnVXMy1zZzVEUnRST2MzN19ENE5wSWdWV252a1NvSWd5OWYw?oc=5",
+     "source": "LincolnshireWorld",
+     "published": 1795106040,
+     "text": "CCTV appeal: Police investigate alleged theft of bag containing Lego in Louth LincolnshireWorld"
+    },
+    {
+     "id": "41a84fbefbc8",
+     "title": "UK government forced to disclose secret Apple backdoor order",
+     "link": "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/",
+     "source": "TechCrunch",
+     "published": 1795102340,
+     "text": "The U.K. tribunal's ruling rejected London's claim that disclosing the order would be damaging to national security."
+    }
+   ]
+  },
+  {
+   "key": "health",
+   "label": "การแพทย์และสุขภาพ",
+   "items": [
+    {
+     "id": "ab0ada5b1899",
+     "title": "STAT+: Lawmakers want U.S. biotech to outcompete China",
+     "link": "https://www.statnews.com/2026/11/19/biotech-news-lawmakers-want-us-biotech-to-outcompete-china/",
+     "source": "STAT News",
+     "published": 1795107886,
+     "text": "Lawmakers leading the congressional BIOTech Caucus say Washington needs to act in the sector — and fast:"
+    },
+    {
+     "id": "9086ca40964e",
+     "title": "Novartis raises blockbuster drug forecasts to $18 billion as it seeks to prove growth can last",
+     "link": "https://www.cnbc.com/2026/11/19/novartis-stock-cmd-2026-ceo.html",
+     "source": "CNBC Health",
+     "published": 1795082273,
+     "text": "The drugmaker cited strong demand for its blockbuster drugs as it upgraded peak sales forecasts for multiple sclerosis, leukemia, and cholesterol medicines."
+    },
+    {
+     "id": "fd543fa62123",
+     "title": "Infinite scroll and autoplay are fueling a global problem, commission warns",
+     "link": "https://medicalxpress.com/news/2026-11-infinite-scroll-autoplay-fueling-global.html",
+     "source": "Medical Xpress",
+     "published": 1795108813,
+     "text": "More than one in 10 people worldwide may be affected by problematic internet use, with researchers warning the economic and social costs could run into billions of dollars each year. In the U.K. alone, this burden has been estimated at £10 billion to £12 billion annually."
+    },
+    {
+     "id": "d9aaf119b112",
+     "title": "Common classroom accommodations for ADHD fail to improve student behavior or schoolwork in clinical trial",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOUtVV3Z2cGV1aDhDM2l4dnVSZ2JTU0ticVBnSlEzQ2VVaTRrczVJc2RLclJzU1lIMi1wZXBJSHVOb3kwNV9saG1aNF9ISl9jdjdjZDBFVDAwNVllRlVtV0VkdDh1U2xoamZYOVdPeXB3eUVYZkpBU0xuSjNDX2ZZZ0xwT3pVODMxcUFDMEUxMEJFejN2Skp5VGlYc3BKTEdqZmJYRVY1b3ZrcG40V3MtMkQ4RnZHTDR6RllDR3ZKeVZzQzluUW1WemN3?oc=5",
+     "source": "PsyPost",
+     "published": 1795108661,
+     "text": "Common classroom accommodations for ADHD fail to improve student behavior or schoolwork in clinical trial PsyPost"
+    },
+    {
+     "id": "992bb311c1ae",
+     "title": "STAT+: Peptide market poised to explode with new Hims and Noom launches",
+     "link": "https://www.statnews.com/2026/11/19/hims-noom-enter-peptide-market-mainstream-products-health-risks/",
+     "source": "STAT News",
+     "published": 1795107587,
+     "text": "Two telehealth giants rolled out peptide programs this week after HHS made it easier for compounding pharmacies to offer drugs like BPC-157."
+    },
+    {
+     "id": "3da9c50c1b19",
+     "title": "CEO turned informant: How the FDA built a case against executives promising cheap medications",
+     "link": "https://www.cnbc.com/2026/11/18/fda-canarx-case-informant.html",
+     "source": "CNBC Health",
+     "published": 1795036034,
+     "text": "The FDA's unprecedented criminal case against an alternative funding program hinged on the cooperation of a peer CEO, according to a court record."
+    },
+    {
+     "id": "d4c5107545f3",
+     "title": "Exercise intensity may influence postexercise cooling",
+     "link": "https://medicalxpress.com/news/2026-11-intensity-postexercise-cooling.html",
+     "source": "Medical Xpress",
+     "published": 1795108804,
+     "text": "Athletes and physically active individuals often exercise in hot environments, which can dangerously increase body temperature and cardiovascular strain. Water immersion is a commonly used strategy to cool the body after exercise because water transfers heat more efficiently than air. However, how quickly the body cools down may depend on the type of exercise performed before cooling begins."
+    },
+    {
+     "id": "72efe3b7a955",
+     "title": "Recent Clinical Trial Software Market Analysis by The Business Research Company, Emphasizing Upcoming Industry Trends",
+     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQT2gzZU5tNkcyWXFyY2I5MzBmSS14b0RKVmswUXRIcjh5S2ZvLWs1VW14QUVGM2RrSEZMNndYbjdUNmhNMkdoanJ4dHdPdzlTa0U1dEFnUnUwWWFtYV9PWGNQRlhPMkZRbjBSMDVNWTVKVlliU0JiX09nTTdpdzBjU3ZLSkV4d1plVFlMLTdlQV93ZEpKa1JjT0V3NmVMdXlwd2hnZl80U0ZReEc3MVZJcldnYnhoWXBUTVlTUmNRVVVjRk9qZmZVb3BKM21qcnFxLWpxMlQzMmlURHkzRktiLThrWVVEaFhIZU1aUEY1QQ?oc=5",
+     "source": "EIN News",
+     "published": 1795108500,
+     "text": "Recent Clinical Trial Software Market Analysis by The Business Research Company, Emphasizing Upcoming Industry Trends EIN News"
+    },
+    {
+     "id": "be7d6a94b794",
+     "title": "STAT+: MAHA PAC’s steakhouse spend",
+     "link": "https://www.statnews.com/2026/11/19/maha-pac-midterm-election-spending-fda-questions-after-heidi-overton/",
+     "source": "STAT News",
+     "published": 1795105807,
+     "text": "MAHA PAC's curious spending decisions, and a close look at what's next for the FDA."
+    },
+    {
+     "id": "ee8688f714bd",
+     "title": "Hims & Hers launches new peptide treatments — while admitting there's more to learn about efficacy",
+     "link": "https://www.cnbc.com/2026/11/18/hims-hers-peptides-plus-treatments.html",
+     "source": "CNBC Health",
+     "published": 1795010572,
+     "text": "The telehealth company will now offer compounded forms of sermorelin, glutathione, NAD+, vitamin B-12 and L-carnitine, none of which are approved by the FDA."
+    },
+    {
+     "id": "25d87eb9ede6",
+     "title": "When's a new organ not really new? Two anatomists explain",
+     "link": "https://medicalxpress.com/news/2026-11-anatomists.html",
+     "source": "Medical Xpress",
+     "published": 1795107609,
+     "text": "People have been dissecting the human body for more than 2,500 years. In recent times, we've been over every nanometer with high-resolution medical imaging. So you'd think we know all there is to know about human anatomy. Surely, there are no new organs left to discover."
+    },
+    {
+     "id": "bad2fb89e1e3",
+     "title": "Clinical Trial Support Services Market is expected to grow to $35.97 Bn by 2030, fueled by increasing industry demand",
+     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPWllzR1JMNjhENWhSYWpHM0R6dU9VUk80NlV3b2FkUFRGS1pVYzRLc3lJWHNab1JNRmZ3T1FKSXV2c3JmaWFFcGlGNGRWYk1QTk1IVjBxVTFXR3JpcURQRzNYc0VIM1k0ZFRHSDFzR2xHQ1oweTRORHlfWlZOSkpSRjZCWmJvV241UVd1Z1R4ZjEzRHF6QVNOcDU5ZEZpaEVpbXBCeHhQVmp1RXBMZTZieEFsSVU4RFZmSHBEOWV0TVJUZWFuNTcwMV84N1d4alZpRGoyTWo1SnBDN3pXcUdjbnVHWnJ0ZFNSZmljWWZB?oc=5",
+     "source": "EIN News",
+     "published": 1795108500,
+     "text": "Clinical Trial Support Services Market is expected to grow to $35.97 Bn by 2030, fueled by increasing industry demand EIN News"
+    },
+    {
+     "id": "485db9cff50f",
+     "title": "National Academies report calls for faster decisions on publication retractions and corrections",
+     "link": "https://www.statnews.com/2026/11/19/national-academies-report-proposes-faster-research-retractions/",
+     "source": "STAT News",
+     "published": 1795104000,
+     "text": "The National Academies urged the scientific community to respond more aggressively to claims of errors or manipulated data in published research"
+    },
+    {
+     "id": "3bc774020b98",
+     "title": "Study reveals why a rare mutation behind Dravet syndrome is so deadly",
+     "link": "https://medicalxpress.com/news/2026-11-reveals-rare-mutation-dravet-syndrome.html",
+     "source": "Medical Xpress",
+     "published": 1795107601,
+     "text": "Dravet syndrome is a rare developmental disease that causes epileptic seizures along with movement and balance disorders, intellectual disability, cognitive delay and other issues in children. Devastatingly, Dravet syndrome increases the risk of sudden unexplained death in epilepsy (SUDEP)."
+    },
+    {
+     "id": "d9726cb20b0e",
+     "title": "Abbott launches clinical trial for software-guided balloon-expandable TAVI system",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTmpuR0lkeUlveThOSkpWREpHYmF5SlduVTFjWnRTakVYbWVFV3FZbjViTFBCOWtGaDd6RmtNWkxEcVlHTmd5RDAyX20tQzRzUFR3aXFGUnJEZTU0OG1kNnVDaUdZa3pDY3RXWnVBMmV4TEVnanFLT25Wa0ZCTFc4bXlaNWFOcFF6OVBmcDhzZXlLNFN5MVNCamJyWXVaWG14Rms5dy1MMjVHajcyZWpnSVFodGgyekgtSEE?oc=5",
+     "source": "MassDevice",
+     "published": 1795108056,
+     "text": "Abbott launches clinical trial for software-guided balloon-expandable TAVI system MassDevice"
+    },
+    {
+     "id": "6681563c56e1",
+     "title": "STAT+: Epic defends competitive practices; promises AI access to records",
+     "link": "https://www.statnews.com/2026/11/19/epic-defends-competitive-practices-promises-ai-access-health-tech/",
+     "source": "STAT News",
+     "published": 1795098068,
+     "text": "In this edition of STAT Health Tech: EHR giant, Epic defends its competitive tactics, new data on AI and health care costs, and HLTH news."
+    },
+    {
+     "id": "69be71c32b64",
+     "title": "U.S. loses measles elimination status: A concern for pregnant women, children",
+     "link": "https://medicalxpress.com/news/2026-11-measles-status-pregnant-women-children.html",
+     "source": "Medical Xpress",
+     "published": 1795106426,
+     "text": "The United States has officially lost its measles elimination status from the Pan American Health Organization—a grim milestone driven by surging outbreaks and declining vaccination coverage nationwide. As public health officials grapple with this historic setback, a critical blind spot is threatening one of our most vulnerable populations: pregnant women."
+    },
+    {
+     "id": "d0547303e623",
+     "title": "Lawmakers want U.S. biotech to outcompete China",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVWRtZURoX1gwNG9vNjJLaXNJT3lpNVV0WkQ3ai1pZlB0OXdLOFVTaVVBUW1idE9XNmhUQnEwSmNnQnR3MDhWeFpjQ0x0RjZnVllaSjBZS3dub0tSVnRfYWEtWEVVSEo0NmxYdVlJMVNLNlh5QlB1X2ZneWZicjdwTktBUjVXdjZ0TWZSc0xoNEJZVTFpUFhaWVlaZw?oc=5",
+     "source": "STAT",
+     "published": 1795107929,
+     "text": "Lawmakers want U.S. biotech to outcompete China STAT"
+    },
+    {
+     "id": "0c6185578ea8",
+     "title": "STAT+: Pharmalittle: We’re reading about a Merck AI deal, China and the pharma supply chain, and more",
+     "link": "https://www.statnews.com/pharmalot/2026/11/19/merck-isomorphic-ai-deal-china-pharmaceutical-supply-chain/",
+     "source": "STAT News",
+     "published": 1795095393,
+     "text": "Merck is entering a research collaboration with Isomorphic Labs, the AI drug designer built on a Nobel-winning technology"
+    },
+    {
+     "id": "96519391daee",
+     "title": "A potential pathway to reversing liver fibrosis targets specialized immune cells",
+     "link": "https://medicalxpress.com/news/2026-11-potential-pathway-reversing-liver-fibrosis.html",
+     "source": "Medical Xpress",
+     "published": 1795106416,
+     "text": "A new study by Western University researchers has identified a potential pathway to reversing liver fibrosis, a condition that can progress to life-threatening liver disease. Published in Science Advances, the findings demonstrate how specialized immune cells, known as mucosa-associated invariant T cells (MAIT cells), contribute to liver scarring—and how targeting them could help mitigate or reverse the damage."
+    }
+   ]
+  }
+ ],
+ "title": "ข่าวประจำวัน"
+}
