@@ -1,0 +1,800 @@
+{
+ "date": "2026-11-23",
+ "collected_at": "2026-11-23T02:59:41+07:00",
+ "models": [
+  "gemini/gemini-flash-lite-latest"
+ ],
+ "summary_failed": 5,
+ "prices": [],
+ "theme_prices": [],
+ "categories": [
+  {
+   "key": "breaking",
+   "label": "ข่าวด่วนเทค (Techmeme · Hacker News)",
+   "items": [
+    {
+     "id": "fd7ee2e54f18",
+     "title": "A week after urging an Nvidia shake-up, Scott Bessent says Jensen Huang's return should depend on probes of its China chip sales and presses Nvidia for answers (Alan Rappeport/New York Times)",
+     "link": "https://www.techmeme.com/261122/p10",
+     "source": "Techmeme",
+     "published": 1795377001,
+     "text": "Alan Rappeport / New York Times : A week after urging an Nvidia shake-up, Scott Bessent says Jensen Huang's return should depend on probes of its China chip sales and presses Nvidia for answers — The treasury secretary said on CBS that it was too soon to say if Jensen Huang should return as the company's chief executive.",
+     "summary_th": "Scott Bessent ระบุว่าการกลับมาดำรงตำแหน่งของ Jensen Huang ควรขึ้นอยู่กับการตรวจสอบยอดขายชิปในจีน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "scott bessent",
+      "jensen huang",
+      "china"
+     ],
+     "entities": [
+      "Scott Bessent",
+      "Jensen Huang",
+      "Nvidia"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "fcd127e1b629",
+     "title": "OpenAI shares its models' perplexity, or how well they predict data, and urges pacing limits based on such metrics, citing a possible 2027 avalanche of AI gains (Jakub Pachocki/OpenAI)",
+     "link": "https://www.techmeme.com/261122/p9",
+     "source": "Techmeme",
+     "published": 1795371901,
+     "text": "Jakub Pachocki / OpenAI : OpenAI shares its models' perplexity, or how well they predict data, and urges pacing limits based on such metrics, citing a possible 2027 avalanche of AI gains — - Difficulty of comparison across labs. … - Detachment from actionable evaluations. … - Not accounting for advances outside of pretraining.",
+     "summary_th": "OpenAI เปิดเผยข้อมูลความซับซ้อน (perplexity) ของโมเดลและเรียกร้องให้มีการกำหนดขีดจำกัดตามตัวชี้วัดดังกล่าว",
+     "importance": 2,
+     "numbers": [
+      "2027"
+     ],
+     "tags": [
+      "openai",
+      "ai",
+      "models"
+     ],
+     "entities": [
+      "OpenAI",
+      "Jakub Pachocki"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "b5cfab92999a",
+     "title": "Sources: amid leak fears, Anthropic limited some IPO banks to four-person teams, used a view-logging file platform, and sought six-month bans on advising rivals (Reuters)",
+     "link": "https://www.techmeme.com/261122/p8",
+     "source": "Techmeme",
+     "published": 1795367701,
+     "text": "Reuters : Sources: amid leak fears, Anthropic limited some IPO banks to four-person teams, used a view-logging file platform, and sought six-month bans on advising rivals — For the second time this year, Wall Street bankers and lawyers took home a massive paycheck from a record-setting initial public offering.",
+     "summary_th": "Anthropic จำกัดทีมธนาคาร IPO ให้เหลือ 4 คนและใช้แพลตฟอร์มบันทึกการดูไฟล์เพื่อป้องกันการรั่วไหล",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "anthropic",
+      "ipo",
+      "banking"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "674f984ed556",
+     "title": "Jony Ive, ex-OpenAI product designer Joey Flynn, and others on Silicon Valley's obsession with \"taste\" as a moat against AI slop and whether AI can learn it (Jonah Weiner/New York Times)",
+     "link": "https://www.techmeme.com/261122/p7",
+     "source": "Techmeme",
+     "published": 1795359634,
+     "text": "Jonah Weiner / New York Times : Jony Ive, ex-OpenAI product designer Joey Flynn, and others on Silicon Valley's obsession with “taste” as a moat against AI slop and whether AI can learn it — To move through A.I.-era San Francisco as a relatively normal person is to confront the sheer volume of bewildering concepts that tech has lately thrust upon us.",
+     "summary_th": "Jony Ive และ Joey Flynn พูดคุยถึงความหมั่งมุ่นของซิลิคอนแวลลีย์เกี่ยวกับ \"รสนิยม\" ในยุค AI",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "jony ive",
+      "joey flynn",
+      "ai",
+      "silicon valley"
+     ],
+     "entities": [
+      "Jony Ive",
+      "Joey Flynn"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    }
+   ]
+  },
+  {
+   "key": "security",
+   "label": "ช่องโหว่และภัยไซเบอร์",
+   "items": [
+    {
+     "id": "e84afceb005f",
+     "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+     "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+     "source": "BleepingComputer",
+     "published": 1795373137,
+     "text": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]",
+     "summary_th": "แฮกเกอร์ฉวยโอกาสจากช่องโหว่บริการคลาวด์ของ GL.iNet เพื่อติดตั้งมัลแวร์และเข้าถึงเราเตอร์กับอุปกรณ์ KVM ของลูกค้า",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "gl.inet",
+      "malware",
+      "router",
+      "cloud"
+     ],
+     "entities": [
+      "GL.iNet"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "aeb7ef21f8ed",
+     "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
+     "link": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+     "source": "SecurityWeek",
+     "published": 1795308782,
+     "text": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains. The post FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says appeared first on SecurityWeek .",
+     "summary_th": "FBI กำลังสืบสวนเหตุแฮกฐานข้อมูลอาชญากรรมแห่งชาติที่ดูแลโดยหน่วยงาน",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "fbi",
+      "database",
+      "hack",
+      "law enforcement"
+     ],
+     "entities": [
+      "FBI"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "78074d39dfa2",
+     "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+     "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+     "source": "The Hacker News",
+     "published": 1795324015,
+     "text": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. OpenRouter, a gateway that routes customers' AI requests to a pool of",
+     "summary_th": "OpenRouter ตัดผู้ให้บริการ 3 รายออกหลังนักวิจัยพบการขโมยข้อมูลพรอมต์ในบริษัทโฮสติ้ง AI นานหลายเดือน",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "openrouter",
+      "ai",
+      "data theft",
+      "dragos"
+     ],
+     "entities": [
+      "OpenRouter",
+      "Dragos"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "59bdbded45c1",
+     "title": "CISA Adds Four Actively Exploited Flaws Including vCenter Bypass",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRzZHRV9fTHk2N0dXaW5qcElKaDVRYVZfVk4xOURpNE5ZU2hqbnZDTEU4NVZEcktZYTU2YkZWQmVMQzhERVRfQS1VX1gzdDhRaG1TNkJBQXFJTGZiWkVhRVdUUF90VVNGYTJYZWpwbElDaGYtVjNuMFd3M2V5YkRvRXo1d0J2THVxYjI1UkVya1dxTk93MUo0T2pVUkpncUFEdlgwVFBpbExtWlVqT1RlZnhWc2pmZXFGNWFoY2UtNExsVDZnRHFxZHY0SDhDeF9Y?oc=5",
+     "source": "UrduPoint",
+     "published": 1795369501,
+     "text": "CISA Adds Four Actively Exploited Flaws Including vCenter Bypass UrduPoint",
+     "summary_th": "CISA เพิ่มช่องโหว่ที่ถูกโจมตีจริง 4 รายการ รวมถึงช่องโหว่บายพาส vCenter เข้าสู่ระบบ",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "cisa",
+      "vulnerability",
+      "vcenter",
+      "cybersecurity"
+     ],
+     "entities": [
+      "CISA"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "855a50efe0f3",
+     "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+     "link": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+     "source": "BleepingComputer",
+     "published": 1795362184,
+     "text": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+     "summary_th": "Cleverbridge แจ้งเตือนว่าแฮกเกอร์เจาะระบบและขโมยข้อมูลบัตรเครดิตรวมถึงรหัส CVV ของลูกค้า",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "cleverbridge",
+      "data breach",
+      "credit card",
+      "ecommerce"
+     ],
+     "entities": [
+      "Cleverbridge"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "45e8d2f82c3e",
+     "title": "President Trump Taps Kirsten Davies as National Cyber Director",
+     "link": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
+     "source": "SecurityWeek",
+     "published": 1795266000,
+     "text": "White House says the battle-tested cyber leader will drive an America First cyber strategy. The post President Trump Taps Kirsten Davies as National Cyber Director appeared first on SecurityWeek .",
+     "summary_th": "ประธานาธิบดีทรัมป์แต่งตั้ง Kirsten Davies เป็นผู้อำนวยการด้านความปลอดภัยไซเบอร์แห่งชาติ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "cyber director",
+      "white house",
+      "trump",
+      "appointment"
+     ],
+     "entities": [
+      "Kirsten Davies",
+      "Trump"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "0be8ff22df4a",
+     "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+     "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+     "source": "The Hacker News",
+     "published": 1795323821,
+     "text": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,",
+     "summary_th": "นักวิจัยสาธิตการเจาะแซนด์บ็อกซ์ Ghostscript เพื่อรันคำสั่งทางไกลผ่านไฟล์ที่อัปโหลดในแอปพลิเคชันยอดนิยม",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "ghostscript",
+      "rce",
+      "sandbox",
+      "vulnerability"
+     ],
+     "entities": [
+      "pwn.ai",
+      "Ghostscript"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "55506475f462",
+     "title": "CISA KEV Additions Hit 298 This Year, Up 35%",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcmR3YXY2ZHFKbFpXalNWRHhPMWxiNXZKM1dIdElKQTIwb2lIUVQ0TTQ4dmNxMjkwd0NZVzRwNDZvdnBUZk5CTmRxdm9veHMzdjU5UHpsS29DbXFyZ0l4cUJhLWoyOXFTZ2IwaTZnMEJvT2UteUpLZi1FYXBrYkFiLTZjTUt6SENLaDc3SlNkclZLck9wY1BRQjl5UUtjVXhYY3c?oc=5",
+     "source": "shattered.io",
+     "published": 1795321169,
+     "text": "CISA KEV Additions Hit 298 This Year, Up 35% shattered.io",
+     "summary_th": "ยอดการเพิ่มช่องโหว่ในรายการ KEV ของ CISA พุ่งถึง 298 รายการในปีนี้ หรือเพิ่มขึ้น 35%",
+     "importance": 2,
+     "numbers": [
+      "298",
+      "35%"
+     ],
+     "tags": [
+      "cisa",
+      "kev",
+      "vulnerabilities"
+     ],
+     "entities": [
+      "CISA"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "2361e0929a29",
+     "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+     "link": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+     "source": "BleepingComputer",
+     "published": 1795360525,
+     "text": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+     "summary_th": "Signal เตรียมบล็อก Siri และ Gemini AI ไม่ให้บันทึกบทสนทนาบนอุปกรณ์ iOS และ Android",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "signal",
+      "siri",
+      "gemini",
+      "privacy"
+     ],
+     "entities": [
+      "Signal",
+      "Siri",
+      "Gemini"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "16765aea3bd9",
+     "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+     "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+     "source": "The Hacker News",
+     "published": 1795258997,
+     "text": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
+     "summary_th": "เอเจนต์ AI ของผู้โจมตีค้นพบช่องโหว่ซีโร่เดย์ในซอฟต์แวร์ภาพทางการแพทย์และเข้าถึงระดับรูทบนเซิร์ฟเวอร์มหาวิทยาลัย",
+     "importance": 3,
+     "numbers": [
+      "0.8.5"
+     ],
+     "tags": [
+      "ai agents",
+      "zero-day",
+      "medical imaging",
+      "monai label"
+     ],
+     "entities": [
+      "MONAI Label",
+      "Amazon Threat Intelligence"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    }
+   ]
+  },
+  {
+   "key": "models",
+   "label": "โมเดลและบริษัท AI",
+   "items": [
+    {
+     "id": "de5cd1a6d51d",
+     "title": "Perplexity and Intelligence",
+     "link": "https://openai.com/index/perplexity-and-intelligence",
+     "source": "OpenAI",
+     "published": 1795305600,
+     "text": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+     "summary_th": "OpenAI อธิบายเรื่องการใช้ค่า perplexity วัดความก้าวหน้าของโมเดล AI",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai models",
+      "openai"
+     ],
+     "entities": [
+      "OpenAI"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "74f939e081ec",
+     "title": "Why data centers are at the center of the Big Tech backlash",
+     "link": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+     "source": "TechCrunch",
+     "published": 1795370923,
+     "text": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+     "summary_th": "TechCrunch พูดถึงหนังสือ Hyperscale ของ Paris Marx เกี่ยวกับกระแสต่อต้านศูนย์ข้อมูลของ Big Tech",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "data centers",
+      "big tech"
+     ],
+     "entities": [
+      "Paris Marx",
+      "TechCrunch"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "265c68ec3a4c",
+     "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+     "link": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+     "source": "The Verge",
+     "published": 1795368320,
+     "text": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to […]",
+     "summary_th": "ผู้พัฒนาเกม The Binding of Isaac ถอดเพลง AI ออกจาก Repentance Plus หลังถูกวิจารณ์ใน Steam",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai music",
+      "gaming"
+     ],
+     "entities": [
+      "The Binding of Isaac",
+      "Suno",
+      "Steam"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "4632fa1c9823",
+     "title": "Apple Risks Losing the AI Agent War With an Outdated Playbook",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY0NlQ2FFZWVRd2FPTTJ4cjhKU3Vjb1hXdlZ2R1pfN2IxdlBxMDRZWmRMS1FyNXFSamtldk5GcVVPdnlxOFc2cmRsbS12TnFSdGhKeUx5NEF5dFJHUE12WDR2NGpZckk5cm5Ha3YzeXp0RkR2Y1BuTnhDWDczS18tTTlTWFplX0oyQy1SRDhFRS1jbzY3RnlIMWU1eHB1UktHWmpMT003MXV4d2l0bEg0QVp2bWJrWFUzQ3Rsdk5UbG9zNS1rLWlZV0pjejZQUQ?oc=5",
+     "source": "Bloomberg.com",
+     "published": 1795375925,
+     "text": "Apple Risks Losing the AI Agent War With an Outdated Playbook Bloomberg.com",
+     "summary_th": "Bloomberg ระบุว่า Apple เสี่ยงพลาดท่าในสงคราม AI Agent",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai agents",
+      "apple"
+     ],
+     "entities": [
+      "Apple"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "8d54d4add32f",
+     "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+     "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+     "source": "TechCrunch",
+     "published": 1795297030,
+     "text": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+     "summary_th": "Signal จำกัดการถ่ายภาพหน้าจอบนแอปพลิเคชันมือถือเพื่อรับมือกับการเฝ้าระวังด้วย AI",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "signal",
+      "ai surveillance",
+      "privacy"
+     ],
+     "entities": [
+      "Signal"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "0f50037c76f2",
+     "title": "The vibe-coding revolution is coming to all the gadgets",
+     "link": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+     "source": "The Verge",
+     "published": 1795352400,
+     "text": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it's not […]",
+     "summary_th": "The Verge เผยแพร่บทความเกี่ยวกับการปฏิวัติ vibe-coding ที่กำลังมาสู่อุปกรณ์ต่างๆ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai gadgets",
+      "vibe-coding"
+     ],
+     "entities": [
+      "The Verge",
+      "David Pierce"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "db8f52b84233",
+     "title": "How Grand Theft Auto Measures Up Against James Bond",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVWxnYUdpWkJ1SDdCaEUwQko0Z1BXZHg1TnJZeDhycVBYM1VfenpWazR4Wk9KbG9OQnB2XzdJdmc3RWJXck5iWUJuTlk3UTN4azRvTER5M214aWtYYmlFZHlFTTc3OHlIOVlfNU00YWVGNU5FQmJtOUphY1VLTEd5WDlFRjdLTEFlS0NMdDJuLXN6MGFTRWs4T1Q2a05yYTZKZ3M2VlFTMWJaTUxvTGxialVqSGRYZTlwR09aUS1VQ0RqalYxcHc?oc=5",
+     "source": "Bloomberg.com",
+     "published": 1795375853,
+     "text": "How Grand Theft Auto Measures Up Against James Bond Bloomberg.com",
+     "summary_th": "How Grand Theft Auto Measures Up Against James Bond",
+     "importance": 0,
+     "numbers": [],
+     "tags": [],
+     "entities": [
+      "Grand Theft Auto",
+      "James Bond"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "127326b87b53",
+     "title": "A tale of two Nvidias",
+     "link": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+     "source": "TechCrunch",
+     "published": 1795295262,
+     "text": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+     "summary_th": "TechCrunch รายงานถึงมุมมองที่แตกต่างกันของ Nvidia จากรายงานผลประกอบการและเสียงเรียกร้องจากผู้บริหารเทคโนโลยี",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "earnings"
+     ],
+     "entities": [
+      "Nvidia",
+      "Jensen Huang"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "234da3fc1867",
+     "title": "The UN fails to agree on rules regulating ‘killer robots’",
+     "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+     "source": "The Verge",
+     "published": 1795291417,
+     "text": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the […]",
+     "summary_th": "สหประชาชาติล้มเหลวในการตกลงกฎระเบียบควบคุมอาวุธยุทโธปกรณ์อัตโนมัติหรือ killer robots",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "un",
+      "autonomous weapons",
+      "killer robots"
+     ],
+     "entities": [
+      "UN"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "bebabc5462f0",
+     "title": "Israel's Eisenkot condemns arson attacks by Jewish settlers in West Bank",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV0NtOW83bnNaeXNoY0g0REh2Ym8yMU52U0FCaGVTRy1oeTRrM1dPclNpZTF4QWVtVE95eG9TUXJkT3JBZldRWDNjejBRcFpiWTVPV1ZqeEVZdS1qMVZ6QzVvNUtSRXY0RUxLX05pdlB3V0tvLXA1Nk0wQXhxT1dQYVNyMm1YYTZtX0pRZFI4VWNDTHctYVk2NnJMdDlWSmhxbWlzbVg5OWFacVhQUzdHSU5lNDdJTlBRZVhlVXZaUQ?oc=5",
+     "source": "Reuters",
+     "published": 1795375753,
+     "text": "Israel's Eisenkot condemns arson attacks by Jewish settlers in West Bank Reuters",
+     "summary_th": "Israel's Eisenkot condemns arson attacks by Jewish settlers in West Bank",
+     "importance": 0,
+     "numbers": [],
+     "tags": [],
+     "entities": [
+      "Eisenkot"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "62aeb5c6227d",
+     "title": "The best books of the year 2026",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjeWthYjUtOWhtelVfdlphenhzc3oxU1ZJWlE1czAxMVo1Tmo5ZDc5ak90cW12QjVaREMzc2Z1cmVoTC1pb2hoOEJWSnV6YURfeXlGZ1dIemwwRVJkRTlGZGx3?oc=5",
+     "source": "Financial Times",
+     "published": 1795375582,
+     "text": "The best books of the year 2026 Financial Times",
+     "summary_th": "The best books of the year 2026",
+     "importance": 0,
+     "numbers": [],
+     "tags": [],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "58040a3645c9",
+     "title": "Inside Deutsche Bank",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZDlfc2VFSW9VblNrVzZ5SGFjUFpHblUzU1lIdG05UGdwRWQxNXdfa3V6QlhqN01lMGdHLUxtRzBfaHB2bTZiRGVyMVVNLUQ3RlRFdnhzSUROX0Z1RklTSGpuMzRaZ2FZNDUzOWdKZXhWN2hIVGd5MDRFdG5SR0VvNEgzWjk?oc=5",
+     "source": "Financial Times",
+     "published": 1795374468,
+     "text": "Inside Deutsche Bank Financial Times",
+     "summary_th": "Inside Deutsche Bank",
+     "importance": 0,
+     "numbers": [],
+     "tags": [],
+     "entities": [
+      "Deutsche Bank"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    }
+   ]
+  },
+  {
+   "key": "agents",
+   "label": "Agent · Harness · Skills · MCP",
+   "items": [
+    {
+     "id": "0b9f3e1f8a46",
+     "title": "Claude Code Has Been Leaking Secrets Through Its \"Don't Ask Again\" Feature",
+     "link": "https://www.infoq.com/news/2026/11/claude-code-leaking-secrets/",
+     "source": "InfoQ",
+     "published": 1795345200,
+     "text": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\". The company identified 1,122 secrets in claude/settings.local.json files and another 1,160 in git history, in the shared settings.json, and in agent chat transcripts stored in repos. By Sergio De Simone"
+    },
+    {
+     "id": "3c4f4993adca",
+     "title": "Show HN: I built a game where you are an LLM's subagent",
+     "link": "https://github.com/gulivan/worker755",
+     "source": "Hacker News",
+     "published": 1795355818,
+     "text": "Article URL: https://github.com/gulivan/worker755 Comments URL: https://news.ycombinator.com/item?id=50599762 Points: 188 # Comments: 47"
+    },
+    {
+     "id": "1c0e5d0f496e",
+     "title": "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HanR2ZU5aRXdvQ19DRHZub0ktVzVkQktlVkUxM0YtUEFLWHp1SnBHU3I5U2hHbDQzaGlvb2ZsSnVtcTAwdlpTb3BSb09ZUzJpUDFTQ3g5T3JqeUNDVndRWG5pczZFNGRtanc?oc=5",
+     "source": "infoq.com",
+     "published": 1795352264,
+     "text": "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls infoq.com"
+    },
+    {
+     "id": "bd3e8ab7f89b",
+     "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrejJJd2R0ZkhGRjN6M0I0YUdNM0hSQndUYTREb05UYi1iczhib05hVE5jSTQ0Znlld2NQR2dHRVBGY1psVFFLalM2TmJOMzVrLTZZYXJFc3FFYXkzX3hZaGVBelBTaWVWT2c0N2dydjg?oc=5",
+     "source": "infoq.com",
+     "published": 1795329008,
+     "text": "Google Announces Agent Compute Engine for Secure AI Agent Execution infoq.com"
+    },
+    {
+     "id": "486e2ae2d5c2",
+     "title": "Here are the top AI agents that can live in your text messages",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYUhxQXlJS1pjd0swWl9LM1VGQS1jMmFKMnBtNGpjNmY0Q1BXZ0VEV3NZM0ZOdXFDOWU1bHVjT0pPZlI1enV5cGhiZVJidlJKMGZZOGcwZGhZRE9tVU5QWnNxN2VtRHMtTkNwWmp2MHloTnFRVU81dTZfcU5IZmk2YW5SdDIyVWljRVowclN2ejJlUQ?oc=5",
+     "source": "TechCrunch",
+     "published": 1795280400,
+     "text": "Here are the top AI agents that can live in your text messages TechCrunch"
+    }
+   ]
+  },
+  {
+   "key": "business",
+   "label": "AI ใช้งานจริง (กล้อง อาคาร ธุรกิจ)",
+   "items": [
+    {
+     "id": "fd0ee8642408",
+     "title": "Visual and Performing Arts Center Brings Texas School District's Arts to Industry",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbHU5cWhkdUZLcE9hQkVpM2RUd0MwOUNCS0NyTm0wTzlWR2gtaVl4ZEdkOVJ1by14cDVBUXlITW9UUWFHemlzZHNSNVFrdjBEa18weGpvYkNYN3dJYnJiUFV3YVMyR0t1SlhZNmxHdDF6R25qRUd4STI1OFRjWERROF9iSlQybW1FSUVlVnJ4QmNlODNxdG45bGhyYTVDNzhTSzBFTnVFVTk0d2Z4dWJ5UF91bXZmSnYyeVdXblNUeWNDazJ6TGs2R3VvSTg5TWRzLVJsM0hHUzZRUFU?oc=5",
+     "source": "Facilitiesnet",
+     "published": 1795307158,
+     "text": "Visual and Performing Arts Center Brings Texas School District's Arts to Industry Facilitiesnet",
+     "summary_th": "ศูนย์ศิลปการแสดงภาพและทัศนศิลป์แห่งใหม่ช่วยนำศิลปะของเขตการศึกษาในเท็กซัสสู่อุตสาหกรรม",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "arts",
+      "texas",
+      "education"
+     ],
+     "entities": [
+      "Texas"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    }
+   ]
+  },
+  {
+   "key": "policy",
+   "label": "ความปลอดภัยและกฎ AI",
+   "items": [
+    {
+     "id": "3308698e70d7",
+     "title": "American bishops plan for ‘groundswell’ of political action for AI regulation",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPM0daNjJ4MTZuYzRVRVdvbjBCeThWSkJ5VlotenFObGMxU0RzUlZFeDMzNHVRWGRRVUw1YW1JZW1FcUlkVFhERHNKSWtTcUQxZk1lbkllMjJzSFJzeWVFamlSQWc5MG9nMjhsVnQySDB0WE1jOHhfZDZYVndkYjk0cmR5dGctVjJZdVN6aUxzcTJZQQ?oc=5",
+     "source": "Politico",
+     "published": 1795374000,
+     "text": "American bishops plan for ‘groundswell’ of political action for AI regulation Politico",
+     "summary_th": "บิชอปชาวอเมริกันวางแผนผลักดันการเคลื่อนไหวทางการเมืองเพื่อกฎระเบียบด้าน AI",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai regulation",
+      "politics"
+     ],
+     "entities": [
+      "American bishops"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "df1ee0cbdf26",
+     "title": "German army starts testing kamikaze drones and AI targeting tool in Lithuania",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaEZNb1cwZkRsWmFUN0Nkc0dfTGt4SUVDaXNCSHphV2VrQTBXYnQzTWN2Z0tkOEdiUnRyRnJqX2NST1pmYXJrYVFUQ204QllMNFRtelc0cEtUZy1MWlFMeXRfemNPS0pGQU1veHZyMU1XTWdJNE5pcWstLXUtZ0d4QXRMVzAzZFJKNzlteEZlWUVRbHpIeTJyanFWSlJVMlY4R0NOODNIN1RSLWJDdnQyM25KcDNNbDRvMHZkT1Nfenl6SUl2YUoxalBLT1RqQQ?oc=5",
+     "source": "Reuters",
+     "published": 1795363649,
+     "text": "German army starts testing kamikaze drones and AI targeting tool in Lithuania Reuters",
+     "summary_th": "กองทัพเยอรมนีเริ่มทดสอบโดรนกามิกาเซ่และเครื่องมือเล็งเป้า AI ในประเทศลิทัวเนีย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "military",
+      "ai drones"
+     ],
+     "entities": [
+      "German army",
+      "Lithuania"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "924c3aa9daf5",
+     "title": "Dario Amodei reportedly suggested video games could pacify the masses after AI took their jobs.",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQS3ZMQ0lNWkxzYk5XWTRSMEJWeFB5dy1qcU92aW5rYVFGTGhocFVXaEhJQXVJNnZ3QXFLX3ZJRFB1dXhUU1JMM3psODRwSi1qMHNvM1Z2MzVhbjI1NldmbkNTNE5fTVNVUk9MT2xzOHdhNEh2akFkMWNuWHlzN2tXaDNzR3FyT2lHRFNKNHAxdUxzTGE4LUlMOENBdGx2VUQ1?oc=5",
+     "source": "The Verge",
+     "published": 1795362777,
+     "text": "Dario Amodei reportedly suggested video games could pacify the masses after AI took their jobs. The Verge",
+     "summary_th": "มีรายงานว่า Dario Amodei เสนอว่าวิดีโอเกมอาจช่วยกล่อมผู้คนหลังจาก AI แย่งงาน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai jobs",
+      "gaming"
+     ],
+     "entities": [
+      "Dario Amodei"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "79c3d2946e95",
+     "title": "Siri AI settlement could pay out $61 per iPhone.",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTlVrUzhyY1o2V3dHTGFIRU1HcHNhUXpod1pOZUZqZGo4TGU3OEs2X0xtQ0ZOZDFPS2Y1WEtTLUxLQy1FSTM3bDk0ZWt6Sll6dC1vTjdlQkYzdEJOVXlKMTV0V21yeWpidnNRWWRna0hwVi01U2VDbndIMzViVFM2VzhuUFlzZHlrd3R5TQ?oc=5",
+     "source": "The Verge",
+     "published": 1795360941,
+     "text": "Siri AI settlement could pay out $61 per iPhone. The Verge",
+     "summary_th": "การยอมความเรื่อง Siri AI อาจจ่ายเงินชดเชยสูงถึง $61 ต่อ iPhone หนึ่งเครื่อง",
+     "importance": 2,
+     "numbers": [
+      "$61"
+     ],
+     "tags": [
+      "siri",
+      "settlement",
+      "iphone"
+     ],
+     "entities": [
+      "Apple",
+      "Siri",
+      "iPhone"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "5d9516b9e347",
+     "title": "PODCAST: COP31 collapse, 'El Chapo Isidro' arrest and South Korea's AI cheating scandal",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPc2ctWDVuSkdRVXo4MkdXVWtCNXcwYXlFeGp2cUZCMmItdHJjenA4VDlRcnBJRHdrZjNuREh1cHd3Y1JESURBaTkwci05NHV4bmhtd2U3TWkwR2JKT2JfQ3I4TXFCRDFjSTZXaWs1STRmOE16SFpKYnlrQnpIbmJJdmwwSndDa25EU2RNMlI1WnYwR3R2a25HUUhvQm8wbndzNVlxMGdaMlFDNjBEWklKY3EwN2twZw?oc=5",
+     "source": "Reuters",
+     "published": 1795359871,
+     "text": "PODCAST: COP31 collapse, 'El Chapo Isidro' arrest and South Korea's AI cheating scandal Reuters",
+     "summary_th": "พอดแคสต์พูดถึงเรื่องการล่มสลายของ COP31 การจับกุม 'El Chapo Isidro' และคดีโกงด้วย AI ของเกาหลีใต้",
+     "importance": 1,
+     "numbers": [
+      "31"
+     ],
+     "tags": [
+      "podcast",
+      "cop31",
+      "cheating"
+     ],
+     "entities": [
+      "El Chapo Isidro",
+      "South Korea"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "94fa3863c53a",
+     "title": "WisdomTree AI and Innovation Fund (WTAI.N) | Stock Price & Latest News",
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE00TFlCSzdMUS1yNUxLd1BvSEJSVXk4V2V2ZlVmaklJNXdEemk4dzR6SERoOENuaUxIQ09hSDRMZG5aLTktUUVTdk9PQkxIak16Wk9hQmNfM3c?oc=5",
+     "source": "Reuters",
+     "published": 1795354130,
+     "text": "WisdomTree AI and Innovation Fund (WTAI.N) | Stock Price & Latest News Reuters",
+     "summary_th": "อัปเดตราคาหุ้นและข่าวสารล่าสุดของกองทุน WisdomTree AI and Innovation Fund (WTAI.N)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "stock",
+      "etf"
+     ],
+     "entities": [
+      "WisdomTree AI and Innovation Fund",
+      "WTAI.N"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "302a42ba882d",
+     "title": "AI is being used to clone real people's videos",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wVVJ3NEMwMDZYamVxSnh3SUJSMS14c01jR05aa2otVUdEclF0MmlFcHpGZkxra0ZLZEtaVFB5M3p6SHZzbzRlQXF5M0tXTzYtclNzX0pHREtTOGtPRFE?oc=5",
+     "source": "BBC",
+     "published": 1795323638,
+     "text": "AI is being used to clone real people's videos BBC",
+     "summary_th": "มีการใช้ AI เพื่อโคลนวิดีโอของคนจริงๆ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai video",
+      "deepfake"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "bedde68f0dc7",
+     "title": "Myseum AI Inc (MYSE.OQ) | Stock Price & Latest News",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE53cGdMSFZsOEVOQTVuY1VmZVlGRjI0enE0WEQ2aUZnWW1VZ2g4MDZ5T2FNQ2NTWDd6OENHOEcxNzRVSEx2VkhzRW5zcmFrX3BtbHFfT0ZRSUlwNWFOaXBNRXNPM0l4YTFtVm8yR3Z3MA?oc=5",
+     "source": "Reuters",
+     "published": 1795323236,
+     "text": "Myseum AI Inc (MYSE.OQ) | Stock Price & Latest News Reuters",
+     "summary_th": "อัปเดตราคาหุ้นและข่าวสารล่าสุดของบริษัท Myseum AI Inc (MYSE.OQ)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "stock"
+     ],
+     "entities": [
+      "Myseum AI Inc",
+      "MYSE.OQ"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    }
+   ]
+  }
+ ],
+ "title": "ข่าว AI ประจำวัน"
+}
