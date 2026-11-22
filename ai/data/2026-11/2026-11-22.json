@@ -1,11 +1,11 @@
 {
  "date": "2026-11-22",
- "collected_at": "2026-11-22T09:40:34+07:00",
+ "collected_at": "2026-11-22T20:38:38+07:00",
  "models": [
   "gemini/gemini-flash-latest",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 36,
+ "summary_failed": 46,
  "prices": [],
  "theme_prices": [],
  "categories": [
@@ -13,22 +13,6 @@
    "key": "breaking",
    "label": "ข่าวด่วนเทค (Techmeme · Hacker News)",
    "items": [
-    {
-     "id": "86330a4d33ec",
-     "title": "An interview with Google DeepMind in-house philosopher Henry Shevlin on being hired to work on machine consciousness, human-AI relationships, and AGI readiness (Cristina Criddle/Financial Times)",
-     "link": "https://www.techmeme.com/261121/p6",
-     "source": "Techmeme",
-     "published": 1795260601,
-     "text": "Cristina Criddle / Financial Times : An interview with Google DeepMind in-house philosopher Henry Shevlin on being hired to work on machine consciousness, human-AI relationships, and AGI readiness — The in-house philosopher on the problem of consciousness and what it might feel like to be an AI agent"
-    },
-    {
-     "id": "81b70d85c6b9",
-     "title": "How quantum computers built from laser-trapped atoms may correct qubit errors more easily than supercooled chips, speeding the race to a usable machine (Cade Metz/New York Times)",
-     "link": "https://www.techmeme.com/261121/p5",
-     "source": "Techmeme",
-     "published": 1795246200,
-     "text": "Cade Metz / New York Times : How quantum computers built from laser-trapped atoms may correct qubit errors more easily than supercooled chips, speeding the race to a usable machine — Optical tools in a quantum computer at Harvard University.Lucy Lu for The New York Times — For almost a decade, a Google lab in Santa Barbara …"
-    },
     {
      "id": "44041f7d1d02",
      "title": "NINLIVE: The Nine Inch Nails live archive",
@@ -268,6 +252,235 @@
       "US"
      ],
      "model": "gemini/gemini-flash-latest"
+    },
+    {
+     "id": "7e71db50d3b2",
+     "title": "Experts say AI has made planning cyberattacks on industrial equipment faster by helping attackers read manuals and research past accidents more quickly (Tom Wilson/Financial Times)",
+     "link": "https://www.techmeme.com/261122/p6",
+     "source": "Techmeme",
+     "published": 1795345270,
+     "text": "Tom Wilson / Financial Times : Experts say AI has made planning cyberattacks on industrial equipment faster by helping attackers read manuals and research past accidents more quickly — The freezer war is just a start. The year is 2027. You wake up one morning to find you cannot use email or send instant messages.",
+     "summary_th": "ผู้เชี่ยวชาญระบุว่า AI ช่วยให้การวางแผนโจมตีไซเบอร์ใส่อุปกรณ์อุตสาหกรรมทำได้เร็วขึ้น โดยช่วยอ่านคู่มือและค้นคว้าอุบัติเหตุในอดีต",
+     "importance": 2,
+     "numbers": [
+      "2027"
+     ],
+     "tags": [
+      "ai",
+      "cybersecurity",
+      "industrial equipment"
+     ],
+     "entities": [
+      "Tom Wilson",
+      "Financial Times"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "9212cb3d4e2e",
+     "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+     "link": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+     "source": "Hacker News",
+     "published": 1795320296,
+     "text": "Article URL: https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/ Comments URL: https://news.ycombinator.com/item?id=50596133 Points: 683 # Comments: 415",
+     "summary_th": "โตโยต้า นิสสัน และฮอนด้า เตรียมมาตรฐานชิ้นส่วนร่วมกันเพื่อลดต้นทุน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "automotive",
+      "parts standardization",
+      "toyota",
+      "nissan"
+     ],
+     "entities": [
+      "Toyota",
+      "Nissan",
+      "Honda"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "54b0223dd0f9",
+     "title": "Current and former officials from the US and other countries describe the Chinese spy agency MSS' campaign to help Chinese companies acquire advanced AI chips (New York Times)",
+     "link": "https://www.techmeme.com/261122/p5",
+     "source": "Techmeme",
+     "published": 1795330841,
+     "text": "New York Times : Current and former officials from the US and other countries describe the Chinese spy agency MSS' campaign to help Chinese companies acquire advanced AI chips — China's espionage agency has been running a secret campaign to help the country's companies acquire advanced A.I. chips …",
+     "summary_th": "เจ้าหน้าที่สหรัฐฯ และประเทศอื่นๆ ระบุว่าหน่วยสืบราชการลับ MSS ของจีนดำเนินแคมเปญช่วยเหลือบริษัทจีนในการจัดหาชิป AI ขั้นสูง",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "ai chips",
+      "china",
+      "espionage"
+     ],
+     "entities": [
+      "MSS",
+      "New York Times"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "c4a226a4ddc4",
+     "title": "Sandwich Simulator",
+     "link": "https://stulle.app/",
+     "source": "Hacker News",
+     "published": 1795306079,
+     "text": "Article URL: https://stulle.app/ Comments URL: https://news.ycombinator.com/item?id=50594911 Points: 336 # Comments: 120",
+     "summary_th": "Sandwich Simulator",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "simulation",
+      "game"
+     ],
+     "entities": [],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "29d99820bf76",
+     "title": "Tesla rolls out FSD v15, featuring a photorealistic rendering of car surroundings; Elon Musk says it is real-time AI video generation without using game engines (Mike Pearl/Gizmodo)",
+     "link": "https://www.techmeme.com/261122/p4",
+     "source": "Techmeme",
+     "published": 1795329616,
+     "text": "Mike Pearl / Gizmodo : Tesla rolls out FSD v15, featuring a photorealistic rendering of car surroundings; Elon Musk says it is real-time AI video generation without using game engines — FSD v15 was released to some vehicles on Saturday. Its visualization system may be the most remarkable part.",
+     "summary_th": "Tesla เปิดตัว FSD v15 พร้อมระบบเรนเดอร์สภาพแวดล้อมรถแบบสมจริง ซึ่ง Elon Musk ระบุว่าเป็นวิดีโอ AI แบบเรียลไทม์โดยไม่ใช้เอนจินเกม",
+     "importance": 2,
+     "numbers": [
+      "15"
+     ],
+     "tags": [
+      "tesla",
+      "fsd",
+      "ai video"
+     ],
+     "entities": [
+      "Tesla",
+      "Elon Musk",
+      "Mike Pearl",
+      "Gizmodo"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "b97df7d81317",
+     "title": "A joint statement by the Lean and Mathlib communities says \"we have full confidence that Alpöge's proof of the Riemann Hypothesis is correct\" (Lean community blog)",
+     "link": "https://www.techmeme.com/261122/p3",
+     "source": "Techmeme",
+     "published": 1795327202,
+     "text": "Lean community blog : A joint statement by the Lean and Mathlib communities says “we have full confidence that Alpöge's proof of the Riemann Hypothesis is correct” — Joint statement by the Lean and Mathlib communities, endorsed by the Lean FRO and the Mathlib Initiative.",
+     "summary_th": "ชุมชน Lean และ Mathlib ออกแถลงการณ์ร่วมแสดงความมั่นใจว่าข้อพิสูจน์สมมติฐาน Riemann ของ Alpöge นั้นถูกต้อง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "math",
+      "riemann hypothesis",
+      "lean"
+     ],
+     "entities": [
+      "Alpöge",
+      "Lean",
+      "Mathlib"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "7e3bf3ec40d3",
+     "title": "Sources: AI server suppliers like Dell, HPE, Lenovo, and Supermicro are demanding substantially higher prices from buyers, months after contracts were signed (Financial Times)",
+     "link": "https://www.techmeme.com/261122/p2",
+     "source": "Techmeme",
+     "published": 1795326601,
+     "text": "Financial Times : Sources: AI server suppliers like Dell, HPE, Lenovo, and Supermicro are demanding substantially higher prices from buyers, months after contracts were signed — Dell, HPE, Lenovo and Supermicro demand more for equipment, with the increased costs hitting trading firms",
+     "summary_th": "แหล่งข่าวระบุว่าผู้จำหน่ายเซิร์ฟเวอร์ AI เช่น Dell, HPE, Lenovo และ Supermicro เรียกร้องราคาที่สูงขึ้นจากผู้ซื้อหลายเดือนหลังลงนามในสัญญา",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "ai servers",
+      "dell",
+      "hpe",
+      "lenovo"
+     ],
+     "entities": [
+      "Dell",
+      "HPE",
+      "Lenovo",
+      "Supermicro",
+      "Financial Times"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "461b3b577994",
+     "title": "Sources: Alice Huang associate Li Ming, whom Singapore charged with fraud in 2025, was central to smuggling restricted AI chips from Southeast Asia to China (Stu Woo/Wall Street Journal)",
+     "link": "https://www.techmeme.com/261122/p1",
+     "source": "Techmeme",
+     "published": 1795326301,
+     "text": "Stu Woo / Wall Street Journal : Sources: Alice Huang associate Li Ming, whom Singapore charged with fraud in 2025, was central to smuggling restricted AI chips from Southeast Asia to China — Defendant in case involving chip smuggling worked with Jensen Huang's romantic partner — SINGAPORE—Jensen Huang's romantic partner …",
+     "summary_th": "แหล่งข่าวระบุว่า Li Ming ผู้ร่วมงานของ Alice Huang ซึ่งถูกสิงคโปร์ตั้งข้อหาฉ้อโกงในปี 2025 มีบทบาทสำคัญในการลักลอบขนส่งชิป AI จากเอเชียตะวันออกเฉียงใต้ไปยังจีน",
+     "importance": 3,
+     "numbers": [
+      "2025"
+     ],
+     "tags": [
+      "ai chips",
+      "smuggling",
+      "china",
+      "singapore"
+     ],
+     "entities": [
+      "Alice Huang",
+      "Li Ming",
+      "Jensen Huang",
+      "Stu Woo",
+      "Wall Street Journal"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "86330a4d33ec",
+     "title": "An interview with Google DeepMind in-house philosopher Henry Shevlin on being hired to work on machine consciousness, human-AI relationships, and AGI readiness (Cristina Criddle/Financial Times)",
+     "link": "https://www.techmeme.com/261121/p6",
+     "source": "Techmeme",
+     "published": 1795260601,
+     "text": "Cristina Criddle / Financial Times : An interview with Google DeepMind in-house philosopher Henry Shevlin on being hired to work on machine consciousness, human-AI relationships, and AGI readiness — The in-house philosopher on the problem of consciousness and what it might feel like to be an AI agent",
+     "summary_th": "บทสัมภาษณ์ Henry Shevlin นักปรัชญาประจำ Google DeepMind เกี่ยวกับการทำงานด้านความสำนึกของเครื่องจักร ความสัมพันธ์ระหว่างมนุษย์กับ AI และความพร้อมของ AGI",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "google deepmind",
+      "agi",
+      "philosophy",
+      "ai"
+     ],
+     "entities": [
+      "Google DeepMind",
+      "Henry Shevlin",
+      "Cristina Criddle",
+      "Financial Times"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "81b70d85c6b9",
+     "title": "How quantum computers built from laser-trapped atoms may correct qubit errors more easily than supercooled chips, speeding the race to a usable machine (Cade Metz/New York Times)",
+     "link": "https://www.techmeme.com/261121/p5",
+     "source": "Techmeme",
+     "published": 1795246200,
+     "text": "Cade Metz / New York Times : How quantum computers built from laser-trapped atoms may correct qubit errors more easily than supercooled chips, speeding the race to a usable machine — Optical tools in a quantum computer at Harvard University.Lucy Lu for The New York Times — For almost a decade, a Google lab in Santa Barbara …",
+     "summary_th": "คอมพิวเตอร์ควอนตัมที่สร้างจากอะตอมที่ถูกกักด้วยเลเซอร์อาจแก้ไขข้อผิดพลาดของคิวบิตได้ง่ายกว่าชิปแบบซูเปอร์คูลด์ ช่วยเร่งการพัฒนาเครื่องมือที่ใช้งานได้จริง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "quantum computing",
+      "qubits",
+      "harvard university"
+     ],
+     "entities": [
+      "Cade Metz",
+      "New York Times",
+      "Harvard University"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
     }
    ]
   },
@@ -488,6 +701,30 @@
      "model": "gemini/gemini-flash-lite-latest"
     },
     {
+     "id": "9da47b8efcbb",
+     "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+     "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+     "source": "The Hacker News",
+     "published": 1795250960,
+     "text": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal"
+    },
+    {
+     "id": "bbc19bb6f991",
+     "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+     "link": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+     "source": "BleepingComputer",
+     "published": 1795190286,
+     "text": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]"
+    },
+    {
+     "id": "a3eac34b29cf",
+     "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+     "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+     "source": "The Hacker News",
+     "published": 1795250953,
+     "text": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in"
+    },
+    {
      "id": "9f2af01a2aa9",
      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
      "link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
@@ -504,20 +741,20 @@
      "text": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains. The post FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says appeared first on SecurityWeek ."
     },
     {
-     "id": "16765aea3bd9",
-     "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-     "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+     "id": "78074d39dfa2",
+     "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+     "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
      "source": "The Hacker News",
-     "published": 1795258997,
-     "text": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,"
+     "published": 1795324015,
+     "text": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. OpenRouter, a gateway that routes customers' AI requests to a pool of"
     },
     {
-     "id": "684b6831381f",
-     "title": "Copeland XWEB EVO CVE-2026-124010 and CVE-2026-124014 Exploited: What Operators Should Do Now",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRXpqdXJPMktBYnZpMzd1YkpGZXhOZnk4WGVYdU5nVS1UMzUyWjF2Skl1cGZWZmd1LThNQnlTdUdVVWF0Z0d0SWdaWU05RzVNTm92bHkzSDhzclZZbjI3ejhfMFRIU2lUYVhBZ3lpcWVTY2RGSTNvQzB6d1VnMGpGM2pySlc5aWZjdWlmaU81Q012S01kSXNibzhGZXJjRFdORVRjOXpZREdBNEJJ?oc=5",
-     "source": "Rescana",
-     "published": 1795311000,
-     "text": "Copeland XWEB EVO CVE-2026-124010 and CVE-2026-124014 Exploited: What Operators Should Do Now Rescana"
+     "id": "55506475f462",
+     "title": "CISA KEV Additions Hit 298 This Year, Up 35%",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcmR3YXY2ZHFKbFpXalNWRHhPMWxiNXZKM1dIdElKQTIwb2lIUVQ0TTQ4dmNxMjkwd0NZVzRwNDZvdnBUZk5CTmRxdm9veHMzdjU5UHpsS29DbXFyZ0l4cUJhLWoyOXFTZ2IwaTZnMEJvT2UteUpLZi1FYXBrYkFiLTZjTUt6SENLaDc3SlNkclZLck9wY1BRQjl5UUtjVXhYY3c?oc=5",
+     "source": "shattered.io",
+     "published": 1795321169,
+     "text": "CISA KEV Additions Hit 298 This Year, Up 35% shattered.io"
     },
     {
      "id": "efef5bd50b96",
@@ -536,12 +773,28 @@
      "text": "White House says the battle-tested cyber leader will drive an America First cyber strategy. The post President Trump Taps Kirsten Davies as National Cyber Director appeared first on SecurityWeek ."
     },
     {
-     "id": "9da47b8efcbb",
-     "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-     "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+     "id": "0be8ff22df4a",
+     "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+     "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
      "source": "The Hacker News",
-     "published": 1795250960,
-     "text": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal"
+     "published": 1795323821,
+     "text": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,"
+    },
+    {
+     "id": "684b6831381f",
+     "title": "Copeland XWEB EVO CVE-2026-124010 and CVE-2026-124014 Exploited: What Operators Should Do Now",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRXpqdXJPMktBYnZpMzd1YkpGZXhOZnk4WGVYdU5nVS1UMzUyWjF2Skl1cGZWZmd1LThNQnlTdUdVVWF0Z0d0SWdaWU05RzVNTm92bHkzSDhzclZZbjI3ejhfMFRIU2lUYVhBZ3lpcWVTY2RGSTNvQzB6d1VnMGpGM2pySlc5aWZjdWlmaU81Q012S01kSXNibzhGZXJjRFdORVRjOXpZREdBNEJJ?oc=5",
+     "source": "Rescana",
+     "published": 1795311000,
+     "text": "Copeland XWEB EVO CVE-2026-124010 and CVE-2026-124014 Exploited: What Operators Should Do Now Rescana"
+    },
+    {
+     "id": "16765aea3bd9",
+     "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+     "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+     "source": "The Hacker News",
+     "published": 1795258997,
+     "text": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,"
     },
     {
      "id": "8053b4933871",
@@ -550,22 +803,6 @@
      "source": "Rescana",
      "published": 1795303800,
      "text": "SAP NetWeaver Enterprise Portal CVE-2025-42884 JNDI Injection Added to CISA KEV: Patch Now Rescana"
-    },
-    {
-     "id": "bbc19bb6f991",
-     "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
-     "link": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
-     "source": "BleepingComputer",
-     "published": 1795190286,
-     "text": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]"
-    },
-    {
-     "id": "a3eac34b29cf",
-     "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-     "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
-     "source": "The Hacker News",
-     "published": 1795250953,
-     "text": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in"
     }
    ]
   },
@@ -816,36 +1053,12 @@
      "model": "gemini/gemini-flash-lite-latest"
     },
     {
-     "id": "8d54d4add32f",
-     "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-     "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
-     "source": "TechCrunch",
-     "published": 1795297030,
-     "text": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps."
-    },
-    {
-     "id": "234da3fc1867",
-     "title": "The UN fails to agree on rules regulating ‘killer robots’",
-     "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
-     "source": "The Verge",
-     "published": 1795291417,
-     "text": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the […]"
-    },
-    {
      "id": "01028e32616f",
      "title": "China’s $1.7 Trillion AI Rout Turns Hot Trade Into Losing Bet",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRFM5M0lfajByTmNXWHhadkRCd19qQUJGU1FUM0ZUQnBXdVhDQU42NVF1X2RuUHJXUUt4QW41UWpnWS12aHNsX1JZU0RtSTBacFZTU0dncHpmOTRTLWJMbGRwY2pSeHFOTTI3dFFmcXJlRnQwcnRQSjlMSTh1a1pjdkRNQ1dCQlJlSGZPcXZQRk9MdUJBaWlUVFBzT2xCaUV2cUtQTXVCVVY0S0xDWFJEMQ?oc=5",
      "source": "Bloomberg.com",
      "published": 1795305600,
      "text": "China’s $1.7 Trillion AI Rout Turns Hot Trade Into Losing Bet Bloomberg.com"
-    },
-    {
-     "id": "127326b87b53",
-     "title": "A tale of two Nvidias",
-     "link": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
-     "source": "TechCrunch",
-     "published": 1795295262,
-     "text": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return."
     },
     {
      "id": "5552d0fe20e3",
@@ -910,6 +1123,102 @@
      "source": "Financial Times",
      "published": 1795283540,
      "text": "Violence erupts in Sinaloa after Mexico captures alleged drug trafficker Financial Times"
+    },
+    {
+     "id": "8d54d4add32f",
+     "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+     "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+     "source": "TechCrunch",
+     "published": 1795297030,
+     "text": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps."
+    },
+    {
+     "id": "0f50037c76f2",
+     "title": "The vibe-coding revolution is coming to all the gadgets",
+     "link": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+     "source": "The Verge",
+     "published": 1795352400,
+     "text": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it's not […]"
+    },
+    {
+     "id": "62aeb5c6227d",
+     "title": "The best books of the year 2026",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjeWthYjUtOWhtelVfdlphenhzc3oxU1ZJWlE1czAxMVo1Tmo5ZDc5ak90cW12QjVaREMzc2Z1cmVoTC1pb2hoOEJWSnV6YURfeXlGZ1dIemwwRVJkRTlGZGx3?oc=5",
+     "source": "Financial Times",
+     "published": 1795353665,
+     "text": "The best books of the year 2026 Financial Times"
+    },
+    {
+     "id": "127326b87b53",
+     "title": "A tale of two Nvidias",
+     "link": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+     "source": "TechCrunch",
+     "published": 1795295262,
+     "text": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return."
+    },
+    {
+     "id": "234da3fc1867",
+     "title": "The UN fails to agree on rules regulating ‘killer robots’",
+     "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+     "source": "The Verge",
+     "published": 1795291417,
+     "text": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the […]"
+    },
+    {
+     "id": "58040a3645c9",
+     "title": "Inside Deutsche Bank",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZDlfc2VFSW9VblNrVzZ5SGFjUFpHblUzU1lIdG05UGdwRWQxNXdfa3V6QlhqN01lMGdHLUxtRzBfaHB2bTZiRGVyMVVNLUQ3RlRFdnhzSUROX0Z1RklTSGpuMzRaZ2FZNDUzOWdKZXhWN2hIVGd5MDRFdG5SR0VvNEgzWjk?oc=5",
+     "source": "Financial Times",
+     "published": 1795353285,
+     "text": "Inside Deutsche Bank Financial Times"
+    },
+    {
+     "id": "f577727a676f",
+     "title": "Pizza chains are under pressure. GLP-1 use is only one part of the problem",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13N011dHVFTHhsU2ZqdlhIUktCVTk0QWt6LW5VVkhMUUQ4Qy0xS3ZUdE0yMGx1MXFRNFFkX3Z2MC05aVJoM1lpUEh5SmtZVWdOSGhtOTlfZWM2dklSQm5lb2VuaE9ETDJmR3dqZ21BMWM0Yk1hSmVj0gF8QVVfeXFMT01JWkJ2cWpNUHRTRWpDQ215eGpvNC01TTlnYnV5bzlsNzhYTzBWMWw3MWpVUnNESEhLZXdKc3k2dDcyZHhsUVE2clk3N3ZsUkVCOGFtVnJjN1JIelFKMC1za1dIcGZVb3RtekZBVEpBU0tYM05NMTFpeUtuNw?oc=5",
+     "source": "CNBC",
+     "published": 1795352401,
+     "text": "Pizza chains are under pressure. GLP-1 use is only one part of the problem CNBC"
+    },
+    {
+     "id": "2c233516461c",
+     "title": "Kyiv's restaurant owners brace for tough winter as war pressures mount",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZk9Cek1qUUR2b1hOU1JxOHRoQ09ZQ2YzX2RMTkRlNTZmWGluXzZCb2l5SzAyQV8yUm5icGxHVmhCajBESWdpc1pDdTBiVHhObEdfaFpZSzNTWUdVRnJHRTNFZ2MzYVlHNnNRSDFWX1BnZ2RJbUczY2MwZG1IN05xZVRXelJoNkVGWlRkTTAtbDNGcFFDcTdORkZNZXFFcW50NjdCaGlPcw?oc=5",
+     "source": "Reuters",
+     "published": 1795352161,
+     "text": "Kyiv's restaurant owners brace for tough winter as war pressures mount Reuters"
+    },
+    {
+     "id": "c1488bb9b36b",
+     "title": "Russian cargo ship still on fire off Finland after attack",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTXUxa0FLT1o3Tzh4MUR0MV9ZenU1LU9PZl9QSzhsQXlOQThFNUxWbWFXRXZTOHFpb1lJdG1GTV9hOUZsc2x4YzBOSzV3ZHZkV2pyNjNIaTVWZEViQ2lLb3JkcjJsbGhVNXFmWXQ5c0pDTkVXeG9IbmlKV3AxYUtfNE5DVnhWX3lvNmg0SF9SZ1lHQzEtSnY1REsycUlvWFVEOFlBSXR3?oc=5",
+     "source": "Reuters",
+     "published": 1795351989,
+     "text": "Russian cargo ship still on fire off Finland after attack Reuters"
+    },
+    {
+     "id": "771e093b82bb",
+     "title": "Sanctioned Russian vessel ablaze in Finnish waters after drone attack",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTER0aC05WWd6Yms5V2tJeUQyQTRuVFp0dGVHcERCbERJdmU4WjJqdEVYRVlnSEd0SDFfVm5USnBBZTZiWU1rb0RoWjhlOFZHVktlVktaVG9kbHpaZHIyVlZvRXZtLXlyX2k0QjQ5a0dUaDlON1JiakM1UW1uLXlMUS1pUWg?oc=5",
+     "source": "Financial Times",
+     "published": 1795350281,
+     "text": "Sanctioned Russian vessel ablaze in Finnish waters after drone attack Financial Times"
+    },
+    {
+     "id": "8369a04390e0",
+     "title": "Correction or deeper reckoning? Investors seek signs US stock selling will abate",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSFRxak5ZYUFPNWxVbzlJdy1Mcm9xMTRVZ0ctY205NFVGVEFtcDdFNG1Iem05TjVBcnYzWUVUeXcyWndZNlpnR25GMW5GdkJ2blJjeUdXdlhvZ1VqNWpVSGdYX1RsQ1F3eUhkRUFaX0lxQTNnVFNySmphdG1KM2Y0NTZrdGRoTWxEaE0ybmVSUnBtdDB2VW9tWGtrYkZfUmZUaUdxWDUyUEZGZ2tSajBqSTJydzNhb2xwaTctX21xQmxmXzFyZ1BIWE80ZF8?oc=5",
+     "source": "Reuters",
+     "published": 1795350132,
+     "text": "Correction or deeper reckoning? Investors seek signs US stock selling will abate Reuters"
+    },
+    {
+     "id": "66a44492ba59",
+     "title": "The Nasdaq is in freefall. Here's one stock to look at",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQV21yRnY1UENEbVlMTUtGcFh5VmJWRXpEOEh6MG80YTdlZTZ5bjNmdGZGSGhBTEZVYml4TGlMTkREWmtkTm5VSDV0b0l6TG1zOC1EUjhvN01hbG5XaFZPbF9yOTRNYmFELTczQnFqVE9yZlJEX0dSa19uaUhsTHBKY3oxbGZBcHE1eTM5S0EzNnhad0HSAZgBQVVfeXFMT2h6aUk0Rm0wTFctR0JSN0VxX0tTRGNaVVUzdExQdEFFZExsYXJycDBJZFR4bGNhNV9oQVVoXzIxTmc0cGtma2NaV0syakJXVWVDUUNva1ItVlp5LVptUVJCSEZZaGlPTm5fOHk4bVZoUnpoOFNhWUhPcmZmOGZWQ0lyZGlSdGptUW8zY3laR2NnNjhackZGNjE?oc=5",
+     "source": "CNBC",
+     "published": 1795349439,
+     "text": "The Nasdaq is in freefall. Here's one stock to look at CNBC"
     }
    ]
   },
@@ -1021,14 +1330,6 @@
      "model": "gemini/gemini-flash-lite-latest"
     },
     {
-     "id": "0ceef4b235ec",
-     "title": "Muru",
-     "link": "https://simonwillison.net/2026/Nov/21/muru/",
-     "source": "Simon Willison",
-     "published": 1795305388,
-     "text": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture , he's been publishing an extraordinarily detailed account of the project as he works on it - as part of his development process. Here's everything he's published so far, all in the last three weeks: 2026-11-04 — Twenty years of mod_wsgi, and what comes next 2026-11-05 — A first look at Muru 2026-11-07 — Muru: looking inside the workers 2026-11-08 — Muru: how "
-    },
-    {
      "id": "973df75fcb2a",
      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc1JrNXptZWc4cU0tZ2IwVXlIUjgwaHE0Z1lKVFZ4T0NTYi1fVWdoYnVLTzFackVaMkZhbTJiMC1MU191MFBvVkF1WkZVc01UZGM5YnRtdUxqSVpaekpqNFZmZGg2RVFwM0dZeVJyNEZEX3Z1V0s2emhGdTNtZHlLWkI3VFk1XzFfcjlPU1lFckNEOHhfczZkZDlZMHhoOVJMMmVYX0g0cjVwQlZ5cFpxNXAya21Nb05aN1dqeW9yODU?oc=5",
@@ -1043,6 +1344,234 @@
      "source": "The New Stack",
      "published": 1795194094,
      "text": "Your AI agent’s “memory problem” may be something else The New Stack"
+    },
+    {
+     "id": "0ceef4b235ec",
+     "title": "Muru",
+     "link": "https://simonwillison.net/2026/Nov/21/muru/",
+     "source": "Simon Willison",
+     "published": 1795305388,
+     "text": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture , he's been publishing an extraordinarily detailed account of the project as he works on it - as part of his development process. Here's everything he's published so far, all in the last three weeks: 2026-11-04 — Twenty years of mod_wsgi, and what comes next 2026-11-05 — A first look at Muru 2026-11-07 — Muru: looking inside the workers 2026-11-08 — Muru: how ",
+     "summary_th": "Graham Dumpleton เปิดตัว Muru เซิร์ฟเวอร์ Rust ช่วยด้วย AI สำหรับรันแอปพลิเคชัน Python แบบ ASGI และ WSGI",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "python",
+      "rust",
+      "server"
+     ],
+     "entities": [
+      "Graham Dumpleton",
+      "Muru"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "39e526cb84a8",
+     "title": "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls",
+     "link": "https://www.infoq.com/news/2026/11/postgresql-19-released/",
+     "source": "InfoQ",
+     "published": 1795352040,
+     "text": "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overhead and improving performance, with new tools for reorganizing tables without downtime and controlling query plans. By Robert Krzaczyński",
+     "summary_th": "กลุ่มพัฒนา PostgreSQL เปิดตัว PostgreSQL 19 โดยเพิ่มฟีเจอร์การจัดระเบียบตารางออนไลน์และการควบคุมการวางแผนคิวรี",
+     "importance": 2,
+     "numbers": [
+      "19"
+     ],
+     "tags": [
+      "postgresql",
+      "database"
+     ],
+     "entities": [
+      "PostgreSQL"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "bf1d56f79e08",
+     "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+     "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+     "source": "Hacker News",
+     "published": 1795337854,
+     "text": "Article URL: https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/ Comments URL: https://news.ycombinator.com/item?id=50597612 Points: 261 # Comments: 357",
+     "summary_th": "รายงานระบุว่าพลังงานของ Anthropic ในปี 2028 จะมาจากก๊าซ 87% และถ่านหิน 11%",
+     "importance": 1,
+     "numbers": [
+      "87%",
+      "11%",
+      "2028"
+     ],
+     "tags": [
+      "energy",
+      "datacenter"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "5e5f91c20b61",
+     "title": "Claude Code Has Been Leaking Secrets Through Its \"Don't Ask Again\" Feature",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMVWxxeG1fWmstOGRUX2tWODc2cm4tSWtIbnYzdU9vb2RmTTVPTjRuRnY0eVBvcjMxcmtpLU12elBveUNvRjBDb2ZJcjNSdjQwbGxKQ3FoWVlaeEdrM1c1ZDNlQ2hFcHNEaldTN1FBZDQ?oc=5",
+     "source": "infoq.com",
+     "published": 1795345242,
+     "text": "Claude Code Has Been Leaking Secrets Through Its \"Don't Ask Again\" Feature infoq.com",
+     "summary_th": "Claude Code รั่วไหลข้อมูลลับผ่านฟีเจอร์ Don't Ask Again",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "security",
+      "claude code"
+     ],
+     "entities": [
+      "Claude Code"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "9b76c16ab92b",
+     "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution",
+     "link": "https://www.infoq.com/news/2026/11/google-agent-compute-engine/",
+     "source": "InfoQ",
+     "published": 1795329000,
+     "text": "Google recently announced Agent Compute Engine, a managed service that runs AI agents in isolated microVMs, with checkpointing capabilities to suspend and resume execution environments. The design keeps credentials, API keys, and OAuth refresh tokens outside the agent sandbox, using an external Agent Gateway to authenticate requests and inject the required secrets. By Renato Losio",
+     "summary_th": "Google เปิดตัว Agent Compute Engine บริการจัดการสำหรับรัน AI agent ใน microVM ที่แยกส่วน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "google",
+      "ai agents",
+      "cloud"
+     ],
+     "entities": [
+      "Google",
+      "Agent Compute Engine"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "d5eeee1878b5",
+     "title": "ClawDOS – An AI coding agent for DOS",
+     "link": "http://ricapar.net/ClawDOS/",
+     "source": "Hacker News",
+     "published": 1795239481,
+     "text": "Article URL: http://ricapar.net/ClawDOS/ Comments URL: https://news.ycombinator.com/item?id=50586292 Points: 166 # Comments: 52",
+     "summary_th": "ClawDOS AI โค้ดดิ้งเอเจนต์สำหรับระบบ DOS เปิดตัวแล้ว",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai agent",
+      "dos"
+     ],
+     "entities": [
+      "ClawDOS"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "7416437ef7fa",
+     "title": "If we stop reading the code, what do we read?",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9INzAtcDRyMUFweFEtYmJicV80U2dtdXdxa2RhT1NDMnRHbXlFNnBiNHVYMjRhaGIxTWVBdExtQ0tkeG44ZE13QkhMMHQ3VWJDMUZNMkExYw?oc=5",
+     "source": "The New Stack",
+     "published": 1795282005,
+     "text": "If we stop reading the code, what do we read? The New Stack",
+     "summary_th": "บทความจาก The New Stack ตั้งคำถามเกี่ยวกับการอ่านโค้ดในปัจจุบัน",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "coding"
+     ],
+     "entities": [
+      "The New Stack"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "65ce93740820",
+     "title": "AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU",
+     "link": "https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/",
+     "source": "InfoQ",
+     "published": 1795328820,
+     "text": "AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that need no handler code, and 90-minute asynchronous timeouts. Billing is the instance price plus a 9.75 percent fee; first hands-on tests report an eight-minute publish and no response streaming. By Steef-Jan Wiggers",
+     "summary_th": "AWS Lambda รองรับการอนุมาน GPU แล้ว โดยอนุญาตให้เรียกใช้พร้อมกันได้สูงสุด 48 อินสแตนซ์ต่อหนึ่งโมเดลต่อ GPU",
+     "importance": 2,
+     "numbers": [
+      "48",
+      "9.75%"
+     ],
+     "tags": [
+      "aws",
+      "lambda",
+      "gpu"
+     ],
+     "entities": [
+      "AWS",
+      "AWS Lambda"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "1e01dc7a9e36",
+     "title": "GPT-6.2 Sol vs. Claude Opus 5.5: Not as accurate, but still might be the better buy",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BUTFOUzJWbzVvbVJfc0o2REJhbWIxSmxrUDRWRnoyWDFSZHo4R2MyX0ZIcGxnQS1HMzlCR3NSMWgxZ3pGVUJEU2o3WXQ2c1pjYjZxTDlQOTFPOS1WZktBaDY1TUI?oc=5",
+     "source": "The New Stack",
+     "published": 1795281105,
+     "text": "GPT-6.2 Sol vs. Claude Opus 5.5: Not as accurate, but still might be the better buy The New Stack",
+     "summary_th": "บทความเปรียบเทียบระหว่าง GPT-6.2 Sol และ Claude Opus 5.5",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai models"
+     ],
+     "entities": [
+      "GPT-6.2 Sol",
+      "Claude Opus 5.5",
+      "The New Stack"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "444a74191040",
+     "title": "Nvidia used 20,000 training examples to fix its AI’s mistakes. Its coding score jumped.",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9JazVNcDVHMFhoelphYjJNXzRKNUFWeFNfYVZpX01OSjdldUlFb0FEejY0ZmtHWHc0dWJ5VV9GYzhDdi1jZjkxcExLRWhUOFdQLTlTSUhKVHJsUExVaWNGUHAtOA?oc=5",
+     "source": "The New Stack",
+     "published": 1795277502,
+     "text": "Nvidia used 20,000 training examples to fix its AI’s mistakes. Its coding score jumped. The New Stack",
+     "summary_th": "Nvidia ใช้ตัวอย่างการฝึกอบรม 20,000 รายการเพื่อแก้ไขข้อผิดพลาดของ AI ส่งผลให้คะแนนการเขียนโค้ดสูงขึ้น",
+     "importance": 1,
+     "numbers": [
+      "20,000"
+     ],
+     "tags": [
+      "nvidia",
+      "ai coding"
+     ],
+     "entities": [
+      "Nvidia"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
+    },
+    {
+     "id": "484a764623c0",
+     "title": "Grafana 13.3 Adds Shared Dashboard Variables and Notebooks",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qakN1a1Y4eVBoUm0wZ0RDcDlqR05KdUowaG5JMjJRMkJKTGRlWXVjTWZYdG9Qd25HNFFCeERsYUNvR3hhNE1XOHBmUFpRWUNYaldlMzNqQkE2bm1EU1pEM0tGaDFBcGdJMXoyTVBwUFBjZ1E?oc=5",
+     "source": "infoq.com",
+     "published": 1795271442,
+     "text": "Grafana 13.3 Adds Shared Dashboard Variables and Notebooks infoq.com",
+     "summary_th": "Grafana 13.3 เพิ่มตัวแปรแดชบอร์ดที่ใช้ร่วมกันและสมุดบันทึก",
+     "importance": 1,
+     "numbers": [
+      "13.3"
+     ],
+     "tags": [
+      "grafana",
+      "dashboard"
+     ],
+     "entities": [
+      "Grafana"
+     ],
+     "model": "gemini/gemini-flash-lite-latest"
     }
    ]
   },
@@ -1214,14 +1743,6 @@
      "model": "gemini/gemini-flash-lite-latest"
     },
     {
-     "id": "224dfde10458",
-     "title": "AI’s blue state reckoning is growing",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNkF5Sm1fcWpuOXBHUDVjUDFkV2owWS16RFRZUXQ5MTE1Rnp1MmItbndURWxVX3drcW1WcDFJNDhVaW9aamE4a1E1OWdLQmo5OGNBcmhBRHVPbk9MdmFjZkIzY0RITER2bHB4SFRIT280cm9aeEZ1ejJHdXFlSjB0Qk5pVGpqWThaSnFFSmZFazFCcTVGNVE?oc=5",
-     "source": "Politico",
-     "published": 1795294800,
-     "text": "AI’s blue state reckoning is growing Politico"
-    },
-    {
      "id": "3672222ee8c8",
      "title": "AI and social media allows memories of the lost to be preserved",
      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE82LS1iUzBGVnZKTlhEQ3VqSmRxS3lac1FMRjNCdDVUYzN6eEJ2aUt3Zm05Q2FTTlNKN25uWVBRLURndnh2dDh2dFhQNnlqRGxWUWd4ZnNrbmVzZWE0?oc=5",
@@ -1276,6 +1797,22 @@
      "source": "The Verge",
      "published": 1795200619,
      "text": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US The Verge"
+    },
+    {
+     "id": "302a42ba882d",
+     "title": "AI is being used to clone real people's videos",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wVVJ3NEMwMDZYamVxSnh3SUJSMS14c01jR05aa2otVUdEclF0MmlFcHpGZkxra0ZLZEtaVFB5M3p6SHZzbzRlQXF5M0tXTzYtclNzX0pHREtTOGtPRFE?oc=5",
+     "source": "BBC",
+     "published": 1795323638,
+     "text": "AI is being used to clone real people's videos BBC"
+    },
+    {
+     "id": "224dfde10458",
+     "title": "AI’s blue state reckoning is growing",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNkF5Sm1fcWpuOXBHUDVjUDFkV2owWS16RFRZUXQ5MTE1Rnp1MmItbndURWxVX3drcW1WcDFJNDhVaW9aamE4a1E1OWdLQmo5OGNBcmhBRHVPbk9MdmFjZkIzY0RITER2bHB4SFRIT280cm9aeEZ1ejJHdXFlSjB0Qk5pVGpqWThaSnFFSmZFazFCcTVGNVE?oc=5",
+     "source": "Politico",
+     "published": 1795294800,
+     "text": "AI’s blue state reckoning is growing Politico"
     }
    ]
   }
