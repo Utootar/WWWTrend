@@ -2,9 +2,10 @@
  "date": "2026-11-22",
  "collected_at": "2026-11-22T08:21:20+07:00",
  "models": [
+  "claude/routine",
   "gemini/gemini-flash-latest"
  ],
- "summary_failed": 87,
+ "summary_failed": 0,
  "prices": [
   {
    "symbol": "^GSPC",
@@ -500,7 +501,8 @@
      "entities": [
       "U.S."
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c75aad69646d",
@@ -510,7 +512,7 @@
      "published": 1795280254,
      "text": "This would make the second recent intrusion into the FBI system.",
      "summary_th": "ทรัมป์กล่าวว่าอาจมีแง่มุมบวกจากการแฮกระบบฐานข้อมูลของ FBI ครั้งล่าสุด ซึ่งถือเป็นการบุกรุกระบบของ FBI เป็นครั้งที่สองในช่วงที่ผ่านมา",
-     "importance": 0,
+     "importance": 2,
      "numbers": [],
      "tags": [
       "fbi",
@@ -521,7 +523,10 @@
       "Trump",
       "FBI"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "การแฮกระบบ FBI เป็นข่าวความปลอดภัยสำคัญ ไม่ใช่ข่าวนอกหมวด",
+     "checked_by": "claude/review"
     },
     {
      "id": "159a14b1bff7",
@@ -541,7 +546,8 @@
       "mortgage rates"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "cb400abacf6c",
@@ -567,7 +573,8 @@
       "SCHD",
       "Dividend Aristocrats"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "37cc6b7e66d7",
@@ -590,7 +597,8 @@
       "Cepee Tabibian",
       "Spain"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c815411561d0",
@@ -612,7 +620,8 @@
       "Social Security",
       "Medicare"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8a750ed9c5fc",
@@ -621,7 +630,7 @@
      "source": "Seeking Alpha",
      "published": 1795308817,
      "text": "Simmons First National Corporation Needs A Downgrade Seeking Alpha",
-     "summary_th": "บทวิเคราะห์ระบุว่า Simmons First National Corporation จำเป็นต้องได้รับการปรับลดอันดับความน่าเชื่อถือลง",
+     "summary_th": "บทวิเคราะห์ของ Seeking Alpha ใช้หัวข้อว่า Simmons First National Corporation 'Needs A Downgrade' (ความเห็นของผู้เขียน)",
      "importance": 1,
      "numbers": [],
      "tags": [
@@ -633,7 +642,10 @@
       "Simmons First National Corporation",
       "Seeking Alpha"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "คำว่า downgrade ในหัวข่าวหมายถึงคำแนะนำหุ้น ไม่ใช่อันดับความน่าเชื่อถือ",
+     "checked_by": "claude/review"
     },
     {
      "id": "7ab476a90e49",
@@ -650,7 +662,8 @@
       "taxes"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "69d237384442",
@@ -670,7 +683,8 @@
      "entities": [
       "U.S."
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "707eb87d4144",
@@ -691,7 +705,8 @@
       "Warren Buffett",
       "Yahoo Finance"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "0337d3d7172f",
@@ -711,7 +726,8 @@
      "entities": [
       "Wall Street"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "44dfc4e0911d",
@@ -720,8 +736,8 @@
      "source": "The Motley Fool",
      "published": 1795308060,
      "text": "Prediction: Some Anthropic Investors Are About to Learn an Expensive Lesson The Motley Fool",
-     "summary_th": "บทความคาดการณ์ว่านักลงทุนบางส่วนใน Anthropic กำลังจะได้รับบทเรียนที่มีราคาแพง",
-     "importance": 1,
+     "summary_th": "บทความของ The Motley Fool เป็นความเห็นเชิงคาดการณ์เกี่ยวกับนักลงทุนบางส่วนใน Anthropic (ความเห็น ไม่ใช่เหตุการณ์)",
+     "importance": 0,
      "numbers": [],
      "tags": [
       "anthropic",
@@ -732,7 +748,10 @@
       "Anthropic",
       "The Motley Fool"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "เป็นบทความความเห็นเชิงทำนาย ไม่ควรสรุปคำทำนายเป็นข้อเท็จจริง",
+     "checked_by": "claude/review"
     },
     {
      "id": "a7d3acf250eb",
@@ -752,7 +771,8 @@
      "entities": [
       "Anthropic"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4ade22ff7290",
@@ -773,7 +793,8 @@
       "Fortitude",
       "Nasdaq"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9c51c8dfa587",
@@ -783,7 +804,7 @@
      "published": 1795269940,
      "text": "The price of gold has sparked a modern-day gold rush in California. Small-scale miners are investing time, physical labor and money to unearth the yellow metal.",
      "summary_th": "ราคาทองคำจุดกระแสการตื่นทองยุคใหม่ในแคลิฟอร์เนีย ทำให้นักขุดทองรายย่อยทุ่มเทเวลา แรงงาน และเงินเพื่อขุดหาทองคำ",
-     "importance": 0,
+     "importance": 1,
      "numbers": [],
      "tags": [
       "gold rush",
@@ -792,7 +813,10 @@
      "entities": [
       "California"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ข่าวทองคำในหมวดทองคำ ไม่ใช่นอกหมวด",
+     "checked_by": "claude/review"
     },
     {
      "id": "9b4cc5e71c7d",
@@ -816,7 +840,8 @@
       "S&P 500",
       "Fortune"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "df0f7a36186c",
@@ -826,7 +851,7 @@
      "published": 1795266761,
      "text": "States, Congress and the CFTC are escalating the fight over prediction market regulation after the midterms.",
      "summary_th": "การต่อสู้ระหว่างรัฐ รัฐสภา และ CFTC ในการกำกับดูแลตลาดการทำนายผลทวีความรุนแรงขึ้นหลังการเลือกตั้งกลางเทอม",
-     "importance": 0,
+     "importance": 2,
      "numbers": [],
      "tags": [
       "regulation",
@@ -837,7 +862,10 @@
       "Congress",
       "CFTC"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "การต่อสู้เรื่องกฎระเบียบตลาดทำนายผลเป็นประเด็นนโยบายที่มีนัยสำคัญ",
+     "checked_by": "claude/review"
     },
     {
      "id": "194f0617845e",
@@ -858,7 +886,8 @@
       "Ainos",
       "Nasdaq"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "41ad7f35d848",
@@ -880,7 +909,8 @@
      "entities": [
       "Warren Buffett"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "96113134950b",
@@ -902,7 +932,8 @@
       "Jensen Huang",
       "The Motley Fool"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e0907b24b566",
@@ -922,7 +953,8 @@
       "Xi Jinping",
       "China"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "89b992b2c96e",
@@ -947,7 +979,8 @@
       "Nasdaq",
       "U.S."
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "52351803aa21",
@@ -957,7 +990,7 @@
      "published": 1795240802,
      "text": "Known vulnerabilities are leaving everyday businesses increasingly exposed to cyber sabotage, as AI enables cybercriminals to work better and faster.",
      "summary_th": "ช่องโหว่ด้านความปลอดภัยทางไซเบอร์ที่ตรวจพบ ทำให้ธุรกิจทั่วไปในยุโรปเสี่ยงต่อการถูกวินาศกรรมทางไซเบอร์มากขึ้น เนื่องจากอาชญากรไซเบอร์ใช้ AI ทำงานได้รวดเร็วและมีประสิทธิภาพขึ้น",
-     "importance": 0,
+     "importance": 1,
      "numbers": [],
      "tags": [
       "cybersecurity",
@@ -967,7 +1000,10 @@
      "entities": [
       "Europe"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "เรื่องความเสี่ยงไซเบอร์ของธุรกิจเป็นข่าวในหมวดเทคโนโลยี ไม่ใช่นอกหมวด",
+     "checked_by": "claude/review"
     },
     {
      "id": "6c2951be3640",
@@ -990,7 +1026,8 @@
       "Dow",
       "US"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "62d012cbeab2",
@@ -1013,7 +1050,8 @@
       "Scott",
       "China"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1027,7 +1065,17 @@
      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm",
      "source": "Federal Reserve",
      "published": 1795209300,
-     "text": "Federal Reserve announces College Fed Challenge winners"
+     "text": "Federal Reserve announces College Fed Challenge winners",
+     "summary_th": "เฟดประกาศผู้ชนะการแข่งขัน College Fed Challenge",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "fed"
+     ],
+     "entities": [
+      "Federal Reserve"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "9fc0b61bdeb0",
@@ -1035,7 +1083,15 @@
      "link": "https://www.bbc.co.uk/news/articles/cmy49l3x893jo?at_medium=RSS&at_campaign=rss",
      "source": "BBC Business",
      "published": 1795262989,
-     "text": "A council is urging people to seek support with rising energy costs on heating this winter."
+     "text": "A council is urging people to seek support with rising energy costs on heating this winter.",
+     "summary_th": "สภาท้องถิ่นแห่งหนึ่งเร่งให้คนขอความช่วยเหลือเรื่องค่าพลังงานที่สูงขึ้นสำหรับการทำความร้อนในฤดูหนาวนี้",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "energy costs"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "45201d2fd35b",
@@ -1043,7 +1099,18 @@
      "link": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1795306244,
-     "text": "The National Crime Information Center database is used by federal and local law enforcement to share information."
+     "text": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+     "summary_th": "มีรายงานว่า FBI กำลังตรวจสอบการเจาะระบบฐานข้อมูล National Crime Information Center ที่ใช้แชร์ข้อมูลระหว่างหน่วยงานบังคับใช้กฎหมาย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "cyber",
+      "fbi"
+     ],
+     "entities": [
+      "FBI"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "879fb2b5e6a7",
@@ -1051,7 +1118,17 @@
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSVlTVDRWR0lhWV9ZQ3J6b3UzY2s4WEhYQ3I0T2Z1eENNWGtJNVFIazg3MHNyd0djeVFvSEx5NnRQVjlqSW1Wa2RNakxNcDBzOHVIZ2ZNTjFkQTNicWhZN1oyLU1WaVI4NV9MbV9paGVNWndGSjJyZ2xLNzlLNzBCckhpelFPSVl2bmg1aUpUYkVleVJMTUo5NEZidms?oc=5",
      "source": "The Canberra Times",
      "published": 1795309769,
-     "text": "'Really bad signs' ahead of inflation data release The Canberra Times"
+     "text": "'Really bad signs' ahead of inflation data release The Canberra Times",
+     "summary_th": "พาดหัวข่าวออสเตรเลียระบุ 'สัญญาณแย่มาก' ก่อนข้อมูลเงินเฟ้อจะเผยแพร่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "inflation"
+     ],
+     "entities": [
+      "Australia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "819d3babef6f",
@@ -1059,7 +1136,20 @@
      "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
      "source": "BBC Business",
      "published": 1795215204,
-     "text": "The mammoth figure surpasses every video game launch and single-day film box office record."
+     "text": "The mammoth figure surpasses every video game launch and single-day film box office record.",
+     "summary_th": "ยอดขาย GTA 6 ทำได้ $3.8bn ในวันเดียว ซึ่งบทความระบุว่าเป็นการเปิดตัวงานบันเทิงที่ใหญ่ที่สุดในประวัติศาสตร์",
+     "importance": 2,
+     "numbers": [
+      "$3.8bn"
+     ],
+     "tags": [
+      "gta 6",
+      "gaming"
+     ],
+     "entities": [
+      "GTA 6"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "67c31da8ce5f",
@@ -1067,7 +1157,17 @@
      "link": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1795306237,
-     "text": "Fewer young people have registered to vote in next year's election than in 2023 - are young people losing faith in democracy?"
+     "text": "Fewer young people have registered to vote in next year's election than in 2023 - are young people losing faith in democracy?",
+     "summary_th": "จำนวนคนหนุ่มสาวไนจีเรียที่ลงทะเบียนเลือกตั้งปีหน้าน้อยกว่าปี 2023 บทความตั้งคำถามว่าทำไมคนรุ่นใหม่ไม่กำหนดการเมือง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "nigeria election"
+     ],
+     "entities": [
+      "Nigeria"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "57e31772df4a",
@@ -1075,7 +1175,15 @@
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTUM4eUJqM01Sc2JsemVWUGJZTVN3OWdrLVp0YUtydnVvUWc4WHhUUjVOdFRTbmJIREFwT3RFenRmdGsydnRhUWxxc0N2djY3Z2loNUplc09LRjV6X3F6X3k0MGV2TF9teUdQcm4wMjk3S0lmdDVBQVRlc0ZRWWJ6Rlk3Qmx2cHI5V2NYQW1DUDYyN2M?oc=5",
      "source": "Kyabram Free Press",
      "published": 1795309200,
-     "text": "| Kyabram Free Press Kyabram Free Press"
+     "text": "| Kyabram Free Press Kyabram Free Press",
+     "summary_th": "ไม่มีหัวข่าวหรือเนื้อหาให้สรุป",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "local news"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "7abcb9e67aa8",
@@ -1083,7 +1191,20 @@
      "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
      "source": "BBC Business",
      "published": 1795214567,
-     "text": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory."
+     "text": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory.",
+     "summary_th": "หุ้นสหรัฐลงตามหุ้นเทคโนโลยีที่ขายออกหนัก โดย S&P 500 และ Dow Jones เข้าสู่ภาวะปรับฐาน (correction) ขณะที่หุ้น Anthropic ก็ร่วง",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "stocks",
+      "ai stocks"
+     ],
+     "entities": [
+      "S&P 500",
+      "Dow Jones",
+      "Anthropic"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "cca80141b2d3",
@@ -1091,7 +1212,17 @@
      "link": "https://www.bbc.co.uk/news/articles/cmq8lyv8lkjwo?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1795306198,
-     "text": "When 16-year-old Landon Tresp met a teenage girl in an online game, it led to him and his mother helping the FBI rescue her from kidnapping."
+     "text": "When 16-year-old Landon Tresp met a teenage girl in an online game, it led to him and his mother helping the FBI rescue her from kidnapping.",
+     "summary_th": "เด็กชายวัย 16 ปีกับแม่ช่วย FBI ช่วยเด็กหญิงที่ถูกลักพาตัว หลังเด็กชายพบกับเด็กหญิงในเกมออนไลน์",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "crime"
+     ],
+     "entities": [
+      "FBI"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8c9689622c66",
@@ -1099,7 +1230,20 @@
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUUktaFI1eHVGdTF6NnRIbXI3dWxkSUVJYmdsLVk4dDFlR2xXams4SHdabF9MVDhHZVJZd2s4RjRRenZiQUJ3Q2RGcFpOc3JDcVh5djI5dmFadGFZX01sRXZPMVlLbGI0RzhEQ2hXMjE2NUY2bUhFVl85MS1DVmV1d3p1N0g4UmJEalBiTUR0bTA?oc=5",
      "source": "Traders Union",
      "published": 1795307897,
-     "text": "Federal Reserve policy puts XRP at risk as higher rates may weaken crypto’s appeal Traders Union"
+     "text": "Federal Reserve policy puts XRP at risk as higher rates may weaken crypto’s appeal Traders Union",
+     "summary_th": "บทความระบุว่านโยบายดอกเบี้ยสูงของเฟดอาจทำให้ XRP เสี่ยง เพราะลดความน่าสนใจของคริปโต",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "xrp",
+      "crypto",
+      "fed"
+     ],
+     "entities": [
+      "XRP",
+      "Federal Reserve"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "36fb31620a7c",
@@ -1107,7 +1251,19 @@
      "link": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
      "source": "BBC Business",
      "published": 1795208052,
-     "text": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time."
+     "text": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.",
+     "summary_th": "ทรัมป์ขู่จะห้ามบริษัทสหรัฐสร้างศูนย์ข้อมูล AI ในต่างประเทศ โดยยังไม่ให้รายละเอียดนโยบายมากนัก",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "data center",
+      "trade policy"
+     ],
+     "entities": [
+      "Trump"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "48f549e40ad0",
@@ -1115,7 +1271,19 @@
      "link": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1795303877,
-     "text": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities."
+     "text": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
+     "summary_th": "ผู้ต้องสงสัยค้ายาชาวเม็กซิกันในรายชื่อ 10 คนที่ FBI ต้องการตัวมากที่สุด ถูกจับหลังปะทะกับเจ้าหน้าที่",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "crime",
+      "mexico"
+     ],
+     "entities": [
+      "FBI",
+      "Fausto Isidro Meza Flores"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "0193df5be79b",
@@ -1123,7 +1291,19 @@
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPenZ0WnJCbENZZHVOSE1zcGNXeEFGal9pbzd4Z01mZTF0V1E4dWE4SVp6Vmp6dzB1S0xiYWVxNGUzaUp0NHlWSXJMMHdpYlk3V3UwTC1aMDA4QU5oaGpMb2hhaFo0YUxreFJlMGJFdUFWMlFQeGFvVVJGbkFkS1VGNDBYYzE?oc=5",
      "source": "조선일보",
      "published": 1795306477,
-     "text": "US Defense Secretary Orders Defense Cooperation Restrictions with Canada 조선일보"
+     "text": "US Defense Secretary Orders Defense Cooperation Restrictions with Canada 조선일보",
+     "summary_th": "รัฐมนตรีกลาโหมสหรัฐสั่งจำกัดความร่วมมือด้านกลาโหมกับแคนาดา",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "defense",
+      "canada"
+     ],
+     "entities": [
+      "US",
+      "Canada"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "040c95d5f039",
@@ -1131,7 +1311,19 @@
      "link": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1795299583,
-     "text": "Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement."
+     "text": "Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement.",
+     "summary_th": "การประชุมสภาพอากาศ COP31 ติดขัด เพราะประเทศต่างๆ ยังตกลงเรื่องเชื้อเพลิงฟอสซิลไม่ได้",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "cop31",
+      "climate",
+      "fossil fuel"
+     ],
+     "entities": [
+      "COP31"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "780043cd20a1",
@@ -1139,7 +1331,20 @@
      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9vVkpEb3c5SzZTQjhYekplV2NTeG5VczIwNktGX3o1c1otb0lxd0tZWHRoNlFiU3BFVFNkTGNBR3QwV1ZSWEdwLWNVQnFhLXhGUnlLNWtBdy1fUUJBc2gwR2RURnVLcXFNeDk5ZThPa0Z4bGcyM0lR?oc=5",
      "source": "Punch Newspapers",
      "published": 1795304745,
-     "text": "Food inflation exceeds 20% in 19 Nigerian states Punch Newspapers"
+     "text": "Food inflation exceeds 20% in 19 Nigerian states Punch Newspapers",
+     "summary_th": "อัตราเงินเฟ้ออาหารเกิน 20% ใน 19 รัฐของไนจีเรีย",
+     "importance": 2,
+     "numbers": [
+      "20%"
+     ],
+     "tags": [
+      "inflation",
+      "food"
+     ],
+     "entities": [
+      "Nigeria"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -1153,7 +1358,18 @@
      "link": "https://oilprice.com/Energy/Crude-Oil/AI-Boom-Forces-Massive-Investment-in-Power-Grids-Worldwide.html",
      "source": "OilPrice.com",
      "published": 1795305600,
-     "text": "The information technology industry is driving massive growth in global electricity demand, which is set to rise by more than 10,000 TWh over the next ten years. For this electricity to reach demand hubs, grids around the world will need urgent upgrades. The big question is who will pay for it. In its World Energy Outlook released this week, the International Energy Agency once again joined the growing chorus of forecasters warning that data centers are becoming a major drain on electricity supply. Some of these warnings and community opposition…"
+     "text": "The information technology industry is driving massive growth in global electricity demand, which is set to rise by more than 10,000 TWh over the next ten years. For this electricity to reach demand hubs, grids around the world will need urgent upgrades. The big question is who will pay for it. In its World Energy Outlook released this week, the International Energy Agency once again joined the growing chorus of forecasters warning that data centers are becoming a major drain on electricity supply. Some of these warnings and community opposition…",
+     "summary_th": "ความต้องการไฟฟ้าทั่วโลกจากอุตสาหกรรมไอทีและ AI คาดว่าจะเพิ่มมากกว่า 10,000 TWh ใน 10 ปี ทำให้ระบบสายส่งทั่วโลกต้องอัปเกรด",
+     "importance": 2,
+     "numbers": [
+      "10,000 TWh"
+     ],
+     "tags": [
+      "ai",
+      "power grid"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "0f7e2099d046",
@@ -1161,7 +1377,17 @@
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQX2tTSzgzZXAtNlZrYzlmOVNZWnpKZm9kTlVzWlJmR00zeGhhSWZVOEtoNTltZG9FenVKdlpUZFVIN3ZHMWExWUE3WERVR0pLcndtbzRVWnNaUUgxRnZGZUZ5WDNUcHRMdDJCRWp1cy1hQXMydE14VkhIcXNwOXlKdk1qUWdNWlZjdWdaNl9GdXg?oc=5",
      "source": "Vietnam.vn",
      "published": 1795304996,
-     "text": "Today's fuel prices (November 22): A week of decline in world oil prices. Vietnam.vn"
+     "text": "Today's fuel prices (November 22): A week of decline in world oil prices. Vietnam.vn",
+     "summary_th": "ราคาน้ำมันในเวียดนามลดลงหนึ่งสัปดาห์ ตามราคาน้ำมันโลกที่ลดลง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "oil"
+     ],
+     "entities": [
+      "Vietnam"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7eea5df19bed",
@@ -1169,7 +1395,21 @@
      "link": "https://oilprice.com/Alternative-Energy/Wind-Power/Wind-Could-Cut-the-Cost-of-Round-the-Clock-Solar-Power-by-18-Ember-Says.html",
      "source": "OilPrice.com",
      "published": 1795298400,
-     "text": "A new report from Ember Energy shows the enormous cost-saving potential of wind energy. While solar power and battery storage have taken off on a global level, wind power has been slower to expand. But according to the new report from the prominent energy think tank, this is a major missed opportunity for energy security, emissions goals, and economic returns. “Solar and batteries can already deliver firm power at a competitive cost across much of the world,” reads the report, titled Harnessing the Winds. “Adding wind makes it…"
+     "text": "A new report from Ember Energy shows the enormous cost-saving potential of wind energy. While solar power and battery storage have taken off on a global level, wind power has been slower to expand. But according to the new report from the prominent energy think tank, this is a major missed opportunity for energy security, emissions goals, and economic returns. “Solar and batteries can already deliver firm power at a competitive cost across much of the world,” reads the report, titled Harnessing the Winds. “Adding wind makes it…",
+     "summary_th": "รายงานของ Ember ระบุว่าพลังงานลมอาจลดต้นทุนไฟฟ้าแสงอาทิตย์แบบต่อเนื่องตลอด 24 ชั่วโมงได้ 18%",
+     "importance": 2,
+     "numbers": [
+      "18%"
+     ],
+     "tags": [
+      "wind",
+      "solar",
+      "ember"
+     ],
+     "entities": [
+      "Ember"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "11b04887a931",
@@ -1177,7 +1417,16 @@
      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSnBJX3g3SGF4eFQ1aHI1UGg0VHVmM3AyeGN0X2NnNHQwQl9vVVJNal9vX3Q1N3ExTzRncW1mbmVWX1c2VUFlNFEtd0VINnA2OHVwT1lZWnFyMFM5T3pycW0td0lNVFRVQ2UtVVNSdXkxVnpMdGpDUEtzZW9UVnVDb2Z5Um8zMERYOVpNR0d2NmtFSnpTOG1tZEZLMG5ySDVyMDhPdTQyMzl1VG9BZW5mUmRPSk1Xd2puVlV3Yl84UUNHZUd5b3pXSVE4b1ktOERj?oc=5",
      "source": "investingLive",
      "published": 1795303365,
-     "text": "Connecting the dots: Why falling oil prices might not deliver the inflation relief everyone expects investingLive"
+     "text": "Connecting the dots: Why falling oil prices might not deliver the inflation relief everyone expects investingLive",
+     "summary_th": "พาดหัวตั้งประเด็นว่าราคาน้ำมันที่ลดลงอาจไม่ช่วยให้เงินเฟ้อลดลงอย่างที่หลายคนคาด",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "oil",
+      "inflation"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "478a74b5559a",
@@ -1185,7 +1434,18 @@
      "link": "https://oilprice.com/Energy/Coal/Trumps-Coal-Revival-Is-Costing-Americans-More-Than-Expected.html",
      "source": "OilPrice.com",
      "published": 1795291200,
-     "text": "United States President Trump has doubled down on his support for fossil fuels since coming into office almost two years ago, including the most polluting of them all – coal. Just as many coal plants were on their way to retirement, Trump stepped in and stopped them from closing, backing his decision with federal funds. Recent assessments suggest that the move has cost U.S. taxpayers billions of dollars with little to show for it. President Trump has issued several far-reaching executive orders in support of the coal industry, allowing coal…"
+     "text": "United States President Trump has doubled down on his support for fossil fuels since coming into office almost two years ago, including the most polluting of them all – coal. Just as many coal plants were on their way to retirement, Trump stepped in and stopped them from closing, backing his decision with federal funds. Recent assessments suggest that the move has cost U.S. taxpayers billions of dollars with little to show for it. President Trump has issued several far-reaching executive orders in support of the coal industry, allowing coal…",
+     "summary_th": "บทความระบุว่านโยบายฟื้นฟูถ่านหินของทรัมป์อาจทำให้ชาวอเมริกันต้องจ่ายแพงกว่าที่คาด หลังเขาหยุดการปิดโรงไฟฟ้าถ่านหินหลายแห่ง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "coal",
+      "energy policy"
+     ],
+     "entities": [
+      "Trump"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1230756b4a16",
@@ -1193,7 +1453,21 @@
      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNVFgxalFIZGlucjBYRGlPbVh6WmRhc21KT1pia2ZNZ2ZWN3ZrQWlxLWR5UHA0bWtsTHhMV0RDdTR1amdpd3VtYldocDVGYUFQU1dkYU5wdFdTekp4UTUtclZma3JJTG1YbE9zbjJVTFNaYkkyR2NlNHlfRnVPWFpfeURkSFpCRE5UTi1CS01Kck84RHZvaldsbDVZRjB2MURHM3paTEVWREJ6SHpuWVJJSmZGU3pfRUZ0NlVOamZ2d0pnUUEzbjZ1Z25yLS1DWDhldllxYzY2SHNNUmRtQ3daMF9oWDd2TVNpcmZkOWdhV0s4eU9WSjBCd2ZWNG1lTnhPcUUwejZaY2djZkI3OENGcHFGUEFXYWhCUWlqaA?oc=5",
      "source": "The Indian Express",
      "published": 1795302600,
-     "text": "US-Iran War Live Updates: Tehran says it hit US radars in Bahrain as fire breaks out at civilian site The Indian Express"
+     "text": "US-Iran War Live Updates: Tehran says it hit US radars in Bahrain as fire breaks out at civilian site The Indian Express",
+     "summary_th": "อิหร่านอ้างว่าโจมตีเรดาร์ของสหรัฐในบาห์เรน ขณะเกิดไฟไหม้ที่พื้นที่พลเรือน",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "iran",
+      "middle east",
+      "oil"
+     ],
+     "entities": [
+      "Iran",
+      "US",
+      "Bahrain"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b0c1f70a4ce3",
@@ -1201,7 +1475,22 @@
      "link": "https://oilprice.com/Latest-Energy-News/World-News/Thanksgiving-Gas-Prices-Could-Break-a-Record-Despite-Recent-Plunge.html",
      "source": "OilPrice.com",
      "published": 1795288200,
-     "text": "Gasoline prices have fallen nearly 60 cents in a month, but Americans heading out for Thanksgiving could still pay more at the pump than during any previous Thanksgiving. The national average fell to $3.69 per gallon on Friday, according to AAA, down from approximately $4.30 a month ago. GasBuddy expects prices to average $3.62 on Thanksgiving Day, which would surpass the previous holiday record of $3.56 set in 2022. The declines are substantial. Gasoline prices have been falling for weeks as crude oil prices retreat and supplies recover from the…"
+     "text": "Gasoline prices have fallen nearly 60 cents in a month, but Americans heading out for Thanksgiving could still pay more at the pump than during any previous Thanksgiving. The national average fell to $3.69 per gallon on Friday, according to AAA, down from approximately $4.30 a month ago. GasBuddy expects prices to average $3.62 on Thanksgiving Day, which would surpass the previous holiday record of $3.56 set in 2022. The declines are substantial. Gasoline prices have been falling for weeks as crude oil prices retreat and supplies recover from the…",
+     "summary_th": "ราคาน้ำมันเบนซินลดลงเกือบ 60 cents ในหนึ่งเดือน แต่ค่าน้ำมันช่วงวันขอบคุณพระเจ้าอาจสูงสุดเป็นประวัติการณ์ โดยราคาเฉลี่ยทั่วประเทศอยู่ที่ $3.69 ต่อแกลลอน",
+     "importance": 2,
+     "numbers": [
+      "$3.69",
+      "60 cents"
+     ],
+     "tags": [
+      "gasoline",
+      "thanksgiving"
+     ],
+     "entities": [
+      "AAA",
+      "GasBuddy"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "995a5039b314",
@@ -1209,7 +1498,20 @@
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaWxwTlpONjNnRFBGbUx6WVV1MUQwT3p4SVNpLWVmZERhWnFCWXNCWmd3NTV0UTh3VkgyZEVya0daMUZMcHQ5SF9hSjN1b21jdFBrWmM2SVRSbkNLRURoTjg0cHpJdU5BOE8yUV9TU2ZnYjlCQkJmNnp2MUxwZ0NpOTJFdVdIYVVnRzlKOG5mTWdUVGlMWldmM0kyUUtvSkU?oc=5",
      "source": "Manila Standard",
      "published": 1795301824,
-     "text": "Oil prices to ease by as much as P2.55/liter Manila Standard"
+     "text": "Oil prices to ease by as much as P2.55/liter Manila Standard",
+     "summary_th": "ราคาน้ำมันในฟิลิปปินส์คาดว่าจะลดลงสูงสุดถึง P2.55/liter",
+     "importance": 2,
+     "numbers": [
+      "P2.55/liter"
+     ],
+     "tags": [
+      "oil",
+      "philippines"
+     ],
+     "entities": [
+      "Philippines"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7d55f2086f45",
@@ -1217,7 +1519,20 @@
      "link": "https://oilprice.com/Energy/Energy-General/Britains-Net-Zero-Revolution-Has-a-China-Problem.html",
      "source": "OilPrice.com",
      "published": 1795284000,
-     "text": "The Labour government has been accused of “capitulation” in its trade relations with China as Britain’s transition to net zero faces a number of security risks. A new report, published shortly before President Trump’s momentous trilateral meeting with Xi Jinping and Vladimir Putin, has highlighted the UK’s dependence on China for net zero-related technology and potential vulnerabilities in supply chains. Policy Exchange researchers found that China accounts for 91 per cent of the UK’s solar imports, plus…"
+     "text": "The Labour government has been accused of “capitulation” in its trade relations with China as Britain’s transition to net zero faces a number of security risks. A new report, published shortly before President Trump’s momentous trilateral meeting with Xi Jinping and Vladimir Putin, has highlighted the UK’s dependence on China for net zero-related technology and potential vulnerabilities in supply chains. Policy Exchange researchers found that China accounts for 91 per cent of the UK’s solar imports, plus…",
+     "summary_th": "รายงานชี้ความเสี่ยงด้านความมั่นคงจากจีนต่อการเปลี่ยนผ่านพลังงานสุทธิเป็นศูนย์ของอังกฤษ และรัฐบาลแรงงานถูกกล่าวหาเรื่องการค้ากับจีน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "uk",
+      "china",
+      "net zero"
+     ],
+     "entities": [
+      "UK",
+      "China"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "58962c8c71ff",
@@ -1225,7 +1540,22 @@
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObVlqMFRrQXhNOEtuaTBVbHFCVlo5UzBRVWpHR1E4blpJTnBmaXp3RXFWX0FzcExuWkhtTzU3blprbWE3Sm5iWFhBbm5Vc3p1RU8tNnExNHQ2VXlqa1hyWWZUN0RLQkV6bElIbnd4ZVNUaUNXNnl4cTJUejV1ZzhSSy1Ma1RXMW1Cd3ZCT3p2RTVkQ1VvZUFRM200Qk9aSWNzVFpnYVhRQkxtUU1kcHVZWXZUYU9uUi1KcEF3?oc=5",
      "source": "Arab News PK",
      "published": 1795301270,
-     "text": "Libya loses $30.8 million as armed group blocks oil pipeline for over 20 days Arab News PK"
+     "text": "Libya loses $30.8 million as armed group blocks oil pipeline for over 20 days Arab News PK",
+     "summary_th": "ลิเบียสูญเสีย $30.8 million หลังกลุ่มติดอาวุธปิดท่อน้ำมันนานกว่า 20 วัน",
+     "importance": 2,
+     "numbers": [
+      "$30.8 million",
+      "over 20 days"
+     ],
+     "tags": [
+      "libya",
+      "oil",
+      "pipeline"
+     ],
+     "entities": [
+      "Libya"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1bca21e49829",
@@ -1233,7 +1563,18 @@
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDZms0VGZBa0FabmwxR0hUOEhzbnBFa25zbDh4ZGtJbG5Va19mN05XQUJwaUtmbkl1aGRQMklILVhHeHNQd1l5WmlHTWx6bFZKXzF1bkxpeVJ4dU9xeWNtUGpqSXliU1lH?oc=5",
      "source": "IMDb",
      "published": 1795299404,
-     "text": "Bill Maher Mocks Donald Trump Over Tech Outages With Crude Comparison IMDb"
+     "text": "Bill Maher Mocks Donald Trump Over Tech Outages With Crude Comparison IMDb",
+     "summary_th": "Bill Maher วิจารณ์ทรัมป์เรื่องระบบเทคโนโลยีล่ม โดยเปรียบเทียบกับน้ำมันดิบ (เป็นความเห็นเชิงบันเทิง)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "politics"
+     ],
+     "entities": [
+      "Bill Maher",
+      "Trump"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "969027f2ca13",
@@ -1241,7 +1582,18 @@
      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbFN1Vkp1WHRONWY5clRhVnBJanBpTXNVWlp1N3NJU1pGUGEzRVc5UXRzSEdMd1NvVlBSbkJzQ0tRcWN4UU9YbjNzcm01ZVVodnBSRk5OMk9QR1FibTRuUzhkbjllNWhWelY0ZWQzUkNyTUFmTlUxQzNYVThVTmhvcFNvdnZGNVUyenJlYzc5Y1lLVC1ZR05mNE85UjZnR3NtS1pBX19fTFdfa29OTXRLZDR6S3NOTlhIQjU5ZkM4a2RNZ3pzYm1MNUpMRkTSAcwBQVVfeXFMUGxTdVZKdVh0TjVmOXJUYVZwSWpwaU1zVVpadTdzSVNaRlBhM0VXOVF0c0hHTHdTb1ZQUm5Cc0NLUXFjeFFPWG4zc3JtNWVVaHZwUkZOTjJPUEdRYm00blM4ZG45ZTVoVnpWNGVkM1JDck1BZk5VMUMzWFU4VU5ob3BTb3Z2RjVVMnpyZWM3OWNZS1QtWUdOZjRPOVI2Z0dzbUtaQV9fX0xXX2tvTk10S2Q0ektzTk5YSEI1OWZDOGtkTWd6c2JtTDVKTEZE?oc=5",
      "source": "Simply Wall St",
      "published": 1795298987,
-     "text": "Will Crude Inventory Build Change ConocoPhillips Stock Narrative Simply Wall St"
+     "text": "Will Crude Inventory Build Change ConocoPhillips Stock Narrative Simply Wall St",
+     "summary_th": "พาดหัวตั้งประเด็นว่าสินค้าคงคลังน้ำมันดิบที่เพิ่มขึ้นอาจเปลี่ยนมุมมองต่อหุ้น ConocoPhillips",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "crude",
+      "conocophillips"
+     ],
+     "entities": [
+      "ConocoPhillips"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "39b61289539d",
@@ -1249,7 +1601,20 @@
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOTZvZEU0eW5nYmxzZGR2T3ZEM1QtV0lmbk4xZ2dMTEJjb0dhQUhRV21TaDhuWlhDZGhzOWxyNFd5azZ2NFpGdUNpLXMzV0NOMTdndWZxbFBtc0FlUHFZMTRfcVN2VHFVQXBQN1FHaDE1YkhPRzVsemJhZm95aWVzV0Rn?oc=5",
      "source": "شفق نيوز",
      "published": 1795298835,
-     "text": "Shafaq News..Oil smuggling drains $2B from Iraq annually شفق نيوز"
+     "text": "Shafaq News..Oil smuggling drains $2B from Iraq annually شفق نيوز",
+     "summary_th": "การลักลอบค้าน้ำมันทำให้อิรักสูญเสียประมาณ $2B ต่อปี",
+     "importance": 2,
+     "numbers": [
+      "$2B"
+     ],
+     "tags": [
+      "iraq",
+      "oil smuggling"
+     ],
+     "entities": [
+      "Iraq"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e20e77129718",
@@ -1257,7 +1622,18 @@
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSV9hZkdXWFNETFlQQWpKNEhZcG9fWnFGYjBKcWhPZHhyUDVsankwTUxsR2JoUzJMVnZxOXAzZjkySWtMYVcydzgzVFZ2VVpBUmtyenRDWUF3SHF0VVVfa1BkX0JuZThseV9oaFQ0V1VNLXRfdUlMbkMzSnVtRlhnTFRKbEViTVZXU2NKN3FtU3loWUNpdzVkNmE2WWU5LWk4NHZjUFJtb0ROOU9tZ0Y2MnJCbWRYN1E?oc=5",
      "source": "The Daily Star",
      "published": 1795298605,
-     "text": "Latest Political Violence In Bangladesh | Arson attacks, crude bomb blasts reported across country The Daily Star"
+     "text": "Latest Political Violence In Bangladesh | Arson attacks, crude bomb blasts reported across country The Daily Star",
+     "summary_th": "เกิดเหตุวางเพลิงและระเบิดแสวงเครื่องทั่วประเทศบังกลาเทศ ท่ามกลางความรุนแรงทางการเมือง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "bangladesh",
+      "politics"
+     ],
+     "entities": [
+      "Bangladesh"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1802fef48795",
@@ -1265,7 +1641,18 @@
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORm81SzE0NHk0bjhrTUNQOGIxcXRzSVVZZExHLXJ2RWNCTjR0RmltcjJUU1MweS1SanpiTUhPeGdkNkZmSUd4Z3JzM0JkM2tXYk1mR3JLb0pMQTluSU9HWVpXajQwcl9LcVZnT281a2M2ZTgzak53V3B6MUVfbllQMWlaTlZ1WXc5c1lIbEJoejA1RW5OX0RoeW43NlNyZw?oc=5",
      "source": "Moomoo",
      "published": 1795295344,
-     "text": "BP Falls as Lower Crude Prices Weigh on Energy Shares Moomoo"
+     "text": "BP Falls as Lower Crude Prices Weigh on Energy Shares Moomoo",
+     "summary_th": "หุ้น BP ร่วงเพราะราคาน้ำมันดิบที่ต่ำลงกดดันหุ้นพลังงาน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "oil",
+      "bp"
+     ],
+     "entities": [
+      "BP"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -1279,7 +1666,20 @@
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc3ZCU2F2UU9nMzNod05ZSDRtaGZuVmdUbXRwX1UxSnNlNE95dFdPSE9hR0ZfOXFhcjZyZjNqM1RVRUtMLTgwR2p5MTdxWEdPalNvSUVCR2xfVHpnRy1jYXlXazFQUEZWQ3pzOHl3VWdJaE10bEFNbmNpdXRKNGlzQm5aMXA1ODEzVl9HV2RKX0RZb1JvaTRQYQ?oc=5",
      "source": "Vietnam.vn",
      "published": 1795308281,
-     "text": "Gold prices today, November 22nd: SJC gold loses 6 million VND/ounce in just a few days. Vietnam.vn"
+     "text": "Gold prices today, November 22nd: SJC gold loses 6 million VND/ounce in just a few days. Vietnam.vn",
+     "summary_th": "ราคาทองคำแท่ง SJC ของเวียดนามลดลง 6 million VND/ounce ในไม่กี่วัน",
+     "importance": 2,
+     "numbers": [
+      "6 million VND/ounce"
+     ],
+     "tags": [
+      "gold"
+     ],
+     "entities": [
+      "SJC",
+      "Vietnam"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "21cdc177b15c",
@@ -1287,7 +1687,17 @@
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbWJqbExlSS1zQ3dHeDFpVEdIZkVIWkIxdE4zUWFGcDlZQUtuMFNkY3g0bEJENm0tajNZaExNemYySk5FX1VkazZlZlVzY3BrWUx5alE3ckJ6WGVzaDhoSmk4dEpicnU5OTJadDRZWF9ZdjN3N0dSSk1HZzJBWlNPdnZoT2k2NlFWcUxKS216WlZ0ZFo2OXc?oc=5",
      "source": "Bitcoin News",
      "published": 1795302023,
-     "text": "Behind Closed Doors, Central Banks Build a Case for Bitcoin—But With Gold Bitcoin News"
+     "text": "Behind Closed Doors, Central Banks Build a Case for Bitcoin—But With Gold Bitcoin News",
+     "summary_th": "บทความระบุว่าธนาคารกลางกำลังสร้างเหตุผลสนับสนุนบิตคอยน์ควบคู่ไปกับทองคำ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "bitcoin",
+      "gold",
+      "central banks"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "462192476372",
@@ -1295,7 +1705,18 @@
      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1odjQya0dSNkJWajNBMUxiYkJiYUFPbzVLeE51RFYwOGJtdGs5QjVYZVhaT21ZQUxHVEctVDJMa3NQYkM1bGltRXlxY1BjcEJzbkQ1N3J3UjFrRGNnTElUUlFoT3NkMGliWHVlVkFPaWhOOEh4Q3RsTHBYdDE?oc=5",
      "source": "Sikkim News",
      "published": 1795307143,
-     "text": "PM Modi Gold Prices: Indians Heeded My Appeal Sikkim News"
+     "text": "PM Modi Gold Prices: Indians Heeded My Appeal Sikkim News",
+     "summary_th": "พาดหัวอ้างคำพูดนายกรัฐมนตรีโมดีว่าชาวอินเดียทำตามคำขอของเขาเรื่องทองคำ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "india"
+     ],
+     "entities": [
+      "Modi"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "947a13c00706",
@@ -1303,7 +1724,21 @@
      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdDZ3bThKaW9MaTIzU2ZldnZaNnpUYkh4M1Yzb2xSYlkzVHNXM1hZMVRCbGwzS3BGWHdQSXVYVkEtTlpRNkJqZFA2LWpwS2dFMGh2S01PZ0RibFY3WWw5RWstSDY1VGx3bkRHVVk4UFh0blJLeHlCSURDTkNoWkV2RmxkRzJrdmh1clBMLXRTVGZGaFZ3YVVvUE8tMGNYVEhxcDY4eDFHTGFLRDdhQklNMVg4Zzg0NjgyUTdTR3ZVOE4zQV9UQjhQczlHb0MyVzdmcjgzVnN1T2Y3WjVaQk1ZNjM1NF_SAeoBQVVfeXFMT2lDZGJBSFFfSVdUZVZCWTRpalh3WklOVzhlalVtWHBzOUNFbGlLZDB2eFJKeEk5QWpTSlJsdkRESkgzZEVqN1dKWXRGVHdXN3cyb2stQjdBVndPRi1UWlBNSnBmaktlNXAtTHRwTUcyUUlqWnhLckZkSUdkSkRiSWZXMlhrQllSNmx0Nm1ZWVloQl9BeGJGd2hCVjIwSlg0TGhDV0Jkb3Rya0hYTG1zZWR6cDIyekREOFR1UWdGRDE5RWFtRXdvUXlPRHpBWXNqZ2lhVU1GcGp4d2JQZ0ctdzVJRTZ2VU5xZ3V3?oc=5",
      "source": "Business Today",
      "published": 1795296903,
-     "text": "China buys gold for 24 straight months despite price fall: Can central banks support bullion? Business Today"
+     "text": "China buys gold for 24 straight months despite price fall: Can central banks support bullion? Business Today",
+     "summary_th": "จีนซื้อทองคำต่อเนื่อง 24 straight months แม้ราคาจะร่วง",
+     "importance": 2,
+     "numbers": [
+      "24 straight months"
+     ],
+     "tags": [
+      "gold",
+      "central banks",
+      "china"
+     ],
+     "entities": [
+      "China"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6482341e8a39",
@@ -1311,7 +1746,20 @@
      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOcXZKM3lxWG5wRjR4ZHZIVXpOSTJmN0tNWnFvZ2dzUW9HTzFWN01mVXcxY3NtVFlkcVNnNFlkRHlZT3dGRlVVd3BMT2FQWS1iazJrd1lyMTdiMC1aazJtbEFvTHNzblQzaGV5VWRyUFZFaXQ2aENzQzFmTGIyZzN6b1dGT1h6OHgySEE2RnJ5aTZIUHZLbVNwQ0JHNHhfanZmUTRhX21fTGNmUjFTNTVqQkxkSU9UVlFOZnlCNFFLZ1dwVUxUZXo4Um9NVVl5YzBDSXZKSEx6aUtOVnAyaE1kMnloV1RHZl9HRUdSSThESUVLZ0dSYkk2Y1dRb283bU90M0g5NkZtRm9xbUk3cUE?oc=5",
      "source": "Livemint",
      "published": 1795304091,
-     "text": "Gold rate today in India at 14-month low; will it hit ₹1 lakh? Experts list out 3 reasons for gold price drop in 2026 Livemint"
+     "text": "Gold rate today in India at 14-month low; will it hit ₹1 lakh? Experts list out 3 reasons for gold price drop in 2026 Livemint",
+     "summary_th": "ราคาทองคำในอินเดียลงมาถึงระดับต่ำสุดในรอบ 14 เดือน",
+     "importance": 2,
+     "numbers": [
+      "14-month"
+     ],
+     "tags": [
+      "gold",
+      "india"
+     ],
+     "entities": [
+      "India"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "777f4bf6396f",
@@ -1319,7 +1767,17 @@
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSDRzcXM1VU9UYUJCMkJoZU5jZk9wRjJ2c2xqLUpVdzJVbmZ3MTdWMkhKTkgxSGMtYmtHdUM5b1lkaVdLYTktQVZRZUp2RVlJbW9HRFJmYzFzbnhKbGpDQnRQZTcyU0RYSXA2RXliQTd6TGFScXV5ZU82N3FhYlU0bGRyY2lKWmszN2JrT1l6dTJ5emZXcV8zeUhycjVwR1ZwQzF3?oc=5",
      "source": "24/7 Wall St.",
      "published": 1795295220,
-     "text": "Tim Seymour Says \"This Is the Time to Buy Gold, Not Sell It\" 24/7 Wall St."
+     "text": "Tim Seymour Says \"This Is the Time to Buy Gold, Not Sell It\" 24/7 Wall St.",
+     "summary_th": "นักวิเคราะห์ Tim Seymour บอกว่าตอนนี้เป็นเวลาซื้อทองคำ ไม่ใช่ขาย (เป็นความเห็นของผู้พูด)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold"
+     ],
+     "entities": [
+      "Tim Seymour"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3a9a78aefaa2",
@@ -1327,7 +1785,18 @@
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSFBJaVdwZjBzZFNPSmQ1MFhpREFNSVZwWlBNdG1wUTl3UDFYTU5DM2RfN0dlZXhfQ1RFTjlUdlVacXUwckUzX0M4bzRZMWo5TWJkSURWOU9tZFFsT3dFa0luUkVWRmwtSGRoQzkxSzVqXzF2blZCREFKWlZPa3pKOUFHcFdvaHlfQXpDZEpkenY2ZGtNdFl2VnMxQ2ktRUhNSWY4bEVDQ2M?oc=5",
      "source": "Vietnam.vn",
      "published": 1795303422,
-     "text": "Gold prices today, November 22, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. Vietnam.vn"
+     "text": "Gold prices today, November 22, 2026: SJC gold bars, BTMC 9999 plain rings, and world gold prices. Vietnam.vn",
+     "summary_th": "บทความรายงานราคาทองคำแท่ง SJC แหวนทอง BTMC 9999 และราคาทองคำโลกในวันที่ 22 พ.ย.",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold"
+     ],
+     "entities": [
+      "SJC",
+      "BTMC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6e57ee8a9c45",
@@ -1335,7 +1804,19 @@
      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9EeVdVNTlQYmJsSk41a2lCN1M0UFphSTZOdkFUSHlIUXhwYmR6a3JsUnJUYktPWnpXN1lMTkNVdWcwaHJKdHJ6bmJWMEl6Sl9yZVZ4cE9GS1JEN1U?oc=5",
      "source": "www.daily-sun.com",
      "published": 1795284000,
-     "text": "Gold’s slide deepens as AI rout, rate-hike bets hurt bullion www.daily-sun.com"
+     "text": "Gold’s slide deepens as AI rout, rate-hike bets hurt bullion www.daily-sun.com",
+     "summary_th": "ทองคำร่วงต่อเนื่อง เพราะหุ้น AI ดิ่งและตลาดเดิมพันว่าเฟดจะขึ้นดอกเบี้ย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "fed",
+      "ai stocks"
+     ],
+     "entities": [
+      "Federal Reserve"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7cb9472f46ae",
@@ -1343,7 +1824,17 @@
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc1RvQlE2ZXV6YzBDYzFYajlOcFVXNktGblJ4VVFlZmpUaGdPekpwcTZPZWlZcjI3V2pQRFo1Q3FlRjA1NlgzMGpVYlJBUEtvS0Z5UDdKQ2pmQ2FPMGxyQW5CMGQxWnU0QU9kWG5aNHNrV2tUeFpRLXlueDF0dmJaNS0zRG5YeUEtNHRBTEpGVVAwckF2aTNpZ0huRkloZGhDN0tVaHRPU0NCTlUxRnVZaVdITnp6QQ?oc=5",
      "source": "Laodong.vn",
      "published": 1795302000,
-     "text": "Forecast of when gold prices will reach the 5,000 USD/ounce mark despite a sharp decline Laodong.vn"
+     "text": "Forecast of when gold prices will reach the 5,000 USD/ounce mark despite a sharp decline Laodong.vn",
+     "summary_th": "หัวข่าวนำเสนอการคาดการณ์ว่าทองคำจะถึง 5,000 ดอลลาร์ต่อออนซ์เมื่อใด แม้ราคาจะร่วงแรง",
+     "importance": 1,
+     "numbers": [
+      "5,000"
+     ],
+     "tags": [
+      "gold"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "adedd774a93c",
@@ -1351,7 +1842,19 @@
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdWRicXpBR1p4RGpSLTRJY2pOdDJjRm5rZmFVcW9zQnVCOVAwR3BuWmQ0N1lRbFI2OE5CR2lfdkctb0pJdDJkSTQtNmpTbVp5LXRiM09PNG9sMkVvM0JJTXFrTm5rZlJCR1lKNkF4S1ZyMEZwOWZpNEotWDJnQjJWNXprbThOWU9hVjVYUWIwaldDUWVJeWE3QmNnMEQ5WHZ1UlZiUTJ0VkpPdWJuY1BsSmVrak4wd0pwTFVWQzhXaDVUMDlfOVE?oc=5",
      "source": "Investing.com",
      "published": 1795280530,
-     "text": "Goldman favours gold over silver as central bank demand supports prices Investing.com"
+     "text": "Goldman favours gold over silver as central bank demand supports prices Investing.com",
+     "summary_th": "Goldman Sachs ชอบทองคำมากกว่าเงิน เพราะความต้องการจากธนาคารกลางหนุนราคา",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "silver",
+      "goldman"
+     ],
+     "entities": [
+      "Goldman"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7b3675c9b723",
@@ -1359,7 +1862,19 @@
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQU3dyUzJIb3dOb28ydkIxTTJ5MUhHY3F6VWRlc25yM0VkcTNkZTVvRXhNQ242R1RkS1AxdVZRSThDYlVBY3ZGVmNPUzRyUmJacWF1NnhYMFpNem1jRnZhYUkxM3VPYWJwU3BpekRsQzd0eWoyUjJCOHlKdHZ3YkJhRndVdlJJQQ?oc=5",
      "source": "Daily Sun",
      "published": 1795301185,
-     "text": "Gold prices fall by Tk6,182 per bhori Daily Sun"
+     "text": "Gold prices fall by Tk6,182 per bhori Daily Sun",
+     "summary_th": "ราคาทองคำในบังกลาเทศลดลง Tk6,182 ต่อโภรี",
+     "importance": 2,
+     "numbers": [
+      "Tk6,182"
+     ],
+     "tags": [
+      "gold"
+     ],
+     "entities": [
+      "Bangladesh"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e8cb37b68426",
@@ -1367,7 +1882,17 @@
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa0Z0eDdNdzM4bUs1WE9Ibkk2SlVyR1FWN0lJU0FfLU56ZlBXTWlSYkNHOTlsMnBhMWotRl8xQ3ByYVZaVWV4OWNVb19Zb1VhaTFZUnJMY3lnYlVFUGdNYVpOeEM5U1VwOUFuejlXeHZGRUdEeFdRRDRDYVQ2WWFveEk4RjJTdkVLemRqcnZnRmN1eTBaVlU4Y1RyZzlhT1pVVS0zZ2o3NGhubkpFckxtUVY3bw?oc=5",
      "source": "LinkedIn",
      "published": 1795264206,
-     "text": "200 oz of Silver_ Sorting Random Rounds | Money Metals How much silver is in this customer’s pile? Money Metals sorts random 1 oz silver rounds, checks weight and purity, and separates generic .999 silver bullion from American Silver Eagles, Libertads, an LinkedIn"
+     "text": "200 oz of Silver_ Sorting Random Rounds | Money Metals How much silver is in this customer’s pile? Money Metals sorts random 1 oz silver rounds, checks weight and purity, and separates generic .999 silver bullion from American Silver Eagles, Libertads, an LinkedIn",
+     "summary_th": "โพสต์โปรโมตจาก Money Metals เกี่ยวกับการคัดแยกเหรียญเงินแท่งสุ่ม",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "silver"
+     ],
+     "entities": [
+      "Money Metals"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -1381,7 +1906,19 @@
      "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
      "source": "TechCrunch",
      "published": 1795297030,
-     "text": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps."
+     "text": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+     "summary_th": "Signal จำกัดการแคปหน้าจอในแอป Android และ iOS เพื่อรับมือภัยคุกคามจากการสอดแนมด้วย AI",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "privacy",
+      "signal",
+      "ai surveillance"
+     ],
+     "entities": [
+      "Signal"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6bc7da661c0f",
@@ -1389,7 +1926,18 @@
      "link": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/",
      "source": "Ars Technica",
      "published": 1795299161,
-     "text": "Director Takashi Yamazaki ups the ante by pitting Godzilla against one of the monster's greatest foes"
+     "text": "Director Takashi Yamazaki ups the ante by pitting Godzilla against one of the monster's greatest foes",
+     "summary_th": "รีวิวภาพยนตร์ Godzilla Minus Zero ของผู้กำกับ Takashi Yamazaki (ข่าวบันเทิง)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "film"
+     ],
+     "entities": [
+      "Godzilla Minus Zero",
+      "Takashi Yamazaki"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1b1f2bee0387",
@@ -1397,7 +1945,22 @@
      "link": "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label",
      "source": "The Verge",
      "published": 1795298371,
-     "text": "Amazon is leaving no venue unexplored in its fight against the New York City Council and the Delivery Protection Act. The company is now putting labels on shipments claiming that the Council could add up to $5 to any Amazon order. The Delivery Protection Act would effectively ban the sort of third-party arrangements Amazon currently […]"
+     "text": "Amazon is leaving no venue unexplored in its fight against the New York City Council and the Delivery Protection Act. The company is now putting labels on shipments claiming that the Council could add up to $5 to any Amazon order. The Delivery Protection Act would effectively ban the sort of third-party arrangements Amazon currently […]",
+     "summary_th": "Amazon ติดป้ายบนพัสดุว่าสภาเมืองนิวยอร์กอาจเพิ่มค่าใช้จ่ายได้สูงสุด $5 ต่อออเดอร์ ขณะคัดค้านร่างกฎหมาย Delivery Protection Act",
+     "importance": 2,
+     "numbers": [
+      "$5"
+     ],
+     "tags": [
+      "amazon",
+      "nyc",
+      "regulation"
+     ],
+     "entities": [
+      "Amazon",
+      "NYC Council"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "bac43362df2a",
@@ -1405,7 +1968,20 @@
      "link": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html",
      "source": "CNBC Tech",
      "published": 1795208805,
-     "text": "Anthropic faced a market sell-off, raging anti-AI sentiment and a crisis at Nvidia in pulling off the largest IPO on record."
+     "text": "Anthropic faced a market sell-off, raging anti-AI sentiment and a crisis at Nvidia in pulling off the largest IPO on record.",
+     "summary_th": "Anthropic ทำ IPO ที่ใหญ่ที่สุดในประวัติการณ์ แต่หลังจากนั้นเจอตลาดขายหนัก และวิกฤตของ Nvidia",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "anthropic",
+      "ipo",
+      "ai stocks"
+     ],
+     "entities": [
+      "Anthropic",
+      "Nvidia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c6e0f6fe1d32",
@@ -1413,7 +1989,20 @@
      "link": "https://github.com/ShinMegamiBoson/lookatmyquant",
      "source": "Hacker News",
      "published": 1795284139,
-     "text": "Article URL: https://github.com/ShinMegamiBoson/lookatmyquant Comments URL: https://news.ycombinator.com/item?id=50591853 Points: 345 # Comments: 91"
+     "text": "Article URL: https://github.com/ShinMegamiBoson/lookatmyquant Comments URL: https://news.ycombinator.com/item?id=50591853 Points: 345 # Comments: 91",
+     "summary_th": "โพสต์ Hacker News เกี่ยวกับโมเดล Inkling-2-Mini ที่รันได้ด้วยหน่วยความจำ 5.4 GB",
+     "importance": 1,
+     "numbers": [
+      "5.4 GB"
+     ],
+     "tags": [
+      "ai model",
+      "open source"
+     ],
+     "entities": [
+      "Inkling-2-Mini"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a2c74d0166af",
@@ -1421,7 +2010,19 @@
      "link": "https://www.techmeme.com/261121/p11",
      "source": "Techmeme",
      "published": 1795306202,
-     "text": "Wired : Matchmakers say more tech workers fear romantic espionage after the Jensen Huang scandal; an AI companion app pitches “zero espionage” executive girlfriends — The Jensen Huang scandal is the latest fuel for dating anxieties among newly rich and powerful tech workers."
+     "text": "Wired : Matchmakers say more tech workers fear romantic espionage after the Jensen Huang scandal; an AI companion app pitches “zero espionage” executive girlfriends — The Jensen Huang scandal is the latest fuel for dating anxieties among newly rich and powerful tech workers.",
+     "summary_th": "Wired รายงานว่าคนทำงานด้านเทคโนโลยีเกรงการสอดแนมผ่านความสัมพันธ์โรแมนติกมากขึ้น หลังเรื่องอื้อฉาวของ Jensen Huang",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "espionage"
+     ],
+     "entities": [
+      "Jensen Huang",
+      "Wired"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "9f2af01a2aa9",
@@ -1429,7 +2030,19 @@
      "link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
      "source": "BleepingComputer",
      "published": 1795301998,
-     "text": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]"
+     "text": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+     "summary_th": "Rackspace แจ้งลูกค้าว่าแฮกเกอร์เจาะแพลตฟอร์ม Rackspace Spot ด้วยข้อมูลประจำตัวที่ถูกขโมย ทำให้เข้าถึง Kubernetes secrets ในคลัสเตอร์ของลูกค้าได้",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "cyber",
+      "breach",
+      "kubernetes"
+     ],
+     "entities": [
+      "Rackspace"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b2e70499a04c",
@@ -1437,7 +2050,15 @@
      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNc1hWeVdQNnR1ck0xZkN4RzJIWVl4RTR3RW1jdk1mSUhXaW1uMTNCT1hxUkJ6MGhpc1ZtWElDY0pLb0ZkTWhuc0NyUDh2UENMSnU2eTNQbXRwc3hfaHpBaFFDdEM4cTJSNlFuMlAweWtmcDZ0cWwzb01Ca2JXNzJHNHVVSW5UZjJGdk5sby14N194MHUtWFZ3LW9EQmZ5RERFQ1NBVFhoVFRMRlhZX3Z6RE42OWY5SkhKN3VrQ19UblExVGJTYzFScjQ1Q2ljZ0tMQlhJ0gHYAUFVX3lxTE92WWd0RXEwOS1lS0hYX3dDSmNScFhoT1AxdlpTYVFNbHgxdV9HSEsxMTllMjNoNTBrYnJ1Vm4tNkJmSWF2MU5lMEVWb1k1cG83bzV5dnFzWUR0LVZ3M1NPbzV4ckdjQk53YmQxLWhMOXNFX0R6d0pwclQyNTFTTXR0NmktR2hoUHBZTWdJM2x6ZUpJZUVWM3ZrTmduS2tGY3JhbVpvNEFFWS1pckhidFBkamktSFhuTHFtSjk4SUxKa1VDeUxydWRhaUNpNVZsalZVT0RoanYwdw?oc=5",
      "source": "The Times of India",
      "published": 1795283160,
-     "text": "Custodial death: HC permits family members to view CCTV footage The Times of India"
+     "text": "Custodial death: HC permits family members to view CCTV footage The Times of India",
+     "summary_th": "ศาลสูงอนุญาตให้ครอบครัวผู้เสียชีวิตขณะถูกควบคุมตัวดูฟุตเทจ CCTV",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "court"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "127326b87b53",
@@ -1445,7 +2066,18 @@
      "link": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
      "source": "TechCrunch",
      "published": 1795295262,
-     "text": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return."
+     "text": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+     "summary_th": "บทความเปรียบเทียบผลประกอบการล่าสุดของ Nvidia กับกระแสผู้บริหารที่เรียกร้องให้ Jensen Huang กลับมา",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia"
+     ],
+     "entities": [
+      "Nvidia",
+      "Jensen Huang"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5a49fd4a2d77",
@@ -1453,7 +2085,19 @@
      "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
      "source": "Ars Technica",
      "published": 1795211909,
-     "text": "Google search is making it even easier to access AI tools on the search page."
+     "text": "Google search is making it even easier to access AI tools on the search page.",
+     "summary_th": "Google เปิดหน้าแรกการค้นหาใหม่ที่มีประวัติแชท AI และไม่มีปุ่มค้นหา",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "google",
+      "ai",
+      "search"
+     ],
+     "entities": [
+      "Google"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "234da3fc1867",
@@ -1461,7 +2105,18 @@
      "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
      "source": "The Verge",
      "published": 1795291417,
-     "text": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the […]"
+     "text": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the […]",
+     "summary_th": "การประชุม UN ที่เจนีวาไม่สามารถตกลงกฎควบคุมอาวุธอัตโนมัติ 'killer robots' ได้ มีเพียงตกลงจะ 'เริ่มหารือตัวเลือก'",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai weapons",
+      "un"
+     ],
+     "entities": [
+      "UN"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "de6a6b768afb",
@@ -1469,7 +2124,18 @@
      "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
      "source": "Hacker News",
      "published": 1795271805,
-     "text": "Article URL: https://leanprover-community.github.io/blog/posts/riemann-hypothesis/ Comments URL: https://news.ycombinator.com/item?id=50589618 Points: 813 # Comments: 650"
+     "text": "Article URL: https://leanprover-community.github.io/blog/posts/riemann-hypothesis/ Comments URL: https://news.ycombinator.com/item?id=50589618 Points: 813 # Comments: 650",
+     "summary_th": "โพสต์ Hacker News ลิงก์บล็อก Lean community เรื่องการตรวจสอบสมมติฐานรีมันน์ (Riemann Hypothesis) ด้วยระบบ Lean",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "math",
+      "ai"
+     ],
+     "entities": [
+      "Lean"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a7faac409da9",
@@ -1477,7 +2143,22 @@
      "link": "https://www.techmeme.com/261121/p10",
      "source": "Techmeme",
      "published": 1795291802,
-     "text": "Dan Goodin / Ars Technica : Researchers used canary credentials in requests to AI routers like OpenRouter and Vercel, even under “ZDR” policies, and saw “privacy” often broken, keys stolen — Researchers planted 2 million digital tripwires in requests sent through a sprawling network of AI services …"
+     "text": "Dan Goodin / Ars Technica : Researchers used canary credentials in requests to AI routers like OpenRouter and Vercel, even under “ZDR” policies, and saw “privacy” often broken, keys stolen — Researchers planted 2 million digital tripwires in requests sent through a sprawling network of AI services …",
+     "summary_th": "นักวิจัยวางกุญแจทดสอบ (canary) 2 million ชุดในคำขอผ่านเราเตอร์ AI เช่น OpenRouter และ Vercel พบว่าความเป็นส่วนตัวมักถูกละเมิดและคีย์ถูกขโมย แม้อยู่ภายใต้นโยบาย ZDR",
+     "importance": 2,
+     "numbers": [
+      "2 million"
+     ],
+     "tags": [
+      "ai",
+      "privacy",
+      "security"
+     ],
+     "entities": [
+      "OpenRouter",
+      "Vercel"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1e1dbef95d66",
@@ -1485,7 +2166,18 @@
      "link": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
      "source": "BleepingComputer",
      "published": 1795284118,
-     "text": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]"
+     "text": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
+     "summary_th": "Microsoft แจ้งว่าถูกเจาะข้อมูล หลังผู้โจมตีใช้ช่องโหว่ใน Entra Connect Health เข้าถึงอีเมลผู้ดูแลและข้อมูลการตั้งค่า tenant",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "cyber",
+      "microsoft"
+     ],
+     "entities": [
+      "Microsoft"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "dff6d5724f64",
@@ -1493,7 +2185,18 @@
      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQWWhMNU9yQVBET2JxOFV1VGxyV2pfbmQ1OGdIQW04ZFNaRVdLaG1ZSnNSblhZQzI0ajFZcnFoR2o1QS1OMHFZaS05OWZSbkEydE9NWm8xQWhLRXlWdmgwZXFpUW12Wm15WS1NaGx4Mk5oaUxmMWVZTU5Fby1rNTZmODFJRElFRjBmMHZiRHFVd0Rfc3E0Z1RZVktvYWR0Qk5DN1NKaVdDWURldnpZcTJ5elNBLWgtOTVSXzNaTWJoZTRCakZoaFFtU0J0RktFcHFydWFlNDRIQUZxSXhmc1FxZFVPeDZPdlkt0gHuAUFVX3lxTE1DamNuX2h3ZXRqSDlLRXVFVkkzaXI3OTE5Tmc4cWZWdXRlMFhsOVM2eDVGblR1eWNyVkNta3hBM0FJV2kxMDQxTVdzckttTWhuTS1xYWZQcU1wUHN5OTZxa0txbHAwSHk1bWx0WW5UQlVMUUdIclBlcEYzeGsxMWhHUkhpQ09rUnB0UGpMdmNpcVQyS0MtNi11YnhYYnl3V3o5Wk5XSG5KV3Q5ZDJHZVIwVDVIc3NMR0VTelpoSFRqckJra3M1eHZSNUZJd1M4Vml0VTRRVmJhRkhGb25nblY2VC04eFNLdTl6WWk1RVE?oc=5",
      "source": "The Times of India",
      "published": 1795282620,
-     "text": "After ticket fraud, Vijayawada’s Kanaka Durga temple tightens CCTV monitoring The Times of India"
+     "text": "After ticket fraud, Vijayawada’s Kanaka Durga temple tightens CCTV monitoring The Times of India",
+     "summary_th": "วัดกนกทุรคาในวิชัยวาดาเพิ่มการเฝ้าระวัง CCTV หลังเกิดการฉ้อโกงตั๋ว",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "temple",
+      "cctv"
+     ],
+     "entities": [
+      "Kanaka Durga temple"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "df0cbaf8a585",
@@ -1501,7 +2204,19 @@
      "link": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/",
      "source": "TechCrunch",
      "published": 1795286693,
-     "text": "The FBI is reportedly investigating a hack of the National Crime Information Center."
+     "text": "The FBI is reportedly investigating a hack of the National Crime Information Center.",
+     "summary_th": "ทรัมป์บอกว่าการเจาะระบบฐานข้อมูล FBI ที่มีรายงาน 'ไม่ดี'",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "cyber",
+      "fbi"
+     ],
+     "entities": [
+      "Trump",
+      "FBI"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c4b0222f29f2",
@@ -1509,7 +2224,19 @@
      "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
      "source": "Ars Technica",
      "published": 1795211230,
-     "text": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?"
+     "text": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
+     "summary_th": "Meta กำลังทบทวนเป้าหมายความยั่งยืนปี 2030 หลังการปล่อยก๊าซสูงสุดจากศูนย์ข้อมูล AI",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "meta",
+      "emissions",
+      "ai data center"
+     ],
+     "entities": [
+      "Meta"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e9776a8605c6",
@@ -1517,7 +2244,20 @@
      "link": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
      "source": "The Verge",
      "published": 1795282947,
-     "text": "Friday, it was reported that both the US Department of Agriculture (USDA) and the FBI were hacked. In reporting on the FBI hack, CNN noted that this is the second such attack on the agency in the last few months, this time targeting the National Crime Information Center (NCIC), which federal, state, and local law […]"
+     "text": "Friday, it was reported that both the US Department of Agriculture (USDA) and the FBI were hacked. In reporting on the FBI hack, CNN noted that this is the second such attack on the agency in the last few months, this time targeting the National Crime Information Center (NCIC), which federal, state, and local law […]",
+     "summary_th": "มีรายงานว่า USDA และ FBI ถูกแฮก โดย CNN ระบุว่าการโจมตี FBI ครั้งนี้เป็นครั้งที่สองในไม่กี่เดือน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "cyber",
+      "government"
+     ],
+     "entities": [
+      "USDA",
+      "FBI",
+      "CNN"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "07a481fe6b0c",
@@ -1525,7 +2265,15 @@
      "link": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
      "source": "Hacker News",
      "published": 1795267394,
-     "text": "Article URL: https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really Comments URL: https://news.ycombinator.com/item?id=50588982 Points: 514 # Comments: 344"
+     "text": "Article URL: https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really Comments URL: https://news.ycombinator.com/item?id=50588982 Points: 514 # Comments: 344",
+     "summary_th": "โพสต์ Hacker News ลิงก์บทความ Science เรื่องการจุดระเบิดกองตะกั่วอาไซด์ (lead azide)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "science"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "a464697d17e7",
@@ -1533,7 +2281,22 @@
      "link": "https://www.techmeme.com/261121/p9",
      "source": "Techmeme",
      "published": 1795287301,
-     "text": "Financial Times : Investigation: Alice Huang had ties to gaming firms, alleged Prince Group figures and hundreds of shell companies in a network moving Nvidia chips to China — Chinese executive in romantic relationship with former Nvidia CEO Jensen Huang had connections to the lucrative trade moving chips to China"
+     "text": "Financial Times : Investigation: Alice Huang had ties to gaming firms, alleged Prince Group figures and hundreds of shell companies in a network moving Nvidia chips to China — Chinese executive in romantic relationship with former Nvidia CEO Jensen Huang had connections to the lucrative trade moving chips to China",
+     "summary_th": "การสืบสวนของ FT ระบุว่า Alice Huang มีความเกี่ยวข้องกับบริษัทเกม ผู้ที่ถูกกล่าวหาเกี่ยวข้องกับ Prince Group และบริษัทเชลล์หลายร้อยแห่ง ซึ่งเกี่ยวข้องกับการโอนชิป Nvidia ไปจีน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "export controls",
+      "china"
+     ],
+     "entities": [
+      "Alice Huang",
+      "Jensen Huang",
+      "Nvidia",
+      "Financial Times"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "07b0cec0937d",
@@ -1541,7 +2304,20 @@
      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNZlAyc2tOUThNbi1pbFZXdnF6VDVlSVZUSmxqZk9YUkRjWm80OUdiNW1mbW1WdG5aUVJKMEt3bk91OEN0OWNTNTlpV1I2VC1tT2ZSMkF3enRTUkQyeTBvNGNnRmxESDBZY24xeXNZakg1c3Fob0loQVk2M0YzR2dJMGt0NVp3cjkza0Q4eWZfWDdTWmVpci1YTTZ0LTZDenhMTVFSSlhNSEdhWTFUNzlVUzZTT2pMb3duYkZIaG91Tjg0LWdzNVItdzhmakVpcHp6bmw3cGpqLWdJWUdYTU5fRmdzVDJyRWpocy1aREs2ZkpqTGlZZ1J2RndaQ09KNUozRGtGatIBhAJBVV95cUxNZlAyc2tOUThNbi1pbFZXdnF6VDVlSVZUSmxqZk9YUkRjWm80OUdiNW1mbW1WdG5aUVJKMEt3bk91OEN0OWNTNTlpV1I2VC1tT2ZSMkF3enRTUkQyeTBvNGNnRmxESDBZY24xeXNZakg1c3Fob0loQVk2M0YzR2dJMGt0NVp3cjkza0Q4eWZfWDdTWmVpci1YTTZ0LTZDenhMTVFSSlhNSEdhWTFUNzlVUzZTT2pMb3duYkZIaG91Tjg0LWdzNVItdzhmakVpcHp6bmw3cGpqLWdJWUdYTU5fRmdzVDJyRWpocy1aREs2ZkpqTGlZZ1J2RndaQ09KNUozRGtGag?oc=5",
      "source": "India Today",
      "published": 1795282135,
-     "text": "Madhya Pradesh man claims cop sought Rs 1 lakh, framed him in ganja case on refusal India Today"
+     "text": "Madhya Pradesh man claims cop sought Rs 1 lakh, framed him in ganja case on refusal India Today",
+     "summary_th": "ชายในรัฐมัธยประเทศอ้างว่าตำรวจเรียก 1 lakh รูปี และยัดคดีกัญชาเมื่อเขาไม่จ่าย",
+     "importance": 1,
+     "numbers": [
+      "Rs 1 lakh"
+     ],
+     "tags": [
+      "crime",
+      "india"
+     ],
+     "entities": [
+      "Madhya Pradesh"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "01945f6a907c",
@@ -1549,7 +2325,15 @@
      "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
      "source": "TechCrunch",
      "published": 1795280400,
-     "text": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work."
+     "text": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+     "summary_th": "บทความจัดอันดับ AI agent ที่ใช้งานผ่านข้อความ SMS ได้ (เป็นลิสต์แนะนำ)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "ai agents"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "99727b65c290",
@@ -1557,7 +2341,18 @@
      "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
      "source": "Ars Technica",
      "published": 1795208348,
-     "text": "Test using prompts with unique, trackable secrets proves that data doesn't stay private."
+     "text": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+     "summary_th": "นักวิจัยวางกุญแจทดสอบ 2m ชุดเข้าห่วงโซ่อุปทาน AI พบว่าข้อมูลไม่ได้เป็นส่วนตัวจริง",
+     "importance": 2,
+     "numbers": [
+      "2m"
+     ],
+     "tags": [
+      "ai",
+      "privacy"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "a9f34b76fcc6",
@@ -1565,7 +2360,19 @@
      "link": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
      "source": "The Verge",
      "published": 1795273200,
-     "text": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to […]"
+     "text": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to […]",
+     "summary_th": "ตอนสุดท้ายของพอดแคสต์ The Verge ว่าด้วย IPO ของ Anthropic และคำถามว่าบริษัทจะให้ความปลอดภัยมาก่อนได้หรือไม่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "anthropic",
+      "ai safety"
+     ],
+     "entities": [
+      "Anthropic",
+      "The Verge"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "4f0d7815da49",
@@ -1573,7 +2380,19 @@
      "link": "https://blog.tymscar.com/posts/studiodisplayethernet/",
      "source": "Hacker News",
      "published": 1795257392,
-     "text": "Article URL: https://blog.tymscar.com/posts/studiodisplayethernet/ Comments URL: https://news.ycombinator.com/item?id=50587875 Points: 475 # Comments: 229"
+     "text": "Article URL: https://blog.tymscar.com/posts/studiodisplayethernet/ Comments URL: https://news.ycombinator.com/item?id=50587875 Points: 475 # Comments: 229",
+     "summary_th": "ผู้เขียนบล็อกอ้างว่าจอ Studio Display ทำให้ความเร็วดาวน์โหลดลดลง 75%",
+     "importance": 1,
+     "numbers": [
+      "75%"
+     ],
+     "tags": [
+      "hardware"
+     ],
+     "entities": [
+      "Studio Display"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -1587,7 +2406,17 @@
      "link": "https://www.statnews.com/2026/11/21/stat-letters-to-editor-medical-school-pediatric-emergency-care/",
      "source": "STAT News",
      "published": 1795262400,
-     "text": "STAT readers weigh in on shortening medical school, fixing pediatric emergency care, and more."
+     "text": "STAT readers weigh in on shortening medical school, fixing pediatric emergency care, and more.",
+     "summary_th": "บทความความเห็นของ STAT ตั้งคำถามว่าควรเริ่มเรียนแพทย์เมื่อไหร่ จากความเห็นของผู้อ่าน",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "medical education"
+     ],
+     "entities": [
+      "STAT"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "92d782f78ea7",
@@ -1595,7 +2424,19 @@
      "link": "https://medicalxpress.com/news/2026-11-view-brain-wiring.html",
      "source": "Medical Xpress",
      "published": 1795291201,
-     "text": "Researchers at Harvard Medical School and the University of California San Diego have sped up a powerful imaging technique enough to map, for the first time, large volumes of brain tissue in nanoscale detail. The approach reveals fine structures that brain wiring maps, known as connectomes, can miss."
+     "text": "Researchers at Harvard Medical School and the University of California San Diego have sped up a powerful imaging technique enough to map, for the first time, large volumes of brain tissue in nanoscale detail. The approach reveals fine structures that brain wiring maps, known as connectomes, can miss.",
+     "summary_th": "นักวิจัยฮาร์วาร์ดและ UC San Diego เร่งเทคนิคถ่ายภาพจนแมปเนื้อเยื่อสมองขนาดใหญ่ในระดับนาโนได้ ซึ่งเผยโครงสร้างที่แผนที่ connectome อาจพลาด",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "neuroscience",
+      "connectome"
+     ],
+     "entities": [
+      "Harvard Medical School",
+      "UC San Diego"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "620a502f91b1",
@@ -1603,7 +2444,19 @@
      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hR1ZOLVZwSm5oVGRPRnFDTnRxcjR4c1dlVEVWSUF6bWxGaUFtQ0RNc0s3QTFzTmp1d1BsUV9qaUZsTnFRZXBDQ1FYSG5ueUFtM2R2d01lRk1QX0VDcTRjbndB?oc=5",
      "source": "Trend Hunter",
      "published": 1795301260,
-     "text": "FDA Med Therapies: Sanofi Wins FDA Approval for Infilbray as Gaucher Disease Type 3… Trend Hunter"
+     "text": "FDA Med Therapies: Sanofi Wins FDA Approval for Infilbray as Gaucher Disease Type 3… Trend Hunter",
+     "summary_th": "FDA อนุมัติ Infilbray ของ Sanofi สำหรับโรคเกาเชอร์ชนิดที่ 3",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "fda",
+      "sanofi"
+     ],
+     "entities": [
+      "Sanofi",
+      "FDA"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "23d8016f0e59",
@@ -1611,7 +2464,19 @@
      "link": "https://www.statnews.com/2026/11/21/rfk-jr-maha-measles-outbreak-elimination-status-promote-mmr-vaccine/",
      "source": "STAT News",
      "published": 1795253400,
-     "text": "Kennedy and MAHA say they aren’t anti-vaccine. They can prove it by promoting the MMR vaccine, writes Brinda Adhikari."
+     "text": "Kennedy and MAHA say they aren’t anti-vaccine. They can prove it by promoting the MMR vaccine, writes Brinda Adhikari.",
+     "summary_th": "บทความความเห็นเรียกร้องให้ Kennedy และ MAHA ส่งเสริมวัคซีน MMR เพื่อป้องกันโรคหัด",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "vaccine",
+      "measles"
+     ],
+     "entities": [
+      "Kennedy",
+      "MAHA"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d622b1593b0f",
@@ -1619,7 +2484,15 @@
      "link": "https://medicalxpress.com/news/2026-11-stress-anxiety-workers-triggers-cope.html",
      "source": "Medical Xpress",
      "published": 1795287601,
-     "text": "Workplace stress and anxiety. Who hasn't experienced it?"
+     "text": "Workplace stress and anxiety. Who hasn't experienced it?",
+     "summary_th": "บทความให้คำแนะนำเรื่องความเครียดและวิตกกังวลในที่ทำงาน (เป็นบทความสุขภาพทั่วไป)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "health"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "c695dadd8a96",
@@ -1627,7 +2500,18 @@
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMXUxa25NcEF3ZUc0QW9ReDRhZVlHeWNUQTVscVlLaTlHS2oxdjJyajJ1Q21uNmlwSl9tN000VnV6akN5ZGlIdWJ4b0tUbURMZU9YRk1RTUR1WE9wN0d6ME1kd096a2tfU2RTMFF4RlNiRGJmNDIyZDBYUzRvNnJOYmpJWUF3WDZPb19GczJHZDVDY0JvQjU2RDJzVW9ua19Hck1ta2VueDgxQVpSZkRSQVBlODc2LVYzMW9XMktiWk12eXZLZjFYY0VLNmJVRm9RTHQwVg?oc=5",
      "source": "Tech Times",
      "published": 1795294697,
-     "text": "Weekly Growth Hormone Wins FDA Approval for Turner Syndrome as Girls Grew Less Than on Daily Shots Tech Times"
+     "text": "Weekly Growth Hormone Wins FDA Approval for Turner Syndrome as Girls Grew Less Than on Daily Shots Tech Times",
+     "summary_th": "FDA อนุมัติฮอร์โมนการเจริญเติบโตแบบฉีดสัปดาห์ละครั้งสำหรับเด็กผู้หญิงที่มีกลุ่มอาการเทอร์เนอร์",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "fda",
+      "growth hormone"
+     ],
+     "entities": [
+      "FDA"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "651056c8ce07",
@@ -1635,7 +2519,19 @@
      "link": "https://www.statnews.com/2026/11/20/fda-rejects-capricor-duchenne-therapy/",
      "source": "STAT News",
      "published": 1795218233,
-     "text": "The FDA said it had rejected a cell therapy intended for patients with Duchenne muscular dystrophy developed by Capricor Therapeutics."
+     "text": "The FDA said it had rejected a cell therapy intended for patients with Duchenne muscular dystrophy developed by Capricor Therapeutics.",
+     "summary_th": "FDA ปฏิเสธการรักษาด้วยเซลล์ของ Capricor Therapeutics สำหรับผู้ป่วยโรคกล้ามเนื้อเสื่อม Duchenne",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "fda",
+      "biotech"
+     ],
+     "entities": [
+      "Capricor Therapeutics",
+      "FDA"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "269a0f7a2f74",
@@ -1643,7 +2539,16 @@
      "link": "https://medicalxpress.com/news/2026-11-alcohol-weaken-cancer-immunotherapy-early.html",
      "source": "Medical Xpress",
      "published": 1795276801,
-     "text": "Cancer immunotherapy has transformed treatment for several advanced cancers, yet the difference between these treatments working and not could depend on simple routine habits. A recent study published in Science Signaling explores one such overlooked factor: regular alcohol consumption."
+     "text": "Cancer immunotherapy has transformed treatment for several advanced cancers, yet the difference between these treatments working and not could depend on simple routine habits. A recent study published in Science Signaling explores one such overlooked factor: regular alcohol consumption.",
+     "summary_th": "งานวิจัยเบื้องต้นชี้ว่าการดื่มแอลกอฮอล์เป็นประจำอาจทำให้ภูมิคุ้มกันบำบัดมะเร็งได้ผลน้อยลง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "cancer",
+      "alcohol"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "7a3b62fb9f7b",
@@ -1651,7 +2556,17 @@
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaFVrMk5rU0RQbGx4bDNOR21FUEEwaDdCVjZjQnR4aFkxZDVoN0s2X0lsbVNUT1FseFRDbGNQaXdPQjBsb0NqNG5IVTBYNW85TGJucTI4eThfS05LYWNkemhPRV9jMkJ3Wi1rWndDaGY1bk85TEt6WlhXWnRjbE1BT3FlbGhEajJ6R3lGb01kYUJBY0JGcGxtRA?oc=5",
      "source": "Astrobiology Web",
      "published": 1795287120,
-     "text": "Offworld Biotech: Bioreactor For Muscle-on-a-chip Samples Astrobiology Web"
+     "text": "Offworld Biotech: Bioreactor For Muscle-on-a-chip Samples Astrobiology Web",
+     "summary_th": "บริษัท Offworld Biotech ทำเครื่องปฏิกรณ์ชีวภาพสำหรับตัวอย่างกล้ามเนื้อบนชิป",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "biotech"
+     ],
+     "entities": [
+      "Offworld Biotech"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c0efbe177e64",
@@ -1659,7 +2574,19 @@
      "link": "https://www.statnews.com/2026/11/20/princeton-researcher-eva-yi-xie-ice-detention-rattles-interational-scholars/",
      "source": "STAT News",
      "published": 1795209567,
-     "text": "A graduate student who is a scientific researcher at Princeton was detained by ICE while traveling home after presenting at a neuroscience conference."
+     "text": "A graduate student who is a scientific researcher at Princeton was detained by ICE while traveling home after presenting at a neuroscience conference.",
+     "summary_th": "นักศึกษาบัณฑิตที่ทำวิจัยที่ Princeton ถูก ICE ควบคุมตัวระหว่างเดินทางกลับบ้านหลังไปนำเสนองานในการประชุมประสาทวิทยา",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "immigration",
+      "academia"
+     ],
+     "entities": [
+      "Princeton",
+      "ICE"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "81b611dbc23c",
@@ -1667,7 +2594,18 @@
      "link": "https://medicalxpress.com/news/2026-11-soaring-demand-glp-1s-eligible.html",
      "source": "Medical Xpress",
      "published": 1795269601,
-     "text": "In just a few short years, glucagon-like peptide-1 (GLP-1) receptor agonists have surged in popularity across the United States, transforming from specialized treatments for type 2 diabetes into revolutionary therapeutics for weight management, cardiovascular health and other emerging uses. But not all populations are benefiting from this expansion. As GLP-1 use has increased, disparities in access to these drugs have widened significantly, according to a new study led by researchers at Boston University School of Public Health (BUSPH)."
+     "text": "In just a few short years, glucagon-like peptide-1 (GLP-1) receptor agonists have surged in popularity across the United States, transforming from specialized treatments for type 2 diabetes into revolutionary therapeutics for weight management, cardiovascular health and other emerging uses. But not all populations are benefiting from this expansion. As GLP-1 use has increased, disparities in access to these drugs have widened significantly, according to a new study led by researchers at Boston University School of Public Health (BUSPH).",
+     "summary_th": "แม้ความต้องการยา GLP-1 จะพุ่งสูง แต่ผู้ป่วยที่เข้าเกณฑ์จำนวนมากยังเข้าถึงยาลดน้ำหนักไม่ได้",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "glp-1",
+      "obesity"
+     ],
+     "entities": [
+      "GLP-1"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1e07ef98919f",
@@ -1675,7 +2613,18 @@
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR3lnTHM3NmF3eUtaQ2NMcFp4dldWbGNLWEo5RDhVSkhLVXI4UkVSeFZHUlhweTQxaXE3MExDdUhsRXRqZlVLSWtyOTZHLVdEXzIySGp0eVFNa1BSNmE1TGR2VmNKNFFPV1pLWHg2WWk3SmhiczdZdWZRSVpQTld4LWg4WTNRa2IzYnpCMUVHZVlIQy1ockNiMzRyNm5vMTB5bm11MmtrRHBCME5jQTlDWHJkdFNQQnPSAbcBQVVfeXFMTUd5Z0xzNzZhd3lLWkNjTHBaeHZXVmxjS1hKOUQ4VUpIS1VyOFJFUnhWR1JYcHk0MWlxNzBMQ3VIbEV0amZVS0lrcjk2Ry1XRF8yMkhqdHlRTWtQUjZhNUxkdlZjSjRRT1daS1h4NllpN0poYnM3WXVmUUlaUE5XeC1oOFkzUWtiM2J6QjFFR2VZSEMtaHJDYjM0cjZubzEweW5tdTJra0RwQjBOY0E5Q1hyZHRTUEJz?oc=5",
      "source": "Labroots",
      "published": 1795285260,
-     "text": "Regeneron Gained FDA Approval for RNAi Treatment Livsayis Labroots"
+     "text": "Regeneron Gained FDA Approval for RNAi Treatment Livsayis Labroots",
+     "summary_th": "Regeneron ได้รับ FDA อนุมัติยา RNAi ชื่อ Livsayis",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "fda",
+      "rnai"
+     ],
+     "entities": [
+      "Regeneron"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "62338d746e86",
@@ -1683,7 +2632,21 @@
      "link": "https://www.statnews.com/2026/11/20/maha-institute-tax-filings-rfk-jr-health-agenda-spending/",
      "source": "STAT News",
      "published": 1795206370,
-     "text": "Tax filings show the MAHA Institute spent more than $1 million in 2025, ending its first year with just $171,000 as events and overhead drained its cash."
+     "text": "Tax filings show the MAHA Institute spent more than $1 million in 2025, ending its first year with just $171,000 as events and overhead drained its cash.",
+     "summary_th": "เอกสารภาษีแสดงว่า MAHA Institute ใช้จ่ายมากกว่า $1 million ในปี 2025 และจบปีแรกด้วยเงินสดเพียง $171,000",
+     "importance": 1,
+     "numbers": [
+      "$1 million",
+      "$171,000"
+     ],
+     "tags": [
+      "maha",
+      "nonprofit"
+     ],
+     "entities": [
+      "MAHA Institute"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7c9b3a938590",
@@ -1691,7 +2654,17 @@
      "link": "https://medicalxpress.com/news/2026-11-patients-greater-voice-diabetes.html",
      "source": "Medical Xpress",
      "published": 1795266002,
-     "text": "In two related papers published in JAMA Network Open and the Journal of General Internal Medicine, Kasia Lipska, M.D., associate professor of medicine (endocrinology) at Yale School of Medicine (YSM) and her colleagues tested a new approach to incorporating patients' priorities into their diabetes care."
+     "text": "In two related papers published in JAMA Network Open and the Journal of General Internal Medicine, Kasia Lipska, M.D., associate professor of medicine (endocrinology) at Yale School of Medicine (YSM) and her colleagues tested a new approach to incorporating patients' priorities into their diabetes care.",
+     "summary_th": "งานวิจัยจาก Yale ทดสอบวิธีนำความต้องการของผู้ป่วยเข้ามาในการดูแลโรคเบาหวาน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "diabetes"
+     ],
+     "entities": [
+      "Yale School of Medicine"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7ad9ef3a5030",
@@ -1699,7 +2672,17 @@
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOelRrM1h5LUw3MXNKQ2FTeC16ZFBycW01a3BrVWN5MVJQNWx1cU1VOWt3cnYwZE9zMHhiVHNhNkIwNllQbnIwNWV0b1VxM1NNb2g1QjZGX1pHWXlBVHVXUjhybDdNenZTaF9KdVNzVnFHNnpNTm1IUmVCb1RPTWxtVjFpUWp6endGRjNoZXM0MXluN0JfQnIzRw?oc=5",
      "source": "Yahoo Finance",
      "published": 1795281004,
-     "text": "Little Green Pharma And 2 Australian Biotech Stocks To Watch Yahoo Finance"
+     "text": "Little Green Pharma And 2 Australian Biotech Stocks To Watch Yahoo Finance",
+     "summary_th": "บทความแนะนำหุ้นชีวเภสัชออสเตรเลีย 2 ตัวและ Little Green Pharma ให้จับตา (เป็นลิสต์หุ้น)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "biotech stocks"
+     ],
+     "entities": [
+      "Little Green Pharma"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e686263738fb",
@@ -1707,7 +2690,17 @@
      "link": "https://medicalxpress.com/news/2026-11-upskilling-health-professionals-emotional-people.html",
      "source": "Medical Xpress",
      "published": 1795234806,
-     "text": "For more than 1.5 million Australians living with diabetes, managing their condition is a relentless, 24-hour responsibility. Day after day, people are required to make decisions about medications, glucose monitoring, food, physical activity and other aspects of their care—largely outside the health care system."
+     "text": "For more than 1.5 million Australians living with diabetes, managing their condition is a relentless, 24-hour responsibility. Day after day, people are required to make decisions about medications, glucose monitoring, food, physical activity and other aspects of their care—largely outside the health care system.",
+     "summary_th": "บทความเรื่องการอบรมบุคลากรสุขภาพให้ดูแลด้านอารมณ์ผู้ป่วยเบาหวาน ในออสเตรเลียที่มีผู้ป่วยกว่า 1.5 million คน",
+     "importance": 1,
+     "numbers": [
+      "1.5 million"
+     ],
+     "tags": [
+      "diabetes"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "c9785e43347c",
@@ -1715,7 +2708,19 @@
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWDdxR211N3E5cnBTM2diV0hpNlFhOGVhWU1FUkdUVmxldm02b1Z0YUNLTEJ0T3dNd2NmeVNrU0xUZTFzM1gxblNnUWZOZndvVm5nNGVvR0dJZ29mbVF6eExNdWNoM1FpeC1FY2RMeG9NRTZPQnNGajdZWkZ0TDdEZjJocEt3RVJpblFCR1ZfZDFvek14bDZIcHpRdXVXeXJVWWZZSF9NWnByTGRvYlJjS0lYWlY4VDNJWGpR0gHAAUFVX3lxTE5Bb2U1NTU4YlliZ2F4cFljZHQzMmU0M1NJT0ZTbzd2OV9CdVlfMHhHc0Z5ajJUUlV4bnlVZThvS3JxVEdfVDEzZUk1My13Sm14SDhwM0phU2dUM25NUzNaODhlbms3OVduSU42M0N5Z3puUWFMTDJidmZVZlNsdW1LaHRsQl9MY3NRcTViQ0pIenFqdFQ3U2JsZHVYc1RpTDZtTldQcWloNkZqUUo3MGhsa1lPTVY1aExwdkthY3BZcg?oc=5",
      "source": "Labroots",
      "published": 1795279500,
-     "text": "Blackstone Life Sciences Funds Pfizer's Obesity Drug Program Labroots"
+     "text": "Blackstone Life Sciences Funds Pfizer's Obesity Drug Program Labroots",
+     "summary_th": "Blackstone Life Sciences ร่วมลงทุนในโครงการยาลดน้ำหนักของ Pfizer",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "obesity",
+      "pfizer"
+     ],
+     "entities": [
+      "Blackstone",
+      "Pfizer"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "45a9b3cf6999",
@@ -1723,7 +2728,20 @@
      "link": "https://medicalxpress.com/news/2026-11-major-gap-gut-disorders-aotearoa.html",
      "source": "Medical Xpress",
      "published": 1795232406,
-     "text": "A lack of up-to-date New Zealand research into common gut disorders means the country is effectively flying blind on conditions that may affect about 1 in 3 adults, University of Otago research suggests."
+     "text": "A lack of up-to-date New Zealand research into common gut disorders means the country is effectively flying blind on conditions that may affect about 1 in 3 adults, University of Otago research suggests.",
+     "summary_th": "งานวิจัยจาก University of Otago ชี้ว่านิวซีแลนด์ขาดงานวิจัยล่าสุดเรื่องโรคทางเดินอาหาร ซึ่งอาจกระทบผู้ใหญ่ราว 1 in 3",
+     "importance": 1,
+     "numbers": [
+      "1 in 3"
+     ],
+     "tags": [
+      "gut health"
+     ],
+     "entities": [
+      "University of Otago",
+      "New Zealand"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1a43d8947687",
@@ -1731,7 +2749,17 @@
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRGE2Q3NIZ1g0RmVlVTJNaTdOUTZvX09NSWtzbHUwNGg4bTN0UXg3WnA5Tk5PTmw2MS0wY1RnV3pjRWhkbGd5VEJaQlJNZ25PUGlkLVhOZEgzU0k1YmlvR3BRa2YxbVhYOVgxTjV1MmlmbExtTEtEU2xQcHE2NS1nQmM4TVJtWXUxdFdJSnJpMGpGRjlRN1JnRTd3?oc=5",
      "source": "Investor's Business Daily",
      "published": 1795277400,
-     "text": "Target, Biotech Lead 5 Stocks Showing Strength In Brutal Market Investor's Business Daily"
+     "text": "Target, Biotech Lead 5 Stocks Showing Strength In Brutal Market Investor's Business Daily",
+     "summary_th": "บทความ IBD แนะนำหุ้น 5 ตัวรวมถึง Target ที่แข็งแกร่งในตลาดที่ย่ำแย่ (เป็นลิสต์หุ้น)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "stocks"
+     ],
+     "entities": [
+      "Target"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "0f71edacdc4e",
@@ -1739,7 +2767,18 @@
      "link": "https://medicalxpress.com/news/2026-11-pan-ras-molecular-safe-effective.html",
      "source": "Medical Xpress",
      "published": 1795228801,
-     "text": "Results from the AURORAS-1 Phase I clinical trial of an anticancer drug called ERAS-0015 have shown that it is safe and has caused tumors to shrink in hard-to-treat diseases such as lung and pancreatic cancer."
+     "text": "Results from the AURORAS-1 Phase I clinical trial of an anticancer drug called ERAS-0015 have shown that it is safe and has caused tumors to shrink in hard-to-treat diseases such as lung and pancreatic cancer.",
+     "summary_th": "ผลการทดลองเฟส 1 AURORAS-1 ของยา ERAS-0015 แสดงว่าปลอดภัยและทำให้เนื้องอกในมะเร็งปอดและตับอ่อนหดตัวได้",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "cancer",
+      "pan-ras"
+     ],
+     "entities": [
+      "ERAS-0015"
+     ],
+     "model": "claude/routine"
     }
    ]
   }
