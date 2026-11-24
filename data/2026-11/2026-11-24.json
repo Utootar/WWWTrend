@@ -2,9 +2,10 @@
  "date": "2026-11-24",
  "collected_at": "2026-11-24T03:16:14+07:00",
  "models": [
+  "claude/routine",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 92,
+ "summary_failed": 0,
  "prices": [
   {
    "symbol": "^GSPC",
@@ -488,7 +489,22 @@
      "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-trump-bessent-china.html",
      "source": "CNBC Markets",
      "published": 1795462516,
-     "text": "Treasury Secretary Scott Bessent was becoming the face of an emerging harder line on Nvidia— until he reversed course"
+     "text": "Treasury Secretary Scott Bessent was becoming the face of an emerging harder line on Nvidia— until he reversed course",
+     "summary_th": "บทวิเคราะห์ของ CNBC Markets เรื่องการกลับลำของ Scott Bessent ที่เคยมีท่าทีแข็งต่อ Nvidia ก่อนจะเปลี่ยนใจ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "china policy"
+     ],
+     "entities": [
+      "Scott Bessent",
+      "Jensen Huang",
+      "Nvidia",
+      "Trump",
+      "China"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6c94260459c7",
@@ -496,7 +512,20 @@
      "link": "https://www.cnbc.com/investingclub/2026/11/23/nvidia-breathes-new-life-into-the-ai-trade-plus-qnity-inks-a-smart-deal-to-get-stronger.html",
      "source": "CNBC Top News",
      "published": 1795464205,
-     "text": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading."
+     "text": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+     "summary_th": "จดหมายข่าวตลาดของ CNBC Investing Club หัวข้อ Nvidia ช่วยฟื้นกระแสเทรด AI และ Qnity ทำดีล",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai trade",
+      "market update"
+     ],
+     "entities": [
+      "Nvidia",
+      "Qnity",
+      "CNBC Investing Club"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8462b6cf4e22",
@@ -504,7 +533,17 @@
      "link": "https://www.marketwatch.com/story/why-mondays-huge-stock-market-rally-is-actually-a-warning-sign-for-bulls-49d227a8",
      "source": "MarketWatch",
      "published": 1795463640,
-     "text": "The majority of the market’s biggest daily rallies occur during bear markets"
+     "text": "The majority of the market’s biggest daily rallies occur during bear markets",
+     "summary_th": "MarketWatch เขียนว่าการขึ้นแรงของตลาดวันจันทร์เป็นสัญญาณเตือนสำหรับฝ่ายกระทิง เพราะการขึ้นแรงรายวันส่วนใหญ่มักเกิดในช่วงตลาดหมี",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "stock market"
+     ],
+     "entities": [
+      "MarketWatch"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c5173c29fa8a",
@@ -512,7 +551,17 @@
      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdWtlTE1PSHRGMlhvVWV6WXZ1cndBUF9BWU0wUXZ3UmxVSDU5VHlmSkxUZ0VtMDVYSzVXZTVnSkxRandmMUVfS0Z6U0FMakFBd3Y0S2tiZVZPY2x3RHpua09nQkxJZ0gtRWIzeWtTV2ZHbC1nWnBXRV9OVHhpOUpHQ29IWlZXYU9LdERnRHNOYVI5dFNaQTZkdm1iRjVhSjN1ZFdXTTRZRVdPTzR2Y3ozRkhJQWZ1M21jSnQyQjZycWoxTVpkNEUtZ0M1VUFyWks0?oc=5",
      "source": "The Motley Fool",
      "published": 1795464722,
-     "text": "The Stock Market Just Fell 10% From The Highs. Here’s Exactly What I’m Doing With My Own Money. The Motley Fool"
+     "text": "The Stock Market Just Fell 10% From The Highs. Here’s Exactly What I’m Doing With My Own Money. The Motley Fool",
+     "summary_th": "บทความ Motley Fool หัวข้อตลาดหุ้นลงมา 10% จากจุดสูงสุด ผู้เขียนเล่าว่าทำอย่างไรกับเงินของตัวเอง",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "personal finance"
+     ],
+     "entities": [
+      "The Motley Fool"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b95ea355aa61",
@@ -520,7 +569,18 @@
      "link": "https://www.cnbc.com/2026/11/23/fidelity-401k-ira-balances-q3-2026.html",
      "source": "CNBC Top News",
      "published": 1795463675,
-     "text": "Retirement account balances fell in the third quarter amid market swings, according to Fidelity. At the same time, more savers tapped their accounts for cash."
+     "text": "Retirement account balances fell in the third quarter amid market swings, according to Fidelity. At the same time, more savers tapped their accounts for cash.",
+     "summary_th": "Fidelity รายงานว่ายอดเงินในบัญชี 401(k) และ IRA เฉลี่ยลดลงในไตรมาสที่สาม ขณะที่ผู้ออมจำนวนมากขึ้นถอนเงินออกมาใช้",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "retirement",
+      "401k"
+     ],
+     "entities": [
+      "Fidelity"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "846f9145724e",
@@ -528,7 +588,19 @@
      "link": "https://www.marketwatch.com/story/these-stocks-are-the-biggest-gainers-after-jensen-huangs-return-to-nvidia-bb886140",
      "source": "MarketWatch",
      "published": 1795463040,
-     "text": "Huang’s comeback offers relief to the battered AI trade and drives major boosts across the tech sector."
+     "text": "Huang’s comeback offers relief to the battered AI trade and drives major boosts across the tech sector.",
+     "summary_th": "หุ้นที่ขึ้นแรงที่สุดหลัง Jensen Huang กลับมาที่ Nvidia ช่วยให้เทรด AI ที่ซบเซาฟื้นตัวและหนุนหุ้นเทคโนโลยีหลายตัว",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai trade",
+      "nvidia"
+     ],
+     "entities": [
+      "Jensen Huang",
+      "Nvidia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3be21c82b0b6",
@@ -536,7 +608,20 @@
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQakE1eld6Ynlnd3ExWkk3QndCd0RUM0E0M3I2eTFHREVyUG5ESEJoUmdJZFhYNG4xRi1VTGlHX0gwOXFMVm9zZl82MlRnZ1QzbU42Z3Fka2VIX0JTakE2b0FSOHBzU2xLaHpwVWMtS0Z5YjhtRnR5MHJLczJrdkh0aGpQT2hXanVWSWZuRkx4RGRwOUE?oc=5",
      "source": "The Washington Post",
      "published": 1795464078,
-     "text": "Markets soar as Huang returns as Nvidia CEO The Washington Post"
+     "text": "Markets soar as Huang returns as Nvidia CEO The Washington Post",
+     "summary_th": "ตลาดพุ่งหลัง Jensen Huang กลับมาเป็น CEO ของ Nvidia อีกครั้ง",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "leadership"
+     ],
+     "entities": [
+      "Jensen Huang",
+      "Nvidia",
+      "The Washington Post"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ecc3127fc599",
@@ -544,7 +629,20 @@
      "link": "https://www.cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html",
      "source": "CNBC Top News",
      "published": 1795463541,
-     "text": "The market is loving the return of Jensen Huang, but investors and lawmakers have their guards up."
+     "text": "The market is loving the return of Jensen Huang, but investors and lawmakers have their guards up.",
+     "summary_th": "ตลาดตอบรับดีต่อการกลับมาของ Jensen Huang แต่ทั้งนักลงทุนและนักการเมืองยังระแวดระวัง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "ai trade"
+     ],
+     "entities": [
+      "Jensen Huang",
+      "Nvidia",
+      "CNBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "dd1faddc9911",
@@ -552,7 +650,18 @@
      "link": "https://www.marketwatch.com/story/ive-paid-for-long-term-care-insurance-for-20-years-is-it-still-worth-it-1b2cd52d",
      "source": "MarketWatch",
      "published": 1795462320,
-     "text": "Doing the math to determine if I have a good deal — or should trade in for a more modern policy."
+     "text": "Doing the math to determine if I have a good deal — or should trade in for a more modern policy.",
+     "summary_th": "บทความถามตอบเรื่องการเงินส่วนบุคคล ผู้ถามจ่ายเบี้ยประกันดูแลระยะยาวมา 20 ปี และถามว่ายังคุ้มอยู่ไหม หรือควรเปลี่ยนเป็นกรมธรรม์ใหม่",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "insurance",
+      "personal finance"
+     ],
+     "entities": [
+      "MarketWatch"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "99f5c6cf9a86",
@@ -560,7 +669,20 @@
      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNN0JOTnVBM0xCNG1OUnBEc3A0d2pFdFVMa3NpS01YT1VLaFpwY0hLODNkNXJlTTVSMVZVb0tpeVlyYm1Idmt6Y05naTIxYTRwZXhiUF9vMTB5LW4zVkFxMzlJZHZYN05vMVF3eWpVSkVvT1dNbkZrNS1wNC1Mc3VPdERpRkNqWFFNQ2lZVkF4dkM4SUFyV1Rva1BIeUJDVGxjZXhaVEpJdGJ0b0ZpT0pPZ196MUpKd1NKdFJwS1VMRDI4dXFCSEJrSHhyMnJsTnByWE9qUUJOZUhER3pyXy1ocndnaUdnRU5WUnNFV0ZVQndGdjZha1JJ?oc=5",
      "source": "The Motley Fool",
      "published": 1795464003,
-     "text": "In 2026, 30% of All Money Invested in Stock ETFs Has Gone Into These 6 Popular Funds. Should These ETFs Be in Your Portfolio? The Motley Fool"
+     "text": "In 2026, 30% of All Money Invested in Stock ETFs Has Gone Into These 6 Popular Funds. Should These ETFs Be in Your Portfolio? The Motley Fool",
+     "summary_th": "บทความ Motley Fool ระบุว่า ในปี 2026 เงิน 30% ที่ลงทุนในกองทุน stock ETF ไหลเข้า 6 กองทุนยอดนิยม และตั้งคำถามว่าควรถือไว้ในพอร์ตหรือไม่",
+     "importance": 0,
+     "numbers": [
+      "30%"
+     ],
+     "tags": [
+      "etf",
+      "personal finance"
+     ],
+     "entities": [
+      "The Motley Fool"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2b36ada660b1",
@@ -568,7 +690,20 @@
      "link": "https://www.cnbc.com/2026/11/23/labor-department-esg-401k-rule.html",
      "source": "CNBC Top News",
      "published": 1795463188,
-     "text": "The Labor Department proposed a regulation Monday that seeks to curb uptake of ESG funds in workplace retirement plans such as 401(k)s."
+     "text": "The Labor Department proposed a regulation Monday that seeks to curb uptake of ESG funds in workplace retirement plans such as 401(k)s.",
+     "summary_th": "กระทรวงแรงงานสหรัฐฯ เสนอกฎที่จะจำกัดการลงทุนในกองทุน ESG ในแผนเกษียณของพนักงาน เช่น 401(k)",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "esg",
+      "401k",
+      "regulation"
+     ],
+     "entities": [
+      "Labor Department",
+      "Trump administration"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "afb797a0ff64",
@@ -576,7 +711,21 @@
      "link": "https://www.marketwatch.com/story/trumps-push-to-reinstate-jensen-huang-signals-nvidias-ceo-is-too-big-to-fail-10709210",
      "source": "MarketWatch",
      "published": 1795462080,
-     "text": "“The bigger threat would be losing the brainpower of somebody like Jensen,” the president said amid concerns about corporate governance rules and export controls"
+     "text": "“The bigger threat would be losing the brainpower of somebody like Jensen,” the president said amid concerns about corporate governance rules and export controls",
+     "summary_th": "ทรัมป์ผลักดันให้ Nvidia รับ Jensen Huang กลับมา โดยบอกว่าการเสียคนเก่งอย่าง Jensen เป็นภัยที่ใหญ่กว่า ท่ามกลางข้อกังวลเรื่องธรรมาภิบาลบริษัทและการควบคุมการส่งออก",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "export controls",
+      "corporate governance"
+     ],
+     "entities": [
+      "Trump",
+      "Jensen Huang",
+      "Nvidia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d44f87412a4b",
@@ -584,7 +733,23 @@
      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzTnJHT1FQOUdZcTZFWmsxckRROGZRQXJzT1RmelZQYnN5QlBES1ZUYjVyTDYzckE5V2RFX25fZldXNmxSeWdwOVktb1RTQ2tNdHluUTd2VjNFUmloSldSRE55Nk9ZOTAxRzNjV04zNUFOUnUyYVJSWWh3?oc=5",
      "source": "Yahoo Finance",
      "published": 1795463390,
-     "text": "Stocks Roar as the S&P 500 Jumps About 4.5% on News Jensen Huang Is Returning as NVIDIA CEO Yahoo Finance"
+     "text": "Stocks Roar as the S&P 500 Jumps About 4.5% on News Jensen Huang Is Returning as NVIDIA CEO Yahoo Finance",
+     "summary_th": "ดัชนี S&P 500 พุ่งราว 4.5% หลังข่าว Jensen Huang กลับมาเป็น CEO ของ NVIDIA",
+     "importance": 3,
+     "numbers": [
+      "4.5%"
+     ],
+     "tags": [
+      "nvidia",
+      "s&p 500"
+     ],
+     "entities": [
+      "S&P 500",
+      "Jensen Huang",
+      "NVIDIA",
+      "Yahoo Finance"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1a5c8d17c462",
@@ -592,7 +757,19 @@
      "link": "https://www.cnbc.com/2026/11/23/amazon-decarts-ai-acquisition.html",
      "source": "CNBC Top News",
      "published": 1795462478,
-     "text": "Decart, founded in 2023, is best known for its software that lets developers sync their AI models across different chips."
+     "text": "Decart, founded in 2023, is best known for its software that lets developers sync their AI models across different chips.",
+     "summary_th": "Amazon จะซื้อซอฟต์แวร์ชิปของ Decart และรับผู้ก่อตั้งเข้าทำงาน Decart ก่อตั้งปี 2023 รู้จักจากซอฟต์แวร์ที่ช่วยซิงก์โมเดล AI ข้ามชิปต่างยี่ห้อ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai chips",
+      "acquisition"
+     ],
+     "entities": [
+      "Amazon",
+      "Decart"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b370b5721538",
@@ -600,7 +777,19 @@
      "link": "https://www.marketwatch.com/story/trump-is-open-to-capping-credit-card-interest-rates-but-holiday-shoppers-shouldnt-bank-on-it-yet-34260705",
      "source": "MarketWatch",
      "published": 1795460100,
-     "text": "As Americans prepare to pull out their credit cards for the holiday shopping season, President Donald Trump is saying he’s up for capping the interest rates they’re paying on their cards."
+     "text": "As Americans prepare to pull out their credit cards for the holiday shopping season, President Donald Trump is saying he’s up for capping the interest rates they’re paying on their cards.",
+     "summary_th": "ทรัมป์บอกว่าเปิดรับแนวคิดจำกัดอัตราดอกเบี้ยบัตรเครดิต ขณะที่ผู้บริโภคกำลังใช้จ่ายช่วงเทศกาล",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "credit card",
+      "consumer"
+     ],
+     "entities": [
+      "Trump",
+      "MarketWatch"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d8c099b09a3d",
@@ -608,7 +797,23 @@
      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVnQycUtpVGkxa0dZbl83Ykdvc3QwUzBSbkJScFdlS2R2V0o3VWI1eGlEM01sQXlJdmtXQzN4Rl84MGt5RDdEbzZkcmdqNEEtZy1PSVlrRkJPZ29mNTRrdXREcUtoVnByakJtNmx4NGVSejFMYXQzcndzWUxfYk5ZcElKWXN6LW1RT3JSUDNMcG9oRkxLX0ZBNl9xT2Jfa3Zqdmc3N0pOZ3dnVlVDUWtPVWg0RG5DSlZ1ekx6RGFfR0lUaDZLc01Ub1gxSXRKY0N6QklCQlBTdlp3elVET1p2bDMyVQ?oc=5",
      "source": "Eurasia Business News",
      "published": 1795463260,
-     "text": "Stock Market Today, November 23, 2026: Nvidia Surges on Jensen Huang’s Return, Nasdaq Jumps Nearly 7%, Dow Soars Eurasia Business News"
+     "text": "Stock Market Today, November 23, 2026: Nvidia Surges on Jensen Huang’s Return, Nasdaq Jumps Nearly 7%, Dow Soars Eurasia Business News",
+     "summary_th": "ตลาดวันที่ 23 พฤศจิกายน 2026: Nvidia พุ่งหลัง Jensen Huang กลับมา Nasdaq เพิ่มขึ้นเกือบ 7% และ Dow พุ่งขึ้น",
+     "importance": 3,
+     "numbers": [
+      "7%"
+     ],
+     "tags": [
+      "stock market",
+      "nvidia"
+     ],
+     "entities": [
+      "Nvidia",
+      "Jensen Huang",
+      "Nasdaq",
+      "Dow"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c54cbd73093d",
@@ -616,7 +821,22 @@
      "link": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html",
      "source": "CNBC Top News",
      "published": 1795461548,
-     "text": "The Nasdaq slid 10% last week in its worst week since the early days of Covid in 2020."
+     "text": "The Nasdaq slid 10% last week in its worst week since the early days of Covid in 2020.",
+     "summary_th": "หุ้นเทคโนโลยีพุ่งหลังบอร์ด Nvidia อนุมัติให้ Jensen Huang กลับมาเป็น CEO Nasdaq เคยร่วงถึง 10% ในสัปดาห์ก่อน ซึ่งเป็นสัปดาห์แย่ที่สุดนับตั้งแต่ช่วงแรกของโควิดในปี 2020",
+     "importance": 3,
+     "numbers": [
+      "10%"
+     ],
+     "tags": [
+      "nvidia",
+      "stock market"
+     ],
+     "entities": [
+      "Nvidia",
+      "Jensen Huang",
+      "Nasdaq"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "4a8cfc8e200c",
@@ -624,7 +844,21 @@
      "link": "https://www.marketwatch.com/story/amazon-may-have-just-found-a-cheap-way-to-get-a-lot-more-out-of-its-chips-bd822bd5",
      "source": "MarketWatch",
      "published": 1795459620,
-     "text": "Amazon’s deal for Decart’s AI technology, with a reported price of $7.5 billion, may be a relatively inexpensive way to boost the speed and efficiency of its custom chips, says an analyst."
+     "text": "Amazon’s deal for Decart’s AI technology, with a reported price of $7.5 billion, may be a relatively inexpensive way to boost the speed and efficiency of its custom chips, says an analyst.",
+     "summary_th": "Amazon ทำดีลกับ Decart มูลค่าที่รายงานอยู่ที่ $7.5 billion นักวิเคราะห์คนหนึ่งบอกว่าอาจเป็นวิธีที่ค่อนข้างประหยัดในการเพิ่มประสิทธิภาพชิปของ Amazon",
+     "importance": 2,
+     "numbers": [
+      "$7.5 billion"
+     ],
+     "tags": [
+      "ai chips",
+      "acquisition"
+     ],
+     "entities": [
+      "Amazon",
+      "Decart"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "06438a275175",
@@ -632,7 +866,22 @@
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQWgxdFlYTHU0VUVCMEtyTEc5YzlWS21mRnEzQmNvcllRLWpnYlZsU3BhQmtucXk2dEVYcVhDOFRkeDRoX183NUY0VWVnQjR4b2JSeFE2a2dTT3NYTWpOQVdHWWFnNi1McTZDZk1IdmpTZXVPc25oSEc0VlRSdEFjRXVpd1hURXY4SW5qQU1KYlczcmw0Ym9wQXFpUVU0MXAzRWRKYXRsM09QTTVJNWpJUHU1RURocWpfLUQ0aERpVEM?oc=5",
      "source": "FXEmpire",
      "published": 1795462983,
-     "text": "NASDAQ Index, SP500, Dow Jones Forecasts – NASDAQ Rallies As Nvidia Soars 31% FXEmpire"
+     "text": "NASDAQ Index, SP500, Dow Jones Forecasts – NASDAQ Rallies As Nvidia Soars 31% FXEmpire",
+     "summary_th": "ดัชนี Nasdaq ขึ้นตามหุ้น Nvidia ที่พุ่ง 31%",
+     "importance": 2,
+     "numbers": [
+      "31%"
+     ],
+     "tags": [
+      "nvidia",
+      "stock market"
+     ],
+     "entities": [
+      "Nvidia",
+      "Nasdaq",
+      "FXEmpire"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "bf1b713da808",
@@ -640,7 +889,21 @@
      "link": "https://www.cnbc.com/2026/11/23/jay-clayton-cyber-director-kirsten-davies-trump.html",
      "source": "CNBC Top News",
      "published": 1795461169,
-     "text": "President Donald Trump last week said he decided to replace Sean Cairncross as national cyber director \"because I didn't think that person was good enough.\""
+     "text": "President Donald Trump last week said he decided to replace Sean Cairncross as national cyber director \"because I didn't think that person was good enough.\"",
+     "summary_th": "ทรัมป์แต่งตั้ง Jay Clayton เป็นผู้รักษาการผู้อำนวยการความมั่นคงไซเบอร์แห่งชาติ หลังปลด Sean Cairncross โดยบอกว่าไม่คิดว่าคนนั้นดีพอ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "cybersecurity",
+      "policy"
+     ],
+     "entities": [
+      "Jay Clayton",
+      "Sean Cairncross",
+      "Donald Trump",
+      "CNBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c0b2cc95233a",
@@ -648,7 +911,17 @@
      "link": "https://www.marketwatch.com/story/see-how-much-more-money-the-richest-americans-are-spending-on-the-holidays-compared-to-everyone-else-f0ff3f4b",
      "source": "MarketWatch",
      "published": 1795457640,
-     "text": "Most households are getting “squeezed by rising costs of everyday goods,” according to Teneo, but upper-income households “are showing resilience.”"
+     "text": "Most households are getting “squeezed by rising costs of everyday goods,” according to Teneo, but upper-income households “are showing resilience.”",
+     "summary_th": "Teneo ระบุว่าครัวเรือนส่วนใหญ่ถูกบีบจากค่าของใช้ประจำวันที่แพงขึ้น ส่วนครัวเรือนรายได้สูงยังใช้จ่ายได้ดี ทำให้คนรวยใช้เงินช่วงเทศกาลมากกว่าคนทั่วไป",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "consumer spending"
+     ],
+     "entities": [
+      "Teneo"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5b87b57720a7",
@@ -656,7 +929,19 @@
      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdTdILU5RLUtldWd0ajB2NFd6Y3duaXhpdmdOcEJRSXpsZWVUR1V0Ym1DeXJqV1ZfZTlwWThEVzFCX1FLdnBNWW5NemQydk1xVEQzRWM3OEgxT05TbVZjWU1ZSnBuZWZFdnljUUdkbnZZY2FCd2VDZXhNd1Y5VXlIRWxzVU9TWFU1RllQNGJZaWx4Qm03YWVBQ1NkVE9rNENQTXliYlJUNUxtWmh2T0RzcUJOTC1GbTZkWmk5M0d1VlpMN0JOcm4xYk9zakl1YlN3bmRRRi1B?oc=5",
      "source": "S&P Global",
      "published": 1795462629,
-     "text": "Limiting Concentration Risk by Design: A Practical Look at the S&P 500 Equal Weight Index S&P Global"
+     "text": "Limiting Concentration Risk by Design: A Practical Look at the S&P 500 Equal Weight Index S&P Global",
+     "summary_th": "บทความอธิบายดัชนี S&P 500 Equal Weight ว่าช่วยจำกัดความเสี่ยงจากการกระจุกตัวของหุ้นบางตัวได้อย่างไร",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "index",
+      "equal weight"
+     ],
+     "entities": [
+      "S&P Global",
+      "S&P 500"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "bb9ac6553270",
@@ -664,7 +949,21 @@
      "link": "https://www.cnbc.com/2026/11/23/espn-nfl-super-bowl-imax.html",
      "source": "CNBC Top News",
      "published": 1795460917,
-     "text": "In addition to ESPN channels, Super Bowl 61 will also be available on streaming platform Disney+ as well as the company's broadcast network ABC."
+     "text": "In addition to ESPN channels, Super Bowl 61 will also be available on streaming platform Disney+ as well as the company's broadcast network ABC.",
+     "summary_th": "ESPN และ NFL จะฉายซูเปอร์โบวล์ 61 ในโรงภาพยนตร์ IMAX ด้วย นอกจากช่อง ESPN จะมีในแพลตฟอร์ม Disney+ และช่องเครือข่าย ABC",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "sports",
+      "media"
+     ],
+     "entities": [
+      "ESPN",
+      "NFL",
+      "Disney+",
+      "ABC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7583eb4e6b26",
@@ -672,7 +971,21 @@
      "link": "https://www.marketwatch.com/story/consumer-stocks-seen-as-safe-bet-amid-cracks-in-ai-trade-are-among-the-s-p-500s-biggest-losers-monday-80cf8f81",
      "source": "MarketWatch",
      "published": 1795456440,
-     "text": "Shares of Kroger and Tyson Foods are down, as Nvidia storms higher"
+     "text": "Shares of Kroger and Tyson Foods are down, as Nvidia storms higher",
+     "summary_th": "หุ้นสินค้าอุปโภคบริโภคอย่าง Kroger และ Tyson Foods ร่วงเป็นกลุ่มที่ลงแรงที่สุดใน S&P 500 วันจันทร์ ขณะที่ Nvidia พุ่งขึ้น",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "consumer stocks",
+      "stock market"
+     ],
+     "entities": [
+      "Kroger",
+      "Tyson Foods",
+      "Nvidia",
+      "S&P 500"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3a28400d1d32",
@@ -680,7 +993,18 @@
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSDBFMXd2R3VnQm1rTzJYX2lJaHRQblJiRkV4X2x6QTlNY1A5cENqNjF0WTdGTUM5bndFcVNRVV9zYmp5Ti12ZlJ2WU9XOVcxekpsZ2cwcl9fa2VoT1RyaGRHQlktX3pySV8tMC1ubzRLTXVlSmVmNFg0b05hVUVtVlZiUURNMUh0QTY3T1Jn?oc=5",
      "source": "Barron's",
      "published": 1795462560,
-     "text": "Gold Prices Rebound. What the Charts Say About a Nasdaq Bottom. Barron's"
+     "text": "Gold Prices Rebound. What the Charts Say About a Nasdaq Bottom. Barron's",
+     "summary_th": "ราคาทองคำฟื้นตัว บทความดูกราฟว่าสะท้อนจุดต่ำสุดของ Nasdaq หรือไม่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "nasdaq"
+     ],
+     "entities": [
+      "Barron's"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -694,7 +1018,20 @@
      "link": "https://www.bbc.co.uk/news/videos/cq8r7e35mkzlo?at_medium=RSS&at_campaign=rss",
      "source": "BBC Business",
      "published": 1795459380,
-     "text": "The Nvidia CEO was reinstated after weeks of controversy over his affair with an alleged Chinese spy."
+     "text": "The Nvidia CEO was reinstated after weeks of controversy over his affair with an alleged Chinese spy.",
+     "summary_th": "BBC รายงานว่า Jensen Huang ถูกแต่งตั้งกลับเป็น CEO ของ Nvidia หลังข้อถกเถียงหลายสัปดาห์เรื่องความสัมพันธ์กับผู้ที่ถูกกล่าวหาว่าเป็นสายลับจีน ผู้เชี่ยวชาญบางคนเรียกเรื่องนี้ว่าการกลับลำครั้งใหญ่ที่สุดในประวัติศาสตร์เศรษฐกิจ",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "leadership"
+     ],
+     "entities": [
+      "Jensen Huang",
+      "Nvidia",
+      "BBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "66d64f433a51",
@@ -702,7 +1039,22 @@
      "link": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1795457060,
-     "text": "Parastoo Ahmadi, three musicians and a producer were reportedly given 74 lashes in Qom."
+     "text": "Parastoo Ahmadi, three musicians and a producer were reportedly given 74 lashes in Qom.",
+     "summary_th": "ตามรายงานของทนายความ ทางการอิหร่านเฆี่ยนนักร้อง Parastoo Ahmadi กับนักดนตรีอีก 3 คนและโปรดิวเซอร์ คนละ 74 ที ที่เมืองกอม เพราะแสดงโดยไม่สวมฮิญาบ",
+     "importance": 0,
+     "numbers": [
+      "74"
+     ],
+     "tags": [
+      "iran",
+      "human rights"
+     ],
+     "entities": [
+      "Parastoo Ahmadi",
+      "Iran",
+      "Qom"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5fdcc05ac658",
@@ -710,7 +1062,19 @@
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaHpNUFN0dllwdUlNX1pKN1pFeTRjZzdjMXRYZks5V2VwaEJiNkU0U3RtTWFJRGdyYUpuZ0ZwbzJ4YjQ3QjhNZlFTTGo5bnlnXzFwZTdPTDZUYldPQ3Y5cmw0aXN2QzFremxKaWtnZGFzTVltVE9kSXBLb1cwOHBLVGRJNXI4aEFFcGFrbWxyLVNkZ0lQMmNBSmlkVTh0X0VUMUJtWlBNTHFBWHFkTUtyX0ZCa3VXZ1lKVVVkVGJB?oc=5",
      "source": "NC Newsline",
      "published": 1795464330,
-     "text": "NC food pantries see a surge in demand as inflation, federal cuts hit household budgets NC Newsline"
+     "text": "NC food pantries see a surge in demand as inflation, federal cuts hit household budgets NC Newsline",
+     "summary_th": "ศูนย์อาหารในนอร์ทแคโรไลนามีผู้มาขอความช่วยเหลือเพิ่มขึ้น เพราะเงินเฟ้อและการตัดงบของรัฐบาลกลางกระทบงบประมาณครัวเรือน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "inflation",
+      "consumer"
+     ],
+     "entities": [
+      "NC Newsline",
+      "North Carolina"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7dd9c99fc306",
@@ -718,7 +1082,19 @@
      "link": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo?at_medium=RSS&at_campaign=rss",
      "source": "BBC Business",
      "published": 1795456795,
-     "text": "Disability Minister Sir Stephen Timms says he will recommend major reforms to the personal independence payment."
+     "text": "Disability Minister Sir Stephen Timms says he will recommend major reforms to the personal independence payment.",
+     "summary_th": "รัฐมนตรีกระทรวงคนพิการ Sir Stephen Timms จะเสนอให้ปฏิรูปครั้งใหญ่กับ Personal Independence Payment (PIP) ซึ่งเป็นเงินช่วยเหลือของอังกฤษ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "welfare policy",
+      "uk"
+     ],
+     "entities": [
+      "Stephen Timms",
+      "BBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2899c804fa74",
@@ -726,7 +1102,20 @@
      "link": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1795454665,
-     "text": "Interests of oil-producing countries, a US boycott and a dispute over finance may have torpedoed climate talks."
+     "text": "Interests of oil-producing countries, a US boycott and a dispute over finance may have torpedoed climate talks.",
+     "summary_th": "การประชุม COP31 ล้มเหลว อาจเพราะผลประโยชน์ของประเทศผู้ผลิตน้ำมัน การที่สหรัฐฯ ไม่เข้าร่วม และข้อพิพาทเรื่องการเงิน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "climate",
+      "cop31"
+     ],
+     "entities": [
+      "COP31",
+      "United States",
+      "BBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ec01f98f0af4",
@@ -734,7 +1123,21 @@
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMVZXajZZUG5KbHU2YmpYQ3Z3Ym82dkFIelRROXBpWWRKUnFSWUlJWEJ1R3IzdUU0b2pVcTQza3dUYTh3U3ZoNWtpMHZra2twdnMtZEc1OWdPNWJWTmh1UWFaTjVoMHhrdWdzbk43Y2xnR3VRMDhlcHo4UW1RZGNpaGIyNGZXbU8tNU1r?oc=5",
      "source": "WWNY",
      "published": 1795463820,
-     "text": "North Country farmers getting $2.17M in tariff relief WWNY"
+     "text": "North Country farmers getting $2.17M in tariff relief WWNY",
+     "summary_th": "เกษตรกรในเขต North Country ของนิวยอร์กจะได้รับเงินช่วยเหลือจากผลกระทบภาษีนำเข้ารวม $2.17M",
+     "importance": 1,
+     "numbers": [
+      "$2.17M"
+     ],
+     "tags": [
+      "tariffs",
+      "agriculture"
+     ],
+     "entities": [
+      "WWNY",
+      "North Country"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "03500cce3b61",
@@ -742,7 +1145,24 @@
      "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
      "source": "BBC Business",
      "published": 1795455757,
-     "text": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 7%."
+     "text": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 7%.",
+     "summary_th": "หุ้น Nvidia พุ่งเกือบ 33% หลัง Jensen Huang กลับมา ทำให้หุ้นเทคโนโลยีขึ้นตาม และ Nasdaq ขึ้น 7%",
+     "importance": 3,
+     "numbers": [
+      "33%",
+      "7%"
+     ],
+     "tags": [
+      "nvidia",
+      "stock market"
+     ],
+     "entities": [
+      "Nvidia",
+      "Jensen Huang",
+      "Nasdaq",
+      "BBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "706fb2b27ce6",
@@ -750,7 +1170,20 @@
      "link": "https://www.bbc.co.uk/news/articles/cr930y92dyx4o?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1795454090,
-     "text": "The impersonator, Canadian comedian Mark Critch, poked fun at the US president's search for a new press secretary and US-Canada trade talks."
+     "text": "The impersonator, Canadian comedian Mark Critch, poked fun at the US president's search for a new press secretary and US-Canada trade talks.",
+     "summary_th": "นักแสดงตลกชาวแคนาดา Mark Critch เลียนแบบท่าเต้นของทรัมป์ และล้อการเจรจาการค้าระหว่างสหรัฐฯ กับแคนาดา ในงานเลี้ยงสื่อ",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "comedy",
+      "trade talks"
+     ],
+     "entities": [
+      "Mark Critch",
+      "Trump",
+      "Canada"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "0d17b92c45db",
@@ -758,7 +1191,19 @@
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQU9nZFJRNVYyT0tzM0ZCQm1hVFo4YklDUGpKak84TWxmeVVaalBHdUhDSFFydmx4SlFCSmpJbU1RbXNUSHZIR19hNUxRcVdGR3dHV2xTa0Z1T1F4d2hfY3hWR19MUXZYdUM0T2ExSm0xMlhqSXFlYXFtTHVrcHJIZklvb0ZKV2dCVHFjMktydE1ZOUR5eTdqcTNacVJZcHd0MURZVnN3SE8zZ9IBvgFBVV95cUxOMWFhOF82clJjWW04NERZNzh5VG5ibXJWbmtZZGN0a0NVVXZHc2JJQzgySGFkS0c0VWIwbEVqN0tiM29MbWMtTHBDRHp3NmpVWko2ajRuWmFJSTRNRWRjbHlrODlzUWhuVGlseXZDQ3J4RU5zWVRaUnBvVlhOdDdmM3FQMlE1WUQ5QkstSDFEU3Fvcm5VdzgxV0tCcjZ5Y0htYXlhTkp0S3diQWpuTGo4OGs0YVpZUF8zeXJUM0R3?oc=5",
      "source": "WBNG",
      "published": 1795463640,
-     "text": "Schumer vows to roll back manufacturing tariffs during visit to Greene business WBNG"
+     "text": "Schumer vows to roll back manufacturing tariffs during visit to Greene business WBNG",
+     "summary_th": "วุฒิสมาชิก Schumer สัญญาว่าจะถอนภาษีนำเข้าสินค้าอุตสาหกรรมระหว่างเยือนธุรกิจในเมือง Greene นิวยอร์ก",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "tariffs",
+      "manufacturing"
+     ],
+     "entities": [
+      "Chuck Schumer",
+      "Greene"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c12543955252",
@@ -766,7 +1211,21 @@
      "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss",
      "source": "BBC Business",
      "published": 1795453918,
-     "text": "Huang's role at the centre of his company's journey to lynchpin of AI proved crucial."
+     "text": "Huang's role at the centre of his company's journey to lynchpin of AI proved crucial.",
+     "summary_th": "คอลัมน์ BBC ของ Faisal Islam ระบุว่า Jensen Huang มีบทบาทสำคัญต่อการที่ Nvidia กลายเป็นหัวใจของ AI จึงทำให้เขาไม่ถูกปลดออกได้ง่าย",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "ai"
+     ],
+     "entities": [
+      "Faisal Islam",
+      "Jensen Huang",
+      "Nvidia",
+      "BBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "796612a75aeb",
@@ -774,7 +1233,20 @@
      "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1795453645,
-     "text": "The report says there are signs of possible contamination across almost all of Gaza as a result of Israel's actions."
+     "text": "The report says there are signs of possible contamination across almost all of Gaza as a result of Israel's actions.",
+     "summary_th": "Oxfam รายงานว่าการโจมตีของอิสราเอลทำให้กาซากลายเป็นพื้นที่เป็นพิษ พบสัญญาณการปนเปื้อนเกือบทั่วทั้งกาซา",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gaza",
+      "environment"
+     ],
+     "entities": [
+      "Oxfam",
+      "Israel",
+      "Gaza"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "50662d58e678",
@@ -782,7 +1254,20 @@
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMGNnZ3YtS0lraFlPR2c3dGR1Mm5vWGZJYVJ0blM4Y015RXFjU3NLeW1UakJ2ajhvWFZhUTM2V2hIOEtJYkpQZnMtQldnUXBVcVllTmdJVC1DbGRISHdkUVJoX3RjOTdRU1pjdEhFUWxLeUx1NmtvY0J2NmRoR01yd1VWbjRzV2dqQU11dEtySEZHa010WHN3ZGFacmt4c1cwcGpIN0lmME9Bb2R5RHNVd0VSMW0tdl9ONUNhN0JEU3pHZw?oc=5",
      "source": "Nacionale",
      "published": 1795463306,
-     "text": "Why has gold fallen a third since its January record? The war, inflation and a Fed that turned to hikes Nacionale"
+     "text": "Why has gold fallen a third since its January record? The war, inflation and a Fed that turned to hikes Nacionale",
+     "summary_th": "ทองคำร่วงราวหนึ่งในสามนับจากสถิติสูงสุดในเดือนมกราคม บทความระบุสาเหตุคือสงคราม เงินเฟ้อ และ Fed ที่หันมาขึ้นดอกเบี้ย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "fed",
+      "inflation"
+     ],
+     "entities": [
+      "Federal Reserve",
+      "Nacionale"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f2571879ac65",
@@ -790,7 +1275,20 @@
      "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
      "source": "BBC Business",
      "published": 1795450355,
-     "text": "The Nvidia chief executive has been at the centre of the artificial intelligence boom."
+     "text": "The Nvidia chief executive has been at the centre of the artificial intelligence boom.",
+     "summary_th": "BBC ถามว่า Nvidia และ Jensen Huang สำคัญต่อเศรษฐกิจสหรัฐฯ แค่ไหน โดย Huang อยู่ศูนย์กลางของบูม AI",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "ai"
+     ],
+     "entities": [
+      "Nvidia",
+      "Jensen Huang",
+      "BBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a17d68ab2a9a",
@@ -798,7 +1296,19 @@
      "link": "https://www.bbc.co.uk/news/articles/cxyvdmjr893zo?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1795445714,
-     "text": "Uebert Angel, a British-Zimbabwean national, leads a charismatic church with branches in several countries."
+     "text": "Uebert Angel, a British-Zimbabwean national, leads a charismatic church with branches in several countries.",
+     "summary_th": "ศิษยาภิบาลชาวซิมบับเว Uebert Angel ถูกจับกุมตามข้อกล่าวหาเรื่องการล่วงละเมิดทางเพศ",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "crime"
+     ],
+     "entities": [
+      "Uebert Angel",
+      "Zimbabwe",
+      "BBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ac12999c911a",
@@ -806,7 +1316,19 @@
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOGFzTms4X3VoazJvVlMzdWJORFJ2RzBxd0VqNTBpWWRHQ2R2QTR3QXRxU3J0bnZmbEZRdzBYTVNrVjBRd2FKdjlkaFhtYVJTR3J1SEdIbkhQV1g3Y3prX3I2ZGVJLUhkeFQ3Ym55NnNvMkNvSUdCel93VDk3RHRyZS14U1FSMDVPZzktNXpvTXNmVDNNR0VYWUJOZGMxVVVTajVZWThtd1lIdXo2ZlNiVjZsM3R2Nm9UeDRYUkV5by1XMWM?oc=5",
      "source": "FXEmpire",
      "published": 1795462523,
-     "text": "XRP Price Prediction: Inflation Data Could Push XRP to Lower Lows This Week FXEmpire"
+     "text": "XRP Price Prediction: Inflation Data Could Push XRP to Lower Lows This Week FXEmpire",
+     "summary_th": "บทความทำนายราคา XRP และพูดถึงข้อมูลเงินเฟ้อที่อาจกดดันราคาในสัปดาห์นี้",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "xrp",
+      "crypto"
+     ],
+     "entities": [
+      "XRP",
+      "FXEmpire"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -820,7 +1342,21 @@
      "link": "https://oilprice.com/Energy/Energy-General/Washingtons-Iran-Strategy-Risks-Strengthening-Its-Biggest-Rivals.html",
      "source": "OilPrice.com",
      "published": 1795464000,
-     "text": "A renewed US-Israeli attack on Iran will bring economic disruption, security risks, and geopolitical realignment across Central Asia. The five republics would prefer to avoid involvement, but geography limits their ability to insulate themselves from the conflict. Iran is an important potential outlet to the Persian Gulf, the Indian Ocean, and wider markets. The consequences depend on the duration of fighting, Iranian retaliation, and whether Tehran retains control. Iran offers a southern alternative to routes through Russia and the Caspian…"
+     "text": "A renewed US-Israeli attack on Iran will bring economic disruption, security risks, and geopolitical realignment across Central Asia. The five republics would prefer to avoid involvement, but geography limits their ability to insulate themselves from the conflict. Iran is an important potential outlet to the Persian Gulf, the Indian Ocean, and wider markets. The consequences depend on the duration of fighting, Iranian retaliation, and whether Tehran retains control. Iran offers a southern alternative to routes through Russia and the Caspian…",
+     "summary_th": "บทความ OilPrice เตือนว่า หากสหรัฐฯ และอิสราเอลโจมตีอิหร่านอีกครั้ง อาจกระทบเศรษฐกิจและความมั่นคงในเอเชียกลาง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "iran",
+      "central asia",
+      "oil"
+     ],
+     "entities": [
+      "Iran",
+      "Central Asia",
+      "OilPrice.com"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b2fedd61b350",
@@ -828,7 +1364,21 @@
      "link": "https://www.cnbc.com/2026/11/23/cop31-climate-summit-fossil-fuels.html",
      "source": "CNBC Energy",
      "published": 1795439798,
-     "text": "Governments and campaigners rejected the \"cover decision\" drafted at the U.N.'s climate summit, COP31, on Sunday."
+     "text": "Governments and campaigners rejected the \"cover decision\" drafted at the U.N.'s climate summit, COP31, on Sunday.",
+     "summary_th": "การประชุมภูมิอากาศ COP31 ล้มเหลว หลังร่างข้อตกลงของสหประชาชาติไม่มีเรื่องเชื้อเพลิงฟอสซิล รัฐบาลและกลุ่มรณรงค์ปฏิเสธร่างนี้เมื่อวันอาทิตย์",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "climate",
+      "cop31",
+      "fossil fuels"
+     ],
+     "entities": [
+      "COP31",
+      "UN",
+      "CNBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2300a51d7bce",
@@ -836,7 +1386,21 @@
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa2hGRG1adWVqdUFtQ0xmYnd3THc5dk10a2RyZWoya2YwaU1NMnFNWXNvV0dtRW11cHpZcWtfV0piZ3RjajhWM2dxdjhpYlhBbUpZT0t6clZlVmRxM3VFZzFMTzRsYzFLM2pNNHRoMkJlRkJuT2VNbFpzclZuUXF0bFpJSkdGcVNrMHlBbmtObE1KOTJhWVZXd1hweVBfcFZXNHNyVEpHMVRMcFdDVUFMTUdlR1plSS1fWUpvazd5Rmk?oc=5",
      "source": "FXEmpire",
      "published": 1795464824,
-     "text": "Oil News: WTI and Brent Hit August Lows as Supply Outlook Pressures Crude FXEmpire"
+     "text": "Oil News: WTI and Brent Hit August Lows as Supply Outlook Pressures Crude FXEmpire",
+     "summary_th": "ราคาน้ำมัน WTI และ Brent ลงสู่ระดับต่ำสุดตั้งแต่เดือนสิงหาคม จากมุมมองเรื่องอุปทานที่กดดันราคาน้ำมันดิบ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "oil",
+      "wti",
+      "brent"
+     ],
+     "entities": [
+      "WTI",
+      "Brent",
+      "FXEmpire"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "103274f64fe9",
@@ -844,7 +1408,22 @@
      "link": "https://oilprice.com/Latest-Energy-News/World-News/ConocoPhillips-to-Exit-Norway-in-443-Billion-Deal-with-Vaar-Energi.html",
      "source": "OilPrice.com",
      "published": 1795462200,
-     "text": "Vaar Energi has agreed to buy ConocoPhillips’ Norwegian business in a $4.43 billion deal that includes Ekofisk, the field that launched Norway’s oil era, and stakes in some of the country’s largest gas fields. Vaar Energi said Monday it had agreed to acquire interests in 13 producing fields and related infrastructure in Norway and the United Kingdom. The portfolio includes the Greater Ekofisk Area, stakes in Troll, Heidrun, Oseberg and Aasta Hansteen, and the Teesside oil terminal in northeast England. The sale would end ConocoPhillips’…"
+     "text": "Vaar Energi has agreed to buy ConocoPhillips’ Norwegian business in a $4.43 billion deal that includes Ekofisk, the field that launched Norway’s oil era, and stakes in some of the country’s largest gas fields. Vaar Energi said Monday it had agreed to acquire interests in 13 producing fields and related infrastructure in Norway and the United Kingdom. The portfolio includes the Greater Ekofisk Area, stakes in Troll, Heidrun, Oseberg and Aasta Hansteen, and the Teesside oil terminal in northeast England. The sale would end ConocoPhillips’…",
+     "summary_th": "Vaar Energi ตกลงซื้อธุรกิจนอร์เวย์ของ ConocoPhillips มูลค่า $4.43 Billion รวมแหล่ง Ekofisk และหุ้นในแหล่งก๊าซใหญ่ของนอร์เวย์ โดยรวม 13 แหล่งผลิตและโครงสร้างพื้นฐานในนอร์เวย์และสหราชอาณาจักร",
+     "importance": 2,
+     "numbers": [
+      "$4.43 Billion"
+     ],
+     "tags": [
+      "oil and gas",
+      "acquisition"
+     ],
+     "entities": [
+      "ConocoPhillips",
+      "Vaar Energi",
+      "Ekofisk"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "86d4b4fc7154",
@@ -852,7 +1431,18 @@
      "link": "https://www.cnbc.com/2026/11/23/refinery-stocks-crack-spreads.html",
      "source": "CNBC Energy",
      "published": 1795435220,
-     "text": "The epic boom in refinery-related stocks is unwinding."
+     "text": "The epic boom in refinery-related stocks is unwinding.",
+     "summary_th": "CNBC รายงานว่า การเทรดหุ้นกลุ่มโรงกลั่นที่เคยทำกำไรมากในด้านพลังงานกำลังคลี่คลาย หุ้นกลุ่มนี้ที่เคยพุ่งมากกำลังปรับตัวลง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "energy stocks",
+      "refining"
+     ],
+     "entities": [
+      "CNBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ac5db8458628",
@@ -860,7 +1450,22 @@
      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZjlIT24wc0JtbW9yb0F1U09rOVM0ck0yRUZWWFM1MHAtellhem1BeWNYZEdkSHBxWGVPN0ZGSUNicjVGXzYtZ1dhSFpyN0ptenhzM25kdUtnTTlpVnRUcjNrS190ZGdpSHNYNHZRVVJVSHlPd0F2WVpyVFRNVDdPZV81WEZYNl9pck12Yw?oc=5",
      "source": "Traders Union",
      "published": 1795464574,
-     "text": "Brent crude moves lower amid Trump’s Iran de-escalation comments: Can renewed diplomacy stabilize oil supply? Traders Union"
+     "text": "Brent crude moves lower amid Trump’s Iran de-escalation comments: Can renewed diplomacy stabilize oil supply? Traders Union",
+     "summary_th": "ราคาน้ำมันเบรนต์ลดลงหลังทรัมป์พูดถึงการลดความตึงเครียดกับอิหร่าน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "oil",
+      "iran",
+      "brent"
+     ],
+     "entities": [
+      "Trump",
+      "Iran",
+      "Brent",
+      "Traders Union"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1660f5e9789d",
@@ -868,7 +1473,18 @@
      "link": "https://oilprice.com/Energy/Energy-General/Why-Blocking-the-Sun-Wont-Solve-the-Climate-Crisis.html",
      "source": "OilPrice.com",
      "published": 1795460400,
-     "text": "When people think about geoengineering the climate to stall or reverse climate change, they often think of university and government research labs. Given the scope and importance of such a project, it only seems natural that governments would be the ones to implement such a momentous and fraught project. But there is now a new player on the scene: private companies promoting their technologies and capabilities to block sunlight in order to reduce the temperature of the Earth. I've opined previously about the dangers of altering the amount of sunlight…"
+     "text": "When people think about geoengineering the climate to stall or reverse climate change, they often think of university and government research labs. Given the scope and importance of such a project, it only seems natural that governments would be the ones to implement such a momentous and fraught project. But there is now a new player on the scene: private companies promoting their technologies and capabilities to block sunlight in order to reduce the temperature of the Earth. I've opined previously about the dangers of altering the amount of sunlight…",
+     "summary_th": "บทความว่าด้วยการบังแสงอาทิตย์ (geoengineering) เพื่อลดภาวะโลกร้อน ซึ่งปัจจุบันบริษัทเอกชนเข้ามาส่งเสริมเทคโนโลยีนี้มากขึ้น",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "climate",
+      "geoengineering"
+     ],
+     "entities": [
+      "OilPrice.com"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "33613d30a88c",
@@ -876,7 +1492,23 @@
      "link": "https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html",
      "source": "CNBC Energy",
      "published": 1795405937,
-     "text": "Yemen's Iran-aligned Houthis claimed an operation against Saudi Arabia's Rabigh oil refinery, as diplomatic efforts to end the war face long odds."
+     "text": "Yemen's Iran-aligned Houthis claimed an operation against Saudi Arabia's Rabigh oil refinery, as diplomatic efforts to end the war face long odds.",
+     "summary_th": "กลุ่มฮูตีของเยเมนอ้างว่าโจมตีโรงกลั่น Rabigh ของซาอุดีอาระเบีย ขณะที่ทรัมป์เตือนว่าอาจมีการโจมตีใหม่ในปีหน้า และความพยายามทางการทูตเพื่อยุติสงครามมีโอกาสสำเร็จน้อย",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "houthi",
+      "saudi arabia",
+      "oil"
+     ],
+     "entities": [
+      "Houthis",
+      "Saudi Arabia",
+      "Rabigh",
+      "Trump",
+      "CNBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8cf741837bd7",
@@ -884,7 +1516,21 @@
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZmNydl9mc3k4SWprMEplRURkTjBBNHZuVHhTOVhkMkRYSzdza3poV3RhUUVxVjU4enBORUVETUpmVHVpNXhHY25razNURGRtMFhPUnVfcmIxMFBIUnNKbnFpbzV3QzRuWUtaTUxnUHM2NzVUUDAxemdUVnlLeFU3U2FqMk9EVEg2OGtqT0RRbXhOenIxbVVuSDltRTNyemRtczhkRi04R2c5MDd6UDVfbWFaYnlfY0RTMk1nSDF1LUFPOVNsaFhOUDVaY1ByamNWUGJvZWg2emFDQQ?oc=5",
      "source": "Foreign Policy Journal",
      "published": 1795464120,
-     "text": "IEA Declares First Oil Supply Surplus Since Iran War Began, Sending Crude Prices Down Nearly 4% Foreign Policy Journal"
+     "text": "IEA Declares First Oil Supply Surplus Since Iran War Began, Sending Crude Prices Down Nearly 4% Foreign Policy Journal",
+     "summary_th": "IEA ระบุว่าอุปทานน้ำมันเกินดุลเป็นครั้งแรกนับตั้งแต่สงครามอิหร่านเริ่มต้น ทำให้ราคาน้ำมันดิบลงเกือบ 4%",
+     "importance": 3,
+     "numbers": [
+      "4%"
+     ],
+     "tags": [
+      "oil",
+      "iea"
+     ],
+     "entities": [
+      "IEA",
+      "Foreign Policy Journal"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6454faf84b1a",
@@ -892,7 +1538,21 @@
      "link": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-and-Iran-Move-to-Boost-Energy-Cooperation.html",
      "source": "OilPrice.com",
      "published": 1795458600,
-     "text": "Pakistan and Iran are nearing the creation of a joint working group to boost energy cooperation, with a focus on electricity supply and electricity transmission projects, Pakistani outlet Business Recorder reported on Monday, quoting sources with knowledge of the matter. The two allies are doing preparatory work to set up a joint working group on electricity and energy, expected to feature discussions on financing for the second phase of Pakistan’s Gwadar electricity transmission line that is planned to increase Iranian electricity exports…"
+     "text": "Pakistan and Iran are nearing the creation of a joint working group to boost energy cooperation, with a focus on electricity supply and electricity transmission projects, Pakistani outlet Business Recorder reported on Monday, quoting sources with knowledge of the matter. The two allies are doing preparatory work to set up a joint working group on electricity and energy, expected to feature discussions on financing for the second phase of Pakistan’s Gwadar electricity transmission line that is planned to increase Iranian electricity exports…",
+     "summary_th": "ปากีสถานและอิหร่านกำลังจะตั้งคณะทำงานร่วมด้านไฟฟ้าและพลังงาน เน้นการจ่ายไฟและโครงการส่งไฟฟ้า ตามรายงานของ Business Recorder",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "energy cooperation",
+      "pakistan",
+      "iran"
+     ],
+     "entities": [
+      "Pakistan",
+      "Iran",
+      "Business Recorder"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a269bcec3cb2",
@@ -900,7 +1560,22 @@
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONmQyZDFaeHJfakJqcVdfQmVDdjZSMFowVE84MEZ4a3o4VUV4a2tWc3Ffb3c3bWtrN0Q1ZGlwVUZuZlJYOUdVWGhBS1J1UUVldVFlSkRNU0NLazJTZkMweHhFcFM0dnBZQWZQcTFyN3JlMC1MQW44OFFWLWhXMTM4ZjlqTkZ1bGhKMjdpWXJubmFxSzlpQWxmLWo3M3dDczgtN2htT1NHZ096QWZq0gGyAUFVX3lxTE0tTzZRZV9uWUNlSXgtcEZfX29IS01jZ0ljYTVqRkQ1U1VmVXN2YW1Xakw1aXJtNkhFRXdGM29hcUhrWW8zM0lpZzh0elhGQzRZUndtRzJtY19fY1JMMUc2ZHFyT2xQMzVDTTh5SHdiSm1tWkFrV3pVVUc4YUkxY2VSemlUOTdfdEw1VlZKY0FDazMwTkoyQUYyUEJSNE9Qdi1NMEZ4ZGU0bzU2ZHR2akdWQ3c?oc=5",
      "source": "Crude Oil Prices Today | OilPrice.com",
      "published": 1795462875,
-     "text": "Ukrainian Naval Drones Sink Russian Warship in Libya Crude Oil Prices Today | OilPrice.com"
+     "text": "Ukrainian Naval Drones Sink Russian Warship in Libya Crude Oil Prices Today | OilPrice.com",
+     "summary_th": "โดรนทางทะเลของยูเครนจมเรือรบรัสเซียในลิเบีย ตามหัวข้อข่าวจาก OilPrice.com",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ukraine",
+      "russia",
+      "libya"
+     ],
+     "entities": [
+      "Ukraine",
+      "Russia",
+      "Libya",
+      "OilPrice.com"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e52fa2e66ed5",
@@ -908,7 +1583,18 @@
      "link": "https://oilprice.com/Energy/Energy-General/The-Energy-Transition-Needs-More-Metals-but-Less-Extraction.html",
      "source": "OilPrice.com",
      "published": 1795456800,
-     "text": "The energy transition is often described as a switch from one extraction industry to another. Instead of digging up coal and drilling for oil, the argument goes, we will simply dig up enormous quantities of lithium, copper and nickel. There is some truth in that description. More mines will be needed for several important metals. But it misses the much larger change taking place underneath. A renewable and electrified energy system can require substantially less ongoing extraction than the fossil system it replaces. The world can need more copper…"
+     "text": "The energy transition is often described as a switch from one extraction industry to another. Instead of digging up coal and drilling for oil, the argument goes, we will simply dig up enormous quantities of lithium, copper and nickel. There is some truth in that description. More mines will be needed for several important metals. But it misses the much larger change taking place underneath. A renewable and electrified energy system can require substantially less ongoing extraction than the fossil system it replaces. The world can need more copper…",
+     "summary_th": "บทความ OilPrice ชี้ว่าการเปลี่ยนผ่านพลังงานต้องใช้ลิเทียม ทองแดง และนิกเกิลเพิ่มขึ้น และมีการเปลี่ยนแปลงที่ใหญ่กว่ากำลังเกิดขึ้นควบคู่กัน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "energy transition",
+      "metals"
+     ],
+     "entities": [
+      "OilPrice.com"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a18dfa3226b2",
@@ -916,7 +1602,28 @@
      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSlk5M2podnZ1SVNDS1lsOUFJTEtkWmNzSzA2bTBxZXBKQ3k2YkFCaFNFcHVUTk1YMXBCTUw3S0Z2bjdDb2kxY3FEUENHd0pfd2oxcEV4eTZ3TGg0UndVckJseThaenRqN3BDWDBucmNNS2NnclNMbF9HNllVS01DLVpjWHZQUmV4QnJadjU4Q3BJaUt3UFJXeC1EaGVDeHBscWoxb0ZzYkFmSXVlcnBOSFNNbFc3SXFpLWdPRkd0dTU0dk1RVGR6dkQwMUxFZWdmNjNhSS1iTW5McXZfWGdIaQ?oc=5",
      "source": "marketscreener.com",
      "published": 1795462752,
-     "text": "January WTI Crude Oil Contract Closes Down $3.24, or 3.9%; Settles at $80.17 per Barrel. January Brent Oil Was Last Seen Down $2.97, or 3.2%, to $89.60 marketscreener.com"
+     "text": "January WTI Crude Oil Contract Closes Down $3.24, or 3.9%; Settles at $80.17 per Barrel. January Brent Oil Was Last Seen Down $2.97, or 3.2%, to $89.60 marketscreener.com",
+     "summary_th": "น้ำมันดิบ WTI สัญญาเดือนมกราคมปิดลดลง $3.24 หรือ 3.9% ที่ $80.17 ต่อบาร์เรล ส่วน Brent สัญญาเดือนมกราคมลดลง $2.97 หรือ 3.2% มาอยู่ที่ $89.60",
+     "importance": 2,
+     "numbers": [
+      "$3.24",
+      "3.9%",
+      "$80.17",
+      "$2.97",
+      "3.2%",
+      "$89.60"
+     ],
+     "tags": [
+      "oil",
+      "wti",
+      "brent"
+     ],
+     "entities": [
+      "WTI",
+      "Brent",
+      "marketscreener.com"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "15783843781a",
@@ -924,7 +1631,22 @@
      "link": "https://oilprice.com/Latest-Energy-News/World-News/Japans-Electricity-Prices-Surge-to-2022-High-as-Cold-Weather-Arrives.html",
      "source": "OilPrice.com",
      "published": 1795455000,
-     "text": "Spot electricity prices in Japan surged on Monday to their highest level since August 2022 as gas demand is set to rise amid expectations of snowfall and colder weather in the coming days. Expected higher gas demand in the Chubu and Hokkaido regions, with gas now at its highest price in four years in both Asia and Europe, pushed Japan's nationwide day-ahead electricity price up by 6% on Monday compared to last week, per data from the Japan Electric Power Exchange cited by Bloomberg. The day-ahead spot power price in Japan on Monday soared to $0.24…"
+     "text": "Spot electricity prices in Japan surged on Monday to their highest level since August 2022 as gas demand is set to rise amid expectations of snowfall and colder weather in the coming days. Expected higher gas demand in the Chubu and Hokkaido regions, with gas now at its highest price in four years in both Asia and Europe, pushed Japan's nationwide day-ahead electricity price up by 6% on Monday compared to last week, per data from the Japan Electric Power Exchange cited by Bloomberg. The day-ahead spot power price in Japan on Monday soared to $0.24…",
+     "summary_th": "ราคาไฟฟ้าสปอตในญี่ปุ่นพุ่งสูงสุดตั้งแต่เดือนสิงหาคม 2022 เพราะความต้องการก๊าซเพิ่มขึ้นตามอากาศหนาว ราคาไฟฟ้าทั้งประเทศขึ้น 6% ในวันจันทร์",
+     "importance": 1,
+     "numbers": [
+      "6%"
+     ],
+     "tags": [
+      "energy prices",
+      "japan",
+      "gas"
+     ],
+     "entities": [
+      "Japan",
+      "OilPrice.com"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "12b4a8313216",
@@ -932,7 +1654,21 @@
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOblh0SFBqYlFvTnhpNlFOd0tpZnZpTEJzS3ZoZlNHZVRpcFhvWWZVbmhiZlFiWG03X3NnVVlNaTBQTktqblZlSlFmdVBiMGNwZmsxXzRYQWZvVXVMQk91WU5lM0FsbzdNUGlWN01sTnYxcVRaSzZVVFVQODhGWFA2cDRaYWY0VHVTZFluc09RcUlHOS1SX2ZJUnc2NXYyclZocVRHTzZzcUF0a2ViOWxr?oc=5",
      "source": "Quantum Commodity Intelligence",
      "published": 1795461484,
-     "text": "Agency says 3%-5% of North Dakota oil output curbed on quality issues Quantum Commodity Intelligence"
+     "text": "Agency says 3%-5% of North Dakota oil output curbed on quality issues Quantum Commodity Intelligence",
+     "summary_th": "หน่วยงานรัฐระบุว่าผลผลิตน้ำมันของนอร์ทดาโคตาราว 3%-5% ถูกจำกัดเพราะปัญหาคุณภาพ",
+     "importance": 1,
+     "numbers": [
+      "3%-5%"
+     ],
+     "tags": [
+      "oil",
+      "north dakota"
+     ],
+     "entities": [
+      "North Dakota",
+      "Quantum Commodity Intelligence"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -946,7 +1682,19 @@
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQmsxSVE4YjNIOTdVYk5xOEVnb2VLQVBRQVprQ2ZLdl9Kenk2V0JjLWhlZ3pOcW1Ua3lxUy1RODlQMkhEZTFmSTRKelQ3TklqSTZYamhUekNGWmJCRndGMjc0bnFTZ0pxMjdnQ1U0V2RoNFRrNkpwY2dCY25MeWdwMktOZjNMZ3dwNlgyT3d2d3FwU2FpUVBvMm9fUWdva2lRcHFz?oc=5",
      "source": "USA Today",
      "published": 1795460880,
-     "text": "Gold Price Today: Gold Rises 1.83% on November 23, 2026 USA Today"
+     "text": "Gold Price Today: Gold Rises 1.83% on November 23, 2026 USA Today",
+     "summary_th": "ราคาทองคำวันที่ 23 พฤศจิกายน 2026 เพิ่มขึ้น 1.83%",
+     "importance": 1,
+     "numbers": [
+      "1.83%"
+     ],
+     "tags": [
+      "gold"
+     ],
+     "entities": [
+      "USA Today"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a887a69e6ff6",
@@ -954,7 +1702,22 @@
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ3ZENzJENzFmTFoyV2FMQTFOYWhTMXhSZ2pJbWdSZXpUeDJ5NkJvNXhVdHR6Z2NSa3BTNDJmcm1MSWh6S3hlalByLWF3cXpWSzdsSGxqR3ZYb2FVc1psekRjOFBhTFZZTUJEZVFwNnJubXc4d192LWVhdU9iSlVOajlXSTI?oc=5",
      "source": "theopenpress.in",
      "published": 1795462035,
-     "text": "Gold Silver Price Today: Gold Jumps 2.4%, Silver Surges 2.3% After Massive Crash; Check 22K, 24K Rates in India theopenpress.in"
+     "text": "Gold Silver Price Today: Gold Jumps 2.4%, Silver Surges 2.3% After Massive Crash; Check 22K, 24K Rates in India theopenpress.in",
+     "summary_th": "ทองคำเพิ่มขึ้น 2.4% และเงินเพิ่มขึ้น 2.3% หลังราคาร่วงแรง พร้อมอัตราราคาทอง 22K และ 24K ในอินเดีย",
+     "importance": 1,
+     "numbers": [
+      "2.4%",
+      "2.3%"
+     ],
+     "tags": [
+      "gold",
+      "silver",
+      "india"
+     ],
+     "entities": [
+      "theopenpress.in"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "4b8dc0a435f7",
@@ -962,7 +1725,18 @@
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaFluN0NMSkZBX1pfRTlhMDVQa1hBcUVsMnhsX2ZNS3RPTjM0RElzY3g5X0FubXJhSU5ZZXFIX05XMDl0WG9MU1pYY0VxelpnRnJwQ1JIbFpobFBncmV1akRGbFRhaGh3UFhiQTVfV25UN215RnRTcHE5ZnlvbHZxVUUyT1pmaV9rNjBrU1p5WWlVMDhPblZnV21OZGU1ZmZCaldqRmVRU1BFZDlaenNYaVF3?oc=5",
      "source": "London South East",
      "published": 1795460040,
-     "text": "AltynGold cuts production guidance but hails gold price backdrop London South East"
+     "text": "AltynGold cuts production guidance but hails gold price backdrop London South East",
+     "summary_th": "AltynGold ปรับลดเป้าหมายการผลิต แต่ชื่นชมภาวะราคาทองคำ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "mining"
+     ],
+     "entities": [
+      "AltynGold"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "0e24f3ee97ea",
@@ -970,7 +1744,22 @@
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdVhjT3ZZWURtUjgwa2xHX2V4U1F5NWxmSFBwaXRoR3pfTGFoRFdKbVJMN29wUkZ3eXVWMG1mVmthQ2lpUExWZ3lycTc2MXVIdUFwUVo5U1NaNE1lanJnOFJnYzZzN0NoRVk0R25SZE5wTVBPcHZqc1VtcllIejd6UFJYT0kwSk1FZ25Xd3NacGprSlRSbEFZSGs3TFZrNHRSbk4zV1BHUHRva1Zz?oc=5",
      "source": "SilverTrade",
      "published": 1795459107,
-     "text": "156 TONNES: China’s Gold Imports Surged 174% in October! SilverTrade"
+     "text": "156 TONNES: China’s Gold Imports Surged 174% in October! SilverTrade",
+     "summary_th": "การนำเข้าทองคำของจีนในเดือนตุลาคมเพิ่มขึ้น 174% ราว 156 ตัน",
+     "importance": 2,
+     "numbers": [
+      "156",
+      "174%"
+     ],
+     "tags": [
+      "gold",
+      "china"
+     ],
+     "entities": [
+      "China",
+      "SilverTrade"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "de189f23b938",
@@ -978,7 +1767,20 @@
      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9laERjdWFEWjh5WGMwVFhlRlBMakZBMEU5WFdPb3BZMWVidE5rbTI4b2xINy1wV2dJZzVPUk1iSk14cUl4Q0hqTUdseC1Pd0wyWWUyQWtWa0VyR1U?oc=5",
      "source": "Cryptonews.net",
      "published": 1795459430,
-     "text": "Gold Price Prediction: XAU/USD Reclaims $3,600, But Is This Just a Relief Rally? Cryptonews.net"
+     "text": "Gold Price Prediction: XAU/USD Reclaims $3,600, But Is This Just a Relief Rally? Cryptonews.net",
+     "summary_th": "บทความวิเคราะห์ราคาทองคำ (XAU/USD) ซึ่งกลับขึ้นมาอยู่เหนือ $3,600 และถามว่าเป็นการเด้งชั่วคราวหรือไม่",
+     "importance": 1,
+     "numbers": [
+      "$3,600"
+     ],
+     "tags": [
+      "gold"
+     ],
+     "entities": [
+      "XAU/USD",
+      "Cryptonews.net"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "964cecc42390",
@@ -986,7 +1788,19 @@
      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBfUUZHa0VWMGRhX3c5eWVkMUpjbkFWeUJlWGxpNnNnUnFDWTY5bjZjZ1czamtRZkgtdGdza0NrbmF2R3VGb0o0el83eHZsZUJKTnBETXJqSzdfMVNIQlJpdHFFQzlOdGZQejJvR0J3Ukdzc0FuWmZVVA?oc=5",
      "source": "theopenpress.in",
      "published": 1795454953,
-     "text": "Gold and Silver Prices Today: Bullion Market Rebounds After Sharp Fall, Check 22K and 24K Rates in 6 Major Cities theopenpress.in"
+     "text": "Gold and Silver Prices Today: Bullion Market Rebounds After Sharp Fall, Check 22K and 24K Rates in 6 Major Cities theopenpress.in",
+     "summary_th": "ราคาทองและเงินในอินเดียวันนี้ หลังร่วงแรง ทองคำเด้งกลับ พร้อมราคา 22K และ 24K ใน 6 เมืองใหญ่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "silver",
+      "india"
+     ],
+     "entities": [
+      "theopenpress.in"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8412d9da48ef",
@@ -994,7 +1808,19 @@
      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPajV6RnBqQ2VEZVdEdVVlajlkdmxSSHJ4eWhPbEgzOHJiWjJpTDZBbFV5bW9XWk9iRF9Yc1R6M2QxRktfTXdkUlRfWkRpTkZnOHIzbHd6OUJTbmY0Z3JlVW5URzFFbHpiX0I3RFhpOGJ2REdWN1F5ak5zcjJzS0JXV0w5OFRXb1ZFUVE?oc=5",
      "source": "Vietnam.vn",
      "published": 1795458782,
-     "text": "Gold prices today, November 24th: Soaring dramatically by over $100/ounce. Vietnam.vn"
+     "text": "Gold prices today, November 24th: Soaring dramatically by over $100/ounce. Vietnam.vn",
+     "summary_th": "ราคาทองคำวันที่ 24 พฤศจิกายน ขึ้นมากกว่า $100 ต่อออนซ์ ตามรายงานของ Vietnam.vn",
+     "importance": 1,
+     "numbers": [
+      "$100/ounce"
+     ],
+     "tags": [
+      "gold"
+     ],
+     "entities": [
+      "Vietnam.vn"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "82af1655631e",
@@ -1002,7 +1828,18 @@
      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNblY4R1RpRmFOMWRyS04yZGhacl9EYVdBQ212bUUxcVhTUlRBMVhnaW9iOXlFSU1oaTVzVFppRURQUmVoVFhEdVJWbjMyN0s2UklrSkVXOXJnLWwtSXotaGNGam5QVmNfaG5HNVdDMmsxa1Q2d0pqbmk3eXhjOFlrQ3BBOG5RakF4ZV9qNDJJcjJFYTlmOENULThxYkNXYy14ZzZVQllyS3ViLVNHVTU1YmNBdndJVWEtOHR2Q2VUYmduRkRXdnBLelRsVkNodkpXRnNYT1Ryb2ZfLXAxdHN0ZHJMRERTVEhYbHc?oc=5",
      "source": "SilverTrade",
      "published": 1795454777,
-     "text": "BREAKING Gold Market Intel: 2 Major US PM Wholesalers Are Completely Sold Out Of All Gold Bullion! SilverTrade"
+     "text": "BREAKING Gold Market Intel: 2 Major US PM Wholesalers Are Completely Sold Out Of All Gold Bullion! SilverTrade",
+     "summary_th": "SilverTrade หัวข้อข่าวระบุว่าผู้ค้าส่งโลหะมีค่าขนาดใหญ่ 2 รายในสหรัฐฯ ขายทองแท่งหมดแล้ว (ข้อมูลจากต้นทางเดียว)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "bullion"
+     ],
+     "entities": [
+      "SilverTrade"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e55d405de99d",
@@ -1010,7 +1847,17 @@
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS3dFaXI2cXRwSWZwSHdFd3YyS211UW96RzE5LUF2enZRODktbjZpRTJlUC13MlBFNFhfNm5jV2NtdGZyYmZFcTVDM2JqenZJOVpjMVlzV2pRamowc0VfWW83bnFhX3BHck5SWXlPMlJLNlBXQ29zZzZjZHpwbnp4bm1WQzlXODFkblA4NHRKbG5HSEw3clZfMWdhRQ?oc=5",
      "source": "Mining.com",
      "published": 1795458715,
-     "text": "Gold price rises as bargain hunters step in after steep weekly drop Mining.com"
+     "text": "Gold price rises as bargain hunters step in after steep weekly drop Mining.com",
+     "summary_th": "ราคาทองคำขึ้นหลังนักช้อนซื้อเข้ามา หลังจากร่วงแรงในรอบสัปดาห์",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold"
+     ],
+     "entities": [
+      "Mining.com"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "00560d6422eb",
@@ -1018,7 +1865,20 @@
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNWZDWVZybk5LRXhfNHRLWFpUSTJBdFItWUR6eTF1VEJZTDFXc2hoWWdhUE5tOEhwamxwRWpGMzZpYnc1ckRjLWtITUpOQUQ4RGRLbGRvQmE4NXhJTlpPdFBBNHRkMnRHQ3FjYjA1akltNk44LUJ4aUdGWXh4b1BCWVBRVmxQYnZPd0FwblRGVTlfZFE0?oc=5",
      "source": "grafa.com",
      "published": 1795450784,
-     "text": "Gold miners climb as bullion rebounds 4% grafa.com"
+     "text": "Gold miners climb as bullion rebounds 4% grafa.com",
+     "summary_th": "หุ้นเหมืองทองขึ้นตามทองคำแท่งที่เด้งกลับ 4%",
+     "importance": 1,
+     "numbers": [
+      "4%"
+     ],
+     "tags": [
+      "gold",
+      "mining stocks"
+     ],
+     "entities": [
+      "grafa.com"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "bf014480b425",
@@ -1026,7 +1886,17 @@
      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9XOFBIdlhmRDljSi15dGZISDRadHl2aUdVQVlxWm5oMFdoanJZSEMtbXI5V2xqQ0ZMZGVkaDdyaHIwcUJRamtuYmcxM0xLMUhpc2ZhYlZ4dTlTSDhCa2FSYnRnSloyMjh2TXo0M0hVakJ3QQ?oc=5",
      "source": "Mining.com.au",
      "published": 1795453425,
-     "text": "Gold price recovers as dip buyers step in Mining.com.au"
+     "text": "Gold price recovers as dip buyers step in Mining.com.au",
+     "summary_th": "ราคาทองคำฟื้นตัวเมื่อนักซื้อช่วงราคาลดลงเข้าตลาด",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold"
+     ],
+     "entities": [
+      "Mining.com.au"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c74427454c27",
@@ -1034,7 +1904,20 @@
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMUFtVHNJdXl1bjczTUpGdmx1TlJ4R3dlSkFsZ3pSSlFKZUxmOHNndW1lcmthR1NpbFA3OFF0WmhXLWRuYWJoS1N2UTR4UThhT2lxR0FSQnh4SVVBX1Z5RkFNTkZFTGc2dHFrUnJrUC10Ty1pdUUtUFM3aTk4NWdqSlF0ZDlXeVBnT0phUGpmdDd3a3QtNEZZamxtMmc3cnF0X0JBZ1kzSV9INXI0Q1pXUGRVZ3ZtZWloWV9RMWtiYU0?oc=5",
      "source": "Türkiye Today",
      "published": 1795449107,
-     "text": "Türkiye may tap gold reserves to strengthen forex position: Central bank chief Türkiye Today"
+     "text": "Türkiye may tap gold reserves to strengthen forex position: Central bank chief Türkiye Today",
+     "summary_th": "ผู้ว่าการธนาคารกลางตุรกีระบุว่าอาจนำทุนสำรองทองคำมาใช้เพื่อเสริมฐานะเงินตราต่างประเทศ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "central bank",
+      "turkey"
+     ],
+     "entities": [
+      "Türkiye",
+      "Central Bank of Türkiye"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -1048,7 +1931,20 @@
      "link": "https://techcrunch.com/2026/11/23/outrageous-reckless-wow-heres-what-politicians-are-saying-about-jensen-huangs-return-to-nvidia/",
      "source": "TechCrunch",
      "published": 1795462301,
-     "text": "Politicians on both sides of the aisle seem angry, agitated, and nonplussed by the return of Jensen Huang to Nvidia leadership less than two weeks after his ousting."
+     "text": "Politicians on both sides of the aisle seem angry, agitated, and nonplussed by the return of Jensen Huang to Nvidia leadership less than two weeks after his ousting.",
+     "summary_th": "นักการเมืองทั้งสองพรรคในสหรัฐฯ แสดงความไม่พอใจต่อการกลับมาของ Jensen Huang ที่ Nvidia หลังถูกปลดออกเพียงไม่ถึงสองสัปดาห์",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "politics"
+     ],
+     "entities": [
+      "Jensen Huang",
+      "Nvidia",
+      "TechCrunch"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "02839082ff9f",
@@ -1056,7 +1952,19 @@
      "link": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
      "source": "MIT Technology Review",
      "published": 1795455368,
-     "text": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we approach model sentience and moral…"
+     "text": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we approach model sentience and moral…",
+     "summary_th": "MIT Technology Review รายงานว่านักปรัชญาชื่อดังคนหนึ่งไม่เชื่อข้อโต้แย้งของ Anthropic เรื่องความเป็นไปได้ที่ AI อาจมีจิตสำนึก ทั้งที่ Anthropic เคยระบุเรื่องนี้เป็นความเสี่ยงสำหรับนักลงทุน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "ethics"
+     ],
+     "entities": [
+      "Anthropic",
+      "MIT Technology Review"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "88c939963f0d",
@@ -1064,7 +1972,19 @@
      "link": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/",
      "source": "Ars Technica",
      "published": 1795464703,
-     "text": "Personalized pricing can mean unfair, and even biased, prices."
+     "text": "Personalized pricing can mean unfair, and even biased, prices.",
+     "summary_th": "บทความว่าด้วยการตั้งราคาตามข้อมูลส่วนตัว (surveillance pricing) ซึ่งอาจทำให้ราคาไม่เป็นธรรมหรือมีอคติ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "consumer",
+      "privacy",
+      "pricing"
+     ],
+     "entities": [
+      "Ars Technica"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "49ef9cf5084c",
@@ -1072,7 +1992,20 @@
      "link": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
      "source": "The Verge",
      "published": 1795464000,
-     "text": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks to the Code Review feature, which was […]"
+     "text": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks to the Code Review feature, which was […]",
+     "summary_th": "Anthropic เปิดฟีเจอร์ให้ Claude รีวิว แก้ไข และอนุมัติ pull request ได้เอง เป็นส่วนหนึ่งของผลิตภัณฑ์ Claude Ship ที่ประกาศวันนี้ ก่อนหน้านี้วิศวกรใช้ Code Review ได้แล้ว",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai coding",
+      "anthropic"
+     ],
+     "entities": [
+      "Anthropic",
+      "Claude",
+      "The Verge"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "9ec377e0288c",
@@ -1080,7 +2013,23 @@
      "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress-trump.html",
      "source": "CNBC Tech",
      "published": 1795459356,
-     "text": "Congress members of both parties are sharply questioning President Donald Trump's conclusion that Jensen Huang poses no national security risk leading Nvidia."
+     "text": "Congress members of both parties are sharply questioning President Donald Trump's conclusion that Jensen Huang poses no national security risk leading Nvidia.",
+     "summary_th": "สมาชิกสภาคองเกรสจากทั้งสองพรรคตั้งคำถามอย่างรุนแรงต่อข้อสรุปของทรัมป์ที่ว่า Jensen Huang ไม่มีความเสี่ยงด้านความมั่นคงแห่งชาติในการบริหาร Nvidia",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "national security",
+      "congress"
+     ],
+     "entities": [
+      "Congress",
+      "Trump",
+      "Jensen Huang",
+      "Nvidia",
+      "CNBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "60fd17d3da0d",
@@ -1088,7 +2037,19 @@
      "link": "https://ladybird.org/posts/alpha/",
      "source": "Hacker News",
      "published": 1795450392,
-     "text": "Article URL: https://ladybird.org/posts/alpha/ Comments URL: https://news.ycombinator.com/item?id=50614249 Points: 856 # Comments: 235"
+     "text": "Article URL: https://ladybird.org/posts/alpha/ Comments URL: https://news.ycombinator.com/item?id=50614249 Points: 856 # Comments: 235",
+     "summary_th": "โปรเจกต์เว็บเบราว์เซอร์ Ladybird ออกเวอร์ชัน alpha แล้ว (ข่าวจาก Hacker News)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "browser",
+      "open source"
+     ],
+     "entities": [
+      "Ladybird",
+      "Hacker News"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b7d2ec00b62b",
@@ -1096,7 +2057,22 @@
      "link": "https://www.techmeme.com/261123/p40",
      "source": "Techmeme",
      "published": 1795464611,
-     "text": "Ashley Gold / Semafor : Sources: the Commerce Department plans to add Megaspeed to its entity list on Monday, barring US companies from selling chips to the company without a license — The Trump administration plans to add the company at the heart of the Nvidia scandal, Megaspeed, to a trade blacklist designed …"
+     "text": "Ashley Gold / Semafor : Sources: the Commerce Department plans to add Megaspeed to its entity list on Monday, barring US companies from selling chips to the company without a license — The Trump administration plans to add the company at the heart of the Nvidia scandal, Megaspeed, to a trade blacklist designed …",
+     "summary_th": "ตามแหล่งข่าวของ Semafor กระทรวงพาณิชย์สหรัฐฯ วางแผนเพิ่ม Megaspeed ในบัญชีดำการค้า (entity list) ในวันจันทร์ ซึ่งจะห้ามบริษัทสหรัฐฯ ขายชิปให้บริษัทนี้โดยไม่มีใบอนุญาต",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "export controls",
+      "chips",
+      "nvidia"
+     ],
+     "entities": [
+      "Commerce Department",
+      "Megaspeed",
+      "Nvidia",
+      "Semafor"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ad3d2932dda1",
@@ -1104,7 +2080,19 @@
      "link": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
      "source": "BleepingComputer",
      "published": 1795464020,
-     "text": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]"
+     "text": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]",
+     "summary_th": "OpenRouter ถอดผู้ให้บริการ AI สามราย ออกจากแพลตฟอร์ม หลังพบว่าละเมิดนโยบายการจัดการข้อมูลและทำให้ข้อมูลที่ละเอียดอ่อนรั่วไหล",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai platform",
+      "data security"
+     ],
+     "entities": [
+      "OpenRouter",
+      "BleepingComputer"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "506c45357e17",
@@ -1112,7 +2100,17 @@
      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wb29HcFlTSWt1cGp2QV90cHh1TmRMVURoUjNHWTJFcURSd3VhYTQ1bVZXa0ZvektUQkg3RkhBd2xGekE5SFNfcU1ta1JzS3JnaUJsM3FtZ29jR2lkM1VRLTBhamVfWVhMX3N3SUFEUGpHY25zclJqdw?oc=5",
      "source": "The Sun",
      "published": 1795461360,
-     "text": "Man in his 60s or 70s ‘exposed’ himself to woman in supermarket car park as cops share CCTV The Sun"
+     "text": "Man in his 60s or 70s ‘exposed’ himself to woman in supermarket car park as cops share CCTV The Sun",
+     "summary_th": "ตำรวจเผยแพร่ภาพ CCTV ของชายอายุราว 60-70 ปี ที่ถูกกล่าวหาว่าเปิดเผยร่างกายต่อหน้าผู้หญิงในลานจอดรถซูเปอร์มาร์เก็ต",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "crime"
+     ],
+     "entities": [
+      "The Sun"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7601f68fa236",
@@ -1120,7 +2118,20 @@
      "link": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
      "source": "TechCrunch",
      "published": 1795461286,
-     "text": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem"
+     "text": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
+     "summary_th": "Google ให้ AI Mode ใน Google Search เชื่อมข้อมูลจาก Drive และ Wallet เพื่อตอบคำถามแบบเฉพาะบุคคลได้มากขึ้น โดยขยาย Personal Intelligence ไปยัง Drive, Wallet และแอป Gemini",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "google",
+      "ai search"
+     ],
+     "entities": [
+      "Google",
+      "Gemini",
+      "TechCrunch"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "9c079ad7f691",
@@ -1128,7 +2139,19 @@
      "link": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
      "source": "MIT Technology Review",
      "published": 1795439400,
-     "text": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation nonprofit METR finds that some capabilities are improving exponentially—but models aren’t as good…"
+     "text": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation nonprofit METR finds that some capabilities are improving exponentially—but models aren’t as good…",
+     "summary_th": "จดหมายข่าวของ MIT Technology Review รายงานว่า METR พบว่าความสามารถบางด้านของ AI พัฒนาแบบเอ็กซ์โพเนนเชียล แต่โมเดลไม่ได้เก่งอย่างที่คิด และการกำจัดคาร์บอนด้วยหินอาจกระทบการเติบโตของพืช",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "ai",
+      "carbon removal"
+     ],
+     "entities": [
+      "METR",
+      "MIT Technology Review"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f46bae4b1628",
@@ -1136,7 +2159,19 @@
      "link": "https://arstechnica.com/tech-policy/2026/11/amazon-fights-delivery-protection-act-by-putting-stickers-on-its-packages/",
      "source": "Ars Technica",
      "published": 1795462693,
-     "text": "Amazon now uses its packages for political purposes."
+     "text": "Amazon now uses its packages for political purposes.",
+     "summary_th": "Amazon ติดสติกเกอร์บนพัสดุเพื่อต่อต้านร่างกฎหมาย Delivery Protection Act",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "amazon",
+      "regulation"
+     ],
+     "entities": [
+      "Amazon",
+      "Delivery Protection Act"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "cb123f04812d",
@@ -1144,7 +2179,20 @@
      "link": "https://www.theverge.com/tech/1040487/nvidia-ceo-jensen-huang-staff-applauds-return",
      "source": "The Verge",
      "published": 1795463907,
-     "text": "Jensen Huang returned to Nvidia's office as CEO today to a crowd of applauding employees who stood and filmed the co-founder's first moments back. \"Thank you all for the second chances. I'm gonna be a better CEO the second time around,\" Huang said, as shown in a video of his return. Huang resigned as CEO […]"
+     "text": "Jensen Huang returned to Nvidia's office as CEO today to a crowd of applauding employees who stood and filmed the co-founder's first moments back. \"Thank you all for the second chances. I'm gonna be a better CEO the second time around,\" Huang said, as shown in a video of his return. Huang resigned as CEO […]",
+     "summary_th": "Jensen Huang กลับมาที่สำนักงาน Nvidia ในฐานะ CEO อีกครั้ง พนักงานปรบมือต้อนรับ เขากล่าวว่าจะเป็น CEO ที่ดีกว่าเดิม หลังจากเคยลาออกจากตำแหน่ง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "leadership"
+     ],
+     "entities": [
+      "Jensen Huang",
+      "Nvidia",
+      "The Verge"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "26e93aaa939a",
@@ -1152,7 +2200,22 @@
      "link": "https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-aquisition-ai-cyberattacks.html",
      "source": "CNBC Tech",
      "published": 1795456230,
-     "text": "CrowdStrike and competitors have shelled out billions to ramp up defenses in the wake of AI cyberattacks."
+     "text": "CrowdStrike and competitors have shelled out billions to ramp up defenses in the wake of AI cyberattacks.",
+     "summary_th": "CrowdStrike จะซื้อ Zscaler ในดีลมูลค่า $44 billion ท่ามกลางการโจมตีไซเบอร์ที่รุนแรงขึ้นจาก AI บริษัทความปลอดภัยไซเบอร์หลายรายใช้เงินหลายพันล้านเพื่อเสริมการป้องกัน",
+     "importance": 3,
+     "numbers": [
+      "$44 billion"
+     ],
+     "tags": [
+      "cybersecurity",
+      "acquisition"
+     ],
+     "entities": [
+      "CrowdStrike",
+      "Zscaler",
+      "CNBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e3a79f42fb3c",
@@ -1160,7 +2223,20 @@
      "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
      "source": "Hacker News",
      "published": 1795442418,
-     "text": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-j... Comments URL: https://news.ycombinator.com/item?id=50611576 Points: 1396 # Comments: 2535"
+     "text": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-j... Comments URL: https://news.ycombinator.com/item?id=50611576 Points: 1396 # Comments: 2535",
+     "summary_th": "Nvidia ประกาศว่าบอร์ดแต่งตั้ง Jensen Huang กลับมาเป็น CEO อีกครั้ง",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "leadership"
+     ],
+     "entities": [
+      "Nvidia",
+      "Jensen Huang",
+      "Hacker News"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d5a23fb514c0",
@@ -1168,7 +2244,21 @@
      "link": "https://www.techmeme.com/261123/p39",
      "source": "Techmeme",
      "published": 1795464093,
-     "text": "Axios : Sources: Trump pushed Nvidia to reinstate Jensen Huang after allies argued he was “too big to fail” for the US economy and a victim of “deep state” maneuvering — President Trump pushed Nvidia to reinstate Jensen Huang as CEO after allies argued he was “too big to fail” …"
+     "text": "Axios : Sources: Trump pushed Nvidia to reinstate Jensen Huang after allies argued he was “too big to fail” for the US economy and a victim of “deep state” maneuvering — President Trump pushed Nvidia to reinstate Jensen Huang as CEO after allies argued he was “too big to fail” …",
+     "summary_th": "ตามรายงานของ Axios ทรัมป์ผลักดันให้ Nvidia แต่งตั้ง Huang กลับมา หลังพันธมิตรโต้แย้งว่า Huang ใหญ่เกินกว่าจะล้มต่อเศรษฐกิจสหรัฐฯ และเป็นเหยื่อของการเล่นเกมใน deep state",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "politics"
+     ],
+     "entities": [
+      "Trump",
+      "Jensen Huang",
+      "Nvidia",
+      "Axios"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "53716c4432ab",
@@ -1176,7 +2266,22 @@
      "link": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
      "source": "BleepingComputer",
      "published": 1795462940,
-     "text": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]"
+     "text": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]",
+     "summary_th": "Microsoft เตือนลูกค้าว่าช่องโหว่ใน Azure API Management (APIM) รุ่น Classic ถูกใช้ขโมยข้อมูลรับรอง API และหน่วยงานของนอร์เวย์เชื่อมโยงช่องโหว่นี้กับการโจมตีบริษัทพลังงาน",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "cybersecurity",
+      "azure",
+      "vulnerability"
+     ],
+     "entities": [
+      "Microsoft",
+      "Azure",
+      "Norway",
+      "BleepingComputer"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "53cd68c319bf",
@@ -1184,7 +2289,18 @@
      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQWS1iRk5Tb1NJQURsWUZocDhkZEdCemZWYnhUa1FjM3M0SXNnUjhyRm8tQ0Q3dldiMi1ESlVOcm9JSmQwNUZuSTZxQTJSSjU5MVMwdEN6dFNYekZKSnNXWjNOSmw0d1BhVFNkcnpvSW5QM1NReFBCYlU1M04zMGlEeUNsclhnVDVhcGxldU91WHVFcmRkUXNzOG13TXpCQ09OdW9HWkJNUHFOWC1weG8ybkVpZEZ3aVBKNU0zRllDMExOLVdISDJxOS16Q1dGZnFMeTFodVpBTmdzQURnQjVaeHExbFMwTTdvYWgxeEEtT0JFX2hEQ1pTR3ZLUVVnSGNiZWJHZ2Y0RDA4Vy1zaFJ0VkJaQUQzcjVjM09ydEE1d9IBpAJBVV95cUxNT3ZGa3RYdkpKMHYtVlE2ZFVVNHZSYmpXelYzOHlJdlpwbFRoOWZtOGRzOW5IVFRpN1dESHBYaXhaX3V6a3I5Q0NOa01LNEwxbFM3dmZUNUFLTnpGVFN5MmpZQUpFbWhUaEdtY25fTGFYMDBjSnVNbV92ZGdOa3lnNHpTczZrSmNxLU4yX3hzUnZVXzdzV0Q0TTU4LWlPWkdxQkl2SmZIUzhHb1ZlNFZac2pNQjRjUVJpN1ZxaWxvaHZNQnhMekFueDhJajlpTzdGSWZQc0cxa3JpRmVXOUdaRFBjMUh3bjExVGZpYmhhVGNBRHNESjZhREktZHRzLVpyeFZSTGRlTmtyRF82TEs4TUtVcnRHWm9qeE1kaHRhYjVFVVdZ?oc=5",
      "source": "The Times of India",
      "published": 1795460880,
-     "text": "Police used digital transaction at shop, CCTV footage to track down duo from Rajasthan on chain-snatching The Times of India"
+     "text": "Police used digital transaction at shop, CCTV footage to track down duo from Rajasthan on chain-snatching The Times of India",
+     "summary_th": "ตำรวจอินเดียใช้ธุรกรรมดิจิทัลที่ร้านค้าและภาพ CCTV ติดตามตัวคู่ชายจากรัฐราชสถานที่ชิงสร้อยคอ",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "crime"
+     ],
+     "entities": [
+      "The Times of India",
+      "Rajasthan"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a2f14d06f82b",
@@ -1192,7 +2308,20 @@
      "link": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
      "source": "TechCrunch",
      "published": 1795457542,
-     "text": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy."
+     "text": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
+     "summary_th": "Jensen Huang มีกำหนดให้การต่อวุฒิสภาในสัปดาห์หน้า หลังมีเสียงเรียกร้องจากทั้งสองพรรคให้ชี้แจงเรื่องความสัมพันธ์กับผู้ที่ถูกกล่าวหาว่าเป็นสายลับจีน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "congress"
+     ],
+     "entities": [
+      "Jensen Huang",
+      "Senate",
+      "TechCrunch"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "dc02d0ba7ca7",
@@ -1200,7 +2329,20 @@
      "link": "https://www.technologyreview.com/2026/11/23/1149392/why-using-rocks-for-carbon-removal-could-eventually-reduce-crop-growth/",
      "source": "MIT Technology Review",
      "published": 1795431600,
-     "text": "Tech companies are investing a lot of hope and money in rocks. Google, Microsoft, and others have committed hundreds of millions of dollars to get startups to spread crushed basalt, olivine, or other alkaline materials across farms, in an effort to capture carbon from the air and lock it away. A number of influential models…"
+     "text": "Tech companies are investing a lot of hope and money in rocks. Google, Microsoft, and others have committed hundreds of millions of dollars to get startups to spread crushed basalt, olivine, or other alkaline materials across farms, in an effort to capture carbon from the air and lock it away. A number of influential models…",
+     "summary_th": "MIT Technology Review รายงานว่า บริษัทเทคโนโลยีลงทุนโปรยหินบดบนไร่เพื่อดักคาร์บอน และการทำแบบนี้อาจค่อยๆ ลดการเติบโตของพืช",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "carbon removal",
+      "agriculture"
+     ],
+     "entities": [
+      "Google",
+      "Microsoft",
+      "MIT Technology Review"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "34d720d7557e",
@@ -1208,7 +2350,20 @@
      "link": "https://arstechnica.com/space/2026/11/russia-may-launch-a-nuclear-armed-satellite-far-sooner-than-we-thought/",
      "source": "Ars Technica",
      "published": 1795462110,
-     "text": "A nuclear detonation in space \"could cause rapid and sudden loss or degradation of thousands of satellites.\""
+     "text": "A nuclear detonation in space \"could cause rapid and sudden loss or degradation of thousands of satellites.\"",
+     "summary_th": "มีรายงานว่ารัสเซียอาจส่งอาวุธนิวเคลียร์ขึ้นสู่วงโคจรเร็วที่สุดในเดือนหน้า การระเบิดนิวเคลียร์ในอวกาศอาจทำให้ดาวเทียมหลายพันดวงเสียหายหรือใช้งานไม่ได้อย่างฉับพลัน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "space",
+      "nuclear",
+      "satellites"
+     ],
+     "entities": [
+      "Russia",
+      "Ars Technica"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "47b1648bdb93",
@@ -1216,7 +2371,20 @@
      "link": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
      "source": "The Verge",
      "published": 1795463838,
-     "text": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago co-founded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged affairs. Huang admitted he had been \"unfaithful\" to his wife […]"
+     "text": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago co-founded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged affairs. Huang admitted he had been \"unfaithful\" to his wife […]",
+     "summary_th": "Jensen Huang ลาออกจากตำแหน่ง CEO ของ Nvidia เมื่อวันที่ 12 พฤศจิกายน หลังถูกตรวจสอบเรื่องความสัมพันธ์ที่ถูกกล่าวหา ก่อนจะกลับมาเป็น CEO อีกครั้งในเดือนนี้",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "leadership"
+     ],
+     "entities": [
+      "Jensen Huang",
+      "Nvidia",
+      "The Verge"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f47b3e7462fa",
@@ -1224,7 +2392,23 @@
      "link": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html",
      "source": "CNBC Tech",
      "published": 1795452331,
-     "text": "The states are seeking civil penalties and injunctions to stop Grok and X from creation and distribution of nonconsensual sexualized images."
+     "text": "The states are seeking civil penalties and injunctions to stop Grok and X from creation and distribution of nonconsensual sexualized images.",
+     "summary_th": "รัฐ Oregon และ Virginia ฟ้อง SpaceX เรื่องภาพอนาจารที่สร้างด้วย deepfake AI และคำกล่าวอ้างเรื่องความปลอดภัยของ Grok รัฐต้องการค่าปรับทางแพ่งและคำสั่งห้ามการสร้างและเผยแพร่ภาพที่ไม่ได้รับความยินยอม",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai safety",
+      "deepfake",
+      "regulation"
+     ],
+     "entities": [
+      "SpaceX",
+      "Grok",
+      "X",
+      "Oregon",
+      "Virginia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5094532b4e2e",
@@ -1232,7 +2416,20 @@
      "link": "https://z.ai/blog/glm-5.4",
      "source": "Hacker News",
      "published": 1795428403,
-     "text": "Article URL: https://z.ai/blog/glm-5.4 Comments URL: https://news.ycombinator.com/item?id=50609685 Points: 909 # Comments: 309"
+     "text": "Article URL: https://z.ai/blog/glm-5.4 Comments URL: https://news.ycombinator.com/item?id=50609685 Points: 909 # Comments: 309",
+     "summary_th": "Z.ai เปิดตัว GLM-5.4 โมเดลที่เน้นการเขียนโค้ดแบบทั่วไป เป็นโมเดลแรกที่ใช้ loop transformer",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "llm",
+      "coding model"
+     ],
+     "entities": [
+      "Z.ai",
+      "GLM-5.4",
+      "Hacker News"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "9546f6b100d7",
@@ -1240,7 +2437,23 @@
      "link": "https://www.techmeme.com/261123/p38",
      "source": "Techmeme",
      "published": 1795462202,
-     "text": "Reuters : Sources: Trump and JD Vance were convinced Jensen Huang alone protected American-made open-weight AI models — US President Donald Trump and Vice President JD Vance personally intervened in Nvidia's (NVDA.O) decision to reinstate CEO Jensen Huang over the weekend, convinced he alone protected American …"
+     "text": "Reuters : Sources: Trump and JD Vance were convinced Jensen Huang alone protected American-made open-weight AI models — US President Donald Trump and Vice President JD Vance personally intervened in Nvidia's (NVDA.O) decision to reinstate CEO Jensen Huang over the weekend, convinced he alone protected American …",
+     "summary_th": "ตามแหล่งข่าวของ Reuters ทรัมป์และ JD Vance เข้าแทรกแซงการตัดสินใจของ Nvidia ที่ให้ Huang กลับมาเป็น CEO เมื่อสุดสัปดาห์ โดยเชื่อว่าเขาเพียงคนเดียวปกป้องโมเดล AI แบบ open-weight ที่ผลิตในอเมริกา",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "open-weight ai",
+      "politics"
+     ],
+     "entities": [
+      "Trump",
+      "JD Vance",
+      "Jensen Huang",
+      "Nvidia",
+      "Reuters"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -1268,7 +2481,8 @@
       "Kymera Therapeutics",
       "Dupixent"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4b9fc537804f",
@@ -1290,7 +2504,8 @@
       "Scorpion Capital",
       "Abivax"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3c6fd77f98a9",
@@ -1299,7 +2514,7 @@
      "source": "Medical Xpress",
      "published": 1795464028,
      "text": "Scientists have long suspected a common human herpesvirus contributed to the development of multiple sclerosis, a disease affecting the central nervous system and a leading cause of disability in young adults. A new study published in the Proceedings of the National Academy of Sciences (PNAS) demonstrates genetically determined differences in host control of a similar herpesvirus in mice are a major risk factor for allowing T cells to enter the brain and may offer clues to why only a fraction of the population infected with Epstein-Barr virus (EBV) develops MS.",
-     "summary_th": "การศึกษาใหม่พบว่าพันธุศาสตร์ของโฮสต์กำหนดการตอบสนองของภูมิคุ้มกันในสมองต่อการติดเชื้อเริมเรื้อรัง ซึ่งอาจช่วยไขข้อสงสัยเกี่ยวกับโรคปลอกประสาทเสื่อมแข็ง",
+     "summary_th": "การศึกษาใหม่ใน PNAS พบในหนูว่าพันธุกรรมของโฮสต์กำหนดการตอบสนองของภูมิคุ้มกันในสมองต่อการติดเชื้อเริมเรื้อรังที่คล้ายคลึงกัน ซึ่งอาจช่วยไขข้อสงสัยว่าทำไมมีเพียงบางส่วนของผู้ติดเชื้อ EBV ที่เป็นโรค MS",
      "importance": 1,
      "numbers": [],
      "tags": [
@@ -1308,7 +2523,10 @@
       "pnas"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ขาดว่าการศึกษาทำในหนู ทำให้ดูเหมือนพบในคนโดยตรง",
+     "checked_by": "claude/review"
     },
     {
      "id": "c62568de12c6",
@@ -1329,7 +2547,8 @@
      "entities": [
       "West Virginia"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b3c66c4d2406",
@@ -1349,7 +2568,8 @@
       "Capricor Therapeutics",
       "FDA"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a0695320930e",
@@ -1368,7 +2588,8 @@
      "entities": [
       "Adelaide University"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1498a1db4acb",
@@ -1389,7 +2610,8 @@
       "Siemens Healthineers",
       "FDA"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "244e8081f152",
@@ -1398,7 +2620,7 @@
      "source": "STAT News",
      "published": 1795439059,
      "text": "In its first meeting since 2025, an influential panel of doctors evaluating preventive medical care grappled with the ways RFK Jr. has upended science and medicine:",
-     "summary_th": "คณะกรรมการบริการป้องกันโรคประชุมลับครั้งแรกในรอบกว่าหนึ่งปีเพื่อหารือเกี่ยวกับการดูแลสุขภาพ",
+     "summary_th": "คณะกรรมการที่ประเมินบริการป้องกันโรค ประชุมครั้งแรกในรอบกว่าปีและลงคะแนนแบบปิดลับ โดยหารือเรื่องวิธีที่ RFK Jr. เปลี่ยนแปลงวงการวิทยาศาสตร์และการแพทย์",
      "importance": 1,
      "numbers": [],
      "tags": [
@@ -1408,7 +2630,10 @@
      "entities": [
       "RFK Jr."
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "แปล votes are cast in private ผิดเป็นการประชุมลับ จริงๆ คือการลงคะแนนแบบปิดลับ",
+     "checked_by": "claude/review"
     },
     {
      "id": "fd273c2b0c0d",
@@ -1426,7 +2651,8 @@
       "medical imaging"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c3bb5cf18929",
@@ -1446,7 +2672,8 @@
      "entities": [
       "FDA"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "044a9fc96b60",
@@ -1466,7 +2693,8 @@
      "entities": [
       "Invivyd"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c0d58f241e87",
@@ -1483,7 +2711,8 @@
       "fatigue"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "97fed5b1da85",
@@ -1501,7 +2730,8 @@
       "clinical trial"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1f4320d09f67",
@@ -1520,7 +2750,8 @@
      "entities": [
       "Kymera Therapeutics"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "346178827c2c",
@@ -1537,7 +2768,8 @@
       "inflammation"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f2035745b0ef",
@@ -1558,7 +2790,8 @@
       "HUTCHMED",
       "Ranosidenib"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "d11ae9ea93ad",
@@ -1576,7 +2809,8 @@
       "biotech"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e06ac0f90b4c",
@@ -1594,7 +2828,8 @@
       "students"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "cf343bdb5dd6",
@@ -1614,7 +2849,8 @@
      "entities": [
       "Roche"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "95e201bfed58",
@@ -1634,7 +2870,8 @@
      "entities": [
       "David Adler"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   }
