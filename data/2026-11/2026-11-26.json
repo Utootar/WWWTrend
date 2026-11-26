@@ -2,9 +2,10 @@
  "date": "2026-11-26",
  "collected_at": "2026-11-26T01:40:17+07:00",
  "models": [
+  "claude/routine",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 75,
+ "summary_failed": 0,
  "prices": [
   {
    "symbol": "^GSPC",
@@ -502,7 +503,8 @@
       "Iran",
       "U.S."
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ac22be8de915",
@@ -523,7 +525,8 @@
       "Nvidia",
       "Huang"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "08f5ab4067e0",
@@ -542,7 +545,8 @@
       "Nvidia",
       "Jensen Huang"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "7a7c1c9c1cd3",
@@ -560,7 +564,8 @@
      "entities": [
       "Cabot Wealth Network"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4fc9c7b0e27d",
@@ -584,7 +589,8 @@
      "entities": [
       "Dow Jones"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "35ce48e126bd",
@@ -606,7 +612,8 @@
       "David Rizk",
       "DOJ"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "98fcaf467835",
@@ -623,7 +630,8 @@
       "selloff"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "aee0d9765890",
@@ -644,7 +652,8 @@
      "entities": [
       "S&P 500"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "2efc86804497",
@@ -653,7 +662,7 @@
      "source": "CNBC Markets",
      "published": 1795579561,
      "text": "The UAE is optimistic about achieving 7%-8% economic growth next year, banking on a \"different\" economic model.",
-     "summary_th": "รัฐมนตรีของสหรัฐอาหรับ emirates มั่นใจเศรษฐกิจเติบโต 7%-8% ในปีหน้าหลัง IMF ปรับเพิ่มคาดการณ์",
+     "summary_th": "รัฐมนตรี UAE มั่นใจว่าเศรษฐกิจจะเติบโต 7%-8% ในปีหน้า หลัง IMF ปรับเพิ่มคาดการณ์",
      "importance": 1,
      "numbers": [
       "7%-8%"
@@ -667,7 +676,10 @@
       "IMF",
       "UAE"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ชื่อประเทศผิด (UAE ไม่ใช่สหรัฐอาหรับ)",
+     "checked_by": "claude/review"
     },
     {
      "id": "b8e65de04b89",
@@ -691,7 +703,8 @@
       "FCC",
       "Amazon"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6af714d83b37",
@@ -712,7 +725,8 @@
       "Federal Reserve",
       "U.S."
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c13be2fa4bde",
@@ -729,7 +743,8 @@
       "carry trade"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a1cb4567b16b",
@@ -749,7 +764,8 @@
       "inflation"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6e171e3368f5",
@@ -769,7 +785,8 @@
      "entities": [
       "HP"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "cc41e673aa03",
@@ -790,7 +807,8 @@
      "entities": [
       "Nasdaq"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "abfc667cb28b",
@@ -810,7 +828,8 @@
       "Kalshi",
       "Congress"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6f444221f193",
@@ -829,7 +848,8 @@
       "Jensen Huang",
       "Nvidia"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8e567ef2bb14",
@@ -852,7 +872,8 @@
       "Berkshire Hathaway",
       "S&P 500"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "092caf82715c",
@@ -874,7 +895,8 @@
       "OpenAI",
       "Kalshi"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "750d67f5d728",
@@ -894,7 +916,8 @@
       "White House",
       "Supreme Court"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "558924db38d1",
@@ -902,7 +925,18 @@
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdm9rM0xFUHdFeF9SVkhiSldVUEZ6UTZwRWRJNkg0QUk3YnlGQW5LMnFzWjdlQ0JHeFNKYWdORzNWeFZ4TTNyaVZ4eVRCaFA1QVZDZWRHU3dubGxBcmZBQUljMnJzdUk2ck1vM2tYVy1aRjNLczlUMGJieHBscDloUTJzWjZVN2VjRExXVHV4NHc3TXBLLTkyN0lNSkJPVWgwMUUwdVQtR2w4LTQ5YlRxcEJn?oc=5",
      "source": "Benzinga",
      "published": 1795629604,
-     "text": "POET Stock Drops Amid Tech Weakness and AI Concerns Benzinga"
+     "text": "POET Stock Drops Amid Tech Weakness and AI Concerns Benzinga",
+     "summary_th": "หุ้น POET ร่วงลง ท่ามกลางความอ่อนแอของภาคเทคโนโลยีและความกังวลเรื่อง AI",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "poet",
+      "ai stocks"
+     ],
+     "entities": [
+      "POET"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a22a89f54110",
@@ -910,7 +944,20 @@
      "link": "https://www.cnbc.com/2026/11/25/anthropic-ipo-employee-millionaires-sudden-wealth.html",
      "source": "CNBC Top News",
      "published": 1795624375,
-     "text": "Anthropic’s IPO made about 5,100 employees paper millionaires. Experts explain the risks of sudden wealth."
+     "text": "Anthropic’s IPO made about 5,100 employees paper millionaires. Experts explain the risks of sudden wealth.",
+     "summary_th": "พนักงาน Anthropic ราว 5,100 คนกลายเป็นมหาเศรษฐีบนกระดาษหลัง IPO ผู้เชี่ยวชาญอธิบายความเสี่ยงของความร่ำรวยอย่างฉับพลัน",
+     "importance": 1,
+     "numbers": [
+      "5,100"
+     ],
+     "tags": [
+      "anthropic ipo",
+      "personal finance"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1c44dd08710e",
@@ -918,7 +965,16 @@
      "link": "https://www.marketwatch.com/story/the-latest-stock-market-drop-could-lower-your-tax-bill-over-your-lifetime-99420b97",
      "source": "MarketWatch",
      "published": 1795625580,
-     "text": "But take this first step by Dec. 31."
+     "text": "But take this first step by Dec. 31.",
+     "summary_th": "บทความแนะนำว่าการร่วงของตลาดหุ้นล่าสุดอาจช่วยลดภาษีตลอดชีวิตได้ โดยต้องทำขั้นตอนแรกภายในวันที่ 31 ธ.ค.",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "tax",
+      "personal finance"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "4daa188c6939",
@@ -926,7 +982,16 @@
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWjE4Zm9DOUxVdmFFaTlaQVJMWHFaVEVGVy1JcTNEcEc3bnhET2xfaGNCdFlpbXkwS210Tkx0d3JVUWVzbzA4amhwWU1FWGxLd2E0YUJBY1lOOUNlVmlwNF83b3Bqc2dqaWVMTzUwSGFfYWNJVDZwXzh5TGp5YUZaTzZoa0dZenZfalhyelF0UUZwbllhOEZIbWNGc1V3OHQxWlhfV3ZoeGdKRURCS3dTVEFSRnk?oc=5",
      "source": "Bloomberg.com",
      "published": 1795629492,
-     "text": "Stocks Swoon as AI Fears Spur Rush to Treasuries: Markets Wrap Bloomberg.com"
+     "text": "Stocks Swoon as AI Fears Spur Rush to Treasuries: Markets Wrap Bloomberg.com",
+     "summary_th": "หุ้นสหรัฐร่วงลงเมื่อความกังวลเรื่อง AI ทำให้นักลงทุนแห่ซื้อพันธบัตรรัฐบาล",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai stocks",
+      "treasuries"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "94a480832294",
@@ -934,7 +999,18 @@
      "link": "https://www.cnbc.com/investingclub/2026/11/25/anthropics-stock-has-been-a-clunker-post-ipo-why-that-matters-for-the-ai-trade.html",
      "source": "CNBC Top News",
      "published": 1795622725,
-     "text": "Shares of Anthropic are trading below their IPO price, creating an overhang on other artificial intelligence names."
+     "text": "Shares of Anthropic are trading below their IPO price, creating an overhang on other artificial intelligence names.",
+     "summary_th": "หุ้น Anthropic ซื้อขายต่ำกว่าราคาไอพีโอ ซึ่งสร้างแรงกดดันต่อหุ้น AI ตัวอื่น",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "anthropic ipo",
+      "ai trade"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -948,7 +1024,20 @@
      "link": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss",
      "source": "BBC Business",
      "published": 1795631382,
-     "text": "The discount chain has fallen into administration after its owners failed to find a buyer."
+     "text": "The discount chain has fallen into administration after its owners failed to find a buyer.",
+     "summary_th": "Poundland เข้าสู่กระบวนการบริหาร (administration) หลังเจ้าของหาผู้ซื้อไม่ได้ ทำให้พนักงาน 11,000 คนเสี่ยงตกงาน",
+     "importance": 2,
+     "numbers": [
+      "11,000"
+     ],
+     "tags": [
+      "retail",
+      "uk"
+     ],
+     "entities": [
+      "Poundland"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8366bafb9dbf",
@@ -956,7 +1045,20 @@
      "link": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1795628889,
-     "text": "All three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%."
+     "text": "All three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%.",
+     "summary_th": "ดัชนีหลักทั้งสามของสหรัฐร่วงในช่วงต้นตลาด โดย Nasdaq ที่เน้นหุ้นเทคโนโลยีลงเกือบ 4%",
+     "importance": 2,
+     "numbers": [
+      "4%"
+     ],
+     "tags": [
+      "us stocks",
+      "ai"
+     ],
+     "entities": [
+      "Nasdaq"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ebf74a0d7780",
@@ -964,7 +1066,18 @@
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPemN6eEdNMURrYXlLbm85eDktR0xhR2xtSmQ5QlM0SnJUVmVjMkp3bjZBaFJzUk1pVnptci1wSVZ1dFBvR2pkZlNYT3FBVS1MVE5GZnRGTjBocV9GZFFiTVdrRVR6LTl5S1lCdGhnVkVUUlpqdS1WNEJtYVRKTEhvbHFVV3J1WVhOSmFGMTJpQ3ZRS2tBQWxqNXBOUVF1WlM1UkNsTnh3cjNld0lyUWhpdlV0TTFudEU?oc=5",
      "source": "National Taxpayers Union",
      "published": 1795631628,
-     "text": "National Taxpayers Union Foundation Joins Amicus Brief Against Illegal Tariffs National Taxpayers Union"
+     "text": "National Taxpayers Union Foundation Joins Amicus Brief Against Illegal Tariffs National Taxpayers Union",
+     "summary_th": "National Taxpayers Union Foundation ร่วมยื่น amicus brief คัดค้านภาษีนำเข้าที่เรียกว่าผิดกฎหมาย",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "tariffs",
+      "trade law"
+     ],
+     "entities": [
+      "National Taxpayers Union Foundation"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2d44e5347bf6",
@@ -972,7 +1085,20 @@
      "link": "https://www.bbc.co.uk/news/videos/cjr4gw12k2lwo?at_medium=RSS&at_campaign=rss",
      "source": "BBC Business",
      "published": 1795629554,
-     "text": "Energy bills will soar by 26% for millions of households in January after a surge in gas prices sparked by the Iran war."
+     "text": "Energy bills will soar by 26% for millions of households in January after a surge in gas prices sparked by the Iran war.",
+     "summary_th": "ค่าพลังงานในอังกฤษจะเพิ่ม 26% ในเดือนมกราคมสำหรับหลายล้านครัวเรือน หลังราคาก๊าซพุ่งจากสงครามอิหร่าน",
+     "importance": 1,
+     "numbers": [
+      "26%"
+     ],
+     "tags": [
+      "energy bills",
+      "uk"
+     ],
+     "entities": [
+      "Iran"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a8e9ed99c9ae",
@@ -980,7 +1106,16 @@
      "link": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1795627816,
-     "text": "The asteroid's surface was transformed after a spacecraft was deliberately crashed into it four years ago"
+     "text": "The asteroid's surface was transformed after a spacecraft was deliberately crashed into it four years ago",
+     "summary_th": "ภาพเผยหลุมขนาดสนามกีฬาบนดาวเคราะห์น้อยเป้าทดสอบการป้องกันโลก หลังยานอวกาศถูกพุ่งชนโดยตั้งใจ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "asteroid",
+      "space"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "dd094b461e8f",
@@ -988,7 +1123,21 @@
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWWhpaFlWYlNVMXFsV001cGNHdUVWeVh4R2RnbWhsQjhpUzc2azg5dkxZdUZQS2gwcHQzeVVTbV9BYlBRbHBORHdqMVc5N1hoNUtUeUc5LVhGZm5XSV9Pa1FzUXZHUEM2VGU5aEVCRDBkdXN2V1FUY3pyaXVFUm5aUDVXN0poYUFQSWkxWXhB?oc=5",
      "source": "The Iola Register",
      "published": 1795631505,
-     "text": "Trump plans more tariffs on China, Europe The Iola Register"
+     "text": "Trump plans more tariffs on China, Europe The Iola Register",
+     "summary_th": "ทรัมป์วางแผนขึ้นภาษีนำเข้าเพิ่มเติมกับจีนและยุโรป",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "tariffs",
+      "china",
+      "europe"
+     ],
+     "entities": [
+      "Trump",
+      "China",
+      "Europe"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c36363cdbd55",
@@ -996,7 +1145,20 @@
      "link": "https://www.bbc.co.uk/news/articles/cm5y1g42x2wzo?at_medium=RSS&at_campaign=rss",
      "source": "BBC Business",
      "published": 1795627573,
-     "text": "People on Teesside share their views on the news energy bills are expected to increase by 26%."
+     "text": "People on Teesside share their views on the news energy bills are expected to increase by 26%.",
+     "summary_th": "ผู้อยู่อาศัยในพื้นที่ Teesside ให้ความเห็นต่อข่าวค่าพลังงานที่คาดว่าจะเพิ่ม 26%",
+     "importance": 1,
+     "numbers": [
+      "26%"
+     ],
+     "tags": [
+      "energy bills",
+      "uk"
+     ],
+     "entities": [
+      "Teesside"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7940036035fa",
@@ -1004,7 +1166,18 @@
      "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1795623694,
-     "text": "The new levies would hit many of America's biggest trading partners, including China and the EU."
+     "text": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+     "summary_th": "สหรัฐประกาศภาษีนำเข้าใหม่กับหลายประเทศ รวมถึงจีนและสหภาพยุโรป ซึ่งเป็นคู่ค้าใหญ่ของสหรัฐ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "tariffs"
+     ],
+     "entities": [
+      "China",
+      "EU"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "de677e7ecfe6",
@@ -1012,7 +1185,19 @@
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQR2JDNnVSbzVwSXEzWmJYRl85QXVvYlB4TUtjQm5zWGxzQkRzNTFmMTlyX0kzVF9fWExFN3QwV28xOTZwajBMWUptaVVEWVY4UG5BUUxka21rem4yRmM2RS1RY0hQSndUTUZObmRqOXpMUWtoc2pZZ18tOGhobllFc2lXV0ppOXFGbGFKcHBaUHU4c0Q3MzJHV3VSZm1YS2pnMUFtdTNtYndibWNXdkhidnc5R1MwVy1tN3lKWVBralBxOUNuTkZTVzdR?oc=5",
      "source": "USA Today",
      "published": 1795630500,
-     "text": "Trump proposes new tariffs on China, European Union USA Today"
+     "text": "Trump proposes new tariffs on China, European Union USA Today",
+     "summary_th": "ทรัมป์เสนอภาษีนำเข้าใหม่กับจีนและสหภาพยุโรป",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "tariffs"
+     ],
+     "entities": [
+      "Trump",
+      "China",
+      "European Union"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6f90ee807bdb",
@@ -1020,7 +1205,18 @@
      "link": "https://www.bbc.co.uk/news/videos/cmqlq07d71yko?at_medium=RSS&at_campaign=rss",
      "source": "BBC Business",
      "published": 1795625807,
-     "text": "Scots describe how an increase in energy bills will affect them."
+     "text": "Scots describe how an increase in energy bills will affect them.",
+     "summary_th": "ชาวสกอตแลนด์เล่าว่าค่าพลังงานที่เพิ่มขึ้นจะกระทบชีวิตของพวกเขาอย่างไร",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "energy bills",
+      "uk"
+     ],
+     "entities": [
+      "Scotland"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c63f2b8e26fb",
@@ -1028,7 +1224,20 @@
      "link": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1795623614,
-     "text": "One gunman was killed in the operation to free around 20 shoppers and employees after a 17-hour hostage ordeal."
+     "text": "One gunman was killed in the operation to free around 20 shoppers and employees after a 17-hour hostage ordeal.",
+     "summary_th": "ตำรวจโคลอมเบียบุกซูเปอร์มาร์เก็ตช่วยตัวประกันราว 20 คนที่ถูกจับ 17 ชั่วโมง ผู้ก่อเหตุหนึ่งคนเสียชีวิต",
+     "importance": 0,
+     "numbers": [
+      "17-hour"
+     ],
+     "tags": [
+      "colombia",
+      "crime"
+     ],
+     "entities": [
+      "Colombian police"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2fdcfd579abd",
@@ -1036,7 +1245,18 @@
      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQM09BNS0tVzh0X2N1b1lkbjlJbGV5M3p0VTV0M2lodVRxQ016eE5ZbGpxUjdoYy1IRWdQLU1zamg5V3h6aW1RUC1BQzdjTmJjVWlENEx0YmZJc2VvUW9FQjJ2aExINDE1TkMzdlRzZ0c1SlFOTzJMUVQ0YjlELVRBSGtZbkE4alJqVVE?oc=5",
      "source": "Plastics News",
      "published": 1795630380,
-     "text": "Plastics named in new Trump manufacturing overcapacity tariffs Plastics News"
+     "text": "Plastics named in new Trump manufacturing overcapacity tariffs Plastics News",
+     "summary_th": "พลาสติกถูกระบุชื่อในภาษีใหม่ของทรัมป์ที่เกี่ยวกับปัญหากำลังการผลิตส่วนเกินของภาคการผลิต",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "tariffs",
+      "plastics"
+     ],
+     "entities": [
+      "Trump"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "775d27b357e3",
@@ -1044,7 +1264,21 @@
      "link": "https://www.bbc.co.uk/news/articles/cq772vk664yvo?at_medium=RSS&at_campaign=rss",
      "source": "BBC Business",
      "published": 1795624931,
-     "text": "A review of the US president's financial disclosures shows Donald Trump's investment portfolios have regularly traded shares in the tech giant."
+     "text": "A review of the US president's financial disclosures shows Donald Trump's investment portfolios have regularly traded shares in the tech giant.",
+     "summary_th": "เอกสารการเปิดเผยทรัพย์สินของทรัมป์แสดงว่าพอร์ตการลงทุนของเขาซื้อขายหุ้น Nvidia 44 ครั้งในปีนี้",
+     "importance": 1,
+     "numbers": [
+      "44"
+     ],
+     "tags": [
+      "nvidia",
+      "trump finances"
+     ],
+     "entities": [
+      "Donald Trump",
+      "Nvidia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "dca406a17140",
@@ -1052,7 +1286,19 @@
      "link": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o?at_medium=RSS&at_campaign=rss",
      "source": "BBC World",
      "published": 1795621370,
-     "text": "The break-in happened in 2020, when thieves allegedly stole bundles of US dollar bills hidden inside a sofa at the farm."
+     "text": "The break-in happened in 2020, when thieves allegedly stole bundles of US dollar bills hidden inside a sofa at the farm.",
+     "summary_th": "รามาโฟซาแห่งแอฟริกาใต้ชนะคดีในศาลเกี่ยวกับการขู่ถอดถอน ซึ่งเกี่ยวข้องกับเหตุโจรกรรมที่ฟาร์มในปี 2020 ที่มีการขโมยเงินดอลลาร์ซ่อนในโซฟา",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "south africa",
+      "politics"
+     ],
+     "entities": [
+      "Ramaphosa",
+      "South Africa"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3a26b76ac6b2",
@@ -1060,7 +1306,22 @@
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRmdGMDdiZVhMaEZiM2hLVlNhdXQzZkM1b2F5NXFYaWZzbC1mX25kLU56ZThrNjFmZ2JVMW9fbjJhbUMwMXdzN3JLYXAyNE02a0FqclFyblhxZmxfbWRLVlQ5OFdoQkdmNEF1ZTlZUzRVVkkxQm14eDY0R1ZtUXJpRWhaNDE5c1hOM3pUYUhiRmJ1NnlTaGVrQk9uNGwwU2w5UmliTkRpZGQ?oc=5",
      "source": "Reuters",
      "published": 1795630358,
-     "text": "US to cap India tariff at 17% if trade deal is reached, USTR says Reuters"
+     "text": "US to cap India tariff at 17% if trade deal is reached, USTR says Reuters",
+     "summary_th": "สหรัฐจะจำกัดภาษีนำเข้าสินค้าอินเดียไว้ที่ 17% หากบรรลุข้อตกลงการค้า ตามที่ USTR ระบุ",
+     "importance": 2,
+     "numbers": [
+      "17%"
+     ],
+     "tags": [
+      "tariffs",
+      "india",
+      "trade deal"
+     ],
+     "entities": [
+      "India",
+      "USTR"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -1074,7 +1335,23 @@
      "link": "https://oilprice.com/Energy/Crude-Oil/JAPEX-Eyes-More-Than-10000-Boed-in-Norway-with-Goliat-Deal.html",
      "source": "OilPrice.com",
      "published": 1795629600,
-     "text": "Japan Petroleum Exploration (JAPEX) has agreed to buy an 8% stake in Norway’s Goliat oil field from Equinor as it aims to exceed 10,000 barrels of oil equivalent per day in the country in the 2030s. Under two linked agreements announced Wednesday, JAPEX will pay Equinor $65 million in cash and transfer its 3.5% stake in the Verdande field. In return, it will acquire the Goliat stake, interests in nearby discoveries and exploration acreage in the Norwegian Sea. Equinor will retain a 27% non-operated stake in Goliat, a producing field in the…"
+     "text": "Japan Petroleum Exploration (JAPEX) has agreed to buy an 8% stake in Norway’s Goliat oil field from Equinor as it aims to exceed 10,000 barrels of oil equivalent per day in the country in the 2030s. Under two linked agreements announced Wednesday, JAPEX will pay Equinor $65 million in cash and transfer its 3.5% stake in the Verdande field. In return, it will acquire the Goliat stake, interests in nearby discoveries and exploration acreage in the Norwegian Sea. Equinor will retain a 27% non-operated stake in Goliat, a producing field in the…",
+     "summary_th": "JAPEX ตกลงซื้อ 8% ในแหล่งน้ำมัน Goliat ของนอร์เวย์จาก Equinor โดยจ่ายเงินสด $65 million และโอนหุ้น 3.5% ในแหล่ง Verdande",
+     "importance": 1,
+     "numbers": [
+      "8%",
+      "$65 million",
+      "3.5%"
+     ],
+     "tags": [
+      "norway",
+      "oil"
+     ],
+     "entities": [
+      "JAPEX",
+      "Equinor"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6d22e0de95d9",
@@ -1082,7 +1359,20 @@
      "link": "https://www.cnbc.com/2026/11/25/investors-led-by-todd-boehly-to-buy-lukoil-oil-and-gas-assets-outside-russia.html",
      "source": "CNBC Energy",
      "published": 1795622445,
-     "text": "The U.S. International Development Finance Corporation and Catena Investments, based in the United Arab Emirates, are also parties to the deal, the sources said."
+     "text": "The U.S. International Development Finance Corporation and Catena Investments, based in the United Arab Emirates, are also parties to the deal, the sources said.",
+     "summary_th": "กลุ่มนักลงทุนนำโดย Todd Boehly พร้อมด้วย DFC ของสหรัฐและ Catena ของ UAE มีรายงานว่าจะซื้อสินทรัพย์น้ำมันและก๊าซของ Lukoil นอกรัสเซีย ตามแหล่งข่าว",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "lukoil",
+      "oil deal"
+     ],
+     "entities": [
+      "Todd Boehly",
+      "Lukoil",
+      "Catena Investments"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d5800bd56e7a",
@@ -1090,7 +1380,18 @@
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNGIxc1FOakNOemxIZENucTFLQVluN2hibU5GcEc3cTdwNmdsYWlJVGdSelpVT0w1NU4tY2pjRjFJcVpnallyQWpmcU95Q2J2U3lUYmFLaEZhSmVjZ2xTSjFOUGZyUlBUdDM4OW5Zd2dEcGJFRm84aW43VzJ3dWtpNnh2Y2pMQXJiNnRDZWF2d2RzZXNLQ3M5eWxSNVRNcXQ1LVMw?oc=5",
      "source": "Quantum Commodity Intelligence",
      "published": 1795631253,
-     "text": "West of Suez: Brent, LSGO cracks climb on Ras Tanura attacks Quantum Commodity Intelligence"
+     "text": "West of Suez: Brent, LSGO cracks climb on Ras Tanura attacks Quantum Commodity Intelligence",
+     "summary_th": "ส่วนต่างราคา (crack) ของน้ำมัน Brent และ LSGO เพิ่มขึ้นหลังการโจมตีโรงกลั่น Ras Tanura",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "brent",
+      "crude oil"
+     ],
+     "entities": [
+      "Ras Tanura"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d98726359235",
@@ -1098,7 +1399,21 @@
      "link": "https://oilprice.com/Latest-Energy-News/World-News/Kazakhstan-Joins-Iraq-in-Pushing-OPEC-for-a-Higher-Capacity-Rating.html",
      "source": "OilPrice.com",
      "published": 1795627800,
-     "text": "Kazakhstan has joined Iraq in asking OPEC+ to raise its estimate of the country's crude production capacity, Reuters reported Wednesday, citing people familiar with the matter. The request comes four days before the group meets to set its output policy for 2027. The review is OPEC's first, and will assess how much oil each member can produce sustainably, and its findings will help set production targets for next year. One of the sources told Reuters that OPEC+ is holding talks this week with the members that dispute their assessments. US consultancy…"
+     "text": "Kazakhstan has joined Iraq in asking OPEC+ to raise its estimate of the country's crude production capacity, Reuters reported Wednesday, citing people familiar with the matter. The request comes four days before the group meets to set its output policy for 2027. The review is OPEC's first, and will assess how much oil each member can produce sustainably, and its findings will help set production targets for next year. One of the sources told Reuters that OPEC+ is holding talks this week with the members that dispute their assessments. US consultancy…",
+     "summary_th": "คาซัคสถานร่วมกับอิรักขอให้ OPEC+ ปรับค่าประมาณกำลังการผลิตน้ำมันดิบของประเทศให้สูงขึ้น ก่อนกลุ่มประชุมกำหนดนโยบายการผลิตปี 2027",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "opec+",
+      "kazakhstan",
+      "iraq"
+     ],
+     "entities": [
+      "Kazakhstan",
+      "Iraq",
+      "OPEC+"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f46a16acf1c1",
@@ -1106,7 +1421,19 @@
      "link": "https://www.cnbc.com/2026/11/25/ukraine-putin-russia-oil-refinery-attacks.html",
      "source": "CNBC Energy",
      "published": 1795598317,
-     "text": "Ukraine’s foreign minister told Putin to end the war if he wants Kyiv to stop attacking Russian refineries, after Putin said retaliation was “inevitable.”"
+     "text": "Ukraine’s foreign minister told Putin to end the war if he wants Kyiv to stop attacking Russian refineries, after Putin said retaliation was “inevitable.”",
+     "summary_th": "รัฐมนตรีต่างประเทศยูเครนบอกปูตินให้ 'หยุดบ่น' เรื่องการโจมตีโรงกลั่น หลังปูตินบอกว่ารัสเซียจะตอบโต้",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ukraine",
+      "refinery attacks"
+     ],
+     "entities": [
+      "Putin",
+      "Ukraine"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "44cad8fd39a5",
@@ -1114,7 +1441,15 @@
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVkRJdUt0LVhZdzVhR0RpSnN6RWh6cDdGQVhOUU9vNENLN0hnSXB1YXJFU01rMzZBaXhuelM3ODlra1hKdnRxcnYweGNRSmFmSEpnMzJSQWxkOXZqZVM3NjBrZ2UwQS1PQS12di1uaHFUQWJRZHE2aHhxMnlLcVJ5Z3owcXd2WTV4NFJQSUM0SWplUVA5bW80ZU9fdDYzV1Z5QnFvcW1kdlhPMW8xc2JRQnVJc19mZw?oc=5",
      "source": "WSJ",
      "published": 1795630241,
-     "text": "Oil Prices Fall as Traders Weigh Supply Surplus, Gulf Attacks WSJ"
+     "text": "Oil Prices Fall as Traders Weigh Supply Surplus, Gulf Attacks WSJ",
+     "summary_th": "ราคาน้ำมันลดลงขณะนักลงทุนชั่งน้ำหนักอุปทานส่วนเกินกับการโจมตีในอ่าว",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "oil prices"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "c55ed4492819",
@@ -1122,7 +1457,19 @@
      "link": "https://oilprice.com/Energy/Energy-General/US-Diplomatic-Push-Revives-Hopes-for-Trans-Caspian-Gas-Pipeline.html",
      "source": "OilPrice.com",
      "published": 1795626000,
-     "text": "Trans-Caspian connectivity was the topic du jour during US Deputy Secretary of State Christopher Landau’s November 23 talks with Turkmen leaders in Ashgabat. Readouts of Landau’s meetings hinted that a trans-Caspian pipeline was among the central items on the agenda. The focal point of Landau’s multi-day stop in Turkmenistan was two meetings, one with President Serdar Berdymukhamedov, the other with long-serving Foreign Minister Rashid Meredov. Both the Turkmen government and the US Embassy in Ashgabat were tight-lipped…"
+     "text": "Trans-Caspian connectivity was the topic du jour during US Deputy Secretary of State Christopher Landau’s November 23 talks with Turkmen leaders in Ashgabat. Readouts of Landau’s meetings hinted that a trans-Caspian pipeline was among the central items on the agenda. The focal point of Landau’s multi-day stop in Turkmenistan was two meetings, one with President Serdar Berdymukhamedov, the other with long-serving Foreign Minister Rashid Meredov. Both the Turkmen government and the US Embassy in Ashgabat were tight-lipped…",
+     "summary_th": "การเจรจาของรองรัฐมนตรีต่างประเทศสหรัฐกับผู้นำเติร์กเมนิสถานช่วงวันที่ 23 พ.ย. ทำให้มีความหวังต่อท่อก๊าซข้ามทะเลแคสเปียน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gas pipeline",
+      "caspian"
+     ],
+     "entities": [
+      "Christopher Landau",
+      "Turkmenistan"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "32626707c81e",
@@ -1130,7 +1477,23 @@
      "link": "https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html",
      "source": "CNBC Energy",
      "published": 1795574203,
-     "text": "This has been the second attack by the Iran-backed group in six days on the tower, although the previous attack did not cause any casualties."
+     "text": "This has been the second attack by the Iran-backed group in six days on the tower, although the previous attack did not cause any casualties.",
+     "summary_th": "กลุ่มฮูตีที่ได้รับการสนับสนุนจากอิหร่านโจมตีหอคอยของกองทุน PIF ซาอุฯ ทำให้บาดเจ็บ 11 คน เป็นการโจมตีครั้งที่สองในรอบหกวัน",
+     "importance": 2,
+     "numbers": [
+      "11"
+     ],
+     "tags": [
+      "houthi",
+      "middle east"
+     ],
+     "entities": [
+      "Houthi",
+      "PIF",
+      "Saudi Arabia",
+      "Iran"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b53a4f3a2644",
@@ -1138,7 +1501,21 @@
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNXZOaWFWcEhwSmI1N005RjZjTDVWeGY1aExxbE1qSnpaU2pxeUpCT2tNZ3E0dEdQNHkyMk9kOS1GWEZuX0NUU1JHZTIxbDJiaHRuYjMteWFGbEdXVUFmWVUxb2JDNGdyZVhCOUU0S1N6MHhidEpBRnRfeXpRLXExYUxPdThKUUlUWnVXc25oZ0lzTEowbzF1N2hoNGpPSEgyY2pPcDNPUzLSAa4BQVVfeXFMUGhkOVZkQ0JBUHgyeVhNZ2d1eTBkYkhwSnRLbmR6cXhCYzhSU1REUzk5VUVGNXd4R2lfOFlXTGNwSElYUlZ3NjU5SXdsRkgtOGMwcDNoVEZ5cEdGNFhQY2dDX3pnWW5mUVA1SWo3TFVtcHFmUF9rbFhUbWk4Yi1fRXZYVkppRjdlbmhLcDZubjFKaDgtTm5IcGloSnl3anpkSDNPY1VObmZ0UE5YTVZ3?oc=5",
      "source": "Crude Oil Prices Today | OilPrice.com",
      "published": 1795629900,
-     "text": "Eni and Repsol Commit $2 Billion to Venezuela Oil and Gas Expansion Crude Oil Prices Today | OilPrice.com"
+     "text": "Eni and Repsol Commit $2 Billion to Venezuela Oil and Gas Expansion Crude Oil Prices Today | OilPrice.com",
+     "summary_th": "Eni และ Repsol ให้คำมั่นลงทุน $2 Billion เพื่อขยายการผลิตน้ำมันและก๊าซในเวเนซุเอลา",
+     "importance": 2,
+     "numbers": [
+      "$2 Billion"
+     ],
+     "tags": [
+      "venezuela",
+      "oil"
+     ],
+     "entities": [
+      "Eni",
+      "Repsol"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "fdfafd601a87",
@@ -1146,7 +1523,22 @@
      "link": "https://oilprice.com/Latest-Energy-News/World-News/Aramco-Opens-7-Billion-Petrochemical-Complex-in-South-Korea.html",
      "source": "OilPrice.com",
      "published": 1795624260,
-     "text": "Saudi Aramco on Wednesday officially launched a $7-billion petrochemicals complex in South Korea as the oil giant expands its downstream presence in its key crude export market, Asia. Saudi Aramco and its South Korean subsidiary S-OIL inaugurated the Shaheen Project in Seoul, which took $7 billion in investment, Aramco’s single biggest investment in the Asian country. The project combines refining capabilities with the first major commercial deployment of Aramco’s proprietary thermal crude-to-chemicals (TC2CTM) technology. The complex…"
+     "text": "Saudi Aramco on Wednesday officially launched a $7-billion petrochemicals complex in South Korea as the oil giant expands its downstream presence in its key crude export market, Asia. Saudi Aramco and its South Korean subsidiary S-OIL inaugurated the Shaheen Project in Seoul, which took $7 billion in investment, Aramco’s single biggest investment in the Asian country. The project combines refining capabilities with the first major commercial deployment of Aramco’s proprietary thermal crude-to-chemicals (TC2CTM) technology. The complex…",
+     "summary_th": "Saudi Aramco และบริษัทลูก S-OIL เปิดโครงการปิโตรเคมี Shaheen มูลค่า $7 billion ในเกาหลีใต้",
+     "importance": 2,
+     "numbers": [
+      "$7 billion"
+     ],
+     "tags": [
+      "aramco",
+      "petrochemicals",
+      "korea"
+     ],
+     "entities": [
+      "Saudi Aramco",
+      "S-OIL"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8341da8d4bf6",
@@ -1154,7 +1546,21 @@
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNY1UtN3dJUzJhMnNqWDRuN2hyRGpGOVdBNWFlaWpZWTZGZ3NWdWtUa3owVDZtSUVRa3p2dm1BSHVRblZSTmhIa0Fqb1FVdFZJWXlRbmN5dUVZVXBSdU55UzNWWjI4Y3c0cFhqOEVYVDJfcExMNGNvYVZKcmFGNU4xSHktSTVfTGJYdThkQ202Z1Qwc2JtUWFZT0Utd2Zhbkw0UDdiWk9zdjJyZFlWSzBZOEw1V09LOWM?oc=5",
      "source": "www.marketscreener.com",
      "published": 1795629102,
-     "text": "CME : WTI Crude Oil futures top $83 as EIA reports inventory build. www.marketscreener.com"
+     "text": "CME : WTI Crude Oil futures top $83 as EIA reports inventory build. www.marketscreener.com",
+     "summary_th": "ราคาน้ำมันดิบ WTI เกิน $83 หลัง EIA รายงานสต็อกน้ำมันเพิ่มขึ้น",
+     "importance": 1,
+     "numbers": [
+      "$83"
+     ],
+     "tags": [
+      "wti",
+      "eia"
+     ],
+     "entities": [
+      "EIA",
+      "CME"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "dac44802532f",
@@ -1162,7 +1568,22 @@
      "link": "https://oilprice.com/Energy/Crude-Oil/Oil-Inventories-Continue-to-Rise-in-the-US.html",
      "source": "OilPrice.com",
      "published": 1795621376,
-     "text": "Crude oil inventories in the United States saw an increase of 1.1 million barrels during the week ending November 20, according to new data from the U.S. Energy Information Administration (EIA) released on Wednesday. The increase brings commercial stockpiles to 418.9 million barrels, according to government data, which is now 3% below the five-year average for this time of year. The EIA’s data release follows API’s figures that were released a day earlier, which reported that crude oil inventories had risen by 126,000 barrels in the…"
+     "text": "Crude oil inventories in the United States saw an increase of 1.1 million barrels during the week ending November 20, according to new data from the U.S. Energy Information Administration (EIA) released on Wednesday. The increase brings commercial stockpiles to 418.9 million barrels, according to government data, which is now 3% below the five-year average for this time of year. The EIA’s data release follows API’s figures that were released a day earlier, which reported that crude oil inventories had risen by 126,000 barrels in the…",
+     "summary_th": "สต็อกน้ำมันดิบสหรัฐเพิ่มขึ้น 1.1 million barrels ในสัปดาห์ที่สิ้นสุด 20 พ.ย. เป็น 418.9 million barrels ซึ่งต่ำกว่าค่าเฉลี่ยห้าปีที่ 3%",
+     "importance": 1,
+     "numbers": [
+      "1.1 million barrels",
+      "418.9 million barrels",
+      "3%"
+     ],
+     "tags": [
+      "us crude inventory",
+      "eia"
+     ],
+     "entities": [
+      "EIA"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a17312844452",
@@ -1170,7 +1591,17 @@
      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBzVXE0TDdsSmFTRGVZb3VEaXVfQ0ZWUlJvcTJKRmZuekN4X2dKdzRMVzNYcXpiLUkyTjJwTjlRNjdUM3JYOUhvcDE5NEtENjN4VXdKVjh4bzFraTVGa2xwX2J6Yw?oc=5",
      "source": "Oil & Gas 360",
      "published": 1795628927,
-     "text": "U.S. crude oil inventories increase by 1.1 million barrels Oil & Gas 360"
+     "text": "U.S. crude oil inventories increase by 1.1 million barrels Oil & Gas 360",
+     "summary_th": "สต็อกน้ำมันดิบสหรัฐเพิ่มขึ้น 1.1 million barrels",
+     "importance": 1,
+     "numbers": [
+      "1.1 million barrels"
+     ],
+     "tags": [
+      "us crude inventory"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "2dba3b7caafe",
@@ -1178,7 +1609,24 @@
      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Over-2-as-Saudi-Arabia-Downs-Drones-Over-Ras-Tanura.html",
      "source": "OilPrice.com",
      "published": 1795620600,
-     "text": "Oil prices climbed on Wednesday after Yemen's Houthis claimed a strike on Saudi Arabia's Ras Tanura refinery, the kingdom's largest, and Saudi Arabia said it had shot down four drones over the site. As of 10:16 a.m. ET, Brent crude traded at $93.60 per barrel, up $2.20 or 2.41%, and West Texas Intermediate traded at $83.51, up $1.46 or 1.78%. Saudi-led coalition spokesman Turki Al-Maliki said air defenses destroyed four drones over Ras Tanura on Wednesday morning, and that fragments fell from the interceptions with no injuries in an initial assessment.…"
+     "text": "Oil prices climbed on Wednesday after Yemen's Houthis claimed a strike on Saudi Arabia's Ras Tanura refinery, the kingdom's largest, and Saudi Arabia said it had shot down four drones over the site. As of 10:16 a.m. ET, Brent crude traded at $93.60 per barrel, up $2.20 or 2.41%, and West Texas Intermediate traded at $83.51, up $1.46 or 1.78%. Saudi-led coalition spokesman Turki Al-Maliki said air defenses destroyed four drones over Ras Tanura on Wednesday morning, and that fragments fell from the interceptions with no injuries in an initial assessment.…",
+     "summary_th": "ราคาน้ำมันพุ่งกว่า 2% หลังกลุ่มฮูตีอ้างโจมตีโรงกลั่น Ras Tanura ของซาอุฯ ซาอุฯ บอกยิงโดรนตก 4 ลำ เบรนท์ซื้อขายที่ $93.60 ต่อบาร์เรล",
+     "importance": 2,
+     "numbers": [
+      "$93.60",
+      "2.41%"
+     ],
+     "tags": [
+      "oil",
+      "middle east",
+      "brent"
+     ],
+     "entities": [
+      "Houthis",
+      "Saudi Arabia",
+      "Ras Tanura"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "15f58e36d46d",
@@ -1186,7 +1634,16 @@
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNT2lmRnNkZk4xMmU5a3lHTWEwV3JfZ2pfUW55aTJUNi04clZpa2E4dDJacWRnQVRjMzRFX3FfSFA1c203SFhvd0tHOTZWTUloNmhtTm91QS1raEwwNWJKaUpaZktCbGlFRzRlMXA1ZTFUVHZKWGMxVWswU0JyUWRSNEtxSFBBUnN2ZGxfazFpTEw2QkJpUC1WUHJ5TnRxaFVSa0VZaFJodmZrUkJZNXY0OEVsYXNGek4wTHp2OEczai0?oc=5",
      "source": "WSJ",
      "published": 1795628220,
-     "text": "Oil Futures Pick Up as Middle East Tensions Persist WSJ"
+     "text": "Oil Futures Pick Up as Middle East Tensions Persist WSJ",
+     "summary_th": "ราคาน้ำมันฟิวเจอร์สปรับขึ้นเมื่อความตึงเครียดในตะวันออกกลางยังคงอยู่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "oil",
+      "middle east"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     }
    ]
   },
@@ -1213,7 +1670,8 @@
      "entities": [
       "Vietnam.vn"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f1b2795424bc",
@@ -1222,7 +1680,7 @@
      "source": "SilverTrade",
      "published": 1795627948,
      "text": "“It’s a FIRE SALE on Gold & Silver!” -Piepenburg SilverTrade",
-     "summary_th": "รายงานเกี่ยวกับราคาทองคำและเงิน",
+     "summary_th": "Piepenburg กล่าวว่าทองคำและเงินกำลังถูก 'ขายทิ้งครั้งใหญ่' (fire sale)",
      "importance": 1,
      "numbers": [],
      "tags": [
@@ -1233,7 +1691,10 @@
       "Piepenburg",
       "SilverTrade"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "แปลหัวข่าวผิด พลาดใจความหลัก",
+     "checked_by": "claude/review"
     },
     {
      "id": "001adb392e28",
@@ -1254,7 +1715,8 @@
      "entities": [
       "USA Today"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8f493e48ec72",
@@ -1275,7 +1737,8 @@
      "entities": [
       "MCX"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e4d6d98a8f78",
@@ -1295,7 +1758,8 @@
      "entities": [
       "New Age BD"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c0068c7252fd",
@@ -1317,7 +1781,8 @@
       "US",
       "The Korea Times"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "09d06f35fbfe",
@@ -1341,7 +1806,8 @@
       "Bangalore",
       "Kotak Neo"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "c288fefd40e4",
@@ -1362,7 +1828,8 @@
       "US",
       "Bloomberg"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3675a0abd39b",
@@ -1384,7 +1851,8 @@
       "Alasdair Macleod",
       "Holland Gold"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ea70cce5f336",
@@ -1406,7 +1874,8 @@
      "entities": [
       "BullionVault"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9e258ecbc3a4",
@@ -1427,7 +1896,8 @@
      "entities": [
       "Livemint"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6d0c692e7ccd",
@@ -1447,7 +1917,8 @@
       "India",
       "Reuters"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1461,7 +1932,20 @@
      "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
      "source": "TechCrunch",
      "published": 1795630306,
-     "text": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development."
+     "text": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+     "summary_th": "นิวยอร์กห้ามขาย AI chatbot toys เป็นเวลา 5 ปี หลังงานวิจัยของ Common Sense Media พบปัญหาความปลอดภัย เช่น การเข้าถึงเนื้อหาไม่เหมาะสม",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ai toys",
+      "child safety",
+      "new york"
+     ],
+     "entities": [
+      "New York",
+      "Common Sense Media"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ddad6bd46fa1",
@@ -1469,7 +1953,19 @@
      "link": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
      "source": "MIT Technology Review",
      "published": 1795626000,
-     "text": "In May 2025, my colleague David Rotman wrote a feature story describing how AI could keep us dependent on natural gas. Just 18 months later, I’ve lost count of how many times he’s already been proved right. Sure, it’s technically possible to meet the world’s rising electricity demand with other power sources, including renewables like…"
+     "text": "In May 2025, my colleague David Rotman wrote a feature story describing how AI could keep us dependent on natural gas. Just 18 months later, I’ve lost count of how many times he’s already been proved right. Sure, it’s technically possible to meet the world’s rising electricity demand with other power sources, including renewables like…",
+     "summary_th": "บทความจาก MIT Technology Review ระบุว่าศูนย์ข้อมูลกำลังผลักดันการขยายตัวของการใช้ก๊าซธรรมชาติในสหรัฐ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "data centers",
+      "natural gas",
+      "ai power"
+     ],
+     "entities": [
+      "MIT Technology Review"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8540e8010e35",
@@ -1477,7 +1973,23 @@
      "link": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
      "source": "Ars Technica",
      "published": 1795630958,
-     "text": "This constellation would increase the number of satellites in orbit by roughly 50-fold."
+     "text": "This constellation would increase the number of satellites in orbit by roughly 50-fold.",
+     "summary_th": "FCC อนุมัติให้ SpaceX นำดาวเทียมขึ้นสู่วงโคจรได้สูงสุด 1 million ดวง ซึ่งจะเพิ่มจำนวนดาวเทียมในวงโคจรราว 50 เท่า",
+     "importance": 3,
+     "numbers": [
+      "1 million",
+      "50-fold"
+     ],
+     "tags": [
+      "spacex",
+      "satellites",
+      "fcc"
+     ],
+     "entities": [
+      "FCC",
+      "SpaceX"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "9576e3e695b5",
@@ -1485,7 +1997,21 @@
      "link": "https://www.theverge.com/gadgets/1041460/fairphone-6-plus-repairable-phone-black-friday-2026-deal-sale",
      "source": "The Verge",
      "published": 1795629600,
-     "text": "Unlike most smartphones, the Fairphone 6 Plus is designed for home repair, with easily replaceable parts that could help extend its lifespan well into the future. That makes its midrange price point easier to justify, especially now that it’s dropped to a new low of $552.49 (about $98 off) at Amazon as part of the […]"
+     "text": "Unlike most smartphones, the Fairphone 6 Plus is designed for home repair, with easily replaceable parts that could help extend its lifespan well into the future. That makes its midrange price point easier to justify, especially now that it’s dropped to a new low of $552.49 (about $98 off) at Amazon as part of the […]",
+     "summary_th": "Fairphone 6 Plus ซ่อมได้ง่ายและลดราคาเหลือ $552.49 ที่ Amazon",
+     "importance": 0,
+     "numbers": [
+      "$552.49"
+     ],
+     "tags": [
+      "smartphone",
+      "deal"
+     ],
+     "entities": [
+      "Fairphone",
+      "Amazon"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "fb8a335a5a6e",
@@ -1493,7 +2019,20 @@
      "link": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html",
      "source": "CNBC Tech",
      "published": 1795627704,
-     "text": "Nvidia GPU sellers are seeking new buyers after new U.S. rules tightened remote access to advanced AI chips for China-linked customers"
+     "text": "Nvidia GPU sellers are seeking new buyers after new U.S. rules tightened remote access to advanced AI chips for China-linked customers",
+     "summary_th": "ผู้ขายชิป GPU ของ Nvidia กำลังหาผู้ซื้อรายใหม่ หลังกฎใหม่ของสหรัฐจำกัดการเข้าถึงชิป AI ขั้นสูงระยะไกลสำหรับลูกค้าที่เกี่ยวข้องกับจีน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "ai chips",
+      "export controls"
+     ],
+     "entities": [
+      "Nvidia",
+      "China"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "abef7dcffe0c",
@@ -1501,7 +2040,19 @@
      "link": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
      "source": "Hacker News",
      "published": 1795613587,
-     "text": "Article URL: https://github.com/google-research/google-research/tree/master/cogentic_research_papers Comments URL: https://news.ycombinator.com/item?id=50642086 Points: 314 # Comments: 245"
+     "text": "Article URL: https://github.com/google-research/google-research/tree/master/cogentic_research_papers Comments URL: https://news.ycombinator.com/item?id=50642086 Points: 314 # Comments: 245",
+     "summary_th": "Google เผยแพร่ชุดเอกสารวิจัย Cogentic เรื่อง integer factorization และ discrete logs ซึ่งได้รับความสนใจบน Hacker News",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "google",
+      "cryptography",
+      "research"
+     ],
+     "entities": [
+      "Google"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "23dfe617f224",
@@ -1509,7 +2060,19 @@
      "link": "https://www.techmeme.com/261125/p29",
      "source": "Techmeme",
      "published": 1795631100,
-     "text": "Kai Nicol-Schwarz / CNBC : Sources: an unusually high volume of Nvidia GPUs, including thousands of B300s, hit the market after the US curbed Chinese companies' remote access to AI chips — Nvidia chip sellers are seeking new buyers for the semiconductor giant's hardware, three people told CNBC …"
+     "text": "Kai Nicol-Schwarz / CNBC : Sources: an unusually high volume of Nvidia GPUs, including thousands of B300s, hit the market after the US curbed Chinese companies' remote access to AI chips — Nvidia chip sellers are seeking new buyers for the semiconductor giant's hardware, three people told CNBC …",
+     "summary_th": "รายงานอ้างแหล่งข่าวว่า GPU ของ Nvidia จำนวนมากผิดปกติ รวมถึง B300 หลายพันตัว ออกสู่ตลาดหลังสหรัฐจำกัดการเข้าถึงชิปจากบริษัทจีนผ่านระบบออนไลน์",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "export controls",
+      "b300"
+     ],
+     "entities": [
+      "Nvidia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "97df8d954787",
@@ -1517,7 +2080,19 @@
      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
      "source": "BleepingComputer",
      "published": 1795623220,
-     "text": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]"
+     "text": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
+     "summary_th": "CISA เตือนช่องโหว่ร้ายแรงที่ยังไม่มีแพตช์ในตัวควบคุม Danfoss AK-SM 8xxA ที่ใช้กับระบบทำความเย็นของร้านค้าอาหาร",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "cisa",
+      "vulnerability"
+     ],
+     "entities": [
+      "CISA",
+      "Danfoss"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b131fa169069",
@@ -1525,7 +2100,17 @@
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRHZwNDNKcXpleUxDUWlfcEtVdWcxT1FhTDROcnYwai04Y1Y0NTUtd1J1ZDRMc1BtaTVRYjBqczJDVC1FMFBNZEhoZ3pZRTZYS203a0xqTzBGU1ZUUUliOVlBZHZjZktlWlJiYTd3anJQbW4xTXpmNUNDTkJnQm5oeUt3b1N2el82SW1FaFVlSzI?oc=5",
      "source": "Salisbury & Avon Gazette",
      "published": 1795629428,
-     "text": "CCTV appeal after female grabbed in Salisbury underpass Salisbury & Avon Gazette"
+     "text": "CCTV appeal after female grabbed in Salisbury underpass Salisbury & Avon Gazette",
+     "summary_th": "ตำรวจขอความช่วยเหลือจากภาพกล้อง CCTV หลังหญิงคนหนึ่งถูกคว้าตัวในทางลอดที่ซอลส์เบอรี",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "uk crime"
+     ],
+     "entities": [
+      "Salisbury"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c7c1cebe2261",
@@ -1533,7 +2118,18 @@
      "link": "https://techcrunch.com/2026/11/25/doj-accuses-former-cyber-executive-of-defrauding-ransomware-victims-by-secretly-paying-hackers/",
      "source": "TechCrunch",
      "published": 1795628211,
-     "text": "U.S. prosecutors accused the former executive of defrauding victims of ransomware by paying the hackers, charging victims more, and pocketing the difference."
+     "text": "U.S. prosecutors accused the former executive of defrauding victims of ransomware by paying the hackers, charging victims more, and pocketing the difference.",
+     "summary_th": "อัยการสหรัฐกล่าวหาอดีตผู้บริหารด้านไซเบอร์ว่าหลอกเหยื่อแรนซัมแวร์ โดยลับๆ จ่ายเงินให้แฮกเกอร์ แล้วเรียกเก็บเหยื่อเกินจริงและเก็บส่วนต่าง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "ransomware",
+      "doj"
+     ],
+     "entities": [
+      "DOJ"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "79d027e2e048",
@@ -1541,7 +2137,21 @@
      "link": "https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/",
      "source": "MIT Technology Review",
      "published": 1795612200,
-     "text": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI is straining America’s open records systems AI has intensified investors’ interest in public records. Over the last few years, venture-backed startups have raised upwards of $100 million to collect data…"
+     "text": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI is straining America’s open records systems AI has intensified investors’ interest in public records. Over the last few years, venture-backed startups have raised upwards of $100 million to collect data…",
+     "summary_th": "จดหมายข่าว The Download ของ MIT Technology Review รายงานว่า AI กำลังสร้างแรงกดดันต่อระบบบันทึกข้อมูลสาธารณะของสหรัฐ และบริษัทร่วมทุนระดมทุนกว่า $100 million เพื่อเก็บข้อมูลสาธารณะ อีกเรื่องคือการดับไฟในพื้นที่ดินเยือกแข็ง (permafrost)",
+     "importance": 1,
+     "numbers": [
+      "$100 million"
+     ],
+     "tags": [
+      "public records",
+      "ai",
+      "newsletter"
+     ],
+     "entities": [
+      "MIT Technology Review"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "863ac3a2c21b",
@@ -1549,7 +2159,18 @@
      "link": "https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/",
      "source": "Ars Technica",
      "published": 1795628010,
-     "text": "An independent browser engine arrives on Linux and macOS, and we've tried it."
+     "text": "An independent browser engine arrives on Linux and macOS, and we've tried it.",
+     "summary_th": "เบราว์เซอร์ Ladybird ออกเวอร์ชัน alpha ให้ดาวน์โหลดได้ครั้งแรกบน Linux และ macOS และผู้ทดสอบบอกว่าใช้งานได้ดีกว่าที่คาด",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "browser",
+      "ladybird"
+     ],
+     "entities": [
+      "Ladybird"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e38156e0dc6c",
@@ -1557,7 +2178,18 @@
      "link": "https://www.theverge.com/column/1041761/optimizer-peptide-parties-afterglow",
      "source": "The Verge",
      "published": 1795629600,
-     "text": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. On a rainy fall evening, an experimental art venue in Chelsea Market had a small line out the door. There […]"
+     "text": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. On a rainy fall evening, an experimental art venue in Chelsea Market had a small line out the door. There […]",
+     "summary_th": "คอลัมน์ Optimizer ของ The Verge เล่าถึงงานเปปไทด์ (peptide) ในนิวยอร์ก ที่มีผู้คนต่อแถวหน้าประตู",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "peptides",
+      "wellness"
+     ],
+     "entities": [
+      "The Verge"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2ffc1293395e",
@@ -1565,7 +2197,20 @@
      "link": "https://www.cnbc.com/2026/11/25/trump-huang-pardon-politics.html",
      "source": "CNBC Tech",
      "published": 1795617129,
-     "text": "Trump said he would be willing to pardon Jensen Huang if needed and argued that the Nvidia CEO should not have to invoke the Fifth Amendment before Congress."
+     "text": "Trump said he would be willing to pardon Jensen Huang if needed and argued that the Nvidia CEO should not have to invoke the Fifth Amendment before Congress.",
+     "summary_th": "ทรัมป์บอกว่าเต็มใจอภัยโทษให้ Jensen Huang ซีอีโอ Nvidia หากจำเป็น และเห็นว่าเขาไม่ควรต้องอ้างสิทธิ์ตามแก้ไขที่ 5 ต่อหน้ารัฐสภา",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "congress"
+     ],
+     "entities": [
+      "Trump",
+      "Jensen Huang",
+      "Nvidia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "731330eec3a0",
@@ -1573,7 +2218,15 @@
      "link": "https://buttons.joshwcomeau.com/",
      "source": "Hacker News",
      "published": 1795576987,
-     "text": "Article URL: https://buttons.joshwcomeau.com/ Comments URL: https://news.ycombinator.com/item?id=50638032 Points: 738 # Comments: 116"
+     "text": "Article URL: https://buttons.joshwcomeau.com/ Comments URL: https://news.ycombinator.com/item?id=50638032 Points: 738 # Comments: 116",
+     "summary_th": "คอลเลกชันเสียงคลิกปุ่มที่บันทึกโดยมืออาชีพ ไม่ใช่ข่าวธุรกิจหรือเทคโนโลยี",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "sound design"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "ce70a336ccd0",
@@ -1581,7 +2234,21 @@
      "link": "https://www.techmeme.com/261125/p28",
      "source": "Techmeme",
      "published": 1795628702,
-     "text": "Allie Garfinkle / Fortune : Every, a media company that provides consulting services to help companies become AI-native, raised a $17.5M Series A at a $110M post-money valuation — Ask Dan Shipper how often venture-backed media startups succeed, and he's candid. — “My feeling about the history …"
+     "text": "Allie Garfinkle / Fortune : Every, a media company that provides consulting services to help companies become AI-native, raised a $17.5M Series A at a $110M post-money valuation — Ask Dan Shipper how often venture-backed media startups succeed, and he's candid. — “My feeling about the history …",
+     "summary_th": "Every บริษัทสื่อที่ให้คำปรึกษาเรื่อง AI ระดมทุน Series A มูลค่า $17.5M ที่มูลค่าหลังเงินลงทุน $110M",
+     "importance": 1,
+     "numbers": [
+      "$17.5M",
+      "$110M"
+     ],
+     "tags": [
+      "ai startups",
+      "funding"
+     ],
+     "entities": [
+      "Every"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a3b682ce2592",
@@ -1589,7 +2256,18 @@
      "link": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
      "source": "BleepingComputer",
      "published": 1795618810,
-     "text": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitive client data within their own infrastructure. [...]"
+     "text": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitive client data within their own infrastructure. [...]",
+     "summary_th": "PentestPad อธิบายว่า AI ช่วยลดงานเอกสารของผู้ทดสอบเจาะระบบ และเก็บข้อมูลลูกค้าไว้ในโครงสร้างพื้นฐานของทีมเอง (เนื้อหาจากผู้ให้บริการ)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "ai security",
+      "pentest"
+     ],
+     "entities": [
+      "PentestPad"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3cc94e4ffe73",
@@ -1597,7 +2275,17 @@
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeE9oU3FZMG12ekowYTlxd3BZTFBBQllrOHdRWEhaQVB2TW5BOEVYT25UYzBzSlBLUHJHRi1kWEt1dkZIOFpFNkpUUUxWaWYxckpxZXNCa0VhNTFXeUZPNmg1cmh6TjBPYkxWZ0hwZ0tPU1gyV0wtdTMxWnI1M1VuV3BkTzREems0U0JrYnY5THlBYmwxZ2Ew?oc=5",
      "source": "Deccan Herald",
      "published": 1795626658,
-     "text": "Haveri varsity hostel gets CCTV cameras Deccan Herald"
+     "text": "Haveri varsity hostel gets CCTV cameras Deccan Herald",
+     "summary_th": "มหาวิทยาลัย Haveri ติดตั้งกล้อง CCTV ให้หอพัก",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "cctv"
+     ],
+     "entities": [
+      "Haveri"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "16ddaf7683c8",
@@ -1605,7 +2293,22 @@
      "link": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
      "source": "TechCrunch",
      "published": 1795628158,
-     "text": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said."
+     "text": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+     "summary_th": "อัยการรัฐคัดค้านแผนขายข้อมูลแชทส่วนตัวของ Character.AI ในการขายทรัพย์สินระหว่างล้มละลาย โดยข้อมูลครอบคลุมบัญชีในสหรัฐกว่า 21 million บัญชี รวม 2.1 million บัญชีที่ลงทะเบียนโดยผู้เยาว์",
+     "importance": 2,
+     "numbers": [
+      "21 million",
+      "2.1 million"
+     ],
+     "tags": [
+      "character ai",
+      "privacy",
+      "bankruptcy"
+     ],
+     "entities": [
+      "Character.AI"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "cb4782794f2f",
@@ -1613,7 +2316,19 @@
      "link": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
      "source": "MIT Technology Review",
      "published": 1795600800,
-     "text": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in 1858—he also fielded public records requests. Recently, he…"
+     "text": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in 1858—he also fielded public records requests. Recently, he…",
+     "summary_th": "MIT Technology Review รายงานว่า AI สร้างแรงกดดันต่อระบบคำขอข้อมูลสาธารณะของสหรัฐ โดยยกตัวอย่างเสมียนเมือง Panton ในรัฐเวอร์มอนต์",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "public records",
+      "ai"
+     ],
+     "entities": [
+      "MIT Technology Review",
+      "Panton"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "61ca50113ad5",
@@ -1632,7 +2347,8 @@
      "entities": [
       "Etsy"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6359c2ce0900",
@@ -1660,7 +2376,8 @@
       "Blue Origin",
       "Starmind"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "dd9641ab20f4",
@@ -1681,7 +2398,8 @@
       "Jensen Huang",
       "Nvidia"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "777816c50f03",
@@ -1691,7 +2409,7 @@
      "published": 1795575877,
      "text": "Article URL: https://rida.dev/blog/bypassing-ios-safari-60-fps-limit Comments URL: https://news.ycombinator.com/item?id=50637890 Points: 386 # Comments: 131",
      "summary_th": "บทความเผยแพร่แนวทางการหลีกเลี่ยงขีดจำกัด 60 FPS ของ iOS Safari เพื่อสร้างเว็บแอปพลิเคชันที่ให้ความรู้สึกเหมือนแอปแท้",
-     "importance": 1,
+     "importance": 0,
      "numbers": [
       "60",
       "386",
@@ -1705,7 +2423,10 @@
      "entities": [
       "iOS Safari"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "เป็นบทความสอนเทคนิค (how-to) ไม่ใช่ข่าว",
+     "checked_by": "claude/review"
     },
     {
      "id": "ca4492130de9",
@@ -1733,7 +2454,8 @@
       "David Shepardson",
       "Reuters"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1747,7 +2469,21 @@
      "link": "https://www.statnews.com/pharmalot/2026/11/25/biontech-founders-oncology-startup-gsk-egpa-drug-exdensur/",
      "source": "STAT News",
      "published": 1795614958,
-     "text": "The cofounders of BioNTech are in talks to raise about $1 billion for a new oncology company"
+     "text": "The cofounders of BioNTech are in talks to raise about $1 billion for a new oncology company",
+     "summary_th": "ผู้ร่วมก่อตั้ง BioNTech กำลังเจรจาระดมทุนราว $1 billion สำหรับบริษัทออนคอลอจีใหม่",
+     "importance": 2,
+     "numbers": [
+      "$1 billion"
+     ],
+     "tags": [
+      "biotech",
+      "oncology",
+      "funding"
+     ],
+     "entities": [
+      "BioNTech"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "fa2688280e31",
@@ -1755,7 +2491,19 @@
      "link": "https://medicalxpress.com/news/2026-11-potential-limits-breast-cancer-screening.html",
      "source": "Medical Xpress",
      "published": 1795632006,
-     "text": "In Southeast Asia, breast cancer screening could have limited potential to reduce breast cancer mortality due to screening age eligibility not aligning with the actual ages at which women develop the disease, according to a study by the Yong Loo Lin School of Medicine, National University of Singapore (NUS Medicine)."
+     "text": "In Southeast Asia, breast cancer screening could have limited potential to reduce breast cancer mortality due to screening age eligibility not aligning with the actual ages at which women develop the disease, according to a study by the Yong Loo Lin School of Medicine, National University of Singapore (NUS Medicine).",
+     "summary_th": "งานวิจัยจาก NUS Medicine พบว่านโยบายคัดกรองมะเร็งเต้านมในเอเชียตะวันออกเฉียงใต้อาจลดการเสียชีวิตได้จำกัด เพราะอายุที่กำหนดให้คัดกรองไม่ตรงกับอายุที่ผู้หญิงมักเป็นมะเร็ง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "breast cancer",
+      "screening",
+      "southeast asia"
+     ],
+     "entities": [
+      "NUS Medicine"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "109dce7669a7",
@@ -1763,7 +2511,17 @@
      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FaUtyT2N0amxYLVJyTU5Rel8yZ3JpS0c1TTNWMUdaR196N3kzWXRaSVZ0dGhDTmRfbU53STljeGM3UC1EQUs3U2hUMG1WanJfSG92SE11ek1HY19XOF80?oc=5",
      "source": "Substack",
      "published": 1795631575,
-     "text": "The M&A Hunter (@maandhunter) Substack"
+     "text": "The M&A Hunter (@maandhunter) Substack",
+     "summary_th": "จดหมายข่าว Substack ของ The M&A Hunter (ข้อมูลต้นทางมีน้อยมาก)",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "m&a"
+     ],
+     "entities": [
+      "The M&A Hunter"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c2658b745323",
@@ -1771,7 +2529,19 @@
      "link": "https://www.statnews.com/2026/11/25/health-news-rfk-jr-weighs-in-on-plan-to-detonate-toxic-material-in-iowa/",
      "source": "STAT News",
      "published": 1795611836,
-     "text": "This morning, the Army plans to detonate a cache of “dangerously degraded” toxic material in Iowa, with experts warning of dangerous health consequences:"
+     "text": "This morning, the Army plans to detonate a cache of “dangerously degraded” toxic material in Iowa, with experts warning of dangerous health consequences:",
+     "summary_th": "กองทัพสหรัฐเตรียมจุดระเบิดวัสดุพิษที่เสื่อมสภาพอย่างอันตรายในรัฐไอโอวา ขณะที่ผู้เชี่ยวชาญเตือนผลเสียต่อสุขภาพ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "army",
+      "toxic waste"
+     ],
+     "entities": [
+      "RFK Jr.",
+      "Iowa"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2d54d3e8c9cc",
@@ -1779,7 +2549,18 @@
      "link": "https://medicalxpress.com/news/2026-11-protein-quality-circadian-rhythms.html",
      "source": "Medical Xpress",
      "published": 1795632001,
-     "text": "The body's internal circadian clock helps us feel sleepy at night and wake up in the morning. Using fruit flies, researchers at the Korea Advanced Institute of Science and Technology (KAIST) have discovered that a cellular quality control process that removes defective proteins during protein synthesis helps regulate the pace of the circadian clock."
+     "text": "The body's internal circadian clock helps us feel sleepy at night and wake up in the morning. Using fruit flies, researchers at the Korea Advanced Institute of Science and Technology (KAIST) have discovered that a cellular quality control process that removes defective proteins during protein synthesis helps regulate the pace of the circadian clock.",
+     "summary_th": "นักวิจัย KAIST ใช้แมลงหวี่ พบว่ากระบวนการกำจัดโปรตีนที่ผิดปกติระหว่างการสร้างโปรตีนช่วยกำหนดจังหวะนาฬิกาชีวภาพ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "circadian",
+      "biology"
+     ],
+     "entities": [
+      "KAIST"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7bffee800a05",
@@ -1787,7 +2568,18 @@
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMEw0YllZRURjUkFMakNWMFpyUlE4VWluekEtRzR0bzNNSDQyZFkxLWItVHVSTFdkNW5vX0pQRDlWa2VHRU9BcnpwcU9RVUUzbkJzU09vUXZNT1V3djRNTG1lTmFEUHBaSlhhMHJ3TW5CMlpRVHNMeFRSRkxiZnBEZkxpanpodGt1U1NaNXpEaFpHc3NsdVBDdkk4emk?oc=5",
      "source": "Dealroom",
      "published": 1795629308,
-     "text": "Perth's Lubdub puts its gel-free ECG patch into clinical trial Dealroom"
+     "text": "Perth's Lubdub puts its gel-free ECG patch into clinical trial Dealroom",
+     "summary_th": "Lubdub จากเพิร์ธ นำแผ่นวัดคลื่นไฟฟ้าหัวใจ (ECG) แบบไม่ใช้เจลเข้าสู่การทดลองทางคลินิก",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "medical device",
+      "ecg"
+     ],
+     "entities": [
+      "Lubdub"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d23e250ccec4",
@@ -1795,7 +2587,18 @@
      "link": "https://www.statnews.com/2026/11/25/us-china-biotech-race-policy-data/",
      "source": "STAT News",
      "published": 1795599000,
-     "text": "“Data show that the U.S.-China contest in biotechnology is not one race but several,” writes Michael S. Kinch."
+     "text": "“Data show that the U.S.-China contest in biotechnology is not one race but several,” writes Michael S. Kinch.",
+     "summary_th": "บทความความเห็นของ Michael S. Kinch ระบุว่าการแข่งขันด้านไบโอเทคระหว่างสหรัฐกับจีนมีหลายสนาม และการสร้างกำแพงกั้นอาจเป็นแนวทางที่ไม่ถูกต้อง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "biotech",
+      "us china"
+     ],
+     "entities": [
+      "Michael S. Kinch"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3cc5071ce08d",
@@ -1803,7 +2606,16 @@
      "link": "https://medicalxpress.com/news/2026-11-petct-imaging-insights-diabetes.html",
      "source": "Medical Xpress",
      "published": 1795631406,
-     "text": "A novel molecular imaging approach that measures beta-cell mass in the pancreas can offer valuable insights into the progression of type 1 diabetes, according to new research published in the Journal of Nuclear Medicine. The study found that individuals who have had type 1 diabetes for less than seven years have higher total beta-cell mass and function, larger pancreatic volume and lower intrapancreatic fat compared to those who have had the disease for longer. This valuable information, paired with functional tests, has the potential to significantly improve clinical trials of new therapeutic interventions."
+     "text": "A novel molecular imaging approach that measures beta-cell mass in the pancreas can offer valuable insights into the progression of type 1 diabetes, according to new research published in the Journal of Nuclear Medicine. The study found that individuals who have had type 1 diabetes for less than seven years have higher total beta-cell mass and function, larger pancreatic volume and lower intrapancreatic fat compared to those who have had the disease for longer. This valuable information, paired with functional tests, has the potential to significantly improve clinical trials of new therapeutic interventions.",
+     "summary_th": "การศึกษาใช้การถ่ายภาพ PET/CT วัดมวลเบต้าเซลล์ในตับอ่อน พบว่าผู้ที่เป็นเบาหวานชนิดที่ 1 มาไม่ถึง 7 ปีมีมวลและการทำงานของเบต้าเซลล์สูงกว่า",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "type 1 diabetes",
+      "imaging"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "7a2c0b4d2b9c",
@@ -1811,7 +2623,17 @@
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdnpIQk85eGxQajFsa2Z6aDFZQmR1d0pPZWRCY2VUa2ZjOUN1WmlWa2pqYUg2SzF4cU9TTHVYWlpXMGxnX3U5NWkzRTF1X1dkQ2RBSEd5Zmg0VHdiMVBOd0hXaE85NEpBTmR2cXZUOXdMSUZseU9iSWE4M0N6SjI0NkZXbFdJMWJXYVRHcEpBOXYyaUc3ZkR3Z196YVg5U2VPSm5HVEI1Qk1wcHYxZldTckc3OWxCLTREZmhPNjFvaw?oc=5",
      "source": "Investing.com",
      "published": 1795629147,
-     "text": "Cantor Fitzgerald names ’Black Friday’ biotech bargains: top 5 picks Investing.com"
+     "text": "Cantor Fitzgerald names ’Black Friday’ biotech bargains: top 5 picks Investing.com",
+     "summary_th": "Cantor Fitzgerald เสนอ 5 หุ้นไบโอเทคที่ราคาถูกในช่วง Black Friday",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "biotech stocks"
+     ],
+     "entities": [
+      "Cantor Fitzgerald"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ce30d1a43df9",
@@ -1819,7 +2641,18 @@
      "link": "https://www.statnews.com/2026/11/25/foreign-students-us-biomedical-science-enrollment-drop-trump/",
      "source": "STAT News",
      "published": 1795599000,
-     "text": "New data show a clear drop in the enrollment of international graduate students, a key piece of the U.S. biomedical workforce."
+     "text": "New data show a clear drop in the enrollment of international graduate students, a key piece of the U.S. biomedical workforce.",
+     "summary_th": "แม้คำสั่งของศาลจะหยุดชั่วคราว ข้อจำกัดของทรัมป์ต่อนักเรียนต่างชาติทำให้การลงทะเบียนนักศึกษาปริญญาโทต่างชาติลดลงอย่างชัดเจน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "international students",
+      "us education"
+     ],
+     "entities": [
+      "Trump"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ca7ea36fee45",
@@ -1827,7 +2660,16 @@
      "link": "https://medicalxpress.com/news/2026-11-lab-grown-brain-safer-longer.html",
      "source": "Medical Xpress",
      "published": 1795630804,
-     "text": "Researchers have developed a laboratory cell model that mimics how the brain reacts to implanted devices, potentially offering a faster, lower-cost and more ethical way to test neural implants."
+     "text": "Researchers have developed a laboratory cell model that mimics how the brain reacts to implanted devices, potentially offering a faster, lower-cost and more ethical way to test neural implants.",
+     "summary_th": "นักวิจัยพัฒนาแบบจำลองสมองจากเซลล์ในห้องแล็บที่เลียนแบบปฏิกิริยาของสมองต่ออุปกรณ์ที่ฝังไว้ เพื่อทดสอบอุปกรณ์สมองที่ฝังได้เร็วและถูกกว่า",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "brain implants",
+      "organoid"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "3b8641f24864",
@@ -1835,7 +2677,22 @@
      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPMlhjZVNkT2x1Z1FqWnpUb2lpVlZsVVl0ZFZrb3ZneU9LWW5Ob2VrQy1FUG5FU2E1WE1KRVkzVV9LcWloRDRYWjJQMnNMWDhCanQzTlRFQUhIRWxGTDBaazNpMkwzYWlvM2FpMy1UT2RsaHRMcW5qLXpDZmQwM0VZVzdLSDBKSVd3VU1hcWJMdGVEN0x3aGQzQnpkY29TZHBSUTUzQUR6MGE1VVpVVDUtU1Jqa0FWRWkzaVQ5MEtubkRxYVh0allnYlZpLVNEbUdfWWtMX05yTE9NeFNia0tyTkVrMA?oc=5",
      "source": "TradingView",
      "published": 1795628037,
-     "text": "RBC Capital maintains Krystal Biotech at Outperform, raises price target to $385 from $375 TradingView"
+     "text": "RBC Capital maintains Krystal Biotech at Outperform, raises price target to $385 from $375 TradingView",
+     "summary_th": "RBC Capital คงคำแนะนำ Outperform ให้ Krystal Biotech และปรับเป้าราคาจาก $375 เป็น $385",
+     "importance": 1,
+     "numbers": [
+      "$385",
+      "$375"
+     ],
+     "tags": [
+      "krystal biotech",
+      "analyst"
+     ],
+     "entities": [
+      "RBC Capital",
+      "Krystal Biotech"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "0917d01647ac",
@@ -1843,7 +2700,18 @@
      "link": "https://medicalxpress.com/news/2026-11-mouse-reveals-early-eye-rare.html",
      "source": "Medical Xpress",
      "published": 1795629604,
-     "text": "A study in mice that involved University of Manchester scientists has revealed that eye damage linked to a rare inherited childhood disease may begin remarkably early and worsen progressively over time. The team investigated deficiency in an enzyme called HGSNAT, the root cause of a devastating genetic childhood neurological disease called MPSIIIC, which produces progressive damage to the brain but can also affect vision. The findings are published in Investigative Ophthalmology & Visual Science."
+     "text": "A study in mice that involved University of Manchester scientists has revealed that eye damage linked to a rare inherited childhood disease may begin remarkably early and worsen progressively over time. The team investigated deficiency in an enzyme called HGSNAT, the root cause of a devastating genetic childhood neurological disease called MPSIIIC, which produces progressive damage to the brain but can also affect vision. The findings are published in Investigative Ophthalmology & Visual Science.",
+     "summary_th": "การศึกษาในหนูพบว่าความเสียหายที่ตาเกิดขึ้นตั้งแต่ต้นในโรคทางพันธุกรรมในเด็ก MPSIIIC และค่อยๆ แย่ลงตามเวลา",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "rare disease",
+      "eye"
+     ],
+     "entities": [
+      "University of Manchester"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "be2aeb1aaafd",
@@ -1851,7 +2719,20 @@
      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbXBQRzNncjhTTEpCV0V4SUl3QkFsTlZCSS1JTXYxQ3lTMmFZZUJPQVRveERtMnZxOWJmQzAwMTA0S2Z6VmVkMGxmODVsWDFhMEcwQ1Vxc24zUjZkSXBZYXo1REllbW56bXA5LWJKLU1oMGxGaW5xblRweGpPTTZxbEYxUmJIeGcwWlE?oc=5",
      "source": "Healthcare Brew",
      "published": 1795628023,
-     "text": "Compass filed its psilocybin depression drug for FDA approval. What’s next? Healthcare Brew"
+     "text": "Compass filed its psilocybin depression drug for FDA approval. What’s next? Healthcare Brew",
+     "summary_th": "Compass ยื่นขออนุมัติยาซิโลไซบินสำหรับรักษาโรคซึมเศร้าต่อ FDA",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "psilocybin",
+      "fda",
+      "depression"
+     ],
+     "entities": [
+      "Compass",
+      "FDA"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b3814962c652",
@@ -1859,7 +2740,18 @@
      "link": "https://medicalxpress.com/news/2026-11-aid-drugs-heart-failure-pulmonary.html",
      "source": "Medical Xpress",
      "published": 1795629601,
-     "text": "As its name suggests, a hormone called relaxin-2 is involved in relaxing tissues throughout the body, such as dilating blood vessels to increase blood flow; loosening pelvic ligaments and suppressing uterine contractions in preparation for childbirth; and reducing inflammation and scar-tissue buildup (fibrosis) in the heart, lungs, liver, kidneys and skin."
+     "text": "As its name suggests, a hormone called relaxin-2 is involved in relaxing tissues throughout the body, such as dilating blood vessels to increase blood flow; loosening pelvic ligaments and suppressing uterine contractions in preparation for childbirth; and reducing inflammation and scar-tissue buildup (fibrosis) in the heart, lungs, liver, kidneys and skin.",
+     "summary_th": "โครงสร้างของ relaxin-2 ช่วยค้นหายาใหม่สำหรับภาวะหัวใจล้มเหลวและพังผืดในปอด",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "drug discovery",
+      "heart failure"
+     ],
+     "entities": [
+      "relaxin-2"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "558848d79aa1",
@@ -1867,7 +2759,16 @@
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNEhnbnZPaVFfZUNOdmplSFBlcTYxRDNyWFhSVlVNeXMzVFU5cU9Uck1WalgxaDFRN3RNbnowYlJsVmJYMWJYbWtQNUNoT1Nrdzg3QkFudEIwTkgwYkh3c0M0T1RBdWtwSVF3T0c3SHRYRWVZQkl6dDRQYVloTnZ6djlfaTRrbWpuQ3ItWjlmQVcza3ZfUVFpZHYzLVl1cTNRUlVUSlp3RFJhZUtyMXh6U2ZmUGhDa3dqV3Jr?oc=5",
      "source": "RealMoney Pro",
      "published": 1795627800,
-     "text": "Biotech Sees 1-Day Surge While Semiconductors Remain a Roller Coaster RealMoney Pro"
+     "text": "Biotech Sees 1-Day Surge While Semiconductors Remain a Roller Coaster RealMoney Pro",
+     "summary_th": "หุ้นไบโอเทคพุ่งขึ้นในวันเดียว ขณะที่หุ้นเซมิคอนดักเตอร์ยังผันผวนแรง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "biotech",
+      "semiconductors"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "37a290597001",
@@ -1875,7 +2776,16 @@
      "link": "https://medicalxpress.com/news/2026-11-copd-affected-lungs-standard-spirometry.html",
      "source": "Medical Xpress",
      "published": 1795629001,
-     "text": "More than 400 million people worldwide live with the chronic lung disease COPD. The condition often involves multiple complex health problems, while the damage caused to the lungs cannot be repaired with current treatments. The aim of pulmonary rehabilitation is therefore to relieve symptoms, slow the progression of the condition and improve quality of life."
+     "text": "More than 400 million people worldwide live with the chronic lung disease COPD. The condition often involves multiple complex health problems, while the damage caused to the lungs cannot be repaired with current treatments. The aim of pulmonary rehabilitation is therefore to relieve symptoms, slow the progression of the condition and improve quality of life.",
+     "summary_th": "การออกกำลังกายทำให้ปอดของผู้ป่วย COPD ดีขึ้นอย่างวัดได้ ซึ่งการตรวจ spirometry มาตรฐานตรวจไม่พบ",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "copd",
+      "exercise"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "835cb404c846",
@@ -1883,7 +2793,18 @@
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOFF1aXVyWTJpWTRPckx2NU9JRWhXQUJoeE1RNDVKekVGdVVXTm0tMURZSU93MUpIX1J3cG00NVNuNmhydW80RVVxakdQMVlXaHBkUUJIWE9TZkdCNk5sSnB6bktQdHMycUcxc3NmTFJ2d0FhQXBUQ1VBNGNPQUptTmN0b2hSVjdmaFBHQ3V0WVkxbVRUWDQzSWw3TkY5N3ZtSXJ0bFRzS2Q?oc=5",
      "source": "BioXconomy",
      "published": 1795627556,
-     "text": "Banyan Biotech Targets Cartilage Regrowth Drug BioXconomy"
+     "text": "Banyan Biotech Targets Cartilage Regrowth Drug BioXconomy",
+     "summary_th": "Banyan Biotech กำลังพัฒนายาที่มุ่งเป้าการงอกใหม่ของกระดูกอ่อน",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "biotech",
+      "cartilage"
+     ],
+     "entities": [
+      "Banyan Biotech"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3d46fc88d032",
@@ -1891,7 +2812,19 @@
      "link": "https://medicalxpress.com/news/2026-11-sibeprenlimab-kidney-function-iga-nephropathy.html",
      "source": "Medical Xpress",
      "published": 1795628406,
-     "text": "Findings published in the New England Journal of Medicine showed that patients receiving sibeprenlimab maintained nearly stable kidney function over two years, while kidney function declined significantly among patients receiving placebo."
+     "text": "Findings published in the New England Journal of Medicine showed that patients receiving sibeprenlimab maintained nearly stable kidney function over two years, while kidney function declined significantly among patients receiving placebo.",
+     "summary_th": "ในการศึกษาที่ตีพิมพ์ใน NEJM ผู้ป่วยที่ได้รับ sibeprenlimab รักษาการทำงานของไตไว้ได้เกือบคงที่ใน 2 ปี ขณะที่กลุ่มยาหลอกการทำงานของไตลดลงอย่างมีนัยสำคัญ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "iga nephropathy",
+      "kidney",
+      "clinical trial"
+     ],
+     "entities": [
+      "sibeprenlimab"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "99722d0b0913",
@@ -1899,7 +2832,18 @@
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOTR0c1JIeTZJTDdTekZhM0hpMVBNNVk0TThxU0FiSVV2b1dtMHhGMzVrRVQtSUdZNkVrQ1FrSDRpQWdvYVA0UEdIMHlQMVFwcnNNQUp6ZWNqVHRhUmpuY2EwbnlKMEUzb2NTLTR5NXJXMDZCUG1KVVpJaUFXMUJGbmRoMmdvei1QZlBrZTd3?oc=5",
      "source": "Imaging Technology News",
      "published": 1795626562,
-     "text": "a2z Radiology Receives FDA Approval of a2z-Omni-Triage Imaging Technology News"
+     "text": "a2z Radiology Receives FDA Approval of a2z-Omni-Triage Imaging Technology News",
+     "summary_th": "a2z Radiology ได้รับ FDA อนุมัติ a2z-Omni-Triage",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "fda",
+      "radiology"
+     ],
+     "entities": [
+      "a2z Radiology"
+     ],
+     "model": "claude/routine"
     }
    ]
   }
