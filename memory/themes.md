@@ -157,6 +157,8 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 อัปเดต 2026-11-23 (2day): ข่าวใหม่ Microsoft Entra Connect Health ถูกเจาะ [BleepingComputer](https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/) · GL.iNet [BleepingComputer](https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/) · ระบบล่ม [The Verge](https://www.theverge.com/tech/1039851/major-tech-outages) ศุกร์ PANW -5.1% CRWD -5.8% ตกตามตลาด ไม่สวนแล้ว ธีมยังอยู่ (analysis/2026-11/2026-11-23-2day.md)
 อัปเดต 2026-11-15 (weekly): CRWD +4.5% PANW +2.7% BE8 +0.5% IONQ -11.5% หลักฐาน: [N-able ช่องโหว่ 30+ ตัว](https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/) · [AntiFox AI agent ขโมยคีย์ AWS](https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/)
 อัปเดต 2026-11-25 (2day): CRWD ประกาศซื้อ ZS $44bn [CNBC](https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-aquisition-ai-cyberattacks.html) · Azure APIM ถูกใช้ขโมย credential [BleepingComputer](https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/) · ราคา 24 พ.ย. CRWD +0.95% PANW -1.07% ตลาดรวมลง
+อัปเดต 2026-11-27 (2day): 1Password ข้อมูลลูกค้ารั่วจากบัญชี GitHub พนักงาน [BleepingComputer](https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/) · PAN-OS ถูกโจมตีผ่าน Fragnesia · ราคา 25 พ.ย. PANW +0.89% CRWD -0.74% BE8 -5.74%
+
 
 ## สุขภาพ: ยาที่มีผลทดลองเด่น (เริ่มเจอ 2026-10-25 · ล่าสุด 2026-11-25)
 ทำไม: เงินหมุนออกจาก AI เข้าหุ้นสุขภาพ (XLV สถิติ) ยาใหญ่มีผลทดลองระยะท้ายดีหลายตัวในสัปดาห์เดียว
@@ -200,6 +202,8 @@ MYR ชื่อย่อจริงคือ MYRG แก้ใน theme_stocks
 | TGT | US | ยอดขายฟื้น (ยังไม่ใส่ราคา) | ข่าว |
 | CPALL.BK | TH | ค้าปลีกของจำเป็นในไทย | ความรู้ทั่วไป |
 ความเสี่ยงของธีม: หุ้นตั้งรับแพงแล้ว [MarketWatch](https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281) · เทคฟื้นแรงเงินไหลกลับ · ต้นทุนเชื้อเพลิง/ขนส่งสูง
+อัปเดต 2026-11-27 (2day): Walmart/McDonald's ขึ้นท่ามกลาง GLP-1 ลดค่าอาหาร [Benzinga](https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcjRJZXMzUE9ETXlqcVBkdEp0VDdrYzlFdTVoNHVXTzU4UXlFRDBPRlNLM2htdkZDX1ZEYy1ncG9aN1hDVnNUUUVjbl9vMWNtRm01eHZqY0x5dDgtanVIV21zcDhuUVhoVXBDYXpzMHRSa1hiUGVtNnR3MGxpMzIyQnFnU0hPbnlKRm9BQUNzYjBDTnU2QUtNWmRISnhYRzJBYlZTeWg1bENNUQ?oc=5) · WMT -0.28% COST -0.45% (หลักฐานบาง)
+
 
 ## ธีมที่จบแล้ว
 
