@@ -6,7 +6,7 @@
   "gemini/gemini-flash-latest",
   "gemini/gemini-flash-lite-latest"
  ],
- "summary_failed": 57,
+ "summary_failed": 0,
  "prices": [
   {
    "symbol": "^GSPC",
@@ -1020,7 +1020,7 @@
      "source": "CNBC Markets",
      "published": 1795643803,
      "text": "Alan Greenspan famously held the line on interest rates because he believed in the productivity promise of the internet boom. Why can't Kevin Warsh do the same?",
-     "summary_th": "Alan Greenspan เคยตรึงอัตราดอกเบี้ยไว้เพราะเชื่อมั่นในการเติบโตของผลผลิตช่วงอินเทอร์เน็ตบูม ขณะที่ถูกตั้งคำถามว่าทำไม Kevin Warsh ถึงทำเช่นนั้นไม่ได้",
+     "summary_th": "คอลัมน์ของ Liesman: Alan Greenspan ตรึงอัตราดอกเบี้ยไว้เพราะเชื่อว่าผลิตภาพจะเพิ่มขึ้นช่วงอินเทอร์เน็ตบูม และบทความระบุว่า Warsh ควรขึ้นดอกเบี้ย",
      "importance": 1,
      "numbers": [],
      "tags": [
@@ -1032,7 +1032,10 @@
       "Alan Greenspan",
       "Kevin Warsh"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "สรุปเดิมไม่บอกประเด็นหลักของหัวข้อ (ควรขึ้นดอกเบี้ย)",
+     "checked_by": "claude/review"
     },
     {
      "id": "8d9b7051b100",
@@ -1051,7 +1054,8 @@
      "entities": [
       "South Korea"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "69c1c9707f35",
@@ -1072,7 +1076,8 @@
       "Oracle",
       "CoreWeave"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "ca18fae74a83",
@@ -1092,7 +1097,8 @@
      "entities": [
       "Nasdaq 100"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "a3e2147af71e",
@@ -1113,7 +1119,8 @@
       "S&P Global Ratings",
       "Nvidia"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9992618ed331",
@@ -1134,7 +1141,8 @@
       "Nvidia",
       "Vanda Research"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "58d0218622be",
@@ -1153,7 +1161,8 @@
      "entities": [
       "Bloomberg"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1f465765c1e8",
@@ -1175,7 +1184,8 @@
       "Jensen Huang",
       "Nvidia"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e6e1437ac148",
@@ -1184,7 +1194,7 @@
      "source": "MarketWatch",
      "published": 1795643400,
      "text": "SpaceX to provide one newly issued Class A share to every active ‘Trump account,’ and CEO Musk will match that gift.",
-     "summary_th": "Elon Musk และ SpaceX จะบริจาคเงินราว 1.78 หมื่นล้านดอลลาร์ โดย SpaceX เตรียมมอบหุ้น Class A ที่ออกใหม่แก่ 'Trump accounts' และ Musk จะมอบให้สมทบในจำนวนเท่ากัน",
+     "summary_th": "Elon Musk และ SpaceX จะบริจาครวมราว $17.8 billion ให้ 'Trump accounts' โดย SpaceX จะมอบหุ้น Class A ที่ออกใหม่หนึ่งหุ้นให้ทุกบัญชีที่ใช้งานอยู่ และ Musk จะให้สมทบในจำนวนเท่ากัน",
      "importance": 2,
      "numbers": [
       "$17.8 billion"
@@ -1198,7 +1208,10 @@
       "Elon Musk",
       "SpaceX"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review",
+     "fixed_by": "claude/review",
+     "fix_reason": "แปลงตัวเลข $17.8 billion เป็นหน่วยไทยผิด ต้องคงตัวเลขตามต้นทาง"
     },
     {
      "id": "6a9887a0a9dc",
@@ -1219,7 +1232,8 @@
       "Michael Burry",
       "Nasdaq"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "30bbabbe7e34",
@@ -1240,7 +1254,8 @@
       "South Korea",
       "Amazon"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "eead40eeb1f0",
@@ -1261,7 +1276,8 @@
       "Nasdaq",
       "Nvidia"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "bd454e6f28e7",
@@ -1271,7 +1287,7 @@
      "published": 1795657940,
      "text": "Norse Atlantic suspended flights as it warned its financial position was \"critical.\" The airline is seeking short-term financing and exploring a potential takeover.",
      "summary_th": "สายการบิน Norse Atlantic ระงับเที่ยวบินบินหลังเตือนว่าสถานะทางการเงินอยู่ในขั้นวิกฤต โดยกำลังจัดหาเงินทุนระยะสั้นและพิจารณาความเป็นไปได้ในการถูกเข้าซื้อกิจการ",
-     "importance": 0,
+     "importance": 2,
      "numbers": [],
      "tags": [
       "norse atlantic",
@@ -1281,7 +1297,10 @@
      "entities": [
       "Norse Atlantic"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "สายการบินหยุดบินและเสี่ยงถูกเข้าซื้อ เป็นข่าวสำคัญระดับปานกลาง ไม่ใช่ข่าวไม่สำคัญ",
+     "checked_by": "claude/review"
     },
     {
      "id": "49aaf81fd1ff",
@@ -1302,7 +1321,8 @@
       "Nasdaq",
       "Nvidia"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "62bdeb72533b",
@@ -1331,7 +1351,8 @@
       "S&P/ASX 200",
       "Kospi"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "fb0c66e93d88",
@@ -1354,7 +1375,8 @@
       "GrowHub",
       "Nasdaq"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "5bfa4d5f1dbd",
@@ -1372,7 +1394,8 @@
       "recession"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "802852e2f091",
@@ -1392,7 +1415,8 @@
       "Trump",
       "U.S."
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "66827d96af8f",
@@ -1409,7 +1433,8 @@
       "retail investors"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "70f9e5ae589a",
@@ -1431,7 +1456,8 @@
       "SP500",
       "Dow Jones"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e8d27b8fff6e",
@@ -1454,7 +1480,8 @@
      "entities": [
       "India"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "6ca09705fdcf",
@@ -1474,7 +1501,8 @@
      "entities": [
       "Investor's Business Daily"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "322d59d2ece8",
@@ -1494,7 +1522,8 @@
      "entities": [
       "Macy's"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1e34c1d7e614",
@@ -1516,7 +1545,8 @@
       "Nvidia",
       "The New York Times"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "627e6aa7826c",
@@ -1525,7 +1555,7 @@
      "source": "CNBC Top News",
      "published": 1795642007,
      "text": "With stocks mounting a comeback Wednesday, options trading across a few key volatility products suggests big swings in stocks may dampen in the near term.",
-     "summary_th": "หุ้นฟื้นตัวขึ้นในวันพุธ ขณะที่การซื้อขายออปชันในผลิตภัณฑ์ความผันผวนหลักชี้ว่าความผันผวนครั้งใหญ่ของหุ้นอาจลดลงในระยะสั้น",
+     "summary_th": "หุ้นฟื้นตัวในวันพุธ ขณะที่ตลาดออปชันแสดงว่านักเทรดเดิมพันว่า VIX จะไม่สูงขึ้น",
      "importance": 1,
      "numbers": [],
      "tags": [
@@ -1536,7 +1566,10 @@
      "entities": [
       "CNBC"
      ],
-     "model": "gemini/gemini-flash-latest"
+     "model": "gemini/gemini-flash-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "สรุปเดิมเป็นการทำนายความผันผวน ไม่ใช่สิ่งที่ข่าวบอก",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -1866,7 +1899,8 @@
      "entities": [
       "Federal Reserve"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b69c72f7a3a1",
@@ -1889,7 +1923,8 @@
       "UK",
       "EU"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "9cde7b8014dd",
@@ -1908,7 +1943,8 @@
      "entities": [
       "Somalia"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e32185595ea3",
@@ -1928,7 +1964,8 @@
      "entities": [
       "US"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "7486b0f51365",
@@ -1947,7 +1984,8 @@
      "entities": [
       "Federal Reserve"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "27217ba3506c",
@@ -1956,7 +1994,7 @@
      "source": "BBC Business",
      "published": 1795651671,
      "text": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
-     "summary_th": "สหรัฐฯ อนุมัติแผนของ SpaceX ในการส่งดาวเทียมสื่อสารหนึ่งล้านดวงสู่อวกาศ",
+     "summary_th": "สหรัฐฯ อนุมัติแผนของ SpaceX ที่จะส่งดาวเทียมข้อมูลหนึ่งล้านดวงขึ้นสู่อวกาศ โดยกลุ่มดาวเทียม Starmind มุ่งรองรับความต้องการพลังประมวลผล AI",
      "importance": 3,
      "numbers": [],
      "tags": [
@@ -1968,7 +2006,10 @@
       "SpaceX",
       "Starmind"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "ดาวเทียมเป็นเพื่อรองรับการประมวลผล AI ไม่ใช่ดาวเทียมสื่อสาร",
+     "checked_by": "claude/review"
     },
     {
      "id": "dbf1f5ff4074",
@@ -1989,7 +2030,8 @@
       "California",
       "British Columbia"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "f101b1e69f67",
@@ -2011,7 +2053,8 @@
       "EU",
       "China"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b87f2b7bfbaf",
@@ -2031,7 +2074,8 @@
      "entities": [
       "Fender"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "0ebcfcefdabc",
@@ -2050,7 +2094,8 @@
      "entities": [
       "US"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "1cc41d1fc9d2",
@@ -2071,7 +2116,8 @@
       "South Korea",
       "US"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e985cff163de",
@@ -2096,7 +2142,8 @@
       "China",
       "European Union"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "18f7881ff12e",
@@ -2115,7 +2162,8 @@
      "entities": [
       "Alberto Núñez Feijóo"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "444231419a91",
@@ -2139,7 +2187,8 @@
       "Taiwan",
       "China"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "165de2487137",
@@ -2162,7 +2211,8 @@
      "entities": [
       "Poundland"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -2509,7 +2559,8 @@
       "Canada",
       "United States"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "634a979acc3e",
@@ -2529,7 +2580,8 @@
      "entities": [
       "Iran"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e40f9ee05aba",
@@ -2557,7 +2609,8 @@
       "Koeberg",
       "Mpumalanga"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "cd499a1b5000",
@@ -2574,7 +2627,8 @@
       "crude futures"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "63c1af653381",
@@ -2592,7 +2646,8 @@
       "persian gulf"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "36b37aace914",
@@ -2614,7 +2669,8 @@
      "entities": [
       "Equinor"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "4bb00a68f1cd",
@@ -2636,7 +2692,8 @@
       "China",
       "United States"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "b7010fc13406",
@@ -2654,7 +2711,8 @@
       "shipments"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "00beb540813b",
@@ -2682,7 +2740,8 @@
       "Baker Hughes",
       "United States"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "bd8ffa297f54",
@@ -2700,7 +2759,8 @@
       "oil prices"
      ],
      "entities": [],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "5cb05d368a03",
@@ -2721,7 +2781,8 @@
      "entities": [
       "General Motors"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "8900fe81f89e",
@@ -2742,7 +2803,8 @@
       "USC",
       "UCLA"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "e661f5cb8ca4",
@@ -2751,7 +2813,7 @@
      "source": "OilPrice.com",
      "published": 1795638600,
      "text": "US billionaire Todd Boehly has signed a deal with Lukoil to buy the sanctioned Russian oil company's international assets through a share swap backed by the US International Development Finance Corp (DFC), Reuters reported on Wednesday. The consortium will exchange Lukoil securities worth $10 billion for the assets. The securities were bought from US and British funds and from US depositary banks that held them for retail investors, according to a person familiar with the terms. Western investors' Lukoil shares were frozen after Russia invaded…",
-     "summary_th": "กลุ่มนักลงทุนภายใต้การสนับสนุนของสหรัฐฯ นำโดย Todd Boehly บรรลุข้อตกลงแลกเปลี่ยนหุ้นมูลค่า 10,000 ล้านดอลลาร์ เพื่อซื้อกิจการสินทรัพย์ระหว่างประเทศของ Lukoil",
+     "summary_th": "กลุ่มที่สหรัฐฯ สนับสนุน นำโดย Todd Boehly ทำข้อตกลงซื้อสินทรัพย์ระหว่างประเทศของ Lukoil ผ่านการแลกหลักทรัพย์มูลค่า $10 billion",
      "importance": 3,
      "numbers": [
       "$10 billion"
@@ -2768,7 +2830,10 @@
       "US International Development Finance Corp",
       "Reuters"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "fixed_by": "claude/review",
+     "fix_reason": "แปลงตัวเลข $10 billion เป็นหน่วยไทยผิด และข้อความควรเป็นการแลกหลักทรัพย์ตามต้นทาง",
+     "checked_by": "claude/review"
     },
     {
      "id": "17d6c5caf803",
@@ -2788,7 +2853,8 @@
      "entities": [
       "Saudi Arabia"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     },
     {
      "id": "3826c6180a7a",
@@ -2812,7 +2878,8 @@
      "entities": [
       "Energy Information Administration"
      ],
-     "model": "gemini/gemini-flash-lite-latest"
+     "model": "gemini/gemini-flash-lite-latest",
+     "checked_by": "claude/review"
     }
    ]
   },
@@ -3095,7 +3162,18 @@
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTnc1X0diZUxPOWhiMjJoOWQtdUxzQWE4WDJaaVBpNUJTYlJfR2RJS21ndHBQOFJDNUdiWUc5Y0l5S3BmcGJnQXh2Ujd4MTNrbjJkQ1pDc20tUExJRzkyS2FTSmFVRU4yNWpueF81N1c0RUVrdEl3LXp3Nkc3LTluaGFPWEVXRWZ1b2lILVBTaHE?oc=5",
      "source": "Vietnam.vn",
      "published": 1795661456,
-     "text": "Gold prices fall sharply, with the prospect of continued Fed interest rate hikes putting pressure on prices. Vietnam.vn"
+     "text": "Gold prices fall sharply, with the prospect of continued Fed interest rate hikes putting pressure on prices. Vietnam.vn",
+     "summary_th": "ราคาทองคำร่วงลงอย่างแรง เพราะความเป็นไปได้ที่ Fed จะขึ้นดอกเบี้ยต่อเนื่องกดดันราคา",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "fed"
+     ],
+     "entities": [
+      "Fed"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "0ed00165d104",
@@ -3103,7 +3181,18 @@
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOEdPYl9vVXFmbzlhdWtra0JtT3RtY0ZLVkloT3FOLTIySVhZbGw5ekpKeFQ0cDJrejVZbmdGbi1rX2tyVU1kd3AtMkhCbU1IM0ZxOHJCeVdqMl9FN09mVk5jcjRKN2dVODVIWTZLaGNnYjVZWHZNaVc2MVZJbmNtMlF1ZVd1b2REVTBTSHNtZURNeHRqV0Y0bDd3WU5ETkUzUVdKOVJpUjM2TXdJ?oc=5",
      "source": "marketscreener.com",
      "published": 1795662796,
-     "text": "OCBC Opens New Gold Vault to Boost Bullion Capabilities marketscreener.com"
+     "text": "OCBC Opens New Gold Vault to Boost Bullion Capabilities marketscreener.com",
+     "summary_th": "OCBC เปิดห้องนิรภัยทองคำแห่งใหม่เพื่อเพิ่มขีดความสามารถด้านทองแท่ง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "banking"
+     ],
+     "entities": [
+      "OCBC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a7c817f61a0d",
@@ -3111,7 +3200,18 @@
      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5SZWtFQVlaV1ltNnA5dVVHWE40cHlzanVJSHAzY1JQdi02U0lqMmNLc0xxbHd0cUcwNlpwNTdXRFlmdktpMHZnRzFCcU1wX2s0YVhVd3BsYlh3YlRFYlEzbEcxSGxYakR1UF9TLVNYVzZPMGs?oc=5",
      "source": "Aktualita.co",
      "published": 1795661321,
-     "text": "Antam Gold Price Today November 26, 2026, Check Latest 1 Gram and Buyback Rates Aktualita.co"
+     "text": "Antam Gold Price Today November 26, 2026, Check Latest 1 Gram and Buyback Rates Aktualita.co",
+     "summary_th": "ราคาทองคำ Antam วันที่ 26 พฤศจิกายน สำหรับทองคำหนัก 1 กรัม และอัตรารับซื้อคืน (ข่าวมีเพียงหัวข้อ)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "antam"
+     ],
+     "entities": [
+      "Antam"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7244d09d2903",
@@ -3119,7 +3219,19 @@
      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUzYtZi0yN0R3eWI0cXpWMjVoOXpPek4xSkQxUm9UTVlKalhpS19iUWhONVFnNkp1Z01YRjE2c1pkVk5yVWJxMU42Q0RPVGNnZ2NuMlVtZkNnLTFZeXo5b0FhMXlYb0cxWjd2cEJGTmxBcGR1Z0ROM0pqb2tNdm0tS2hQQWpkU1NmVVM0My1nRHI3OWNxOXdCMGhteDZpc0pnZWFCVVZBb0puTWhrdWtRczZfX21GYkdIZnVic3AwdFJLN04taEVQRjh0RDQ5Mjd0UUFyUXVONA?oc=5",
      "source": "The Economic Times",
      "published": 1795658738,
-     "text": "Gold extends losses as hot US inflation cements Fed hike bets The Economic Times"
+     "text": "Gold extends losses as hot US inflation cements Fed hike bets The Economic Times",
+     "summary_th": "ทองคำลดลงต่อเนื่องเพราะเงินเฟ้อสหรัฐฯ ที่ร้อนแรงทำให้ตลาดเดิมพันการขึ้นดอกเบี้ยของ Fed",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "fed",
+      "inflation"
+     ],
+     "entities": [
+      "Fed"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "0450664e2009",
@@ -3127,7 +3239,16 @@
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSV9jS1kzdmY0UVJtVjBCRHJQNVg3S3dVeEtXcGVaWnFjT3VHRUk3OWFVM21uQ2tuSjZuT2JkZkVZWHAtSl85dmpFMGZhNFJ0NnV5QkpienowWDR5NlNMQ2FheU9iWjdvejc4NnFlcEdkdmItRVIwOEh3LUNORHE1RURRRjI3MUpwV1Q5Z3hFcFRlTHRSTEh6WVhsekVOclhYWks3cG9EYw?oc=5",
      "source": "Laodong.vn",
      "published": 1795660868,
-     "text": "Reasons for strong fluctuations in gold and silver prices in the recent session Laodong.vn"
+     "text": "Reasons for strong fluctuations in gold and silver prices in the recent session Laodong.vn",
+     "summary_th": "สาเหตุที่ราคาทองคำและเงินผันผวนอย่างแรงในการซื้อขายล่าสุด (ข่าวมีเพียงหัวข้อ)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "silver"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "582f2bcbda1d",
@@ -3135,7 +3256,22 @@
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd1RfdjBEX3d1bjdIbjhRRkhwN0tTV3NzTHVjWHpha0FvR0hWZDRLdjEyOG9SZFVzbjM5MGZtb0M1LVVuUExOVGFKaHY2czgwMG84UUxmeS1ROHhzd2taNmpyN3d3STZPTTBZSUtxZzV0OElydlgwaTY3dExNV3hwODFwQVVoaUpBeGZtWWF4RmMzYnhpNGxQUUNtOGtjZHpoaTNv?oc=5",
      "source": "Startup Fortune",
      "published": 1795657788,
-     "text": "RBI moved about 60 tonnes of gold home without raising its total holdings Startup Fortune"
+     "text": "RBI moved about 60 tonnes of gold home without raising its total holdings Startup Fortune",
+     "summary_th": "ธนาคารกลางอินเดีย (RBI) ย้ายทองคำราว 60 ตันกลับประเทศ โดยไม่ได้เพิ่มยอดถือครองทองคำรวม",
+     "importance": 2,
+     "numbers": [
+      "60"
+     ],
+     "tags": [
+      "gold",
+      "central banks",
+      "india"
+     ],
+     "entities": [
+      "RBI",
+      "India"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "b6ffb381a8d6",
@@ -3143,7 +3279,18 @@
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOT09FLUZNNERfMmtteGw1Rm1nV29EaWs5QWptQmtRakk5RDBMMm16X1JrTjRteERNWDNreEd4MENOdlZySGlUT2hmbW1NNGo3M2xHMlAzeWlUQ2pRMEllWThBUjF6N24yOXNjX1IyUy1ZbHRDQVVGS1RHd290UnRIY01tX3JYNlhoektDZlFhUHJZNXFkQ3VGTjZ0a2Y1M2hfdDhWcWp0VjZFS0ZvdTh4R0pYTEFUVzY5dU1IdHMxVXl3cGlTRmd2VU5nbw?oc=5",
      "source": "Vietnam.vn",
      "published": 1795659038,
-     "text": "Gold price update today, November 26th: 'Covered in red', market in consolidation phase, USD as the main drag. Vietnam.vn"
+     "text": "Gold price update today, November 26th: 'Covered in red', market in consolidation phase, USD as the main drag. Vietnam.vn",
+     "summary_th": "ราคาทองคำวันที่ 26 พ.ย. ปิดติดลบ ตลาดอยู่ในช่วงรวมตัว โดยดอลลาร์สหรัฐเป็นปัจจัยกดดันหลัก",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "usd"
+     ],
+     "entities": [
+      "USD"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "570604c24967",
@@ -3151,7 +3298,16 @@
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOGdkMlFvR2pHSUNyUUhxZ3FMbUJmb2tiRlEwWWc1X1FfUVphY0RfVUZwYmE1aW91QjJXTTEzQTRUOVZ2cVNBU3hyR2RmTEJzWE9ZOGxjc1BfQUFOR1VQZWpON2pnX1lvWGxteWhMbU9vbG56Um0tVW1HYUZIcThDT3VvRGU1RU5LSmdFMUFhRENhcWRrSDFTWThnRVB3S1R2UDNiaXQ2SkZGc29jU3lTODdpZHVIMGFzZUFGZA?oc=5",
      "source": "NetNewsLedger",
      "published": 1795650240,
-     "text": "From Digital Wallets to Physical Gold: Why Fintech Users Diversify Into Bullion NetNewsLedger"
+     "text": "From Digital Wallets to Physical Gold: Why Fintech Users Diversify Into Bullion NetNewsLedger",
+     "summary_th": "บทความว่าด้วยผู้ใช้ฟินเทคที่กระจายการลงทุนไปสู่ทองแท่งจริง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "fintech"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "fb1cbead16dc",
@@ -3159,7 +3315,20 @@
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdXR1OWgwMk1uSHpMWmpheEtXU0hPRWZva1RSMjZvSnFlY3d6a1Y1enZYV2gtVENwUDZHcmlielZweThadlg0ZUNJbXZKSGRleVFGb2EweHptM1l6UG13a2ZJZjU3c2hHRHpRMTZaSWYyQzBqbDh6Z3lXQ2stRmRXNDVqalRuNUtIWnpEaG0tUEpTMXB4Rkk4?oc=5",
      "source": "Vietnam.vn",
      "published": 1795656407,
-     "text": "Gold prices today, November 26th: Global gold prices recover, will SJC, PNJ, and DOJI see an increase? Vietnam.vn"
+     "text": "Gold prices today, November 26th: Global gold prices recover, will SJC, PNJ, and DOJI see an increase? Vietnam.vn",
+     "summary_th": "ราคาทองคำโลกฟื้นตัว มีคำถามว่าราคาทองในเวียดนามอย่าง SJC, PNJ และ DOJI จะเพิ่มขึ้นหรือไม่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "vietnam"
+     ],
+     "entities": [
+      "SJC",
+      "PNJ",
+      "DOJI"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7a239e0ecc87",
@@ -3167,7 +3336,18 @@
      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWHJXMkF3VHF3OEJUVkRScmpnTkdaUzlITmdDN2R0VnVRa1JhZndlSjg5aG10Qm5BcUdvT2c5Q0tVQ1A4bDV4UE9WelNiT2V5X3VtU2cyYVVtX0x1ajJEU1pMdmFBc0VZbnQtS0I0MUgwLXdWNHFPWl9DMzRZNWtIblRLYnJWdE5udzNDZ3hvVFZwUVBHREp5UUdSVGpnWVZCd1pVUi1SdXVlYkxrbjVkdEpsd0ctT2FKODhsMWp2NXNuby10cVk4c3VDeEQ4Nkk3cjdFVVpObjgzQjg3MUJV?oc=5",
      "source": "ad-hoc-news.de",
      "published": 1795641160,
-     "text": "India's Gold Repatriation Masks a Bigger Story: Bullion's Split Personality ad-hoc-news.de"
+     "text": "India's Gold Repatriation Masks a Bigger Story: Bullion's Split Personality ad-hoc-news.de",
+     "summary_th": "บทความความเห็นเรื่องการนำทองคำกลับประเทศของอินเดีย ที่มองว่าภาพรวมของตลาดทองคำมีเรื่องที่ใหญ่กว่า",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "india"
+     ],
+     "entities": [
+      "India"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "99ccf7378855",
@@ -3175,7 +3355,16 @@
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSzlHZVpaWGtheGRvX1ZZbTdRc2kzRlNrZGJyWDh6QTk3UW9KcGF6QXdmeGVkSDMtQ3l2VmtIa0I4MnRDOWZxNkMyVWlpUlJiUS1FZ0k3blU1VEpfY05PeFdaOHZ4anlEZGRlVkpBd3Q2a1hkVjA1bVNQeHEwTGt1MXFnY0p1cXJZVHAwQUJlOE1hUQ?oc=5",
      "source": "Laodong.vn",
      "published": 1795652714,
-     "text": "Gold price update morning of November 26: Sharp decrease Laodong.vn"
+     "text": "Gold price update morning of November 26: Sharp decrease Laodong.vn",
+     "summary_th": "ราคาทองคำช่วงเช้าวันที่ 26 พ.ย. ลดลงอย่างรวดเร็ว",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "vietnam"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "8ff7b70e7536",
@@ -3183,7 +3372,16 @@
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONm5kaGhJRXZCY19xc0ZfZjhFX3pJZ3FBVEc3enl1UllxT19uZTJsTFZfUDNpVEFMdWpyeGFUR0d4VU0xTVZNanptTEt5RnhySkJXdkRjenJmaFNINGM2b21QckhwbWlsX0VMem9lRXVoQ3JxU3ZrODl0N25DSi1wVzlRNDI3WG83bVFyX2ItRFRFRTlkOGZxbVVuTFBqeVE2c3c4?oc=5",
      "source": "SilverTrade",
      "published": 1795638022,
-     "text": "The MILLION Dollar Question for Gold & Silver SilverTrade"
+     "text": "The MILLION Dollar Question for Gold & Silver SilverTrade",
+     "summary_th": "บทความตั้งคำถามเรื่องทองคำและเงิน (ข่าวมีเพียงหัวข้อ ไม่มีข้อมูลเพิ่ม)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "gold",
+      "silver"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     }
    ]
   },
@@ -3728,7 +3926,19 @@
      "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
      "source": "TechCrunch",
      "published": 1795646672,
-     "text": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating."
+     "text": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+     "summary_th": "S&P อาจลดอันดับเครดิตของ Nvidia เป็น AA- ซึ่งเป็นอันดับที่สี่รองลงมา เพราะความเสี่ยงด้านการกำกับดูแลกิจการและ key man",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "credit rating"
+     ],
+     "entities": [
+      "S&P",
+      "Nvidia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3e56a8e6d42a",
@@ -3736,7 +3946,18 @@
      "link": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
      "source": "Ars Technica",
      "published": 1795646205,
-     "text": "\"DART made a really, really large mess. However, we didn’t really know what kind of mess.\""
+     "text": "\"DART made a really, really large mess. However, we didn’t really know what kind of mess.\"",
+     "summary_th": "ยานอวกาศของยุโรปพบภาพที่วุ่นวายหลังการทดลองเปลี่ยนวิถีดาวเคราะห์น้อย DART โดยนักวิจัยบอกว่า DART สร้างความยุ่งเหยิงที่ใหญ่มาก",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "space",
+      "asteroid"
+     ],
+     "entities": [
+      "DART"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "0a95f1b09baa",
@@ -3744,7 +3965,22 @@
      "link": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
      "source": "The Verge",
      "published": 1795651474,
-     "text": "A couple of Walmart's budget-friendly smart home cameras will be able to recognize people around your house now using Google's familiar face detection feature. A new Google Home update brings Familiar Faces support to the $35 Onn Outdoor Camera Plug-In and $77 Onn Floodlight Camera Hardwired. However, a Google Home Premium subscription is still required […]"
+     "text": "A couple of Walmart's budget-friendly smart home cameras will be able to recognize people around your house now using Google's familiar face detection feature. A new Google Home update brings Familiar Faces support to the $35 Onn Outdoor Camera Plug-In and $77 Onn Floodlight Camera Hardwired. However, a Google Home Premium subscription is still required […]",
+     "summary_th": "ฟีเจอร์ Familiar Faces ของ Google ใช้ได้กับกล้องสมาร์ทโฮม Walmart ราคา $35 และ $77 แล้ว ผ่านการอัปเดต Google Home",
+     "importance": 1,
+     "numbers": [
+      "$35",
+      "$77"
+     ],
+     "tags": [
+      "smart home",
+      "google"
+     ],
+     "entities": [
+      "Google",
+      "Walmart"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "00e68d185acb",
@@ -3752,7 +3988,19 @@
      "link": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html",
      "source": "CNBC Tech",
      "published": 1795652872,
-     "text": "SpaceX said it will donate one share of the company's class A stock to every active Trump Account, and CEO Elon Musk would match it."
+     "text": "SpaceX said it will donate one share of the company's class A stock to every active Trump Account, and CEO Elon Musk would match it.",
+     "summary_th": "SpaceX จะบริจาคหุ้นคลาส A หนึ่งหุ้นให้ทุกบัญชี Trump Account ที่ยังใช้งานอยู่ และ Elon Musk จะบริจาคเพิ่มให้เท่ากัน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "spacex",
+      "trump accounts"
+     ],
+     "entities": [
+      "SpaceX",
+      "Elon Musk"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "f63f4cad1468",
@@ -3760,7 +4008,22 @@
      "link": "https://github.com/lsernau/grh-lean",
      "source": "Hacker News",
      "published": 1795643290,
-     "text": "Article URL: https://github.com/lsernau/grh-lean Comments URL: https://news.ycombinator.com/item?id=50648050 Points: 323 # Comments: 152"
+     "text": "Article URL: https://github.com/lsernau/grh-lean Comments URL: https://news.ycombinator.com/item?id=50648050 Points: 323 # Comments: 152",
+     "summary_th": "เวอร์ชันที่สั้นกว่ามากของการตรวจสอบ GRH Lean จาก Anthropic ได้คะแนน 323 บน Hacker News พร้อมความคิดเห็น 152 รายการ",
+     "importance": 1,
+     "numbers": [
+      "323",
+      "152"
+     ],
+     "tags": [
+      "ai",
+      "math",
+      "lean"
+     ],
+     "entities": [
+      "Anthropic"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "8778546c67ff",
@@ -3768,7 +4031,19 @@
      "link": "https://www.techmeme.com/261125/p46",
      "source": "Techmeme",
      "published": 1795661702,
-     "text": "Jagmeet Singh / TechCrunch : OpenAI rolls out its merged ChatGPT Chat and Work tabs, with a shared usage meter, to a small group of Pro users, saying heavy users may hit their limits sooner — OpenAI has started rolling out a unified Chat and Work experience in ChatGPT to a few of its users, amid criticism from some subscribers …"
+     "text": "Jagmeet Singh / TechCrunch : OpenAI rolls out its merged ChatGPT Chat and Work tabs, with a shared usage meter, to a small group of Pro users, saying heavy users may hit their limits sooner — OpenAI has started rolling out a unified Chat and Work experience in ChatGPT to a few of its users, amid criticism from some subscribers …",
+     "summary_th": "OpenAI เริ่มเปิดตัวการรวมแท็บ Chat และ Work ใน ChatGPT ให้ผู้ใช้ Pro กลุ่มเล็ก พร้อมมิเตอร์การใช้งานร่วม และแจ้งว่าผู้ใช้หนักอาจถึงลิมิตเร็วขึ้น",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "openai",
+      "chatgpt"
+     ],
+     "entities": [
+      "OpenAI",
+      "ChatGPT"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "50a53afadcff",
@@ -3776,7 +4051,19 @@
      "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
      "source": "BleepingComputer",
      "published": 1795644309,
-     "text": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]"
+     "text": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
+     "summary_th": "Palo Alto Networks เตือนว่าช่องโหว่ Fragnesia ถูกใช้โจมตี PAN-OS ผู้โจมตีเชื่อมช่องโหว่ PHP2Shell กับ Fragnesia เพื่อโจมตีอุปกรณ์ที่เปิดหน้าการจัดการสู่อินเทอร์เน็ต",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "vulnerability",
+      "palo alto"
+     ],
+     "entities": [
+      "Palo Alto Networks",
+      "PAN-OS"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7ece5d6cf85d",
@@ -3784,7 +4071,19 @@
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZVc0Y0hoZXZxMDJubGJKOXhQWjI3ckpURlhjMmFHc2FfN2ZXc3N3aHF0MEo2a21wOENKVi0xSnhnbmNZcjlVU3lVTHdGSmZTeEVrY0hlN015RzdJQTFoczhVUklVXzBDQ25tSDdPMkZFYzVnQ1dWcHpiZmRhbjBMelAzWG9zTjEzUDVKQ3BkbmFLRkt1YlVTcEs3cw?oc=5",
      "source": "Pulse Kenya",
      "published": 1795662938,
-     "text": "Sabina Chege Recounts Losing Brand New iPhone in Parliament, Challenges Wetang’ula to Name MP Pulse Kenya"
+     "text": "Sabina Chege Recounts Losing Brand New iPhone in Parliament, Challenges Wetang’ula to Name MP Pulse Kenya",
+     "summary_th": "ข่าวเบาของ Sabina Chege ที่เล่าว่าทำ iPhone รุ่นใหม่หายในรัฐสภา และท้าให้ Wetang'ula ระบุชื่อ ส.ส.",
+     "importance": 0,
+     "numbers": [],
+     "tags": [
+      "kenya",
+      "parliament"
+     ],
+     "entities": [
+      "Sabina Chege",
+      "Wetang'ula"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a4c3fb2f4ae0",
@@ -3792,7 +4091,20 @@
      "link": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
      "source": "TechCrunch",
      "published": 1795640204,
-     "text": "The FCC dismissed some of the key concerns raised by opponents, including potential threats to scientific research, because the agency determined they fell outside its regulatory authority."
+     "text": "The FCC dismissed some of the key concerns raised by opponents, including potential threats to scientific research, because the agency determined they fell outside its regulatory authority.",
+     "summary_th": "FCC อนุมัติแผนของ SpaceX ที่จะตั้งศูนย์ข้อมูล AI ในอวกาศ โดยยกคำคัดค้านบางข้อ รวมถึงผลต่องานวิจัยทางวิทยาศาสตร์ ว่าอยู่นอกอำนาจกำกับของหน่วยงาน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "spacex",
+      "ai data centers",
+      "regulation"
+     ],
+     "entities": [
+      "FCC",
+      "SpaceX"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5acdb5a9ff5c",
@@ -3800,7 +4112,21 @@
      "link": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
      "source": "Ars Technica",
      "published": 1795640229,
-     "text": "The pitch is an unusual combination of privacy promises and AI features."
+     "text": "The pitch is an unusual combination of privacy promises and AI features.",
+     "summary_th": "Kagi ผู้ให้บริการค้นหาทางเลือกแทน Google เปิดตัวบริการอีเมลที่แข่งกับ Gmail โดยผสมคำมั่นด้านความเป็นส่วนตัวกับฟีเจอร์ AI",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "email",
+      "ai",
+      "privacy"
+     ],
+     "entities": [
+      "Kagi",
+      "Gmail",
+      "Google"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "dade25531ce5",
@@ -3808,7 +4134,21 @@
      "link": "https://www.theverge.com/tech/1042870/amazon-recall-order-cpsc",
      "source": "The Verge",
      "published": 1795651004,
-     "text": "Amazon is on the hook to recall more than 400,000 hazardous products after losing its legal battle against the US Consumer Product Safety Commission (CPSC). The US District Court for the District of Maryland ruled in favor of the CPSC, which argued that Amazon is a distributor of goods, not a logistics provider, making it […]"
+     "text": "Amazon is on the hook to recall more than 400,000 hazardous products after losing its legal battle against the US Consumer Product Safety Commission (CPSC). The US District Court for the District of Maryland ruled in favor of the CPSC, which argued that Amazon is a distributor of goods, not a logistics provider, making it […]",
+     "summary_th": "Amazon แพ้คดีในศาลสหรัฐฯ และต้องเรียกคืนสินค้าอันตรายกว่า 400,000 รายการ ศาลแขวงรัฐแมริแลนด์ตัดสินว่า Amazon เป็นผู้จัดจำหน่ายสินค้า ไม่ใช่แค่ผู้ให้บริการโลจิสติกส์",
+     "importance": 2,
+     "numbers": [
+      "400,000"
+     ],
+     "tags": [
+      "amazon",
+      "product safety"
+     ],
+     "entities": [
+      "Amazon",
+      "CPSC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a26b51ba227a",
@@ -3816,7 +4156,20 @@
      "link": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html",
      "source": "CNBC Tech",
      "published": 1795640408,
-     "text": "Whether the Trump administration has investigated Jensen Huang for potential national security risks has been the subject of questions."
+     "text": "Whether the Trump administration has investigated Jensen Huang for potential national security risks has been the subject of questions.",
+     "summary_th": "Vance กล่าวว่าได้รับการยืนยันว่า Jensen Huang ไม่ได้อยู่ระหว่างการสอบสวนของ DOJ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "politics"
+     ],
+     "entities": [
+      "Vance",
+      "Jensen Huang",
+      "DOJ"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "c31465abe4a5",
@@ -3824,7 +4177,19 @@
      "link": "https://scottaaronson.blog/?p=10379",
      "source": "Hacker News",
      "published": 1795633887,
-     "text": "See also The matrix multiplication exponent is nine fourths [pdf] - https://news.ycombinator.com/item?id=50637220 Comments URL: https://news.ycombinator.com/item?id=50646108 Points: 1015 # Comments: 864"
+     "text": "See also The matrix multiplication exponent is nine fourths [pdf] - https://news.ycombinator.com/item?id=50637220 Comments URL: https://news.ycombinator.com/item?id=50646108 Points: 1015 # Comments: 864",
+     "summary_th": "โพสต์ใน Hacker News เรื่อง The magnitude of what's now happening ได้คะแนน 1015 และมีความคิดเห็น 864 รายการ (ต้นทางมีเพียงหัวข้อและตัวเลข)",
+     "importance": 1,
+     "numbers": [
+      "1015",
+      "864"
+     ],
+     "tags": [
+      "hacker news",
+      "ai"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "6f9ed0e4af78",
@@ -3832,7 +4197,20 @@
      "link": "https://www.techmeme.com/261125/p45",
      "source": "Techmeme",
      "published": 1795658100,
-     "text": "Josh Boswell / CBS News : Investigation: Nvidia sells its most advanced chips to at least two Chinese-owned California companies, which have leased or sold some of them to firms in Asia — Nvidia is selling its most cutting-edge chips to at least two companies that are U.S.-based, but are actually controlled by Chinese-owned firms …"
+     "text": "Josh Boswell / CBS News : Investigation: Nvidia sells its most advanced chips to at least two Chinese-owned California companies, which have leased or sold some of them to firms in Asia — Nvidia is selling its most cutting-edge chips to at least two companies that are U.S.-based, but are actually controlled by Chinese-owned firms …",
+     "summary_th": "การสืบสวนพบว่า Nvidia ขายชิปขั้นสูงให้บริษัทในแคลิฟอร์เนียที่เป็นเจ้าของโดยชาวจีนอย่างน้อยสองแห่ง ซึ่งอาจปล่อยเช่าหรือขายต่อให้บริษัทในเอเชียบางส่วน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "export controls",
+      "china"
+     ],
+     "entities": [
+      "Nvidia",
+      "China"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "70f66acc3de7",
@@ -3840,7 +4218,19 @@
      "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
      "source": "BleepingComputer",
      "published": 1795642413,
-     "text": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]"
+     "text": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
+     "summary_th": "1Password เปิดเผยข้อมูลลูกค้ารั่วไหล หลังบัญชี GitHub ของพนักงานถูกแฮกและนำไปใช้ปล่อยโค้ดอันตรายเข้าระบบหลังบ้านเพื่อขโมยข้อมูลลูกค้า",
+     "importance": 3,
+     "numbers": [],
+     "tags": [
+      "data breach",
+      "1password"
+     ],
+     "entities": [
+      "1Password",
+      "GitHub"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "71d6041448c1",
@@ -3848,7 +4238,18 @@
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY29IWmlIOE44X0JhVkF2WDhjcUpXNXlVOXdYU21ZZ2g1UUJock1hQ2Q3a0dpeVgtUW1OeG9uZ1RwLS1WejhTNTgxMkFIM0RERWxFYU5FZjhYc1p3MGhqOGNVakJtS1ZTTm1lVzRsYXJVY1FSTW84dERabVBMUDVTVlNsQkdWUDlCNnZzWURtdE9ybXlTTWp1WFZUWXFUOThzTUxueE9xa2FhdTItTXQ5SXZ4UWlKcms4UjJOei1ROGVLUQ?oc=5",
      "source": "Court Book",
      "published": 1795662632,
-     "text": "Delhi HC Orders CCTV Footage Preservation After Woman Alleges Illegal Police Detention for 7-Hours Court Book"
+     "text": "Delhi HC Orders CCTV Footage Preservation After Woman Alleges Illegal Police Detention for 7-Hours Court Book",
+     "summary_th": "ศาลสูงเดลีสั่งเก็บรักษาฟุตเทจกล้อง CCTV หลังผู้หญิงคนหนึ่งกล่าวหาว่าถูกตำรวจควบคุมตัวโดยมิชอบเป็นเวลาเจ็ดชั่วโมง",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "india",
+      "police"
+     ],
+     "entities": [
+      "Delhi HC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "dc85126b0ac7",
@@ -3856,7 +4257,19 @@
      "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
      "source": "TechCrunch",
      "published": 1795637007,
-     "text": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences."
+     "text": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+     "summary_th": "OpenAI จะมีมิเตอร์การใช้งานรวมตัวเดียวทั่ว ChatGPT เมื่อรวมประสบการณ์ Chat และ Work เข้าด้วยกัน ผู้ใช้หนักอาจถึงลิมิตเร็วขึ้น",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "openai",
+      "chatgpt"
+     ],
+     "entities": [
+      "OpenAI",
+      "ChatGPT"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "6f937299d9db",
@@ -3864,7 +4277,18 @@
      "link": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
      "source": "Ars Technica",
      "published": 1795631909,
-     "text": "Backblaze tells Ars it won't share users' backup, storage files with advertisers."
+     "text": "Backblaze tells Ars it won't share users' backup, storage files with advertisers.",
+     "summary_th": "Backblaze อธิบายการแชร์ข้อมูลลูกค้ากับผู้ลงโฆษณา โดยบอกว่าจะไม่แชร์ไฟล์สำรองหรือไฟล์จัดเก็บของผู้ใช้",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "privacy",
+      "backblaze"
+     ],
+     "entities": [
+      "Backblaze"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "ceecf9e348f1",
@@ -3872,7 +4296,19 @@
      "link": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
      "source": "The Verge",
      "published": 1795643486,
-     "text": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an amended version, and we could see this monstrosity come […]"
+     "text": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an amended version, and we could see this monstrosity come […]",
+     "summary_th": "Google ยื่นสิทธิบัตรระบบ My Channel ที่สร้างฟีดวิดีโอ AI และโฆษณาตามข้อมูลผู้ใช้ สิทธิบัตรนี้ถูกปฏิเสธแล้ว แต่ Google อาจอุทธรณ์หรือยื่นใหม่",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "google",
+      "ai video",
+      "patent"
+     ],
+     "entities": [
+      "Google"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "63d3b91ac76d",
@@ -3880,7 +4316,20 @@
      "link": "https://www.cnbc.com/2026/11/25/huang-reinstatement-reignites-voter-angst-over-techs-outsized-power.html",
      "source": "CNBC Tech",
      "published": 1795612834,
-     "text": "Nvidia’s decision to reinstate CEO Jensen Huang after pressure from Trump is intensifying bipartisan scrutiny of tech companies' ties to the administration."
+     "text": "Nvidia’s decision to reinstate CEO Jensen Huang after pressure from Trump is intensifying bipartisan scrutiny of tech companies' ties to the administration.",
+     "summary_th": "Nvidia ให้ Jensen Huang กลับมาเป็นซีอีโอหลังถูกกดดันจากทรัมป์ ทำให้มีการตรวจสอบจากทั้งสองพรรคต่อความสัมพันธ์ของบริษัทเทคโนโลยีกับรัฐบาล",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "politics"
+     ],
+     "entities": [
+      "Nvidia",
+      "Jensen Huang",
+      "Trump"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2da10ebf7215",
@@ -3888,7 +4337,21 @@
      "link": "https://1password.com/blog/update-on-nov-2026-security-incident",
      "source": "Hacker News",
      "published": 1795627106,
-     "text": "Article URL: https://1password.com/blog/update-on-nov-2026-security-incident Comments URL: https://news.ycombinator.com/item?id=50644817 Points: 1234 # Comments: 520"
+     "text": "Article URL: https://1password.com/blog/update-on-nov-2026-security-incident Comments URL: https://news.ycombinator.com/item?id=50644817 Points: 1234 # Comments: 520",
+     "summary_th": "โพสต์ Hacker News เรื่องเหตุการณ์ความปลอดภัยของ 1Password ได้คะแนน 1234 และมีความคิดเห็น 520 รายการ",
+     "importance": 3,
+     "numbers": [
+      "1234",
+      "520"
+     ],
+     "tags": [
+      "data breach",
+      "1password"
+     ],
+     "entities": [
+      "1Password"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "a72e69d2ee09",
@@ -3896,7 +4359,21 @@
      "link": "https://www.techmeme.com/261125/p44",
      "source": "Techmeme",
      "published": 1795656601,
-     "text": "TBIJ : Apple removes MiniMax's chatbot Talkie from the App Store worldwide over sexual content, after outlets showed it evidence of AI characters sexualizing children — Talkie's characters belittle and sexualise their young users - and its owners won't explain how it uses the data"
+     "text": "TBIJ : Apple removes MiniMax's chatbot Talkie from the App Store worldwide over sexual content, after outlets showed it evidence of AI characters sexualizing children — Talkie's characters belittle and sexualise their young users - and its owners won't explain how it uses the data",
+     "summary_th": "Apple ลบแอป chatbot Talkie ของ MiniMax ออกจาก App Store ทั่วโลก เพราะเนื้อหาทางเพศ หลังสื่อแสดงหลักฐานว่าตัวละคร AI ทำให้เด็กดูมีเนื้อหาทางเพศ",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "app store",
+      "ai chatbot",
+      "child safety"
+     ],
+     "entities": [
+      "Apple",
+      "MiniMax",
+      "Talkie"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "63da0c2dc091",
@@ -3904,7 +4381,19 @@
      "link": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
      "source": "BleepingComputer",
      "published": 1795635571,
-     "text": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]"
+     "text": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
+     "summary_th": "หน่วยงานความมั่นคงไซเบอร์ของอิตาลีและสวิตเซอร์แลนด์เตือนการโจมตีอัตโนมัติที่ขับเคลื่อนด้วย AI agents ต่อองค์กรในภาคโครงสร้างพื้นฐานวิกฤต",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "cyber",
+      "ai agents"
+     ],
+     "entities": [
+      "Italy",
+      "Switzerland"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "9d2d32cba46f",
@@ -3912,7 +4401,20 @@
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU0kyeExfVkw0NEZEeV8tck1JQkM5eEg5ZFE5SW1fNU1KWU1nOEU5Q3RqcjNxZ1M2dFpnRzVEZnNpN1VrXzFEMmFyekdueU8xYXFZaDJickwxRG9oMUxxdi1LZ2poLW5LbkNxdDBJTUN2d0drMGR5VkNfeHNVbUNJeFJTMXpDZFllRFpXdmhMazZ1VlJtZkdJZ2hRdTloRV9ydW9Ydm1jcU96Sld1dU1FbnFldllYSXJyQW5HNkxUOThtVXRjbWhGeFhyV2gzMTDSAdcBQVVfeXFMTlU4LUhOVWppVVl6d2NzdlZHaHNtRVZraGc3SDZ5aWRvS09OdnBiNjJ1NFF1OGZCOHdESTQ4YUdESy1XeGR3OWVWN1FrQ0dXNldxRVFZdUx0c1B3aHZCU0RheXlpRS0tb0pFdHJRclBoVzl5a3pwRVo4SExQR0tpVkJidzZMaTZydmRkOS16dWFoRzBDRDRHeVNoMnBkUm00SXc3T0pOUG9NUFo3LXdNRlc5ZVkzcHZvNk9lZG9fVGllcklzdS1Ubm9nV09qUmFoQnBuS3cwcHc?oc=5",
      "source": "NDTV",
      "published": 1795662584,
-     "text": "On CCTV, Cop Dragged 50 Feet On Thar Bonnet Over Fancy Number Challan NDTV"
+     "text": "On CCTV, Cop Dragged 50 Feet On Thar Bonnet Over Fancy Number Challan NDTV",
+     "summary_th": "มีคลิป CCTV แสดงตำรวจถูกลากไปบนฝากระโปรงรถ Thar เป็นระยะ 50 ฟุต จากเรื่องใบสั่งป้ายทะเบียนเลขสวย (ข่าวทั่วไป ไม่เกี่ยวกับเทคโนโลยี)",
+     "importance": 0,
+     "numbers": [
+      "50"
+     ],
+     "tags": [
+      "india",
+      "traffic"
+     ],
+     "entities": [
+      "Thar"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "fb5a7d58c9a9",
@@ -3920,7 +4422,19 @@
      "link": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
      "source": "TechCrunch",
      "published": 1795636497,
-     "text": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences."
+     "text": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
+     "summary_th": "บทความความเห็นว่า Jensen Huang ละเมิดจรรยาบรรณของ Nvidia และพนักงานอาจไม่ลืมเรื่องนี้ เพราะจรรยาบรรณสะท้อนวัฒนธรรมองค์กร",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "nvidia",
+      "governance"
+     ],
+     "entities": [
+      "Jensen Huang",
+      "Nvidia"
+     ],
+     "model": "claude/routine"
     }
    ]
   },
@@ -4316,7 +4830,18 @@
      "link": "https://www.statnews.com/2026/11/25/medicare-physician-fee-schedule-change-worry-some-specialists/",
      "source": "STAT News",
      "published": 1795642133,
-     "text": "Cuts to Medicare physician payment rates for certain same-day services could impact some specialists more than others."
+     "text": "Cuts to Medicare physician payment rates for certain same-day services could impact some specialists more than others.",
+     "summary_th": "การปรับลดอัตราจ่ายค่าแพทย์ของ Medicare สำหรับบริการบางประเภทในวันเดียวกัน อาจกระทบแพทย์บางสาขาหนักกว่าสาขาอื่น",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "medicare",
+      "physician pay"
+     ],
+     "entities": [
+      "Medicare"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "d1d286376a2c",
@@ -4324,7 +4849,18 @@
      "link": "https://medicalxpress.com/news/2026-11-decrease-age-adjusted-death.html",
      "source": "Medical Xpress",
      "published": 1795660804,
-     "text": "During 2000 to 2024, there was a decrease in the age-adjusted stroke death rate, although rates increased among certain groups in the most recent trend periods, according to research published in the U.S. Centers for Disease Control and Prevention Morbidity and Mortality Weekly Report."
+     "text": "During 2000 to 2024, there was a decrease in the age-adjusted stroke death rate, although rates increased among certain groups in the most recent trend periods, according to research published in the U.S. Centers for Disease Control and Prevention Morbidity and Mortality Weekly Report.",
+     "summary_th": "งานวิจัยของ CDC ระบุว่าอัตราการเสียชีวิตจากโรคหลอดเลือดสมองที่ปรับตามอายุในสหรัฐฯ ลดลงระหว่างปี 2000 ถึง 2024 แต่เพิ่มขึ้นในบางกลุ่มช่วงล่าสุด",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "stroke",
+      "cdc"
+     ],
+     "entities": [
+      "CDC"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "42aa43dad62c",
@@ -4332,7 +4868,19 @@
      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9mZ2V6NDRiNlBQVEpSTFl6VXo3RTVGbUI1VEFXNjdCb2pvSnh3cVItdGNFci1oM2tRUENZMENoSm5RUzBsb1VQX3hLblNjbFJiZGJUSlQwSW1ZclotR20wdmtYZ0tXTDN2U3NfSDNHTmpnazdsb0E?oc=5",
      "source": "BigGo Finance",
      "published": 1795662567,
-     "text": "U.S. House Select Committee Recommends Regulating Chinese Biotech Beyond Investment to 'Technology Licensing'… Big Pharma's China Courtship Hits a Speed Bump BigGo Finance"
+     "text": "U.S. House Select Committee Recommends Regulating Chinese Biotech Beyond Investment to 'Technology Licensing'… Big Pharma's China Courtship Hits a Speed Bump BigGo Finance",
+     "summary_th": "คณะกรรมาธิการคัดเลือกของสภาสหรัฐฯ เสนอให้กำกับดูแลไบโอเทคจีนเกินกว่าการลงทุน ไปจนถึงการอนุญาตใช้เทคโนโลยี ขณะที่ความร่วมมือของบิ๊กฟาร์มากับจีนเจอแรงต้าน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "biotech",
+      "china",
+      "regulation"
+     ],
+     "entities": [
+      "China"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "41ff93ce563b",
@@ -4340,7 +4888,20 @@
      "link": "https://www.statnews.com/2026/11/25/biotech-news-fda-approves-cogents-drug-for-rare-stomach-cancer/",
      "source": "STAT News",
      "published": 1795639455,
-     "text": "Cogent Biosciences won FDA clearance for its stomach cancer treatment, in combination with a much older drug from Pfizer called Sutent."
+     "text": "Cogent Biosciences won FDA clearance for its stomach cancer treatment, in combination with a much older drug from Pfizer called Sutent.",
+     "summary_th": "FDA อนุมัติยาของ Cogent Biosciences สำหรับมะเร็งกระเพาะอาหารชนิดหายาก ใช้ร่วมกับยาเก่า Sutent ของ Pfizer",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "fda approval",
+      "oncology"
+     ],
+     "entities": [
+      "Cogent Biosciences",
+      "Pfizer",
+      "FDA"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "5a30ecb96a15",
@@ -4348,7 +4909,16 @@
      "link": "https://medicalxpress.com/news/2026-11-body-dental-medical.html",
      "source": "Medical Xpress",
      "published": 1795658401,
-     "text": ""
+     "text": "",
+     "summary_th": "การผสานการดูแลทันตกรรมกับการแพทย์ทั่วไปช่วยให้ผู้ป่วยกลับมาติดตามการรักษาทางทันตกรรมได้ดีขึ้นมาก (ข่าวมีเพียงหัวข้อ)",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "dental",
+      "healthcare"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "ab01d2278587",
@@ -4356,7 +4926,18 @@
      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNay12dnkxMWxxZmZhWVNydHFvSVFKUDRDUlNUVWRSU3NUaWdaNVdRTW9lWldwcWdWc19ZN0xQRDZtbzBWV2JyTFhvRUFjQWltQ3dCczVpdmxQWVY5M1o3VHpmdmpXLXRfc3BqZ1h0V3hBNzYyZktWSHJua2Nsc2VGMdIBlAFBVV95cUxOa1BLdEd0Vm1EY0VxR1hGSnc4eGZZUFZpWXl1SDRZRUZFQnVELVQ5U3IzVFJwVkJobGhUQTZuTnZGODN1T3lKZy1DT0RfRUg4Z2ZYMHNQWlFsUl9BN0J4S1RGaU9pT1dDVmRWM092dmpRVE9xbVg4aFRoZ1ZiRkw5b21GY29FbEZwdEZSRHFleXI0X0Zp?oc=5",
      "source": "Chosunbiz",
      "published": 1795659960,
-     "text": "US House panel urges curbs on investment and drug licensing deals with China Chosunbiz"
+     "text": "US House panel urges curbs on investment and drug licensing deals with China Chosunbiz",
+     "summary_th": "คณะกรรมการสภาสหรัฐฯ เรียกร้องให้จำกัดการลงทุนและการอนุญาตใช้ยาที่ทำกับจีน",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "china",
+      "biotech"
+     ],
+     "entities": [
+      "China"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e4568be06e2f",
@@ -4364,7 +4945,19 @@
      "link": "https://medicalxpress.com/news/2026-11-electronic-health-algorithm-drug-resistant.html",
      "source": "Medical Xpress",
      "published": 1795657206,
-     "text": "An electronic health record (EHR) algorithm can identify people with drug-resistant epilepsy (DRE), according to a study published in the December issue of Epilepsy & Behavior."
+     "text": "An electronic health record (EHR) algorithm can identify people with drug-resistant epilepsy (DRE), according to a study published in the December issue of Epilepsy & Behavior.",
+     "summary_th": "อัลกอริทึมจาก electronic health record (EHR) ระบุผู้ป่วยโรคลมชักที่ดื้อยา (DRE) ได้ ตามการศึกษาในวารสาร Epilepsy & Behavior",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "epilepsy",
+      "ehr",
+      "research"
+     ],
+     "entities": [
+      "Epilepsy & Behavior"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "1622f74dea08",
@@ -4372,7 +4965,19 @@
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcE00NGY5bE03NEdTQkc2N2xPSEdTam02eWdVUGtQcG1sM2U5V0tRRkxTS3AyLXpodll4MzkxckNwM1dQYzJIYXBlM0FGWEcwWUJHdzY3eUtvVU5id2lmQXBlSTB4OEVSenlUWlh2dkJDYUMwaUhtY2pkYWIxUEZreE9kZmw1TVBPTk90VDhiem5LY3A0VGVEVmYzaDZSMi04OVFFOHhVbi1IdTRqY1M1MmpJSXZZRWpX?oc=5",
      "source": "marketscreener.com",
      "published": 1795659559,
-     "text": "Lupin Gets US FDA Approval for Single-Dose Dalbavancin Injection marketscreener.com"
+     "text": "Lupin Gets US FDA Approval for Single-Dose Dalbavancin Injection marketscreener.com",
+     "summary_th": "Lupin ได้รับอนุมัติ FDA สำหรับยาฉีด Dalbavancin แบบโดสเดียว",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "pharma",
+      "fda approval"
+     ],
+     "entities": [
+      "Lupin",
+      "FDA"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "3cbb0a657048",
@@ -4380,7 +4985,18 @@
      "link": "https://medicalxpress.com/news/2026-11-multidisciplinary-intervention-fatigue-lymphoma-survivors.html",
      "source": "Medical Xpress",
      "published": 1795656001,
-     "text": "For lymphoma survivors with persistent fatigue, a multidisciplinary intervention improves fatigue, and the effect is maintained to six months, according to a study published online Nov. 20 in the Journal of Clinical Oncology."
+     "text": "For lymphoma survivors with persistent fatigue, a multidisciplinary intervention improves fatigue, and the effect is maintained to six months, according to a study published online Nov. 20 in the Journal of Clinical Oncology.",
+     "summary_th": "การดูแลแบบสหวิชาชีพช่วยลดความเหนื่อยล้าในผู้รอดชีวิตจากมะเร็งต่อมน้ำเหลืองที่มีอาการเรื้อรัง และผลยังคงอยู่จนถึง six months ตามการศึกษาใน Journal of Clinical Oncology",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "lymphoma",
+      "oncology"
+     ],
+     "entities": [
+      "Journal of Clinical Oncology"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "bdf33963e726",
@@ -4388,7 +5004,19 @@
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWHRPbnJXWmYxWUZSNlBDTElZQlhhLWcxZUVHaVdkU3ZjSGpQVjBxdWNvWUZKV1FRRUh1MkVWLTNYRklyeTRqTjJRLXVnREZiZmlWWTQwMUs4UmUtczJpNV8ycFZ6TFVNOVhuQVNPbE9oRTJLazlxZlBvTTFRRWhRaUZIQ3AyOXVhUFI0MDBuZ3M4c052NFE?oc=5",
      "source": "Neuralink",
      "published": 1795659421,
-     "text": "Neuralink Receives FDA Approval to Launch LINK Pivotal Study Neuralink"
+     "text": "Neuralink Receives FDA Approval to Launch LINK Pivotal Study Neuralink",
+     "summary_th": "Neuralink ได้รับอนุมัติจาก FDA ให้เริ่มการศึกษาระยะสำคัญ LINK (pivotal study)",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "neuralink",
+      "brain computer interface"
+     ],
+     "entities": [
+      "Neuralink",
+      "FDA"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "13af4d4f2141",
@@ -4396,7 +5024,18 @@
      "link": "https://medicalxpress.com/news/2026-11-adults-covid-difficulty-years.html",
      "source": "Medical Xpress",
      "published": 1795654802,
-     "text": "Half of adults in a new long COVID study reported symptoms that suggested dysfunctional breathing more than four years after their initial infection. Those with persistent breathing problems tended to be younger and female, and they were less likely to be hospitalized during acute COVID infection."
+     "text": "Half of adults in a new long COVID study reported symptoms that suggested dysfunctional breathing more than four years after their initial infection. Those with persistent breathing problems tended to be younger and female, and they were less likely to be hospitalized during acute COVID infection.",
+     "summary_th": "ผู้ใหญ่ครึ่งหนึ่งในการศึกษา long COVID รายงานอาการที่ชี้ถึงการหายใจผิดปกติ มากกว่า 4 ปีหลังติดเชื้อ โดยผู้ที่มีปัญหาต่อเนื่องมักอายุน้อยและเป็นเพศหญิง",
+     "importance": 1,
+     "numbers": [
+      "4"
+     ],
+     "tags": [
+      "long covid",
+      "respiratory"
+     ],
+     "entities": [],
+     "model": "claude/routine"
     },
     {
      "id": "10ceac584926",
@@ -4404,7 +5043,20 @@
      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44TkthMVlkREVNVUI5d19kS0tkdEVSMVhpQWlaWFhsUnN6SWJuQXRrVXg0UGdySENTZXZsTld5SG9IOTdBd2xaRTFDRDNxZlZwY1Z1anhB?oc=5",
      "source": "mkbn.mk.co.kr",
      "published": 1795658903,
-     "text": "South Korean midsize exporters hit record on chip, biotech demand mkbn.mk.co.kr"
+     "text": "South Korean midsize exporters hit record on chip, biotech demand mkbn.mk.co.kr",
+     "summary_th": "ผู้ส่งออกขนาดกลางของเกาหลีใต้ทำสถิติสูงสุด จากความต้องการชิปและไบโอเทค",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "korea",
+      "exports",
+      "chips",
+      "biotech"
+     ],
+     "entities": [
+      "South Korea"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "cc816a6a6657",
@@ -4412,7 +5064,18 @@
      "link": "https://medicalxpress.com/news/2026-11-ecuadorian-potential-bacteria-food.html",
      "source": "Medical Xpress",
      "published": 1795654201,
-     "text": "A plant traditionally used by Indigenous communities in Ecuador could have a new application: helping control bacteria in ready-to-eat foods. A study published in the journal Foods found that extracts of Piper carpunya, locally known as guaviduca, reduced the presence of Clostridium perfringens in a refrigerated risotto food model."
+     "text": "A plant traditionally used by Indigenous communities in Ecuador could have a new application: helping control bacteria in ready-to-eat foods. A study published in the journal Foods found that extracts of Piper carpunya, locally known as guaviduca, reduced the presence of Clostridium perfringens in a refrigerated risotto food model.",
+     "summary_th": "สารสกัดจากพืช Piper carpunya ของเอกวาดอร์ลดการพบแบคทีเรีย Clostridium perfringens ในอาหารพร้อมรับประทาน ตามการศึกษาในวารสาร Foods",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "food safety",
+      "research"
+     ],
+     "entities": [
+      "Foods"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "4793173541e2",
@@ -4420,7 +5083,18 @@
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeWVVTWRqXzZhSF8tUUdheFVBRmNiVG1kZ1J0TzRDbXlkc3gzZzBUR0lLTkN0STRYT3ZyZGM4OEo0OUZPZ3piejRVZ182Z1FxeEpTRGttbUpMS05PQ1Nzcml5U3VjZjF2RkVWMWs0WEwxYmUxWC1CVUhROEpaTTJUQkpNN3NXZV9iY2IzZXB6clJzb2pfR0dqZlFhQlhfc0JyZnMwa1pLQUJ1cWEyM0xsazZZaWw4QQ?oc=5",
      "source": "AFR",
      "published": 1795658220,
-     "text": "Pemba joins private equity’s clinical trial hype train with new bet AFR"
+     "text": "Pemba joins private equity’s clinical trial hype train with new bet AFR",
+     "summary_th": "Pemba เข้าลงทุนในธุรกิจการทดลองทางคลินิกตามกระแสของ private equity",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "private equity",
+      "clinical trials"
+     ],
+     "entities": [
+      "Pemba"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "7a8d74ca459d",
@@ -4428,7 +5102,18 @@
      "link": "https://medicalxpress.com/news/2026-11-culturally-relevant-nutrition-interventions-engage.html",
      "source": "Medical Xpress",
      "published": 1795653001,
-     "text": "A recent study in the Journal of Nutrition Education and Behavior explored how researchers can better engage Black adults with hypertension in digital nutrition interventions designed to improve dietary habits and reduce cardiovascular risk."
+     "text": "A recent study in the Journal of Nutrition Education and Behavior explored how researchers can better engage Black adults with hypertension in digital nutrition interventions designed to improve dietary habits and reduce cardiovascular risk.",
+     "summary_th": "การศึกษาในวารสาร Journal of Nutrition Education and Behavior ศึกษาวิธีดึงดูดผู้ใหญ่ผิวดำที่มีความดันโลหิตสูงให้เข้าร่วมโปรแกรมโภชนาการดิจิทัล",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "nutrition",
+      "hypertension"
+     ],
+     "entities": [
+      "Journal of Nutrition Education and Behavior"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "61aaa4dadfeb",
@@ -4436,7 +5121,20 @@
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdThETWFwODRZUnd6aWpGUlpfT1I2dFMySFkxelpyRjdLRjZPMV9xN1JFR0xOQUZvOGVsbG14cHAtNGUxQlRaZXd3cU5IQzNBcVRPNFltdmYtYmNtRHVtLU5NVy03eDdCcjlOUXRaM0IxbjhXU1g4OU5Vdm1uNXhhcllBSjQ3WUw2emNSTi1QYWRNSkNTU2RQdzA0Z3p5UWdkSmc?oc=5",
      "source": "Bioengineer.org",
      "published": 1795657397,
-     "text": "Saudi Arabia Faces 16-Fold Clinical Trial Gap Despite Pharmaceutical Growth Bioengineer.org"
+     "text": "Saudi Arabia Faces 16-Fold Clinical Trial Gap Despite Pharmaceutical Growth Bioengineer.org",
+     "summary_th": "ซาอุดีอาระเบียมีช่องว่างการทดลองทางคลินิกมากกว่าถึง 16-Fold แม้อุตสาหกรรมยาจะเติบโต",
+     "importance": 1,
+     "numbers": [
+      "16-Fold"
+     ],
+     "tags": [
+      "clinical trials",
+      "saudi arabia"
+     ],
+     "entities": [
+      "Saudi Arabia"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "984185dde210",
@@ -4444,7 +5142,20 @@
      "link": "https://medicalxpress.com/news/2026-11-premature-screen-play-movement-interaction.html",
      "source": "Medical Xpress",
      "published": 1795651208,
-     "text": "Nearly half of Hungarian children are exposed to screens daily by the age of 18 months, yet what they need most for their development is play, physical activity, face-to-face interactions and active exploration of their surroundings. Early and intensive use of digital devices may pose risks not only because of the time spent in front of screens, but also because it may take time away from these essential experiences."
+     "text": "Nearly half of Hungarian children are exposed to screens daily by the age of 18 months, yet what they need most for their development is play, physical activity, face-to-face interactions and active exploration of their surroundings. Early and intensive use of digital devices may pose risks not only because of the time spent in front of screens, but also because it may take time away from these essential experiences.",
+     "summary_th": "การใช้หน้าจอเร็วเกินไปอาจทำให้เด็กเล็กเสียเวลาเล่น การเคลื่อนไหว และปฏิสัมพันธ์แบบเห็นหน้า การศึกษาในฮังการีพบเด็กเกือบครึ่งสัมผัสหน้าจอทุกวันเมื่ออายุ 18 เดือน",
+     "importance": 1,
+     "numbers": [
+      "18"
+     ],
+     "tags": [
+      "children",
+      "screen time"
+     ],
+     "entities": [
+      "Hungary"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "e23e7283d95b",
@@ -4452,7 +5163,19 @@
      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNGVHUFZSemJQVkhuMmgzS2ZSdGd1My1ybWQ1dkVuR05uc2dVOXZDUUdUYndXVGJia2tXTG9WelJPOG80MlgwV0FMSEpLeWRTWThiM09maEFTaU5naS03ODJhUkh0TGZfcm0wUm43aC1leXRxSEw1TldTcGYzaDFaaGIwYzliYjVKY0hRQw?oc=5",
      "source": "Medical Daily",
      "published": 1795656137,
-     "text": "FDA cites two drugmakers over missing trial results, including a Diclegis study in pregnant teenagers Medical Daily"
+     "text": "FDA cites two drugmakers over missing trial results, including a Diclegis study in pregnant teenagers Medical Daily",
+     "summary_th": "FDA ออกคำตักเตือนผู้ผลิตยาสองรายที่ไม่รายงานผลการทดลอง รวมถึงการศึกษา Diclegis ในวัยรุ่นหญิงตั้งครรภ์",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "fda",
+      "clinical trials"
+     ],
+     "entities": [
+      "FDA",
+      "Diclegis"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "2c0991e78529",
@@ -4460,7 +5183,18 @@
      "link": "https://medicalxpress.com/news/2026-11-youth-firearm-injury.html",
      "source": "Medical Xpress",
      "published": 1795650602,
-     "text": "Firearm injury is the leading cause of death for adolescents in the United States. Most firearm owners prioritize safety, research shows, but strategies aimed at firearm injury prevention among youth have largely focused on policy change instead of teaching them how to identify injury risk."
+     "text": "Firearm injury is the leading cause of death for adolescents in the United States. Most firearm owners prioritize safety, research shows, but strategies aimed at firearm injury prevention among youth have largely focused on policy change instead of teaching them how to identify injury risk.",
+     "summary_th": "การบาดเจ็บจากอาวุธปืนเป็นสาเหตุการตายอันดับหนึ่งของวัยรุ่นในสหรัฐฯ งานวิจัยเสนอให้สอนเยาวชนวิธีระบุความเสี่ยง แทนที่จะเน้นการเปลี่ยนแปลงนโยบายอย่างเดียว",
+     "importance": 1,
+     "numbers": [],
+     "tags": [
+      "firearms",
+      "youth"
+     ],
+     "entities": [
+      "United States"
+     ],
+     "model": "claude/routine"
     },
     {
      "id": "402ded79d15f",
@@ -4468,7 +5202,19 @@
      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUHBIbjV1alFTWm5zaFlxMW84NWpHWEwtMjRlLWdjX0cyVl8ya05sQzdkMVNHalVaQ2Q5NU4tOVhfSDlFSjAxYXlzbThZZGF2MkpHMUZHQ19FcWpfWE43UmZCbEJoRVJaZW5QemFaM3pPTVFxaVItQkpmOTNRZDg0Z9IBlAFBVV95cUxQQmJtZktXNGpUUU9iT0RMVUxmbmxIaExNci1VLXRLdEhxNTZEcVNPT2VBeEllSE5SdmEyNHN6ckhWYVlwb0tfN1JtNFBwc3VkVmFxQUhQSDdBWFlZOXdPQzJBeUpVSlBDWVNsX1djZjhjd2ZiNDNKYUp4LUNCYjRFRDVOeDlTMExfcjRNZ2lFdm1JS3dS?oc=5",
      "source": "Chosunbiz",
      "published": 1795655580,
-     "text": "Korea's biotech output and exports surge as investment falls Chosunbiz"
+     "text": "Korea's biotech output and exports surge as investment falls Chosunbiz",
+     "summary_th": "ผลผลิตและการส่งออกไบโอเทคของเกาหลีใต้พุ่งสูง ขณะที่การลงทุนลดลง",
+     "importance": 2,
+     "numbers": [],
+     "tags": [
+      "korea",
+      "biotech",
+      "exports"
+     ],
+     "entities": [
+      "Korea"
+     ],
+     "model": "claude/routine"
     }
    ]
   }
